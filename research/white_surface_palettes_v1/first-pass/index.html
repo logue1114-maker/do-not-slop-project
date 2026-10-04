@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Six original white-surface color combinations across working, order-review, and reading interfaces.">
+<title>White surfaces · Color combinations</title>
+<style>
+:root { color-scheme: light; font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:#242B35; background:#FFFFFF; --text:#242B35; --muted:#616A76; --border:#D9DEE5; --controlBorder:#7B8493; --primary:#252B36; --primaryText:#FFFFFF; --hover:#101722; --secondary:#FFFFFF; --secondaryText:#252B36; --secondaryHover:#F6F7F8; --focus:#425773; --error:#A12636; --success:#24633E; --accentSurface:#F3F5F8; --canvas:#FFFFFF; --surface:#FFFFFF; }
+*,*::before,*::after { box-sizing:border-box; }
+body { margin:0; font-size:16px; line-height:1.5; }
+button,input,select { font:inherit; }
+button { cursor:pointer; }
+button:disabled { cursor:default; }
+:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }
+[hidden] { display:none!important; }
+main { width:min(1100px,calc(100% - 64px)); margin:32px auto 48px; }
+h1 { margin:0; font-size:28px; line-height:1.25; font-weight:650; letter-spacing:-.6px; }
+h2,h3,p { margin:0; }
+h2 { font-size:24px; line-height:1.3; font-weight:650; letter-spacing:-.4px; }
+h3 { font-size:18px; line-height:1.4; font-weight:650; }
+.intro { display:flex; align-items:baseline; justify-content:space-between; gap:24px; }
+.note,.label { color:#616A76; font-size:14px; line-height:1.5; }
+.intro .note { max-width:350px; }
+.purposes { display:flex; gap:4px; margin-top:24px; border-bottom:1px solid #D9DEE5; }
+.purpose { position:relative; flex:0 1 auto; min-height:48px; border:0; padding:12px 18px; color:#616A76; background:#FFFFFF; font-weight:600; }
+.purpose[aria-pressed="true"] { color:#242B35; }
+.purpose[aria-pressed="true"]::after { content:""; position:absolute; left:18px; right:18px; bottom:-1px; height:3px; background:#242B35; }
+.purpose:hover { color:#242B35; background:#F6F7F8; }
+.palette-bar { display:flex; flex-wrap:wrap; align-items:center; gap:16px; padding:20px 0; }
+.palette-bar .label { min-width:105px; }
+.palette-choices { display:flex; flex-wrap:wrap; gap:8px; }
+.palette-choice { display:flex; align-items:center; gap:10px; padding:10px 14px; min-height:44px; border:1px solid #7B8493; border-radius:6px; color:#242B35; background:#FFFFFF; font-size:14px; font-weight:600; }
+.palette-choice[aria-pressed="true"] { border-color:var(--primary); background:var(--accentSurface); color:var(--secondaryText); }
+.palette-line { display:block; width:6px; height:20px; background:var(--scheme-color); border-radius:2px; }
+.palette-choice .selected-mark { width:14px; }
+.workspace { display:grid; grid-template-columns:minmax(0,1fr) 260px; gap:28px; align-items:start; }
+#specimen { min-width:0; border:1px solid var(--border); border-radius:8px; color:var(--text); background:var(--surface); }
+.demo-top { display:flex; justify-content:space-between; align-items:center; gap:12px; border-bottom:1px solid var(--border); padding:14px 24px; font-size:14px; color:var(--muted); }
+.demo-top strong { font-weight:600; color:var(--text); }
+.demo-body { padding:24px; }
+.section-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; }
+.meta { font-size:14px; color:var(--muted); }
+.section-heading .meta { margin-top:4px; }
+.actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+.button { border:1px solid var(--controlBorder); min-height:44px; padding:10px 16px; border-radius:6px; font-size:14px; font-weight:600; line-height:22px; background:var(--secondary); color:var(--secondaryText); }
+.button:hover:not(:disabled) { background:var(--secondaryHover); }
+.button.primary { color:var(--primaryText); background:var(--primary); border-color:var(--primary); }
+.button.primary:hover:not(:disabled) { background:var(--hover); border-color:var(--hover); }
+.button.primary:disabled { opacity:1; }
+.button.text { border-color:transparent; padding-left:0; padding-right:0; color:var(--secondaryText); background:transparent; text-decoration:underline; text-underline-offset:3px; }
+.button[aria-pressed="true"] { color:var(--primary); background:var(--accentSurface); border-color:var(--primary); }
+.task-summary { display:flex; gap:20px; align-items:center; margin:24px 0 0; padding-bottom:12px; border-bottom:1px solid var(--border); }
+.task-summary .meta { margin-right:auto; }
+.tasks { margin:0; padding:0; list-style:none; }
+.task { display:flex; align-items:center; gap:14px; padding:16px 0; border-bottom:1px solid var(--border); }
+.check { display:grid; place-items:center; width:24px; height:24px; flex:none; padding:0; border:1px solid var(--controlBorder); border-radius:4px; background:var(--surface); color:var(--primaryText); font-weight:700; font-size:16px; }
+.check[aria-checked="true"] { background:var(--primary); border-color:var(--primary); }
+.task-title { display:block; font-weight:550; }
+.task.done .task-title { color:var(--muted); }
+.task-detail { display:block; margin-top:2px; font-size:14px; color:var(--muted); }
+.completion { margin-left:auto; color:var(--muted); font-size:14px; }
+.editor { border-top:1px solid var(--border); margin-top:20px; padding-top:20px; }
+.editor h3 { margin-bottom:12px; }
+.field-label { display:block; margin-bottom:6px; font-size:14px; font-weight:600; }
+input,select { width:100%; min-height:44px; border:1px solid var(--controlBorder); border-radius:5px; padding:9px 12px; color:var(--text); background:var(--surface); }
+input[aria-invalid="true"],select[aria-invalid="true"] { border-color:var(--error); }
+.editor .actions { margin-top:12px; }
+.error { color:var(--error); margin-top:6px; font-size:14px; }
+.status { margin-top:16px; font-size:14px; color:var(--muted); }
+.status:empty { margin:0; }
+.status.success { color:var(--success); }
+.order-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(210px,.8fr); gap:28px; margin-top:24px; align-items:start; }
+.order-lines { padding:0; margin:0; list-style:none; }
+.order-line { display:flex; justify-content:space-between; gap:16px; padding:12px 0; border-bottom:1px solid var(--border); }
+.order-line:first-child { padding-top:0; }
+.order-line .meta { display:block; margin-top:2px; }
+.price { white-space:nowrap; font-variant-numeric:tabular-nums; }
+.delivery-summary { margin-top:24px; }
+.delivery-summary h3 { font-size:16px; }
+.delivery-summary .meta { margin-top:4px; }
+.receipt { margin:0; padding-left:24px; border-left:1px solid var(--border); }
+.receipt-row { display:flex; justify-content:space-between; gap:16px; margin:0 0 10px; font-size:14px; }
+.receipt-row dt,.receipt-row dd { margin:0; }
+.receipt-row.total { border-top:1px solid var(--border); padding-top:14px; margin-top:14px; font-weight:650; font-size:18px; }
+.receipt .primary { width:100%; margin-top:8px; }
+.receipt-note { margin-top:10px; font-size:14px; color:var(--muted); }
+.learn-heading { margin-bottom:20px; }
+.progress-label { display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:14px; color:var(--muted); margin:14px 0 6px; }
+.progress-track { height:6px; border-radius:2px; background:var(--border); overflow:hidden; }
+.progress-fill { height:100%; background:var(--primary); }
+.reading-layout { display:grid; grid-template-columns:180px minmax(0,1fr); gap:26px; }
+.lesson-list { padding:0; margin:0; list-style:none; }
+.lesson-item { padding:10px 12px; margin-bottom:6px; border-left:3px solid transparent; font-size:14px; }
+.lesson-item.current { background:var(--accentSurface); border-left-color:var(--primary); }
+.lesson-item .lesson-state { display:block; margin-top:2px; font-size:14px; color:var(--muted); }
+.article { min-width:0; }
+.article h3 { font-size:22px; letter-spacing:-.3px; margin:6px 0 14px; }
+.article p { margin-top:14px; line-height:1.65; }
+.article .actions { margin-top:24px; }
+.inspector { border-top:1px solid #D9DEE5; padding-top:16px; min-width:0; }
+.inspector h2 { font-size:18px; letter-spacing:0; }
+#paletteDescription { color:#616A76; font-size:14px; margin-top:4px; }
+.role-list { margin:16px 0 0; }
+.role-row { display:flex; justify-content:space-between; align-items:center; gap:14px; margin:0; padding:7px 0; font-size:14px; border-bottom:1px solid #E7EAEE; }
+.role-row dt,.role-row dd { margin:0; }
+.role-row dd { display:flex; gap:8px; align-items:center; color:#616A76; font-variant-numeric:tabular-nums; }
+.swatch { width:15px; height:15px; border:1px solid #7B8493; border-radius:3px; background:var(--swatch); }
+summary { cursor:pointer; min-height:44px; display:list-item; padding:10px 0; font-size:14px; font-weight:600; }
+.inspector details { margin-top:8px; }
+#fullRoles { margin-top:0; }
+.rules { margin:12px 0 0; padding-left:20px; font-size:14px; line-height:1.6; }
+.rules li { margin-bottom:10px; }
+.specimen-footer { display:flex; justify-content:space-between; gap:16px; align-items:center; margin-top:14px; }
+.reset { color:#616A76; background:#FFFFFF; border:0; min-height:44px; padding:10px 0; font-size:14px; text-decoration:underline; text-underline-offset:3px; }
+.support { margin-top:28px; border-top:1px solid #D9DEE5; padding-top:16px; }
+.support p,.support li { color:#616A76; font-size:14px; }
+.support ul { padding-left:20px; margin:8px 0 0; }
+.support li { margin:6px 0; }
+@media (max-width:900px) { main { width:calc(100% - 40px); } .workspace { grid-template-columns:minmax(0,1fr); gap:24px; } .inspector { display:grid; grid-template-columns:1fr 1fr; column-gap:24px; } .inspector header { grid-column:1/-1; } .inspector .featured-roles { grid-column:1; } .inspector .extra-roles { grid-column:1; } .inspector .implementation { grid-column:2; grid-row:2/4; } }
+@media (max-width:600px) { main { width:calc(100% - 32px); margin-top:24px; } .intro { display:block; } .intro .note { margin-top:8px; max-width:none; } h1 { font-size:26px; } .purposes { margin-top:16px; gap:0; } .purpose { padding:12px 10px; font-size:14px; flex:1; } .purpose[aria-pressed="true"]::after { left:10px; right:10px; } .palette-bar { gap:8px; padding:16px 0; } .palette-bar .label { width:100%; } .palette-choice { padding:9px 12px; } .palette-choices { gap:8px; } .demo-top { padding:12px 16px; } .demo-body { padding:20px 16px; } .section-heading { display:block; } .section-heading>.actions { margin-top:16px; } .completion { display:none; } .task-summary { margin-top:20px; gap:12px; } .task { align-items:flex-start; } .check { margin-top:3px; } .order-layout { grid-template-columns:minmax(0,1fr); gap:24px; } .receipt { border-left:0; border-top:1px solid var(--border); padding:20px 0 0; } .reading-layout { grid-template-columns:minmax(0,1fr); gap:20px; } .lesson-list { display:flex; flex-wrap:wrap; gap:6px; } .lesson-item { flex:1 1 90px; padding:8px; margin:0; border-left-width:2px; } .article h3 { font-size:21px; } .inspector { display:block; } .specimen-footer { align-items:flex-start; } .specimen-footer .note { max-width:240px; } }
+@media (prefers-reduced-motion:reduce) { * { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+<main>
+<header class="intro"><h1>White surfaces, six combinations</h1><p class="note">Original proposals · Switch colors without changing the example</p></header>
+<nav class="purposes" aria-label="Example purpose">
+<button class="purpose" data-purpose="work" aria-pressed="true">Work</button>
+<button class="purpose" data-purpose="shop" aria-pressed="false">Order review</button>
+<button class="purpose" data-purpose="learn" aria-pressed="false">Learning</button>
+</nav>
+<div class="palette-bar"><span class="label" id="paletteLabel">Color combination</span><div class="palette-choices" id="paletteChoices" role="group" aria-labelledby="paletteLabel"></div></div>
+<div class="workspace">
+<section id="specimen" aria-label="Interactive synthetic example"></section>
+<aside class="inspector" aria-label="Current color roles">
+<header><h2 id="paletteName"></h2><p id="paletteDescription"></p></header>
+<dl class="role-list featured-roles" id="featuredRoles"></dl>
+<details class="extra-roles"><summary>All color roles</summary><dl class="role-list" id="fullRoles"></dl></details>
+<details class="implementation"><summary>AI implementation rules</summary><ol class="rules" id="implementationRules"></ol></details>
+</aside>
+</div>
+<div class="specimen-footer"><p class="note">Synthetic demo · Changes stay in this page and reset on reload</p><button class="reset" id="resetSample">Reset this example</button></div>
+<details class="support"><summary>Review checklist &amp; sources</summary>
+<ul><li>Compare both colors using the same open editor, input, completion state, delivery choice, or lesson position</li><li>Keep every canvas and main surface white. Accent surfaces belong only to small current-state indicators</li><li>Use one filled primary action, an outlined secondary action, and a quiet text utility. Never let status color replace a written label</li><li>Verify hover, invalid input, success text, and keyboard focus. Body text is 16px; controls and labels are at least 14px</li><li>Check 390px and 1165px widths, no horizontal overflow, keyboard reachability, and content-driven heights</li><li>Numeric contrast checks are recorded separately. They are not a full WCAG certification or rendered browser test</li></ul>
+<p style="margin-top:12px">All layouts, fixture content, and proposed palettes are original synthetic examples. No screenshots, brand assets, or proprietary site code are used. Official design-system research is a separate parent deliverable, to be added after verification.</p>
+</details>
+<noscript><p class="note">JavaScript is needed for this explorer. The JSON files include the six role sets and fixed sample content.</p></noscript>
+</main>
+<script type="application/json" id="fixturesData">{"work": {"title": "Studio launch", "context": "Shared workspace", "tasks": [{"id": "w1", "title": "Review the landing page copy", "detail": "Today · Content", "done": false}, {"id": "w2", "title": "Check the mobile navigation", "detail": "Today · Design", "done": false}, {"id": "w3", "title": "Send the handoff checklist", "detail": "Yesterday · Operations", "done": true}], "showCompleted": true}, "shop": {"title": "Order review", "currency": "USD", "fictional": true, "items": [{"name": "Everyday tote", "quantity": 1, "priceCents": 2800}, {"name": "Notebook set", "quantity": 1, "priceCents": 1200}], "delivery": {"standard": {"label": "Standard delivery", "detail": "3–5 business days", "priceCents": 400}, "pickup": {"label": "Local pickup", "detail": "Fictional pickup point", "priceCents": 0}}, "taxRate": 0.08, "initialDelivery": "standard"}, "learn": {"course": "Design fundamentals", "lessons": [{"id": "l1", "title": "Start with the task", "kicker": "Lesson 1 · 3 min read", "paragraphs": ["Begin with the thing someone came to do. Put the next useful action near the information it depends on, so the page does not make people search for a way forward.", "A task list needs clear titles and useful status. An order review needs quantities and a total. A lesson needs readable content and a next step. Let those needs decide the layout."]}, {"id": "l2", "title": "Choose one primary action", "kicker": "Lesson 2 · 2 min read", "paragraphs": ["Give the next step one consistent visual treatment. A filled button can mark that action while a quieter outlined control handles a secondary choice.", "Keep the labels specific. Create task, save delivery, and continue lesson explain what will happen. Two equally strong actions can make the choice harder to read."]}, {"id": "l3", "title": "Use color with a purpose", "kicker": "Lesson 3 · 2 min read", "paragraphs": ["A white page can still have a distinctive palette. Choose a deep action color, readable neutral text, and quiet separators. Apply the same roles consistently rather than introducing a new color for each section.", "Keep state legible in words and shape as well as color. A checkmark and a Completed label say more than a green dot by itself. Make keyboard focus visible on every control."]}]}}</script>
+<script type="application/json" id="palettesData">[{"id": "work-ink", "purpose": "work", "name": "Ink signal", "pair": "Charcoal + cool slate", "roles": {"canvas": "#FFFFFF", "surface": "#FFFFFF", "primaryText": "#FFFFFF", "secondary": "#FFFFFF", "secondaryHover": "#F6F7F8", "error": "#A12636", "success": "#24633E", "text": "#242B35", "muted": "#616A76", "border": "#D9DEE5", "controlBorder": "#7B8493", "primary": "#252B36", "hover": "#101722", "secondaryText": "#252B36", "focus": "#425773", "accentSurface": "#F3F5F8"}, "rules": ["Use charcoal only for Create task and the inline Create task submit action; task titles stay in the neutral text role.", "Keep completed rows white. Use a checkmark, the Completed label, and muted text instead of a colored row wash.", "Use cool slate focus and neutral outlined secondary controls. Do not turn project labels, due dates, or every icon into charcoal buttons."]}, {"id": "work-cobalt", "purpose": "work", "name": "Cobalt edge", "pair": "Deep cobalt + blue-gray", "roles": {"canvas": "#FFFFFF", "surface": "#FFFFFF", "primaryText": "#FFFFFF", "secondary": "#FFFFFF", "secondaryHover": "#F6F7F8", "error": "#A12636", "success": "#24633E", "text": "#202633", "muted": "#5E6878", "border": "#D9DFE8", "controlBorder": "#7A8599", "primary": "#243EA4", "hover": "#1D2F7A", "secondaryText": "#2E3C64", "focus": "#3655BC", "accentSurface": "#F2F4FA"}, "rules": ["Reserve deep cobalt for Create task, checked task controls, and the selected palette indicator. Keep the task list on white.", "Use blue-gray secondary text and an outlined Hide completed control; do not give the secondary action the filled cobalt treatment.", "Use the light accent surface only for a small active or focus-associated element. Dates and separators remain neutral, with no blue sidebar or hero block."]}, {"id": "shop-forest", "purpose": "shop", "name": "Forest receipt", "pair": "Deep forest + gray-green", "roles": {"canvas": "#FFFFFF", "surface": "#FFFFFF", "primaryText": "#FFFFFF", "secondary": "#FFFFFF", "secondaryHover": "#F6F7F8", "error": "#A12636", "success": "#24633E", "text": "#252B27", "muted": "#616B63", "border": "#DBE1DC", "controlBorder": "#7F8980", "primary": "#244F3D", "hover": "#18372A", "secondaryText": "#315441", "focus": "#376D55", "accentSurface": "#F3F7F4"}, "rules": ["Put deep forest on Confirm demo order and Save delivery. Keep item names, price rows, and the total on white surfaces.", "Use gray-green neutral text for delivery detail and quiet separators. Do not spread a green background across the checkout page.", "Use an outlined Edit delivery action. The confirmation message must say Demo order confirmed locally and No payment made, with a checkmark as well as success color."]}, {"id": "shop-terracotta", "purpose": "shop", "name": "Terracotta order", "pair": "Burnt clay + warm gray", "roles": {"canvas": "#FFFFFF", "surface": "#FFFFFF", "primaryText": "#FFFFFF", "secondary": "#FFFFFF", "secondaryHover": "#F6F7F8", "error": "#A12636", "success": "#24633E", "text": "#302721", "muted": "#73635B", "border": "#E4DBD5", "controlBorder": "#948176", "primary": "#93472E", "hover": "#763822", "secondaryText": "#6C3B29", "focus": "#A4573B", "accentSurface": "#FBF5F1"}, "rules": ["Use dark terracotta for the confirmation and delivery-save actions. Avoid bright orange promotions or large colored order-summary blocks.", "Pair it with warm gray detail text and fine neutral separators; all merchandise and monetary rows remain white.", "Keep the order total in the main text role, not terracotta. Show delivery validation errors in the separate error role with a specific written instruction."]}, {"id": "learn-plum", "purpose": "learn", "name": "Plum margin", "pair": "Deep plum + violet-gray", "roles": {"canvas": "#FFFFFF", "surface": "#FFFFFF", "primaryText": "#FFFFFF", "secondary": "#FFFFFF", "secondaryHover": "#F6F7F8", "error": "#A12636", "success": "#24633E", "text": "#2D2531", "muted": "#6D6172", "border": "#E0D9E4", "controlBorder": "#8C7D93", "primary": "#653D72", "hover": "#4F2C5D", "secondaryText": "#573463", "focus": "#815592", "accentSurface": "#F8F4FA"}, "rules": ["Use deep plum for Continue lesson and the progress fill, while the article stays white with neutral body text.", "Give only the current lesson a modest violet-gray accent surface and a Current label. Completed lessons need a checkmark and Completed label.", "Keep Bookmark outlined and visibly pressed when saved. Do not color whole paragraphs, add a purple reading panel, or use plum as error color."]}, {"id": "learn-petrol", "purpose": "learn", "name": "Petrol chapter", "pair": "Petrol blue + slate", "roles": {"canvas": "#FFFFFF", "surface": "#FFFFFF", "primaryText": "#FFFFFF", "secondary": "#FFFFFF", "secondaryHover": "#F6F7F8", "error": "#A12636", "success": "#24633E", "text": "#243039", "muted": "#5E6E78", "border": "#D8E1E5", "controlBorder": "#7A8B95", "primary": "#24556A", "hover": "#173E50", "secondaryText": "#244D60", "focus": "#366D84", "accentSurface": "#F1F6F8"}, "rules": ["Use petrol blue for the next-lesson action and progress fill. Keep the reading surface and course navigation white.", "Use slate for lesson metadata. A small pale-petrol current-lesson highlight may support the written Current label, but must not become a teal page wash.", "Use the outlined Bookmark control with Saved text and aria-pressed state. Preserve neutral article text and separate error and success roles."]}]</script>
+<script>
+(() => {
+'use strict';
+const fixtures=JSON.parse(document.getElementById('fixturesData').textContent);
+const palettes=JSON.parse(document.getElementById('palettesData').textContent);
+const clone=value=>JSON.parse(JSON.stringify(value));
+const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const freeze=value=>{ if(value&&typeof value==='object') { Object.values(value).forEach(freeze); Object.freeze(value); } return value; };
+freeze(fixtures); freeze(palettes);
+const makeState=purpose=>purpose==='work'?{tasks:clone(fixtures.work.tasks),showCompleted:true,editor:false,draft:'',error:'',status:'',tone:'',nextId:4}:purpose==='shop'?{delivery:fixtures.shop.initialDelivery,draftDelivery:fixtures.shop.initialDelivery,editor:false,error:'',confirmed:false,status:'',tone:''}:{current:0,completed:0,bookmarks:[],finished:false,status:'',tone:''};
+const states={work:makeState('work'),shop:makeState('shop'),learn:makeState('learn')};
+const selected={work:'work-ink',shop:'shop-forest',learn:'learn-plum'};
+let purpose='work';
+const specimen=document.getElementById('specimen');
+const currentPalette=()=>palettes.find(p=>p.id===selected[purpose]);
+const money=cents=>'$'+(cents/100).toFixed(2);
+const totals=()=>{const subtotal=fixtures.shop.items.reduce((sum,item)=>sum+item.priceCents*item.quantity,0);const shipping=fixtures.shop.delivery[states.shop.delivery].priceCents;const tax=Math.round((subtotal+shipping)*fixtures.shop.taxRate);return {subtotal,shipping,tax,total:subtotal+shipping+tax};};
+const statusMarkup=state=>`<p class="status ${state.tone==='success'?'success':''}" id="actionStatus" role="status" aria-live="polite" aria-atomic="true">${escape(state.status)}</p>`;
+const workMarkup=()=>{const s=states.work,done=s.tasks.filter(task=>task.done).length;return `<div class="demo-top"><strong>Project workspace</strong><span>Tasks</span></div><div class="demo-body"><header class="section-heading"><div><h2>${escape(fixtures.work.title)}</h2><p class="meta">${escape(fixtures.work.context)}</p></div><div class="actions"><button class="button primary" data-action="open-task">Create task</button></div></header><div class="task-summary"><p class="meta">${done} of ${s.tasks.length} completed</p><button class="button" data-action="toggle-completed" aria-pressed="${!s.showCompleted}">${s.showCompleted?'Hide':'Show'} completed</button></div><ul class="tasks" aria-label="Project tasks">${s.tasks.filter(task=>s.showCompleted||!task.done).map(task=>`<li class="task ${task.done?'done':''}"><button class="check" role="checkbox" aria-checked="${task.done}" aria-label="${escape(task.title)}" data-action="toggle-task" data-id="${task.id}">${task.done?'✓':''}</button><div><span class="task-title">${escape(task.title)}</span><span class="task-detail">${escape(task.detail)}${task.done?' · Completed':''}</span></div>${task.done?'<span class="completion" aria-hidden="true">Completed</span>':''}</li>`).join('')}</ul>${s.editor?`<form class="editor" id="taskForm"><h3>New task</h3><label class="field-label" for="taskTitle">Task title</label><input id="taskTitle" name="title" maxlength="100" autocomplete="off" value="${escape(s.draft)}" ${s.error?'aria-invalid="true" aria-describedby="taskError"':''}><p class="error" id="taskError" role="alert">${escape(s.error)}</p><div class="actions"><button class="button primary" type="submit">Create task</button><button class="button" type="button" data-action="cancel-task">Cancel</button></div></form>`:''}${statusMarkup(s)}</div>`;};
+const shopMarkup=()=>{const s=states.shop,t=totals(),delivery=fixtures.shop.delivery[s.delivery];return `<div class="demo-top"><strong>Order summary</strong><span>Fictional order · USD</span></div><div class="demo-body"><header class="section-heading"><div><h2>${escape(fixtures.shop.title)}</h2><p class="meta">Sample items and prices. No real purchase.</p></div></header><div class="order-layout"><div><ul class="order-lines" aria-label="Fictional order items">${fixtures.shop.items.map(item=>`<li class="order-line"><div><strong>${escape(item.name)}</strong><span class="meta">Quantity ${item.quantity}</span></div><span class="price">${money(item.priceCents*item.quantity)}</span></li>`).join('')}</ul><section class="delivery-summary" aria-label="Delivery"><h3>${escape(delivery.label)}</h3><p class="meta">${escape(delivery.detail)}</p><button class="button text" data-action="edit-delivery">Edit delivery</button>${s.editor?`<form class="editor" id="deliveryForm"><label class="field-label" for="deliveryMethod">Delivery method</label><select id="deliveryMethod" ${s.error?'aria-invalid="true" aria-describedby="deliveryError"':''}><option value="" ${s.draftDelivery===''?'selected':''}>Choose delivery</option><option value="standard" ${s.draftDelivery==='standard'?'selected':''}>Standard delivery · $4.00</option><option value="pickup" ${s.draftDelivery==='pickup'?'selected':''}>Local pickup · Free</option></select><p class="error" id="deliveryError" role="alert">${escape(s.error)}</p><div class="actions"><button class="button primary" type="submit">Save delivery</button><button class="button" type="button" data-action="cancel-delivery">Cancel</button></div></form>`:''}</section></div><div class="receipt"><dl><div class="receipt-row"><dt>Subtotal</dt><dd class="price">${money(t.subtotal)}</dd></div><div class="receipt-row"><dt>Delivery</dt><dd class="price">${money(t.shipping)}</dd></div><div class="receipt-row"><dt>Sample tax · 8%</dt><dd class="price">${money(t.tax)}</dd></div><div class="receipt-row total"><dt>Total</dt><dd class="price">${money(t.total)}</dd></div></dl><button class="button primary" data-action="confirm-order" ${s.confirmed?'disabled':''}>${s.confirmed?'✓ Confirmed locally':'Confirm demo order'}</button><p class="receipt-note">Demo only. No payment or order is sent.</p></div></div>${statusMarkup(s)}</div>`;};
+const learnMarkup=()=>{const s=states.learn,lessons=fixtures.learn.lessons,lesson=lessons[s.current],bookmarked=s.bookmarks.includes(lesson.id);return `<div class="demo-top"><strong>Reading room</strong><span>Short course</span></div><div class="demo-body"><header class="learn-heading"><h2>${escape(fixtures.learn.course)}</h2><div class="progress-label"><span>${s.completed} of ${lessons.length} lessons completed</span><span>${Math.round(s.completed/lessons.length*100)}%</span></div><div class="progress-track" role="progressbar" aria-label="Course completion" aria-valuemin="0" aria-valuemax="${lessons.length}" aria-valuenow="${s.completed}"><div class="progress-fill" style="width:${s.completed/lessons.length*100}%"></div></div></header><div class="reading-layout"><ol class="lesson-list" aria-label="Course lessons">${lessons.map((item,index)=>`<li class="lesson-item ${index===s.current?'current':''}" ${index===s.current?'aria-current="step"':''}>${index+1}. ${escape(item.title)}<span class="lesson-state">${index<s.completed?'✓ Completed':index===s.current?'Current':'Upcoming'}</span></li>`).join('')}</ol><article class="article"><p class="meta">${escape(lesson.kicker)}</p><h3>${escape(lesson.title)}</h3>${lesson.paragraphs.map(text=>`<p>${escape(text)}</p>`).join('')}<div class="actions"><button class="button primary" data-action="continue">${s.finished?'Review from start':s.current===lessons.length-1?'Finish lesson':'Continue lesson'}</button><button class="button" data-action="bookmark" aria-pressed="${bookmarked}">${bookmarked?'✓ Saved':'Bookmark'}</button></div></article></div>${statusMarkup(s)}</div>`;};
+const focusAction=(action,id)=>{ const elements=specimen.querySelectorAll('[data-action]'); for(const el of elements) if(el.dataset.action===action&&(!id||el.dataset.id===id)) { el.focus(); return; } };
+const renderSample=(focus)=>{specimen.innerHTML=purpose==='work'?workMarkup():purpose==='shop'?shopMarkup():learnMarkup();if(focus?.id) document.getElementById(focus.id)?.focus();else if(focus?.action) focusAction(focus.action,focus.record);};
+const roleNames={canvas:'Canvas',surface:'Surface',text:'Text',muted:'Muted text',border:'Separator',controlBorder:'Control boundary',primary:'Primary',primaryText:'Primary label',hover:'Primary hover',secondary:'Secondary surface',secondaryText:'Secondary label',secondaryHover:'Secondary hover',focus:'Focus ring',accentSurface:'Current-state surface',error:'Error text',success:'Success text'};
+const roleRow=(role,color)=>`<div class="role-row"><dt>${roleNames[role]}</dt><dd><span class="swatch" aria-hidden="true" style="--swatch:${color}"></span>${color}</dd></div>`;
+const renderPalette=()=>{const p=currentPalette();for(const [role,color] of Object.entries(p.roles)) specimen.style.setProperty('--'+role,color);document.documentElement.style.setProperty('--primary',p.roles.primary);document.documentElement.style.setProperty('--secondaryText',p.roles.secondaryText);document.documentElement.style.setProperty('--accentSurface',p.roles.accentSurface);const choices=document.getElementById('paletteChoices');choices.innerHTML=palettes.filter(p=>p.purpose===purpose).map(p=>`<button class="palette-choice" style="--scheme-color:${p.roles.primary}" data-palette="${p.id}" aria-pressed="${p.id===selected[purpose]}"><span class="palette-line" aria-hidden="true"></span>${escape(p.name)}<span class="selected-mark" aria-hidden="true">${p.id===selected[purpose]?'✓':''}</span></button>`).join('');document.getElementById('paletteName').textContent=p.name;document.getElementById('paletteDescription').textContent=p.pair;document.getElementById('featuredRoles').innerHTML=['primary','hover','secondaryText','text','muted','focus'].map(role=>roleRow(role,p.roles[role])).join('');document.getElementById('fullRoles').innerHTML=Object.entries(p.roles).map(([role,color])=>roleRow(role,color)).join('');document.getElementById('implementationRules').innerHTML=p.rules.map(rule=>'<li>'+escape(rule)+'</li>').join('');};
+const setPurpose=value=>{if(!Object.hasOwn(states,value)) return;purpose=value;document.querySelectorAll('[data-purpose]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.purpose===purpose)));renderPalette();renderSample();};
+const setPalette=id=>{const palette=palettes.find(p=>p.id===id&&p.purpose===purpose);if(!palette) return;selected[purpose]=id;renderPalette();document.querySelector(`[data-palette="${id}"]`)?.focus();};
+const announce=(state,text,tone='')=>{state.status=text;state.tone=tone;};
+const act=(action,id)=>{
+ const s=states[purpose];
+ if(purpose==='work') {
+  if(action==='open-task') {s.editor=true;s.error='';announce(s,'');renderSample({id:'taskTitle'});return;}
+  if(action==='cancel-task') {s.editor=false;s.draft='';s.error='';announce(s,'Task creation canceled');renderSample({action:'open-task'});return;}
+  if(action==='toggle-completed') {s.showCompleted=!s.showCompleted;announce(s,s.showCompleted?'Completed tasks shown':'Completed tasks hidden');renderSample({action});return;}
+  if(action==='toggle-task') {const task=s.tasks.find(task=>task.id===id);if(!task)return;task.done=!task.done;announce(s,(task.done?'✓ Completed: ':'Reopened: ')+task.title,task.done?'success':'');renderSample({action:s.showCompleted||!task.done?action:'toggle-completed',record:id});return;}
+  if(action==='create-task') {const title=s.draft.trim();if(!title) {s.error='Enter a task title';renderSample({id:'taskTitle'});return;}s.tasks.push({id:'w'+s.nextId++,title,detail:'Just added · Local demo',done:false});s.editor=false;s.draft='';s.error='';announce(s,'✓ Task created locally: '+title,'success');renderSample({action:'open-task'});return;}
+ }
+ if(purpose==='shop') {
+  if(action==='edit-delivery') {s.editor=true;s.draftDelivery=s.delivery;s.error='';announce(s,'');renderSample({id:'deliveryMethod'});return;}
+  if(action==='cancel-delivery') {s.editor=false;s.error='';s.draftDelivery=s.delivery;announce(s,'Delivery edit canceled');renderSample({action:'edit-delivery'});return;}
+  if(action==='save-delivery') {if(!Object.hasOwn(fixtures.shop.delivery,s.draftDelivery)) {s.error='Choose a delivery method';renderSample({id:'deliveryMethod'});return;}s.delivery=s.draftDelivery;s.editor=false;s.error='';s.confirmed=false;announce(s,'✓ Delivery updated locally. Total '+money(totals().total),'success');renderSample({action:'edit-delivery'});return;}
+  if(action==='confirm-order') {if(s.confirmed)return;s.confirmed=true;announce(s,'✓ Demo order confirmed locally. No payment made.','success');renderSample({action:'edit-delivery'});return;}
+ }
+ if(purpose==='learn') {
+  if(action==='bookmark') {const id=fixtures.learn.lessons[s.current].id;const at=s.bookmarks.indexOf(id);if(at===-1){s.bookmarks.push(id);announce(s,'✓ Lesson bookmarked locally','success');}else{s.bookmarks.splice(at,1);announce(s,'Bookmark removed');}renderSample({action});return;}
+  if(action==='continue') {if(s.finished){s.current=0;s.completed=0;s.finished=false;announce(s,'Course review restarted locally');}else{s.completed=s.current+1;if(s.current<fixtures.learn.lessons.length-1){s.current++;announce(s,'✓ Previous lesson completed. '+fixtures.learn.lessons[s.current].title+' is open.','success');}else{s.finished=true;announce(s,'✓ All three lessons completed locally','success');}}renderSample({action});return;}
+ }
+};
+document.querySelectorAll('[data-purpose]').forEach(button=>button.addEventListener('click',()=>setPurpose(button.dataset.purpose)));
+document.getElementById('paletteChoices').addEventListener('click',event=>{const button=event.target.closest('[data-palette]');if(button)setPalette(button.dataset.palette);});
+specimen.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(button&&!button.disabled)act(button.dataset.action,button.dataset.id);});
+specimen.addEventListener('input',event=>{if(event.target.id==='taskTitle')states.work.draft=event.target.value;});
+specimen.addEventListener('change',event=>{if(event.target.id==='deliveryMethod')states.shop.draftDelivery=event.target.value;});
+specimen.addEventListener('submit',event=>{if(event.target.id==='taskForm'||event.target.id==='deliveryForm'){event.preventDefault();act(event.target.id==='taskForm'?'create-task':'save-delivery');}});
+specimen.addEventListener('keydown',event=>{if(event.key==='Escape'){if(purpose==='work'&&states.work.editor){event.preventDefault();act('cancel-task');}else if(purpose==='shop'&&states.shop.editor){event.preventDefault();act('cancel-delivery');}}});
+document.getElementById('resetSample').addEventListener('click',()=>{states[purpose]=makeState(purpose);announce(states[purpose],'Example reset');renderSample();});
+window.WhiteSurfaceExplorer=Object.freeze({fixtures,palettes,get purpose(){return purpose;},get palette(){return currentPalette().id;},get state(){return clone(states);},get totals(){return clone(totals());},setPurpose,setPalette,act,setDraft(value){if(purpose==='work')states.work.draft=String(value).slice(0,100);else if(purpose==='shop')states.shop.draftDelivery=String(value);},reset(){states[purpose]=makeState(purpose);announce(states[purpose],'Example reset');renderSample();}});
+renderPalette();renderSample();
+})();
+</script>
+</body>
+</html>

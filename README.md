@@ -1,5 +1,33 @@
 # Do Not Slop Project
 
+## White-page button/color combinations by purpose
+
+Six original combinations applied to three actual synthetic interfaces. Each pair keeps the same layout, fixture and behavior; only role values change. Click an image for its unedited browser capture.
+
+### Work · charcoal or cobalt
+
+| Ink signal · charcoal + cool slate | Cobalt edge · deep cobalt + blue-gray |
+| :---: | :---: |
+| [![Actual work interface with Ink signal palette](research/white_surface_palettes_v1/screenshots/work-ink.jpg)](research/white_surface_palettes_v1/screenshots/work-ink.jpg) | [![Actual same work interface with Cobalt edge palette](research/white_surface_palettes_v1/screenshots/work-cobalt.jpg)](research/white_surface_palettes_v1/screenshots/work-cobalt.jpg) |
+
+### Order review · forest or terracotta
+
+| Forest receipt · deep forest + gray-green | Terracotta order · burnt clay + warm gray |
+| :---: | :---: |
+| [![Actual fictional order review with Forest receipt palette](research/white_surface_palettes_v1/screenshots/order-forest.jpg)](research/white_surface_palettes_v1/screenshots/order-forest.jpg) | [![Actual same fictional order review with Terracotta order palette](research/white_surface_palettes_v1/screenshots/order-terracotta.jpg)](research/white_surface_palettes_v1/screenshots/order-terracotta.jpg) |
+
+### Learning · plum or petrol
+
+| Plum margin · deep plum + violet-gray | Petrol chapter · petrol blue + slate |
+| :---: | :---: |
+| [![Actual learning interface with Plum margin palette](research/white_surface_palettes_v1/screenshots/learning-plum.jpg)](research/white_surface_palettes_v1/screenshots/learning-plum.jpg) | [![Actual same learning interface with Petrol chapter palette](research/white_surface_palettes_v1/screenshots/learning-petrol.jpg)](research/white_surface_palettes_v1/screenshots/learning-petrol.jpg) |
+
+[Runnable explorer source](research/white_surface_palettes_v1/index.html) · [Six exact role sets](research/white_surface_palettes_v1/palettes.json) · [Purpose-specific AI rules](research/white_surface_palettes_v1/ai-implementation-rules.md) · [Fixed fixtures](research/white_surface_palettes_v1/fixtures.json) · [Package guide](research/white_surface_palettes_v1/README.md)
+
+Each set specifies white surface, body/neutral text, grouping/control boundaries, primary/secondary actions, hover, focus and written semantic feedback. Green is an available action color; the earlier CP01 white/charcoal/blue choice is case-specific. [Six official examples](research/white_surface_palettes_v1/sources.html) separate observation, documented rules and version limits; the six palettes above are independent authored proposals, not copied or approved brand styles.
+
+The six desktop captures are 1165 × 747 viewport frames. [Representative narrow order review](research/white_surface_palettes_v1/screenshots/order-narrow.jpg) is 390 × 844 with 375px document width. Captures show initial fixture states, not every interaction or full page. [Bounded browser checks](research/white_surface_palettes_v1/browser-observations.md) observed scheme-preserved state and local actions; full keyboard traversal, screen-reader, native-phone, 200% zoom and complete console audit remain unrun. [Untouched first pass and later changes](research/white_surface_palettes_v1/repair-log.md) remain separate. User design approval and measured usability are unestablished.
+
 ## Latest screens: CP01 guided iteration with guide v2
 
 The old English reference beside the actual final guided revision. Click either image for the full capture.
@@ -36,7 +64,7 @@ These are actual outputs, not a fabricated winning Before/After pair. The Before
 
 Research, operational rules and runnable synthetic comparisons for clearer interface layout, task flow and UI copy. Most manuals are written in Korean. Examples separate source observations, authored proposals and unknowns, and preserve content/state when comparing presentations.
 
-The public source includes the English instruction trial and additional guided iteration above, three earlier local demos, nine interactive UI-copy examples, original comparison boards and a bounded review-plugin draft. No reuse license has been selected. The plugin is not installed, adopted or officially approved; code checks do not establish measured usability improvement.
+The public source includes the English instruction trial and additional guided iteration above, six purpose-specific white-surface combinations, three earlier local demos, nine interactive UI-copy examples, original comparison boards and a bounded review-plugin draft. No reuse license has been selected. The plugin is not installed, adopted or officially approved; code checks do not establish measured usability improvement.
 
 ## Read and explore
 
@@ -46,6 +74,7 @@ The public source includes the English instruction trial and additional guided i
 - [Game controls manual](research/game_controls_corrections_v2.md), [RPG/card research](research/games_rpg_card_research.md) and [source-coverage boundaries](research/games_rpg_card_sourcecoverage.md)
 - [Fleet-command research](research/strategy_controls_oct4/strategy_controls_research.ko.md), [booking manual](research/booking_flows_oct4/booking_manual_ko.md) and [booking comparison contract](research/booking_flows_oct4/same_fixture_spec_ko.md)
 - [UI-copy manual](research/do_not_slop_copy/manual_ko.md), [nine operational rules](research/do_not_slop_copy/rules.json), [15 sources](research/do_not_slop_copy/sources.json) and [interactive examples](research/do_not_slop_copy/copy_examples.html)
+- [White-surface palette explorer](research/white_surface_palettes_v1/index.html), [six role sets](research/white_surface_palettes_v1/palettes.json), [purpose-specific AI rules](research/white_surface_palettes_v1/ai-implementation-rules.md) and [six official examples with limits](research/white_surface_palettes_v1/sources.html)
 - [Review-visible-design plugin draft.3](plugins/review-visible-design/README.md)
 
 Original boards are in [web visuals](research/web_app_v2/visuals/), [mobile boards](research/mobile_app_v1/boards/) and [booking visuals](research/booking_flows_oct4/visuals/). SVG originals and PNG renders are included. They are authored proposals using synthetic conditions, not redistributed product screenshots.
@@ -64,12 +93,13 @@ Then open:
 - Actual ordinary-request output: http://127.0.0.1:8765/research/instruction_trial_01/alpha/
 - Initial actual guided output: http://127.0.0.1:8765/research/instruction_trial_01/beta/
 - Guided iteration with guide v2: http://127.0.0.1:8765/research/instruction_trial_02/implementation/
+- White-surface palette explorer: http://127.0.0.1:8765/research/white_surface_palettes_v1/
 - Fleet command: http://127.0.0.1:8765/research/strategy_controls_oct4/demo/
 - Booking change: http://127.0.0.1:8765/research/booking_flows_oct4/demo/
 - Learning layout: http://127.0.0.1:8765/research/comparison_assets/learning_layout/same_fixture_learning.html
 - Nine UI-copy examples: http://127.0.0.1:8765/research/do_not_slop_copy/copy_examples.html
 
-The learning and UI-copy HTML files also open directly in a browser. Fleet command loads its adjacent fixture over HTTP. Booking keeps its reviewed fixture one directory above demo/; keep that relationship when copying the source.
+The white-surface palette explorer, learning and UI-copy HTML files also open directly in a browser. Fleet command loads its adjacent fixture over HTTP. Booking keeps its reviewed fixture one directory above demo/; keep that relationship when copying the source.
 
 All actions are local demonstrations. They do not create actual bookings, accounts, payments, uploads or subscriptions. Refreshing resets in-memory state.
 
@@ -85,6 +115,7 @@ From the repository root:
     python3 plugins/review-visible-design/validation/validate_package.py
     python3 research/instruction_trial_01/checks/validate_trial.py
     node research/instruction_trial_02/checks/verify-source.mjs
+    node research/white_surface_palettes_v1/verify-local.mjs
     python3 validation/validate_release.py
 
 The public booking/learning reporters and plugin validator were rebuilt for this source release. Their scope is stated in [verification](docs/VERIFICATION.md). Exact-byte fixtures and runtime helpers were preserved; no fixture hash or evidence requirement was relaxed to obtain a pass.

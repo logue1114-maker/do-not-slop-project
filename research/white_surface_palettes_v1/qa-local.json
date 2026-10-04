@@ -1,0 +1,917 @@
+{
+  "timestamp": "2026-10-04T11:35:47.983Z",
+  "execution": "Node VM execution of the actual inline script with minimal DOM/event stubs, static source checks, and sRGB contrast calculations. Not a rendered browser or usability test.",
+  "index_sha256": "2cad8fe59323adfac7158c8d52c69f62d7c6a5c9c8495e07dccb80f780f903b6",
+  "first_pass_sha256": "772c195066274b2774e6a4826143d7b19d8946d1e61166dbb36e3d693d7719d2",
+  "checks": [
+    {
+      "check": "Exact integrated, fixture, source and untouched first-pass bytes",
+      "result": "pass"
+    },
+    {
+      "check": "Seven exact synthetic viewport captures and narrow metadata",
+      "result": "pass"
+    },
+    {
+      "check": "Embedded source matches fixture and six role sets",
+      "result": "pass"
+    },
+    {
+      "check": "No service calls, dependency scripts, persistence, or actual purchase API",
+      "result": "pass"
+    },
+    {
+      "check": "White canvas, 16px body/14px labels, explicit mobile rules, focus and status labels",
+      "result": "pass"
+    },
+    {
+      "check": "Palette switch preserves exact specimen DOM, input, open editor, model, and live status",
+      "result": "pass"
+    },
+    {
+      "check": "Task editor cancel, invalid input, create, escaping, checkbox toggle, filtering and repeated reset",
+      "result": "pass"
+    },
+    {
+      "check": "Delivery totals, invalid method, editor draft preserved between palettes, cancel, pickup, and confirmation idempotence",
+      "result": "pass"
+    },
+    {
+      "check": "Course progresses, per-lesson bookmarks persist across palette and purpose changes, end and restart accurate",
+      "result": "pass"
+    },
+    {
+      "check": "Actual delegated input, change, click, submit, Escape and reset event wiring",
+      "result": "pass"
+    },
+    {
+      "check": "Actual text, checked controls, outlined boundaries, hover and focus color pairings",
+      "result": "pass"
+    }
+  ],
+  "contrast": [
+    {
+      "palette": "work-ink",
+      "pairs": [
+        {
+          "pair": "Body text / white",
+          "foreground": "#242B35",
+          "background": "#FFFFFF",
+          "ratio": 14.267,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Muted labels / white",
+          "foreground": "#616A76",
+          "background": "#FFFFFF",
+          "ratio": 5.481,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / primary",
+          "foreground": "#FFFFFF",
+          "background": "#252B36",
+          "ratio": 14.213,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / hover",
+          "foreground": "#FFFFFF",
+          "background": "#101722",
+          "ratio": 17.984,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / white",
+          "foreground": "#252B36",
+          "background": "#FFFFFF",
+          "ratio": 14.213,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / hover",
+          "foreground": "#252B36",
+          "background": "#F6F7F8",
+          "ratio": 13.251,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control text / accent",
+          "foreground": "#252B36",
+          "background": "#F3F5F8",
+          "ratio": 13.014,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control primary text / accent",
+          "foreground": "#252B36",
+          "background": "#F3F5F8",
+          "ratio": 13.014,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson text / accent",
+          "foreground": "#242B35",
+          "background": "#F3F5F8",
+          "ratio": 13.062,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson metadata / accent",
+          "foreground": "#616A76",
+          "background": "#F3F5F8",
+          "ratio": 5.018,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Error text / white",
+          "foreground": "#A12636",
+          "background": "#FFFFFF",
+          "ratio": 7.379,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Success text / white",
+          "foreground": "#24633E",
+          "background": "#FFFFFF",
+          "ratio": 7.169,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / white",
+          "foreground": "#7B8493",
+          "background": "#FFFFFF",
+          "ratio": 3.774,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / secondary hover",
+          "foreground": "#7B8493",
+          "background": "#F6F7F8",
+          "ratio": 3.519,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / white",
+          "foreground": "#425773",
+          "background": "#FFFFFF",
+          "ratio": 7.388,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / accent",
+          "foreground": "#425773",
+          "background": "#F3F5F8",
+          "ratio": 6.764,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Primary boundary / white",
+          "foreground": "#252B36",
+          "background": "#FFFFFF",
+          "ratio": 14.213,
+          "minimum": 3,
+          "pass": true
+        }
+      ],
+      "separator_ratio": 1.352,
+      "separator_note": "Low-contrast grouping separator; never the only boundary or signal for an interactive control."
+    },
+    {
+      "palette": "work-cobalt",
+      "pairs": [
+        {
+          "pair": "Body text / white",
+          "foreground": "#202633",
+          "background": "#FFFFFF",
+          "ratio": 15.146,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Muted labels / white",
+          "foreground": "#5E6878",
+          "background": "#FFFFFF",
+          "ratio": 5.634,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / primary",
+          "foreground": "#FFFFFF",
+          "background": "#243EA4",
+          "ratio": 9.13,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / hover",
+          "foreground": "#FFFFFF",
+          "background": "#1D2F7A",
+          "ratio": 12.07,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / white",
+          "foreground": "#2E3C64",
+          "background": "#FFFFFF",
+          "ratio": 10.788,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / hover",
+          "foreground": "#2E3C64",
+          "background": "#F6F7F8",
+          "ratio": 10.058,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control text / accent",
+          "foreground": "#2E3C64",
+          "background": "#F2F4FA",
+          "ratio": 9.81,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control primary text / accent",
+          "foreground": "#243EA4",
+          "background": "#F2F4FA",
+          "ratio": 8.302,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson text / accent",
+          "foreground": "#202633",
+          "background": "#F2F4FA",
+          "ratio": 13.773,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson metadata / accent",
+          "foreground": "#5E6878",
+          "background": "#F2F4FA",
+          "ratio": 5.123,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Error text / white",
+          "foreground": "#A12636",
+          "background": "#FFFFFF",
+          "ratio": 7.379,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Success text / white",
+          "foreground": "#24633E",
+          "background": "#FFFFFF",
+          "ratio": 7.169,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / white",
+          "foreground": "#7A8599",
+          "background": "#FFFFFF",
+          "ratio": 3.722,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / secondary hover",
+          "foreground": "#7A8599",
+          "background": "#F6F7F8",
+          "ratio": 3.47,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / white",
+          "foreground": "#3655BC",
+          "background": "#FFFFFF",
+          "ratio": 6.599,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / accent",
+          "foreground": "#3655BC",
+          "background": "#F2F4FA",
+          "ratio": 6.001,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Primary boundary / white",
+          "foreground": "#243EA4",
+          "background": "#FFFFFF",
+          "ratio": 9.13,
+          "minimum": 3,
+          "pass": true
+        }
+      ],
+      "separator_ratio": 1.34,
+      "separator_note": "Low-contrast grouping separator; never the only boundary or signal for an interactive control."
+    },
+    {
+      "palette": "shop-forest",
+      "pairs": [
+        {
+          "pair": "Body text / white",
+          "foreground": "#252B27",
+          "background": "#FFFFFF",
+          "ratio": 14.448,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Muted labels / white",
+          "foreground": "#616B63",
+          "background": "#FFFFFF",
+          "ratio": 5.539,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / primary",
+          "foreground": "#FFFFFF",
+          "background": "#244F3D",
+          "ratio": 9.289,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / hover",
+          "foreground": "#FFFFFF",
+          "background": "#18372A",
+          "ratio": 12.973,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / white",
+          "foreground": "#315441",
+          "background": "#FFFFFF",
+          "ratio": 8.485,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / hover",
+          "foreground": "#315441",
+          "background": "#F6F7F8",
+          "ratio": 7.91,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control text / accent",
+          "foreground": "#315441",
+          "background": "#F3F7F4",
+          "ratio": 7.847,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control primary text / accent",
+          "foreground": "#244F3D",
+          "background": "#F3F7F4",
+          "ratio": 8.591,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson text / accent",
+          "foreground": "#252B27",
+          "background": "#F3F7F4",
+          "ratio": 13.362,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson metadata / accent",
+          "foreground": "#616B63",
+          "background": "#F3F7F4",
+          "ratio": 5.122,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Error text / white",
+          "foreground": "#A12636",
+          "background": "#FFFFFF",
+          "ratio": 7.379,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Success text / white",
+          "foreground": "#24633E",
+          "background": "#FFFFFF",
+          "ratio": 7.169,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / white",
+          "foreground": "#7F8980",
+          "background": "#FFFFFF",
+          "ratio": 3.625,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / secondary hover",
+          "foreground": "#7F8980",
+          "background": "#F6F7F8",
+          "ratio": 3.38,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / white",
+          "foreground": "#376D55",
+          "background": "#FFFFFF",
+          "ratio": 6.033,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / accent",
+          "foreground": "#376D55",
+          "background": "#F3F7F4",
+          "ratio": 5.579,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Primary boundary / white",
+          "foreground": "#244F3D",
+          "background": "#FFFFFF",
+          "ratio": 9.289,
+          "minimum": 3,
+          "pass": true
+        }
+      ],
+      "separator_ratio": 1.328,
+      "separator_note": "Low-contrast grouping separator; never the only boundary or signal for an interactive control."
+    },
+    {
+      "palette": "shop-terracotta",
+      "pairs": [
+        {
+          "pair": "Body text / white",
+          "foreground": "#302721",
+          "background": "#FFFFFF",
+          "ratio": 14.605,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Muted labels / white",
+          "foreground": "#73635B",
+          "background": "#FFFFFF",
+          "ratio": 5.73,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / primary",
+          "foreground": "#FFFFFF",
+          "background": "#93472E",
+          "ratio": 6.601,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / hover",
+          "foreground": "#FFFFFF",
+          "background": "#763822",
+          "ratio": 8.902,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / white",
+          "foreground": "#6C3B29",
+          "background": "#FFFFFF",
+          "ratio": 9.149,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / hover",
+          "foreground": "#6C3B29",
+          "background": "#F6F7F8",
+          "ratio": 8.53,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control text / accent",
+          "foreground": "#6C3B29",
+          "background": "#FBF5F1",
+          "ratio": 8.467,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control primary text / accent",
+          "foreground": "#93472E",
+          "background": "#FBF5F1",
+          "ratio": 6.108,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson text / accent",
+          "foreground": "#302721",
+          "background": "#FBF5F1",
+          "ratio": 13.515,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson metadata / accent",
+          "foreground": "#73635B",
+          "background": "#FBF5F1",
+          "ratio": 5.303,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Error text / white",
+          "foreground": "#A12636",
+          "background": "#FFFFFF",
+          "ratio": 7.379,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Success text / white",
+          "foreground": "#24633E",
+          "background": "#FFFFFF",
+          "ratio": 7.169,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / white",
+          "foreground": "#948176",
+          "background": "#FFFFFF",
+          "ratio": 3.71,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / secondary hover",
+          "foreground": "#948176",
+          "background": "#F6F7F8",
+          "ratio": 3.459,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / white",
+          "foreground": "#A4573B",
+          "background": "#FFFFFF",
+          "ratio": 5.244,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / accent",
+          "foreground": "#A4573B",
+          "background": "#FBF5F1",
+          "ratio": 4.852,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Primary boundary / white",
+          "foreground": "#93472E",
+          "background": "#FFFFFF",
+          "ratio": 6.601,
+          "minimum": 3,
+          "pass": true
+        }
+      ],
+      "separator_ratio": 1.364,
+      "separator_note": "Low-contrast grouping separator; never the only boundary or signal for an interactive control."
+    },
+    {
+      "palette": "learn-plum",
+      "pairs": [
+        {
+          "pair": "Body text / white",
+          "foreground": "#2D2531",
+          "background": "#FFFFFF",
+          "ratio": 14.783,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Muted labels / white",
+          "foreground": "#6D6172",
+          "background": "#FFFFFF",
+          "ratio": 5.828,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / primary",
+          "foreground": "#FFFFFF",
+          "background": "#653D72",
+          "ratio": 8.523,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / hover",
+          "foreground": "#FFFFFF",
+          "background": "#4F2C5D",
+          "ratio": 11.347,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / white",
+          "foreground": "#573463",
+          "background": "#FFFFFF",
+          "ratio": 10.113,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / hover",
+          "foreground": "#573463",
+          "background": "#F6F7F8",
+          "ratio": 9.428,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control text / accent",
+          "foreground": "#573463",
+          "background": "#F8F4FA",
+          "ratio": 9.3,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control primary text / accent",
+          "foreground": "#653D72",
+          "background": "#F8F4FA",
+          "ratio": 7.838,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson text / accent",
+          "foreground": "#2D2531",
+          "background": "#F8F4FA",
+          "ratio": 13.595,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson metadata / accent",
+          "foreground": "#6D6172",
+          "background": "#F8F4FA",
+          "ratio": 5.36,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Error text / white",
+          "foreground": "#A12636",
+          "background": "#FFFFFF",
+          "ratio": 7.379,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Success text / white",
+          "foreground": "#24633E",
+          "background": "#FFFFFF",
+          "ratio": 7.169,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / white",
+          "foreground": "#8C7D93",
+          "background": "#FFFFFF",
+          "ratio": 3.839,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / secondary hover",
+          "foreground": "#8C7D93",
+          "background": "#F6F7F8",
+          "ratio": 3.579,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / white",
+          "foreground": "#815592",
+          "background": "#FFFFFF",
+          "ratio": 5.757,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / accent",
+          "foreground": "#815592",
+          "background": "#F8F4FA",
+          "ratio": 5.294,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Primary boundary / white",
+          "foreground": "#653D72",
+          "background": "#FFFFFF",
+          "ratio": 8.523,
+          "minimum": 3,
+          "pass": true
+        }
+      ],
+      "separator_ratio": 1.38,
+      "separator_note": "Low-contrast grouping separator; never the only boundary or signal for an interactive control."
+    },
+    {
+      "palette": "learn-petrol",
+      "pairs": [
+        {
+          "pair": "Body text / white",
+          "foreground": "#243039",
+          "background": "#FFFFFF",
+          "ratio": 13.489,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Muted labels / white",
+          "foreground": "#5E6E78",
+          "background": "#FFFFFF",
+          "ratio": 5.28,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / primary",
+          "foreground": "#FFFFFF",
+          "background": "#24556A",
+          "ratio": 8.132,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Primary label / hover",
+          "foreground": "#FFFFFF",
+          "background": "#173E50",
+          "ratio": 11.405,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / white",
+          "foreground": "#244D60",
+          "background": "#FFFFFF",
+          "ratio": 9.109,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Secondary label / hover",
+          "foreground": "#244D60",
+          "background": "#F6F7F8",
+          "ratio": 8.492,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control text / accent",
+          "foreground": "#244D60",
+          "background": "#F1F6F8",
+          "ratio": 8.362,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Selected control primary text / accent",
+          "foreground": "#24556A",
+          "background": "#F1F6F8",
+          "ratio": 7.465,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson text / accent",
+          "foreground": "#243039",
+          "background": "#F1F6F8",
+          "ratio": 12.382,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Current lesson metadata / accent",
+          "foreground": "#5E6E78",
+          "background": "#F1F6F8",
+          "ratio": 4.847,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Error text / white",
+          "foreground": "#A12636",
+          "background": "#FFFFFF",
+          "ratio": 7.379,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Success text / white",
+          "foreground": "#24633E",
+          "background": "#FFFFFF",
+          "ratio": 7.169,
+          "minimum": 4.5,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / white",
+          "foreground": "#7A8B95",
+          "background": "#FFFFFF",
+          "ratio": 3.527,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Control boundary / secondary hover",
+          "foreground": "#7A8B95",
+          "background": "#F6F7F8",
+          "ratio": 3.288,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / white",
+          "foreground": "#366D84",
+          "background": "#FFFFFF",
+          "ratio": 5.71,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Focus ring / accent",
+          "foreground": "#366D84",
+          "background": "#F1F6F8",
+          "ratio": 5.242,
+          "minimum": 3,
+          "pass": true
+        },
+        {
+          "pair": "Primary boundary / white",
+          "foreground": "#24556A",
+          "background": "#FFFFFF",
+          "ratio": 8.132,
+          "minimum": 3,
+          "pass": true
+        }
+      ],
+      "separator_ratio": 1.327,
+      "separator_note": "Low-contrast grouping separator; never the only boundary or signal for an interactive control."
+    }
+  ],
+  "limitations": [
+    "These source/model checks do not execute a rendered browser or native input.",
+    "Rendered observations and actual screenshots are recorded separately; unobserved accessibility and usability gates remain unrun.",
+    "No WCAG certification is claimed."
+  ]
+}

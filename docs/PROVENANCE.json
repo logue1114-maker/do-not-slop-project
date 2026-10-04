@@ -110,5 +110,34 @@
     "usability_gain": "not_proven",
     "causal_effect": "not_established",
     "general_effectiveness": "not_established"
+  },
+  "white_surface_palettes_v1": {
+    "title": "Six purpose-specific white-surface combinations",
+    "scope": "Self-contained English explorer, six 16-role palettes, three fixed synthetic fixtures, AI rules/checklist, untouched first pass, official source summaries/links, reproducible local tests and seven actual synthetic-UI viewport captures",
+    "baseline_public_commit": "264b2b7e818f0ed1cf7c2350330a842ef3ba67a7",
+    "public_capture_authorization": "Public repository visual comparisons were explicitly requested; these seven images show project-authored synthetic interfaces, with no third-party product screenshots or private user media",
+    "approved_synthetic_capture_sha256": {
+      "research/white_surface_palettes_v1/screenshots/work-ink.jpg": "525e4f76ffd8af2698b133ebb36390f6802895300494f545db5d305729040808",
+      "research/white_surface_palettes_v1/screenshots/work-cobalt.jpg": "efd7fec1f1334ee71aba09bb2a750e87c6196bca309d4cc4cbf0dba7638b90e1",
+      "research/white_surface_palettes_v1/screenshots/order-forest.jpg": "7716f408cfaa4d8692936293ca22a255c5ef5bc38174bf6f878a2e975862adcf",
+      "research/white_surface_palettes_v1/screenshots/order-terracotta.jpg": "d8d3e63cf01aa9e0454bbf2ce51b9d6f8c04f1974e74bc00750ab07eab266823",
+      "research/white_surface_palettes_v1/screenshots/learning-plum.jpg": "51bcf500921a7a303716a6e1757ae740014f953b305c5fd71c00028901dfc333",
+      "research/white_surface_palettes_v1/screenshots/learning-petrol.jpg": "7d6510ae09dbb2b65cf8881169ec8b448db88f8fca58e9a842cca2bf0c057cfe",
+      "research/white_surface_palettes_v1/screenshots/order-narrow.jpg": "f1a8fcebbb46c5d1517aafe60539960006ed186c3fa50f0f121ae530a01cc1f2"
+    },
+    "integrated_index_sha256": "2cad8fe59323adfac7158c8d52c69f62d7c6a5c9c8495e07dccb80f780f903b6",
+    "manifest": "../research/white_surface_palettes_v1/manifest.json",
+    "browser_observations": "../research/white_surface_palettes_v1/browser-observations.md",
+    "palette_provenance": "Independent authored proposals; official cases are context, not copied palettes, universal rules or approval",
+    "semantic_roles": "White surface, text/neutral metadata, grouping/control borders, primary/secondary labels and fills, hover, focus and written success/error states",
+    "green_scope": "Available in the new palette samples; CP01 prior rejection is case-specific",
+    "capture_scope": "Six desktop initial-fixture frames at 1165×747 and one representative order-review frame at 390×844; exact bytes, no image editing",
+    "source_integration": "Only sources.json href → readable sources.html; palette/fixture/interaction bytes unchanged by integration",
+    "user_design_approval": "not_established",
+    "usability_gain": "not_proven",
+    "general_palette_superiority": "not_established",
+    "license_choice": "pending_user_decision",
+    "external_rights": "unknown_link_only",
+    "excluded": "Raw third-party product screenshots, redundant builder/working-stage reports, private paths, user history and execution identities"
   }
 }

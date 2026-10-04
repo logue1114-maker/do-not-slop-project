@@ -1,5 +1,18 @@
 # Source changes
 
+## 2026-10-04: Six white-surface combinations by purpose
+
+Prepared as a narrow additive source update to public commit `264b2b7e818f0ed1cf7c2350330a842ef3ba67a7`.
+
+- Add an English self-contained explorer with six complete 16-role sets across work, fictional order review and learning, fixed fixtures, purpose-specific AI rules, review checklist and reproducible local tests
+- Put six actual desktop screenshots in three purpose-labeled pairs near the main README top; include one representative narrow order review separately
+- Preserve all seven image files byte-for-byte and the compact untouched first pass; retain exact integrated source and unchanged verified source JSON
+- Add readable official-source notes for six cases without raw brand screenshots, keeping observation, official rule and date/version boundaries distinct
+- Record objective first-pass repairs and the sole later integration change from sources.json to sources.html; omit the redundant builder and working-stage reports
+- Add narrow root AI routing, new capture provenance/allowlist, changed-scope verification and a regenerated inventory/release scanner receipt
+
+The six palettes are independent proposals, not copied or approved brand styles. Green is permitted as a role-based action color; earlier CP01 palette choices are case-specific. Existing research/runtime/fixture/test bytes, CP01 history and frozen v1 instruction archive remain intact. Local tests and bounded browser observations do not establish full accessibility or measured usability. No publishing, Site edit, plugin installation or license decision is included in this source-tree preparation.
+
 ## 2026-10-04: Additional CP01 guided iteration with guide v2
 
 Prepared as a narrow additive follow-up to public commit `4cbd45748cbecbea36048aec11343a18904b2d63`.

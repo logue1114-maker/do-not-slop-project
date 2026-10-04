@@ -1,12 +1,12 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-04T10:43:04.471008+00:00",
+  "validated_at_utc": "2026-10-04T11:35:48.280218+00:00",
   "status": "passed_public_tree_checks",
   "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 184,
-    "checks": 187,
+    "files": 207,
+    "checks": 202,
     "failed_checks": 0
   },
   "checks": [
@@ -267,6 +267,41 @@
     },
     {
       "name": "json:research/web_app_corrections_v2.cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/first-pass/fixtures.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/first-pass/palettes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/fixtures.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/palettes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/qa-local.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/white_surface_palettes_v1/sources.json",
       "passed": true,
       "detail": null
     },
@@ -886,6 +921,11 @@
       "detail": null
     },
     {
+      "name": "exact_white_palette_capture_allowlist",
+      "passed": true,
+      "detail": null
+    },
+    {
       "name": "exact_synthetic_capture_allowlist",
       "passed": true,
       "detail": null
@@ -922,6 +962,41 @@
     },
     {
       "name": "synthetic_capture_bytes:research/instruction_trial_02/screenshots/revision2-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/learning-petrol.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/learning-plum.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/order-forest.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/order-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/order-terracotta.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/work-cobalt.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/white_surface_palettes_v1/screenshots/work-ink.jpg",
       "passed": true,
       "detail": null
     },

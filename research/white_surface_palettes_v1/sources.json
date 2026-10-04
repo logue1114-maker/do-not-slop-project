@@ -1,0 +1,127 @@
+{
+  "title": "Button combinations on white surfaces: six official examples",
+  "checked_date": "2026-10-04",
+  "scope": "Official public design systems and product or marketing pages. These examples illustrate different approaches; they are not a universal palette prescription.",
+  "main_white_surface_lesson": "Design a combination of surface, text, border, action hierarchy and interaction states. Recognizable brands use black, purple, green and blue primary actions. Brand color need not equal primary-action color, and distinctiveness also comes from typography, shape, spacing and surrounding content.",
+  "cases": [
+    {
+      "brand": "Shopify",
+      "surface": "Polaris App Home web-component examples on white",
+      "observation": "The current official preview shows a near-black filled primary button with white text, a white secondary button with dark text and a thin border, and an unfilled tertiary button. The green Shopify logo does not determine this button palette.",
+      "official_rule": "Primary is high emphasis and should be used sparingly; secondary is medium emphasis; tertiary is low emphasis. Critical tone is reserved for destructive actions.",
+      "white_surface_lesson": "A neutral action family can have clear hierarchy without a saturated brand-colored primary button.",
+      "sources": [
+        {
+          "title": "Button: visual emphasis with variants",
+          "url": "https://shopify.dev/docs/api/app-home/latest/web-components/actions/button#set-visual-emphasis-with-variants"
+        }
+      ],
+      "date_and_version_limit": "Checked 2026-10-04. The URL tracks latest web components, not a pinned release. Older Polaris React documentation redirects to the new references. This is an App Home example, not every Shopify surface."
+    },
+    {
+      "brand": "Slack",
+      "surface": "Current Korean marketing homepage on white",
+      "observation": "The primary Get started action uses purple #730394 with white text. Find your plan uses white fill with purple #730394 text and border. Both observed buttons have 4px corner radius. Large black typography and white space form the surrounding context.",
+      "official_rule": "No global Slack button rule is inferred from this marketing page. These are observed rendered styles, not a published permanent token specification.",
+      "white_surface_lesson": "One accent can form a family of filled and outlined actions while the rest of the page remains largely neutral.",
+      "sources": [
+        {
+          "title": "Slack official Korean homepage",
+          "url": "https://slack.com/intl/ko-kr/"
+        }
+      ],
+      "date_and_version_limit": "Observed 2026-10-04. Marketing campaigns, locale and product interfaces may differ. No numbered version is published for this page."
+    },
+    {
+      "brand": "GitHub",
+      "surface": "Primer Product UI, current light theme",
+      "observation": "Published light-theme tokens specify primary green #1F883D with white text, hover #1C8139 and active #197935. Default buttons use #F6F8FA, text #25292E and border #D1D9E0; their hover fill is #EFF2F5 and active fill is #E6EAEF.",
+      "official_rule": "Success roles include primary buttons and positive states; accent roles include links, selection and focus; danger roles include destructive actions and errors. Use the highest-priority button sparingly, with no more than one in a button group.",
+      "white_surface_lesson": "Primary green, neutral supporting actions and blue interaction cues can coexist because they have different roles.",
+      "sources": [
+        {
+          "title": "Button usage and variants",
+          "url": "https://primer.style/product/components/button/"
+        },
+        {
+          "title": "Color roles and usage",
+          "url": "https://primer.style/product/getting-started/foundations/color-usage/"
+        },
+        {
+          "title": "Current color CSS variables",
+          "url": "https://primer.style/product/primitives/color/"
+        }
+      ],
+      "date_and_version_limit": "Checked 2026-10-04. These documentation values are the active light theme; other themes differ. The page is current documentation rather than a pinned package version."
+    },
+    {
+      "brand": "IBM",
+      "surface": "Carbon White theme",
+      "observation": "Published tokens specify primary #0F62FE with white text, hover #0050E6 and active #002D9C. Secondary is charcoal #393939 with white text and hover #474747. Tertiary uses blue text and border with transparent fill.",
+      "official_rule": "Button variants and their hover, active, focus and disabled appearances use role-specific tokens. Focus combines #0F62FE with an inset white contrast border; disabled button fill is #C6C6C6. Typography, dimensions and spacing are also specified.",
+      "white_surface_lesson": "Even a familiar blue action becomes a deliberate system when paired with charcoal, outlines and distinct interaction states.",
+      "sources": [
+        {
+          "title": "Current Carbon color tokens",
+          "url": "https://www.carbondesignsystem.com/building-blocks/foundations/color/tokens"
+        },
+        {
+          "title": "Button specifications",
+          "url": "https://www.carbondesignsystem.com/building-blocks/core/components/button/specifications"
+        }
+      ],
+      "date_and_version_limit": "Checked 2026-10-04. The button specification states Last updated Sep 30, 2026. These values apply to the White theme and should not be copied indiscriminately into other themes."
+    },
+    {
+      "brand": "GOV.UK",
+      "surface": "Current button example and functional colors on white",
+      "observation": "The current Save and continue example has green #0F7A52 fill, white text and square corners. Functional colors include white body background, #0B0C0C body text, #484949 secondary text, #CECECE border and #1A65A6 links.",
+      "official_rule": "Use functional color tokens for their intended purposes. Yellow #FFDD00 is for focus indication, paired with dark focus text; it is not a general decorative accent. Avoid multiple main calls to action because this weakens their impact and makes the next step less clear.",
+      "white_surface_lesson": "Green actions, blue links and yellow keyboard focus can be separated by function, supported by strong text and geometry.",
+      "sources": [
+        {
+          "title": "Current default button example",
+          "url": "https://design-system.service.gov.uk/components/button/default/"
+        },
+        {
+          "title": "Button guidance and change history",
+          "url": "https://design-system.service.gov.uk/components/button/"
+        },
+        {
+          "title": "Current functional colors",
+          "url": "https://design-system.service.gov.uk/styles/colour/"
+        }
+      ],
+      "date_and_version_limit": "Checked 2026-10-04. Button colors were refreshed in GOV.UK Frontend v6.0.0 in Feb 2026; the page also records v6.4.0 changes in Jul 2026. Older green #00703C is not the observed current default."
+    },
+    {
+      "brand": "Spotify",
+      "surface": "Current signup screen; historical official design rationale",
+      "observation": "The current signup screen uses a bright green pill-shaped Next action with black text on a dark page. Social signup actions use white text, dark fill and gray outlines. This is a dark-surface contrast case, not a white-surface template.",
+      "official_rule": "Spotify Design's 2021 article explains the choice of black foreground on Spotify green to improve contrast while retaining brand character. It also describes sentence-case labels and reduced padding. This historical explanation is not a specification for every current Spotify button.",
+      "white_surface_lesson": "A bright fill does not automatically call for white text. Consider foreground contrast, shape and label treatment together, and adapt the combination to its actual surface.",
+      "sources": [
+        {
+          "title": "Current Spotify signup screen",
+          "url": "https://www.spotify.com/uk/signup"
+        },
+        {
+          "title": "Spotify Design: Better in Black",
+          "url": "https://medium.com/spotify-design/better-in-black-rethinking-our-most-important-buttons-fec71d48a190",
+          "published_date": "2021-06-01"
+        }
+      ],
+      "date_and_version_limit": "Signup screen observed 2026-10-04. Locale and live interface may differ. The official design rationale was published 2021-06-01 and is explicitly historical."
+    }
+  ],
+  "our_proposals": {
+    "status": "Design proposals for comparison, not official brand rules or an approved palette",
+    "families": [
+      "Document/productivity: graphite primary, white outlined secondary, neutral hover surfaces",
+      "Collaboration/digital tool: violet primary, violet outline secondary, pale violet supporting hover surfaces",
+      "Calm professional tool: deep teal primary, teal outline secondary, pale mint supporting hover surfaces"
+    ],
+    "comparison_guardrail": "Keep corresponding actions in both specimens identical in color, shape, label and interaction treatment. Use primary versus secondary styling only for genuine action hierarchy within each specimen.",
+    "state_guardrail": "Compare default, hover, pressed, focus-visible, loading, disabled and semantic feedback as a complete set. Validate contrast for the actual text, boundaries and focus indicators; saturation alone does not establish quality."
+  }
+}

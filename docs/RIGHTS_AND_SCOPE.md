@@ -22,3 +22,9 @@ The trial is a descriptive single pair. Its own screen-internal Before/After lab
 The two JPGs in `research/instruction_trial_02/screenshots/` are exact final browser captures of the project's synthetic guided iteration. Public inclusion was authorized for the README screen comparison. Their paths/hashes are explicitly allowlisted in `PROVENANCE.json`; they contain no third-party product screenshots or private user media. The historical supplied image remains excluded.
 
 This additional artifact follows review of the first pair and is not a new controlled pair, blinded result, causal-effect claim or measured usability result. Exact first-pass/final source and the sole padding repair are preserved; user approval and reuse license remain pending. Earlier evidence limits are unchanged.
+
+## White-surface palette captures and official examples
+
+The seven JPGs in `research/white_surface_palettes_v1/screenshots/` are actual unedited browser captures of project-authored synthetic interfaces. Public repository visual comparisons were explicitly requested. The six desktop schemes and representative narrow order-review image have exact path/hash allowlists in `PROVENANCE.json`; no third-party product screenshot or private user media is included.
+
+The six palette role sets are independent authored proposals. The official-source HTML and unchanged JSON contain links and bounded summaries for six cases, with observation, published rules and date/version limits kept separate. Spotify is explicitly a dark-surface contrast case. Those source notes neither grant rights to external media nor make our palettes official or approved styles. The untouched first-pass implementation is retained separately from objective repairs and source-page integration. Green is an available action color; earlier CP01 choices are case-specific. User design approval, measured usability and reuse licensing remain unestablished or undecided.

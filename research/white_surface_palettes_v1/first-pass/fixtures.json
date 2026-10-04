@@ -1,0 +1,90 @@
+{
+  "work": {
+    "title": "Studio launch",
+    "context": "Shared workspace",
+    "tasks": [
+      {
+        "id": "w1",
+        "title": "Review the landing page copy",
+        "detail": "Today · Content",
+        "done": false
+      },
+      {
+        "id": "w2",
+        "title": "Check the mobile navigation",
+        "detail": "Today · Design",
+        "done": false
+      },
+      {
+        "id": "w3",
+        "title": "Send the handoff checklist",
+        "detail": "Yesterday · Operations",
+        "done": true
+      }
+    ],
+    "showCompleted": true
+  },
+  "shop": {
+    "title": "Order review",
+    "currency": "USD",
+    "fictional": true,
+    "items": [
+      {
+        "name": "Everyday tote",
+        "quantity": 1,
+        "priceCents": 2800
+      },
+      {
+        "name": "Notebook set",
+        "quantity": 1,
+        "priceCents": 1200
+      }
+    ],
+    "delivery": {
+      "standard": {
+        "label": "Standard delivery",
+        "detail": "3–5 business days",
+        "priceCents": 400
+      },
+      "pickup": {
+        "label": "Local pickup",
+        "detail": "Fictional pickup point",
+        "priceCents": 0
+      }
+    },
+    "taxRate": 0.08,
+    "initialDelivery": "standard"
+  },
+  "learn": {
+    "course": "Design fundamentals",
+    "lessons": [
+      {
+        "id": "l1",
+        "title": "Start with the task",
+        "kicker": "Lesson 1 · 3 min read",
+        "paragraphs": [
+          "Begin with the thing someone came to do. Put the next useful action near the information it depends on, so the page does not make people search for a way forward.",
+          "A task list needs clear titles and useful status. An order review needs quantities and a total. A lesson needs readable content and a next step. Let those needs decide the layout."
+        ]
+      },
+      {
+        "id": "l2",
+        "title": "Choose one primary action",
+        "kicker": "Lesson 2 · 2 min read",
+        "paragraphs": [
+          "Give the next step one consistent visual treatment. A filled button can mark that action while a quieter outlined control handles a secondary choice.",
+          "Keep the labels specific. Create task, save delivery, and continue lesson explain what will happen. Two equally strong actions can make the choice harder to read."
+        ]
+      },
+      {
+        "id": "l3",
+        "title": "Use color with a purpose",
+        "kicker": "Lesson 3 · 2 min read",
+        "paragraphs": [
+          "A white page can still have a distinctive palette. Choose a deep action color, readable neutral text, and quiet separators. Apply the same roles consistently rather than introducing a new color for each section.",
+          "Keep state legible in words and shape as well as color. A checkmark and a Completed label say more than a green dot by itself. Make keyboard focus visible on every control."
+        ]
+      }
+    ]
+  }
+}

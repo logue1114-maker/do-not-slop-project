@@ -1,0 +1,145 @@
+{
+  "title": "White-surface combinations v1",
+  "frozen_at_utc": "2026-10-04T11:34:41.668344+00:00",
+  "status": "public_source_with_actual_fixture_captures_and_bounded_browser_observations",
+  "baseline_public_commit": "264b2b7e818f0ed1cf7c2350330a842ef3ba67a7",
+  "artifact_role": "Six independent authored role-set proposals applied to three fixed synthetic purposes; not official brand styles or user-approved final design",
+  "source_history": {
+    "first_pass_index_sha256": "772c195066274b2774e6a4826143d7b19d8946d1e61166dbb36e3d693d7719d2",
+    "repaired_preintegration_index_sha256": "5f34d03a5a32a6df64d313c25c26cbb6261d5234fe05f8e6d0be376ccf422149",
+    "integrated_index_sha256": "2cad8fe59323adfac7158c8d52c69f62d7c6a5c9c8495e07dccb80f780f903b6",
+    "sole_integration_change": "Secondary source link href=\"sources.json\" → href=\"sources.html\"; no specimen, palette or behavior changed",
+    "changes": "repair-log.md"
+  },
+  "source_files": [
+    {
+      "path": "index.html",
+      "bytes": 37221,
+      "sha256": "2cad8fe59323adfac7158c8d52c69f62d7c6a5c9c8495e07dccb80f780f903b6"
+    },
+    {
+      "path": "fixtures.json",
+      "bytes": 2894,
+      "sha256": "e0da9f4f6772a1de740293dad7bfc9c4b3911ce82c87cef7c97b7e94f560e66a"
+    },
+    {
+      "path": "palettes.json",
+      "bytes": 6356,
+      "sha256": "898cc0e731cfe69f0454a8174f06be212e35dcc05522f1d92840b21dcbf3c96a"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 8433,
+      "sha256": "84743027e4c06b02f62e0df770d4ea97b173b4af9f42162a7dfdb8fa84649880"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 9497,
+      "sha256": "d0197fbf3b12fd50a24403bcf9f1de12c4c539743bf88f67998cfbbeb66c07cb"
+    },
+    {
+      "path": "ai-implementation-rules.md",
+      "bytes": 6962,
+      "sha256": "d2f6441343ec50234bc6dc2f4f38ecc1928851ca5290ff98b93a0eaaa70a9897"
+    },
+    {
+      "path": "review-checklist.md",
+      "bytes": 3223,
+      "sha256": "231f3e885e39c73a422d3f19591845f317bbd393a091d620826251650a92db92"
+    },
+    {
+      "path": "first-pass/index.html",
+      "bytes": 36902,
+      "sha256": "772c195066274b2774e6a4826143d7b19d8946d1e61166dbb36e3d693d7719d2"
+    },
+    {
+      "path": "first-pass/fixtures.json",
+      "bytes": 2894,
+      "sha256": "e0da9f4f6772a1de740293dad7bfc9c4b3911ce82c87cef7c97b7e94f560e66a"
+    },
+    {
+      "path": "first-pass/palettes.json",
+      "bytes": 6356,
+      "sha256": "898cc0e731cfe69f0454a8174f06be212e35dcc05522f1d92840b21dcbf3c96a"
+    }
+  ],
+  "captures": [
+    {
+      "path": "screenshots/work-ink.jpg",
+      "sha256": "525e4f76ffd8af2698b133ebb36390f6802895300494f545db5d305729040808",
+      "bytes": 66363,
+      "width": 1165,
+      "height": 747,
+      "state": "initial_fixture",
+      "purpose": "work",
+      "palette": "work-ink"
+    },
+    {
+      "path": "screenshots/work-cobalt.jpg",
+      "sha256": "efd7fec1f1334ee71aba09bb2a750e87c6196bca309d4cc4cbf0dba7638b90e1",
+      "bytes": 67605,
+      "width": 1165,
+      "height": 747,
+      "state": "initial_fixture",
+      "purpose": "work",
+      "palette": "work-cobalt"
+    },
+    {
+      "path": "screenshots/order-forest.jpg",
+      "sha256": "7716f408cfaa4d8692936293ca22a255c5ef5bc38174bf6f878a2e975862adcf",
+      "bytes": 73282,
+      "width": 1165,
+      "height": 747,
+      "state": "initial_fixture",
+      "purpose": "shop",
+      "palette": "shop-forest"
+    },
+    {
+      "path": "screenshots/order-terracotta.jpg",
+      "sha256": "d8d3e63cf01aa9e0454bbf2ce51b9d6f8c04f1974e74bc00750ab07eab266823",
+      "bytes": 74149,
+      "width": 1165,
+      "height": 747,
+      "state": "initial_fixture",
+      "purpose": "shop",
+      "palette": "shop-terracotta"
+    },
+    {
+      "path": "screenshots/learning-plum.jpg",
+      "sha256": "51bcf500921a7a303716a6e1757ae740014f953b305c5fd71c00028901dfc333",
+      "bytes": 85664,
+      "width": 1165,
+      "height": 747,
+      "state": "initial_fixture",
+      "purpose": "learn",
+      "palette": "learn-plum"
+    },
+    {
+      "path": "screenshots/learning-petrol.jpg",
+      "sha256": "7d6510ae09dbb2b65cf8881169ec8b448db88f8fca58e9a842cca2bf0c057cfe",
+      "bytes": 85397,
+      "width": 1165,
+      "height": 747,
+      "state": "initial_fixture",
+      "purpose": "learn",
+      "palette": "learn-petrol"
+    },
+    {
+      "path": "screenshots/order-narrow.jpg",
+      "sha256": "f1a8fcebbb46c5d1517aafe60539960006ed186c3fa50f0f121ae530a01cc1f2",
+      "bytes": 37964,
+      "width": 390,
+      "height": 844,
+      "state": "initial_fixture",
+      "purpose": "shop",
+      "palette": "shop-forest"
+    }
+  ],
+  "browser_observations": "browser-observations.md",
+  "source_model_checks": "verify-local.mjs",
+  "generated_local_receipt": "qa-local.json",
+  "user_design_approval": "not_established",
+  "usability_gain": "not_proven",
+  "accessibility_conformance": "not_certified",
+  "excluded": "Third-party product screenshots, redundant source builder, original working-stage reports, private user data and machine/execution metadata"
+}
