@@ -86,5 +86,29 @@
     "general_effectiveness": "not_established",
     "prior_criticism_fully_resolved": "not_established",
     "time_budget": "No fixed time budget enforced; duration not controlled"
+  },
+  "instruction_trial_02": {
+    "title": "CP01 guided iteration with guide v2",
+    "scope": "Additional English CP01 guided iteration learned from the first pair; exact final and untouched first-pass implementations, guide v2, portable task, fixture copy, compact change/verification record and two final synthetic-UI captures",
+    "baseline_public_commit": "4cbd45748cbecbea36048aec11343a18904b2d63",
+    "public_capture_authorization": "User explicitly requested actual screen comparisons in the public repository README; these two new captures show project-owned synthetic UIs",
+    "approved_synthetic_capture_sha256": {
+      "research/instruction_trial_02/screenshots/revision2-desktop.jpg": "1793bc2b746d866291c1bc38e35c7fa308d370e0740f4f7520c72f81bf463694",
+      "research/instruction_trial_02/screenshots/revision2-narrow.jpg": "c6f2f30944e3716ef379cd4dea6811ded8b1f8793e1ab03dc40a52435c602341"
+    },
+    "run_record": "../research/instruction_trial_02/run-record.json",
+    "final_implementation_sha256": "b06786c5b53fd932a840f06443dd0181a9f010e3c82e45ffc0c3145d82cdeded",
+    "first_pass_sha256": "1b272550a2fc4268e25237d729a60183382b88065680e56f5c74df4b983e6369",
+    "implementation_repairs": 1,
+    "repair_scope": "Only summary padding 10px to 12px; no specimen, record, palette or action changed",
+    "comparison_status": "Post-review guided iteration, not a fresh ordinary/guided pair or blinded trial",
+    "palette_provenance": "White/charcoal/blue is a proposed case-specific project direction, not an exact palette dictated by the user or a universal palette rule",
+    "runtime_metadata": "Requested gpt-6.1-sol xhigh known; exact backend revision and sampling unavailable",
+    "historical_instruction_preservation": "Original root instruction bytes archived at research/instruction_trial_01/AGENTS.v1.md; expected v1 hash and prompt bytes preserved. Current root instructions route new CP01 work to v2",
+    "excluded": "Supplied historical screenshot, private media, filesystem paths, coordination and user history",
+    "user_approval": "pending",
+    "usability_gain": "not_proven",
+    "causal_effect": "not_established",
+    "general_effectiveness": "not_established"
   }
 }

@@ -1,0 +1,88 @@
+{
+  "title": "CP01 guided iteration with guide v2",
+  "date": "2026-10-04T10:43:04.257Z",
+  "status": "passed",
+  "counts": {
+    "check_groups": 8,
+    "failed": 0
+  },
+  "execution": "Node inline-script VM with minimal DOM/event stubs; static HTML/CSS checks. This is not a browser or user test.",
+  "current_sha256": "b06786c5b53fd932a840f06443dd0181a9f010e3c82e45ffc0c3145d82cdeded",
+  "first_pass_sha256": "1b272550a2fc4268e25237d729a60183382b88065680e56f5c74df4b983e6369",
+  "checks": [
+    {
+      "check": "Exact declared input, implementation, and capture bytes",
+      "result": "pass"
+    },
+    {
+      "check": "Only implementation repair was summary padding 10px to 12px",
+      "result": "pass"
+    },
+    {
+      "check": "Protected labels, titles, body line break, empty After body, records and order",
+      "result": "pass"
+    },
+    {
+      "check": "Single h1, visible boundary, native disclosure, empty initial live status, no dependencies",
+      "result": "pass"
+    },
+    {
+      "check": "Same common card, row, action and focus styles; content-driven heights; prescribed responsive rules",
+      "result": "pass"
+    },
+    {
+      "check": "Actual inline script: both actions enabled and shared intention log with accurate repeated counts",
+      "result": "pass"
+    },
+    {
+      "check": "Actual inline script: reset clears log, closes facts, preserves fixture; repeated reset/action safe",
+      "result": "pass"
+    },
+    {
+      "check": "Used text and interactive-boundary/focus color contrasts",
+      "result": "pass"
+    }
+  ],
+  "contrast_pairs": [
+    {
+      "pair": "Main text / white",
+      "ratio": 16.1,
+      "minimum": 4.5
+    },
+    {
+      "pair": "Metadata / white",
+      "ratio": 6.05,
+      "minimum": 4.5
+    },
+    {
+      "pair": "White label / primary",
+      "ratio": 6.09,
+      "minimum": 4.5
+    },
+    {
+      "pair": "White label / primary hover",
+      "ratio": 7.91,
+      "minimum": 4.5
+    },
+    {
+      "pair": "Main text / secondary hover",
+      "ratio": 14.88,
+      "minimum": 4.5
+    },
+    {
+      "pair": "Secondary boundary / white",
+      "ratio": 3.22,
+      "minimum": 3
+    },
+    {
+      "pair": "Focus outline / white",
+      "ratio": 6.09,
+      "minimum": 3
+    }
+  ],
+  "specimen_boundary_ratio": 1.37,
+  "limitations": [
+    "No rendered layout, native keyboard, focus appearance, native disclosure, console, zoom/reflow, screen reader, native-phone, or human-usability check was performed by this local script. Separately recorded browser observations are not reproduced by this script.",
+    "Low-contrast neutral specimen/list boundaries are grouping separators, not the only signal for a control."
+  ]
+}

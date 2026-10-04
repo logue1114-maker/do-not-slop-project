@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CP01 guided iteration with guide v2</title>
+  <style>
+    :root {
+      --surface: #FFFFFF;
+      --text: #202124;
+      --metadata: #5F6368;
+      --boundary: #DADCE0;
+      --secondary-border: #8A9099;
+      --primary: #1F5FBF;
+      --primary-hover: #194F9E;
+      --secondary-hover: #F5F6F7;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-6: 24px;
+      --space-8: 32px;
+      --radius: 6px;
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--surface);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-size: 16px; line-height: 24px; }
+    main { width: min(1040px, calc(100% - 64px)); margin: var(--space-8) auto; }
+    h1 { margin: 0; font-size: 28px; line-height: 34px; font-weight: 650; }
+    .attribution { margin: var(--space-2) 0 0; color: var(--metadata); font-size: 14px; line-height: 20px; }
+    .demo-boundary { margin: var(--space-3) 0 0; }
+    .no-script { margin: var(--space-3) 0 0; }
+    .comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: var(--space-6); margin-top: var(--space-6); }
+    .panel { min-width: 0; }
+    .panel-label { margin: 0 0 var(--space-2); color: var(--metadata); font-size: 14px; line-height: 20px; }
+    .specimen { padding: var(--space-6); border: 1px solid var(--boundary); border-radius: var(--radius); background: var(--surface); }
+    h2 { margin: 0; font-size: 24px; line-height: 30px; font-weight: 650; }
+    .source-body { margin: var(--space-3) 0 0; white-space: pre-line; }
+    .documents { margin: var(--space-4) 0 0; padding: 0; border-top: 1px solid var(--boundary); list-style: none; }
+    .document { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4); padding: var(--space-3) 0; border-bottom: 1px solid var(--boundary); }
+    .document-name { min-width: 0; font-weight: 600; font-size: 16px; line-height: 24px; }
+    .document-date { flex-shrink: 0; color: var(--metadata); font-size: 14px; line-height: 20px; }
+    button { border: 1px solid transparent; border-radius: var(--radius); min-height: 44px; padding: var(--space-3) var(--space-4); font-family: inherit; font-size: 16px; line-height: 20px; font-weight: 600; cursor: pointer; }
+    .find-document { margin-top: var(--space-4); color: var(--surface); background: var(--primary); }
+    .find-document:hover:not(:disabled) { background: var(--primary-hover); }
+    .reset { color: var(--text); border-color: var(--secondary-border); background: var(--surface); }
+    .reset:hover:not(:disabled) { background: var(--secondary-hover); }
+    button:disabled { cursor: not-allowed; }
+    :focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
+    .rationale { margin: var(--space-6) 0 0; }
+    .utilities { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--space-4); margin-top: var(--space-4); }
+    .facts-disclosure { min-width: 0; flex: 1 1 260px; }
+    summary { width: fit-content; min-height: 44px; padding: 10px 0; cursor: pointer; }
+    .facts { margin-top: var(--space-3); }
+    .facts p { margin: 0; }
+    .fact-records { margin: var(--space-3) 0; padding-left: var(--space-6); }
+    .status { margin: 0; font-size: 14px; line-height: 20px; color: var(--metadata); }
+    .status:not(:empty) { margin-top: var(--space-4); }
+    @media (max-width: 700px) {
+      main { width: calc(100% - 32px); margin-top: var(--space-6); margin-bottom: var(--space-8); }
+      .comparison { grid-template-columns: minmax(0, 1fr); }
+      .specimen { padding: var(--space-4); }
+      .document { display: block; }
+      .document-date { display: block; margin-top: var(--space-1); }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Recent documents</h1>
+      <p class="attribution">CP01 · Copy comparison</p>
+      <p class="demo-boundary">Local educational demo. Buttons record an intention; no navigation, saving, publishing, or transmission.</p>
+      <noscript><p class="no-script">JavaScript is disabled. Recording and reset buttons are unavailable; the specimens and Shared facts remain readable.</p></noscript>
+    </header>
+
+    <div class="comparison">
+      <section class="panel" aria-labelledby="before-label" data-side="before" data-state="ready" data-returning="true">
+        <p class="panel-label" id="before-label">Before · Authored example</p>
+        <div class="specimen">
+          <h2>Welcome back!</h2>
+          <p class="source-body">Explore amazing possibilities and begin a productive journey today.
+Choose a document below.</p>
+          <ul class="documents" aria-label="Documents in Before">
+            <li class="document"><span class="document-name">Weekly meeting notes</span><span class="document-date">Yesterday</span></li>
+            <li class="document"><span class="document-name">Launch checklist</span><span class="document-date">October 2</span></li>
+          </ul>
+          <button class="find-document" type="button" data-side="before" disabled>Find a document</button>
+        </div>
+      </section>
+      <section class="panel" aria-labelledby="after-label" data-side="after" data-state="ready" data-returning="true">
+        <p class="panel-label" id="after-label">After · Authored correction</p>
+        <div class="specimen">
+          <h2>Recent documents</h2>
+          <ul class="documents" aria-label="Documents in After">
+            <li class="document"><span class="document-name">Weekly meeting notes</span><span class="document-date">Yesterday</span></li>
+            <li class="document"><span class="document-name">Launch checklist</span><span class="document-date">October 2</span></li>
+          </ul>
+          <button class="find-document" type="button" data-side="after" disabled>Find a document</button>
+        </div>
+      </section>
+    </div>
+
+    <p class="rationale">The correction replaces the welcome and selection instruction with “Recent documents”; the documents, dates, and action stay the same.</p>
+    <div class="utilities">
+      <button class="reset" type="button" id="reset" disabled>Reset demo state</button>
+      <details class="facts-disclosure" id="shared-facts">
+        <summary>Shared facts</summary>
+        <div class="facts">
+          <p>State: ready</p>
+          <p>Returning user: true</p>
+          <ul class="fact-records">
+            <li>Weekly meeting notes · Yesterday</li>
+            <li>Launch checklist · October 2</li>
+          </ul>
+          <p>Both specimens are authored examples. No account or document service is connected, and this is not a measured user test.</p>
+        </div>
+      </details>
+    </div>
+    <p class="status" id="demo-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  </main>
+  <script>
+    (() => {
+      'use strict';
+      const fixture = {
+      "fixture_id": "cp01-en-v1",
+      "case_id": "CP01",
+      "language": "en",
+      "purpose": "Local educational before/after copy comparison for a returning document user",
+      "state": "ready",
+      "returning": true,
+      "documents": [
+            {
+                  "name": "Weekly meeting notes",
+                  "modified": "Yesterday"
+            },
+            {
+                  "name": "Launch checklist",
+                  "modified": "October 2"
+            }
+      ],
+      "comparison": {
+            "before": {
+                  "label": "Before · Authored example",
+                  "title": "Welcome back!",
+                  "body": "Explore amazing possibilities and begin a productive journey today.\nChoose a document below."
+            },
+            "after": {
+                  "label": "After · Authored correction",
+                  "title": "Recent documents",
+                  "body": ""
+            },
+            "meaning": "Both panels use the same ready state, two document records, modification times, and action. Before contains generic welcome/instruction copy; After is a proposed authored correction. The comparison is educational, not a measured user test."
+      },
+      "primary_action": {
+            "id": "find_document",
+            "label": "Find a document",
+            "effect": "Record the intention to open the document finder; no real navigation, saving, publishing, or transmission"
+      },
+      "reset_action": {
+            "label": "Reset demo state",
+            "effect": "Clear local demo action state and close the shared-facts disclosure; retain the original documents and ready state"
+      },
+      "evidence_disclosure": {
+            "label": "State and facts shared by both panels",
+            "content": "The ready state, returning flag, and the two identical document records"
+      },
+      "protected": [
+            "CP01 educational comparison semantics and direction",
+            "Both authored specimen titles and body texts remain intact as comparison data",
+            "Exactly two document records in each panel",
+            "Both names and modification times, with matching order",
+            "Same ready state and returning user context in both panels",
+            "Find a document action in each panel with the same demo-only effect",
+            "Demo state reset without changing document facts",
+            "A reachable disclosure of the shared state and facts",
+            "An explicit local educational-demo boundary",
+            "No claim of measured usability, a completed model experiment, or real external side effects"
+      ],
+      "editable": [
+            "Visual layout, colors, type, spacing, and responsive behavior",
+            "Comparison chrome and rationale wording, while retaining meaning and artifact attribution",
+            "Implementation details and demo action-record presentation",
+            "Display format around protected document names and modification values"
+      ]
+};
+      const deepFreeze = (value) => {
+        Object.values(value).forEach((item) => {
+          if (item !== null && typeof item === 'object') deepFreeze(item);
+        });
+        return Object.freeze(value);
+      };
+      deepFreeze(fixture);
+      const actionLog = [];
+      const status = document.getElementById('demo-status');
+      const facts = document.getElementById('shared-facts');
+      const reset = document.getElementById('reset');
+      const actions = document.querySelectorAll('.find-document');
+      actions.forEach((button) => {
+        button.addEventListener('click', () => {
+          actionLog.push(Object.freeze({ intention: fixture.primary_action.id, side: button.dataset.side }));
+          const count = actionLog.length;
+          status.textContent = `Finder intention recorded · ${count} ${count === 1 ? 'action' : 'actions'}`;
+        });
+        button.disabled = false;
+      });
+      reset.addEventListener('click', () => {
+        actionLog.length = 0;
+        facts.open = false;
+        status.textContent = 'Demo state reset';
+      });
+      reset.disabled = false;
+      window.CP01Demo = Object.freeze({
+        fixture,
+        get actionLog() { return Object.freeze(actionLog.slice()); }
+      });
+    })();
+  </script>
+</body>
+</html>

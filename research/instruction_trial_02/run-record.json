@@ -1,0 +1,117 @@
+{
+  "title": "CP01 guided iteration with guide v2",
+  "date": "2026-10-04",
+  "baseline_public_commit": "4cbd45748cbecbea36048aec11343a18904b2d63",
+  "fixture_id": "cp01-en-v1",
+  "iteration_type": "Additional guided iteration developed after reviewing the first actual pair; not a new controlled ordinary/guided comparison or blinded trial",
+  "model": {
+    "requested": "gpt-6.1-sol",
+    "requested_reasoning_effort": "xhigh",
+    "exact_backend_revision": "unknown",
+    "sampling_parameters": "unknown"
+  },
+  "time_budget": "No fixed time budget was enforced; duration not controlled",
+  "palette_provenance": "White/charcoal/blue is a proposed case-specific project direction, not an exact palette dictated by the user or a universal palette rule",
+  "public_task_brief": {
+    "path": "prompts/CP01-guided-iteration.txt",
+    "relationship_to_executed_brief": "Portable public version: repository-relative input/output paths, archived exact v1 instructions in place of the then-root file, and removal of personal-history phrasing only; source, behavior, visual-token, QA, version-preservation, and claims requirements unchanged",
+    "executed_brief_sha256": "a5be5f72bf539f856dac132f926a68ff7a2f0b044fb8dd446dfa1f17d491c403"
+  },
+  "input_sha256": {
+    "guides/cp01-task-first-v2.md": "b7143e7103cc327197413a228ef69cca0641a5b8939f3364ec47bb316f765000",
+    "research/instruction_trial_02/fixture.json": "bd4974e574cc576a965e91ece8e9f0f1671f3f03de2ad28842710295d42c2d22",
+    "research/instruction_trial_01/reference/reference-en.html": "4d444f3ad80a20db9c621ee7f8d2bae7667477de9416d6690934c210b4738d81",
+    "research/instruction_trial_02/prompts/CP01-guided-iteration.txt": "1dc3b79c55395374e5cb24d26e6c6a997987bb5347b5b16ccd006e1dd4d2bd9a",
+    "research/instruction_trial_01/AGENTS.v1.md": "3980985ce2d65c3e1490013ea39fb34fa44e71f920829d4d095f98222b23652e"
+  },
+  "artifact_sha256": {
+    "implementation/index.html": "b06786c5b53fd932a840f06443dd0181a9f010e3c82e45ffc0c3145d82cdeded",
+    "implementation/first-pass/index.html": "1b272550a2fc4268e25237d729a60183382b88065680e56f5c74df4b983e6369"
+  },
+  "repair": {
+    "count": 1,
+    "description": "Summary padding changed from 10px 0 to var(--space-3) 0 (12px); no specimen, record, palette, or action change",
+    "first_pass_preserved": true,
+    "test_harness_note": "A broad height regex had falsely matched line-height and permitted button min-height; the corrected assertion targets only specimen height properties"
+  },
+  "screenshots": [
+    {
+      "path": "screenshots/revision2-desktop.jpg",
+      "sha256": "1793bc2b746d866291c1bc38e35c7fa308d370e0740f4f7520c72f81bf463694",
+      "frame_pixels": [
+        1165,
+        747
+      ],
+      "outer_frame_css_pixels": [
+        1165,
+        747
+      ],
+      "reported_inner_css_pixels": [
+        1165,
+        747
+      ],
+      "capture_state": "Default state; no action hover; native facts disclosure closed",
+      "source_sha256": "b06786c5b53fd932a840f06443dd0181a9f010e3c82e45ffc0c3145d82cdeded",
+      "artifact_type": "Actual synthetic-UI browser capture of final guided iteration, not edited or reconstructed"
+    },
+    {
+      "path": "screenshots/revision2-narrow.jpg",
+      "sha256": "c6f2f30944e3716ef379cd4dea6811ded8b1f8793e1ab03dc40a52435c602341",
+      "frame_pixels": [
+        390,
+        844
+      ],
+      "outer_frame_css_pixels": [
+        390,
+        844
+      ],
+      "reported_inner_css_pixels": [
+        375,
+        844
+      ],
+      "capture_state": "Default state; no action hover; native facts disclosure closed",
+      "source_sha256": "b06786c5b53fd932a840f06443dd0181a9f010e3c82e45ffc0c3145d82cdeded",
+      "artifact_type": "Actual synthetic-UI browser capture of final guided iteration, not edited or reconstructed"
+    }
+  ],
+  "browser_observations": {
+    "environment": "Cloud browser; desktop 1165×747 and narrow 390×844 outer frames; narrow document client width 375px with scrollbar reservation",
+    "first_pass_sha256": "1b272550a2fc4268e25237d729a60183382b88065680e56f5c74df4b983e6369",
+    "first_pass_checks": [
+      "Protected source copy and document names/dates preserved",
+      "Visible initial local-demo boundary at both frames",
+      "Both desktop actions fit; narrow comparison scrolls vertically",
+      "Equal blue action styling on white surfaces and removal of added directive slogans",
+      "Both actions, repeated activation, accurate local counts, reset and disclosure closure",
+      "Native Enter/Space button activation",
+      "Sequential Tab order Before → After → Reset → Shared facts; Shift+Tab from summary to Reset",
+      "No horizontal overflow observed in tested states"
+    ],
+    "final_sha256": "b06786c5b53fd932a840f06443dd0181a9f010e3c82e45ffc0c3145d82cdeded",
+    "focused_final_recheck": [
+      "Only summary padding changed; computed 12px at desktop and narrow",
+      "No horizontal overflow at either frame",
+      "Reverse keyboard traversal Shared facts → Reset → After → Before",
+      "Desktop default action fills both rgb(31, 95, 191), without hover mismatch",
+      "Final exact default-state captures saved at both frames"
+    ],
+    "rerun_boundary": "Action and forward-keyboard checks were run on the preserved first pass. Final-source checks above are a focused recheck of the sole 2px summary-padding repair, not a complete interaction rerun.",
+    "limits": "Bounded browser/source observation, not native-phone, screen-reader, 200% zoom, exhaustive accessibility, or human usability validation",
+    "console": "Sampled browser error logs after first-pass interactions showed only chrome-extension content-script metadata errors, no app-origin errors in that sample. Not exhaustive console monitoring or a fresh full final-console audit."
+  },
+  "unrun_gates": [
+    "Native-phone",
+    "Screen-reader",
+    "200% zoom/reflow",
+    "Human usability or preference study",
+    "Exhaustive console monitoring and fresh full final-console audit"
+  ],
+  "claims": {
+    "user_approval": "pending",
+    "measured_usability": "not_established",
+    "causal_instruction_effect": "not_established",
+    "general_effectiveness": "not_established"
+  },
+  "scope": "Additive public source preparation; no publishing, Site edit, license choice or plugin installation",
+  "screenshot_delivery_limit": "The two retained captures are exact default browser frames only. Full-page and action/disclosure screenshots requested in the task brief are not included; the narrow capture is not a full vertical-comparison capture."
+}

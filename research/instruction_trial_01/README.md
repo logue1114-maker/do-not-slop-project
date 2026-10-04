@@ -7,7 +7,9 @@ One ordinary-request output and one project-guided output, preserved from fresh 
 - [Faithful English reference](reference/reference-en.html) and [desktop capture](screenshots/reference-desktop.jpg): authored reconstruction of an earlier screen, used as the shared starter, not a model-run arm
 - [A · Ordinary-request first pass](alpha/index.html), [desktop capture](screenshots/alpha-desktop.jpg) and [narrow capture](screenshots/alpha-narrow.jpg)
 - [B · Project-guided first pass](beta/index.html), [desktop capture](screenshots/beta-desktop.jpg) and [narrow capture](screenshots/beta-narrow.jpg)
-- [Fixed fixture](fixture.json), [ordinary brief](prompts/A-plain.txt), [guided brief](prompts/B-guided.txt), [AI instructions](../../AGENTS.md), [bounded guide](../../guides/cp01-task-first.md), and [shared checklist](checks/verification-checklist.md)
+- [Fixed fixture](fixture.json), [ordinary brief](prompts/A-plain.txt), [guided brief](prompts/B-guided.txt), [exact v1 AI instructions](AGENTS.v1.md), [bounded guide](../../guides/cp01-task-first.md), and [shared checklist](checks/verification-checklist.md)
+
+For a reproduction, copy the unchanged archived `AGENTS.v1.md` into the trial workspace as `AGENTS.md`; the original guided brief and expected instruction hash stay unchanged. The repository root instructions now route new CP01 work to v2.
 
 Open the three HTML files directly, or serve the repository with `python3 -m http.server 8765 --bind 127.0.0.1`. All actions are local demonstrations. There is no account, document backend, payment, or external navigation.
 

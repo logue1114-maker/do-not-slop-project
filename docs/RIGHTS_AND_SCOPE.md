@@ -15,3 +15,10 @@ Code/contract tests are distinct from browser rendering, keyboard/accessibility,
 The five JPGs in `research/instruction_trial_01/screenshots/` are actual captures of this project's synthetic reference and two actual model-generated first-pass local UIs. Public inclusion was explicitly authorized for the README screen comparison. They contain no third-party product screenshots or private user data. The original supplied historical image and its private provenance record are omitted. Exact capture hashes are declared separately in `PROVENANCE.json`.
 
 The trial is a descriptive single pair. Its own screen-internal Before/After labels describe authored copy specimens, while the outer ordinary-request/guided pair describes model runs. No winner, measured usability gain, general instruction effectiveness, or fully resolved design criticism is claimed. User approval remains pending. Blinded artifact review is recorded descriptively; it does not validate an overall winner.
+
+
+## Additional CP01 guided-iteration captures
+
+The two JPGs in `research/instruction_trial_02/screenshots/` are exact final browser captures of the project's synthetic guided iteration. Public inclusion was authorized for the README screen comparison. Their paths/hashes are explicitly allowlisted in `PROVENANCE.json`; they contain no third-party product screenshots or private user media. The historical supplied image remains excluded.
+
+This additional artifact follows review of the first pair and is not a new controlled pair, blinded result, causal-effect claim or measured usability result. Exact first-pass/final source and the sole padding repair are preserved; user approval and reuse license remain pending. Earlier evidence limits are unchanged.

@@ -6,7 +6,7 @@ These are public project instructions for making and reviewing interfaces, guide
 
 - **Product UI:** identify the person, immediate task, current state, and supported next action before choosing a layout.
 - **Educational comparison:** identify what is being compared and what is deliberately held constant. Preserve the specimen being discussed; improve the teaching frame around it.
-- **New CP01 recent-documents work:** read `guides/cp01-task-first-v2.md` and the supplied fixture. Other cases need their own bounded guide, not an indiscriminate application of CP01. To reproduce the first pair, use the exact [archived v1 instructions](research/instruction_trial_01/AGENTS.v1.md) and `guides/cp01-task-first.md`; keep that earlier evidence unchanged.
+- **CP01 recent-documents comparison:** read `guides/cp01-task-first.md` and the supplied fixture. Other cases need their own bounded guide, not an indiscriminate application of CP01.
 - **Instruction-effect case study:** preserve the supplied source, exact prompts, instruction version, run metadata, and actual output separately. A reconstruction is a reconstruction. A proposed example is not a measured result.
 - **Reusable guide change:** first locate a concrete failure or repeated decision that needs a rule. Write the smallest useful rule and a checkable example; avoid adding a list of aesthetic prohibitions.
 

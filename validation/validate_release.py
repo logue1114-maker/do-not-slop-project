@@ -16,6 +16,10 @@ TRIAL_CAPTURE_PATHS = {
     'research/instruction_trial_01/screenshots/' + name + '.jpg'
     for name in ('reference-desktop', 'alpha-desktop', 'beta-desktop', 'alpha-narrow', 'beta-narrow')
 }
+GUIDED_CAPTURE_PATHS = {
+    'research/instruction_trial_02/screenshots/' + name + '.jpg'
+    for name in ('revision2-desktop', 'revision2-narrow')
+}
 
 
 class Links(HTMLParser):
@@ -36,12 +40,14 @@ def inspect(root):
     relative = {p.relative_to(root).as_posix(): p for p in files}
     check('regular_contained_files', not any(p.is_symlink() or not p.resolve().is_relative_to(root.resolve()) for p in root.rglob('*')))
     provenance = json.loads(relative['docs/PROVENANCE.json'].read_text())
-    approved_captures = provenance.get('instruction_trial_01', {}).get('approved_synthetic_capture_sha256', {})
+    approved_captures_v1 = provenance.get('instruction_trial_01', {}).get('approved_synthetic_capture_sha256', {})
+    approved_captures_v2 = provenance.get('instruction_trial_02', {}).get('approved_synthetic_capture_sha256', {})
+    approved_captures = {**approved_captures_v1, **approved_captures_v2}
     denied_parts = {'.git', '.openai', '.aws', '.codex', '.agents', 'node_modules', 'evidence', 'browser_qa', 'public_release_audit'}
     forbidden = [r for r, p in relative.items() if set(p.relative_to(root).parts) & denied_parts
                  or re.search(r'(?:evaluation|private|audit_report)', r, re.I)
                  or (p.suffix.lower() in {'.zip', '.mp4', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.woff', '.woff2', '.ttf', '.otf', '.pem', '.key'}
-                     and not (p.suffix.lower() == '.jpg' and r in TRIAL_CAPTURE_PATHS and r in approved_captures))
+                     and not (p.suffix.lower() == '.jpg' and r in (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS) and r in approved_captures))
                  or p.name == 'LICENSE' or p.name.startswith('.env')]
     check('excluded_media_archives_configuration_absent', not forbidden, forbidden)
     required = ['README.md', 'docs/RIGHTS_AND_SCOPE.md', 'docs/VERIFICATION.md', 'docs/PROVENANCE.json',
@@ -76,7 +82,9 @@ def inspect(root):
             check('vector_no_embedded_media:' + rel, not any(element.tag.split('}')[-1] in {'image', 'script', 'foreignObject'} for element in document.iter())
                   and 'data:' not in path.read_text() and '@font-face' not in path.read_text())
     capture_paths = {r for r, p in relative.items() if p.suffix.lower() in {'.jpg', '.jpeg'}}
-    check('exact_synthetic_capture_allowlist', set(approved_captures) == TRIAL_CAPTURE_PATHS == capture_paths)
+    check('exact_original_capture_allowlist', set(approved_captures_v1) == TRIAL_CAPTURE_PATHS)
+    check('exact_guided_iteration_capture_allowlist', set(approved_captures_v2) == GUIDED_CAPTURE_PATHS)
+    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS) == capture_paths)
     for rel in sorted(capture_paths):
         check('synthetic_capture_bytes:' + rel, hashlib.sha256(relative[rel].read_bytes()).hexdigest() == approved_captures.get(rel))
     broken, escaped = [], []

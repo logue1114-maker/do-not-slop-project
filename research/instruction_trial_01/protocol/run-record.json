@@ -178,5 +178,9 @@
       "both_narrow": 375
     },
     "console": "Extension metadata errors; no app-origin error observed in sampled entries; not exhaustive console/network audit"
-  }
+  },
+  "guided_instruction_archive_paths": {
+    "AGENTS.md": "research/instruction_trial_01/AGENTS.v1.md"
+  },
+  "instruction_archive_note": "The original root AGENTS.md input is archived byte-for-byte at AGENTS.v1.md for reproduction; original prompt bytes and expected input hash remain unchanged. Current root instructions route new work to guide v2."
 }

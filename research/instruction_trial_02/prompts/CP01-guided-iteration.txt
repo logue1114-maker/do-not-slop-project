@@ -1,0 +1,73 @@
+Implement one English-first CP01 copy-comparison page as a new local guided iteration. Use the exact content, visual tokens, and checks below. This revision addresses the existing example’s framing and palette. Keep the source specimens intact and change the surrounding screen. Do not edit or publish any Site, alter a GitHub repository or README, replace the first pair, or claim a new controlled experiment.
+
+Read these three files before coding:
+1. research/instruction_trial_01/AGENTS.v1.md
+2. guides/cp01-task-first-v2.md
+3. research/instruction_trial_02/fixture.json
+
+The original English starter is available read-only at research/instruction_trial_01/reference/reference-en.html. Do not alter it or the fixture. This prompt is the task brief; it does not require the first pair's outputs or review files as implementation inputs. If an inherited generic instruction conflicts with the concrete v2 art direction, apply this task-specific direction and record the conflict in the implementation report.
+
+Create the new artifact only inside research/instruction_trial_02/implementation/. Deliver a self-contained index.html with embedded CSS and JavaScript and no external dependencies. Preserve an untouched first-pass copy at implementation/first-pass/index.html before any QA repair. Save screenshots and an honest QA record beside the new artifact. Record exact repairs in a small repair log; do not replace an earlier version silently.
+
+Source content and behavior
+
+The fixture ID is cp01-en-v1. Both panels share state ready and returning true. In both panels, render exactly two records in this order:
+- Weekly meeting notes, with modification value Yesterday
+- Launch checklist, with modification value October 2
+
+Before attribution: Before · Authored example
+Before title: Welcome back!
+Before body, with this line break preserved:
+Explore amazing possibilities and begin a productive journey today.
+Choose a document below.
+
+After attribution: After · Authored correction
+After title: Recent documents
+After body: empty. Do not insert new body copy.
+
+Each panel has a real button labeled Find a document. Both buttons append the same find_document intention to a single local action log, recording the originating side. No navigation, saving, publishing, or transmission occurs. Document rows are plain records, not fake links. Expose a test interface as window.CP01Demo with fixture and actionLog if practical. Reset demo state clears the log, closes the facts disclosure, and preserves all original records and ready/returning state. Repeated activation remains safe and increments the log accurately.
+
+Visible screen copy and order
+
+1. h1: Recent documents
+2. Small attribution: CP01 · Copy comparison
+3. Visible immediately underneath: Local educational demo. Buttons record an intention; no navigation, saving, publishing, or transmission.
+4. Before and After, with their exact source copy and records visible
+5. One plain explanatory sentence: The correction replaces the welcome and selection instruction with “Recent documents”; the documents, dates, and action stay the same.
+6. A secondary Reset demo state button and native details/summary labeled Shared facts
+
+In Shared facts, display State: ready, Returning user: true, and both name/date records in a readable format. Then include once: Both specimens are authored examples. No account or document service is connected, and this is not a measured user test.
+
+After an action, show an accurate compact live status, for example Finder intention recorded · 1 action, with the appropriate count and plural. After reset announce Demo state reset. Before interaction, do not add idle-status prose or a reserved empty status band. Keep the boundary visible above the specimens, including on mobile. Include an accurate no-JavaScript fallback for the disabled recording/reset behavior, without obscuring the specimens.
+
+Do not add Start with the work, Put the document first, or another directive/marketing headline. Do not add repeated authoring, evaluation, invariant, or visible-control commentary outside the required copy. The two-line bad copy in Before is protected evidence and must remain. Omit the one-option case selector, project masthead, numbered specimen tags, decorative status dot, icons, sidebar, navigation, analytics, and simulated backend features.
+
+Exact art direction and layout
+
+Use a system sans-serif stack and these roles:
+- Canvas/surfaces #FFFFFF; main text #202124; metadata #5F6368
+- Specimen/list boundaries #DADCE0; secondary control border #8A9099
+- Both primary buttons #1F5FBF with white text; hover #194F9E
+- Secondary hover #F5F6F7
+- Focus outline 3px #1F5FBF with 3px offset
+- Spacing scale 4, 8, 12, 16, 24, 32px; radius 6px
+
+Use no green/teal controls, green wash, warm-neutral canvas, decorative top rules, or shadows for this sample. These are proposed case-specific white/charcoal/blue tokens addressing the prior tone and colors. The exact palette is a project proposal; it is not a claim that other palettes are always poor.
+
+Main: centered width min(1040px, calc(100% - 64px)), top/bottom margin 32px. At 700px and below: width calc(100% - 32px), top margin 24px, bottom margin 32px.
+
+Header: h1 28px/34px, weight 650; attribution 14px/20px with 8px gap; boundary 16px/24px with 12px above; 24px before specimens. Pair: two equal columns, gap 24px; single column at 700px and below, Before first. Labels: 14px/20px, 8px before each specimen.
+
+Specimens: identical 1px neutral borders, radius 6px, desktop padding 24px, narrow padding 16px. Independent content-driven heights, aligned at the top; no fixed/minimum height, stretch, or bottom-pinning. Same title 24px/30px at weight 650; body 16px/24px and 12px after title. List starts 16px after preceding content. Rows use 12px vertical padding, neutral separators, names 16px/24px at weight 600, dates 14px/20px. Desktop dates align right with 16px gap; narrow dates are 4px below their names. Do not prepend Modified: labels. Apply identical row format on both sides.
+
+Buttons: 16px/20px at weight 600, padding 12px vertically/16px horizontally, at least 44px tall, content-sized width. Both Find a document buttons have the same blue fill and prominence. Put each 16px after its list. Do not dim Before, tint After, or stretch a button to fill a card.
+
+Rationale: plain 16px/24px paragraph 24px after pair, without a heading or callout box. Utilities: 16px after rationale, 16px gap, wrap naturally. Disclosure uses 16px/24px text and no horizontal-scroll code block. Let After be shorter because its authored body is empty. Prefer readable mobile scrolling over forcing both cards into one viewport.
+
+Verification and delivery
+
+Render default state at exactly 1165 × 747 and 390 × 844 CSS pixels. Save viewport and full-page screenshots and inspect them. Boundary must be visible in each initial view; both desktop actions should fit initially. Mobile may require vertical scrolling. Verify protected source text, names/dates/order, equal styling, no clipping/horizontal overflow, and no manufactured blank region or unwanted framing/palette.
+
+Activate each action and repeat one; check counts and originating side. Open/close facts; reset and verify zero log entries, disclosure closure, unchanged records/state. Test full Tab/Shift+Tab order, Enter/Space activation, native summary keyboard use, visible focus, used color contrasts, 200% zoom/reflow, and browser console. Save an action/disclosure screenshot at both sizes. Report every blocked/unrun check accurately; do not describe structural checks as user testing. Native-phone, screen-reader, or human-usability claims require those tests to have actually run.
+
+Return the new implementation path, the real screenshots, a compact QA/repair record, and a short instruction-to-output mapping suitable for a later README addition. Use concrete facts such as “v2 requested equal blue actions; both rendered actions now use the same treatment,” with screenshot references. Do not edit README yourself. Title the result CP01 guided iteration with guide v2. State that it was developed after reviewing the first pair, is not a fresh ordinary/guided comparison, and has no user approval or measured usability result. If a requested improvement failed, say so directly and preserve that output.

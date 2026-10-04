@@ -51,7 +51,7 @@ record=json.loads((ROOT/'protocol/run-record.json').read_text())
 fixture=json.loads((ROOT/'fixture.json').read_text())
 for key in ('common_inputs_sha256','public_task_briefs_sha256'):
     for rel,expected in record[key].items():check('input_sha256:'+rel,sha(ROOT/rel)==expected)
-for rel,expected in record['guided_only_instructions_sha256'].items():check('guided_instruction_sha256:'+rel,sha(REPO/rel)==expected)
+for rel,expected in record['guided_only_instructions_sha256'].items():check('guided_instruction_sha256:'+rel,sha(REPO/record.get('guided_instruction_archive_paths', {}).get(rel, rel))==expected)
 a=(ROOT/'prompts/A-plain.txt').read_bytes();b=(ROOT/'prompts/B-guided.txt').read_bytes()
 check('identical_public_prompt_core',b==a+b'\nAdditional project instructions:\nBefore implementing, read AGENTS.md and guides/cp01-task-first.md in this workspace and apply them to this task.\n')
 for rel in ('reference/reference-en.html','alpha/index.html','beta/index.html'):

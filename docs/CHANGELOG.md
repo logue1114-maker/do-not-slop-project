@@ -1,5 +1,17 @@
 # Source changes
 
+## 2026-10-04: Additional CP01 guided iteration with guide v2
+
+Prepared as a narrow additive follow-up to public commit `4cbd45748cbecbea36048aec11343a18904b2d63`.
+
+- Add the exact reusable guide v2, portable implementation task, unchanged fixture copy, exact final source and untouched first pass
+- Put the authored old English reference beside the actual final guided screen near the main README top; retain the initial actual A/B section separately with its limits
+- Preserve two final synthetic-UI JPGs byte-for-byte and record bounded first-pass checks plus the focused final recheck of the sole summary-padding repair, 10px to 12px
+- Archive original root AI instructions byte-for-byte; route new root CP01 work to v2, with reproduction links and validator path resolving the unchanged v1 hash to that archive
+- Extend the release validator by the exact two new approved JPG paths/hashes, and regenerate changed package/release receipts and inventory
+
+This is a post-review guided iteration, not a fresh controlled pair. No prior implementation, v1 guide, prompt, fixture or screenshot is replaced. White/charcoal/blue is a project proposal; user design approval, measured usability and causal/general effectiveness remain unestablished. No publishing, Site edit, plugin installation or license choice is included in this source-tree preparation.
+
 ## 2026-10-04: English CP01 instruction trial 01
 
 Prepared as an additive follow-up to public commit `54ca5160c59769ad3fd63ade26efe6051c9a87e6`.

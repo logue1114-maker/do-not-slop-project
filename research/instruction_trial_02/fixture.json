@@ -1,0 +1,62 @@
+{
+  "fixture_id": "cp01-en-v1",
+  "case_id": "CP01",
+  "language": "en",
+  "purpose": "Local educational before/after copy comparison for a returning document user",
+  "state": "ready",
+  "returning": true,
+  "documents": [
+    {
+      "name": "Weekly meeting notes",
+      "modified": "Yesterday"
+    },
+    {
+      "name": "Launch checklist",
+      "modified": "October 2"
+    }
+  ],
+  "comparison": {
+    "before": {
+      "label": "Before · Authored example",
+      "title": "Welcome back!",
+      "body": "Explore amazing possibilities and begin a productive journey today.\nChoose a document below."
+    },
+    "after": {
+      "label": "After · Authored correction",
+      "title": "Recent documents",
+      "body": ""
+    },
+    "meaning": "Both panels use the same ready state, two document records, modification times, and action. Before contains generic welcome/instruction copy; After is a proposed authored correction. The comparison is educational, not a measured user test."
+  },
+  "primary_action": {
+    "id": "find_document",
+    "label": "Find a document",
+    "effect": "Record the intention to open the document finder; no real navigation, saving, publishing, or transmission"
+  },
+  "reset_action": {
+    "label": "Reset demo state",
+    "effect": "Clear local demo action state and close the shared-facts disclosure; retain the original documents and ready state"
+  },
+  "evidence_disclosure": {
+    "label": "State and facts shared by both panels",
+    "content": "The ready state, returning flag, and the two identical document records"
+  },
+  "protected": [
+    "CP01 educational comparison semantics and direction",
+    "Both authored specimen titles and body texts remain intact as comparison data",
+    "Exactly two document records in each panel",
+    "Both names and modification times, with matching order",
+    "Same ready state and returning user context in both panels",
+    "Find a document action in each panel with the same demo-only effect",
+    "Demo state reset without changing document facts",
+    "A reachable disclosure of the shared state and facts",
+    "An explicit local educational-demo boundary",
+    "No claim of measured usability, a completed model experiment, or real external side effects"
+  ],
+  "editable": [
+    "Visual layout, colors, type, spacing, and responsive behavior",
+    "Comparison chrome and rationale wording, while retaining meaning and artifact attribution",
+    "Implementation details and demo action-record presentation",
+    "Display format around protected document names and modification values"
+  ]
+}
