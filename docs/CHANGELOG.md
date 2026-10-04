@@ -1,5 +1,16 @@
 # Source changes
 
+## 2026-10-04: README and research navigation
+
+Prepared as a presentation-only update to public commit `7b3709c4ea064ca35538c88fab4a79efd50bf969`.
+
+- Lead the README with the project purpose, one accurately labeled CP01 visual comparison, immediate AI-use steps, and a task-based guide/example catalog
+- Move detailed historical runs, screenshot links, research routes, local example paths, and source-check commands into [the research index](RESEARCH_INDEX.md); keep earlier public screenshot anchors reachable
+- Retain honest-comparison limits, optional-star safeguards, license status, and the uninstalled plugin's draft status without advertising unfinished galleries or an instruction-effect result
+- Preserve all existing AI instructions, guides, research, runtime, fixtures, screenshots, methods, and historical evidence bytes; regenerate only the release-tree receipt and file inventory
+
+No publication, Site edit, new experiment, plugin installation, license choice, or implementation change is included.
+
 ## 2026-10-04: Honest ordinary-quality comparisons and historical context
 
 Prepared as a documentation-only update to public commit `9a6e883ff24cd6eb06f25f4e4ff38030a5d1c707`.

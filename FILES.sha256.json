@@ -1,6 +1,6 @@
 {
   "project": "Do Not Slop Project",
-  "created_at_utc": "2026-10-04T14:22:35.385275+00:00",
+  "created_at_utc": "2026-10-04T14:44:06.454042+00:00",
   "hash_algorithm": "sha256",
   "self_hash": "not included to avoid recursive self-reference",
   "license_choice": "pending_user_decision",
@@ -17,13 +17,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 15706,
-      "sha256": "8e7936c9fa0238f986bf90091bd6a1ea957e68e994831b375cc782cb8c69d57c"
+      "bytes": 6221,
+      "sha256": "40ae7c939eb0f3b2f53df764b82e6337fc35801e516120675bf274562b587d54"
     },
     {
       "path": "docs/CHANGELOG.md",
-      "bytes": 6805,
-      "sha256": "d9a4a7145e10a27e48018b35ed6f73e36744c2fff8a6586489dc82cce6339005"
+      "bytes": 7820,
+      "sha256": "204031776f8125bef48fd3cf98f1d041a8e2ca384f79ab16a498b1db71e8cec0"
     },
     {
       "path": "docs/HONEST_COMPARISONS.md",
@@ -39,6 +39,11 @@
       "path": "docs/PROVENANCE.json",
       "bytes": 14180,
       "sha256": "0834b54de5f907bf03804481daede613d535d431bd4e5f95951a96587b56ca81"
+    },
+    {
+      "path": "docs/RESEARCH_INDEX.md",
+      "bytes": 12401,
+      "sha256": "cbeb2a744dc354d971bca498c28afe6791a38c4c43990c4d150f02bee358b1b6"
     },
     {
       "path": "docs/RIGHTS_AND_SCOPE.md",
@@ -1023,7 +1028,7 @@
     {
       "path": "validation/release-checks.json",
       "bytes": 29259,
-      "sha256": "2f24450b22f87c8b1bb42e1c8d60adca2fb546f0276f84b61f22dec0517637de"
+      "sha256": "1bb2f2d0509d8375a09fc2795752e188222690981fd98506e771ecbd4d57e820"
     },
     {
       "path": "validation/relocation-summary.json",
