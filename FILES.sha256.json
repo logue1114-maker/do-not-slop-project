@@ -1,6 +1,6 @@
 {
   "project": "Do Not Slop Project",
-  "created_at_utc": "2026-10-04T11:35:48.322627+00:00",
+  "created_at_utc": "2026-10-04T14:09:50.025145+00:00",
   "hash_algorithm": "sha256",
   "self_hash": "not included to avoid recursive self-reference",
   "license_choice": "pending_user_decision",
@@ -12,18 +12,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 9262,
-      "sha256": "0e5014ab9ad63ba9f198dd523d0cb25048e745957664dcead176ee85f3f34f28"
+      "bytes": 10884,
+      "sha256": "5007fa764dffb920f7405c5beee843d21120487b31758a3519232e26368615ac"
     },
     {
       "path": "README.md",
-      "bytes": 13781,
-      "sha256": "ac95a81c5d27408469950ec832c53b5ad894aae9a7f84d54ecb57d3c41a9ace7"
+      "bytes": 14834,
+      "sha256": "0cd1c3ad389fad6425b90af52a81af998bb382727f620345bf4c5c8c6460c733"
     },
     {
       "path": "docs/CHANGELOG.md",
-      "bytes": 4679,
-      "sha256": "7fbeb7001ec0934a654645a7c75af59bad3be3daa0d51406488169713dd2b83b"
+      "bytes": 5606,
+      "sha256": "e9b0b46b7f1989757ffb4196c7cd8deadce9f499c6fd26f430cd1b4802321cf9"
     },
     {
       "path": "docs/PRESERVED_INPUTS.sha256.json",

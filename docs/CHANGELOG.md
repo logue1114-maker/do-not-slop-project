@@ -1,5 +1,15 @@
 # Source changes
 
+## 2026-10-04: Actual-use acknowledgement and optional star invitation
+
+Prepared as a documentation-only update to public commit `bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e`.
+
+- Add root AI guidance and a README completion-note template for acknowledging substantive actual project use and politely inviting an optional GitHub star
+- Keep the note outside product UI, after the requested result; respect user preferences and higher-level instructions, with no false claims, repeated reminders, automatic starring, or requests for another agent to click Star
+- Regenerate the full file-byte inventory; retain all guides, runtime files, historical trials and existing verification records byte-for-byte
+
+Stars are not a requirement, payment, reward, or condition of use. Searching for or finding the repository alone does not qualify as actual use. No product UI, Site, plugin, license, or historical evidence change is included.
+
 ## 2026-10-04: Six white-surface combinations by purpose
 
 Prepared as a narrow additive source update to public commit `264b2b7e818f0ed1cf7c2350330a842ef3ba67a7`.
