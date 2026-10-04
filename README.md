@@ -41,26 +41,28 @@ V2 specifies a compact frame, white/charcoal surfaces, equal blue actions, natur
 
 This is an additional guided iteration learned from the first pair, not a new controlled ordinary/guided experiment. The reference is an authored English reconstruction, not an ordinary-request model output. [First pass, sole 2px summary-padding repair and verification record](research/instruction_trial_02/README.md) are preserved. User approval and measured usability remain unestablished; native-phone, screen-reader and 200% zoom/reflow checks are unrun. The initial actual pair remains separate below.
 
-## Initial actual screens: English CP01 instruction trial 01
+## Initial actual screens: CP01 shared-reference redesign trial 01
 
-A faithful English reference and two fresh model implementations of the same local copy-comparison task. Click any image for its original capture.
+A faithful English reference and two fresh model redesigns of the same local copy-comparison task. Both arms received that English screenshot reconstruction as a styled HTML starter. This is a shared-reference redesign, not ordinary from-scratch generation without design references. Click any image for its original capture.
 
 ### Shared English reference
 
 [![English reference: two authored copy specimens with the same recent documents](research/instruction_trial_01/screenshots/reference-desktop.jpg)](research/instruction_trial_01/screenshots/reference-desktop.jpg)
 
-### Actual ordinary-request and guided outputs
+### Actual shared-reference redesign outputs
 
-| A · Ordinary request | B · Project-guided request |
+| A · Quality redesign request + shared starter | B · Same request/starter + project guide |
 | :---: | :---: |
 | [![Actual ordinary-request first-pass screen](research/instruction_trial_01/screenshots/alpha-desktop.jpg)](research/instruction_trial_01/screenshots/alpha-desktop.jpg) | [![Actual guided first-pass screen](research/instruction_trial_01/screenshots/beta-desktop.jpg)](research/instruction_trial_01/screenshots/beta-desktop.jpg) |
 | [Runnable A source](research/instruction_trial_01/alpha/index.html) | [Runnable B source](research/instruction_trial_01/beta/index.html) |
 
-Both requested `gpt-6.1-sol` with `xhigh` reasoning, used the same English starter and fixture, and made one first pass with no repair. B also received [exact archived v1 project AI instructions](research/instruction_trial_01/AGENTS.v1.md) and the [CP01 task-first guide](guides/cp01-task-first.md). The [exact public task briefs](research/instruction_trial_01/prompts/A-plain.txt) and [guided addition](research/instruction_trial_01/prompts/B-guided.txt), [checks](research/instruction_trial_01/checks/verification-checklist.md), [protocol and limits](research/instruction_trial_01/protocol/PROTOCOL.md), and [run record](research/instruction_trial_01/protocol/run-record.json) are included.
+Both requested `gpt-6.1-sol` with `xhigh` reasoning, used the same English starter and fixture, and made one first pass with no repair. The archived “ordinary request” label means the unguided quality-redesign request in this shared-reference setting. B also received [exact archived v1 project AI instructions](research/instruction_trial_01/AGENTS.v1.md) and the [CP01 task-first guide](guides/cp01-task-first.md). The [exact public task briefs](research/instruction_trial_01/prompts/A-plain.txt) and [guided addition](research/instruction_trial_01/prompts/B-guided.txt), [checks](research/instruction_trial_01/checks/verification-checklist.md), [protocol and limits](research/instruction_trial_01/protocol/PROTOCOL.md), and [run record](research/instruction_trial_01/protocol/run-record.json) are included.
 
 These are actual outputs, not a fabricated winning Before/After pair. The Before/After labels *inside each screen* refer to the authored copy specimens. Both outputs still use green actions and neutral backgrounds; the criticism is not established as fully resolved. A blinded artifact review recorded descriptive subtotals of 10/12 for A and 11/12 for B, with the difference tied to equal action emphasis, not a validated winner. [Review findings](research/instruction_trial_01/protocol/REVIEW_FINDINGS.md) also note more scrolling and a below-fold boundary in B. User approval is pending. No fixed time budget was enforced. One pair does not show measured usability or general effectiveness.
 
 [Narrow A capture](research/instruction_trial_01/screenshots/alpha-narrow.jpg) · [Narrow B capture](research/instruction_trial_01/screenshots/beta-narrow.jpg) · [Trial package](research/instruction_trial_01/README.md)
+
+For future website/game pairs, use [the honest comparison protocol](docs/HONEST_COMPARISONS.md): the baseline asks for a polished, attractive, complete result with the same functional/data requirements; only the treatment receives the frozen guide/reference/intention. Preserve all outcomes and separate functional checks from style and treatment fidelity. A guide-plus-reference bundle does not prove an isolated guide effect. A fresh pair is planned, not run; current demos and presets are authored/guided examples.
 
 Research, operational rules and runnable synthetic comparisons for clearer interface layout, task flow and UI copy. Most manuals are written in Korean. Examples separate source observations, authored proposals and unknowns, and preserve content/state when comparing presentations.
 
@@ -100,7 +102,7 @@ From the repository root:
 Then open:
 
 - English CP01 reference: http://127.0.0.1:8765/research/instruction_trial_01/reference/reference-en.html
-- Actual ordinary-request output: http://127.0.0.1:8765/research/instruction_trial_01/alpha/
+- Actual unguided shared-reference redesign: http://127.0.0.1:8765/research/instruction_trial_01/alpha/
 - Initial actual guided output: http://127.0.0.1:8765/research/instruction_trial_01/beta/
 - Guided iteration with guide v2: http://127.0.0.1:8765/research/instruction_trial_02/implementation/
 - White-surface palette explorer: http://127.0.0.1:8765/research/white_surface_palettes_v1/

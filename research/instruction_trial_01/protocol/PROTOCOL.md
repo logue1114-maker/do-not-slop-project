@@ -2,7 +2,9 @@
 
 ## Fixed comparison
 
-Question: for the single CP01 fixture, what observable differences appear between one ordinary-request implementation and one implementation given the same request plus bounded project instructions?
+Question: for the single CP01 fixture and shared English reconstruction/styled HTML starter, what observable differences appear between one quality-redesign request and the same request plus bounded project instructions?
+
+Both arms received the same English screenshot reconstruction as their starter. The archived “ordinary request” label describes the unguided redesign in this shared-reference context; it is not a no-reference from-scratch quality request. See [honest comparisons](../../../docs/HONEST_COMPARISONS.md) for the future protocol. Original prompts, runtime facts, score anchors, outputs, and expected hashes are unchanged.
 
 Before the runs, the English starter, fixture, common task brief, guided addition, verification checklist, review rubric, and one-repair allowance were fixed. The preparation was frozen on 2026-10-04 at 09:45:01 UTC. The [run record](run-record.json) anchors the retained bytes and original preparation hashes.
 

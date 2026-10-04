@@ -1,11 +1,11 @@
 # CP01 English instruction trial 01
 
-One ordinary-request output and one project-guided output, preserved from fresh runs of the same requested model and common input. This package is English-first and runs locally without dependencies.
+One unguided quality-redesign output and one project-guided output, preserved from fresh runs of the same requested model and common input. Both arms received the same English screenshot reconstruction as a styled HTML starter: this is a shared-reference redesign, not ordinary from-scratch generation without design references. The archived “ordinary request” label refers to this setting. This package is English-first and runs locally without dependencies.
 
 ## Screens and sources
 
 - [Faithful English reference](reference/reference-en.html) and [desktop capture](screenshots/reference-desktop.jpg): authored reconstruction of an earlier screen, used as the shared starter, not a model-run arm
-- [A · Ordinary-request first pass](alpha/index.html), [desktop capture](screenshots/alpha-desktop.jpg) and [narrow capture](screenshots/alpha-narrow.jpg)
+- [A · Unguided shared-reference redesign first pass](alpha/index.html), [desktop capture](screenshots/alpha-desktop.jpg) and [narrow capture](screenshots/alpha-narrow.jpg)
 - [B · Project-guided first pass](beta/index.html), [desktop capture](screenshots/beta-desktop.jpg) and [narrow capture](screenshots/beta-narrow.jpg)
 - [Fixed fixture](fixture.json), [ordinary brief](prompts/A-plain.txt), [guided brief](prompts/B-guided.txt), [exact v1 AI instructions](AGENTS.v1.md), [bounded guide](../../guides/cp01-task-first.md), and [shared checklist](checks/verification-checklist.md)
 
@@ -16,6 +16,8 @@ Open the three HTML files directly, or serve the repository with `python3 -m htt
 ## What this compares
 
 The outer A/B comparison asks what these two implementations produced. Inside each implementation, Before/After compares two authored copy specimens. The specimen labels are not a claim that B beats A. The reference is not substituted for A.
+
+See [honest comparisons](../../docs/HONEST_COMPARISONS.md) for future ordinary-quality versus specific-design-treatment pairs. Original prompt, run-record, score, source, and capture bytes remain unchanged; the guide-v2 artifact is a post-review iteration, not a matched new pair.
 
 Both runs requested `gpt-6.1-sol` and `xhigh` reasoning with no inherited conversation. The common starter, fixture, checklist, and public prompt core were identical. B additionally received the project instructions and bounded guide. Requested/accepted invocation values are known; exact backend revision, sampling settings, service tier, and deterministic seed are unavailable. Shared runtime rules and stochastic variation limit interpretation. The task scope and repair allowance were identical, but no fixed time budget was enforced and duration was not controlled.
 

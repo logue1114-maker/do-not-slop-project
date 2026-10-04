@@ -1,11 +1,11 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-04T11:35:48.280218+00:00",
+  "validated_at_utc": "2026-10-04T14:22:35.343228+00:00",
   "status": "passed_public_tree_checks",
   "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 207,
+    "files": 208,
     "checks": 202,
     "failed_checks": 0
   },

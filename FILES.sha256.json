@@ -1,6 +1,6 @@
 {
   "project": "Do Not Slop Project",
-  "created_at_utc": "2026-10-04T14:09:50.025145+00:00",
+  "created_at_utc": "2026-10-04T14:22:35.385275+00:00",
   "hash_algorithm": "sha256",
   "self_hash": "not included to avoid recursive self-reference",
   "license_choice": "pending_user_decision",
@@ -12,18 +12,23 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 10884,
-      "sha256": "5007fa764dffb920f7405c5beee843d21120487b31758a3519232e26368615ac"
+      "bytes": 11599,
+      "sha256": "dfb997090a74f58477aa15cde3ddf98465c8425888b8f0b68f0352e34b786a8b"
     },
     {
       "path": "README.md",
-      "bytes": 14834,
-      "sha256": "0cd1c3ad389fad6425b90af52a81af998bb382727f620345bf4c5c8c6460c733"
+      "bytes": 15706,
+      "sha256": "8e7936c9fa0238f986bf90091bd6a1ea957e68e994831b375cc782cb8c69d57c"
     },
     {
       "path": "docs/CHANGELOG.md",
-      "bytes": 5606,
-      "sha256": "e9b0b46b7f1989757ffb4196c7cd8deadce9f499c6fd26f430cd1b4802321cf9"
+      "bytes": 6805,
+      "sha256": "d9a4a7145e10a27e48018b35ed6f73e36744c2fff8a6586489dc82cce6339005"
+    },
+    {
+      "path": "docs/HONEST_COMPARISONS.md",
+      "bytes": 8397,
+      "sha256": "7e48d8f293ece97c95af4ce277fb259638b3961109bfa78f589472cbdc377561"
     },
     {
       "path": "docs/PRESERVED_INPUTS.sha256.json",
@@ -37,13 +42,13 @@
     },
     {
       "path": "docs/RIGHTS_AND_SCOPE.md",
-      "bytes": 4306,
-      "sha256": "2c011d1aa6b88edd97041e220a5c5423359970cfdf77328493c6101c77e13e22"
+      "bytes": 4464,
+      "sha256": "f88a0004ee71ba8312fe9c7faa49761422e05738a4ad3c9a91ec07ebeea71f15"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 11371,
-      "sha256": "caff8090bf0aee7ab9e03967fe2e54f9dd6fc09091c35173b65c434f7eb50b9f"
+      "bytes": 11727,
+      "sha256": "1103f7599e4104379573422cfd68ae95efe01be058e68b81ad3c9848f991540b"
     },
     {
       "path": "guides/cp01-task-first-v2.md",
@@ -437,8 +442,8 @@
     },
     {
       "path": "research/instruction_trial_01/README.md",
-      "bytes": 4365,
-      "sha256": "947863f7bcda17c8757bbbd03e907190f6fb6289fa795cd466db4fb8cc187585"
+      "bytes": 4929,
+      "sha256": "f9c1c0c929767388ca4fedf8a5073c859a401b635d781069c87af054e2878ae7"
     },
     {
       "path": "research/instruction_trial_01/alpha/index.html",
@@ -487,8 +492,8 @@
     },
     {
       "path": "research/instruction_trial_01/protocol/PROTOCOL.md",
-      "bytes": 4687,
-      "sha256": "5a742f5fb1fbbc63508831b86914bcdb5ef87312a32e7c30e7922e0fe6c3a10b"
+      "bytes": 5132,
+      "sha256": "b7d5d5ac53a1001d89538dc5375e818e12f30245b539b84c732427a7f5dfff7d"
     },
     {
       "path": "research/instruction_trial_01/protocol/REVIEW_FINDINGS.md",
@@ -1018,7 +1023,7 @@
     {
       "path": "validation/release-checks.json",
       "bytes": 29259,
-      "sha256": "1298a8f493d63d06f01df706259739f16b637c24d970c85748ea99ed070e4b18"
+      "sha256": "2f24450b22f87c8b1bb42e1c8d60adca2fb546f0276f84b61f22dec0517637de"
     },
     {
       "path": "validation/relocation-summary.json",

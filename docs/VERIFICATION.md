@@ -41,7 +41,7 @@ The plugin remains draft.3, not adopted or installed. Its declared gates stay no
 
 ## Additive English CP01 instruction trial 01
 
-The original runtime/reference/fixture/test bytes above remain intact. The new [trial package](../research/instruction_trial_01/README.md) records an actual fresh ordinary-request/guided pair from requested/accepted `gpt-6.1-sol` with `xhigh` reasoning. The exact backend revision and sampling settings are unavailable. Both self-contained HTML files retain their original first-pass bytes; no implementation repair was used.
+The original runtime/reference/fixture/test bytes above remain intact. The [trial package](../research/instruction_trial_01/README.md) records an actual fresh shared-reference redesign pair from requested/accepted `gpt-6.1-sol` with `xhigh` reasoning. Both arms received the same English screenshot reconstruction as a styled HTML starter; the archived ordinary-request label does not mean no-reference from-scratch generation. The exact backend revision and sampling settings are unavailable. Both self-contained HTML files retain their original first-pass bytes; no implementation repair was used. [Honest comparisons](HONEST_COMPARISONS.md) defines the planned future ordinary-quality/design-treatment protocol; no new pair or metrics were produced by this documentation update.
 
 The new package validator verifies declared hashes, fixture/protected source content, exact public prompt-core relation, self-containment, JavaScript syntax, and the five approved JPG captures' dimensions/bytes. These are package/source checks, not browser execution or measured usability.
 

@@ -1,5 +1,16 @@
 # Source changes
 
+## 2026-10-04: Honest ordinary-quality comparisons and historical context
+
+Prepared as a documentation-only update to public commit `9a6e883ff24cd6eb06f25f4e4ff38030a5d1c707`.
+
+- Add [honest comparisons](HONEST_COMPARISONS.md): equal ordinary-user quality/functional cores, a frozen treatment-only guide/reference/intention, matched checks and repair budgets, all-output retention, function/style separation, blinded review, metadata limits, and approval boundaries
+- Route root AI instructions and README to that protocol; clarify the original CP01 pair as a shared-reference redesign with the same English reconstruction/styled HTML starter in both arms
+- Preserve archived prompts, run records, rubric/score anchors, runtime, first passes, fixtures, guides, captures, optional-star guidance, and earlier evidence receipts byte-for-byte; retain historical changelog entries
+- Regenerate the file-byte inventory and bounded release-tree receipt. A fresh website/game pair is planned, not run; authored/guided demos and presets are not fresh experiment results
+
+No new model run, experimental arm, metric, public write, Site edit, star action, plugin installation, or license decision is included.
+
 ## 2026-10-04: Actual-use acknowledgement and optional star invitation
 
 Prepared as a documentation-only update to public commit `bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e`.
