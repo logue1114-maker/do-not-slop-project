@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Do Not Slop Project · CP01 English reference</title>
+<style>
+:root{color-scheme:light;--ink:#162d31;--muted:#4c6265;--line:#ccd7d6;--paper:#fff;--wash:#f2f5f3;--accent:#155a51;--warn:#873816}
+*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:1200px;margin:0 auto;padding:18px 24px 64px}p{margin:0 0 16px}.controls{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;margin-bottom:24px}.control{display:grid;gap:5px;flex:1;min-width:210px}label{font-weight:650;font-size:14px}select{font:inherit;border:1px solid #77918c;border-radius:3px;background:white;color:var(--ink);padding:10px;min-height:44px;max-width:100%;width:100%}button{font:inherit;line-height:1.4;background:var(--accent);color:#fff;border:1px solid var(--accent);border-radius:3px;padding:11px 18px;min-height:44px;cursor:pointer;white-space:normal;text-align:center}button.secondary{background:white;color:var(--ink);border-color:#77918c}button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #bd761e;outline-offset:3px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}.variant{min-width:0}.variant>h2{font-size:14px;letter-spacing:.02em;margin:0 0 8px}.surface{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--ink);padding:28px;min-width:0}.surface h3{font-size:24px;line-height:1.4;letter-spacing:-.025em;margin:0 0 16px;overflow-wrap:anywhere}.surface .copy{color:var(--muted);white-space:pre-line}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}ul{padding-left:20px;margin:16px 0}.files{list-style:none;padding:0}.files li{padding:12px 0;border-bottom:1px solid var(--line)}.files strong,.files small{display:block}.files small{color:var(--muted);font-size:14px}.note{margin-top:24px;background:#e5ece7;padding:20px 24px;border:1px solid var(--line)}.note h2{font-size:16px;margin:0 0 8px}.note p:last-child{margin:0}details{margin-top:18px}summary{cursor:pointer;font-weight:650}pre{overflow-wrap:anywhere;white-space:pre-wrap;font:13px/1.6 ui-monospace,monospace;background:white;border:1px solid var(--line);padding:16px}.result{padding:14px 0;min-height:52px;color:var(--muted)}.small{font-size:14px;color:var(--muted)}.provenance{margin-top:24px}noscript{display:block;padding:20px;border:2px solid var(--warn)}
+@media(max-width:700px){main{padding:22px 16px 40px}.pair{grid-template-columns:1fr}.surface{padding:22px}.controls{gap:10px}.row button{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main aria-label="CP01 local educational comparison">
+<div class="controls">
+<div class="control"><label for="case">Correction rule</label><select id="case"><option value="welcome">CP01 · Recent documents instead of a welcome message</option></select></div>
+<button id="reset" class="secondary" type="button">Reset demo state</button>
+</div>
+<div class="pair">
+<section class="variant" aria-labelledby="before-title"><h2 id="before-title">Before · Authored example</h2><div id="before" class="surface">
+<h3>Welcome back!</h3>
+<p class="copy">Explore amazing possibilities and begin a productive journey today.
+Choose a document below.</p>
+<ul class="files"><li><strong>Weekly meeting notes</strong><small>Modified: Yesterday</small></li><li><strong>Launch checklist</strong><small>Modified: October 2</small></li></ul>
+<div class="row"><button type="button" data-action="find_document" data-side="before">Find a document</button></div>
+</div></section>
+<section class="variant" aria-labelledby="after-title"><h2 id="after-title">After · Authored correction</h2><div id="after" class="surface">
+<h3>Recent documents</h3>
+<ul class="files"><li><strong>Weekly meeting notes</strong><small>Modified: Yesterday</small></li><li><strong>Launch checklist</strong><small>Modified: October 2</small></li></ul>
+<div class="row"><button type="button" data-action="find_document" data-side="after">Find a document</button></div>
+</div></section>
+</div>
+<div id="result" class="result" role="status" aria-live="polite"></div>
+<section class="note" aria-labelledby="rationale-title"><h2 id="rationale-title">Why the copy was removed, replaced, or moved</h2>
+<p id="rationale">The generic welcome and the instructions already made clear by the list were removed. The document names and modification times stay the same; the task comes first.</p>
+<p class="small" id="invariants">Preserved facts and action: 2 documents · Names · Modification times · Find a document</p>
+<details><summary>State and facts shared by both panels</summary><pre id="facts">{
+  "state": "ready",
+  "returning": true,
+  "documents": [
+    { "name": "Weekly meeting notes", "modified": "Yesterday" },
+    { "name": "Launch checklist", "modified": "October 2" }
+  ]
+}</pre></details>
+</section>
+<p class="small provenance">Local educational demo. Both panels are authored copy examples. Buttons only record a demo action. This page is not connected to an account or a real document service.</p>
+<noscript>The comparison remains visible without JavaScript. Demo action recording and reset need JavaScript.</noscript>
+</main>
+<script>
+'use strict';
+const fixture = {
+  id: 'welcome', rule: 'CP01', state: 'ready', returning: true,
+  documents: [
+    { name: 'Weekly meeting notes', modified: 'Yesterday' },
+    { name: 'Launch checklist', modified: 'October 2' }
+  ],
+  action: { id: 'find_document', label: 'Find a document', effect: 'Record the intention to open the document finder; no real navigation or transmission' }
+};
+const result = document.querySelector('#result');
+const actionLog = [];
+function recordAction(side) {
+  actionLog.push({ action: 'find_document', side });
+  result.textContent = 'Demo action recorded: Open the document finder. No real navigation, saving, publishing, or transmission occurred.';
+}
+document.querySelectorAll('[data-action="find_document"]').forEach(button => {
+  button.addEventListener('click', () => recordAction(button.dataset.side));
+});
+document.querySelector('#reset').addEventListener('click', () => {
+  actionLog.length = 0;
+  document.querySelector('#case').value = 'welcome';
+  document.querySelector('details').open = false;
+  result.textContent = 'Demo state reset. The same two documents remain in both panels.';
+});
+window.CP01Demo = { fixture, actionLog };
+</script>
+</body>
+</html>

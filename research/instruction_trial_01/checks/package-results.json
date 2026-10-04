@@ -1,0 +1,346 @@
+{
+  "scope": "Source/package hashes, public prompt relation, protected static content, self-contained resources, JS syntax and unchanged capture dimensions; no browser or user study",
+  "checked_at_utc": "2026-10-04T10:11:02.523785+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "input_sha256:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_sha256:fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_sha256:checks/verification-checklist.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_sha256:prompts/A-plain.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_sha256:prompts/B-guided.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guided_instruction_sha256:AGENTS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "guided_instruction_sha256:guides/cp01-task-first.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identical_public_prompt_core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "english:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "self_contained_resources:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_remote_service_api:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native_disclosure:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset_label:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_title:reference/reference-en.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_body:reference/reference-en.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_records:reference/reference-en.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_action:reference/reference-en.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_title:reference/reference-en.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_body:reference/reference-en.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_records:reference/reference-en.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_action:reference/reference-en.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "js_syntax:reference/reference-en.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "english:alpha/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "self_contained_resources:alpha/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_remote_service_api:alpha/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native_disclosure:alpha/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset_label:alpha/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_title:alpha/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_body:alpha/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_records:alpha/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_action:alpha/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_title:alpha/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_body:alpha/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_records:alpha/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_action:alpha/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "js_syntax:alpha/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "english:beta/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "self_contained_resources:beta/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_remote_service_api:beta/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native_disclosure:beta/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reset_label:beta/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_title:beta/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_body:beta/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_records:beta/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_action:beta/index.html:before",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_title:beta/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "specimen_body:beta/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected_records:beta/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same_action:beta/index.html:after",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "js_syntax:beta/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_pass_sha256:alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_pass_no_implementation_repair:alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_pass_sha256:beta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_pass_no_implementation_repair:beta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_sha256:screenshots/reference-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_dimensions:screenshots/reference-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_sha256:screenshots/alpha-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_dimensions:screenshots/alpha-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_sha256:screenshots/beta-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_dimensions:screenshots/beta-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_sha256:screenshots/alpha-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_dimensions:screenshots/alpha-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_sha256:screenshots/beta-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture_dimensions:screenshots/beta-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_validated_winner",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "time_budget_deviation_disclosed",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "counts": {
+    "checks": 66,
+    "failed": 0
+  },
+  "limits": [
+    "No real browser execution or interaction reproduced",
+    "No full accessibility, human usability or causal-effect claim",
+    "Blinded review scores are descriptive, not a validated winner"
+  ]
+}

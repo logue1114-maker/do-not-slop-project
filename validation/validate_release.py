@@ -12,6 +12,10 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 SELF_REPORT = 'validation/release-checks.json'
+TRIAL_CAPTURE_PATHS = {
+    'research/instruction_trial_01/screenshots/' + name + '.jpg'
+    for name in ('reference-desktop', 'alpha-desktop', 'beta-desktop', 'alpha-narrow', 'beta-narrow')
+}
 
 
 class Links(HTMLParser):
@@ -31,10 +35,13 @@ def inspect(root):
     files = sorted(p for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     relative = {p.relative_to(root).as_posix(): p for p in files}
     check('regular_contained_files', not any(p.is_symlink() or not p.resolve().is_relative_to(root.resolve()) for p in root.rglob('*')))
+    provenance = json.loads(relative['docs/PROVENANCE.json'].read_text())
+    approved_captures = provenance.get('instruction_trial_01', {}).get('approved_synthetic_capture_sha256', {})
     denied_parts = {'.git', '.openai', '.aws', '.codex', '.agents', 'node_modules', 'evidence', 'browser_qa', 'public_release_audit'}
     forbidden = [r for r, p in relative.items() if set(p.relative_to(root).parts) & denied_parts
                  or re.search(r'(?:evaluation|private|audit_report)', r, re.I)
-                 or p.suffix.lower() in {'.zip', '.mp4', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.woff', '.woff2', '.ttf', '.otf', '.pem', '.key'}
+                 or (p.suffix.lower() in {'.zip', '.mp4', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.woff', '.woff2', '.ttf', '.otf', '.pem', '.key'}
+                     and not (p.suffix.lower() == '.jpg' and r in TRIAL_CAPTURE_PATHS and r in approved_captures))
                  or p.name == 'LICENSE' or p.name.startswith('.env')]
     check('excluded_media_archives_configuration_absent', not forbidden, forbidden)
     required = ['README.md', 'docs/RIGHTS_AND_SCOPE.md', 'docs/VERIFICATION.md', 'docs/PROVENANCE.json',
@@ -68,6 +75,10 @@ def inspect(root):
             document = ET.fromstring(path.read_text())
             check('vector_no_embedded_media:' + rel, not any(element.tag.split('}')[-1] in {'image', 'script', 'foreignObject'} for element in document.iter())
                   and 'data:' not in path.read_text() and '@font-face' not in path.read_text())
+    capture_paths = {r for r, p in relative.items() if p.suffix.lower() in {'.jpg', '.jpeg'}}
+    check('exact_synthetic_capture_allowlist', set(approved_captures) == TRIAL_CAPTURE_PATHS == capture_paths)
+    for rel in sorted(capture_paths):
+        check('synthetic_capture_bytes:' + rel, hashlib.sha256(relative[rel].read_bytes()).hexdigest() == approved_captures.get(rel))
     broken, escaped = [], []
     for rel, path in relative.items():
         targets = []
@@ -98,7 +109,7 @@ def inspect(root):
         'real_contact_candidate': re.compile(r'\b[A-Za-z0-9._%+-]+@(?!(?:example\.(?:test|com|org|net))\b)[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'),
     }
     for rel, path in relative.items():
-        if path.suffix not in {'.png'} and rel != SELF_REPORT:
+        if path.suffix.lower() not in {'.png', '.jpg', '.jpeg'} and rel != SELF_REPORT:
             text = path.read_text(encoding='utf-8')
             for kind, pattern in patterns.items():
                 matches = pattern.findall(text)
@@ -121,7 +132,7 @@ def inspect(root):
     failures = [r for r in results if not r['passed']]
     return {'project': 'Do Not Slop Project', 'validated_at_utc': datetime.now(timezone.utc).isoformat(),
             'status': 'passed_public_tree_checks' if not failures else 'failed_public_tree_checks',
-            'scope': 'Local bytes, declared preserved inputs, authored board allowlist, JSON, local Markdown/HTML links and bounded secret/path/contact scan',
+            'scope': 'Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan',
             'network_requests': 0, 'counts': {'files': len(files), 'checks': len(results), 'failed_checks': len(failures)},
             'checks': results, 'limitations': ['This scan is bounded and cannot certify absence of every possible secret',
               'External links were not fetched by this validator', 'Browser rendering, accessibility, source currentness and usability are separate gates'],

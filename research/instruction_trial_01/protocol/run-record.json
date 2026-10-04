@@ -1,0 +1,182 @@
+{
+  "trial_id": "cp01-en-pilot-01",
+  "date_utc": "2026-10-04",
+  "preparation_frozen_at_utc": "2026-10-04T09:45:01Z",
+  "status": "actual_first_pass_pair_saved; bounded browser observations and blinded artifact review recorded; user approval pending",
+  "pair_count": 1,
+  "requested_and_accepted_invocation": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "xhigh"
+  },
+  "unavailable_runtime_metadata": [
+    "exact backend model revision",
+    "temperature and other sampling settings",
+    "service tier",
+    "deterministic seed",
+    "full runtime-rule parity"
+  ],
+  "no_inherited_conversation": true,
+  "common_input_and_public_prompt_core_equality": "verified hashes and bounded prompt prefix",
+  "common_inputs_sha256": {
+    "reference/reference-en.html": "4d444f3ad80a20db9c621ee7f8d2bae7667477de9416d6690934c210b4738d81",
+    "fixture.json": "bd4974e574cc576a965e91ece8e9f0f1671f3f03de2ad28842710295d42c2d22",
+    "checks/verification-checklist.md": "51bbe0dfb536543c2dd015e97073fe40a2fdcc36e0bcebef7b1eb04578503987"
+  },
+  "public_task_briefs_sha256": {
+    "prompts/A-plain.txt": "5f3b2f76d58965d213315d9bafa9746d4199c883de48568befadec7c67648baf",
+    "prompts/B-guided.txt": "d2208e7b5a53a7631141c1a2233d95358fd0e1b5ca665193d79d8c9be62eeffb"
+  },
+  "guided_only_instructions_sha256": {
+    "AGENTS.md": "3980985ce2d65c3e1490013ea39fb34fa44e71f920829d4d095f98222b23652e",
+    "guides/cp01-task-first.md": "651a6b92d7e1c920e356c631646709ca22f0173cb1c1d5d834627d882f8d6f9c"
+  },
+  "original_frozen_preparation_hashes": {
+    "protocol/run-protocol.md": "8a8ded59cd1371cdd43964adfe13563cdc92d226f4106fc27de1d3be0296e4f0",
+    "protocol/preregistered-rubric.md": "7181d18957094bb77666df37644081682bd02fd3edd1a1aa374aa1584ba05da8"
+  },
+  "public_protocol_note": "Protocol is a bounded public account; raw operational handoff text and execution identities are excluded. Review rubric score anchors are unchanged, with stale pre-run status updated.",
+  "arms": {
+    "alpha": {
+      "label": "A: ordinary request",
+      "start_time_utc": "2026-10-04T09:49:46Z",
+      "first_pass_saved_time_utc": "2026-10-04T09:54:03Z",
+      "output_path": "alpha/index.html",
+      "sha256": "f49d79902d374d8ca51adb9432d6be2ddf0263eb3e528bb285d7b194882808a8",
+      "first_pass_count": 1,
+      "implementation_repairs": 0,
+      "source_and_isolated_js_checks": "passed; not real-browser tests"
+    },
+    "beta": {
+      "label": "B: project-guided request",
+      "start_time_utc": "2026-10-04T09:50:07Z",
+      "first_pass_saved_time_utc_approx": "2026-10-04T09:52:55Z",
+      "output_path": "beta/index.html",
+      "sha256": "7f35d21d604db5d7f34cc049fb3ee93f825f4b70eefd0e6828212046c7f8eb67",
+      "first_pass_count": 1,
+      "implementation_repairs": 0,
+      "test_harness_correction": "navigation regex narrowed to avoid falsely flagging disclosure.open; implementation unchanged",
+      "source_and_isolated_js_checks": "passed; not real-browser tests"
+    }
+  },
+  "artifact_roles": {
+    "reference/reference-en.html": "faithful authored English reconstruction and common starter; not a model-run arm",
+    "alpha/index.html": "actual ordinary-request first pass",
+    "beta/index.html": "actual project-guided first pass",
+    "screenshots": "actual captures of the synthetic project UIs; unchanged bytes"
+  },
+  "screenshots": [
+    {
+      "path": "screenshots/reference-desktop.jpg",
+      "sha256": "12a02a60788cc280f1255e7ef55c7d41754743b933e148b61ec1e1e80965a365",
+      "frame_pixels": [
+        1165,
+        747
+      ],
+      "content_width_note": "scrollbar may reserve 15 pixels",
+      "capture_scope": "default browser frame, not full page"
+    },
+    {
+      "path": "screenshots/alpha-desktop.jpg",
+      "sha256": "64c0c6b6395c8973a615d83c6d95aaef1689bcf7207e793b4d7309c8580959b4",
+      "frame_pixels": [
+        1165,
+        747
+      ],
+      "content_width_note": "scrollbar may reserve 15 pixels",
+      "capture_scope": "default browser frame, not full page"
+    },
+    {
+      "path": "screenshots/beta-desktop.jpg",
+      "sha256": "508db79b81c14d3d3b10e5b5eca61cb7cfffbd4772cf6a388e2e36f852e822a9",
+      "frame_pixels": [
+        1165,
+        747
+      ],
+      "content_width_note": "scrollbar may reserve 15 pixels",
+      "capture_scope": "default browser frame, not full page"
+    },
+    {
+      "path": "screenshots/alpha-narrow.jpg",
+      "sha256": "b1624643de70317a781055a8a0f6afd63d2bd1921395784325b860ab8021b7a1",
+      "frame_pixels": [
+        390,
+        844
+      ],
+      "content_width_note": "scrollbar may reserve 15 pixels",
+      "capture_scope": "default browser frame, not full page"
+    },
+    {
+      "path": "screenshots/beta-narrow.jpg",
+      "sha256": "d50038f5a04c2d185be2faac11422e85731b9b83c0c4304c7d5c009365494dbd",
+      "frame_pixels": [
+        390,
+        844
+      ],
+      "content_width_note": "scrollbar may reserve 15 pixels",
+      "capture_scope": "default browser frame, not full page"
+    }
+  ],
+  "browser_observations": "checks/BROWSER_OBSERVATIONS.md",
+  "blinded_review": {
+    "status": "frozen before mapping reveal",
+    "reviewer_type": "independent AI artifact reviewer",
+    "review_order": [
+      "X",
+      "Y"
+    ],
+    "recorded_mapping": {
+      "X": "alpha",
+      "Y": "beta"
+    },
+    "findings": "protocol/REVIEW_FINDINGS.md",
+    "scores": {
+      "alpha": [
+        2,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "beta": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    "descriptive_subtotals": {
+      "alpha": 10,
+      "beta": 11
+    },
+    "maximum": 12,
+    "validated_winner": null,
+    "run_integrity_gate": "not independently verified before frozen scores",
+    "browser_tests_independently_rerun_by_reviewer": false
+  },
+  "user_approval": "pending",
+  "repair_record": [],
+  "human_usability_measurement": "not performed",
+  "general_effectiveness": "not established",
+  "prior_design_criticism_fully_resolved": "not established",
+  "publication_scope": "authorized synthetic captures and project-authored source only; historical raw image/private provenance excluded",
+  "license_choice": "pending_user_decision",
+  "plugin_installation": "not_performed",
+  "time_budget": {
+    "fixed_budget_enforced": false,
+    "duration_controlled": false,
+    "task_scope_and_repair_allowance": "identical",
+    "interpretation": "descriptive pair, not a fully controlled causal experiment"
+  },
+  "browser_observation_details": {
+    "checked_at_utc": "2026-10-04T10:02:10Z",
+    "content_width_css_pixels": {
+      "alpha_desktop": 1165,
+      "beta_desktop": 1150,
+      "both_narrow": 375
+    },
+    "console": "Extension metadata errors; no app-origin error observed in sampled entries; not exhaustive console/network audit"
+  }
+}

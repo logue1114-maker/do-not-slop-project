@@ -1,12 +1,12 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-04T08:48:23.942287+00:00",
+  "validated_at_utc": "2026-10-04T10:11:29.603207+00:00",
   "status": "passed_public_tree_checks",
-  "scope": "Local bytes, declared preserved inputs, authored board allowlist, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
+  "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 149,
-    "checks": 171,
+    "files": 172,
+    "checks": 180,
     "failed_checks": 0
   },
   "checks": [
@@ -202,6 +202,21 @@
     },
     {
       "name": "json:research/games_rpg_card_sourcecoverage.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/instruction_trial_01/checks/package-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/instruction_trial_01/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/instruction_trial_01/protocol/run-record.json",
       "passed": true,
       "detail": null
     },
@@ -842,6 +857,36 @@
     },
     {
       "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-06-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_synthetic_capture_allowlist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/instruction_trial_01/screenshots/alpha-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/instruction_trial_01/screenshots/alpha-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/instruction_trial_01/screenshots/beta-desktop.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/instruction_trial_01/screenshots/beta-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/instruction_trial_01/screenshots/reference-desktop.jpg",
       "passed": true,
       "detail": null
     },

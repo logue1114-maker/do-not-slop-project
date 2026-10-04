@@ -38,3 +38,13 @@ Private working captures and historical receipts are not part of this source rel
 - Participant studies, preferences, task-success metrics or any measured usability gain
 
 The plugin remains draft.3, not adopted or installed. Its declared gates stay not_run because package contract checks do not execute them. A reuse license remains pending and third-party rights remain unknown/link-only.
+
+## Additive English CP01 instruction trial 01
+
+The original runtime/reference/fixture/test bytes above remain intact. The new [trial package](../research/instruction_trial_01/README.md) records an actual fresh ordinary-request/guided pair from requested/accepted `gpt-6.1-sol` with `xhigh` reasoning. The exact backend revision and sampling settings are unavailable. Both self-contained HTML files retain their original first-pass bytes; no implementation repair was used.
+
+The new package validator verifies declared hashes, fixture/protected source content, exact public prompt-core relation, self-containment, JavaScript syntax, and the five approved JPG captures' dimensions/bytes. These are package/source checks, not browser execution or measured usability.
+
+Separately, [bounded browser observations](../research/instruction_trial_01/checks/BROWSER_OBSERVATIONS.md) cover the actual pair at desktop 1165 × 747 and narrow 390 × 844 outer frames, with possible 15-pixel scrollbar reservation. Both actions/repeat/reset/disclosure and keyboard activation/focus spotchecks worked; no horizontal overflow was observed. B's disclosure requires desktop vertical scrolling; A's is within the first screen. Only extension metadata console errors were seen; no application error was observed in tested states. The five retained JPGs are actual synthetic-UI captures, preserved byte-for-byte.
+
+Native-phone, screen-reader, full Tab-order/trap, all activation combinations, zoom, exhaustive network/history, and comprehensive accessibility checks remain unrun. A blinded artifact review was frozen before mapping reveal; its 10/12 and 11/12 subtotals are descriptive and do not validate an overall winner. User approval remains pending. No fixed time budget was enforced; duration and full runtime parity were not controlled. Both outputs still use green actions and neutral backgrounds; criticism fully resolved, measured usability, and general instruction effectiveness are not established. Earlier demos' unrun gates are unchanged. License remains pending; the plugin remains uninstalled.

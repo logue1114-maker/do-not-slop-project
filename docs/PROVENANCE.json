@@ -63,5 +63,28 @@
   "files": "../FILES.sha256.json",
   "official_approval": "not_claimed",
   "plugin_installation": "not_performed",
-  "usability_gain": "not_proven"
+  "usability_gain": "not_proven",
+  "instruction_trial_01": {
+    "scope": "Additive English CP01 reference, actual fresh ordinary-request/guided first passes, public task briefs, project instructions, bounded protocol/checks, and five actual synthetic-UI captures",
+    "baseline_public_commit": "54ca5160c59769ad3fd63ade26efe6051c9a87e6",
+    "public_capture_authorization": "User explicitly requested actual screen comparisons in the public repository README; these five captures show project-owned synthetic UIs",
+    "approved_synthetic_capture_sha256": {
+      "research/instruction_trial_01/screenshots/reference-desktop.jpg": "12a02a60788cc280f1255e7ef55c7d41754743b933e148b61ec1e1e80965a365",
+      "research/instruction_trial_01/screenshots/alpha-desktop.jpg": "64c0c6b6395c8973a615d83c6d95aaef1689bcf7207e793b4d7309c8580959b4",
+      "research/instruction_trial_01/screenshots/beta-desktop.jpg": "508db79b81c14d3d3b10e5b5eca61cb7cfffbd4772cf6a388e2e36f852e822a9",
+      "research/instruction_trial_01/screenshots/alpha-narrow.jpg": "b1624643de70317a781055a8a0f6afd63d2bd1921395784325b860ab8021b7a1",
+      "research/instruction_trial_01/screenshots/beta-narrow.jpg": "d50038f5a04c2d185be2faac11422e85731b9b83c0c4304c7d5c009365494dbd"
+    },
+    "run_record": "../research/instruction_trial_01/protocol/run-record.json",
+    "reference_role": "Authored faithful English reconstruction and shared input, not the ordinary-request model arm",
+    "model_outputs": "Exact actual first-pass bytes; one per arm; no implementation repair",
+    "runtime_metadata": "Requested/accepted gpt-6.1-sol xhigh known; exact backend revision and sampling unavailable",
+    "excluded": "Historical raw screenshot, private provenance, operational handoffs, private paths/execution identities/user history",
+    "independent_blinded_review": "AI artifact review frozen before mapping reveal; descriptive scores, no validated winner; run integrity not independently fully verified",
+    "user_approval": "pending",
+    "usability_gain": "not_proven",
+    "general_effectiveness": "not_established",
+    "prior_criticism_fully_resolved": "not_established",
+    "time_budget": "No fixed time budget enforced; duration not controlled"
+  }
 }

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>CP01 · Put the document first · Do Not Slop Project</title>
+<style>
+:root {
+  --background: #f6f5f1;
+  --surface: #ffffff;
+  --text: #222722;
+  --muted: #60675f;
+  --boundary: #d7dbd3;
+  --action: #2e503b;
+  --action-hover: #203c2b;
+  --feedback: #edf2ec;
+  --focus: #aa4c12;
+  --type-small: .875rem;
+  --type-body: 1rem;
+  --type-specimen: 1.5rem;
+  --type-title: 2.125rem;
+  --space-1: .375rem;
+  --space-2: .75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --radius: .625rem;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--background); color: var(--text); font: var(--type-body)/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+button, summary { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+main { max-width: 1080px; margin: auto; padding: var(--space-5) var(--space-5) 24px; }
+p, h1, h2, h3 { margin: 0; }
+.masthead { display: flex; align-items: center; gap: var(--space-2); color: var(--muted); font-size: var(--type-small); }
+.project { font-weight: 650; color: var(--text); }
+.case-id { padding-left: var(--space-2); border-left: 1px solid var(--boundary); }
+h1 { margin-top: var(--space-3); font-size: var(--type-title); line-height: 1.2; font-weight: 650; letter-spacing: -.035em; }
+.lead { color: var(--muted); margin-top: var(--space-1); }
+.comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); margin-top: var(--space-5); }
+.variant { display: flex; flex-direction: column; min-width: 0; }
+.variant-label { display: flex; flex-wrap: wrap; gap: var(--space-1); align-items: baseline; margin-bottom: var(--space-2); font-size: 1rem; font-weight: 650; }
+.variant-label .attribution { font-size: var(--type-small); font-weight: 400; color: var(--muted); }
+.surface { display: flex; flex-direction: column; flex: 1; min-width: 0; padding: 26px; background: var(--surface); border: 1px solid var(--boundary); border-radius: var(--radius); }
+.surface h3 { font-size: var(--type-specimen); line-height: 1.25; font-weight: 650; letter-spacing: -.025em; }
+.copy { margin-top: var(--space-2); color: var(--muted); white-space: pre-line; }
+.files { padding: 0; margin: 22px 0 0; list-style: none; }
+.files li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px var(--space-2); padding: 14px 0; border-top: 1px solid var(--boundary); }
+.files strong { font-weight: 550; }
+.files small { color: var(--muted); font-size: var(--type-small); line-height: 1.72; white-space: nowrap; }
+.action-row { margin-top: auto; padding-top: 18px; }
+.find { min-height: 44px; padding: 10px 18px; border: 1px solid var(--action); border-radius: .375rem; background: var(--action); color: #fff; font-weight: 550; cursor: pointer; }
+.find:hover { background: var(--action-hover); border-color: var(--action-hover); }
+button:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+.explanation { margin-top: 24px; display: grid; grid-template-columns: 154px minmax(0, 1fr); gap: var(--space-3); }
+.explanation h2 { font-size: 1rem; font-weight: 650; }
+.explanation p { color: var(--muted); }
+.demo { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--boundary); }
+.demo-tools { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
+.activity { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-2); align-items: baseline; font-size: var(--type-small); }
+.activity-label { font-weight: 650; }
+.result { color: var(--muted); }
+.reset { min-height: 44px; padding: 8px 12px; border: 1px solid var(--boundary); border-radius: .375rem; color: var(--text); background: var(--surface); cursor: pointer; font-size: var(--type-small); }
+.reset:hover { background: var(--feedback); }
+.evidence { margin-top: 2px; }
+summary { width: fit-content; max-width: 100%; min-height: 44px; padding: 11px 0; font-size: var(--type-small); font-weight: 550; cursor: pointer; }
+pre { margin: var(--space-1) 0 var(--space-3); padding: var(--space-3); border: 1px solid var(--boundary); border-radius: .375rem; background: var(--surface); font: .875rem/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; white-space: pre-wrap; }
+.boundary { margin-top: var(--space-1); color: var(--muted); font-size: var(--type-small); line-height: 1.5; }
+.boundary strong { color: var(--text); font-weight: 550; }
+noscript { display: block; margin-top: var(--space-3); padding: var(--space-3); border: 1px solid var(--boundary); background: var(--surface); }
+@media (max-width: 700px) {
+  main { padding: 24px 18px; }
+  h1 { font-size: 1.875rem; }
+  .lead { max-width: 30ch; }
+  .comparison { grid-template-columns: minmax(0, 1fr); margin-top: 26px; gap: 24px; }
+  .surface { padding: 22px; }
+  .files li { display: block; }
+  .files strong, .files small { display: block; }
+  .files small { margin-top: 2px; }
+  .explanation { grid-template-columns: minmax(0, 1fr); gap: var(--space-1); }
+  .demo-tools { align-items: flex-start; }
+  .activity { flex-direction: column; gap: 2px; flex: 1; }
+  .boundary { margin-top: var(--space-2); }
+}
+@media (forced-colors: active) {
+  .find, .reset { border: 1px solid ButtonText; }
+  button:focus-visible, summary:focus-visible { outline-color: Highlight; }
+}
+</style>
+</head>
+<body>
+<main aria-labelledby="page-title">
+  <header>
+    <div class="masthead"><span class="project">Do Not Slop Project</span><span class="case-id">CP01 · English</span></div>
+    <h1 id="page-title">Put the document first</h1>
+    <p class="lead">A copy comparison for a returning document user</p>
+  </header>
+
+  <div class="comparison" aria-label="Before and After copy comparison">
+    <section class="variant" aria-labelledby="before-label">
+      <h2 class="variant-label" id="before-label">Before <span class="attribution">· Authored example</span></h2>
+      <div class="surface" id="before">
+        <div class="specimen-copy">
+          <h3>Welcome back!</h3>
+          <p class="copy">Explore amazing possibilities and begin a productive journey today.
+Choose a document below.</p>
+        </div>
+        <ul class="files" aria-label="Recent documents in Before">
+          <li><strong>Weekly meeting notes</strong><small>Modified: Yesterday</small></li>
+          <li><strong>Launch checklist</strong><small>Modified: October 2</small></li>
+        </ul>
+        <div class="action-row"><button class="find" type="button" data-action="find_document" data-side="before" aria-describedby="demo-boundary">Find a document</button></div>
+      </div>
+    </section>
+    <section class="variant" aria-labelledby="after-label">
+      <h2 class="variant-label" id="after-label">After <span class="attribution">· Authored correction</span></h2>
+      <div class="surface" id="after">
+        <div class="specimen-copy"><h3>Recent documents</h3></div>
+        <ul class="files" aria-label="Recent documents in After">
+          <li><strong>Weekly meeting notes</strong><small>Modified: Yesterday</small></li>
+          <li><strong>Launch checklist</strong><small>Modified: October 2</small></li>
+        </ul>
+        <div class="action-row"><button class="find" type="button" data-action="find_document" data-side="after" aria-describedby="demo-boundary">Find a document</button></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="explanation" aria-labelledby="change-title">
+    <h2 id="change-title">What changed</h2>
+    <p>The welcome and redundant selection instruction were removed. The recent documents and their modification values remain.</p>
+  </section>
+
+  <footer class="demo">
+    <div class="demo-tools">
+      <div class="activity"><span class="activity-label">Demo activity</span><span class="result" id="result" role="status" aria-live="polite" aria-atomic="true">No actions recorded</span></div>
+      <button class="reset" id="reset" type="button">Reset demo state</button>
+    </div>
+    <details class="evidence" id="shared-facts">
+      <summary>State and facts shared by both panels</summary>
+      <pre id="facts">{
+  "state": "ready",
+  "returning": true,
+  "documents": [
+    { "name": "Weekly meeting notes", "modified": "Yesterday" },
+    { "name": "Launch checklist", "modified": "October 2" }
+  ],
+  "actionLog": []
+}</pre>
+    </details>
+    <p class="boundary" id="demo-boundary"><strong>Local educational demo.</strong> Find a document only records an intention. No navigation, saving, publishing, or transmission.</p>
+    <p class="boundary">Both panels are authored examples. This comparison is not a measured user test.</p>
+  </footer>
+  <noscript>The comparison and shared facts remain visible. Recording demo actions and resetting demo state require JavaScript.</noscript>
+</main>
+<script id="fixture-data" type="application/json">
+{
+  "fixture_id": "cp01-en-v1",
+  "case_id": "CP01",
+  "language": "en",
+  "purpose": "Local educational before/after copy comparison for a returning document user",
+  "state": "ready",
+  "returning": true,
+  "documents": [
+    {
+      "name": "Weekly meeting notes",
+      "modified": "Yesterday"
+    },
+    {
+      "name": "Launch checklist",
+      "modified": "October 2"
+    }
+  ],
+  "comparison": {
+    "before": {
+      "label": "Before · Authored example",
+      "title": "Welcome back!",
+      "body": "Explore amazing possibilities and begin a productive journey today.\nChoose a document below."
+    },
+    "after": {
+      "label": "After · Authored correction",
+      "title": "Recent documents",
+      "body": ""
+    },
+    "meaning": "Both panels use the same ready state, two document records, modification times, and action. Before contains generic welcome/instruction copy; After is a proposed authored correction. The comparison is educational, not a measured user test."
+  },
+  "primary_action": {
+    "id": "find_document",
+    "label": "Find a document",
+    "effect": "Record the intention to open the document finder; no real navigation, saving, publishing, or transmission"
+  },
+  "reset_action": {
+    "label": "Reset demo state",
+    "effect": "Clear local demo action state and close the shared-facts disclosure; retain the original documents and ready state"
+  },
+  "evidence_disclosure": {
+    "label": "State and facts shared by both panels",
+    "content": "The ready state, returning flag, and the two identical document records"
+  },
+  "protected": [
+    "CP01 educational comparison semantics and direction",
+    "Both authored specimen titles and body texts remain intact as comparison data",
+    "Exactly two document records in each panel",
+    "Both names and modification times, with matching order",
+    "Same ready state and returning user context in both panels",
+    "Find a document action in each panel with the same demo-only effect",
+    "Demo state reset without changing document facts",
+    "A reachable disclosure of the shared state and facts",
+    "An explicit local educational-demo boundary",
+    "No claim of measured usability, a completed model experiment, or real external side effects"
+  ],
+  "editable": [
+    "Visual layout, colors, type, spacing, and responsive behavior",
+    "Comparison chrome and rationale wording, while retaining meaning and artifact attribution",
+    "Implementation details and demo action-record presentation",
+    "Display format around protected document names and modification values"
+  ]
+}
+</script>
+<script>
+'use strict';
+const fixture = JSON.parse(document.querySelector('#fixture-data').textContent);
+function freezeFacts(value) {
+  Object.values(value).forEach(item => {
+    if (item && typeof item === 'object') freezeFacts(item);
+  });
+  return Object.freeze(value);
+}
+freezeFacts(fixture);
+const result = document.querySelector('#result');
+const facts = document.querySelector('#facts');
+const disclosure = document.querySelector('#shared-facts');
+const actionLog = [];
+function renderFacts() {
+  facts.textContent = JSON.stringify({
+    state: fixture.state,
+    returning: fixture.returning,
+    documents: fixture.documents,
+    actionLog
+  }, null, 2);
+}
+function recordAction(side) {
+  actionLog.push({ action: fixture.primary_action.id, side });
+  const count = actionLog.length;
+  result.textContent = 'Intention to open the document finder recorded · ' + count + ' demo action' + (count === 1 ? '' : 's');
+  renderFacts();
+}
+document.querySelectorAll('[data-action="find_document"]').forEach(button => {
+  button.addEventListener('click', () => recordAction(button.dataset.side));
+});
+document.querySelector('#reset').addEventListener('click', () => {
+  actionLog.length = 0;
+  disclosure.open = false;
+  result.textContent = 'Demo state reset. No actions recorded';
+  renderFacts();
+});
+renderFacts();
+window.CP01Demo = Object.freeze({ fixture, actionLog });
+</script>
+</body>
+</html>
