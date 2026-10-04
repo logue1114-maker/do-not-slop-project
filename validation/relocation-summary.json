@@ -1,0 +1,41 @@
+{
+  "project": "Do Not Slop Project",
+  "validated_at_utc": "2026-10-04T08:48:23.752523+00:00",
+  "method": "Full tree copied into a temporary directory unrelated to its source location; identical relative commands executed there",
+  "commands": [
+    {
+      "command": "node --test research/strategy_controls_oct4/demo/tests.mjs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "node research/booking_flows_oct4/demo/test-model.cjs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "node research/booking_flows_oct4/demo/test-app-wiring.cjs",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 research/comparison_assets/learning_layout/tests/test_source.py",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 research/do_not_slop_copy/validate.py",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "command": "python3 plugins/review-visible-design/validation/validate_package.py",
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "failed_commands": 0,
+  "preserved_inputs_checked": 47,
+  "preserved_input_drift": [],
+  "scope": "Source/contract portability only; generated receipts naturally have new run times; browser/visual/input/usability and remote publication not performed"
+}

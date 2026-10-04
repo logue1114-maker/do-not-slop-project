@@ -1,0 +1,873 @@
+{
+  "schema_version": "1.0.0",
+  "namespace": "STRAT4",
+  "title": "전략 게임 선택 명령 카메라 HUD 교정 조사",
+  "language": "ko",
+  "researched_at": "2026-10-04",
+  "status": "research_and_proposed_spec_complete; source_images_inspected; research_runtime_not_tested",
+  "scope": {
+    "include": [
+      "selection versus command arming",
+      "camera/world input boundary",
+      "action grouping",
+      "persistent and simultaneous current state",
+      "compact HUD"
+    ],
+    "exclude": [
+      "economy subsystem implementation",
+      "current full shipping-build review",
+      "game simulation",
+      "public release or plugin install",
+      "Sites edits"
+    ]
+  },
+  "provenance_contract": {
+    "creator_claims": "original developer/designer statements restricted to the documented historical build or design artifacts",
+    "visual_observations": "actual original images rendered in dot cloud browser; not search thumbnails or snippets",
+    "proposals": "author-created synthetic builder corrections; not creator instructions or a universal genre standard",
+    "numbers": "only natural image dimensions are observed; demo world dimensions come from own fixture; CSS starting points are proposed and unmeasured",
+    "runtime": "not_tested_in_research; implementation verification must be documented separately",
+    "rights": "references are external links plus original summaries; proprietary screenshot bytes and fonts excluded"
+  },
+  "deduplication": {
+    "checked_catalog": "game_controls_corrections_v2.json",
+    "excluded_products": [
+      "Factorio",
+      "Dead Space",
+      "Battlefield V",
+      "Tintin Match",
+      "Hard Head Squad",
+      "Victoria 3"
+    ],
+    "exact_source_url_overlap": [],
+    "new_slice": "selection-command-camera context; not another generic button material recipe"
+  },
+  "sources": [
+    {
+      "id": "STRAT4:S01",
+      "title": "Dev Update: 5 Big Changes We’re Making Because Of Your Feedback",
+      "url": "https://www.homeworlduniverse.com/war-games-feedback/",
+      "author": "Lance Mueller, Game Director; Homeworld 3 / Blackbird Interactive, official Homeworld Universe publication",
+      "kind": "original_developer_update",
+      "published_at": "2024-03-27T18:03:54+00:00",
+      "modified_at": "2024-03-27T19:17:50+00:00",
+      "date_evidence": "rendered-page DOM article:published_time and article:modified_time metadata",
+      "product_version": "pre-release changes after War Games demo, not a 2026 shipping audit",
+      "read_scope": "full source text including sections 1, 3 and 4; original HUD image inspected",
+      "accessed_at": "2026-10-04",
+      "search_verification": "official result found and source opened with web search; full text and metadata checked in cloud browser",
+      "creator_summary": "카메라와 명령 키 충돌, Spacebar 오생산, 동시 이동·공격 표시, HUD 배율 조절을 출시 전 변경으로 설명한다. Modern과 Legacy의 입력 의미는 다르다.",
+      "limitations": [
+        "author-reported fixes are not independently runtime verified",
+        "official HUD comparison has different world scenes and selected content; not a controlled A/B fixture"
+      ],
+      "rights_notice": "©2026 Gearbox Entertainment Company. All rights reserved.",
+      "redistribution_permission": "not_established",
+      "public_bundle": "links_and_original_summary_only"
+    },
+    {
+      "id": "STRAT4:S02",
+      "title": "Homeworld: Vast Reaches Gameplay UI",
+      "url": "https://www.joshsquiresdesign.com/homeworld-vast-reaches-gameplay-ui",
+      "author": "Josh Squires, FarBridge solo UX/UI designer",
+      "kind": "original_designer_portfolio",
+      "published_at": null,
+      "date_evidence": "publication date not displayed; project timeline Apr 2023–May 2025 is not a publication date",
+      "project_timeline": "2023-04 through 2025-05 as displayed by author",
+      "product_version": "VR design documentation and portfolio explanation; Meta Quest 2/3 and Steam VR",
+      "read_scope": "full source text and selected idle, selected hovered, unselected idle state diagrams",
+      "accessed_at": "2026-10-04",
+      "search_verification": "original designer page found/opened by web search; diagrams then inspected in cloud browser",
+      "creator_summary": "원거리 개별 함선 선택·명령의 어려움을 strike group 접점으로 해결했다고 설명한다. 상태 도식은 선택과 hover를 별도 조합으로 표시한다.",
+      "limitations": [
+        "portfolio diagrams do not prove current shipped behavior",
+        "rotation is described by creator, not observed as running animation",
+        "VR pick-and-place/group affordances are not a desktop mapping mandate"
+      ],
+      "redistribution_permission": "not_established",
+      "public_bundle": "links_and_original_summary_only"
+    },
+    {
+      "id": "STRAT4:S03",
+      "title": "From the Devs: Developing your Settlements",
+      "url": "https://civilization.2k.com/civ-vii/game-guide/gameplay/developing-settlements/",
+      "author": "Tom Shaw, Lead Producer, Firaxis Games",
+      "kind": "original_developer_design_explanation",
+      "published_at": "2025-09-26",
+      "published_time_as_displayed": "10:00 AM PDT",
+      "date_evidence_url": "https://steamcommunity.com/games/1295660/announcements/detail/520850995978177269",
+      "date_evidence": "publisher Steam announcement rendered POSTED field; canonical article has no visible date",
+      "product_version": "announced Update 1.2.5 UI changes; not a 2026 shipping audit",
+      "read_scope": "full official source text; original Placement After and Detailed Yields images inspected",
+      "accessed_at": "2026-10-04",
+      "search_verification": "publisher announcement found through web search; direct official article web fetch returned 403, actual official article and images were successfully read in cloud browser",
+      "creator_summary": "목록의 잠재 수치를 추천처럼 강조하는 문제를 설명하고 실제 배치 문맥에 전후 변화·손실을 연결한다. 상세 보기와 원래 표시 옵션을 둔다.",
+      "limitations": [
+        "limited modifier/adjacency reason coverage acknowledged in historical source",
+        "turn-based settlement review is not a real-time combat command pattern",
+        "source examples add/change information; they are not our controlled visual-only comparison"
+      ],
+      "rights_notice": "©2026 Take-Two Interactive Software, Inc. All rights reserved.",
+      "redistribution_permission": "not_established",
+      "public_bundle": "links_and_original_summary_only"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "STRAT4:IMG01",
+      "source_id": "STRAT4:S01",
+      "url": "https://www.homeworlduniverse.com/wp-content/uploads/2024/03/HUD-Scale-Before-Vs-After-1024x288.jpg",
+      "label": "Homeworld 3 official HUD Scale Before/After",
+      "natural_image_size_px": [
+        1024,
+        288
+      ],
+      "observed_details": "상단 띠, 좌측 목표, 우측 생산 목록, 하단 선택·명령 영역. 오른쪽 하단 묶음은 더 작다. 장면과 선택 내용이 서로 달라 효율·가림 면적 비교 자료가 아니다.",
+      "observation_kind": "actual_rendered_original_image_inspection",
+      "inspected_at": "2026-10-04",
+      "browser": "dot_cloud_browser",
+      "artifact_kind": "creator_documentation_or_historical_product_still",
+      "measurement_boundary": "image dimensions only; no CSS/control dimensions, occlusion percentage, task time or shipped animation measured",
+      "runtime_status": "not_tested",
+      "redistribution_permission": "not_established",
+      "package_policy": "link_only_no_image_bytes"
+    },
+    {
+      "id": "STRAT4:IMG02",
+      "source_id": "STRAT4:S02",
+      "url": "https://images.squarespace-cdn.com/content/v1/5c5a8a39ab1a6259d2298dbb/0e1a9c02-df6b-4821-b1ee-c05dc51ef095/Selected_Idle.png",
+      "label": "Selected Idle state documentation",
+      "natural_image_size_px": null,
+      "observed_details": "녹색 함선 wireframe과 개별 체력 막대, 연결선, A 표식의 추가 segment가 보인다. 공개 정지 상태 도식이다.",
+      "observation_kind": "actual_rendered_original_image_inspection",
+      "inspected_at": "2026-10-04",
+      "browser": "dot_cloud_browser",
+      "artifact_kind": "creator_documentation_or_historical_product_still",
+      "measurement_boundary": "image dimensions only; no CSS/control dimensions, occlusion percentage, task time or shipped animation measured",
+      "runtime_status": "not_tested",
+      "redistribution_permission": "not_established",
+      "package_policy": "link_only_no_image_bytes"
+    },
+    {
+      "id": "STRAT4:IMG03",
+      "source_id": "STRAT4:S02",
+      "url": "https://images.squarespace-cdn.com/content/v1/5c5a8a39ab1a6259d2298dbb/4d2caf7c-0c23-4f1d-93c0-0b05e35d81c9/Selected_Hover.png",
+      "label": "Selected Hovered state documentation",
+      "natural_image_size_px": [
+        1200,
+        420
+      ],
+      "observed_details": "선택 요소에 넓은 타원형 링이 더해진다. 흰 점선 화살표는 회전 설명 주석이며 실제 HUD 요소로 확인된 것은 아니다.",
+      "observation_kind": "actual_rendered_original_image_inspection",
+      "inspected_at": "2026-10-04",
+      "browser": "dot_cloud_browser",
+      "artifact_kind": "creator_documentation_or_historical_product_still",
+      "measurement_boundary": "image dimensions only; no CSS/control dimensions, occlusion percentage, task time or shipped animation measured",
+      "runtime_status": "not_tested",
+      "redistribution_permission": "not_established",
+      "package_policy": "link_only_no_image_bytes"
+    },
+    {
+      "id": "STRAT4:IMG04",
+      "source_id": "STRAT4:S02",
+      "url": "https://images.squarespace-cdn.com/content/v1/5c5a8a39ab1a6259d2298dbb/c7e25d17-1d11-439e-aa6c-6b150865876a/Unselected_Idle.png",
+      "label": "Unselected Idle state documentation",
+      "natural_image_size_px": [
+        1200,
+        420
+      ],
+      "observed_details": "함선과 A 표식은 남고 선택의 추가 segment와 개별 체력 막대는 없다.",
+      "observation_kind": "actual_rendered_original_image_inspection",
+      "inspected_at": "2026-10-04",
+      "browser": "dot_cloud_browser",
+      "artifact_kind": "creator_documentation_or_historical_product_still",
+      "measurement_boundary": "image dimensions only; no CSS/control dimensions, occlusion percentage, task time or shipped animation measured",
+      "runtime_status": "not_tested",
+      "redistribution_permission": "not_established",
+      "package_policy": "link_only_no_image_bytes"
+    },
+    {
+      "id": "STRAT4:IMG05",
+      "source_id": "STRAT4:S03",
+      "url": "https://assets.2k.com/1a6ngf98576c/aoJR5SeOopxCfH6fZix5O/1c92b217557ef0a4d5209072e22f9408/02b_FromTheDevs_DevelopingYourSettlements_BuildingPlacement_After.png",
+      "label": "Building Placement After",
+      "natural_image_size_px": [
+        3840,
+        2160
+      ],
+      "observed_details": "좁은 왼쪽 BAZAAR 패널, 넓은 지도, 타일의 수치·화살표·배치 표식. 검은 면과 금색 선은 해당 제품 표현이다.",
+      "observation_kind": "actual_rendered_original_image_inspection",
+      "inspected_at": "2026-10-04",
+      "browser": "dot_cloud_browser",
+      "artifact_kind": "creator_documentation_or_historical_product_still",
+      "measurement_boundary": "image dimensions only; no CSS/control dimensions, occlusion percentage, task time or shipped animation measured",
+      "runtime_status": "not_tested",
+      "redistribution_permission": "not_established",
+      "package_policy": "link_only_no_image_bytes"
+    },
+    {
+      "id": "STRAT4:IMG06",
+      "source_id": "STRAT4:S03",
+      "url": "https://assets.2k.com/1a6ngf98576c/26HgAMD7j4b0G031DzMCsr/a899ea6996247e4485ef9de003285a88/02d_FromTheDevs_DevelopingYourSettlements_BuildingPlacement_Detailed_V2.png",
+      "label": "Detailed Yields",
+      "natural_image_size_px": [
+        3840,
+        2160
+      ],
+      "observed_details": "PLACE BAZAAR 패널에 BEFORE와 AFTER 구역, 부호 있는 변화, 유지비가 보인다. 중앙·오른쪽에는 타일 지도가 유지된다.",
+      "observation_kind": "actual_rendered_original_image_inspection",
+      "inspected_at": "2026-10-04",
+      "browser": "dot_cloud_browser",
+      "artifact_kind": "creator_documentation_or_historical_product_still",
+      "measurement_boundary": "image dimensions only; no CSS/control dimensions, occlusion percentage, task time or shipped animation measured",
+      "runtime_status": "not_tested",
+      "redistribution_permission": "not_established",
+      "package_policy": "link_only_no_image_bytes"
+    }
+  ],
+  "cases": [
+    {
+      "id": "STRAT4:C01",
+      "title": "집단 선택 hover 명령 지정의 분리",
+      "source_ids": [
+        "STRAT4:S02"
+      ],
+      "visual_ids": [
+        "STRAT4:IMG02",
+        "STRAT4:IMG03",
+        "STRAT4:IMG04"
+      ],
+      "correction_ids": [
+        "STRAT4:R01"
+      ],
+      "observation_scope": "creator VR documentation; desktop adaptation is proposed only"
+    },
+    {
+      "id": "STRAT4:C02",
+      "title": "카메라와 명령 충돌 및 작은 HUD의 현재 상태",
+      "source_ids": [
+        "STRAT4:S01"
+      ],
+      "visual_ids": [
+        "STRAT4:IMG01"
+      ],
+      "correction_ids": [
+        "STRAT4:R02",
+        "STRAT4:R03"
+      ],
+      "observation_scope": "historical developer explanation plus still-image layout; camera subsystem absent from own demo"
+    },
+    {
+      "id": "STRAT4:C03",
+      "title": "선택 대상 결정 문맥과 지도 미리보기의 연결",
+      "source_ids": [
+        "STRAT4:S03"
+      ],
+      "visual_ids": [
+        "STRAT4:IMG05",
+        "STRAT4:IMG06"
+      ],
+      "correction_ids": [
+        "STRAT4:R04"
+      ],
+      "observation_scope": "turn-based settlement example used only for contextual information placement; no economy subsystem proposed"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "STRAT4:R01",
+      "origin": "author_proposal_not_creator_spec",
+      "source_ids": [
+        "STRAT4:S02"
+      ],
+      "failure": "선택 hover focus 지정 중 명령이 하나의 highlight로 표시되어 대상과 실행 여부가 혼동된다.",
+      "builder_instruction": "selectedIds, hoverId, focusKey, command를 별도 필드로 둔다. 집단 ID와 선택 표식은 지속시키고 hover·keyboard focus·명령 지정에는 서로 다른 형상과 문구를 쓴다. Escape 취소는 선택을 유지한다.",
+      "visual_spec": {
+        "selected": "persistent group ID, count and segmented marker or selected label",
+        "hover": "temporary outer emphasis; cannot replace selected indicator",
+        "keyboard_focus": "separate outline; keeps selected and armed signals visible",
+        "armed": "explicit command + target prompt + cancel; same selected group remains visible",
+        "invalid": "reason text + invalid target marker; no committed order"
+      },
+      "exceptions": [
+        "VR spatial rings and tactile pick-and-place are not mandatory desktop affordances",
+        "do not hide per-unit commands where individual-unit precision is part of the game",
+        "health-on-selection is not a universal rule"
+      ],
+      "test_ids": [
+        "STRAT4:T01",
+        "STRAT4:T02",
+        "STRAT4:T03",
+        "STRAT4:T04"
+      ]
+    },
+    {
+      "id": "STRAT4:R02",
+      "origin": "author_proposal_not_creator_spec",
+      "source_ids": [
+        "STRAT4:S01"
+      ],
+      "failure": "카메라와 HUD 클릭이 월드 명령으로 처리되거나 화면 키 표기와 실제 바인딩이 다르다.",
+      "builder_instruction": "camera, HUD, world-target 입력을 별도 라우팅한다. 표시 키는 활성 바인딩에서 만들고 충돌 이유를 알린다. HUD pointer 이벤트가 world target으로 전파되지 않게 한다. 전후는 같은 reducer/input mapping을 사용한다.",
+      "visual_spec": {
+        "binding": "show active M/A/S/Escape mappings for this fixture only; native Enter/Space follow focused buttons",
+        "camera_context": "actual engine should display camera mode separately without dispatching a unit order",
+        "hud_boundary": "context controls distinct from targetable map; a command click only arms"
+      },
+      "exceptions": [
+        "Modern/Legacy right-click meanings differ in source; do not impose source bindings on another game",
+        "current demo has no camera, rebind settings, or input-presets subsystem",
+        "routing bug fix is behavior repair, not visual-only improvement"
+      ],
+      "test_ids": [
+        "STRAT4:T05",
+        "STRAT4:T06",
+        "STRAT4:T10"
+      ]
+    },
+    {
+      "id": "STRAT4:R03",
+      "origin": "author_proposal_not_creator_spec",
+      "source_ids": [
+        "STRAT4:S01"
+      ],
+      "failure": "작게 만든 HUD에서 현재 이동·교전·선택 정보가 사라지거나 명령 버튼이 모두 같은 덩어리다.",
+      "builder_instruction": "선택 ID와 수, 이동, firing, 지정 중 명령과 취소를 문맥 HUD에 유지한다. 이동/전투 동작을 묶고 불필요한 chrome을 줄인다. 미리보기와 기록 명령은 label과 선 모양도 다르게 표현한다.",
+      "visual_spec": {
+        "grouping": "movement group: Move and Stop; combat group: Attack; confirmation/cancel remain explicit in command context",
+        "concurrent_state": "show fixture movement and firing independently, including Arrow simultaneous labels",
+        "preview": "dashed path plus preview/target label",
+        "committed": "solid path plus recorded/sent order label, not simulated-arrival claim",
+        "compact": "preserve essential labels and controls; details may collapse, facts may not disappear"
+      },
+      "exceptions": [
+        "source HUD before/after changes scene and selection; cannot estimate controlled occlusion reduction",
+        "NLIPS and unit-icon amalgamation can change selection behavior and must be tested separately",
+        "density reduction should precede illegibly small controls",
+        "own demo records orders but does not simulate movement/damage"
+      ],
+      "test_ids": [
+        "STRAT4:T07",
+        "STRAT4:T08",
+        "STRAT4:T09"
+      ]
+    },
+    {
+      "id": "STRAT4:R04",
+      "origin": "author_proposal_not_creator_spec",
+      "source_ids": [
+        "STRAT4:S03"
+      ],
+      "failure": "현재 대상 정보와 실행 버튼, 지도 미리보기가 흩어져 보이거나 단순 수치를 최선의 행동처럼 표시한다.",
+      "builder_instruction": "선택 집단·현재 상태·목표 미리보기·활성 명령을 같은 문맥 HUD에 연결한다. 접힌 상세에도 대상·명령·취소는 남긴다. 실제 추천 계산이 없으면 추천/최선 표현을 쓰지 않는다.",
+      "visual_spec": {
+        "context": "target name paired with route/target marker and the armed command",
+        "details": "optional detail group can show unit facts; core identity/count/armed command/cancel remain present",
+        "losses": "do not fabricate cost/time/combat predictions absent from this fixture",
+        "recommendation": "data emphasis is not recommendation"
+      },
+      "exceptions": [
+        "do not add economy UI to this fleet-control slice",
+        "turn-based full breakdown should not force a blocking modal during realtime targeting",
+        "source acknowledged incomplete explanatory/calculation coverage"
+      ],
+      "test_ids": [
+        "STRAT4:T08",
+        "STRAT4:T09"
+      ]
+    }
+  ],
+  "synthetic_visual_starting_points": {
+    "origin": "proposed_not_measured",
+    "frame_world_units": [
+      960,
+      680
+    ],
+    "control_height_css_px": 44,
+    "body_text_css_px": 14,
+    "group_gap_css_px": 8,
+    "focus_outline_css_px": 2,
+    "shape": "small-radius rectangular native controls; group headers and fixed context blocks, not ornamental hologram circles",
+    "materials": "low-texture dark opaque or nearly opaque context surfaces; persistent state has text/shape plus color",
+    "placement": "edge context area preserves world view; no universal lower-HUD mandate",
+    "limits": "CSS starting values only, not observed source control sizes or accessibility compliance; actual demo CSS must be checked separately"
+  },
+  "comparison_spec": {
+    "id": "STRAT4:PAIR01",
+    "status": "proposed_and_bound_to_existing_fixture; research_runtime_not_tested",
+    "fixture_id": "STRAT4:F01",
+    "fixture_native_id": "synthetic-fleet-01",
+    "fixture_path": "demo/fixture.json",
+    "fixture_file_sha256": "3aa1c37dea285cf1a1e88302366b2d737cf70d1dfaae178f30002db14a3d6fbe",
+    "fixture_canonical_json_sha256": "ac0303aea6772428cae2da968565348f4da5f5cc482f5aec1e4cace3723eec8c",
+    "fixture_hash_algorithm": "UTF-8 JSON sort_keys=true, separators comma/colon, ensure_ascii=false",
+    "state_module_path": "demo/state.mjs",
+    "state_module_sha256_at_research": "0788bb8d8469c405400da0993922546fa39ac8a1ad9a67e0d6ac39c79a8e3bc3",
+    "fixture": {
+      "id": "synthetic-fleet-01",
+      "title": "Outer relay / Fleet A1",
+      "world": {
+        "width": 960,
+        "height": 680,
+        "label": "Outer relay fleet command map"
+      },
+      "initialSelection": [
+        "kestrel"
+      ],
+      "group": "A1",
+      "units": [
+        {
+          "id": "kestrel",
+          "name": "Kestrel",
+          "role": "Command cruiser",
+          "team": "friendly",
+          "x": 270,
+          "y": 246,
+          "hull": 92,
+          "movement": "Holding formation",
+          "firing": "Not firing",
+          "shape": "cruiser"
+        },
+        {
+          "id": "arrow",
+          "name": "Arrow",
+          "role": "Escort frigate",
+          "team": "friendly",
+          "x": 392,
+          "y": 352,
+          "hull": 74,
+          "movement": "Escorting Kestrel",
+          "firing": "Firing at Fang",
+          "shape": "frigate"
+        },
+        {
+          "id": "willow",
+          "name": "Willow",
+          "role": "Support tender",
+          "team": "friendly",
+          "x": 203,
+          "y": 412,
+          "hull": 100,
+          "movement": "Holding position",
+          "firing": "Not firing",
+          "shape": "tender"
+        },
+        {
+          "id": "fang",
+          "name": "Fang",
+          "role": "Hostile frigate",
+          "team": "hostile",
+          "x": 647,
+          "y": 269,
+          "hull": 63,
+          "movement": "Approaching relay",
+          "firing": "Firing at Arrow",
+          "shape": "frigate"
+        }
+      ],
+      "waypoints": [
+        {
+          "id": "relay",
+          "name": "Relay approach",
+          "x": 569,
+          "y": 453
+        }
+      ],
+      "stars": [
+        [
+          73,
+          91,
+          1
+        ],
+        [
+          176,
+          125,
+          1.4
+        ],
+        [
+          241,
+          75,
+          1
+        ],
+        [
+          388,
+          113,
+          1.7
+        ],
+        [
+          513,
+          64,
+          1
+        ],
+        [
+          680,
+          91,
+          1.3
+        ],
+        [
+          797,
+          134,
+          1
+        ],
+        [
+          882,
+          62,
+          1.5
+        ],
+        [
+          98,
+          266,
+          1.2
+        ],
+        [
+          512,
+          232,
+          1
+        ],
+        [
+          808,
+          273,
+          1.5
+        ],
+        [
+          896,
+          359,
+          1
+        ],
+        [
+          44,
+          415,
+          1.3
+        ],
+        [
+          330,
+          494,
+          1
+        ],
+        [
+          692,
+          567,
+          1.4
+        ],
+        [
+          868,
+          592,
+          1
+        ],
+        [
+          145,
+          603,
+          1.4
+        ],
+        [
+          458,
+          613,
+          1
+        ],
+        [
+          748,
+          424,
+          1.2
+        ],
+        [
+          43,
+          587,
+          1
+        ]
+      ],
+      "presets": [
+        "normal",
+        "selection",
+        "preview",
+        "invalid",
+        "empty"
+      ]
+    },
+    "input_mode": "mouse_keyboard",
+    "demo_text_locale": "en-US",
+    "research_language": "ko",
+    "world_size_units": [
+      960,
+      680
+    ],
+    "rendering_contract": {
+      "world_viewbox": [
+        0,
+        0,
+        960,
+        680
+      ],
+      "same_css_size_between_variants": true,
+      "dpr": 1,
+      "zoom_percent": 100,
+      "viewport_required": "record actual page viewport and frame CSS size at capture; world units are not page pixels",
+      "capture_paths": [],
+      "capture_status": "not_tested"
+    },
+    "supported_actions": [
+      "SELECT",
+      "CLEAR",
+      "CHOOSE_COMMAND",
+      "TARGET",
+      "ACTIVATE_UNIT",
+      "COMMIT",
+      "STOP",
+      "CANCEL",
+      "HOVER",
+      "FOCUS",
+      "RESET",
+      "PRESET"
+    ],
+    "actual_behavior": "SELECT chooses friendly ships, Shift adds/removes selection; Move/Attack arm a command; target sets preview; COMMIT records; Stop records; Cancel preserves selection and existing orders. No camera/economy/movement/damage simulation.",
+    "input_bindings": {
+      "M": "choose Move in active frame",
+      "A": "choose Attack in active frame",
+      "S": "Stop in active frame",
+      "Escape": "cancel command in active frame",
+      "Shift+friendly_click": "additive select toggle when not command-targeting",
+      "Enter/Space": "native focused-button activation only"
+    },
+    "same_content_required": [
+      "same fixture hash",
+      "same reducer revision",
+      "same action sequence",
+      "same selectedIds/hoverId/focusKey/command/target/preview/committedOrders",
+      "same world positions and own artwork",
+      "same frame CSS size/DPR/zoom",
+      "same locale",
+      "same capture milestone"
+    ],
+    "before": "same facts, labels, actions and reducer; broad flat HUD grouping with selected/hover/armed signals that are less differentiated",
+    "after": "same facts, labels, actions and reducer; compact contextual grouping and separate persistent selection, transient hover/focus, armed/preview and recorded-order feedback",
+    "change_ledger": [
+      {
+        "category": "visual",
+        "allowed": [
+          "HUD grouping/layout",
+          "spacing",
+          "shape",
+          "text hierarchy",
+          "state presentation",
+          "own-art rendering only when identical world positions/art hashes"
+        ],
+        "fact_loss_allowed": false
+      },
+      {
+        "category": "behavior_content",
+        "allowed": false,
+        "examples": [
+          "different reducer",
+          "different key semantics",
+          "two-click versus one-click command workflow across variants",
+          "new simulation",
+          "new recommendation",
+          "different target data",
+          "different group selection"
+        ]
+      }
+    ],
+    "milestones": [
+      "empty",
+      "selected",
+      "unselected_hovered",
+      "keyboard_focused",
+      "command_armed",
+      "valid_target_preview",
+      "invalid_target",
+      "recorded_order",
+      "cancelled_selection_kept"
+    ],
+    "source_stills_are_not_baselines": true,
+    "camera_test_status": "not_supported_in_demo; proposed_engine_integration_test_only",
+    "simultaneous_state_status": "static fixture movement/firing facts only; not dynamic combat simulation",
+    "runtime_tests": [
+      "STRAT4:T01",
+      "STRAT4:T02",
+      "STRAT4:T03",
+      "STRAT4:T04",
+      "STRAT4:T05",
+      "STRAT4:T06",
+      "STRAT4:T07",
+      "STRAT4:T08",
+      "STRAT4:T09"
+    ],
+    "integration_tests": [
+      "STRAT4:T10"
+    ],
+    "usability_test": "STRAT4:T11"
+  },
+  "tests": [
+    {
+      "id": "STRAT4:T01",
+      "assertion": "동일 fixture/reducer와 action sequence에 대해 A/B gameplay state가 같다.",
+      "scope": "state_and_runtime",
+      "action_sequence": [
+        {
+          "type": "SELECT",
+          "id": "arrow",
+          "additive": true
+        },
+        {
+          "type": "CHOOSE_COMMAND",
+          "command": "move"
+        },
+        {
+          "type": "TARGET",
+          "target": {
+            "kind": "waypoint",
+            "id": "relay"
+          }
+        },
+        {
+          "type": "COMMIT"
+        }
+      ],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T02",
+      "assertion": "선택 hover keyboard focus 명령 지정이 정지 캡처에서도 별도 의미로 보인다.",
+      "scope": "visual_runtime",
+      "action_sequence": [
+        {
+          "type": "SELECT",
+          "id": "kestrel"
+        },
+        {
+          "type": "HOVER",
+          "id": "willow"
+        },
+        {
+          "type": "FOCUS",
+          "key": "move"
+        },
+        {
+          "type": "CHOOSE_COMMAND",
+          "command": "move"
+        }
+      ],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T03",
+      "assertion": "Escape/CANCEL은 명령 미리보기만 취소하고 선택과 기존 명령 기록을 유지한다.",
+      "scope": "state_and_runtime",
+      "action_sequence": [
+        {
+          "type": "CHOOSE_COMMAND",
+          "command": "move"
+        },
+        {
+          "type": "TARGET",
+          "target": {
+            "kind": "waypoint",
+            "id": "relay"
+          }
+        },
+        {
+          "type": "COMMIT"
+        },
+        {
+          "type": "CHOOSE_COMMAND",
+          "command": "attack"
+        },
+        {
+          "type": "CANCEL"
+        }
+      ],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T04",
+      "assertion": "Attack의 friendly target은 invalid 이유를 표시하고 COMMIT도 새 기록을 만들지 않는다.",
+      "scope": "state_and_runtime",
+      "action_sequence": [
+        {
+          "type": "CHOOSE_COMMAND",
+          "command": "attack"
+        },
+        {
+          "type": "TARGET",
+          "target": {
+            "kind": "unit",
+            "id": "willow"
+          }
+        },
+        {
+          "type": "COMMIT"
+        }
+      ],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T05",
+      "assertion": "HUD command click은 명령을 arm할 뿐 world target이나 COMMIT으로 전파되지 않는다.",
+      "scope": "browser_event_routing",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T06",
+      "assertion": "M/A/S/Escape는 활성 프레임 안에서만 처리되고 Enter/Space는 native 버튼과 일치한다.",
+      "scope": "keyboard_browser_runtime",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T07",
+      "assertion": "Arrow의 fixture movement와 firing을 함께 보존하고 recorded order를 실제 simulation 결과라고 부르지 않는다.",
+      "scope": "content_and_visual_runtime",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T08",
+      "assertion": "동일 상태의 두 시안에서 unit names/count/hull/state, target, active command, reasons와 controls에 사실 손실이 없다.",
+      "scope": "content_equivalence_runtime",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T09",
+      "assertion": "작은 프레임/큰 텍스트에서 essential labels와 취소/확정이 clipping 없이 읽히며 focus가 안 보이는 곳으로 이동하지 않는다.",
+      "scope": "responsive_visual_runtime",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T10",
+      "assertion": "명령 지정 중 카메라만 이동하면 target/order/selection이 바뀌지 않고 키 충돌은 실제 바인딩에서 설명된다.",
+      "scope": "proposed_engine_integration_not_supported_in_demo",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    },
+    {
+      "id": "STRAT4:T11",
+      "assertion": "오명령 빈도, 재탐색, 완료시간을 통제 사용성 실험으로 측정한다. 정지 이미지나 smoke test로 효율 수치를 주장하지 않는다.",
+      "scope": "future_controlled_usability_study",
+      "action_sequence": [],
+      "status": "not_tested",
+      "result": null
+    }
+  ],
+  "release_boundary": {
+    "artifact_quality_goal": "repository/plugin-readable draft evidence, not approved or installed plugin",
+    "github_publication": "not_authorized_not_run",
+    "codex_plugin_installation": "not_authorized_not_run",
+    "sites_editing": "not_authorized_not_run",
+    "external_communication": "none",
+    "proprietary_images_in_package": false,
+    "source_link_count": 3,
+    "own_synthetic_fixture": true
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0.0",
+  "status": "bounded_link_only_subset",
+  "rights_policy": "Public access is not redistribution permission. No source article/skill/code/image/font bytes bundled. No license selected.",
+  "source_count": 20,
+  "sources": [
+    {
+      "id": "AS:S13",
+      "canonical_source_id": "SRC:URL:dddd37b551abbb6c6d73e806",
+      "title": "Data Tables Four Major User Tasks",
+      "url": "https://www.nngroup.com/articles/data-tables/",
+      "author_date_assertion": "Page Laubheimer, 2022-04-03",
+      "evidence_kind": "background_guidance",
+      "supported_scope": "비교·검색·레코드 작업과 표 선택",
+      "accessed_at_in_prior_research": "2026-10-03",
+      "prior_access_status": "public_page_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "antislop_research.json",
+      "origin_pointer": "/sources/12",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "AS:S18",
+      "canonical_source_id": "SRC:URL:f58512fc3e5936b3c5128548",
+      "title": "Writing for user interfaces",
+      "url": "https://www.gov.uk/service-manual/design/writing-for-user-interfaces",
+      "author_date_assertion": "GOV.UK",
+      "evidence_kind": "background_guidance",
+      "supported_scope": "사용자 언어·직접적 문구·설명 전에 인터페이스 개선",
+      "accessed_at_in_prior_research": "2026-10-03",
+      "prior_access_status": "public_page_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "antislop_research.json",
+      "origin_pointer": "/sources/17",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "AS:S23",
+      "canonical_source_id": "SRC:URL:41104de0a1e767e584b05e12",
+      "title": "Game Accessibility Guidelines full list",
+      "url": "https://gameaccessibilityguidelines.com/full-list/",
+      "author_date_assertion": "Game Accessibility Guidelines",
+      "evidence_kind": "background_guidance",
+      "supported_scope": "입력·정보 대안·튜토리얼·인터페이스 조작",
+      "accessed_at_in_prior_research": "2026-10-03",
+      "prior_access_status": "public_page_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "antislop_research.json",
+      "origin_pointer": "/sources/22",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S01",
+      "canonical_source_id": null,
+      "title": "Friday Facts #243 — New GUI tileset",
+      "url": "https://www.factorio.com/blog/post/fff-243",
+      "author_date_assertion": {
+        "author": "Albert / kovarex, Wube Software",
+        "published_at": "2018-05-18"
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "공통 widget sheet를 이용한 대비·폰트·고해상도/일반 해상도·문자권 검토. 이미지에 명시된 버튼 조형 및 상태 주석",
+      "product_version": "2018 work-in-progress GUI tileset; not a current shipping-build audit",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/0",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "Copyright © 2015–2026 Wube Software, all rights reserved",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S03",
+      "canonical_source_id": null,
+      "title": "Friday Facts #362 — Continue button and confirm",
+      "url": "https://www.factorio.com/blog/post/fff-362",
+      "author_date_assertion": {
+        "author": "kovarex / V453000, Wube Software",
+        "published_at": "2020-10-30"
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "E 확인과 Esc 취소의 의미를 분리하고 green-button 클릭 및 키 입력의 피드백을 맞춘 변경",
+      "product_version": "announced changes for Factorio 1.1",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/2",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "Wube Software, all rights reserved",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S04",
+      "canonical_source_id": null,
+      "title": "Dead Space 2 UI Concepts / Shape Library",
+      "url": "https://dinoignacio.com/portfolio/dead-space-2-shape-library/",
+      "author_date_assertion": {
+        "author": "Dino Ignacio, franchise lead UI designer; team work acknowledged separately in reel",
+        "published_at": null
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "확대된 UI 팀이 공유할 일관된 shape library를 만들었다는 원저자 설명과 두 concept sheets",
+      "product_version": "early Dead Space 2 concepts; not verified shipping states",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/3",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "Copyright @ 2016 Dino Ignacio",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S05",
+      "canonical_source_id": null,
+      "title": "Dead Space 3 UI Concepts",
+      "url": "https://dinoignacio.com/portfolio/dead-space-3-ui-concepts/",
+      "author_date_assertion": {
+        "author": "Dino Ignacio",
+        "published_at": null
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "서사의 200년 이전 기술을 유리 기반의 복고 미래 단말기로 구분했다는 제작자 설명",
+      "product_version": "early Dead Space 3 terminal concepts",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/4",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "Copyright @ 2016 Dino Ignacio",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S07",
+      "canonical_source_id": null,
+      "title": "Tintin Match Game Art & UI",
+      "url": "https://tobitobot.artstation.com/projects/d8zDQe",
+      "author_date_assertion": {
+        "author": "Paul Filippow, 5th Planet Games Berlin; UI screens credited with Magdalena Chojnowska",
+        "published_at": null
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "Hergé의 만화 정체성과 casual puzzle UI를 연결한 제작 의도; panel/button sheet와 game screen montage",
+      "product_version": "Tintin Match portfolio sheets; upload query timestamps are not publication evidence",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/6",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "All rights reserved; sheet shows © Hergé–Moulinsart and 5th Planet marks",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "WCV2:S01",
+      "legacy_alias": "WCV2-S01",
+      "canonical_source_id": null,
+      "title": "Shopify One Page Checkout",
+      "url": "https://www.shopify.com/uk/blog/one-page-checkout",
+      "author_date_assertion": {
+        "author": "Shopify, Xuya Wang",
+        "published_at": "2023-09-25"
+      },
+      "evidence_kind": "original_product_team_decisions",
+      "supported_scope": "article decisions; no original before/after image observed",
+      "historical_boundary": "Historical redesign/prototype; not a current live-product audit",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "see_prior_research_scope",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "web_app_corrections_v2.cases.json",
+      "origin_pointer": "/sources/WCV2-S01",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "WCV2:S02",
+      "legacy_alias": "WCV2-S02",
+      "canonical_source_id": null,
+      "title": "The Road to Moodle 4.0 – Sneak Peek of our New Nav",
+      "url": "https://moodle.com/news/road-moodle-4-0-new-navigation./",
+      "author_date_assertion": {
+        "author": "Moodle",
+        "published_at": "2021-03-15"
+      },
+      "evidence_kind": "original_prototype_decisions",
+      "supported_scope": "prototype decisions in search result; prototype is not proof of shipped behavior",
+      "historical_boundary": "Historical redesign/prototype; not a current live-product audit",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "see_prior_research_scope",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "web_app_corrections_v2.cases.json",
+      "origin_pointer": "/sources/WCV2-S02",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "WCV2:S03",
+      "legacy_alias": "WCV2-S03",
+      "canonical_source_id": null,
+      "title": "Find your way around Moodle 4.0",
+      "url": "https://moodle.com/news/find-your-way-around-moodle-4-0/",
+      "author_date_assertion": {
+        "author": "Moodle, Mary Cooch tutorial",
+        "published_at": "2022-05-05"
+      },
+      "evidence_kind": "original_release_explanation",
+      "supported_scope": "public article and official course-index image observed in cloud browser",
+      "historical_boundary": "Historical redesign/prototype; not a current live-product audit",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "see_prior_research_scope",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "web_app_corrections_v2.cases.json",
+      "origin_pointer": "/sources/WCV2-S03",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "WCV2:S05",
+      "legacy_alias": "WCV2-S05",
+      "canonical_source_id": null,
+      "title": "Retiring our icons",
+      "url": "https://gds.blog.gov.uk/2013/06/18/retiring-our-icons/",
+      "author_date_assertion": {
+        "author": "GDS, Guy Moorhouse",
+        "published_at": "2013-06-18"
+      },
+      "evidence_kind": "original_redesign_with_research_decisions",
+      "supported_scope": "official historical before/after image observed via the GDS 2013 retrospective",
+      "historical_boundary": "Historical redesign/prototype; not a current live-product audit",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "see_prior_research_scope",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "web_app_corrections_v2.cases.json",
+      "origin_pointer": "/sources/WCV2-S05",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "WCV2:S06",
+      "legacy_alias": "WCV2-S06",
+      "canonical_source_id": null,
+      "title": "Responding to the changing user needs of the COVID-19 landing page",
+      "url": "https://insidegovuk.blog.gov.uk/2023/03/06/responding-to-the-changing-user-needs-of-the-covid-19-landing-page/",
+      "author_date_assertion": {
+        "author": "GDS, Nathalie Carter and Lina Nilsson",
+        "published_at": "2023-03-06"
+      },
+      "evidence_kind": "original_content_redesign_with_before_after",
+      "supported_scope": "official section-header before/after image observed in cloud browser",
+      "historical_boundary": "Analysis of the 2022 change only; no statement about current health rules or guidance",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "see_prior_research_scope",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "web_app_corrections_v2.cases.json",
+      "origin_pointer": "/sources/WCV2-S06",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "OA:PACKAGING",
+      "title": "Package your plugin",
+      "url": "https://developers.openai.com/plugins/build/plugins",
+      "evidence_kind": "official_documentation",
+      "supported_scope": "Minimal portable root manifest and root skills discovery",
+      "accessed_at": "2026-10-04",
+      "rechecked_in_this_package_pass": true,
+      "access_status": "official_page_opened_with_web_tool",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "link_and_original_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "OA:SKILLS",
+      "title": "Build skills",
+      "url": "https://developers.openai.com/plugins/build/skills",
+      "evidence_kind": "official_documentation",
+      "supported_scope": "SKILL.md name/description frontmatter and actual workflow",
+      "accessed_at": "2026-10-04",
+      "rechecked_in_this_package_pass": true,
+      "access_status": "official_page_opened_with_web_tool",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "link_and_original_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "OA:ERRORS",
+      "title": "Plugin submission errors",
+      "url": "https://developers.openai.com/plugins/deploy/submission-errors",
+      "evidence_kind": "official_documentation",
+      "supported_scope": "Skills-only valid manifest/skill and submission failure categories; submission not performed",
+      "accessed_at": "2026-10-04",
+      "rechecked_in_this_package_pass": true,
+      "access_status": "official_page_opened_with_web_tool",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "included_content": "link_and_original_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S02",
+      "canonical_source_id": null,
+      "title": "Friday Facts #238 — The GUI update (Part II)",
+      "url": "https://www.factorio.com/blog/post/fff-238",
+      "author_date_assertion": {
+        "author": "glex / kovarex, Wube Software",
+        "published_at": "2018-04-13"
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "기술 객체에 연결한 문맥 조작과 표준 확인 버튼의 인지 사이에서 제작자가 직접 기록한 갈등",
+      "product_version": "2018 research-tree redesign work in progress",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/1",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "Wube Software, all rights reserved",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S06",
+      "canonical_source_id": null,
+      "title": "Portfolio — Battlefield V UI",
+      "url": "https://carlosvk.info/portfolio/",
+      "author_date_assertion": {
+        "author": "Carlos Villarreal Kwasek, DICE UI/UX team contributor",
+        "published_at": null
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "소수의 공통 building blocks와 behaviour로 버튼을 구성했다는 원저자 설명; 제공한 menu/HUD stills",
+      "product_version": "Battlefield V (2018) portfolio images",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/5",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "© 2026 Carlos Villarreal Kwasek, all rights reserved; screenshots identify EA/DICE",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S08",
+      "canonical_source_id": null,
+      "title": "Hard Head Squad UI/UX",
+      "url": "https://cenildon.artstation.com/projects/lR89oO",
+      "author_date_assertion": {
+        "author": "Cenildon Muradi, UX/UI creator and later art director; production help credited to Jesus Vera Vera",
+        "published_at": null
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "screen flows, layout, visuals and Unity implementation의 제작 참여 설명; button sheet와 building popup",
+      "product_version": "Hard Head Squad portfolio images; actual current game availability not investigated",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/7",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "All rights reserved; images carry Rovio mark",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    },
+    {
+      "id": "GCTRL2:S09",
+      "canonical_source_id": null,
+      "title": "Dev Diary #49 — Graphic Overview",
+      "url": "https://www.paradoxinteractive.com/games/victoria-3/news/dev-diary-49-graphic-overview",
+      "author_date_assertion": {
+        "author": "Max, Victoria 3 Art Director; Kenneth Lim credited as 2D art lead",
+        "published_at": "2022-06-08"
+      },
+      "evidence_kind": "historical_creator_explanation",
+      "supported_scope": "절제된 장식, map/illustration과 맞춘 palette, 의사결정 버튼의 시각적 순서에 관한 설명 및 WIP UI images",
+      "product_version": "pre-release Victoria 3 WIP artwork, 2022",
+      "accessed_at_in_prior_research": "2026-10-04",
+      "prior_access_status": "public_source_text_read",
+      "rechecked_in_this_package_pass": false,
+      "origin_file": "game_controls_corrections_v2.json",
+      "origin_pointer": "/sources/8",
+      "rights": {
+        "status": "unknown",
+        "license": null,
+        "permission_evidence": [],
+        "notice_in_prior_research": "© 2026 Paradox Interactive AB; trademarks belong to their owners",
+        "included_content": "URL_metadata_and_own_summary_only",
+        "third_party_bytes_included": false
+      }
+    }
+  ],
+  "limitations": [
+    "Prior research metadata is preserved, not independently verified here except the three official packaging pages",
+    "Source identity is not claim reconciliation or effectiveness validation",
+    "Own corrections are proposals, never attributed as source-mandated pixel values"
+  ]
+}

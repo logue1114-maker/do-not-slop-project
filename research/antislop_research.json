@@ -1,0 +1,882 @@
+{
+  "title": "웹 앱 게임 AI 슬롭 시각 교정과 제출 전 검수",
+  "version": "2026-10-03-research-draft",
+  "language": "ko",
+  "status": "user_review_pending_not_installed_as_skill",
+  "primary_focus": [
+    "game_button_material_shape_placement_size_hierarchy",
+    "web_app_information_composition",
+    "remove_redundant_explanatory_copy",
+    "coherent_visual_design"
+  ],
+  "limitations": [
+    "Literature research, not direct product usability testing",
+    "Before-after applications and dimensions are synthetic proposals",
+    "Source S09 direct access failed; original-author indexed excerpt used",
+    "No source code edited, no Site created, no skill installed"
+  ],
+  "source_count": 29,
+  "visual_recipe_count": 12,
+  "rule_count": 28,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Improving frontend design through Skills",
+      "url": "https://claude.com/blog/improving-frontend-design-through-skills",
+      "author_and_date": "Anthropic Applied AI, 2025-11-12",
+      "evidence_type": "C/G",
+      "use_scope": "기본 출력과 스킬 출력의 저자 제시 비교, 다른 기본값으로 재수렴하는 위험",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S02",
+      "title": "Frontend Design SKILL.md",
+      "url": "https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "author_and_date": "Anthropic",
+      "evidence_type": "G/O",
+      "use_scope": "현재 반복 미학, 내용에 근거한 선택, 의도된 예외",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S03",
+      "title": "AI Prototyping in Real Design Contexts",
+      "url": "https://www.nngroup.com/articles/ai-prototyping/",
+      "author_and_date": "Huei-Hsin Wang·Megan Brown, 2025-10-24, 재검토 2026-08-19",
+      "evidence_type": "C",
+      "use_scope": "실제 수강자 프로필 과제, 지시 수준 비교, 남은 세부 결함",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S04",
+      "title": "7 Practical Tips for Cheating at Design",
+      "url": "https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886",
+      "author_and_date": "Adam Wathan·Steve Schoger, 2018-02-20",
+      "evidence_type": "G/C",
+      "use_scope": "위계·경계·아이콘·버튼 전후 전술",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S05",
+      "title": "Slop catalog",
+      "url": "https://impeccable.style/slop/",
+      "author_and_date": "Impeccable",
+      "evidence_type": "G/O",
+      "use_scope": "변화하는 반복 양식, 자동 단서와 맥락 판단의 분리",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S06",
+      "title": "Teaching agents product design at Vercel",
+      "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
+      "author_and_date": "Vercel",
+      "evidence_type": "C/G",
+      "use_scope": "작업·근거·상태·렌더 검증을 연결한 스킬 구조",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S07",
+      "title": "Post Release",
+      "url": "https://sbox.game/news/post-release/9qtcxbc94hvf.jsp",
+      "author_and_date": "matt·garry, 2026-04-29",
+      "evidence_type": "C/O",
+      "use_scope": "AI 슬롭이라는 불만과 썸네일 때문에 생기는 포괄적 낙인",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S08",
+      "title": "Update 26.05.13",
+      "url": "https://sbox.game/news/update-26-05-13",
+      "author_and_date": "s&box 제작팀, 2026-05-13",
+      "evidence_type": "C/O",
+      "use_scope": "비슷한 AI 썸네일의 노출을 낮춘 운영 변경",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S09",
+      "title": "So you want to build a generator",
+      "url": "https://www.galaxykate.com/blog/generator.html",
+      "author_and_date": "Kate Compton",
+      "evidence_type": "G/O",
+      "use_scope": "지각되는 차이·고유함과 생성 개수의 차이. 검색 본문만 확인",
+      "accessed": "2026-10-03",
+      "access_status": "search_index_excerpt_only_direct_fetch_failed"
+    },
+    {
+      "id": "S10",
+      "title": "Ask Riot Let’s Talk Clarity",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/ask-riot-let-s-talk-clarity/",
+      "author_and_date": "Riot 제작진, 2021-04-09",
+      "evidence_type": "C/G",
+      "use_scope": "스킨 실루엣 수정, 장식과 인식의 균형, 소리·대사의 우선순위",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S11",
+      "title": "Demoman design process",
+      "url": "https://www.teamfortress.com/post.php?id=1783",
+      "author_and_date": "Dhabih Eng, Valve, 2008-08-28",
+      "evidence_type": "C",
+      "use_scope": "상위 제품 목표에 맞춘 아트 선택과 실루엣 개선",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S12",
+      "title": "Error message",
+      "url": "https://design-system.service.gov.uk/components/error-message/",
+      "author_and_date": "GOV.UK Design System",
+      "evidence_type": "G",
+      "use_scope": "오류 유형·수정 방법·입력 유지·서비스 장애 구분",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S13",
+      "title": "Data Tables Four Major User Tasks",
+      "url": "https://www.nngroup.com/articles/data-tables/",
+      "author_and_date": "Page Laubheimer, 2022-04-03",
+      "evidence_type": "G",
+      "use_scope": "비교·검색·레코드 작업과 표 선택",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S14",
+      "title": "Understanding SC 1.4.3 Contrast Minimum",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "author_and_date": "W3C WAI",
+      "evidence_type": "N 해설",
+      "use_scope": "텍스트 대비의 기준과 예외",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S15",
+      "title": "UX Context Design",
+      "url": "https://www.nngroup.com/articles/ux-context-design/",
+      "author_and_date": "Tony Alicea, 2026-07-24",
+      "evidence_type": "G/O",
+      "use_scope": "사용자 맥락을 반복 사용 가능한 지침으로, 효과 측정과 열린 질문",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S16",
+      "title": "Open challenges for AI engineering",
+      "url": "https://simonwillison.net/2024/jun/27/ai-worlds-fair/",
+      "author_and_date": "Simon Willison, 2024-06-27",
+      "evidence_type": "O/G",
+      "use_scope": "검토와 발행 책임, 무검수 생성물의 문제",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S17",
+      "title": "Voice and tone",
+      "url": "https://developers.google.com/style/tone",
+      "author_and_date": "Google developer documentation style guide",
+      "evidence_type": "G",
+      "use_scope": "허풍·군더더기·쉽다는 평가 대신 명확한 정보",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S18",
+      "title": "Writing for user interfaces",
+      "url": "https://www.gov.uk/service-manual/design/writing-for-user-interfaces",
+      "author_and_date": "GOV.UK",
+      "evidence_type": "G",
+      "use_scope": "사용자 언어·직접적 문구·설명 전에 인터페이스 개선",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S19",
+      "title": "Web Interface Guidelines",
+      "url": "https://vercel.com/design/guidelines",
+      "author_and_date": "Vercel",
+      "evidence_type": "G",
+      "use_scope": "상태·입력·복귀·모션 검수. 수치를 보편 법칙으로 복사하지 않음",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S20",
+      "title": "Understanding SC 1.4.10 Reflow",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "author_and_date": "W3C WAI",
+      "evidence_type": "N 해설",
+      "use_scope": "320 CSS px 상당 폭과 2차원 콘텐츠의 예외",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S21",
+      "title": "Understanding SC 2.5.8 Target Size Minimum",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "author_and_date": "W3C WAI",
+      "evidence_type": "N 해설",
+      "use_scope": "24 CSS px 대상 크기, 간격과 기타 예외",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S22",
+      "title": "VALORANT Shaders and Gameplay Clarity",
+      "url": "https://www.riotgames.com/en/news/valorant-shaders-and-gameplay-clarity",
+      "author_and_date": "Brandon Wang, 2020-06-30",
+      "evidence_type": "C/G",
+      "use_scope": "아트·성능·공정성, 장면에서의 캐릭터 판독",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S23",
+      "title": "Game Accessibility Guidelines full list",
+      "url": "https://gameaccessibilityguidelines.com/full-list/",
+      "author_and_date": "Game Accessibility Guidelines",
+      "evidence_type": "G",
+      "use_scope": "입력·정보 대안·튜토리얼·인터페이스 조작",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S24",
+      "title": "Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "author_and_date": "web.dev",
+      "evidence_type": "G",
+      "use_scope": "LCP·INP·CLS와 75백분위 기준, 실험실/실사용 측정 구분",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S25",
+      "title": "Beastieball UI Deep Dive",
+      "url": "https://www.gamedeveloper.com/art/deep-dive-developing-a-clear-and-consistent-visual-language-in-the-ui-of-beastieball",
+      "author_and_date": "Greg Lobanov, 2024-11-12",
+      "evidence_type": "C/G",
+      "use_scope": "스포츠의 조형 언어, 제한된 반복 모티프와 공통 팔레트",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S26",
+      "title": "Returnal UX design",
+      "url": "https://blog.playstation.com/2021/05/11/unpacking-returnals-ux-design-gameplay-first-ui-retro-futuristic-tech-and-accessibility/",
+      "author_and_date": "Johannes Koski, 2021-05-11",
+      "evidence_type": "C/G",
+      "use_scope": "게임 정체성에서 UI 재료·표현·배치를 도출",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S27",
+      "title": "Effective UI and game design",
+      "url": "https://unity.com/blog/games/how-to-immerse-your-players-through-effective-ui-and-game-design",
+      "author_and_date": "Unity·Christo Nobbs",
+      "evidence_type": "G",
+      "use_scope": "기능과 아트 방향·장르 표현의 관계",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S28",
+      "title": "Visual Hierarchy in UX",
+      "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
+      "author_and_date": "Kelley Gordon, 2021-01-17",
+      "evidence_type": "G",
+      "use_scope": "크기·대비·그룹과 전체 화면 위계 검수",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    },
+    {
+      "id": "S29",
+      "title": "Help and Documentation",
+      "url": "https://www.nngroup.com/articles/help-and-documentation/",
+      "author_and_date": "Alita Kendrick, 2020-12-13",
+      "evidence_type": "G",
+      "use_scope": "작업에 필요한 도움의 범위, 불필요한 조작 설명의 구분",
+      "accessed": "2026-10-03",
+      "access_status": "public_page_read"
+    }
+  ],
+  "visual_recipes": [
+    {
+      "id": "V01",
+      "title": "게임 버튼을 한 가족으로 설계한다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n배경은 픽셀 던전인데 버튼은 웹 SaaS의 큰 둥근 캡슐, 인벤토리는 반투명 유리판, 대화창은 종이 테두리다. 각 버튼은 따로 보면 쓸 만하지만 장면 전체가 조립품처럼 보인다.\n\n**교정 지시 P**  \n버튼 한 개를 꾸미기 전에 해당 게임의 UI 조형 규칙을 정한다. 외곽 형태, 테두리 단계, 표면 재료, 광원 방향, 글자와 아이콘, 강조색의 의미를 정하고 주행동·보조행동·시스템 버튼이 이를 공유하게 한다. 장식은 주행동의 중요도에 따라 달리하되 서로 다른 제품의 부품처럼 만들지 않는다.\n\n**전후 예시 P**  \n픽셀 RPG의 반투명 보라색 pill 버튼 → 장면의 픽셀 격자와 맞는 단단한 외곽, 일정한 테두리 두께, 눌림 때 밝은 면과 어두운 면의 관계가 바뀌는 상태. 종이 카드게임에서는 같은 처방을 쓰지 않고, 인쇄 잉크·종이 면·선택 테두리라는 별도 규칙을 만든다. SF 게임도 네온을 기본으로 붙이지 말고 장비의 표시 방식부터 고른다.\n\n**제출 전 검수**  \n버튼·탭·슬롯·툴팁·대화창·설정 화면을 한 장에 모은 뒤 실제 플레이 장면과 나란히 본다. 한 컴포넌트의 재료·모서리·광원만 바뀌는 이유를 설명하지 못하면 수정한다. 특정 재료를 쓰라는 지시가 아니라 혼용의 이유와 일관성을 검수하는 것이다."
+    },
+    {
+      "id": "V02",
+      "title": "버튼의 크기와 위치를 기능군별로 정돈한다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n공격·상점·설정·다음 턴·퀘스트가 모두 같은 폭의 큰 버튼으로 플레이 영역 주변에 흩어진다. 게임보다 버튼 대시보드가 먼저 보인다.\n\n**교정 지시 P**  \n반복 행동, 현재 대상의 맥락 행동, 가끔 여는 시스템 조작을 구분해 묶는다. 중심 플레이 공간을 먼저 남기고, 조작할 때 눈이나 손이 이동해야 하는 거리를 확인한다. 버튼 수를 줄이려고 자주 쓰는 행동까지 숨기지 말고, 읽기 전용 상태를 클릭할 것처럼 꾸미지 않는다.\n\n**전후 예시 P**  \n화면 사방의 큰 버튼 9개 → 전투 행동 묶음, 선택 대상의 조작, 설정·도움의 보조 묶음. ‘턴 종료’는 행동 묶음 옆의 명확한 단독 버튼이고, 체력·골드는 버튼 프레임을 벗어난 표시다.\n\n**수치가 필요한 시안의 시작점 P**  \n1280×720 데스크톱 목업을 검토한다면 주행동의 시각 높이 44, 보조행동 36, 시스템 아이콘 24에 클릭 영역 44를 두는 하나의 시안을 만들 수 있다. 이는 실제 제품의 실측값이나 권장 표준이 아니다. 폰트·언어·입력·아트에 따라 바꾸며, 같은 44px라도 베벨과 두꺼운 프레임 때문에 글자 공간이 더 작아지는지 확인한다. 최종 규칙은 승인된 시안과 테스트로 확정한다.\n\n**제출 전 검수**  \n같은 카메라·장면·뷰포트에서 수정 전후를 비교한다. 조작 묶음의 위치, 화면 점유 범위, 버튼 간 간격, 텍스트 여유, 플레이 공간을 실제 CSS/엔진 단위로 기록한다. 버튼 점유율에 임의의 보편 상한을 붙이지 않는다."
+    },
+    {
+      "id": "V03",
+      "title": "기본 상태부터 선택과 눌림까지 디자인한다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n버튼이 늘 빛나서 어느 것이 선택됐는지 알 수 없거나, hover 때 커지며 주변 정렬을 흔든다. 비활성 상태도 다른 버튼처럼 화려하다.\n\n**교정 지시 P**  \n기본·포커스/선택·눌림·사용 불가의 시각 차이를 한 세트로 만든다. 형태·명암·외곽·작은 위치 변화 중 해당 아트에 맞는 수단을 고른다. 포커스와 선택 완료는 의미가 다르면 표현도 나눈다. 게임패드·터치에서는 hover가 핵심 상태가 될 수 없다.\n\n**전후 예시 P**  \n모든 마법 버튼에 영구 광채 → 사용 가능한 기본 상태는 조용하게, 선택한 주문만 외곽 신호, 눌림은 프레임 내부 변화, 자원 부족은 이유와 함께 절제된 사용 불가 표시.\n\n**제출 전 검수**  \n상태들을 나란히 놓았을 때 같은 가족이면서 차이가 읽혀야 한다. 애니메이션 한 프레임을 우연히 캡처해야만 차이가 보인다면 정적인 상태 신호를 보강한다. 이펙트가 있어도 글자와 아이콘의 위치는 의도 없이 요동하지 않게 한다."
+    },
+    {
+      "id": "V04",
+      "title": "아이콘과 글자가 버튼 재료를 망치지 않게 한다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S04"
+      ],
+      "body_markdown": "**실패 모습**  \n두꺼운 금속 프레임 안에 가느다란 웹 아이콘, 24px 아이콘을 96px로 늘린 그림, 서로 다른 획 두께, 짧은 영문만 맞고 긴 한글은 빽빽한 버튼.\n\n**교정 지시 P**  \n실제 렌더 크기에서 아이콘 획·모서리·면적·라벨 무게를 맞춘다. 아이콘은 원래 설계 크기를 존중한다. 버튼 높이를 같게 만들기 전에 라벨의 기준선과 내부 여유를 확인한다. 픽셀 게임은 UI 픽셀 격자와 화면 스케일을 함께 정한다.\n\n**전후 예시 P**  \n작은 outline 검 아이콘을 크게 늘림 → 실제 슬롯 크기에서 그린 실루엣 아이콘 또는 적절한 크기의 아이콘을 프레임 안에 배치. ‘Settings’에 맞춘 폭 → ‘조작 설정’, ‘다음 라운드 시작’ 등 실제 문구로 검토한 폭.\n\n**제출 전 검수**  \n아이콘과 텍스트를 100% 표시 크기와 최소 지원 크기에서 본다. SVG라서 확대해도 해상도가 유지된다는 사실과 조형적으로 적절하다는 판단을 구분한다. 작은 아이콘의 과도한 확대 문제는 Refactoring UI의 실제 전후 예시와 연결된다. [S04](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)"
+    },
+    {
+      "id": "V05",
+      "title": "웹의 기본 섹션 순서를 없애고 내용의 구조를 만든다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n소개가 필요한지와 상관없이 대형 히어로 → 장점 3개 → 기능 6개 → 3단계 → 후기 → FAQ가 붙는다. 내용이 다른데 모든 섹션이 제목·설명·카드 3개다.\n\n**교정 지시 P**  \n각 섹션이 답하는 질문을 한 문장으로 적고, 질문이나 새로운 근거가 없는 섹션은 뺀다. 실제 비교, 과정, 작품, 검색 결과, 사례, 도구를 그에 맞는 형식으로 보여준다. 단순히 카드 모양을 둥근 것에서 각진 것으로 바꾸지 않는다.\n\n**전후 예시 P**  \n문서 검색 서비스의 ‘지식의 가능성을 열다’ 히어로와 3가지 장점 → 첫 화면에 검색, 최근 문서, 문서 종류, 실제 결과 미리보기. 강의 소개는 대상·선수 지식·배울 결과·커리큘럼·수강 조건이 자연스럽게 이어지는 순서로 구성한다.\n\n**제출 전 검수**  \n섹션 제목만 읽어도 내용의 진행이 보이는지 본다. 서로 다른 두 섹션을 바꿔도 의미가 똑같다면 순서와 중복을 재검한다. 길고 균일한 페이지와 짧은 미완성 페이지 둘 다 피한다."
+    },
+    {
+      "id": "V06",
+      "title": "앱 내부에는 실제 작업이 화면의 주인이 되게 한다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n메모 앱 안에 환영 히어로·개인 생산성 점수·격려 문장·기능 소개 카드가 있고, 정작 메모 목록은 아래에 있다. 학습 문제보다 제목과 지표 패널이 더 크다.\n\n**교정 지시 P**  \n앱의 핵심 객체가 가장 큰 구조적 공간을 차지하게 한다. 탐색·보조 상태·편집 명령을 그 객체 주위에 붙인다. 처음 사용할 때만 필요한 소개와 매번 필요한 작업 화면을 구분한다.\n\n**전후 예시 P**  \n단어 학습 앱의 거대한 환영 카드+오늘의 팁+통계 4개 → 오늘 복습 상태와 바로 시작, 최근 단어장 목록. 문제 화면은 진행·문제·응답·피드백의 위계만 남기고 전체 통계는 종료 후 보여준다.\n\n**제출 전 검수**  \n브랜드를 가려도 이것이 읽는 화면인지, 고르는 화면인지, 편집하는 화면인지, 플레이하는 화면인지 구성으로 드러나는지 확인한다. 시각적 중심이 사용자 작업과 같은지 검사한다."
+    },
+    {
+      "id": "V07",
+      "title": "쓸모없는 설명문을 줄여 시각 밀도를 고친다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S18",
+        "S29"
+      ],
+      "body_markdown": "**실패 모습**  \n‘아래 목록에서 항목을 선택하여 자세한 내용을 확인할 수 있습니다’처럼 화면이 이미 보여주는 사용법을 반복한다. 모든 제목 아래 같은 길이의 홍보 문단이 있다.\n\n**교정 지시 P**  \n문구를 ①이름 ②필요 조건 ③결과/위험 ④오류 복구 ⑤설명 없이도 이미 보이는 것 ⑥홍보·분위기로 분류한다. ⑤를 먼저 지우고 ⑥은 해당 화면의 목적에 필요할 때만 남긴다. ②③④를 ‘짧게 보이게’ 하려고 숨기지 않는다. 구조가 헷갈려 붙인 설명은 구조 개선을 먼저 검토한다.\n\n**전후 예시 P**  \n‘원하는 단어장을 선택하면 놀라운 학습 여정을 시작할 수 있어요’ → 단어장 제목과 ‘복습 12개’. ‘저장 버튼을 눌러 변경 사항을 저장하세요’ → 명확한 ‘변경 저장’ 버튼. 반면 ‘무료 체험 후 월 9,900원’ 같은 결과·조건은 유지한다.\n\n**제출 전 검수**  \n지운 문장 각각에 대해 ‘이 문장이 없으면 어떤 결정에 필요한 정보가 사라지는가’를 확인한다. 없어도 같은 행동을 한다면 삭제 후보이고, 결제·권한·손실 위험을 놓친다면 유지한다. 반복 글이 줄어든 만큼 빈 카드를 남겨 놓지 말고 레이아웃을 다시 압축한다. 원칙 근거 [S18](https://www.gov.uk/service-manual/design/writing-for-user-interfaces), 도움말의 필요성과 범위 [S29](https://www.nngroup.com/articles/help-and-documentation/)"
+    },
+    {
+      "id": "V08",
+      "title": "모든 것을 같은 무게로 만들지 않는다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S28"
+      ],
+      "body_markdown": "**실패 모습**  \n제목, 라벨, 태그, 메타 정보, 버튼이 모두 진한 색·둥근 배경·아이콘을 갖는다. 메인 콘텐츠보다 색 띠와 숫자 배지가 더 먼저 보인다.\n\n**교정 지시 P**  \n시각적으로 먼저 읽혀야 할 항목을 정하고 크기·명암·무게·주변 간격으로 순서를 만든다. 강조를 추가하기 전에 경쟁하는 강조를 덜어낸다. 실제 내용이 들어간 전체 화면을 보고 조정한다.\n\n**전후 예시 P**  \n학습 앱의 파란 진도 카드, 주황 배지, 초록 도움 카드, 보라 답안 버튼 → 현재 문제와 답안이 주위계, 진행은 보조, 도움은 필요할 때 발견 가능. 무조건 무채색으로 바꾸는 것이 아니라 색이 담당하는 역할을 줄인다.\n\n**제출 전 검수**  \n축소해서 보거나 눈을 가늘게 떠서 어떤 덩어리가 먼저 보이는지 확인한 뒤 원래 크기에서 내용과 맞는지 본다. 이런 검사는 위계 점검용이며 가독성·접근성 검사 대신 쓰지 않는다. 실제 사진 하나의 채도가 템플릿의 위계를 뒤집을 수도 있다. [S28](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)"
+    },
+    {
+      "id": "V09",
+      "title": "간격과 줄 길이를 규칙으로 만들되 화면을 균질화하지 않는다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n카드마다 패딩이 다르고 제목과 설명의 거리가 관련 없는 카드 사이보다 멀다. 모든 화면에 넓은 3열 그리드 또는 좁은 중앙 열을 강제한다.\n\n**교정 지시 P**  \n관련 요소 안의 간격과 그룹 사이의 간격을 구분한다. 공통 기준선·왼쪽 경계·텍스트 폭을 선택한다. 장식용 빈 칸과 내용이 숨 쉴 공간을 구분한다. 밀도는 목록·본문·도구·플레이에 따라 다르게 조정한다.\n\n**전후 예시 P**  \n각 카드마다 17·23·31px 임의 패딩 → 한 시안에서 8·12·24px처럼 제한된 간격군을 시작점으로 잡고 글꼴과 내용에 맞게 조정. 이 숫자는 P 예시이며 필수 체계가 아니다. 제목과 그 아래 문장은 가까이, 다음 독립 묶음은 더 멀리 두어 관계를 표시한다.\n\n**제출 전 검수**  \n선택한 화면에서 정렬선·그룹 내부/외부 간격·줄바꿈을 기록한다. 공백을 줄였더니 읽기나 터치가 나빠지면 밀도를 되돌리되 중복 콘텐츠부터 없앤다."
+    },
+    {
+      "id": "V10",
+      "title": "장식과 실물 표현을 바꿔치기하지 않는다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "**실패 모습**  \n사진이 중요한 사이트에 추상 도형만 있고, 실제 기능을 보여줘야 하는 앱 소개에 브라우저 틀과 가짜 차트만 있다. 게임 로고가 플레이 화면보다 정체성이 강하다.\n\n**교정 지시 P**  \n첫 시각 요소가 제품의 무엇을 보여주는지 정한다. 작품이면 작품, 도구면 실제 입력/결과, 상품이면 특징을 판별할 사진, 게임이면 핵심 행동과 세계를 보여준다. 장식은 이를 지지할 때 추가한다.\n\n**전후 예시 P**  \n레시피 앱의 추상 보라 구체 → 실제 조리 결과와 재료·소요 시간, 검색/필터. 덱빌더 소개의 거대 판타지 배너만 있음 → 손패·대상·자원·효과를 동시에 이해할 수 있는 플레이 장면.\n\n**제출 전 검수**  \n대표 이미지를 다른 제품의 것으로 바꿔도 말이 된다면 내용 특이성이 약한지 검토한다. 다만 추상 브랜드 작업처럼 이미지 자체가 정체성인 경우는 허용한다. 실제와 다른 기능을 보이게 만드는 이미지는 품질 점수와 무관하게 반려한다."
+    },
+    {
+      "id": "V11",
+      "title": "시각 디자인도 제출을 막는 검수 항목이다",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "다음은 기능이 동작해도 **R1 수정 후 재검**으로 두는 이번 프로젝트의 시각 품질 기준이다.\n\n- 게임 버튼·탭·슬롯·패널이 선택한 아트 방향과 서로 다른 재료/형태 규칙을 사용한다\n- 중요한 행동과 덜 중요한 설정의 시각 무게가 같아, 어떤 조작이 중심인지 구성으로 드러나지 않는다\n- 웹·앱의 섹션이 실제 정보와 무관한 범용 세트이며 같은 설명을 여러 번 반복한다\n- 실제 콘텐츠로 바꾸면 정렬·간격·제목 줄바꿈·버튼 라벨이 무너진다\n- 카드·배지·격자·번호·아이콘이 의미를 만들지 않고 화면을 채우는 데만 쓰인다\n- 같은 제품 안에서 다음 화면을 만들 때 기존 시각 규칙을 이유 없이 다시 바꾼다\n- ‘특정 색을 없앴다’ 외에는 바뀐 구성·위계·재료·밀도·문구를 설명할 수 없다\n\n시각적 판단이라는 이유로 사용자의 목표를 취향 문제로 밀어두지 않는다. 대신 무엇이 어긋났는지 화면 위치와 요소로 적고, 고친 전후를 같은 조건으로 비교한다. 좋은 판정은 ‘싸 보인다’가 아니라 ‘RPG 버튼의 외곽과 눌림 표현이 게임 자산의 픽셀 규칙과 다르고, 모든 보조 메뉴가 주행동만큼 커서 화면이 웹 대시보드처럼 읽힌다’처럼 구체적이다."
+    },
+    {
+      "id": "V12",
+      "title": "전후 비교판에 꼭 남길 항목",
+      "priority": "primary_user_goal",
+      "origin": "P original visual correction proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "body_markdown": "전후 이미지를 비교할 때는 같은 콘텐츠·카메라·상태·뷰포트를 유지한다. 구조, 주요 시각 중심, 버튼/패널의 형태·재료, 색의 역할, 글자 계층, 실제 표시 크기, 간격, 설명문 분량, 장식의 역할을 각각 기록한다. 전체 화면과 버튼 상태 확대를 함께 본다. 전후의 데이터가 달라져 좋아 보이는 효과를 디자인 개선으로 착각하지 않는다.\n\n‘화면의 설명이 30% 줄었다’, ‘버튼이 20% 작아졌다’ 같은 수치는 목표가 아니라 변경 내역이다. 무엇을 남기고 왜 줄였는지가 본질이다. 최종 시안은 정지 화면의 조화와 실제 조작 중의 느낌을 모두 확인한다."
+    }
+  ],
+  "rules": [
+    {
+      "id": "AS01",
+      "title": "화면의 목적이 템플릿보다 먼저다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S03"
+      ],
+      "symptom": "프로필·대시보드·홈이라는 이름만 보고 흔한 레이아웃을 생성한다",
+      "cause_hypothesis": "화면 이름은 주었지만 사용자·주요 행동·우선 정보는 주지 않았다",
+      "instruction": "화면별로 ‘누가, 지금 무엇을 결정/실행하며, 어떤 정보가 꼭 필요한가’를 한 문장으로 정한다. 이를 수행하지 않는 상단 요소를 뒤로 이동한다",
+      "before_after_synthetic": "수강자 홈의 큰 얼굴·소개·누적 배지 → 다음 수업 시간·준비물·이어보기, 계정 편집은 별도 경로",
+      "verification": "주요 시나리오의 첫 행동에 필요한 정보가 실제 초기 화면과 이어지는 화면에서 발견되는지 확인한다. 모호하면 이용자에게 작업을 주고 첫 선택을 관찰한다",
+      "exceptions": "자기소개·사람 찾기가 주목적인 서비스에서는 프로필 정보가 주정보다",
+      "decision": "R1, 핵심 작업이 막히면 R0. 근거 [S03](https://www.nngroup.com/articles/ai-prototyping/)"
+    },
+    {
+      "id": "AS02",
+      "title": "카드와 표와 본문을 작업에 따라 고른다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S13"
+      ],
+      "symptom": "상품 비교, 문제 풀이, 기록 목록을 모두 3열 카드로 만든다",
+      "cause_hypothesis": "하나의 익숙한 컴포넌트가 모든 정보 구조를 대신한다",
+      "instruction": "공통 속성을 가로세로 비교하면 정렬된 행·열을, 이미지로 후보를 고르면 카드를, 연속 논증이면 본문을 먼저 검토한다",
+      "before_after_synthetic": "각각 다른 위치에 용량·무게·가격이 있는 여행 가방 카드 → 동일 속성 순서, 비교 선택, 선택한 후보의 나란한 속성 표시",
+      "verification": "‘가장 가벼운 후보 중 예산 이하’를 실제로 찾아본다. 다른 화면의 숫자를 기억해야 하는지 기록한다",
+      "exceptions": "감성적 탐색·다른 형식의 콘텐츠를 묶는 카드에는 정당한 이유가 있다. 작은 화면의 표는 별도 처리한다",
+      "decision": "R1. 근거 [S13](https://www.nngroup.com/articles/data-tables/)"
+    },
+    {
+      "id": "AS03",
+      "title": "주요 행동을 장식보다 강하게 만든다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S04"
+      ],
+      "symptom": "저장·공유·삭제·더보기가 모두 같은 채도의 큰 버튼이다",
+      "cause_hypothesis": "의미별 색만 적용하고 현재 작업의 중요도를 정하지 않았다",
+      "instruction": "현재 단계의 주행동을 식별하고 나머지는 명확하지만 덜 강하게 한다. 위험성은 문구와 확인 단계에도 전달한다",
+      "before_after_synthetic": "카드마다 빨강·파랑·초록 버튼 3개 → ‘학습 시작’을 주요 버튼으로, 세부 내용은 링크, 제거는 메뉴와 확인 흐름으로",
+      "verification": "정지 화면에서 가장 먼저 눈에 들어오는 행동과 실제 원하는 다음 행동이 일치하는지 확인한다. 삭제 확인 화면에서는 삭제가 주요 행동일 수 있다",
+      "exceptions": "둘 중 하나를 동등하게 고르는 선택 화면에 억지로 하나를 우위에 놓지 않는다",
+      "decision": "R1. 근거 [S04](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)"
+    },
+    {
+      "id": "AS04",
+      "title": "상자마다 경계를 붙이지 않는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S05"
+      ],
+      "symptom": "카드 안의 카드 안에 카드, 모든 행의 테두리·그림자·색 띠",
+      "cause_hypothesis": "정보의 관계를 분석하지 않고 컨테이너를 추가했다",
+      "instruction": "경계마다 그룹·배경층·상태·클릭 범위 중 무슨 의미인지 답한다. 중복 경계를 지우고 간격·정렬로 관계를 유지한다",
+      "before_after_synthetic": "강의명·강사·시간·태그가 각각 작은 카드 → 강의 한 단위로 묶고 보조 정보는 한 줄, 모듈 간 간격으로 구분",
+      "verification": "경계 삭제 전후에 어떤 정보가 함께 속하는지 더 모호해지지 않는지 본다. 고대비 모드에서도 필요한 경계가 남는지 확인한다",
+      "exceptions": "독립 객체, 패널, 상태 표시, 실제 카드게임 카드는 경계가 기능이다",
+      "decision": "통상 R2, 관계를 잘못 읽으면 R1. 근거 [S05](https://impeccable.style/slop/)"
+    },
+    {
+      "id": "AS05",
+      "title": "폰트 교체보다 언어와 위계를 먼저 검수한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S02"
+      ],
+      "symptom": "영문 제목만 독특하고 한글은 다른 인상의 기본 폰트로 바뀌며 숫자도 흔들린다",
+      "cause_hypothesis": "영문 샘플만 검수하거나 웹폰트 로딩 성공만 확인했다",
+      "instruction": "실제 한글·영문·숫자·기호·긴 제목 샘플로 후보를 검수한다. 본문·제목·데이터의 역할을 정하고 기존 브랜드가 있으면 유지한다",
+      "before_after_synthetic": "장식 세리프 제목에 한글 일부만 고딕 폴백 → 해당 언어를 지원하는 계열 또는 의도적으로 조합한 제목과 본문, 숫자 열 정렬",
+      "verification": "폰트 실패 상태, 모바일, 확대에서 줄바꿈·버튼 높이·글자 누락을 본다. 사용한 글꼴과 폴백을 기록한다",
+      "exceptions": "의도적인 혼합 조판은 허용한다. Inter·시스템 폰트를 썼다는 이유로 반려하지 않는다",
+      "decision": "R2, 판독·레이아웃 장애면 R1. 맥락 기반 선택의 근거 [S02](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md)"
+    },
+    {
+      "id": "AS06",
+      "title": "흐릿하고 작은 보조 정보를 품질로 착각하지 않는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S14"
+      ],
+      "symptom": "‘차분함’을 위해 날짜·가격 조건·게임 비용을 극도로 작고 흐리게 만든다",
+      "cause_hypothesis": "주정보를 키우는 대신 나머지를 읽을 수 없게 만들었다",
+      "instruction": "역할에 맞는 크기를 유지하고 명암·무게·위치로 위계를 만든다. 일반 텍스트는 WCAG AA의 4.5:1, 큰 텍스트는 3:1 기준을 해당 예외와 함께 확인한다",
+      "before_after_synthetic": "밝은 사진 위 회색 배송 조건 → 텍스트 영역 또는 충분한 배경 처리, 읽히는 대비",
+      "verification": "실제 전경·배경 합성색을 검사한다. 이미지·그라데이션 위에서는 가장 불리한 구간도 확인한다. 숫자를 반올림해 통과시키지 않는다",
+      "exceptions": "로고·순수 장식 등 기준의 예외가 있다. 보조 정보라는 이유만으로 예외가 되지 않는다",
+      "decision": "핵심 정보 판독 불가 R0. 근거 [S14](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)"
+    },
+    {
+      "id": "AS07",
+      "title": "밀도와 여백을 사용 빈도에 맞춘다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S15"
+      ],
+      "symptom": "전문가용 목록에 거대한 패딩을 써서 한 번에 세 항목만 보이거나, 초보자의 첫 설정에 모든 옵션을 밀어 넣는다",
+      "cause_hypothesis": "‘고급스럽다=여백이 많다’를 모든 화면에 적용했다",
+      "instruction": "비교해야 하는 정보량, 사용 빈도, 주입력, 화면 크기를 기록하고 그에 맞는 밀도를 선택한다. 불필요한 설명부터 줄이고 글자를 무리하게 줄이지 않는다",
+      "before_after_synthetic": "단어장 목록의 항목별 180px 카드 → 단어·뜻·복습 상태를 정렬한 행, 상세는 필요할 때 확장",
+      "verification": "대표 데이터 개수와 긴 데이터에서 찾기·비교·수정 작업을 수행한다. 화면당 행 수 자체를 성공 지표로 삼지 않는다",
+      "exceptions": "학습 한 문제 집중 화면이나 터치 조작에는 낮은 밀도가 적합할 수 있다",
+      "decision": "R1/R2. 근거 [S15](https://www.nngroup.com/articles/ux-context-design/)"
+    },
+    {
+      "id": "AS08",
+      "title": "제품을 증명하는 콘텐츠를 만든다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S16"
+      ],
+      "symptom": "제품 이름만 바꿔도 통하는 ‘혁신적인 경험’, 장식 목업, 가짜 고객 로고",
+      "cause_hypothesis": "실물·기능·근거가 없는데 랜딩페이지 관습을 먼저 채웠다",
+      "instruction": "실제 입력과 출력, 실제 화면, 실제 제공 범위, 검증 가능한 근거를 먼저 넣는다. 정보가 없으면 미확인·예시로 표시하거나 해당 영역을 빼라",
+      "before_after_synthetic": "‘10,000팀이 사랑하는 올인원 솔루션’ → ‘CSV를 올리면 중복 행을 찾아 검토 목록으로 내보냅니다’, 실제 동작 예시",
+      "verification": "수치·로고·인용·연동·보안 표현마다 출처나 동작 증거가 있는지 추적한다. 샘플 고객·샘플 수치는 사실처럼 공개하지 않는다",
+      "exceptions": "컨셉 모형의 가상 데이터는 분명하게 표시하고 실제 운영 화면과 구분한다",
+      "decision": "허위 근거 R0. 책임 있게 검토한 결과만 발행한다는 근거 [S16](https://simonwillison.net/2024/jun/27/ai-worlds-fair/)"
+    },
+    {
+      "id": "AS09",
+      "title": "문구를 기능과 조건으로 쓴다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S17",
+        "S18"
+      ],
+      "symptom": "모든 제목이 ‘가능성을 열다’, 버튼은 ‘더 알아보기’, 설명은 ‘원활하게·쉽게·강력하게’다",
+      "cause_hypothesis": "무엇을 하는지 대신 긍정적인 분위기를 채웠다",
+      "instruction": "주체·행동·대상·필요 조건 중 실제 도움이 되는 정보를 쓴다. 기능을 설명하는 구체 명사가 없는 문장을 다시 쓴다. 사용자의 어려움을 ‘간단히’라고 평가하지 않는다",
+      "before_after_synthetic": "‘학습의 잠재력을 깨우세요’ → ‘오늘 복습할 단어 12개’; ‘Get started’ → 맥락에 맞는 ‘복습 시작’",
+      "verification": "회사명과 제품명을 가리고도 어느 기능인지 구별되는지 본다. 버튼을 누른 결과가 라벨의 약속과 맞는지 확인한다",
+      "exceptions": "광고 헤드라인·게임 대사에는 개성이 필요하다. 기능 안내와 세계관 문장을 같은 기준으로 평탄화하지 않는다",
+      "decision": "보통 R1/R2. 근거 [S17](https://developers.google.com/style/tone), [S18](https://www.gov.uk/service-manual/design/writing-for-user-interfaces)"
+    },
+    {
+      "id": "AS10",
+      "title": "오류를 구체적으로 고칠 수 있게 만든다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S12"
+      ],
+      "symptom": "모든 실패를 ‘Oops! Something went wrong’로 처리한다",
+      "cause_hypothesis": "오류 상태를 실제 실패 원인과 연결하지 않았다",
+      "instruction": "입력 형식·권한·연결 실패·서버 실패를 구분하고 사용자가 할 수 있는 다음 행동을 제공한다. 입력은 보존한다",
+      "before_after_synthetic": "잘못된 날짜 제출 후 빈 폼과 빨간 토스트 → 해당 필드 옆에 조건을 명시하고 입력값 유지; 서버 장애는 제출 실패 안내와 재시도",
+      "verification": "오류를 하나씩 유발하고 수정·재시도가 가능하며 중복 제출이 생기지 않는지 확인한다",
+      "exceptions": "원인을 알 수 없을 때는 모른다고 쓰되 복구 경로는 제공한다. 인증 메시지는 보안상 노출 가능한 정보 범위를 따른다",
+      "decision": "복구 불가·입력 손실 R0. 근거 [S12](https://design-system.service.gov.uk/components/error-message/)"
+    },
+    {
+      "id": "AS11",
+      "title": "빈 상태를 장식으로 끝내지 않는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S19"
+      ],
+      "symptom": "우주인 그림과 ‘아직 아무것도 없어요’만 있다",
+      "cause_hypothesis": "처음 사용, 검색 0건, 로딩, 권한 부족을 같은 빈 화면으로 묶었다",
+      "instruction": "빈 이유별로 다음 행동을 정한다. 첫 사용은 생성 경로, 검색 0건은 조건 수정, 권한 부족은 접근 절차, 로딩은 진행 상태를 보여준다",
+      "before_after_synthetic": "빈 단어장에 축하 그림 → ‘단어가 없습니다’와 ‘단어 추가’; 검색 0건에는 현재 검색어와 필터 초기화",
+      "verification": "항목 0개·1개·많은 상태와 검색 0건을 별도로 연다. 빈 화면에서도 주요 작업으로 돌아갈 수 있어야 한다",
+      "exceptions": "일부 정보는 정말 할 일이 없는 상태다. 불필요한 생성·구매를 강요하지 않는다",
+      "decision": "R1. 상태 설계 근거 [S19](https://vercel.com/design/guidelines)"
+    },
+    {
+      "id": "AS12",
+      "title": "보이는 조작부에 동작 계약을 붙인다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S06"
+      ],
+      "symptom": "메뉴·필터·즐겨찾기·저장 버튼이 모양만 있고 내용은 바뀌지 않는다",
+      "cause_hypothesis": "스크린샷 완성을 기능 완성으로 착각했다",
+      "instruction": "모든 조작부에 입력, 상태 변화, 성공 표시, 실패 표시, 유지 범위를 적는다. 실제 구현하지 않을 기능은 설명된 시제품 범위 밖으로 빼거나 비활성 이유를 표시한다",
+      "before_after_synthetic": "검색어를 입력해도 동일한 카드 → 일치 결과·0건·초기화가 실제로 변함",
+      "verification": "핵심 경로의 조작부를 실제 입력으로 사용한다. DOM 변경뿐 아니라 결과 의미를 확인한다. 토스트만으로 성공을 판정하지 않는다",
+      "exceptions": "요청된 정적 와이어프레임은 작동하지 않을 수 있지만 상호작용 구현으로 소개하지 않는다",
+      "decision": "R0. 근거 [S06](https://vercel.com/blog/teaching-agents-product-design-at-vercel)"
+    },
+    {
+      "id": "AS13",
+      "title": "저장과 복귀까지 하나의 기능이다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S19"
+      ],
+      "symptom": "‘저장됨’ 표시 후 새로고침에서 사라짐, 뒤로가면 필터가 초기화됨, 탭 복귀에서 게임 시간이 폭주함",
+      "cause_hypothesis": "성공 순간만 설계하고 상태의 수명을 정의하지 않았다",
+      "instruction": "세션 내·기기 내·계정 간 중 유지 범위를 정한다. 저장 중·실패·재시도·복원·손상된 데이터의 경로를 다룬다",
+      "before_after_synthetic": "학습 완료 숫자만 즉시 증가 → 기록 저장 확인, 실패 시 미저장 표시와 재시도, 재진입에서 일관된 진도",
+      "verification": "새로고침, 뒤로/앞으로, 닫았다 열기, 오프라인, 저장 실패를 합의한 범위에서 시험한다",
+      "exceptions": "일회용 모형·기록이 없는 퍼즐은 영구 저장이 필요 없을 수 있다. 대신 그 사실을 오해시키지 않는다",
+      "decision": "정보 손실·거짓 완료 R0. 동작 회복 지침 [S19](https://vercel.com/design/guidelines)"
+    },
+    {
+      "id": "AS14",
+      "title": "좁은 화면은 축소가 아니라 재배치다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S20"
+      ],
+      "symptom": "데스크톱 3열을 작게 줄여 텍스트와 버튼이 눌린다",
+      "cause_hypothesis": "컴포넌트 수만 유지하고 읽기·조작 순서를 재검토하지 않았다",
+      "instruction": "주작업을 보존하는 순서로 재배치한다. 고정 하단 버튼·키보드·긴 제목·노치·가로모드에서 가림을 확인한다",
+      "before_after_synthetic": "학습 본문·해설·목차 3열 축소 → 문제를 주영역으로, 해설은 답 뒤, 목차는 별도 열기",
+      "verification": "최소 지원 폭, 대표 모바일, 넓은 화면, 텍스트 확대에서 검수한다. 일반 가로쓰기 콘텐츠는 320 CSS px 상당 폭의 리플로를 확인한다",
+      "exceptions": "지도·게임 판·표처럼 의미상 2차원인 콘텐츠는 리플로 예외를 정확히 적용한다. 주변 메뉴·설명까지 예외가 되는 것은 아니다",
+      "decision": "핵심 조작 가림 R0. 근거 [S20](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html)"
+    },
+    {
+      "id": "AS15",
+      "title": "포커스와 입력 대상을 검수한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S21"
+      ],
+      "symptom": "hover에서만 기능이 보임, 탭 이동이 사라짐, 작은 아이콘을 터치해야 함",
+      "cause_hypothesis": "마우스와 큰 화면만 전제했다",
+      "instruction": "기능이 있는 요소는 키보드·주입력으로 접근하고 선택 상태를 볼 수 있게 한다. 시각 크기와 실제 히트 영역을 구분한다",
+      "before_after_synthetic": "12px 휴지통만 클릭 가능 → 충분한 클릭 영역, 접근 가능한 이름, 키보드 포커스, 삭제 결과와 회수 경로",
+      "verification": "키보드만으로 주요 흐름을 끝낸다. 포인터 대상은 WCAG 2.5.8의 24×24 CSS px 또는 해당 간격 등 예외를 확인한다",
+      "exceptions": "24px는 모든 모바일 상황의 최적 크기가 아니다. 문장 속 링크·사용자 에이전트·필수 배치 등 표준 예외를 기록한다. 플랫폼 권장 목표는 별도로 정한다",
+      "decision": "주입력 조작 불가 R0. 근거 [S21](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)"
+    },
+    {
+      "id": "AS16",
+      "title": "애니메이션에 정보 역할을 배정한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S19"
+      ],
+      "symptom": "모든 섹션이 늦게 나타나고 버튼·배지가 계속 흔들린다",
+      "cause_hypothesis": "움직임의 수를 완성도로 착각했다",
+      "instruction": "피드백·공간 관계·주의 환기·의도된 연출 중 하나의 역할을 적는다. 반복 행동을 지연시키는 등장 연출을 제거하고 감소 모션 대안을 제공한다",
+      "before_after_synthetic": "문제 전환마다 긴 카드 회전 → 응답 결과는 즉시 표시, 전환은 짧고 중단 가능, 감소 모션에서는 위치 변화 없이 상태 전달",
+      "verification": "모션을 끈 상태에서도 성공·실패를 이해할 수 있는지, 연속 입력에서 대기·누락이 생기지 않는지 본다",
+      "exceptions": "리듬·타이밍·공간 움직임 자체가 규칙인 게임은 전부 삭제하지 않고 대체·강도·난이도를 검토한다",
+      "decision": "R1, 입력 차단이나 필수 정보 누락은 R0. 근거 [S19](https://vercel.com/design/guidelines)"
+    },
+    {
+      "id": "AS17",
+      "title": "숫자와 차트는 장식이 아니다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S16"
+      ],
+      "symptom": "모든 대시보드에 상승 그래프·+24%·원형 진척도가 붙는다",
+      "cause_hypothesis": "빈 자리를 숫자로 채웠고 무엇을 결정하는 화면인지 정하지 않았다",
+      "instruction": "지표마다 정의·단위·기간·비교 기준·데이터 출처를 붙인다. 실제 데이터가 없으면 예시 표시를 하거나 비교 가능한 기록 목록으로 바꾼다",
+      "before_after_synthetic": "‘생산성 87%’ → ‘이번 주 완료 8개 / 계획 12개’, 기간과 미완료 목록",
+      "verification": "원자료와 재계산이 일치하는지, 0·누락·부분 기간에서 오해를 만들지 않는지 본다. 목표를 달성하면 어떤 판단이 바뀌는지 설명할 수 있어야 한다",
+      "exceptions": "명확히 표시된 시뮬레이션·샘플 데이터는 가능하다. 게임의 가상 재화도 규칙 안에서는 일관돼야 한다",
+      "decision": "실제처럼 보이는 허위 지표 R0. 책임과 사실 확인 근거 [S16](https://simonwillison.net/2024/jun/27/ai-worlds-fair/)"
+    },
+    {
+      "id": "AS18",
+      "title": "자산마다 다른 작품을 만들지 않는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S11"
+      ],
+      "symptom": "UI는 평면, 캐릭터는 사실적, 아이템은 픽셀, 배경은 수채화인데 공통 이유가 없다",
+      "cause_hypothesis": "장면 단위가 아니라 자산 하나씩 ‘멋지게’ 생성·선택했다",
+      "instruction": "시점·비율·광원·팔레트·윤곽·질감·해상도·UI 재료를 자산 계약으로 정한다. 한 대표 장면에서 함께 본 뒤 확장한다",
+      "before_after_synthetic": "정면 3D 검, 사선 픽셀 갑옷, 다른 광원의 회복약 → 같은 아이템 시점과 읽기 크기, 일관된 등급 표시",
+      "verification": "실제 사용 크기로 모은 접촉시트와 게임 장면에서 비교한다. 일러스트 확대 단독 감상이 아니라 슬롯·배경 위에서 판독한다",
+      "exceptions": "콜라주·혼합 매체가 의도된 아트 방향이면 관계 규칙을 설명하고 유지한다",
+      "decision": "보통 R1/R2. 방향을 제품 목표와 함께 정하는 사례 [S11](https://www.teamfortress.com/post.php?id=1783)"
+    },
+    {
+      "id": "AS19",
+      "title": "중요한 게임 신호를 장식보다 먼저 읽게 한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S10",
+        "S22"
+      ],
+      "symptom": "장식과 적과 드롭 아이템이 모두 빛나며 위험 범위가 배경에 묻힌다",
+      "cause_hypothesis": "자산의 개별 화려함을 합산하고 장면 전체의 주의를 배분하지 않았다",
+      "instruction": "플레이어·위협·상호작용·배경의 식별 수단을 구분한다. 크기·형태·명암·움직임·소리를 목적에 맞게 배정한다",
+      "before_after_synthetic": "붉은 용암·붉은 적 탄환·붉은 데미지 숫자 중첩 → 위험 예고의 형태와 시간 규칙을 일정하게, 배경의 경쟁 효과는 낮춤",
+      "verification": "실제 카메라 거리·속도·최악의 전투 밀도에서 적 종류·안전 지대·행동 결과를 구분한다. 정지된 메뉴 화면만으로 통과시키지 않는다",
+      "exceptions": "의도된 불확실성·공포는 가능하지만 게임 규칙이 요구하는 판단까지 우연히 감추지 않는다",
+      "decision": "필수 판독 실패 R0. 근거 [S10](https://www.leagueoflegends.com/en-us/news/dev/ask-riot-let-s-talk-clarity/), [S22](https://www.riotgames.com/en/news/valorant-shaders-and-gameplay-clarity)"
+    },
+    {
+      "id": "AS20",
+      "title": "콘텐츠 수보다 의미 있는 변주를 검수한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S09"
+      ],
+      "symptom": "적 50종·방 100개지만 이름과 색 외에 판단의 차이가 없다",
+      "cause_hypothesis": "생성량을 게임 경험의 다양성과 동일시했다",
+      "instruction": "각 변주가 지각되는 차이와 플레이의 차이를 적는다. 역할·위험·자원·위치·규칙 가운데 바뀌는 축을 의도적으로 선택한다",
+      "before_after_synthetic": "동일 공격의 슬라임 12색 → 접근을 막는 적, 거리를 좁히는 적, 다른 적을 보호하는 적의 명확한 형태·예고·대응",
+      "verification": "가상 이름을 가리고도 적·방을 설명하고 전략을 달리할 이유가 있는지 본다. 여러 시드에서 막힌 진행·반복 조합·의미 없는 이동을 확인한다",
+      "exceptions": "배경 나무·군중의 작은 차이는 개성보다 자연스러운 반복 완화가 목적일 수 있다",
+      "decision": "R1, 핵심 약속을 충족하지 못하면 R0. 개념 근거 [S09](https://www.galaxykate.com/blog/generator.html)"
+    },
+    {
+      "id": "AS21",
+      "title": "게임의 첫 반복을 장식보다 먼저 완결한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [],
+      "symptom": "타이틀·상점·퀘스트창은 크지만 시작→행동→결과→재시도는 미완성이다",
+      "cause_hypothesis": "게임처럼 보이는 화면을 만드는 것과 플레이를 만드는 것을 혼동했다",
+      "instruction": "최소 플레이 반복에 필요한 행동·위험·결과·보상·종료·재시도를 정의하고 하나의 작은 구간을 끝까지 검증한다. 의미 없는 메뉴 수를 늘리지 않는다",
+      "before_after_synthetic": "카드 목록과 ‘전투’ 버튼만 있음 → 카드 비용 확인, 대상 선택, 적용 결과, 턴 종료, 승패, 재시작이 연결됨",
+      "verification": "새 세션에서 시작해 의도된 종료까지 실제 플레이한다. 실패도 끝까지 경험하고 다시 시작한다. 어느 입력이 어떤 상태를 바꿨는지 기록한다",
+      "exceptions": "명시적으로 요청한 아트 시안·메뉴 프로토타입은 플레이 완성으로 부르지 않는다",
+      "decision": "R0. 본 규칙은 기존 G01·G02·P01 매뉴얼과 제품 작업 검증 원리를 결합한 P 제안이다"
+    },
+    {
+      "id": "AS22",
+      "title": "게임 HUD는 다음 판단을 돕는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S23"
+      ],
+      "symptom": "체력·마나·경험치·업적·로그가 같은 크기로 흩어지고 실제 비용은 툴팁에만 있다",
+      "cause_hypothesis": "데이터 항목을 모두 표시하는 것을 정보 설계로 대신했다",
+      "instruction": "현재 판단에 필요한 것, 상시 참고, 필요할 때만 보는 것을 구분한다. 카드 비용과 사용 가능 여부, 장비 변경의 차이, 피해 원인을 연결한다",
+      "before_after_synthetic": "모든 스탯을 한 화면에 나열 → 전투에는 생존·행동 자원, 상세 능력치는 메뉴; 선택한 카드의 비용과 대상 상태는 같은 맥락",
+      "verification": "플레이어가 ‘왜 지금 못 쓰는가’, ‘무엇이 바뀌었는가’를 화면에서 답할 수 있는지 본다. 빨강·초록만으로 상태를 구분하지 않는다",
+      "exceptions": "숙련자용 전략 게임은 고밀도 정보가 필요할 수 있다. 무조건 HUD를 숨기지 않는다",
+      "decision": "R1, 비용·결과가 거짓이면 R0. 입력·정보 대안 근거 [S23](https://gameaccessibilityguidelines.com/full-list/)"
+    },
+    {
+      "id": "AS23",
+      "title": "설명을 읽히게 하기보다 행동으로 배우게 한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S23"
+      ],
+      "symptom": "시작하자마자 열 개 규칙을 모달에 넣고 닫으면 다시 볼 수 없다",
+      "cause_hypothesis": "모든 지식을 첫 화면에서 전달해야 한다고 가정했다",
+      "instruction": "첫 성공에 필요한 행동을 안전한 상황에서 수행하게 하고 결과를 보여준다. 이후 규칙은 필요한 순간에 추가하며 도움말은 다시 볼 수 있게 한다",
+      "before_after_synthetic": "카드 비용·속성·콤보·상점·상태이상 전체 설명 → 비용 1 카드 사용 → 대상 선택 → 결과 → 다음 턴, 이후 효과를 순차 도입",
+      "verification": "처음 보는 사람에게 설명 없이 시작하게 하고 막힌 위치를 기록한다. 도움말을 읽었다는 사실과 조작할 수 있다는 사실을 구분한다",
+      "exceptions": "규칙을 읽고 숙고하는 보드·전략 게임에는 전문 규칙서도 필요하다",
+      "decision": "R1. 근거 [S23](https://gameaccessibilityguidelines.com/full-list/)"
+    },
+    {
+      "id": "AS24",
+      "title": "효과음과 대사는 정보의 중요도와 맞춘다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S10"
+      ],
+      "symptom": "모든 클릭·획득·공격에 큰 소리가 나고 같은 대사가 계속 재생된다",
+      "cause_hypothesis": "피드백의 존재만 확인하고 빈도·중요도·청취 대상을 고려하지 않았다",
+      "instruction": "필수 경고와 장식음을 구분한다. 반복 대사에는 재생 조건·간격·중첩 제한을 정하고 상황에 맞게 줄인다",
+      "before_after_synthetic": "동전마다 같은 장문의 찬사 → 짧은 획득음, 중요한 보상에서만 별도 반응, 경고음을 덮지 않는 믹스",
+      "verification": "실제 반복 플레이 구간을 듣고 중요 경고가 묻히는지 확인한다. 무음에서도 필수 상태를 이해할 수 있는지 본다",
+      "exceptions": "음악·리듬 자체가 게임의 본질인 경우 대체 입력·시각화의 별도 설계가 필요하다",
+      "decision": "R1. 맥락별 대사 길이와 불필요한 소리 절제 사례 [S10](https://www.leagueoflegends.com/en-us/news/dev/ask-riot-let-s-talk-clarity/)"
+    },
+    {
+      "id": "AS25",
+      "title": "장식의 성능 비용을 실제 입력에서 잰다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S24"
+      ],
+      "symptom": "배경 영상·블러·큰 이미지 때문에 첫 화면과 클릭 반응이 느리다",
+      "cause_hypothesis": "개발 컴퓨터의 정지 화면만 보고 자산·렌더링 비용을 확인하지 않았다",
+      "instruction": "대표 저사양·네트워크 조건을 정하고 핵심 작업부터 측정한다. 이미지 크기·로딩 우선순위·레이아웃 공간·반복 렌더링을 점검한다",
+      "before_after_synthetic": "전체화면 고해상도 자동 재생과 모든 카드 블러 → 목적에 필요한 대표 이미지, 적절한 크기, 정적 대안, 꼭 필요한 효과만 유지",
+      "verification": "웹은 LCP·INP·CLS를 실험실과 실제 이용 데이터로 구분해 기록한다. 일반 좋은 기준은 75백분위 LCP≤2.5초, INP≤200ms, CLS≤0.1이다. 게임은 프레임 시간·입력 지연을 따로 측정한다",
+      "exceptions": "Core Web Vitals는 게임의 재미·접근성·프레임 품질을 증명하지 않는다. 새 시제품에 실제 이용 데이터가 없으면 미수집이라고 쓴다",
+      "decision": "작업 방해 R1/R0. 근거 [S24](https://web.dev/articles/vitals)"
+    },
+    {
+      "id": "AS26",
+      "title": "썸네일과 미리보기가 실제 경험을 대표한다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S07",
+        "S08"
+      ],
+      "symptom": "생성 일러스트는 화려하지만 게임에 그 장면·기능·그래픽이 없다",
+      "cause_hypothesis": "발견 가능성을 높이려고 플레이의 정체성을 포장 이미지로 대체했다",
+      "instruction": "실제 플레이 화면과 실제 상호작용을 중심으로 보여준다. 컨셉 아트는 컨셉으로 구분하며 타이틀·스크린샷·설명 사이의 약속을 맞춘다",
+      "before_after_synthetic": "존재하지 않는 3D 전투 일러스트 → 실제 2D 전투 장면과 핵심 규칙을 보여주는 짧은 예시",
+      "verification": "미리보기의 주요 요소를 빌드에서 찾을 수 있는지, 이용자가 기대할 상호작용이 실제로 되는지 대조한다",
+      "exceptions": "표지 일러스트 자체는 정당하다. 실제 화면인 것처럼 제시하거나 없는 기능을 약속하지 않는다",
+      "decision": "허위 약속 R0, 인상 불일치 R1. 근거 [S07](https://sbox.game/news/post-release/9qtcxbc94hvf.jsp), [S08](https://sbox.game/news/update-26-05-13)"
+    },
+    {
+      "id": "AS27",
+      "title": "근거 없는 독특함을 의도라고 부르지 않는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S02",
+        "S11"
+      ],
+      "symptom": "템플릿을 피하려고 메뉴 위치·스크롤·읽기 순서까지 임의로 바꾼다",
+      "cause_hypothesis": "남과 다른 것과 사용자의 작업에 맞는 것을 동일시했다",
+      "instruction": "개성을 둘 축과 관습을 유지할 축을 나눈다. 제목·대표 이미지·색·재료에서 성격을 만들되 핵심 조작의 학습 비용을 함부로 늘리지 않는다",
+      "before_after_synthetic": "화면 구석마다 다른 모양의 숨은 네비게이션 → 익숙한 탐색 구조와 해당 제품만의 실제 콘텐츠·선택된 아트 방향",
+      "verification": "장식을 설명하지 않아도 주요 경로를 찾는지 확인한다. 참조의 무엇을 채택했고 무엇을 바꿨는지 설명한다",
+      "exceptions": "실험적 작품·경험형 사이트는 탐색 자체가 작품의 일부일 수 있다. 그 목표를 처음부터 명시한다",
+      "decision": "R2, 길을 찾지 못하면 R1. 근거 [S02](https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md), [S11](https://www.teamfortress.com/post.php?id=1783)"
+    },
+    {
+      "id": "AS28",
+      "title": "검수 흔적 없이 완성이라고 제출하지 않는다",
+      "origin": "P original implementation proposal",
+      "validation_status": "not_executed_in_this_research",
+      "source_ids": [
+        "S06"
+      ],
+      "symptom": "빌드 성공·린트 통과를 근거로 ‘모바일도 완벽’이라고 말한다",
+      "cause_hypothesis": "생성자 자신이 소스의 의도와 실제 결과를 같은 것으로 취급했다",
+      "instruction": "화면 증거와 동작 증거를 분리한다. 실제 뷰포트·상태·입력·결과·미확인 범위를 기록하고, 발견된 R0/R1을 고친 뒤 같은 시나리오를 재검한다",
+      "before_after_synthetic": "‘모든 기능 구현 완료’ → ‘검색·0건·새로고침 복귀를 실제 확인, 계정 간 동기화는 범위 밖’처럼 정확한 완료 기록",
+      "verification": "독립 검수자가 증거만으로 실패를 재현하거나 통과를 확인할 수 있어야 한다. 스크린샷 한 장으로 저장·키보드·성능까지 통과시키지 않는다",
+      "exceptions": "도구가 막히면 미확인을 공개한다. 확인하지 못한 항목을 조용히 통과 처리하지 않는다",
+      "decision": "거짓 검증 R0, 필요한 검증 누락 R1. 근거 [S06](https://vercel.com/blog/teaching-agents-product-design-at-vercel)"
+    }
+  ]
+}

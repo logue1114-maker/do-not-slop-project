@@ -1,0 +1,1509 @@
+{
+  "validator_version": "public-copy-1.0.0",
+  "validated_at_utc": "2026-10-04T08:47:22.231100+00:00",
+  "status": "passed_offline_public_copy_checks",
+  "scope": "New public validator: local shape, source references, exact inventory, preserved input bytes, 151 deterministic fixtures and relocated CLI",
+  "network_requests": 0,
+  "model_calls": 0,
+  "checks": [
+    {
+      "name": "portable_regular_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:DRAFT_STATUS.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:PROVENANCE.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugin.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:skills/review-visible-design/references/evidence-contract.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:skills/review-visible-design/references/routing.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:skills/review-visible-design/references/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "python:skills/review-visible-design/scripts/review_contract.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/comparison_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/hash_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/hash_fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/hash_fixture_reformatted.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/invalid_json_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/known_null_state_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/report_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/request_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/sample_action_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/sample_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/sample_known_null_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/sample_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:tests/sample_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:validation/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "python:validation/validate_package.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "documented_minimal_manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "provisional_name_and_draft_version",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_complete_product_skill",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bounded_ui_metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/routing.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/game-equipment.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/game-card-execution.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/game-action-controls.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/game-short-puzzle.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/web-product-selection.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/web-information-reading.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/web-lesson-question.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/evidence-contract.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "skill_link:references/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_namespaced_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_links_no_credentials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "third_party_rights_remain_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "seven_isolated_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "section_first_bounded_loading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:rpg-equipment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:card-execution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:short-puzzle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:game.action_controls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:product-selection-cart",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:information-reading",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "route:lesson-question",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_trace:game-corrections.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:game-card-execution.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:web-corrections.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:web-product-selection.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:game-equipment.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:web-lesson-question.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:game-short-puzzle.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:game-action-controls.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "source_trace:web-information-reading.md",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_bundled_assets_or_install_configuration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_machine_paths_in_runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "draft_uninstalled_unadopted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unrun_gates_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_public_inventory",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "bounded_public_authority_pending_license",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/agents/openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/evidence-contract.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/game-action-controls.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/game-card-execution.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/game-corrections.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/game-equipment.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/game-short-puzzle.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/routing.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/web-corrections.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/web-information-reading.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/web-lesson-question.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/references/web-product-selection.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:skills/review-visible-design/scripts/review_contract.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/comparison_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/hash_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/hash_fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/hash_fixture_reformatted.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/invalid_json_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/known_null_state_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/report_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/request_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/sample_action_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/sample_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/sample_known_null_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/sample_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unchanged_input:tests/sample_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical_and_invariant_contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_known_null_schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "evidence_kind_mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_bytes_differ_canonical_value_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relocated_cli:route:sample_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relocated_cli:route:sample_action_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relocated_cli:compare:sample_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relocated_cli:compare:sample_known_null_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relocated_cli:check-report:sample_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "relocated_cli:hash-json:hash_fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_151_preserved_fixtures",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "fixtures": [
+    {
+      "case_id": "REQ:rpg-equipment:direct",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:rpg-equipment:indirect",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:card-execution:direct",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:card-execution:indirect",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:short-puzzle:direct",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:short-puzzle:indirect",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:product-selection-cart:direct",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:product-selection-cart:indirect",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:information-reading:direct",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:information-reading:indirect",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:lesson-question:direct",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:lesson-question:indirect",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:missing-purpose",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:missing-task",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:unsupported",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:translation-nonactivation",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:no-screen",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:source-only",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:unknown-platform-controller",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:invalid-mode",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:game.action_controls:source-only",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:game.action_controls:rendered",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REQ:game.action_controls:no-evidence",
+      "family": "request_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:equal-data-no-captures",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:changed-data",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:changed-state_id",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:changed-viewport_css",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:changed-camera",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:changed-locale",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:unknown-dpr",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:malformed-equal-viewport_css",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:malformed-equal-dpr",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:malformed-equal-required_information",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:nested-unknown",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:raw-hash-representation-is-not-content",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:object-order-is-not-content",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:numeric-representation-is-not-content",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:boolean-is-not-number",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:array-order-is-content",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "CMP:no-silent-unicode-normalization",
+      "family": "comparison_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:explicit-empty-selection-focus-press",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:explicit-concrete-control-ids",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-null-versus-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-id-versus-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-omitted-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-unknown-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-omitted-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-unknown-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-blank-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-number-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-boolean-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-object-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:selectedId-list-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-null-versus-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-id-versus-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-omitted-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-unknown-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-omitted-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-unknown-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-blank-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-number-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-boolean-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-object-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:focusId-list-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-null-versus-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-id-versus-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-omitted-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-unknown-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-omitted-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-unknown-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-blank-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-number-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-boolean-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-object-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:pressedId-list-id",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-null-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-null-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-unknown-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-unknown-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-empty-object-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-empty-object-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-missing-both",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-missing-one-side",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:initial-state-not-object",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:arbitrary-direct-null-is-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:arbitrary-nested-null-is-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:data-same-key-null-is-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:task-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:task-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:task-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:fixture_id-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:fixture_id-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:fixture_id-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:data-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:data-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:data-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:scenario_id-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:scenario_id-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:scenario_id-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:state_id-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:state_id-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:state_id-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:viewport_css-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:viewport_css-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:viewport_css-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:dpr-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:dpr-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:dpr-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:zoom_percent-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:zoom_percent-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:zoom_percent-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:locale-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:locale-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:locale-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:input_mode-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:input_mode-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:input_mode-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:camera-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:camera-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:camera-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:visual_asset_hashes-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:visual_asset_hashes-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:visual_asset_hashes-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:required_information-null",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:required_information-unknown",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:required_information-missing",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "NULL:known-empty-state-no-real-environment-evidence",
+      "family": "known_null_state_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:proposal-no-observation",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:observation-without-evidence",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:code-is-not-visible-screen",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:screenshot-is-not-interaction",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:synthetic-is-not-live-product",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:synthetic-scope-explicit",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:test-pass-without-actual-result",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:command-missing-preservation",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:unscoped-source",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:complete-structural-evidence-fields",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:structural-log-is-not-interaction",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:game-source-only-canonical-evidence-enum",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:source-alias-has-actionable-enum-hint",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:static-check-alias-has-actionable-enum-hint",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:game-static-check-is-not-rendered-visual-evidence",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "REP:game-static-check-is-not-executed-input",
+      "family": "report_cases.json",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "HASH:original-author-fixture",
+      "family": "actual_hash",
+      "passed": true,
+      "actual": {
+        "status": "hashed",
+        "raw_file_sha256": "6b24973e25805dee630f3cee55a1642ab940fd3bef0060924542b8083735ffca",
+        "canonical_json_sha256": "d4aa11430dd7cc297ba65876dc128ec766715667cd1a88b5e9753e389caf7a78",
+        "canonical_policy": "python-json-compact-sorted-utf8-v1",
+        "canonical_scope": "entire parsed JSON value",
+        "semantic_comparison": "not_performed",
+        "note": "Different raw and canonical hashes are not evidence of changed content."
+      }
+    },
+    {
+      "case_id": "HASH:reformatted-equal-value",
+      "family": "actual_hash",
+      "passed": true,
+      "actual": {
+        "status": "hashed",
+        "raw_file_sha256": "be7e4e4a46698dc0feb1f35554a65436ad51149e00982340defef31f1476a415",
+        "canonical_json_sha256": "d4aa11430dd7cc297ba65876dc128ec766715667cd1a88b5e9753e389caf7a78",
+        "canonical_policy": "python-json-compact-sorted-utf8-v1",
+        "canonical_scope": "entire parsed JSON value",
+        "semantic_comparison": "not_performed",
+        "note": "Different raw and canonical hashes are not evidence of changed content."
+      }
+    },
+    {
+      "case_id": "JSON:duplicate-keys",
+      "family": "invalid_json_cli",
+      "passed": true
+    },
+    {
+      "case_id": "JSON:NaN",
+      "family": "invalid_json_cli",
+      "passed": true
+    },
+    {
+      "case_id": "JSON:infinity",
+      "family": "invalid_json_cli",
+      "passed": true
+    },
+    {
+      "case_id": "JSON:overflow-float",
+      "family": "invalid_json_cli",
+      "passed": true
+    },
+    {
+      "case_id": "JSON:unpaired-surrogate",
+      "family": "invalid_json_cli",
+      "passed": true
+    },
+    {
+      "case_id": "JSON:UTF8-BOM",
+      "family": "invalid_json_cli",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "checks": 104,
+    "failed_checks": 0,
+    "deterministic_fixtures": 151,
+    "fixture_failures": 0
+  },
+  "unrun_gates": {
+    "natural_language_activation_and_output": "not_run",
+    "browser_and_input_regressions": "not_run",
+    "same_content_rendered_before_after": "not_run",
+    "visual_effectiveness": "not_run",
+    "host_loading": "not_run",
+    "full_remote_agent_plugins_json_schema": "not_run",
+    "source_claim_currentness": "not_run",
+    "user_review": "not_run"
+  },
+  "license_choice": "pending_user_decision",
+  "official_approval": "not_claimed",
+  "limitations": [
+    "Remote manifest JSON Schema not fetched",
+    "Normalized requests do not prove natural-language activation",
+    "No browser, input, visual-effectiveness, host-loading or participant study is performed by this validator"
+  ],
+  "artifact_sha256": {
+    "DRAFT_STATUS.json": "c7d16390c566cb42a500f2710e780d989a0790d5625775e5870f605d8a34a715",
+    "PROVENANCE.json": "87d15f70d4fb038db5f569763717bf915f4c4fb317ce3f804a6c5d61a892b0dd",
+    "README.md": "9f70139b418adc48f8db73392b5071b3a13924857d51a22aa323a9835d7ec40c",
+    "plugin.json": "81303be9aa812e1fb5c298d03b80ace8d966ab59f2b5daab55b0f117ecc2b889",
+    "skills/review-visible-design/SKILL.md": "1f74f337c8ee4a09f97497cb9657c1995fe68b9a105af24118403c24dd8cb0d1",
+    "skills/review-visible-design/agents/openai.yaml": "1ea0c9b36a594c5ccc3f0c0028574663133bada76538b76290bf04068cbd021a",
+    "skills/review-visible-design/references/evidence-contract.json": "799203549d29aebe9dbb76f5fd6e0dfec9568c55a63e413cd7bc2e14d67c623d",
+    "skills/review-visible-design/references/game-action-controls.md": "9d4b4c126d1845cdcfdd91c4958ddae1ca7f565a1f826ac3ae14829bf2a4dd42",
+    "skills/review-visible-design/references/game-card-execution.md": "04ea857529f262fcb6a6b7db9f42fd7265a62bd0a86e0bb49c66b5e76cf179d6",
+    "skills/review-visible-design/references/game-corrections.md": "826ff929e3e1bf8c4ef264ea425f83b9429693e4d62a6350eacbabe7bb965b4e",
+    "skills/review-visible-design/references/game-equipment.md": "52c3704f3eade9c8ca78b78dfbcad04ebdf92c6ff1ed89144e40ed67ddf2d9d1",
+    "skills/review-visible-design/references/game-short-puzzle.md": "f52858646604d36a1f8ea367ebef015040b9cc393ef208b07c5e62f6871b16ba",
+    "skills/review-visible-design/references/routing.json": "a5479a1734076cf8f525371dae29202a7e91819d8c27dda7227d18d1e7707c60",
+    "skills/review-visible-design/references/sources.json": "39099ac4d3fa33782cfc5b522d3325acfca021cc73bdb404b4596abe4b881a34",
+    "skills/review-visible-design/references/web-corrections.md": "9ba157083b83c3ebb87c9f2a68dbe2e252ef4bb8bf72d53a241abde21be9f21b",
+    "skills/review-visible-design/references/web-information-reading.md": "091f40fe95a97b9fd422452634a09b9d804fee6e0b5c1abaabe983a4a0b36e0e",
+    "skills/review-visible-design/references/web-lesson-question.md": "91d8e8b4bae40fd7e9196ad9e5b1ba781746081425672e0c158bd6cfee1541e3",
+    "skills/review-visible-design/references/web-product-selection.md": "3b377434ad9adfe8b949b57bbc5f2280b811886c7abd996813c6b05c22f32e51",
+    "skills/review-visible-design/scripts/review_contract.py": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19",
+    "tests/comparison_cases.json": "a3cc30fdb4d221d8ccc1b0136ef2bc18c47b422b0c1410ead5610085f18a130f",
+    "tests/hash_cases.json": "e2e09d2efb98559cc425a72eddc28d91bb1c14ff7f644bfb326dfad85bcd5932",
+    "tests/hash_fixture.json": "6b24973e25805dee630f3cee55a1642ab940fd3bef0060924542b8083735ffca",
+    "tests/hash_fixture_reformatted.json": "be7e4e4a46698dc0feb1f35554a65436ad51149e00982340defef31f1476a415",
+    "tests/invalid_json_cases.json": "728cd71d45a3fb6c0f06e73d3fb32d45debe68d9df709014ce78a5d1731b9502",
+    "tests/known_null_state_cases.json": "8f9295ab88c092f4ec2f0cffc406a2f7c3e199346da3b3ba2f125506ad801d58",
+    "tests/report_cases.json": "14396318643f0d40a7da32c7ce36f8f5747aba62c9bfec766612496c98c52224",
+    "tests/request_cases.json": "1a23801ce54b9bb875bb16d08c238892a017c347a7c5881860edd514582311be",
+    "tests/sample_action_request.json": "dfd758e509acc194acce614040570c75ff5d0b107e44c9d16eb1c31dfc550821",
+    "tests/sample_comparison.json": "ef462c412415ba4b1ca54e5b90634698057fe61522e2ffdbc3812764fb36fbd7",
+    "tests/sample_known_null_comparison.json": "4893d5377662e290163ae903d0b62fc623c66c31101a45d213ec4694047de534",
+    "tests/sample_report.json": "3cb69146b26c2dd75064c896ddcb6ce7eb6a6a255611a8eb598c5d9dc5a5c42c",
+    "tests/sample_request.json": "24a8f8949b01c2653056c722fca3c1bcf415ebc2d6ad95e6b5a0628cc8f7d4ed",
+    "validation/validate_package.py": "57e89101be19f1ace923750522b4fc59c8bc9023e946f53d739ac94bd3c84f2a"
+  }
+}

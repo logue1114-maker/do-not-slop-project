@@ -1,0 +1,1647 @@
+{
+  "schema_version": "1.0.0",
+  "namespace": "GCTRL2",
+  "title": "게임 버튼·메뉴·HUD 시각 교정 추가 조사 v2",
+  "language": "ko",
+  "researched_at": "2026-10-04",
+  "status": "research_and_correction_spec_complete; implementation_not_run; not_published_or_installed",
+  "bounded_pass_scope": "six original-creator cases focused on shape/material/type/size/placement/states and genre fit",
+  "provenance_contract": {
+    "creator_claims": "source-backed original creator explanations, scoped to known historical concept/build",
+    "visual_observations": "rendered third-party images inspected in dot cloud browser; not live product usability tests",
+    "corrections": "original synthetic proposals, not measurements or instructions quoted from creators",
+    "before_after": "same-content specifications only, not executable or validated comparisons",
+    "numbers": "proposed CSS px unless explicitly source HR artwork px; no universal size claim",
+    "copyright": "link-only references; no third-party image bytes copied into public-ready bundle"
+  },
+  "deduplication": {
+    "checked_files": [
+      "antislop_research.md",
+      "antislop_research.json",
+      "rules_catalog.json",
+      "games_rpg_card_sourcecoverage.json"
+    ],
+    "exact_source_url_overlap": [],
+    "existing_recipe_overlap": "same broad V01–V04 themes intentionally deepened with new creator cases and execution contracts; not counted as new universal principles",
+    "id_policy": "all local source/case/image/test/rule/fixture/paired-spec IDs carry GCTRL2 namespace; existing references are explicitly AS or UX",
+    "historical_not_bundled": "The original review additionally used an evidence registry and draft release-planning document not bundled here. The checked_files list identifies included public materials; this subset does not reproduce those historical inputs."
+  },
+  "sources": [
+    {
+      "id": "GCTRL2:S01",
+      "title": "Friday Facts #243 — New GUI tileset",
+      "url": "https://www.factorio.com/blog/post/fff-243",
+      "author": "Albert / kovarex, Wube Software",
+      "published_at": "2018-05-18",
+      "kind": "original_developer_blog",
+      "product_version": "2018 work-in-progress GUI tileset; not a current shipping-build audit",
+      "claim_scope": "공통 widget sheet를 이용한 대비·폰트·고해상도/일반 해상도·문자권 검토. 이미지에 명시된 버튼 조형 및 상태 주석",
+      "rights_notice_observed": "Copyright © 2015–2026 Wube Software, all rights reserved",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S02",
+      "title": "Friday Facts #238 — The GUI update (Part II)",
+      "url": "https://www.factorio.com/blog/post/fff-238",
+      "author": "glex / kovarex, Wube Software",
+      "published_at": "2018-04-13",
+      "kind": "original_developer_blog",
+      "product_version": "2018 research-tree redesign work in progress",
+      "claim_scope": "기술 객체에 연결한 문맥 조작과 표준 확인 버튼의 인지 사이에서 제작자가 직접 기록한 갈등",
+      "rights_notice_observed": "Wube Software, all rights reserved",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S03",
+      "title": "Friday Facts #362 — Continue button and confirm",
+      "url": "https://www.factorio.com/blog/post/fff-362",
+      "author": "kovarex / V453000, Wube Software",
+      "published_at": "2020-10-30",
+      "kind": "original_developer_blog",
+      "product_version": "announced changes for Factorio 1.1",
+      "claim_scope": "E 확인과 Esc 취소의 의미를 분리하고 green-button 클릭 및 키 입력의 피드백을 맞춘 변경",
+      "rights_notice_observed": "Wube Software, all rights reserved",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S04",
+      "title": "Dead Space 2 UI Concepts / Shape Library",
+      "url": "https://dinoignacio.com/portfolio/dead-space-2-shape-library/",
+      "author": "Dino Ignacio, franchise lead UI designer; team work acknowledged separately in reel",
+      "published_at": null,
+      "kind": "original_designer_portfolio",
+      "product_version": "early Dead Space 2 concepts; not verified shipping states",
+      "claim_scope": "확대된 UI 팀이 공유할 일관된 shape library를 만들었다는 원저자 설명과 두 concept sheets",
+      "rights_notice_observed": "Copyright @ 2016 Dino Ignacio",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S05",
+      "title": "Dead Space 3 UI Concepts",
+      "url": "https://dinoignacio.com/portfolio/dead-space-3-ui-concepts/",
+      "author": "Dino Ignacio",
+      "published_at": null,
+      "kind": "original_designer_portfolio",
+      "product_version": "early Dead Space 3 terminal concepts",
+      "claim_scope": "서사의 200년 이전 기술을 유리 기반의 복고 미래 단말기로 구분했다는 제작자 설명",
+      "rights_notice_observed": "Copyright @ 2016 Dino Ignacio",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S06",
+      "title": "Portfolio — Battlefield V UI",
+      "url": "https://carlosvk.info/portfolio/",
+      "author": "Carlos Villarreal Kwasek, DICE UI/UX team contributor",
+      "published_at": null,
+      "kind": "original_designer_portfolio",
+      "product_version": "Battlefield V (2018) portfolio images",
+      "claim_scope": "소수의 공통 building blocks와 behaviour로 버튼을 구성했다는 원저자 설명; 제공한 menu/HUD stills",
+      "rights_notice_observed": "© 2026 Carlos Villarreal Kwasek, all rights reserved; screenshots identify EA/DICE",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S07",
+      "title": "Tintin Match Game Art & UI",
+      "url": "https://tobitobot.artstation.com/projects/d8zDQe",
+      "author": "Paul Filippow, 5th Planet Games Berlin; UI screens credited with Magdalena Chojnowska",
+      "published_at": null,
+      "kind": "original_designer_portfolio",
+      "product_version": "Tintin Match portfolio sheets; upload query timestamps are not publication evidence",
+      "claim_scope": "Hergé의 만화 정체성과 casual puzzle UI를 연결한 제작 의도; panel/button sheet와 game screen montage",
+      "rights_notice_observed": "All rights reserved; sheet shows © Hergé–Moulinsart and 5th Planet marks",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S08",
+      "title": "Hard Head Squad UI/UX",
+      "url": "https://cenildon.artstation.com/projects/lR89oO",
+      "author": "Cenildon Muradi, UX/UI creator and later art director; production help credited to Jesus Vera Vera",
+      "published_at": null,
+      "kind": "original_designer_portfolio",
+      "product_version": "Hard Head Squad portfolio images; actual current game availability not investigated",
+      "claim_scope": "screen flows, layout, visuals and Unity implementation의 제작 참여 설명; button sheet와 building popup",
+      "rights_notice_observed": "All rights reserved; images carry Rovio mark",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    },
+    {
+      "id": "GCTRL2:S09",
+      "title": "Dev Diary #49 — Graphic Overview",
+      "url": "https://www.paradoxinteractive.com/games/victoria-3/news/dev-diary-49-graphic-overview",
+      "author": "Max, Victoria 3 Art Director; Kenneth Lim credited as 2D art lead",
+      "published_at": "2022-06-08",
+      "kind": "original_developer_blog",
+      "product_version": "pre-release Victoria 3 WIP artwork, 2022",
+      "claim_scope": "절제된 장식, map/illustration과 맞춘 palette, 의사결정 버튼의 시각적 순서에 관한 설명 및 WIP UI images",
+      "rights_notice_observed": "© 2026 Paradox Interactive AB; trademarks belong to their owners",
+      "accessed_at": "2026-10-04",
+      "access_status": "public_source_text_read",
+      "redistribution_permission": "not_established",
+      "public_bundle_decision": "link_and_original_summary_only; exclude third-party image bytes and fonts"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "GCTRL2:IMG01",
+      "source_id": "GCTRL2:S01",
+      "url": "https://cdn.factorio.com/assets/img/blog/fff-243-generic-tileset-demo.png",
+      "label": "Factorio GUI tileset / annotated button families",
+      "natural_size_px": [
+        1024,
+        4552
+      ],
+      "observed_details": "일반 사각 버튼, 오른쪽 끝이 향하는 확인 버튼, 왼쪽 끝이 향하는 back 버튼, red cancel family. Idle/Disabled/Hover/Press 열과 HR 36px 글자·press 때 2px 아래 주석이 보인다.",
+      "source_state_labels_explicit": true,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG02",
+      "source_id": "GCTRL2:S04",
+      "url": "https://dinoignacio.com/wp-content/uploads/2013/05/ds2_shape_library.jpg",
+      "label": "Dead Space 2 shape-library concept sheet",
+      "natural_size_px": [
+        960,
+        494
+      ],
+      "observed_details": "cyan과 회색의 잘린 모서리 패널, 반복되는 cap/rail, 원형 controller glyph가 들어간 PRESS AND HOLD prompt, segment형 bar가 함께 놓인다. 각 도형을 제품의 실제 hover/disabled 상태로 확인한 것은 아니다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG03",
+      "source_id": "GCTRL2:S04",
+      "url": "https://dinoignacio.com/wp-content/uploads/2013/05/ds2_holograms.jpg",
+      "label": "Dead Space 2 lock hologram concepts",
+      "natural_size_px": null,
+      "observed_details": "LOCKED / UNLOCKED / OPEN? 텍스트와 서로 다른 원형 segment 구조가 함께 보인다. 색 변화만 있는 표본이 아니다.",
+      "source_state_labels_explicit": true,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG04",
+      "source_id": "GCTRL2:S06",
+      "url": "https://carlosvk.info/wp-content/uploads/2018/12/bfv_FrontEnd_03.jpg",
+      "label": "Battlefield V War Stories menu",
+      "natural_size_px": [
+        1600,
+        1000
+      ],
+      "observed_details": "세로 장면 타일, 선택 타일의 흰 label 면, 나머지 장면 위의 간결한 type, locked tile의 lock glyph, 좌하단 controller Select/Back legend가 보인다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG05",
+      "source_id": "GCTRL2:S06",
+      "url": "https://carlosvk.info/wp-content/uploads/2018/12/bfv_FrontEnd_06.jpg",
+      "label": "Battlefield V Medic equipment menu",
+      "natural_size_px": null,
+      "observed_details": "왼쪽 장비/역할 column과 하단 command legend, 오른쪽 큰 character preview. 선택 항목은 light fill로 구분되고 보조 명령은 간결한 dark rows다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG06",
+      "source_id": "GCTRL2:S07",
+      "url": "https://cdna.artstation.com/p/assets/images/images/042/289/406/large/paul-filippow-ui-gameart-ui.jpg?1634093018",
+      "label": "Tintin Match panel and button asset sheet",
+      "natural_size_px": null,
+      "observed_details": "cream paper, 일정한 어두운 외곽선, 접히거나 찢긴 paper variants, 제한된 pastel panels, raised/flat-looking button variants, X/back glyph. 나란한 자산이 idle/press 순서인지 원문에서 명명하지 않는다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG07",
+      "source_id": "GCTRL2:S07",
+      "url": "https://cdna.artstation.com/p/assets/images/images/042/275/740/large/paul-filippow-ui-gameart.jpg?1634057890",
+      "label": "Tintin Match level / shop / settings screens",
+      "natural_size_px": null,
+      "observed_details": "레벨 입장 종이 패널 아래 녹색 PLAY, 닫기 X의 작은 cream control, language list의 selected green row, 같은 paper/ink outline family가 확인된다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG08",
+      "source_id": "GCTRL2:S08",
+      "url": "https://cdna.artstation.com/p/assets/images/images/052/775/068/large/cenildon-muradi-13.jpg?1660651034",
+      "label": "Hard Head Squad button asset sheet",
+      "natural_size_px": null,
+      "observed_details": "clipped-corner polygons와 가로 버튼, 두꺼운 pale rim, 아래로 돌출된 purple/colored side face, vivid face gradients가 반복된다. 자산 색의 실제 기능 mapping과 상태 이름은 sheet만으로 확정할 수 없다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG09",
+      "source_id": "GCTRL2:S08",
+      "url": "https://cdnb.artstation.com/p/assets/images/images/052/775/123/large/cenildon-muradi-3.jpg?1660651149",
+      "label": "Hard Head Squad building-information popup",
+      "natural_size_px": null,
+      "observed_details": "좌측 건물 model, 우측 requirements와 checkmarks, 아래 두 action controls. 하단 button 형상이 sheet family와 맞는다. 이 screenshot의 cost presentation을 좋은 거래 안내로 평가하지 않는다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    },
+    {
+      "id": "GCTRL2:IMG10",
+      "source_id": "GCTRL2:S09",
+      "url": "https://images.ctfassets.net/u73tyf0fa8v1/4rEzc9W9FN52tZhGaBD5oC/173a0ed1a2e1d07b5888e7ddc0b17fb8/2.jpg?w=1080&q=75&fm=webp",
+      "label": "Victoria 3 WIP Politics panel from official diary",
+      "natural_size_px": [
+        1080,
+        601
+      ],
+      "observed_details": "burgundy title band, 얇은 gold outline, restrained scrollwork, dense party rows, 낮은 좌측 Reform Government button. WIP 표기가 보인다.",
+      "source_state_labels_explicit": false,
+      "observed_at": "2026-10-04",
+      "inspection_method": "rendered_image_seen_in_dot_cloud_browser",
+      "artifact_type": "third_party_concept_sheet_or_portfolio_screenshot",
+      "measurement_boundary": "natural image dimensions only where browser title returned them; no CSS or engine-unit control measurements",
+      "public_bundle_decision": "link_only",
+      "redistribution_permission": "not_established"
+    }
+  ],
+  "cases": [
+    {
+      "id": "GCTRL2:C:FACTORIO",
+      "title": "산업형 버튼: 확인·되돌림·취소를 형태와 상태까지 한 가족으로",
+      "genre_fit": "정보 밀도가 높은 factory/strategy 화면. 단단한 neutral control family가 도구의 안정감을 주되 작은 data slots와 큰 confirm을 구분한다.",
+      "source_ids": [
+        "GCTRL2:S01",
+        "GCTRL2:S02",
+        "GCTRL2:S03"
+      ],
+      "visual_ids": [
+        "GCTRL2:IMG01"
+      ],
+      "creator_claims": [
+        "2018 제작자는 전체 widget sheet를 공유해 대비·폰트·해상도 및 문자권을 함께 검토했다. Sheet의 수치는 HR artwork 주석이다.",
+        "Research-tree 문맥 조작을 객체 곁에 두려는 설계와, 버튼을 한눈에 알아보게 할 위치/형태 관습 사이의 긴장이 제작자 글에 직접 기록돼 있다.",
+        "2020 변경 설명은 E를 확인, Esc를 취소로 분리하고 green confirm과 키 입력에 같은 의미를 부여한다. 그 mapping은 Factorio의 맥락이며 다른 게임의 필수 키가 아니다."
+      ],
+      "visual_observations": [
+        "서로 다른 역할에 색뿐 아니라 끝 모양이 다르다. 일반 button의 bevel과 hover/press 차이도 한 sheet에서 비교할 수 있다."
+      ],
+      "synthetic_failure": "가상 공장게임: 기술 목록, 수치 조절, 예약, 닫기가 모두 52px pill이고 각각 다른 glow를 갖는다. 예약은 작은 icon이라 클릭인지 상태표시인지 모호하고, 화면상 확인과 취소의 의미가 드러나지 않는다. 실제 Enter 확인 / Esc 취소 binding과 행동 의미는 두 시안에서 동일하게 둔다.",
+      "correction": {
+        "origin": "author_proposal_not_source_specification",
+        "shape": "일반 text control은 작은 모서리의 rectangle, 진행 확인은 right-facing end, back은 left-facing end로 설계한다. outline·bevel cap·label inset을 공통 component에서 생성한다. 별 모양·원형 close·캡슐 start를 임의로 섞지 않는다.",
+        "material_and_light": "공통 dark panel, upper-left 1px light bevel, lower-right 2px dark bevel의 자체 시안부터 시작한다. texture는 label 안쪽에 깔지 않고 rim에 낮은 밀도로 둔다. Hover에만 accent rim을 사용하고 base에 영구 glow를 주지 않는다.",
+        "typography_and_icons": "1280×720 CSS 시안에서 고딕 label 16px/600, line-height 22px, horizontal text inset 16px를 출발점으로 삼는다. Icon은 20px silhouette family, label baseline에 맞춘다. Source의 36px HR font를 CSS 36px 권장값으로 옮기지 않는다.",
+        "placement_and_hierarchy": "기술 설명·자원 비용·예약 control을 같은 selected-detail panel에 붙이고, 변경 확정 footer는 항상 같은 영역에 둔다. Back은 왼쪽, confirm은 오른쪽이라는 이 예시의 규칙을 다른 대화창에도 유지한다. 주행동 하나만 green, 나머지는 neutral로 둔다.",
+        "states": {
+          "idle": "neutral face와 raised bevel. confirm은 green family지만 hover만큼 밝지 않다.",
+          "hover": "rim accent만 변화; layout와 label 기준선 유지.",
+          "focus": "persistent 2px inner outline와 keyboard/controller glyph; hover와 별도 토큰.",
+          "pressed": "face 안쪽이 recessed, 내부 label만 1px 내려간다. hitbox와 외곽 bounding box는 고정.",
+          "disabled": "bevel relief 약화, label 보존, 바로 옆에 사용 불가 이유. 색만 바꿔 available과 구별하지 않는다.",
+          "selected": "예약 완료는 check + 예약됨 label. Focus와 다른 의미.",
+          "confirm_cancel": "이 자체 예시는 Enter 확인 / Esc 취소를 별도 binding으로 정의. 사용자가 고른 bindings가 표시/동작과 맞아야 한다."
+        },
+        "scaling_and_input": "Desktop에서 44px control height와 8px gap은 시험용 시작값이다. 좁은 창에서는 tech list/detail을 순차 화면으로 바꾸되 비용·confirm·back을 모두 보존한다. 컨트롤러는 widget 배치와 별도로 focus graph를 검수한다."
+      },
+      "same_content_comparison": {
+        "id": "GCTRL2:PAIR:FACTORIO",
+        "status": "specified_not_implemented",
+        "fixture": {
+          "fixture_id": "GCTRL2:F:FACTORIO",
+          "viewport_css": [
+            1280,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "mouse_keyboard",
+          "task": "선택 기술을 연구 대기열에 넣고 변경을 확정한다",
+          "selected_technology": "자동 분류",
+          "requirements": {
+            "과학 팩": 40
+          },
+          "inventory": {
+            "과학 팩": 65
+          },
+          "queue": [
+            "전력 저장"
+          ],
+          "actions": [
+            "대기열에 추가",
+            "변경 적용",
+            "취소"
+          ],
+          "initial_state": "detail_open_available",
+          "capture_states": [
+            "idle",
+            "focus_add",
+            "pressed_add",
+            "queued",
+            "cancelled"
+          ],
+          "art_fixture": {
+            "ids": [
+              "generic_factory_background_v1",
+              "technology_icon_sorter_v1"
+            ],
+            "description": "자체 제작 industrial factory background와 generic sorter icon; 타사 자산 미사용",
+            "asset_sha256": null,
+            "status": "required_to_create_or_resolve_before_implementation; not_available_yet"
+          }
+        },
+        "before": {
+          "layout": "detail panel x=360,y=112,w=560,h=448. 세 action은 panel 외부 서로 다른 모서리에 배치",
+          "controls": "모두 52px pill, permanent glow; 대기열 추가만 작은 무명 icon",
+          "data_policy": "위 fixture 그대로 표시, 신규 정보/누락 없음"
+        },
+        "after": {
+          "layout": "같은 panel bounds. 비용 다음 줄에 추가 action 176×44; footer y=504,h=56; cancel left, apply right",
+          "controls": "공통 44px 가족, add neutral/queued state, apply right-facing green, cancel restrained neutral text label; 파괴적 삭제와 단순 취소를 혼동해 red를 강제하지 않음",
+          "data_policy": "같은 기술·비용·자원·queue·actions 유지"
+        },
+        "equivalence_required": [
+          "same fixture JSON hash",
+          "same camera/background asset hash",
+          "same locale",
+          "same initial state",
+          "same task goal",
+          "same viewport/DPR/zoom",
+          "same input mode",
+          "same captured milestone"
+        ],
+        "change_scope": "shape/material/type/spacing/placement/state signals only; any interaction change requires separate ledger and test",
+        "source_images_role": "external inspiration/evidence, never the before version of our synthetic example",
+        "fixture_sha256": "a2ff07fb5b9a0627d16ebc918cd035f38c320800b4ed07afedd1eb606da7b4b5",
+        "equivalence_validation": {
+          "status": "not_run",
+          "fixture_json_defined": true,
+          "art_hash_defined": false,
+          "source_revision": null,
+          "implementation_revision": null,
+          "capture_paths": [],
+          "note": "합성 data fixture는 고정됐지만 art·구현·capture가 없으므로 동등 전후 검증을 통과한 것은 아니다"
+        },
+        "change_ledger": [
+          {
+            "change": "shape/material/type/spacing/placement/state presentation",
+            "category": "visual",
+            "allowed": true,
+            "fact_loss_allowed": false
+          },
+          {
+            "change": "task goal, data values, action semantics, hold duration, cost, selected item",
+            "category": "behavior_or_content",
+            "allowed": false,
+            "requires": "separate approval/scope and comparison ledger if changed"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "id": "GCTRL2:T:FACTORIO:01",
+          "assertion": "같은 fixture/hash와 available/queued milestone에서 before/after 캡처를 재생할 수 있다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:FACTORIO:02",
+          "assertion": "비용 40, 보유 65와 예약 결과가 두 버전에서 모두 읽힌다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:FACTORIO:03",
+          "assertion": "Hover/press가 sibling 위치·hitbox를 바꾸지 않는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:FACTORIO:04",
+          "assertion": "초점을 옮긴 상태와 이미 예약된 상태가 정적으로 다르게 보인다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:FACTORIO:05",
+          "assertion": "Enter 확인과 Esc 취소의 실제 결과가 화면 label/binding과 일치한다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:FACTORIO:06",
+          "assertion": "긴 한글 label에서 arrow tip·bevel이 text inset을 침범하지 않는다",
+          "status": "not_run"
+        }
+      ],
+      "do_not_generalize": [
+        "화살표 끝과 green confirm을 모든 게임의 법칙으로 만들지 않는다",
+        "Source의 red cancel은 특정 style sheet의 선택이다. 자체 예시의 취소가 비파괴적이면 red warning semantics를 굳이 복사하지 않는다",
+        "문맥 button이 선택 객체를 가리키는 이점은 유지하되 recognizable button surface를 함께 제공한다"
+      ],
+      "existing_rule_links": [
+        "AS:V01",
+        "AS:V02",
+        "AS:V03",
+        "AS:V04",
+        "AS:AS18",
+        "AS:AS22",
+        "UX:R-COM-05",
+        "UX:R-CTRL-01"
+      ],
+      "rights": {
+        "third_party_images": "source links only; public redistribution permission not established",
+        "original_proposed_example": "own synthetic content; no copied trademark/logo/character/font/asset",
+        "license_selection": "not_selected; public visibility does not grant a reuse license"
+      },
+      "limitations": [
+        "No live game interaction or user study was performed",
+        "Source visuals may be early concepts or historical builds",
+        "Numbers in the correction are trial design parameters, not measured product values or standards"
+      ]
+    },
+    {
+      "id": "GCTRL2:C:DEADSPACE",
+      "title": "SF 단말기: 장식 도형이 아니라 명령·상태를 구분하는 조형",
+      "genre_fit": "장비/단말기로 세계를 전달하는 SF horror 또는 survival. 불투명 base 없이 가느다란 cyan만 늘어놓는 화면의 교정에 적합하다.",
+      "source_ids": [
+        "GCTRL2:S04",
+        "GCTRL2:S05"
+      ],
+      "visual_ids": [
+        "GCTRL2:IMG02",
+        "GCTRL2:IMG03"
+      ],
+      "creator_claims": [
+        "원저자는 Dead Space 2에서 더 큰 UI art team을 위해 공통 shape library를 만들었다고 설명한다. 여기서 보는 자료는 early concepts다.",
+        "Dead Space 3의 옛 단말기에서는 서사의 기술 연대를 표현하려고 hologram 대신 glass-based retro-futuristic terminals를 구상했다. SF라는 이유만으로 모든 장치에 같은 neon을 붙인 사례가 아니다."
+      ],
+      "visual_observations": [
+        "Sheet는 cut corner와 rail/cap, glyph가 포함된 hold prompt를 반복한다. Lock concepts는 문구와 원형 구조를 함께 바꾼다. 그 요소를 shipping hover/disabled system으로 확정하지 않는다."
+      ],
+      "synthetic_failure": "가상 기지 hatch panel: outline hexagons 12개, 같은 cyan glow, 가독성이 낮은 좁은 숫자. 산소 상태와 실제 열기 명령이 같은 원형 장식이고 hover해야만 이름이 보인다.",
+      "correction": {
+        "origin": "author_proposal_not_source_specification",
+        "shape": "명령은 공통 6px chamfer rectangle, 읽기전용 meter는 segment rail, 경보는 별도 inset band로 역할을 분리한다. 매 버튼마다 서로 다른 hex/radar shape를 생성하지 않는다. Chamfer 방향·corner count를 전체 panel family에서 유지한다.",
+        "material_and_light": "전체는 장비 display라는 하나의 재료다. 라벨 아래에는 어두운 local backing을 확보하고 cyan emissive는 selected rail·progress에 제한한다. Busy scene 위 blur만으로 contrast를 얻었다고 가정하지 않는다. 기존 장치가 유리/CRT라면 그 재료를 유지하고 hologram으로 재해석하지 않는다.",
+        "typography_and_icons": "본문·명령은 18px 고딕, timer/숫자만 20px tabular style를 시험한다. 과한 tracking과 가짜 barcode label을 제거한다. Key glyph와 명령 verb를 한 행에 묶는다. 작은 써체로 모든 수치를 압축하지 않는다.",
+        "placement_and_hierarchy": "Hatch object 왼쪽에 고정 폭 command panel을 붙이고 산소·seal status·hold instruction·cancel 순으로 읽게 한다. 상시 HUD의 health/oxygen과 interaction panel은 서로 다른 layer로 관리한다. 선택을 하지 않은 decorative glyph에는 button hitbox를 주지 않는다.",
+        "states": {
+          "idle": "label과 key glyph가 항상 보이고 외곽 rail은 조용하다.",
+          "focus": "명령 rail에 2px 선과 inward marker; label 밝기만으로 끝내지 않음.",
+          "pressed_hold": "hold progress가 채워지고 남은 진행이 보인다; early release는 취소되고 행동이 아직 발생하지 않는다.",
+          "disabled": "LOCKED/전력 부족 text + lock glyph + 끊긴 rail; label opacity만 낮추지 않는다.",
+          "selected": "inspection 대상은 bracket로 표시하지만 실행 완료 glyph와 구분.",
+          "completed": "열림 text와 다른 segment shape, hatch 상태 변화. 완료 효과가 끝난 뒤에도 상태가 남는다."
+        },
+        "scaling_and_input": "1920×1080 CSS에서 local panel 360×256, action 304×48, 12px internal gap를 자체 시작값으로 둔다. 화면 가장자리/원근 변환 때문에 text가 작아지면 diegetic surface와 동일 정보의 screen-space 대안을 검토한다. 이는 immersive UI를 모든 게임에 강제하는 처방이 아니다."
+      },
+      "same_content_comparison": {
+        "id": "GCTRL2:PAIR:DEADSPACE",
+        "status": "specified_not_implemented",
+        "fixture": {
+          "fixture_id": "GCTRL2:F:DEADSPACE",
+          "viewport_css": [
+            1920,
+            1080
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "task": "전원이 들어온 에어록을 1초 누르기로 연다",
+          "hatch": "에어록 07",
+          "oxygen_seconds": 42,
+          "power": "정상",
+          "seal": "닫힘",
+          "hold_seconds": 1.0,
+          "actions": [
+            "길게 눌러 열기",
+            "취소"
+          ],
+          "initial_state": "hatch_closed_powered",
+          "capture_states": [
+            "idle",
+            "focus_open",
+            "hold_50_percent",
+            "released_cancelled",
+            "opened",
+            "unpowered_disabled"
+          ],
+          "art_fixture": {
+            "ids": [
+              "generic_airlock_corridor_v1",
+              "generic_hatch_07_v1"
+            ],
+            "description": "자체 제작 SF corridor/hatch. Dark/bright variants마다 before/after는 동일한 art와 camera",
+            "asset_sha256": null,
+            "status": "required_to_create_or_resolve_before_implementation; not_available_yet"
+          }
+        },
+        "before": {
+          "layout": "같은 hatch camera; 360×256 overlay. oxygen/read-only/open/cancel이 같은 빛나는 circle",
+          "controls": "가느다란 cyan type, action name hover-only, generic hexagon decoration",
+          "data_policy": "same oxygen/power/seal/hold duration"
+        },
+        "after": {
+          "layout": "같은 overlay bounds와 camera; top status rail, central command, lower cancel",
+          "controls": "chamfer command 304×48, separate meter, persistent label/key glyph; 1초 hold contract unchanged",
+          "data_policy": "같은 정보를 같은 milestone에서 보여줌; 새 mechanic을 추가하지 않음"
+        },
+        "equivalence_required": [
+          "same fixture JSON hash",
+          "same camera/background asset hash",
+          "same locale",
+          "same initial state",
+          "same task goal",
+          "same viewport/DPR/zoom",
+          "same input mode",
+          "same captured milestone"
+        ],
+        "change_scope": "shape/material/type/spacing/placement/state signals only; any interaction change requires separate ledger and test",
+        "source_images_role": "external inspiration/evidence, never the before version of our synthetic example",
+        "fixture_sha256": "40995ad0431d9c426ca9766b9a4700aeec18965f8ac4a96727e54e5592fd5b6f",
+        "equivalence_validation": {
+          "status": "not_run",
+          "fixture_json_defined": true,
+          "art_hash_defined": false,
+          "source_revision": null,
+          "implementation_revision": null,
+          "capture_paths": [],
+          "note": "합성 data fixture는 고정됐지만 art·구현·capture가 없으므로 동등 전후 검증을 통과한 것은 아니다"
+        },
+        "change_ledger": [
+          {
+            "change": "shape/material/type/spacing/placement/state presentation",
+            "category": "visual",
+            "allowed": true,
+            "fact_loss_allowed": false
+          },
+          {
+            "change": "task goal, data values, action semantics, hold duration, cost, selected item",
+            "category": "behavior_or_content",
+            "allowed": false,
+            "requires": "separate approval/scope and comparison ledger if changed"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "id": "GCTRL2:T:DEADSPACE:01",
+          "assertion": "dark corridor와 밝은 전광판 background 두 버전에서 명령/oxygen이 모두 읽힌다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:DEADSPACE:02",
+          "assertion": "누르는 중 50%와 실제 열린 완료 상태를 구별할 수 있다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:DEADSPACE:03",
+          "assertion": "누르기 중 release/cancel이 열기를 실행하지 않는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:DEADSPACE:04",
+          "assertion": "power 없는 상태에서 disabled 이유가 hover 없이 보인다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:DEADSPACE:05",
+          "assertion": "controller/keyboard glyph가 실제 binding으로 바뀌어도 label and shape family가 유지된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:DEADSPACE:06",
+          "assertion": "Reduced motion에서 hold progress와 완료 상태가 사라지지 않는다",
+          "status": "not_run"
+        }
+      ],
+      "do_not_generalize": [
+        "Cyan·chamfer·world-space projection 자체를 좋은 SF의 요건으로 쓰지 않는다",
+        "원본 hold prompt를 보고 hold duration이나 실제 engine mapping을 추정하지 않는다",
+        "diegetic UI가 text 판독을 해치면 화면 고정 방식과 비교한다"
+      ],
+      "existing_rule_links": [
+        "AS:V01",
+        "AS:V03",
+        "AS:V04",
+        "AS:AS18",
+        "AS:AS19",
+        "AS:AS22",
+        "UX:R-COM-05",
+        "UX:R-MOTION-01"
+      ],
+      "rights": {
+        "third_party_images": "source links only; public redistribution permission not established",
+        "original_proposed_example": "own synthetic content; no copied trademark/logo/character/font/asset",
+        "license_selection": "not_selected; public visibility does not grant a reuse license"
+      },
+      "limitations": [
+        "No live game interaction or user study was performed",
+        "Source visuals may be early concepts or historical builds",
+        "Numbers in the correction are trial design parameters, not measured product values or standards"
+      ]
+    },
+    {
+      "id": "GCTRL2:C:BATTLEFIELD",
+      "title": "장면 선택 메뉴: 이미지 타일과 조용한 명령 레전드를 분리",
+      "genre_fit": "cinematic shooter campaign/character selection. 장면·인물의 비중은 크게, 조작부는 소수의 공통 module로 만드는 경우.",
+      "source_ids": [
+        "GCTRL2:S06"
+      ],
+      "visual_ids": [
+        "GCTRL2:IMG04",
+        "GCTRL2:IMG05"
+      ],
+      "creator_claims": [
+        "원저자는 Battlefield V에서 소수의 building blocks와 assigned behaviours로 버튼을 구성해 공통 요소 수정으로 가족 전체를 조절했다고 설명한다. 협업 결과임도 명시한다."
+      ],
+      "visual_observations": [
+        "War Stories는 선택된 image tile의 light label surface와 locked glyph를 보여 준다. Medic menu는 compact left controls와 large character preview를 분리한다. Still만으로 hover motion·focus graph는 확인할 수 없다."
+      ],
+      "synthetic_failure": "가상 shooter menu: chapter image 위마다 Play/Details/Settings 세 개의 56px bright pill. 선택되지 않은 타일까지 모두 white border와 glow를 갖고 3D preview는 작은 카드에 갇힌다.",
+      "correction": {
+        "origin": "author_proposal_not_source_specification",
+        "shape": "Image tile는 공통 rectangle·일정한 crop ratio·동일 label band를 쓰고 small system actions는 동일한 간결한 row component로 만든다. Label band와 key glyph를 tile/button content slot으로 두어 너비가 달라도 corner·baseline·state logic은 공유한다.",
+        "material_and_light": "주인공/장면 art를 주표면으로 둔다. 선택 대상만 high-contrast light band를 얻고 나머지는 가독성 backing을 둔 낮은 대비 label 면을 사용한다. Frame 없이 label을 art 위에 바로 올릴 경우 실제 모든 crop에서 읽혀야 한다. 항상 빛나는 gold rim으로 선택을 표현하지 않는다.",
+        "typography_and_icons": "1280×720 CSS 시안: chapter title 20px/600, 장소·연도 14px/400, command legend 14px/600를 시험한다. 한글 title에 영문 all-caps tracking을 그대로 붙이지 않는다. Controller glyph는 20px로 동일 optical weight; locked는 glyph + text를 함께 둔다.",
+        "placement_and_hierarchy": "네 chapter를 같은 row에서 비교하고 bottom command legend를 한 곳에 둔다. 선택 change와 시작 confirm을 분리한 기존 계약을 유지한다. Image tiles의 focus가 이동해도 설정·이전·시작 control이 화면 사방에 복제되지 않는다.",
+        "states": {
+          "idle": "고정 image crop + readable title band. Hover가 없어도 chapter identity를 읽음.",
+          "hover": "타일 내부만 밝아짐; row width, crop, label baseline unchanged.",
+          "focus": "얇은 outline/inward marker와 command legend 업데이트.",
+          "selected": "선택 tile만 light label band + 선택됨 marker. focus-only가 selection을 commit하지 않음.",
+          "pressed": "시작 명령만 short internal change; tile이 주변 tile 위로 확대되지 않음.",
+          "disabled_locked": "lock glyph + 해금 조건. select-to-inspect와 play-disabled가 다르면 target rules를 분리해 표시."
+        },
+        "scaling_and_input": "1280×720에서 tile 240×376, gap 16, left margin 136는 자체 layout sample이다. Four tiles가 들어가지 않으면 가로 scrolling과 focus reveal 또는 세로 list로 전환한다. 전체 UI를 축소하거나 labels를 자르지 않는다."
+      },
+      "same_content_comparison": {
+        "id": "GCTRL2:PAIR:BATTLEFIELD",
+        "status": "specified_not_implemented",
+        "fixture": {
+          "fixture_id": "GCTRL2:F:BATTLEFIELD",
+          "viewport_css": [
+            1280,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "controller",
+          "task": "챕터를 살펴보고 선택한 챕터를 시작한다",
+          "chapters": [
+            {
+              "name": "바람의 전초",
+              "place": "북부 해안",
+              "year": 1943,
+              "locked": false
+            },
+            {
+              "name": "겨울의 길",
+              "place": "산악 고개",
+              "year": 1944,
+              "locked": false
+            },
+            {
+              "name": "마지막 교신",
+              "place": "중앙 도시",
+              "year": 1944,
+              "locked": false
+            },
+            {
+              "name": "새벽 항구",
+              "place": "남쪽 항구",
+              "year": 1945,
+              "locked": true,
+              "requirement": "겨울의 길 완료"
+            }
+          ],
+          "selected_index": 1,
+          "actions": [
+            "시작",
+            "상세 보기",
+            "이전",
+            "설정"
+          ],
+          "initial_state": "chapter_selection",
+          "capture_states": [
+            "idle_selected_1",
+            "focus_2_selected_1",
+            "locked_inspect",
+            "start_confirmed"
+          ],
+          "art_fixture": {
+            "ids": [
+              "generic_chapter_coast_v1",
+              "generic_chapter_pass_v1",
+              "generic_chapter_city_v1",
+              "generic_chapter_harbor_v1"
+            ],
+            "description": "네 장면의 자체 art. 두 디자인에 같은 file, crop rectangle와 image order 사용",
+            "asset_sha256": null,
+            "status": "required_to_create_or_resolve_before_implementation; not_available_yet"
+          }
+        },
+        "before": {
+          "layout": "네 chapter 동일 fixture; 각각 title와 3 bright pill. image/preview 면적은 filler panels와 경쟁",
+          "controls": "모든 tile 동일 glow/white border; selected와 focus 구별 없음",
+          "data_policy": "four chapters, places, years, lock condition preserved"
+        },
+        "after": {
+          "layout": "row x=136,y=152; four 240×376 tiles with 16 gap. command legend y=640; same image asset/crop and same dataset in both capture variants",
+          "controls": "single Start/Details/Back/Settings command group. Selected band와 focus marker distinct",
+          "data_policy": "same chapter/image files, 4 actions and unlock condition retained"
+        },
+        "equivalence_required": [
+          "same fixture JSON hash",
+          "same camera/background asset hash",
+          "same locale",
+          "same initial state",
+          "same task goal",
+          "same viewport/DPR/zoom",
+          "same input mode",
+          "same captured milestone"
+        ],
+        "change_scope": "shape/material/type/spacing/placement/state signals only; any interaction change requires separate ledger and test",
+        "source_images_role": "external inspiration/evidence, never the before version of our synthetic example",
+        "fixture_sha256": "c73a645d5a6043e08772ea28541fbc1aa38b9b915180b34e8cea548c6a951927",
+        "equivalence_validation": {
+          "status": "not_run",
+          "fixture_json_defined": true,
+          "art_hash_defined": false,
+          "source_revision": null,
+          "implementation_revision": null,
+          "capture_paths": [],
+          "note": "합성 data fixture는 고정됐지만 art·구현·capture가 없으므로 동등 전후 검증을 통과한 것은 아니다"
+        },
+        "change_ledger": [
+          {
+            "change": "shape/material/type/spacing/placement/state presentation",
+            "category": "visual",
+            "allowed": true,
+            "fact_loss_allowed": false
+          },
+          {
+            "change": "task goal, data values, action semantics, hold duration, cost, selected item",
+            "category": "behavior_or_content",
+            "allowed": false,
+            "requires": "separate approval/scope and comparison ledger if changed"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "id": "GCTRL2:T:BATTLEFIELD:01",
+          "assertion": "초점을 chapter 2로 옮겨도 selected index 1이 확정 실행 전까지 유지된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:BATTLEFIELD:02",
+          "assertion": "locked chapter의 해금 조건과 inspect 가능 여부가 명시된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:BATTLEFIELD:03",
+          "assertion": "Tile image/color가 바뀌어도 title text는 판독된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:BATTLEFIELD:04",
+          "assertion": "같은 chapter/image content로 before와 after를 캡처하고 crop revision을 고정한다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:BATTLEFIELD:05",
+          "assertion": "모든 action이 keyboard/controller로 접근 가능하고 좌우 graph가 화면 순서와 맞는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:BATTLEFIELD:06",
+          "assertion": "짧은/긴 한글 chapter title에서 row 높이와 command legend가 충돌하지 않는다",
+          "status": "not_run"
+        }
+      ],
+      "do_not_generalize": [
+        "선택 상태의 white fill를 모든 장르의 공통 정답으로 만들지 않는다",
+        "스토리 tile가 적은 selector에 적합하다. 수백 item inventory에는 다른 밀도와 검색 구조가 필요하다",
+        "이미지가 정체성이 아닌 text-heavy task를 cinematic tiles로 바꾸지 않는다"
+      ],
+      "existing_rule_links": [
+        "AS:V01",
+        "AS:V02",
+        "AS:V03",
+        "AS:V08",
+        "AS:AS18",
+        "AS:AS27",
+        "UX:R-CTRL-01",
+        "UX:R-LOCALE-01"
+      ],
+      "rights": {
+        "third_party_images": "source links only; public redistribution permission not established",
+        "original_proposed_example": "own synthetic content; no copied trademark/logo/character/font/asset",
+        "license_selection": "not_selected; public visibility does not grant a reuse license"
+      },
+      "limitations": [
+        "No live game interaction or user study was performed",
+        "Source visuals may be early concepts or historical builds",
+        "Numbers in the correction are trial design parameters, not measured product values or standards"
+      ]
+    },
+    {
+      "id": "GCTRL2:C:TINTIN",
+      "title": "만화 퍼즐: 종이·잉크의 가족성과 판독 가능한 작은 조작",
+      "genre_fit": "bright illustrated puzzle / comic adventure. Cream panels와 rounded controls도 만화 장면의 stroke/material에 연결하면 타당하다.",
+      "source_ids": [
+        "GCTRL2:S07"
+      ],
+      "visual_ids": [
+        "GCTRL2:IMG06",
+        "GCTRL2:IMG07"
+      ],
+      "creator_claims": [
+        "원저자는 Hergé 만화의 정체성을 casual mobile puzzle로 옮기려 했다고 밝히며 UI montage와 panels/buttons sheet를 공개한다. Screens는 Magdalena Chojnowska와 함께한 작업으로 표시한다."
+      ],
+      "visual_observations": [
+        "cream paper와 dark ink outline, raised/flat-looking controls가 한 sheet에 있고 level popup의 green PLAY, 작은 cream X와 language list의 selected green row가 그 가족 안에 있다. Unlabelled variant를 실제 pressed state라고 단정하지 않는다."
+      ],
+      "synthetic_failure": "가상 만화 puzzle: hand-drawn map 위 유리 modal, neon blue Play, 3D chrome gear, 연필 느낌의 Back. 각 button 따로는 예쁘지만 outline/광원/재료가 다르고 level 정보보다 설명 paragraph가 크다.",
+      "correction": {
+        "origin": "author_proposal_not_source_specification",
+        "shape": "Panel은 6px radius rectangle, 종이 접힌 모서리는 header의 한 곳에만 둔다. Text button은 10px radius와 같은 2px ink outline, close/back은 같은 family의 square control로 만든다. 매 container마다 random torn edges를 넣지 않는다.",
+        "material_and_light": "Cream paper face + 짧고 단단한 lower shadow를 사용한다. Label 영역에 grain을 넣어 작은 글자를 흐리지 않는다. Green은 이 시안에서 playable/selected role에 한정하고 모든 작은 settings까지 다른 candy colors로 칠하지 않는다. Illustration의 ink 색·stroke를 UI outline에 맞춘다.",
+        "typography_and_icons": "390×844 CSS 시안에서 level title 22px/700, goals/body 16px/500, Play 18px/700를 시험한다. Thick frame 안에 thin generic web icons를 넣지 않고 같은 stroke·optical mass의 24px glyph를 새로 그린다. X/back은 label 또는 accessible name을 가진다.",
+        "placement_and_hierarchy": "level number→goals→move limit→boosters→Play 순서로 쌓는다. 핵심 Play 아래에 중복 조작 안내를 붙이지 않는다. Close는 header trailing position, Play는 bottom central anchor. Read-only stars/energy는 button보다 덜 돌출된 surface로 둔다.",
+        "states": {
+          "idle": "paper/ink rim와 restrained lower shadow.",
+          "focus": "inner dark outline + 작은 inward indicator; green fill 자체와 별도.",
+          "pressed": "lower shadow가 3px에서 1px로 줄고 내부 face만 2px 내려감. outer target bounds 유지.",
+          "selected_booster": "check glyph + selected rim; 비용 수치는 그대로 보임.",
+          "disabled_play": "locked glyph와 부족한 생명 이유, Play label 유지; 회색 작은 text만 남기지 않음.",
+          "close": "Play와 같은 family이나 밝은 cream small control; danger semantics를 임의로 추가하지 않음."
+        },
+        "scaling_and_input": "390×844에서 320px popup width, Play 240×52, close 28px visible/44×44 target, target 간 8px gap을 시안으로 쓴다. 긴 goals에는 panel 높이를 늘리거나 body만 scroll하고 footer Play를 유지한다. Artwork 전체를 줄여 target까지 작아지게 만들지 않는다."
+      },
+      "same_content_comparison": {
+        "id": "GCTRL2:PAIR:TINTIN",
+        "status": "specified_not_implemented",
+        "fixture": {
+          "fixture_id": "GCTRL2:F:TINTIN",
+          "viewport_css": [
+            390,
+            844
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "touch",
+          "task": "레벨 목표와 이동 제한을 확인하고 플레이를 시작한다",
+          "level": 24,
+          "goals": [
+            {
+              "item": "편지",
+              "count": 12
+            },
+            {
+              "item": "나침반",
+              "count": 8
+            }
+          ],
+          "move_limit": 22,
+          "lives": 3,
+          "boosters": [
+            {
+              "name": "망원경",
+              "available": 1,
+              "selected": false
+            },
+            {
+              "name": "지도",
+              "available": 0,
+              "selected": false
+            }
+          ],
+          "actions": [
+            "플레이",
+            "닫기",
+            "부스터 선택"
+          ],
+          "initial_state": "level_popup_ready",
+          "capture_states": [
+            "ready",
+            "booster_selected",
+            "pressed_play",
+            "no_lives_disabled",
+            "closed"
+          ],
+          "art_fixture": {
+            "ids": [
+              "generic_comic_map_v1",
+              "generic_letter_icon_v1",
+              "generic_compass_icon_v1"
+            ],
+            "description": "자체 만화 map/icons. Tintin 캐릭터·logo·source geometry를 복제하지 않음",
+            "asset_sha256": null,
+            "status": "required_to_create_or_resolve_before_implementation; not_available_yet"
+          }
+        },
+        "before": {
+          "layout": "same 320px popup bounds; title/goals/moves/boosters/actions; decorative paragraph repeats action",
+          "controls": "glass panel, neon Play, metallic settings, paper back; same required data",
+          "data_policy": "동일 level/goals/move limit/lives/boosters",
+          "redundant_copy": "아래 플레이 버튼을 눌러 이 레벨의 퍼즐 플레이를 시작할 수 있습니다."
+        },
+        "after": {
+          "layout": "same panel bounds initially; clear vertical hierarchy, redundant paragraph removed with deletion ledger; all decision facts preserved",
+          "controls": "paper/ink family, 240×52 Play; consistent close and booster slots",
+          "data_policy": "same exact values and task. Explanatory copy deletion is listed; no fact removed",
+          "redundant_copy": "removed; 삭제한 문장의 실행 의미는 플레이 label와 동일 task contract에 보존"
+        },
+        "equivalence_required": [
+          "same fixture JSON hash",
+          "same camera/background asset hash",
+          "same locale",
+          "same initial state",
+          "same task goal",
+          "same viewport/DPR/zoom",
+          "same input mode",
+          "same captured milestone"
+        ],
+        "change_scope": "shape/material/type/spacing/placement/state signals only; any interaction change requires separate ledger and test",
+        "source_images_role": "external inspiration/evidence, never the before version of our synthetic example",
+        "fixture_sha256": "4a5ae11b138fc46cf8772c2d0019eac44b23a2e1fc5e09a81ce8d827ec882f82",
+        "equivalence_validation": {
+          "status": "not_run",
+          "fixture_json_defined": true,
+          "art_hash_defined": false,
+          "source_revision": null,
+          "implementation_revision": null,
+          "capture_paths": [],
+          "note": "합성 data fixture는 고정됐지만 art·구현·capture가 없으므로 동등 전후 검증을 통과한 것은 아니다"
+        },
+        "change_ledger": [
+          {
+            "change": "shape/material/type/spacing/placement/state presentation",
+            "category": "visual",
+            "allowed": true,
+            "fact_loss_allowed": false
+          },
+          {
+            "change": "task goal, data values, action semantics, hold duration, cost, selected item",
+            "category": "behavior_or_content",
+            "allowed": false,
+            "requires": "separate approval/scope and comparison ledger if changed"
+          },
+          {
+            "change": "중복 조작 안내 한 문장 삭제",
+            "category": "copy",
+            "before": "아래 플레이 버튼을 눌러 이 레벨의 퍼즐 플레이를 시작할 수 있습니다.",
+            "after": null,
+            "reason": "Play action을 그대로 반복하는 설명; 목표·이동·생명·비용·위험 정보 없음",
+            "fact_loss_allowed": false
+          }
+        ]
+      },
+      "tests": [
+        {
+          "id": "GCTRL2:T:TINTIN:01",
+          "assertion": "두 버전 모두 level 24, 목표 12/8, 이동 22, 생명 3, booster availability가 보인다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:TINTIN:02",
+          "assertion": "Touch pressed에서 target이 움직여 pointer release를 놓치지 않는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:TINTIN:03",
+          "assertion": "No-lives 상태의 이유가 hover 없이 보이며 close는 계속 작동한다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:TINTIN:04",
+          "assertion": "booster selected와 disabled booster가 다른 static signal을 가진다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:TINTIN:05",
+          "assertion": "긴 한글 목표·large text setting에서 Play가 화면 밖으로 밀려나지 않는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:TINTIN:06",
+          "assertion": "같은 map/art/fixture로 캡처하고 새 캐릭터·색깔까지 바꿔 개선으로 주장하지 않는다",
+          "status": "not_run"
+        }
+      ],
+      "do_not_generalize": [
+        "둥근 버튼을 금지하는 교정이 아니다. 만화의 outline/material과 맞는지 판단한다",
+        "원본 paper geometry와 branded assets는 복제하지 않고 자체 generic art로 만든다",
+        "text-heavy factory screen에 넓은 paper card와 큰 Play를 그대로 적용하지 않는다"
+      ],
+      "existing_rule_links": [
+        "AS:V01",
+        "AS:V03",
+        "AS:V04",
+        "AS:V07",
+        "AS:AS18",
+        "UX:R-COM-02",
+        "UX:R-COM-05",
+        "UX:R-PUZZLE-01"
+      ],
+      "rights": {
+        "third_party_images": "source links only; public redistribution permission not established",
+        "original_proposed_example": "own synthetic content; no copied trademark/logo/character/font/asset",
+        "license_selection": "not_selected; public visibility does not grant a reuse license"
+      },
+      "limitations": [
+        "No live game interaction or user study was performed",
+        "Source visuals may be early concepts or historical builds",
+        "Numbers in the correction are trial design parameters, not measured product values or standards"
+      ]
+    },
+    {
+      "id": "GCTRL2:C:HARDHEAD",
+      "title": "카툰 전략: 두꺼운 돌출면·채도를 유지하면서 비용과 역할을 정돈",
+      "genre_fit": "exaggerated cartoon base-building / hero strategy. Physical-toy-like surfaces가 캐릭터/model과 맞을 때 bevel·gradient를 없애는 대신 규칙화한다.",
+      "source_ids": [
+        "GCTRL2:S08"
+      ],
+      "visual_ids": [
+        "GCTRL2:IMG08",
+        "GCTRL2:IMG09"
+      ],
+      "creator_claims": [
+        "원저자는 UX/UI flow, layout, visuals와 Unity implementation을 담당했고 나중에 art direction도 맡았다고 설명한다. Button sheet와 여러 menu/popup을 직접 제공한다."
+      ],
+      "visual_observations": [
+        "Button sheet는 clipped-corner polygon, bright face gradient, thick light rim과 lower side face를 반복한다. Building popup은 left model/right requirements/bottom actions로 나눈다. 색의 기능 mapping·실제 state system은 sheet에서 확정하지 않는다."
+      ],
+      "synthetic_failure": "가상 cartoon base builder: 금속 chain frame, soft pill, white outline icon, glossy gem button을 섞고 비용 줄은 버튼 아래 작은 회색 글자다. Model보다 8개 color CTA가 커서 어떤 upgrade를 고르는지 흐리다.",
+      "correction": {
+        "origin": "author_proposal_not_source_specification",
+        "shape": "이 시안은 가로 action에는 8px clipped corner, square utility에는 같은 clipped grammar를 쓴다. 별도 floating polygon을 매 control에 생성하지 않는다. outer rim·face·lower extrusion을 세 layers로 분리하고 shared caps + stretch center로 늘린다.",
+        "material_and_light": "upper-left highlight와 4px lower extrusion이라는 한 light direction을 유지한다. Face gradients는 남기되 최대 밝기 변화·rim contrast를 전체 family에서 같이 조절한다. 비용/필수 요구사항이 반사광에 묻히면 local flat label area를 둔다. 과한 glow는 선택 상태에 필요한 경우만 쓴다.",
+        "typography_and_icons": "1280×720 CSS에서 heading 24px/700, requirement 18px/600, action 18px/700를 시험한다. English condensed italic을 한글에 억지로 적용하지 않는다. Cost 숫자는 tabular, currency icon 22px silhouette와 동일 baseline. Gem/coin의 모양을 장식으로 모호하게 바꾸지 않는다.",
+        "placement_and_hierarchy": "left model은 결과 확인, right requirements는 의사결정, footer actions는 실행 역할로 둔다. Upgrade의 비용·소요 시간은 button label block 바로 옆 또는 안에 충분한 크기로 둔다. Cosmetic secondary action과 즉시 완료를 같은 primary weight로 만들지 않는다. Paid shortcut을 만들 필요 없는 fixture를 사용한다.",
+        "states": {
+          "idle": "4px lower extrusion, base gradient, readable cost block.",
+          "focus": "pale inset rim + inward marker; 영구 full glow는 없음.",
+          "pressed": "lower extrusion이 1px로 줄고 face/label 3px 아래; outer target stays fixed.",
+          "disabled": "extrusion 감소, lock marker + 요구 조건 missing row. 비용·label은 계속 읽힘.",
+          "selected": "variant 선택은 check/swatch marker와 outline, 실행 시작과 구분.",
+          "in_progress": "upgrade countdown와 진행 label; 다시 누르기가 중복 지출로 이어지지 않는다."
+        },
+        "scaling_and_input": "1280×720 popup 920×440, primary 232×56, secondary 176×48, action gap 16, inside inset 24를 trial로 둔다. Rim과 extrusion을 높이에 포함해 text room을 계산한다. Touch에서는 작은 polygon utility의 visible art와 hitbox를 따로 정해 인접 click 영역 중첩을 검사한다."
+      },
+      "same_content_comparison": {
+        "id": "GCTRL2:PAIR:HARDHEAD",
+        "status": "specified_not_implemented",
+        "fixture": {
+          "fixture_id": "GCTRL2:F:HARDHEAD",
+          "viewport_css": [
+            1280,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "touch",
+          "task": "요구 조건과 자원 비용을 확인한 뒤 건물을 업그레이드한다",
+          "building": "관측소",
+          "current_level": 2,
+          "next_level": 3,
+          "requirements": {
+            "본부 레벨": 3,
+            "식량": 2400,
+            "보급품": 1800
+          },
+          "available": {
+            "본부 레벨": 3,
+            "식량": 4000,
+            "보급품": 2300
+          },
+          "duration_seconds": 90,
+          "actions": [
+            "업그레이드",
+            "외관 보기",
+            "닫기"
+          ],
+          "initial_state": "all_requirements_met",
+          "capture_states": [
+            "idle",
+            "focus_upgrade",
+            "pressed_upgrade",
+            "in_progress_45_seconds",
+            "food_missing_disabled"
+          ],
+          "art_fixture": {
+            "ids": [
+              "generic_observatory_model_v1"
+            ],
+            "description": "자체 cartoon observatory render. 두 시안에서 lighting/camera/model revision 동일",
+            "asset_sha256": null,
+            "status": "required_to_create_or_resolve_before_implementation; not_available_yet"
+          }
+        },
+        "before": {
+          "layout": "same popup/data/model; eight decorative CTA-like controls compete, actual Upgrade and View skin included",
+          "controls": "mixed pill/chrome/gem family; requirement labels tiny",
+          "data_policy": "same upgrade values, duration, no premium purchase"
+        },
+        "after": {
+          "layout": "popup x=180,y=140,w=920,h=440; left model region 344, right data region 488; footer contains only functional actions",
+          "controls": "clipped shared family; 232×56 Upgrade with adjacent food/supply cost + 90초; secondary 176×48",
+          "data_policy": "same fixture, remove only nonfunctional decorative control frames; no payment or new shortcut"
+        },
+        "equivalence_required": [
+          "same fixture JSON hash",
+          "same camera/background asset hash",
+          "same locale",
+          "same initial state",
+          "same task goal",
+          "same viewport/DPR/zoom",
+          "same input mode",
+          "same captured milestone"
+        ],
+        "change_scope": "shape/material/type/spacing/placement/state signals only; any interaction change requires separate ledger and test",
+        "source_images_role": "external inspiration/evidence, never the before version of our synthetic example",
+        "fixture_sha256": "1a134e20e1d9528deb2954fec850178ea1928ca228f7a5ef13422564b2163bd4",
+        "equivalence_validation": {
+          "status": "not_run",
+          "fixture_json_defined": true,
+          "art_hash_defined": false,
+          "source_revision": null,
+          "implementation_revision": null,
+          "capture_paths": [],
+          "note": "합성 data fixture는 고정됐지만 art·구현·capture가 없으므로 동등 전후 검증을 통과한 것은 아니다"
+        },
+        "change_ledger": [
+          {
+            "change": "shape/material/type/spacing/placement/state presentation",
+            "category": "visual",
+            "allowed": true,
+            "fact_loss_allowed": false
+          },
+          {
+            "change": "task goal, data values, action semantics, hold duration, cost, selected item",
+            "category": "behavior_or_content",
+            "allowed": false,
+            "requires": "separate approval/scope and comparison ledger if changed"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "id": "GCTRL2:T:HARDHEAD:01",
+          "assertion": "식량 2400/4000, 보급품 1800/2300, 본부 레벨 3과 90초가 주행동 주변에서 읽힌다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:HARDHEAD:02",
+          "assertion": "베벨/돌출면이 56px 안의 text area와 긴 label을 침범하지 않는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:HARDHEAD:03",
+          "assertion": "Pressed visual과 hitbox가 다른 방향으로 움직이지 않는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:HARDHEAD:04",
+          "assertion": "부족한 자원 상태에서 해당 requirement row와 disabled action을 함께 파악할 수 있다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:HARDHEAD:05",
+          "assertion": "실행 후 자원은 한번만 감소하고 in-progress 상태는 중복 Upgrade 입력을 막는다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:HARDHEAD:06",
+          "assertion": "Color만 제거해도 focus/disabled/in-progress를 각 glyph·label로 구별한다",
+          "status": "not_run"
+        }
+      ],
+      "do_not_generalize": [
+        "강한 gradient·bevel·채도가 이 자체로 slop의 증거는 아니다",
+        "Rovio sheet의 색을 purple=premium 같은 의미로 단정하지 않는다",
+        "실제 screenshot의 gem 구매 또는 비용 presentation을 좋은 거래 UX라고 권고하지 않는다",
+        "게임경제·가격·과금 모델을 바꾸는 작업은 이 시각 교정 범위 밖이다"
+      ],
+      "existing_rule_links": [
+        "AS:V01",
+        "AS:V02",
+        "AS:V03",
+        "AS:V04",
+        "AS:V08",
+        "AS:AS18",
+        "AS:AS19",
+        "UX:R-COM-05",
+        "UX:R-LOCALE-01"
+      ],
+      "rights": {
+        "third_party_images": "source links only; public redistribution permission not established",
+        "original_proposed_example": "own synthetic content; no copied trademark/logo/character/font/asset",
+        "license_selection": "not_selected; public visibility does not grant a reuse license"
+      },
+      "limitations": [
+        "No live game interaction or user study was performed",
+        "Source visuals may be early concepts or historical builds",
+        "Numbers in the correction are trial design parameters, not measured product values or standards"
+      ]
+    },
+    {
+      "id": "GCTRL2:C:VICTORIA",
+      "title": "역사 전략: 장식은 제목·외곽에, 반복 정보와 결정은 정렬로",
+      "genre_fit": "historical grand strategy / text-rich simulation. Ornate identity를 살리면서 dense information와 action rank를 분리하는 경우.",
+      "source_ids": [
+        "GCTRL2:S09"
+      ],
+      "visual_ids": [
+        "GCTRL2:IMG10"
+      ],
+      "creator_claims": [
+        "공식 art director diary는 map/illustration과 어울리는 palette, 지나치게 무겁지 않은 ornate interface, 중요한 결정과 button의 order of importance를 설명한다. 제공된 Politics image에는 WIP 표기가 있다."
+      ],
+      "visual_observations": [
+        "Burgundy title strip와 gold outline/scrollwork가 identity를 담당하고 반복 party rows는 비교적 얇은 경계로 정돈된다. Reform Government action은 화면 아래의 별도 영역이다. 이 historical still의 작은 글자를 현재 제품의 적정 크기라고 판단하지 않는다."
+      ],
+      "synthetic_failure": "가상 역사 strategy: 모든 faction 카드에 금 장식·crest·caption·bright CTA를 붙여 비교 숫자가 제각각 위치에 있다. 주행동 정부 개편은 일반 tab처럼 작고, 정보 row는 button처럼 돌출되어 클릭 범위가 불분명하다.",
+      "correction": {
+        "origin": "author_proposal_not_source_specification",
+        "shape": "큰 frame의 corner flourish 한 종류, title band 한 종류, compact data row 한 종류로 나눈다. Tab은 얕은 lip와 active marker, confirm은 unmistakable framed rectangle. 모든 faction row에 elaborate plaque를 쓰지 않는다.",
+        "material_and_light": "muted burgundy/aged gold를 header와 selected tabs에 제한하고 data surface는 dark slate로 안정시킨다. Ornament line은 value columns나 hitbox 안으로 들어오지 않는다. Low-contrast antiqued text를 분위기라는 이유로 허용하지 않는다.",
+        "typography_and_icons": "1600×900 CSS 시안: display heading만 26px의 승인된 serif, body/data 18px/400 gothic, key values 18px/600 tabular. 한글 지원 없는 ornamental face를 본문에 강제하지 않는다. Faction glyph 28px와 numerical columns는 같은 baseline에 맞춘다.",
+        "placement_and_hierarchy": "현재 government와 candidate factions는 고정된 column order로 비교한다. Reform action은 읽기전용 legitimacy value와 분리한 persistent footer에 두고 바뀔 결과는 가까이 둔다. Inline inspect affordance와 reform execute button을 같은 raised surface로 처리하지 않는다.",
+        "states": {
+          "idle": "data rows calm, action distinct bordered face.",
+          "focus": "inner high-contrast line + marker. border flourish 자체가 focus signal은 아님.",
+          "active_tab": "underline/active lip + label weight; hover/focus와 별도.",
+          "selected_faction": "check + selected row rail; reform result commit과 구분.",
+          "disabled_reform": "unmet condition text near command; close/back still available.",
+          "pressed": "small internal tone/inset change; table column alignment stays fixed."
+        },
+        "scaling_and_input": "1600×900에서 panel 1360×720, four tab row 44px, data row minimum 64px, footer action 240×48은 trial. 작은 화면은 faction 비교 column을 보존하는 narrow mode/scroll view를 별도 설계하며 text를 일괄 축소하지 않는다."
+      },
+      "same_content_comparison": {
+        "id": "GCTRL2:PAIR:VICTORIA",
+        "status": "specified_not_implemented",
+        "fixture": {
+          "fixture_id": "GCTRL2:F:VICTORIA",
+          "viewport_css": [
+            1600,
+            900
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "mouse_keyboard",
+          "task": "세 집단의 수치와 정부 개편 결과를 비교한 뒤 개편을 확정한다",
+          "government": "입헌군주제",
+          "legitimacy_current": 42,
+          "legitimacy_preview": 58,
+          "factions": [
+            {
+              "name": "상공인",
+              "support_percent": 18.4,
+              "approval": 2,
+              "selected": true
+            },
+            {
+              "name": "농업인",
+              "support_percent": 24.8,
+              "approval": -1,
+              "selected": false
+            },
+            {
+              "name": "노동자",
+              "support_percent": 12.2,
+              "approval": 4,
+              "selected": true
+            }
+          ],
+          "actions": [
+            "정부 개편",
+            "취소",
+            "집단 상세"
+          ],
+          "initial_state": "reform_preview",
+          "capture_states": [
+            "preview",
+            "focus_reform",
+            "pressed_reform",
+            "reform_completed",
+            "condition_unmet"
+          ],
+          "art_fixture": {
+            "ids": [
+              "generic_faction_glyphs_v1",
+              "generic_muted_map_v1"
+            ],
+            "description": "자체 faction glyphs/map. 실제 정치 집단/상표 portrait 미사용",
+            "asset_sha256": null,
+            "status": "required_to_create_or_resolve_before_implementation; not_available_yet"
+          }
+        },
+        "before": {
+          "layout": "same factions/values; each plaque random layout and oversized crest; Reform hidden among tabs",
+          "controls": "every row looks raised/clickable; main action no separate footer",
+          "data_policy": "same percentages/approval/preview result"
+        },
+        "after": {
+          "layout": "panel x=120,y=90,w=1360,h=720; header 68; tabs 44; stable faction columns; footer y=738,h=72",
+          "controls": "thin data rails, one ornate title frame, 240×48 Reform with adjacent legitimacy 42→58",
+          "data_policy": "same exact values/selected factions/task; no political choice made for user"
+        },
+        "equivalence_required": [
+          "same fixture JSON hash",
+          "same camera/background asset hash",
+          "same locale",
+          "same initial state",
+          "same task goal",
+          "same viewport/DPR/zoom",
+          "same input mode",
+          "same captured milestone"
+        ],
+        "change_scope": "shape/material/type/spacing/placement/state signals only; any interaction change requires separate ledger and test",
+        "source_images_role": "external inspiration/evidence, never the before version of our synthetic example",
+        "fixture_sha256": "09271bf4f25ad3854e40fd3e83331640ebbaa625037b30f582404e2dc5c4f952",
+        "equivalence_validation": {
+          "status": "not_run",
+          "fixture_json_defined": true,
+          "art_hash_defined": false,
+          "source_revision": null,
+          "implementation_revision": null,
+          "capture_paths": [],
+          "note": "합성 data fixture는 고정됐지만 art·구현·capture가 없으므로 동등 전후 검증을 통과한 것은 아니다"
+        },
+        "change_ledger": [
+          {
+            "change": "shape/material/type/spacing/placement/state presentation",
+            "category": "visual",
+            "allowed": true,
+            "fact_loss_allowed": false
+          },
+          {
+            "change": "task goal, data values, action semantics, hold duration, cost, selected item",
+            "category": "behavior_or_content",
+            "allowed": false,
+            "requires": "separate approval/scope and comparison ledger if changed"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "id": "GCTRL2:T:VICTORIA:01",
+          "assertion": "세 faction의 이름/support/approval이 두 버전 동일 column에서 비교된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:VICTORIA:02",
+          "assertion": "Legitimacy 42→58가 button 바로 근처에서 읽히고 current/preview 의미가 구별된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:VICTORIA:03",
+          "assertion": "행 inspect와 government reform execute의 clickable surface가 구별된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:VICTORIA:04",
+          "assertion": "긴 한글 faction name, missing portrait, numerical width changes에 column order가 유지된다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:VICTORIA:05",
+          "assertion": "200% text setting에서 confirm/cancel와 result preview를 동시에 접근할 수 있다",
+          "status": "not_run"
+        },
+        {
+          "id": "GCTRL2:T:VICTORIA:06",
+          "assertion": "Ornament를 숨겨도 active tab/focus/selected markers가 남는다",
+          "status": "not_run"
+        }
+      ],
+      "do_not_generalize": [
+        "역사 UI는 무조건 parchment/serif여야 한다는 규칙이 아니다",
+        "출처의 2022 WIP screenshot을 현재 Victoria 3의 평가로 쓰지 않는다",
+        "dense 전략 정보의 압축은 가능하지만 핵심 숫자의 판독을 포기할 근거는 아니다"
+      ],
+      "existing_rule_links": [
+        "AS:V01",
+        "AS:V02",
+        "AS:V04",
+        "AS:V08",
+        "AS:V09",
+        "AS:AS18",
+        "AS:AS22",
+        "UX:R-COM-05",
+        "UX:R-LOCALE-01"
+      ],
+      "rights": {
+        "third_party_images": "source links only; public redistribution permission not established",
+        "original_proposed_example": "own synthetic content; no copied trademark/logo/character/font/asset",
+        "license_selection": "not_selected; public visibility does not grant a reuse license"
+      },
+      "limitations": [
+        "No live game interaction or user study was performed",
+        "Source visuals may be early concepts or historical builds",
+        "Numbers in the correction are trial design parameters, not measured product values or standards"
+      ]
+    }
+  ],
+  "cross_case_correction_rules": [
+    {
+      "id": "GCTRL2:R01",
+      "title": "기본 button template 대신 역할별 surface grammar를 정한다",
+      "instruction": "명령·읽기전용 수치·선택 가능한 대상·navigation의 외곽 및 relief를 같은 sheet에서 비교한다. 장식과 hitbox를 구분한다.",
+      "case_ids": [
+        "GCTRL2:C:FACTORIO",
+        "GCTRL2:C:DEADSPACE",
+        "GCTRL2:C:BATTLEFIELD",
+        "GCTRL2:C:TINTIN",
+        "GCTRL2:C:HARDHEAD",
+        "GCTRL2:C:VICTORIA"
+      ],
+      "validation_status": "proposal_not_run"
+    },
+    {
+      "id": "GCTRL2:R02",
+      "title": "재료·광원·외곽선을 state family와 함께 지정한다",
+      "instruction": "idle만 완성하지 않는다. Rim/face/extrusion/label의 토큰과 상태 변화 범위를 먼저 정의하고 버튼마다 새 texture를 만들지 않는다.",
+      "case_ids": [
+        "GCTRL2:C:FACTORIO",
+        "GCTRL2:C:DEADSPACE",
+        "GCTRL2:C:BATTLEFIELD",
+        "GCTRL2:C:TINTIN",
+        "GCTRL2:C:HARDHEAD",
+        "GCTRL2:C:VICTORIA"
+      ],
+      "validation_status": "proposal_not_run"
+    },
+    {
+      "id": "GCTRL2:R03",
+      "title": "버튼 전체 크기와 label room을 별도로 기록한다",
+      "instruction": "outer height에서 rim/extrusion/padding을 뺀 usable face를 실제 longest label로 확인한다. Visible art와 target bounds도 별도로 기록한다.",
+      "case_ids": [
+        "GCTRL2:C:FACTORIO",
+        "GCTRL2:C:DEADSPACE",
+        "GCTRL2:C:BATTLEFIELD",
+        "GCTRL2:C:TINTIN",
+        "GCTRL2:C:HARDHEAD",
+        "GCTRL2:C:VICTORIA"
+      ],
+      "validation_status": "proposal_not_run"
+    },
+    {
+      "id": "GCTRL2:R04",
+      "title": "focus·selected·pressed·committed는 다른 뜻이다",
+      "instruction": "같은 accent를 재사용해도 static marker와 text로 state meaning을 구분한다. hover-only label과 영구 glow를 필수 신호로 삼지 않는다.",
+      "case_ids": [
+        "GCTRL2:C:FACTORIO",
+        "GCTRL2:C:DEADSPACE",
+        "GCTRL2:C:BATTLEFIELD",
+        "GCTRL2:C:TINTIN",
+        "GCTRL2:C:HARDHEAD",
+        "GCTRL2:C:VICTORIA"
+      ],
+      "validation_status": "proposal_not_run"
+    },
+    {
+      "id": "GCTRL2:R05",
+      "title": "진행·자원 비용·조건을 action과 시각적으로 묶는다",
+      "instruction": "멋을 위해 cost/reason를 작게 바깥에 내보내지 않는다. 실행전과 진행중·완료후의 동일 milestone captures를 고정한다.",
+      "case_ids": [
+        "GCTRL2:C:FACTORIO",
+        "GCTRL2:C:DEADSPACE",
+        "GCTRL2:C:HARDHEAD",
+        "GCTRL2:C:VICTORIA"
+      ],
+      "validation_status": "proposal_not_run"
+    },
+    {
+      "id": "GCTRL2:R06",
+      "title": "금지어가 아니라 장르와 task로 시각 방향을 선택한다",
+      "instruction": "rounded paper puzzle, chunky colorful strategy, restrained cinematic selector, industrial tool, holographic terminal, ornate historical panel 중 현재 product art/task에 맞는 grammar를 고른다. 재료 이름이나 색을 universal rule로 복사하지 않는다.",
+      "case_ids": [
+        "GCTRL2:C:FACTORIO",
+        "GCTRL2:C:DEADSPACE",
+        "GCTRL2:C:BATTLEFIELD",
+        "GCTRL2:C:TINTIN",
+        "GCTRL2:C:HARDHEAD",
+        "GCTRL2:C:VICTORIA"
+      ],
+      "validation_status": "proposal_not_run"
+    }
+  ],
+  "release_gate_impact": {
+    "RG02": "new creator claims/visual observations/proposals separated; current shipping build not asserted",
+    "RG03": "third-party image redistribution unresolved; link-only release decision recorded",
+    "RG06": "fixture/state/environment contracts supplied, implementation and captures still not_run",
+    "RG07": "six concrete design grammars, state contracts and visual tests specified; not pass",
+    "RG08": "36 task-specific tests plus shared regression matrix required; all not_run",
+    "RG11": "no new user review/installation/publication approval inferred"
+  },
+  "shared_regression_matrix": [
+    {
+      "id": "GCTRL2:T:SHARED:01",
+      "test": "최소 지원 viewport/DPR/zoom를 before/after 동일하게 고정",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:02",
+      "test": "긴 한글, 영문 확장 문자열, 200% text setting을 실제 render로 검사",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:03",
+      "test": "mouse/keyboard/controller/touch 중 선언한 input만 시험 결과로 주장",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:04",
+      "test": "다른 hover/focus/pressed/selected/disabled/completed state의 정적 contact sheet 만들기",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:05",
+      "test": "small/bright/busy scene에서 label/icon/value 판독 검수",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:06",
+      "test": "color-vision simulation과 monochrome view에서 필수 의미가 남는지 검수",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:07",
+      "test": "reduced-motion setting에서 진행/결과 정보가 보존되는지 검수",
+      "status": "not_run"
+    },
+    {
+      "id": "GCTRL2:T:SHARED:08",
+      "test": "새로 만든 generic asset의 원본/권리/라이선스를 기록하고 타사 bytes 포함 검사",
+      "status": "not_run"
+    }
+  ]
+}

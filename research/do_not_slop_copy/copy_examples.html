@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Do Not Slop Project · 문구 전후 비교</title>
+<style>
+:root{color-scheme:light;--ink:#162d31;--muted:#4c6265;--line:#ccd7d6;--paper:#fff;--wash:#f2f5f3;--accent:#155a51;--warn:#873816}
+*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Noto Sans KR",sans-serif}main{max-width:1200px;margin:0 auto;padding:32px 24px 64px}header{border-bottom:2px solid var(--ink);padding-bottom:24px;margin-bottom:28px}.kicker{font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin:0 0 10px;color:var(--muted)}h1{font-size:clamp(24px,4vw,36px);line-height:1.3;margin:0 0 14px;letter-spacing:-.03em}p{margin:0 0 16px}.intro{max-width:76ch;color:var(--muted)}.controls{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;margin-bottom:24px}.control{display:grid;gap:5px;flex:1;min-width:210px}#state-wrap[hidden]{display:none}label{font-weight:650;font-size:14px}select,input{font:inherit;border:1px solid #77918c;border-radius:3px;background:white;color:var(--ink);padding:10px;min-height:44px;max-width:100%}select{width:100%}button{font:inherit;line-height:1.4;background:var(--accent);color:#fff;border:1px solid var(--accent);border-radius:3px;padding:11px 18px;min-height:44px;cursor:pointer;white-space:normal;text-align:center}button.secondary{background:white;color:var(--ink);border-color:#77918c}button.danger{background:var(--warn);border-color:var(--warn)}button:disabled{background:#dde5e1;border-color:#b4c4bd;color:#49605a;cursor:default}button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #bd761e;outline-offset:3px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}.variant{min-width:0}.variant>h2{font-size:14px;letter-spacing:.02em;margin:0 0 8px}.surface{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--ink);padding:28px;min-width:0}.surface h3{font-size:24px;line-height:1.4;letter-spacing:-.025em;margin:0 0 16px;overflow-wrap:anywhere}.surface .copy{color:var(--muted);white-space:pre-line}.surface .metadata{font-size:14px;background:#f0f4f1;border-left:3px solid #89a398;padding:12px 14px;margin:18px 0;white-space:pre-line}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}ul{padding-left:20px;margin:16px 0}.files{list-style:none;padding:0}.files li{padding:12px 0;border-bottom:1px solid var(--line)}.files strong,.files small{display:block}.files small,.help{color:var(--muted);font-size:14px}.field{display:grid;gap:6px;margin:16px 0}.alert{border-left:4px solid var(--warn);padding-left:16px}.note{margin-top:24px;background:#e5ece7;padding:20px 24px;border:1px solid var(--line)}.note h2{font-size:16px;margin:0 0 8px}.note p:last-child{margin:0}details{margin-top:18px}summary{cursor:pointer;font-weight:650}pre{overflow-wrap:anywhere;white-space:pre-wrap;font:13px/1.6 ui-monospace,monospace;background:white;border:1px solid var(--line);padding:16px}progress{width:100%;height:12px;accent-color:var(--accent);margin:8px 0 18px}.result{padding:14px 0;min-height:52px;color:var(--muted)}.small{font-size:14px;color:var(--muted)}noscript{display:block;padding:20px;border:2px solid var(--warn)}
+@media(max-width:700px){main{padding:22px 16px 40px}.pair{grid-template-columns:1fr}.surface{padding:22px}.controls{gap:10px}h1{font-size:26px}.row button{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body><main>
+<header><p class="kicker">Do Not Slop Project · UI copy</p><h1>뜻은 남기고, 군더더기는 덜기</h1><p class="intro">새로 만든 교육용 화면 9개입니다. 양쪽은 같은 데이터·상태·행동을 사용하며 문구만 다릅니다. 수정 전을 더 못생기게 만드는 별도 스타일은 없습니다. 사용성 향상이나 시간 절약을 측정한 자료가 아닙니다.</p><p class="small">실제 계정, 상품, 구독, 발행, 업로드 또는 결제와 연결되지 않습니다. 버튼은 교육용 동작 기록만 남깁니다.</p></header>
+<div class="controls"><div class="control"><label for="case">교정 규칙</label><select id="case"></select></div><div class="control" id="state-wrap" hidden><label for="state">같은 입력 상태</label><select id="state"></select></div><button id="reset" class="secondary" type="button">교육용 상태 초기화</button></div>
+<div class="pair"><section class="variant" aria-labelledby="before-title"><h2 id="before-title">수정 전 · 자체 제작 예시</h2><div id="before" class="surface"></div></section><section class="variant" aria-labelledby="after-title"><h2 id="after-title">수정 후 · 자체 교정 제안</h2><div id="after" class="surface"></div></section></div>
+<div id="result" class="result" role="status" aria-live="polite"></div>
+<section class="note" aria-labelledby="rationale-title"><h2 id="rationale-title">삭제·교체·이동한 이유</h2><p id="rationale"></p><p class="small" id="invariants"></p><details><summary>두 화면에 공통으로 쓰는 상태와 사실</summary><pre id="facts"></pre></details></section>
+<noscript>이 파일은 비교 화면 선택에 JavaScript를 사용합니다. 전체 규칙과 문구는 manual_ko.md와 rules.json에서도 읽을 수 있습니다.</noscript>
+</main>
+<script>
+'use strict';
+const fixtures = [
+{id:'welcome',rule:'CP01',name:'환영 문장 대신 최근 문서',fact:{state:'ready',returning:true,documents:[{name:'이번 주 회의록',updated:'어제 수정'},{name:'출시 점검표',updated:'10월 2일 수정'}]},before:{title:'다시 오신 걸 환영해요!',text:'오늘도 놀라운 가능성을 발견하고 생산적인 여정을 시작해 보세요.\n아래에서 원하는 문서를 선택할 수 있어요.'},after:{title:'최근 문서',text:''},action:['문서 찾기','문서 찾기'],reason:'목록이 이미 보여주는 선택 방법과 범용 환영을 삭제했습니다. 문서 제목과 수정 시각은 그대로 두고 작업을 먼저 보여줍니다.',keep:'문서 2개 · 제목 · 수정 시각 · 문서 찾기 행동'},
+{id:'claims',rule:'CP02',name:'과장 대신 실제 기능과 요금',fact:{state:'offer',feature:'PDF·텍스트 검색',unsupported:'이미지 속 글자 검색',trialDays:7,monthlyPriceKRW:9900,autoBilling:true,cancelBeforeTrialEnd:'요금 없음'},before:{title:'완벽한 문서 경험, 무한한 가능성',text:'누구나 최고의 생산성을 누리는 혁신적인 플랫폼. 지금 무료로 시작하세요!'},after:{title:'PDF와 메모를 한곳에서 검색',text:'PDF·텍스트 검색을 지원합니다. 이미지 속 글자는 검색하지 않습니다.'},common:'7일 체험 후 월 9,900원 자동 결제.\n체험 종료 전 해지 시 요금 없음.',action:['요금제 보기','요금제 보기'],reason:'입증되지 않은 완벽함·무한·최고의 약속을 실제 기능으로 바꿨습니다. 체험 이후 자동 결제와 해지 조건은 같은 위치에 남겼습니다.',keep:'7일 · 월 9,900원 · 자동 결제 · 체험 종료 전 해지 조건 · 검색 지원 범위'},
+{id:'instructions',rule:'CP03',name:'보이는 조작의 재설명 삭제',fact:{state:'editing',displayName:'길잡이',minLength:2,maxLength:20},before:{title:'프로필 수정',text:'아래 입력란에서 표시 이름을 수정한 뒤 저장 버튼을 눌러 변경 사항을 저장하세요.\n표시 이름을 입력해 주세요.'},after:{title:'프로필 수정',text:''},action:['저장','변경 저장'],reason:'저장 방법의 반복은 삭제하고 2~20자 조건은 필드 옆에 유지했습니다. 양쪽 필드의 값은 함께 바뀌므로 입력이 다른 전후 비교가 아닙니다.',keep:'현재 입력값 · 2~20자 제약 · 변경 저장 행동'},
+{id:'actions',rule:'CP04',name:'버튼이 실제 행동을 약속',fact:{state:'draft',destination:'팀 공지 게시판',audience:8,immediateAction:'게시글 발행'},before:{title:'게시글 초안',text:'대상: 팀 공지 게시판 · 읽는 사람 8명'},after:{title:'게시글 초안',text:'대상: 팀 공지 게시판 · 읽는 사람 8명'},action:['진행하기','게시글 발행'],reason:'이 버튼의 즉시 행동은 발행입니다. 궁극적 효익이나 막연한 진행을 이름으로 쓰지 않습니다. 발행 대상과 읽는 사람 수를 보존했습니다.',keep:'초안 상태 · 팀 공지 게시판 · 독자 8명 · 발행 행동'},
+{id:'error',rule:'CP05',name:'오류는 확인된 문제와 복구',fact:{state:'upload_rejected',fileName:'회의자료.pdf',sizeMB:14,limitMB:10,retainsExistingForm:true},before:{title:'앗! 파일이 말썽을 부리네요',text:'너무 욕심내지 말고 다시 도전해 보세요 😊'},after:{title:'파일을 업로드하지 못했습니다',text:'회의자료.pdf는 14MB로, 10MB 한도를 넘습니다.\n10MB 이하 파일을 선택해 주세요.'},common:'선택 파일: 회의자료.pdf · 14MB\n파일 한도: 10MB',action:['다시 시도','다른 파일 선택'],reason:'농담과 훈계 대신 확인된 크기 제한을 설명합니다. 수정 전 버튼도 같은 복구 선택기를 가리키지만 그 동작을 예측하기 어렵습니다. 임의의 네트워크 원인을 만들지 않았습니다.',keep:'실패 · 파일 이름 · 14MB · 10MB 한도 · 기존 입력 보존'},
+{id:'confirm',rule:'CP06',name:'확인의 대상·결과·복구 기간',fact:{state:'awaiting_confirmation',objects:'회의록',count:3,action:'휴지통으로 이동',restoreWithinDays:30,permanentDelete:false},before:{title:'정말 진행하시겠어요?',text:'소중한 자료와 작별할 수도 있어요.'},after:{title:'회의록 3개를 휴지통으로 이동할까요?',text:''},common:'회의록 3개가 휴지통으로 이동합니다.\n30일 안에 휴지통에서 복원할 수 있습니다.',action:['예','휴지통으로 이동'],secondary:['아니요','취소'],reason:'수사적 질문은 구체적인 이동 결정으로 바꾸고 복원 기간은 남겼습니다. 이 장면은 확인 내용을 나란히 보는 패널이며 실제 모달 포커스 구현 예제가 아닙니다.',keep:'회의록 3개 · 휴지통 이동 · 30일 내 복원 · 취소 시 변경 없음'},
+{id:'empty',rule:'CP07',name:'빈 상태의 이유 구분',fact:{state:'filtered',query:'회의록',tag:'설계',allDocuments:12,resultCount:0},states:[['filtered','필터 조건 불일치'],['first_use','처음 사용 · 문서 0개'],['forbidden','권한 부족'],['failed','조회 실패']],before:{title:'아직 아무것도 없네요!',text:'새로운 가능성으로 공간을 채워 보세요.'},after:{title:'이 조건에 맞는 문서가 없습니다',text:''},action:['시작하기','필터 해제'],reason:'성공 0개, 최초 사용, 권한 부족, 조회 실패를 데이터 상태로 구분합니다. 상태 선택기를 바꾸면 양쪽에 같은 상태를 넣습니다. 오류를 데이터 없음으로 알리는 수정 전이 왜 위험한지 확인할 수 있습니다.',keep:'검색값 · 태그 · 전체/결과 개수 · 권한/조회 상태 · 지원되는 다음 행동'},
+{id:'loading',rule:'CP08',name:'작업 상태가 말투를 결정',fact:{state:'running',task:'보고서 내보내기',processed:3,total:8,etaKnown:false},states:[['running','처리 중 · 3/8'],['succeeded','완료 · 8/8'],['failed','실패 · 3/8']],before:{title:'놀라운 결과를 준비하고 있어요',text:'거의 다 됐어요! 잠깐만 기다리면 완벽한 결과를 만날 수 있어요.'},after:{title:'보고서 내보내기 중',text:'8개 중 3개 처리'},action:['내보내기 중','내보내기 중'],reason:'실제 처리량과 상태를 사용하고, 확인하지 못한 완료 시점이나 완벽한 결과를 약속하지 않습니다. 상태 선택기는 같은 이벤트를 양쪽에 전달합니다.',keep:'작업명 · 처리량/전체량 · 완료/실패 이벤트 · 중복 실행 차단'},
+{id:'decline',rule:'CP09',name:'거절 선택지는 중립적으로',fact:{state:'optional_offer',offer:'제품 소식 이메일',frequency:'주 1회',subscribed:false,declineEffect:'현재 제안 닫기, 가입하지 않음'},before:{title:'성장하는 사람이라면 놓칠 수 없죠!',text:'제품 소식을 이메일로 주 1회 보냅니다.'},after:{title:'제품 소식을 이메일로 받으시겠어요?',text:'주 1회 보냅니다.'},action:['더 똑똑해질래요','이메일 구독'],secondary:['유용한 정보는 필요 없어요','지금은 건너뛰기'],reason:'가입의 실제 효과를 버튼에 표시하고, 거절에 무관심·성향을 대신 선언하는 문장을 없앴습니다. 클릭해도 실제 이메일을 받거나 구독되지 않습니다.',keep:'이메일 구독 · 주 1회 · 거절 시 가입 안 됨'}
+];
+const defaults = JSON.parse(JSON.stringify(fixtures));
+const select = document.querySelector('#case');
+const stateSelect = document.querySelector('#state');
+let current = 'welcome';
+select.innerHTML = fixtures.map(f=>`<option value="${f.id}">${f.rule} · ${f.name}</option>`).join('');
+const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function button(label, action, klass='', disabled=false){return `<button type="button" class="${klass}" data-action="${action}"${disabled?' disabled':''}>${escapeHTML(label)}</button>`;}
+function view(f, side){
+ const c=f[side],i=side==='before'?0:1;let title=c.title,text=c.text,common=f.common||'',actions='';
+ let extra='';
+ if(f.id==='welcome')extra='<ul class="files">'+f.fact.documents.map(d=>`<li><strong>${escapeHTML(d.name)}</strong><small>${escapeHTML(d.updated)}</small></li>`).join('')+'</ul>';
+ if(f.id==='instructions')extra=`<div class="field"><label for="name-${side}">표시 이름</label><input id="name-${side}" data-shared-field="displayName" value="${escapeHTML(f.fact.displayName)}" minlength="2" maxlength="20" aria-describedby="help-${side}"><span class="help" id="help-${side}">${side==='before'?'표시 이름은 2~20자입니다.':'2~20자'}</span></div>`;
+ let mainAction=f.id,labels=f.action;
+ if(f.id==='empty'){
+  if(f.fact.state==='filtered'){common='검색: 회의록 · 태그: 설계\n전체 문서 12개 · 현재 결과 0개';if(side==='after'){title='이 조건에 맞는 문서가 없습니다';text='';}labels=['시작하기','필터 해제'];mainAction='clear_filter';}
+  if(f.fact.state==='first_use'){common='문서 0개 · 조회 완료 · 문서 추가 가능';if(side==='after'){title='아직 문서가 없습니다';text='첫 문서를 추가하면 여기에 표시됩니다.';}labels=['시작하기','문서 추가'];mainAction='create_document';}
+  if(f.fact.state==='forbidden'){common='문서 열람 권한 없음 · 권한 요청 가능';if(side==='after'){title='문서를 볼 권한이 없습니다';text='관리자에게 열람 권한을 요청할 수 있습니다.';}labels=['시작하기','권한 요청'];mainAction='request_permission';}
+  if(f.fact.state==='failed'){common='조회 실패 · 데이터 개수 확인 안 됨';if(side==='after'){title='문서를 불러오지 못했습니다';text='잠시 후 다시 불러와 주세요.';}labels=['시작하기','다시 불러오기'];mainAction='retry_query';}
+ }
+ if(f.id==='loading'){
+  if(f.fact.state==='running'){common='진행 상태: 처리 중 · 처리 3/8';extra='<progress value="3" max="8" aria-label="8개 중 3개 처리"></progress>';actions=button(labels[i],'duplicate_export','',true);}
+  if(f.fact.state==='succeeded'){common='진행 상태: 완료 · 처리 8/8';title=side==='before'?'드디어 멋진 결과가 나왔어요!':'보고서를 내보냈습니다';text=side==='before'?'당신의 성공을 향한 여정을 이어가세요.':'';extra='<progress value="8" max="8" aria-label="8개 중 8개 처리"></progress>';actions=button(side==='before'?'확인':'보고서 보기','view_export');}
+  if(f.fact.state==='failed'){common='진행 상태: 실패 · 처리 3/8 · 완료 파일 없음';title=side==='before'?'앗, 마법이 잠시 멈췄어요':'보고서를 내보내지 못했습니다';text=side==='before'?'다시 멋진 결과를 향해 도전해 볼까요?':'원인은 아직 확인되지 않았습니다. 다시 내보낼 수 있습니다.';extra='<progress value="3" max="8" aria-label="실패 전 8개 중 3개 처리"></progress>';actions=button(side==='before'?'도전하기':'다시 내보내기','retry_export');}
+ }
+ if(!actions)actions=button(labels[i],mainAction,f.id==='confirm'?'danger':'');
+ if(f.secondary)actions=button(f.secondary[i],f.id==='confirm'?'cancel_confirm':'decline_offer','secondary')+actions;
+ return `<h3>${escapeHTML(title)}</h3>${text?`<p class="copy${f.id==='error'?' alert':''}">${escapeHTML(text)}</p>`:''}${extra}${common?`<p class="metadata">${escapeHTML(common)}</p>`:''}<div class="row">${actions}</div>`;
+}
+function render(rebuildState=false){
+ const f=fixtures.find(x=>x.id===current);
+ document.querySelector('#before').innerHTML=view(f,'before');document.querySelector('#after').innerHTML=view(f,'after');
+ document.querySelector('#rationale').textContent=f.reason;document.querySelector('#invariants').textContent='보존한 사실·행동: '+f.keep;
+ document.querySelector('#facts').textContent=JSON.stringify(f.fact,null,2);
+ document.querySelector('#state-wrap').hidden=!f.states;
+ if(rebuildState&&f.states)stateSelect.innerHTML=f.states.map(([value,label])=>`<option value="${value}">${escapeHTML(label)}</option>`).join('');
+ if(f.states)stateSelect.value=f.fact.state;
+ document.querySelectorAll('[data-shared-field]').forEach(el=>el.addEventListener('input',e=>{f.fact.displayName=e.target.value;document.querySelectorAll('[data-shared-field]').forEach(other=>{if(other!==e.target)other.value=e.target.value;});document.querySelector('#facts').textContent=JSON.stringify(f.fact,null,2);}));
+ document.querySelectorAll('[data-action]').forEach(el=>el.addEventListener('click',()=>record(el.dataset.action)));
+}
+function record(action){
+ const descriptions={welcome:'문서 찾기 화면 열기',claims:'요금제 화면 열기',instructions:'변경 저장',actions:'팀 공지 게시판에 발행, 읽는 사람 8명',error:'다른 파일 선택기 열기',confirm:'회의록 3개를 휴지통으로 이동, 30일 안에 복원 가능',cancel_confirm:'취소, 데이터 변경 없음',clear_filter:'태그 필터 해제, 검색 “회의록”은 유지',create_document:'새 문서 작성 화면 열기',request_permission:'관리자에게 권한을 요청하는 화면 열기',retry_query:'문서 조회 다시 요청',view_export:'완료된 보고서 열기',retry_export:'내보내기 다시 요청',decline:'이메일 구독 선택',decline_offer:'현재 제안 닫기, 이메일 구독 안 됨'};
+ const f=fixtures.find(x=>x.id===current);
+ if(action==='instructions'&&(f.fact.displayName.length<2||f.fact.displayName.length>20)){document.querySelector('#result').textContent='교육용 검증: 표시 이름을 2~20자로 입력해 주세요. 현재 입력은 보존됩니다.';return;}
+ document.querySelector('#result').textContent='교육용 동작 기록: '+(descriptions[action]||action)+'. 실제 저장·발행·전송은 발생하지 않습니다.';
+}
+select.addEventListener('change',()=>{current=select.value;document.querySelector('#result').textContent='';render(true);});
+stateSelect.addEventListener('change',()=>{const f=fixtures.find(x=>x.id===current);f.fact.state=stateSelect.value;if(f.id==='loading'){f.fact.processed=f.fact.state==='succeeded'?8:3;f.fact.resultAvailable=f.fact.state==='succeeded';}if(f.id==='empty'){const emptyFacts={filtered:{query:'회의록',tag:'설계',allDocuments:12,resultCount:0,permission:true},first_use:{query:'',tag:'',allDocuments:0,resultCount:0,permission:true},forbidden:{query:'',tag:'',allDocuments:null,resultCount:null,permission:false},failed:{query:'',tag:'',allDocuments:null,resultCount:null,permission:true}};Object.assign(f.fact,emptyFacts[f.fact.state]);}document.querySelector('#result').textContent='';render();});
+document.querySelector('#reset').addEventListener('click',()=>{const f=fixtures.find(x=>x.id===current),original=defaults.find(x=>x.id===current);f.fact=JSON.parse(JSON.stringify(original.fact));document.querySelector('#result').textContent='교육용 상태를 초기화했습니다';render(true);});
+window.CopyDemo={fixtures,view,render};
+render(true);
+</script>
+</body>
+</html>

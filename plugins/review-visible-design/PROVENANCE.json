@@ -1,0 +1,239 @@
+{
+  "project": "Do Not Slop Project",
+  "package_version": "0.1.0-draft.3",
+  "public_redistribution": "authorized_source_release_only",
+  "license_choice": "pending_user_decision",
+  "third_party_rights": "unknown_link_only",
+  "source_policy": "Original bounded summaries and short citations only; no third-party media or font bytes included",
+  "lineage_scope": "Input SHA-256 values below identify included unchanged runtime, reference and synthetic fixture bytes; no omitted historical input is claimed bundled",
+  "preserved_input_sha256": {
+    "skills/review-visible-design/SKILL.md": "1f74f337c8ee4a09f97497cb9657c1995fe68b9a105af24118403c24dd8cb0d1",
+    "skills/review-visible-design/agents/openai.yaml": "1ea0c9b36a594c5ccc3f0c0028574663133bada76538b76290bf04068cbd021a",
+    "skills/review-visible-design/references/evidence-contract.json": "799203549d29aebe9dbb76f5fd6e0dfec9568c55a63e413cd7bc2e14d67c623d",
+    "skills/review-visible-design/references/game-action-controls.md": "9d4b4c126d1845cdcfdd91c4958ddae1ca7f565a1f826ac3ae14829bf2a4dd42",
+    "skills/review-visible-design/references/game-card-execution.md": "04ea857529f262fcb6a6b7db9f42fd7265a62bd0a86e0bb49c66b5e76cf179d6",
+    "skills/review-visible-design/references/game-corrections.md": "826ff929e3e1bf8c4ef264ea425f83b9429693e4d62a6350eacbabe7bb965b4e",
+    "skills/review-visible-design/references/game-equipment.md": "52c3704f3eade9c8ca78b78dfbcad04ebdf92c6ff1ed89144e40ed67ddf2d9d1",
+    "skills/review-visible-design/references/game-short-puzzle.md": "f52858646604d36a1f8ea367ebef015040b9cc393ef208b07c5e62f6871b16ba",
+    "skills/review-visible-design/references/routing.json": "a5479a1734076cf8f525371dae29202a7e91819d8c27dda7227d18d1e7707c60",
+    "skills/review-visible-design/references/sources.json": "39099ac4d3fa33782cfc5b522d3325acfca021cc73bdb404b4596abe4b881a34",
+    "skills/review-visible-design/references/web-corrections.md": "9ba157083b83c3ebb87c9f2a68dbe2e252ef4bb8bf72d53a241abde21be9f21b",
+    "skills/review-visible-design/references/web-information-reading.md": "091f40fe95a97b9fd422452634a09b9d804fee6e0b5c1abaabe983a4a0b36e0e",
+    "skills/review-visible-design/references/web-lesson-question.md": "91d8e8b4bae40fd7e9196ad9e5b1ba781746081425672e0c158bd6cfee1541e3",
+    "skills/review-visible-design/references/web-product-selection.md": "3b377434ad9adfe8b949b57bbc5f2280b811886c7abd996813c6b05c22f32e51",
+    "skills/review-visible-design/scripts/review_contract.py": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19",
+    "tests/comparison_cases.json": "a3cc30fdb4d221d8ccc1b0136ef2bc18c47b422b0c1410ead5610085f18a130f",
+    "tests/hash_cases.json": "e2e09d2efb98559cc425a72eddc28d91bb1c14ff7f644bfb326dfad85bcd5932",
+    "tests/hash_fixture.json": "6b24973e25805dee630f3cee55a1642ab940fd3bef0060924542b8083735ffca",
+    "tests/hash_fixture_reformatted.json": "be7e4e4a46698dc0feb1f35554a65436ad51149e00982340defef31f1476a415",
+    "tests/invalid_json_cases.json": "728cd71d45a3fb6c0f06e73d3fb32d45debe68d9df709014ce78a5d1731b9502",
+    "tests/known_null_state_cases.json": "8f9295ab88c092f4ec2f0cffc406a2f7c3e199346da3b3ba2f125506ad801d58",
+    "tests/report_cases.json": "14396318643f0d40a7da32c7ce36f8f5747aba62c9bfec766612496c98c52224",
+    "tests/request_cases.json": "1a23801ce54b9bb875bb16d08c238892a017c347a7c5881860edd514582311be",
+    "tests/sample_action_request.json": "dfd758e509acc194acce614040570c75ff5d0b107e44c9d16eb1c31dfc550821",
+    "tests/sample_comparison.json": "ef462c412415ba4b1ca54e5b90634698057fe61522e2ffdbc3812764fb36fbd7",
+    "tests/sample_known_null_comparison.json": "4893d5377662e290163ae903d0b62fc623c66c31101a45d213ec4694047de534",
+    "tests/sample_report.json": "3cb69146b26c2dd75064c896ddcb6ce7eb6a6a255611a8eb598c5d9dc5a5c42c",
+    "tests/sample_request.json": "24a8f8949b01c2653056c722fca3c1bcf415ebc2d6ad95e6b5a0628cc8f7d4ed"
+  },
+  "package_inventory": [
+    {
+      "path": "DRAFT_STATUS.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "README.md",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "plugin.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/SKILL.md",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/agents/openai.yaml",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/evidence-contract.json",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/game-action-controls.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/game-card-execution.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/game-corrections.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/game-equipment.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/game-short-puzzle.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/routing.json",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/sources.json",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/web-corrections.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/web-information-reading.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/web-lesson-question.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/references/web-product-selection.md",
+      "content_origin": "project_authored",
+      "external_content": "link_only",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "skills/review-visible-design/scripts/review_contract.py",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/comparison_cases.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/hash_cases.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/hash_fixture.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/hash_fixture_reformatted.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/invalid_json_cases.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/known_null_state_cases.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/report_cases.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/request_cases.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/sample_action_request.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/sample_comparison.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/sample_known_null_comparison.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/sample_report.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "tests/sample_request.json",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    },
+    {
+      "path": "validation/validate_package.py",
+      "content_origin": "project_authored",
+      "external_content": "none",
+      "reuse_license": "not_selected"
+    }
+  ]
+}

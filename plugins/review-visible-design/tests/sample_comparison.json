@@ -1,0 +1,108 @@
+{
+  "before": {
+    "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+    "fixture_id": "DRAFT:F:RPG-01",
+    "data": {
+      "current": {
+        "id": "sword-oak",
+        "name": "참나무 검",
+        "attack": 12,
+        "defense": 2
+      },
+      "candidate": {
+        "id": "sword-patrol",
+        "name": "순찰검",
+        "attack": 16,
+        "defense": 2
+      },
+      "actions": [
+        "장착",
+        "취소",
+        "설정"
+      ]
+    },
+    "initial_state": {
+      "candidate_selected": "sword-patrol",
+      "equipped": "sword-oak",
+      "menu": "equipment"
+    },
+    "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+    "state_id": "selected_before_commit",
+    "viewport_css": [
+      1024,
+      720
+    ],
+    "dpr": 1,
+    "zoom_percent": 100,
+    "locale": "ko-KR",
+    "input_mode": "keyboard",
+    "camera": "fixed-user-fixture-camera-01",
+    "visual_asset_hashes": {},
+    "required_information": [
+      "current name and attack/defense",
+      "candidate name and attack/defense",
+      "action labels",
+      "equipped and selected identity"
+    ],
+    "revision": "draft-before",
+    "capture_ref": null
+  },
+  "after": {
+    "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+    "fixture_id": "DRAFT:F:RPG-01",
+    "data": {
+      "current": {
+        "id": "sword-oak",
+        "name": "참나무 검",
+        "attack": 12,
+        "defense": 2
+      },
+      "candidate": {
+        "id": "sword-patrol",
+        "name": "순찰검",
+        "attack": 16,
+        "defense": 2
+      },
+      "actions": [
+        "장착",
+        "취소",
+        "설정"
+      ]
+    },
+    "initial_state": {
+      "candidate_selected": "sword-patrol",
+      "equipped": "sword-oak",
+      "menu": "equipment"
+    },
+    "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+    "state_id": "selected_before_commit",
+    "viewport_css": [
+      1024,
+      720
+    ],
+    "dpr": 1,
+    "zoom_percent": 100,
+    "locale": "ko-KR",
+    "input_mode": "keyboard",
+    "camera": "fixed-user-fixture-camera-01",
+    "visual_asset_hashes": {},
+    "required_information": [
+      "current name and attack/defense",
+      "candidate name and attack/defense",
+      "action labels",
+      "equipped and selected identity"
+    ],
+    "revision": "draft-after",
+    "capture_ref": null
+  },
+  "change_ledger": [
+    {
+      "change": "Align common stat baselines and lower settings prominence",
+      "preserves": [
+        "all stats",
+        "action semantics",
+        "selection state"
+      ]
+    }
+  ]
+}

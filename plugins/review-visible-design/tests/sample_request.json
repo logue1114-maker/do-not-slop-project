@@ -1,0 +1,27 @@
+{
+  "purpose": "rpg-equipment",
+  "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+  "platform": "web",
+  "mode": "propose",
+  "interface_ref": {
+    "kind": "screenshot",
+    "location": "fixture:declared-screen-not-rendered"
+  },
+  "context": {
+    "viewport_css": [
+      1024,
+      720
+    ],
+    "dpr": 1,
+    "zoom_percent": 100,
+    "locale": "ko-KR",
+    "input_modes": [
+      "keyboard",
+      "mouse"
+    ],
+    "art_direction": "existing system",
+    "allowed_changes": [
+      "visual presentation only"
+    ]
+  }
+}

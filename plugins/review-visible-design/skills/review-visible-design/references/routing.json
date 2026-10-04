@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.1.0",
+  "status": "draft_scope_not_user_approved",
+  "platforms": [
+    "web",
+    "game-engine",
+    "native",
+    "unknown"
+  ],
+  "branches": [
+    {
+      "purpose": "rpg-equipment",
+      "manual_ids": [
+        "G01"
+      ],
+      "reference": "references/game-equipment.md",
+      "source_ids": [
+        "AS:S23",
+        "GCTRL2:S01",
+        "GCTRL2:S04",
+        "GCTRL2:S05"
+      ]
+    },
+    {
+      "purpose": "card-execution",
+      "manual_ids": [
+        "G02"
+      ],
+      "reference": "references/game-card-execution.md",
+      "source_ids": [
+        "AS:S23",
+        "GCTRL2:S03"
+      ]
+    },
+    {
+      "purpose": "short-puzzle",
+      "manual_ids": [
+        "G03"
+      ],
+      "reference": "references/game-short-puzzle.md",
+      "source_ids": [
+        "AS:S23",
+        "GCTRL2:S07"
+      ]
+    },
+    {
+      "purpose": "game.action_controls",
+      "manual_ids": [
+        "G04"
+      ],
+      "reference": "references/game-action-controls.md",
+      "scope": "Ability/action bar with fixed enemy or self target, original select/commit or immediate-execute semantics, pause/resume; no hand/deck/target-selection recipe",
+      "source_ids": [
+        "AS:S23",
+        "GCTRL2:S01",
+        "GCTRL2:S02",
+        "GCTRL2:S03",
+        "GCTRL2:S04",
+        "GCTRL2:S05",
+        "GCTRL2:S06",
+        "GCTRL2:S07",
+        "GCTRL2:S08",
+        "GCTRL2:S09"
+      ]
+    },
+    {
+      "purpose": "product-selection-cart",
+      "manual_ids": [
+        "W01"
+      ],
+      "reference": "references/web-product-selection.md",
+      "source_ids": [
+        "AS:S13",
+        "AS:S18",
+        "WCV2:S01"
+      ]
+    },
+    {
+      "purpose": "information-reading",
+      "manual_ids": [
+        "W02"
+      ],
+      "reference": "references/web-information-reading.md",
+      "source_ids": [
+        "AS:S18",
+        "WCV2:S05",
+        "WCV2:S06"
+      ]
+    },
+    {
+      "purpose": "lesson-question",
+      "manual_ids": [
+        "W03",
+        "A01:question-only"
+      ],
+      "reference": "references/web-lesson-question.md",
+      "source_ids": [
+        "AS:S18",
+        "WCV2:S02",
+        "WCV2:S03"
+      ]
+    }
+  ],
+  "overlays": {
+    "OV:web": {
+      "tests": [
+        "small supported viewport",
+        "text zoom 200%",
+        "keyboard focus and obscured focus",
+        "browser back/reload if requested"
+      ],
+      "note": "Do not claim universal responsive/accessibility conformance from one viewport"
+    },
+    "OV:touch": {
+      "tests": [
+        "actual supported touch target bounds and spacing",
+        "no hover-only essential information",
+        "gesture alternative where applicable"
+      ],
+      "note": "Measure actual units; proposed 44px is not a blanket standard"
+    },
+    "OV:controller": {
+      "tests": [
+        "focus graph and reveal",
+        "selection versus commit",
+        "cancel/back mapping"
+      ],
+      "note": "Do not invent controller support when input is untested"
+    },
+    "OV:keyboard": {
+      "tests": [
+        "tab/arrow route as appropriate",
+        "visible focus",
+        "confirm/cancel actual binding"
+      ],
+      "note": "Preserve host/product bindings; example Enter/Esc is not universal"
+    },
+    "OV:localization": {
+      "tests": [
+        "real long labels",
+        "locale-specific line breaks and number formats",
+        "zoom with text reflow"
+      ],
+      "note": "Do not infer original product CSS from scaled research images"
+    }
+  },
+  "reference_loading_policy": {
+    "strategy": "one_routed_file_first",
+    "branch_references_are_isolated": true,
+    "load_sibling_recipes": false,
+    "unsupported_loads_domain_recipe": false,
+    "sources": "resolve selected IDs only; prior metadata does not prove a new inspection"
+  }
+}

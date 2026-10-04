@@ -1,0 +1,294 @@
+{
+  "project": "Do Not Slop Project",
+  "scope": "UI copy/content design",
+  "sources": [
+    {
+      "id": "CP-S01",
+      "title": "Blah-Blah Text: Keep, Cut, or Kill?",
+      "author": "Jakob Nielsen",
+      "publisher": "Nielsen Norman Group",
+      "date": "2007-09-30",
+      "url": "https://www.nngroup.com/articles/blah-blah-text-keep-cut-or-kill/",
+      "kind": "author_opinion_with_self_case",
+      "claim": "기능 없는 환영 문단을 비판하면서도 페이지의 목적과 독자에게 필요한 맥락을 설명하는 짧은 도입은 남길 이유가 있다고 구분한다. 자신의 인터뷰 소개 문단을 줄인 사례를 설명한다.",
+      "boundary": "오래된 저자 글과 자체 편집 사례다. 모든 소개문 삭제나 모든 사용자에게 동일한 효과를 보장하는 실험 결과로 쓰지 않는다.",
+      "applies": [
+        "CP01",
+        "CP02"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S02",
+      "title": "If you’re struggling to write the content, you probably have an interaction problem",
+      "author": "Adam Silver",
+      "publisher": "Adam Silver",
+      "date": "2025-03-02",
+      "url": "https://adamsilver.io/blog/if-youre-struggling-to-write-the-content-you-probably-have-an-interaction-problem/",
+      "kind": "author_opinion_with_design_case",
+      "claim": "배송/수령을 먼저 고르고 다시 배송 방법을 고르게 하던 구조에서 질문 이름이 충돌했다. 저자는 네 선택지를 함께 보여주는 제안을 채택했다. 단어를 바꾸기 전에 상호작용 구조를 의심해야 한다는 사례다.",
+      "boundary": "작성자의 공개 디자인 과제와 선택이다. 이 변경이 실제 서비스의 완료율을 높였다는 정량 결과는 제시된 글에서 확인하지 않았다.",
+      "applies": [
+        "CP03",
+        "CP04"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S03",
+      "title": "Why I don’t use interruption pages",
+      "author": "Adam Silver",
+      "publisher": "Adam Silver",
+      "date": "2026-07-19",
+      "url": "https://adamsilver.io/blog/why-i-dont-use-interruption-pages/",
+      "kind": "author_opinion",
+      "claim": "중간 경고 화면이 배너처럼 보여 지나칠 수 있고, 문맥에 의존하는 긍정 응답 버튼이 행동을 설명하지 않는다고 비판한다. 명시적 응답을 고르는 일반 폼을 대안으로 제시한다.",
+      "boundary": "공식 디자인 시스템과 다른 작성자의 판단이다. 중대한 경고·확인 자체를 없애라는 권위 있는 표준으로 전환하지 않는다.",
+      "applies": [
+        "CP06"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S04",
+      "title": "토스의 8가지 라이팅 원칙들",
+      "author": "김자유, 토스 UX Writer",
+      "publisher": "Toss Tech",
+      "date": "2022-11-15",
+      "url": "https://toss.tech/article/21022",
+      "kind": "author_case_report_on_company_principles",
+      "claim": "버튼의 궁극적 효익보다 바로 다음 화면을 예상하게 해야 한다고 설명한다. 원문 사례의 후불결제 버튼은 실제로 브랜드 제보 설문을 열었다. 제목을 되풀이하는 설명과 빈 공간을 채우기 위한 문장도 비판한다.",
+      "boundary": "토스 작성자가 설명한 자사 원칙과 사례다. 토스의 해요체를 모든 한국어 서비스의 정답으로 삼지 않는다.",
+      "applies": [
+        "CP01",
+        "CP03",
+        "CP04",
+        "CP09"
+      ],
+      "quote": {
+        "text": "다른 곳에서 후불결제 하기",
+        "word_count": 4
+      },
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S05",
+      "title": "좋은 에러 메시지를 만드는 6가지 원칙",
+      "author": "김자유, 토스 UX Writer",
+      "publisher": "Toss Tech",
+      "date": "2022-09-21",
+      "url": "https://toss.tech/article/how-to-write-error-message",
+      "kind": "author_case_report_on_company_principles",
+      "claim": "상황·이유·해결책과 이를 담을 컴포넌트를 함께 검토한다. 스스로에게 연락처 송금할 때 나타나는 오류는 문장 수정 대신 목록 노출을 바꾸어 예방한 사례다. 인증 오류에는 정보 노출 위험 때문에 구체성을 제한할 경우도 있다고 밝힌다.",
+      "boundary": "송금·신분증 등 금융 맥락의 사례다. 공개 데모는 그 화면·문장을 복제하지 않으며 인증 실패 원인을 무제한 공개하라는 규칙으로 쓰지 않는다.",
+      "applies": [
+        "CP05"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S06",
+      "title": "Error-Message Guidelines",
+      "author": "Tim Neusesser, Evan Sunwall",
+      "publisher": "Nielsen Norman Group",
+      "date": "2023-05-14",
+      "url": "https://www.nngroup.com/articles/error-message-guidelines/",
+      "kind": "professional_guidance_with_site_examples",
+      "claim": "검색 결과가 없음을 말장난으로 표현한 Disneyworld 사례를 비판한다. 문제와 복구 방법을 설명하고, 사용자를 탓하지 않으며, 입력을 보존하라고 안내한다.",
+      "boundary": "출처에서 제시한 당시 사이트 예다. 현재 Disneyworld 화면을 직접 감사한 결과가 아니며 한국어 대안은 이 프로젝트의 독자 제안이다.",
+      "applies": [
+        "CP05",
+        "CP07"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S07",
+      "title": "Hostile Patterns in Error Messages",
+      "author": "Kate Kaplan",
+      "publisher": "Nielsen Norman Group",
+      "date": "2022-10-30",
+      "url": "https://www.nngroup.com/articles/hostile-error-messages/",
+      "kind": "professional_guidance_with_site_examples",
+      "claim": "LG의 입력 중 우편번호 오류, Sorel의 날짜 입력을 마치기 전 오류 같은 조기 검증을 비판한다. 제약은 미리 주고 오류처럼 보이는 강조는 실제로 개입이 필요한 상황에 제한하라고 안내한다.",
+      "boundary": "오류 문장을 공손하게만 바꾸면 조기 발생 문제가 해결되는 것은 아니다. 검증 시점의 적절성은 입력 종류·실제 테스트로 결정한다.",
+      "applies": [
+        "CP05"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S08",
+      "title": "Stop Shaming Your Users for Micro Conversions",
+      "author": "Kate Moran, Kim Flaherty",
+      "publisher": "Nielsen Norman Group",
+      "date": "2017-04-30",
+      "url": "https://www.nngroup.com/articles/shaming-users/",
+      "kind": "professional_critique_with_site_examples",
+      "claim": "Sears의 뉴스레터 거절 문구는 할인에 관심이 없다는 성향을 사용자에게 대신 말하게 한다. Delish의 레시피 접근 제안은 뉴스레터 가입 사실을 명확히 하지 않았다고 비판한다. 글은 한 사용자의 정성적 반응도 제시하며 그 범위를 밝힌다.",
+      "boundary": "현재 사이트의 화면이나 보편 전환율 결과로 주장하지 않는다. 거절 문구를 조롱 없이 바꾸는 것은 프로젝트의 교정 제안이다.",
+      "applies": [
+        "CP09",
+        "CP02"
+      ],
+      "quote": {
+        "text": "No thanks, I don’t like deals.",
+        "word_count": 7
+      },
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S09",
+      "title": "Voice and Tone",
+      "author": "Mailchimp",
+      "publisher": "Mailchimp Content Style Guide",
+      "date": null,
+      "url": "https://styleguide.mailchimp.com/voice-and-tone/",
+      "kind": "official_guidance",
+      "claim": "독자의 감정과 상황에 따라 톤을 조정하고, 과장·과도한 약속·억지 유머보다 명료함을 우선하라고 자사 작성자에게 안내한다.",
+      "boundary": "특정 브랜드의 스타일 지침이다. 모든 브랜드에 같은 유머·말투를 이식하지 않는다.",
+      "applies": [
+        "CP02",
+        "CP05",
+        "CP09"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S10",
+      "title": "Writing for Translation",
+      "author": "Mailchimp",
+      "publisher": "Mailchimp Content Style Guide",
+      "date": null,
+      "url": "https://styleguide.mailchimp.com/writing-for-translation/",
+      "kind": "official_guidance",
+      "claim": "간결함 때문에 명료함을 포기하지 않고 문화에 맞는 격식, 일관된 용어, 모호하지 않은 대상을 검토하라고 안내한다. 필요한 반복까지 지우지 않도록 한다.",
+      "boundary": "영어 출발 문장의 번역 준비 지침이다. 영어 어순·동사 우선 규칙을 한국어에 그대로 적용하지 않는다.",
+      "applies": [
+        "CP03",
+        "CP04",
+        "KO-LAYER"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S11",
+      "title": "Button",
+      "author": "U.S. Web Design System",
+      "publisher": "USWDS",
+      "date": null,
+      "url": "https://designsystem.digital.gov/components/buttons/",
+      "kind": "official_guidance",
+      "claim": "버튼은 선택했을 때 무엇이 일어나는지 짧은 행동 말로 알려야 한다. 구현의 포커스·표준 마크업·접근성도 별도로 테스트하라고 안내한다.",
+      "boundary": "영어 버튼의 동사 시작 지침을 한국어 어순에 직역하지 않는다. 열람한 원문 검색 결과에는 가이드 본문이 있었지만 후속 URL 열기는 cache miss였다.",
+      "applies": [
+        "CP04"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_search_read_followup_open_failed",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S12",
+      "title": "Empty states",
+      "author": "IBM Carbon Design System",
+      "publisher": "Carbon Design System",
+      "date": "2026-08-11",
+      "url": "https://www.carbondesignsystem.com/building-blocks/core/patterns/empty-states",
+      "kind": "official_guidance",
+      "claim": "처음 사용의 데이터 없음, 사용자 행동 결과, 권한·시스템 문제를 구분한다. 간단하거나 보조 기능의 빈 공간에 장황한 교육을 넣지 않으며 할 수 있는 다음 행동이 없거나 보충 설명이 필요 없는 경우도 인정한다.",
+      "boundary": "Carbon의 패턴 지침이다. 모든 빈 상태에 일러스트·버튼·설명을 무조건 하나씩 붙이는 체크리스트로 쓰지 않는다.",
+      "applies": [
+        "CP07"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S13",
+      "title": "Inline loading",
+      "author": "IBM Carbon Design System",
+      "publisher": "Carbon Design System",
+      "date": "2026-09-30",
+      "url": "https://www.carbondesignsystem.com/building-blocks/core/components/inline-loading/guidelines",
+      "kind": "official_guidance",
+      "claim": "진행·완료·실패에 따라 라벨을 바꾸고, 진행 중 라벨은 실제 행동 상태를 설명하도록 안내한다. 짧은 작업과 전체 페이지 로딩에 다른 표현을 권한다.",
+      "boundary": "상태별 라벨 지침에서 출발한다. 확인되지 않은 ETA나 퍼센트를 표시하지 않는 규칙은 이 프로젝트의 추가 제안이다.",
+      "applies": [
+        "CP08"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S14",
+      "title": "Modal",
+      "author": "IBM Carbon Design System",
+      "publisher": "Carbon Design System",
+      "date": null,
+      "url": "https://www.carbondesignsystem.com/building-blocks/core/components/modal/guidelines",
+      "kind": "official_guidance",
+      "claim": "확인할 행동과 결과를 명확히 쓰고 제목과 버튼을 맞추라고 한다. 설명이 필요 없는 편집 모달의 중복 문단은 불필요하다고 구분하며, 실제 확인만 하는 모달에는 OK 같은 인정 버튼 예외도 둔다.",
+      "boundary": "이 프로젝트는 Carbon의 배치·크기·포커스 처방을 통째로 복제하지 않는다. 행동 버튼과 단순 닫기·인정 버튼을 구분한다.",
+      "applies": [
+        "CP06",
+        "CP03"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    },
+    {
+      "id": "CP-S15",
+      "title": "What is UX writing?",
+      "author": "Scott Kubie",
+      "publisher": "Scott Kubie",
+      "date": "2020-07-08; page also shows 2024-06-23",
+      "url": "https://kubie.co/blog/what-is-ux-writing/",
+      "kind": "author_opinion",
+      "claim": "UX 라이팅을 제품 안의 설계로 설명하고, 인터페이스를 바꿔 글 자체가 필요 없게 만드는 일도 포함한다고 쓴다.",
+      "boundary": "역할과 작업 방식에 대한 저자의 설명이다. 특정 문구 수정의 효과를 검증한 연구로 쓰지 않는다.",
+      "applies": [
+        "WORKFLOW"
+      ],
+      "quote": null,
+      "checked_on": "2026-10-04",
+      "verification": "original_open_read",
+      "reproduction": "link_only_no_article_or_screenshot_copy"
+    }
+  ]
+}

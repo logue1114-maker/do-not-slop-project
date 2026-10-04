@@ -1,0 +1,289 @@
+{
+  "project": "Do Not Slop Project",
+  "scope": "These input byte digests anchor retained runtime, reference, fixture and included-test bytes from the source preparation. New public reporters/tests are outside this preserved-input scope.",
+  "hash_algorithm": "sha256",
+  "files": [
+    {
+      "path": "plugins/review-visible-design/plugin.json",
+      "bytes": 260,
+      "sha256": "81303be9aa812e1fb5c298d03b80ace8d966ab59f2b5daab55b0f117ecc2b889",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+      "bytes": 11580,
+      "sha256": "1f74f337c8ee4a09f97497cb9657c1995fe68b9a105af24118403c24dd8cb0d1",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/agents/openai.yaml",
+      "bytes": 276,
+      "sha256": "1ea0c9b36a594c5ccc3f0c0028574663133bada76538b76290bf04068cbd021a",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/evidence-contract.json",
+      "bytes": 10344,
+      "sha256": "799203549d29aebe9dbb76f5fd6e0dfec9568c55a63e413cd7bc2e14d67c623d",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-action-controls.md",
+      "bytes": 8528,
+      "sha256": "9d4b4c126d1845cdcfdd91c4958ddae1ca7f565a1f826ac3ae14829bf2a4dd42",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-card-execution.md",
+      "bytes": 2128,
+      "sha256": "04ea857529f262fcb6a6b7db9f42fd7265a62bd0a86e0bb49c66b5e76cf179d6",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-corrections.md",
+      "bytes": 503,
+      "sha256": "826ff929e3e1bf8c4ef264ea425f83b9429693e4d62a6350eacbabe7bb965b4e",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-equipment.md",
+      "bytes": 2121,
+      "sha256": "52c3704f3eade9c8ca78b78dfbcad04ebdf92c6ff1ed89144e40ed67ddf2d9d1",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-short-puzzle.md",
+      "bytes": 1982,
+      "sha256": "f52858646604d36a1f8ea367ebef015040b9cc393ef208b07c5e62f6871b16ba",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/routing.json",
+      "bytes": 3812,
+      "sha256": "a5479a1734076cf8f525371dae29202a7e91819d8c27dda7227d18d1e7707c60",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/sources.json",
+      "bytes": 21531,
+      "sha256": "39099ac4d3fa33782cfc5b522d3325acfca021cc73bdb404b4596abe4b881a34",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-corrections.md",
+      "bytes": 458,
+      "sha256": "9ba157083b83c3ebb87c9f2a68dbe2e252ef4bb8bf72d53a241abde21be9f21b",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-information-reading.md",
+      "bytes": 1960,
+      "sha256": "091f40fe95a97b9fd422452634a09b9d804fee6e0b5c1abaabe983a4a0b36e0e",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-lesson-question.md",
+      "bytes": 1982,
+      "sha256": "91d8e8b4bae40fd7e9196ad9e5b1ba781746081425672e0c158bd6cfee1541e3",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-product-selection.md",
+      "bytes": 1898,
+      "sha256": "3b377434ad9adfe8b949b57bbc5f2280b811886c7abd996813c6b05c22f32e51",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/scripts/review_contract.py",
+      "bytes": 20210,
+      "sha256": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/comparison_cases.json",
+      "bytes": 57830,
+      "sha256": "a3cc30fdb4d221d8ccc1b0136ef2bc18c47b422b0c1410ead5610085f18a130f",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/hash_cases.json",
+      "bytes": 885,
+      "sha256": "e2e09d2efb98559cc425a72eddc28d91bb1c14ff7f644bfb326dfad85bcd5932",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/hash_fixture.json",
+      "bytes": 96,
+      "sha256": "6b24973e25805dee630f3cee55a1642ab940fd3bef0060924542b8083735ffca",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/hash_fixture_reformatted.json",
+      "bytes": 77,
+      "sha256": "be7e4e4a46698dc0feb1f35554a65436ad51149e00982340defef31f1476a415",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/invalid_json_cases.json",
+      "bytes": 783,
+      "sha256": "728cd71d45a3fb6c0f06e73d3fb32d45debe68d9df709014ce78a5d1731b9502",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/known_null_state_cases.json",
+      "bytes": 205756,
+      "sha256": "8f9295ab88c092f4ec2f0cffc406a2f7c3e199346da3b3ba2f125506ad801d58",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/report_cases.json",
+      "bytes": 41973,
+      "sha256": "14396318643f0d40a7da32c7ce36f8f5747aba62c9bfec766612496c98c52224",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/request_cases.json",
+      "bytes": 30503,
+      "sha256": "1a23801ce54b9bb875bb16d08c238892a017c347a7c5881860edd514582311be",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/sample_action_request.json",
+      "bytes": 588,
+      "sha256": "dfd758e509acc194acce614040570c75ff5d0b107e44c9d16eb1c31dfc550821",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/sample_comparison.json",
+      "bytes": 2594,
+      "sha256": "ef462c412415ba4b1ca54e5b90634698057fe61522e2ffdbc3812764fb36fbd7",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/sample_known_null_comparison.json",
+      "bytes": 1738,
+      "sha256": "4893d5377662e290163ae903d0b62fc623c66c31101a45d213ec4694047de534",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/sample_report.json",
+      "bytes": 2151,
+      "sha256": "3cb69146b26c2dd75064c896ddcb6ce7eb6a6a255611a8eb598c5d9dc5a5c42c",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "plugins/review-visible-design/tests/sample_request.json",
+      "bytes": 553,
+      "sha256": "24a8f8949b01c2653056c722fca3c1bcf415ebc2d6ad95e6b5a0628cc8f7d4ed",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/app.js",
+      "bytes": 24960,
+      "sha256": "296cfe3b42b5bfa1e8964f55a7f3ad48d5daafe4a43707395acf1fad1d1ce2f4",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/fixture.js",
+      "bytes": 2268,
+      "sha256": "9bdde349b321c0e41e86d94f40cf519288dc85e7e0f1529a4f9cf106b3870d0a",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/index.html",
+      "bytes": 3318,
+      "sha256": "247e15520c81b6f63be6e724e6bf9f416bd5a8dd0ed026047ec429b2c1352bf5",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/model.js",
+      "bytes": 8577,
+      "sha256": "cabc697b8ec49d2237fa97bfccb63162e8b100658dd1e10d7a13f4ae80b2b9db",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/styles.css",
+      "bytes": 26392,
+      "sha256": "8e54cc7749231bddf799bba73676fa388e373693f0f03722ebc59d37e4da5582",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/test-app-wiring.cjs",
+      "bytes": 13763,
+      "sha256": "55d856e42697d4ebaf99e3c145296a9e00f8cb44b4979d10cc7c6afa9efe3282",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/booking_flows_oct4/fixture.json",
+      "bytes": 1564,
+      "sha256": "272dfbe68ae00ababbd738d3a2e4e6d0cfe5822485e18034df64f9dbab1a21c0",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/comparison_assets/learning_layout/fixture.json",
+      "bytes": 11806,
+      "sha256": "57dab36b6e6504574c1252eed1f01bd2ccf88066f54b38483d67e446d4a003f6",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/comparison_assets/learning_layout/same_fixture_learning.html",
+      "bytes": 42571,
+      "sha256": "991ff2e91fdb5675d59e6b379a10eae7d13cb946fcd7602879175cb5f0c20ee4",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/comparison_assets/learning_layout/tests/state_checks.mjs",
+      "bytes": 11743,
+      "sha256": "794850cf26d33087ee5b2bc2274eea584f2df7153c30cf4784d297957da7d2b9",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/do_not_slop_copy/copy_examples.html",
+      "bytes": 20635,
+      "sha256": "0c8ef58d152991898b627831f8accecaffaa9d8ca4956b56011cdc5c7cf291c3",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/app.mjs",
+      "bytes": 14704,
+      "sha256": "722d32ab3f6705c83cb26c14bfb78620b787d64ac964308ee53ba774179d7731",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/fixture.json",
+      "bytes": 1422,
+      "sha256": "3aa1c37dea285cf1a1e88302366b2d737cf70d1dfaae178f30002db14a3d6fbe",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/focus.mjs",
+      "bytes": 438,
+      "sha256": "53ebf52e7528f87d58130fc60134f95aedf0a07bb85e9ad4503224208dd233a9",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/index.html",
+      "bytes": 2555,
+      "sha256": "8116a3c44cce22bd6d738a2eddaa1c358a331db48bb6b3fb5a5c29b29c7bd760",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/state.mjs",
+      "bytes": 7120,
+      "sha256": "ad6c7d3f56bfe69ecde85c6b758a3547568fd9dbb997eff5d81f9344c12f46cc",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/style.css",
+      "bytes": 13991,
+      "sha256": "b2aa63123e8100813e0b0f19ec65b131176d3a715e6c8dcf38f1a7468ac6be3c",
+      "kind": "unchanged_source"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/tests.mjs",
+      "bytes": 12016,
+      "sha256": "2ad6905b6baa4e5d17c28b9ee9333637a21430864f93c7be5f699959278a1f60",
+      "kind": "unchanged_source"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>학습 화면 · 같은 데이터, 다른 구조</title>
+<style>
+:root{--ink:#202621;--sub:#555e57;--line:#d6dbd4;--paper:#fff;--canvas:#f0f2ec;--green:#244f3d;--green-soft:#e9f0e8;--accent:#a94324;--radius:10px;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;color:var(--ink);background:var(--canvas);font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,select,input{font:inherit}button,select{min-height:44px}button{cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:6px;padding:10px 13px;font-weight:650;line-height:1.4}button:hover{border-color:var(--green);background:#f4f7f2}button:disabled{cursor:default;opacity:.5}button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #d35329;outline-offset:3px}a{color:var(--green);text-underline-offset:3px}p{margin:0}h1,h2,h3,h4{margin:0;word-break:keep-all;overflow-wrap:anywhere}h1{font-size:clamp(23px,2.6vw,34px);letter-spacing:-.04em;line-height:1.25}.demo-shell{max-width:1560px;margin:auto;padding:32px 28px 48px}.eyebrow{font-size:12px;letter-spacing:.08em;font-weight:750;color:var(--sub)}.demo-header{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}.demo-header h1{margin-top:8px}.demo-header p{margin-top:12px;font-size:14px;color:var(--sub);line-height:1.7;max-width:710px}.approval{border:1px solid #b6c2b4;border-radius:999px;padding:8px 12px;white-space:nowrap;font-size:12px;background:#fff}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:24px 0 14px;border-top:1px solid var(--line);padding-top:18px}.case-control{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.case-control label{font-size:13px;font-weight:650}select{border:1px solid #acb8ab;border-radius:6px;background:#fff;padding:9px 32px 9px 11px;max-width:100%}.toolbar-hint{font-size:12px;color:var(--sub)}.mobile-choice{display:none;gap:6px}.mobile-choice button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}.sync-status{font-size:13px;line-height:1.6;color:var(--green);padding:9px 0 14px;min-height:43px}.comparison{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}.panel{min-width:0;container-type:inline-size;container-name:pane}.panel-label{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}.panel-label h2{font-size:15px}.panel-label span{font-size:12px;color:var(--sub)}.app-screen{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;min-width:0}.app-nav{padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e7ebe5;font-size:13px}.brand{font-weight:800;letter-spacing:-.03em;display:flex;align-items:center;gap:7px}.brand-mark{width:13px;height:13px;display:inline-block;background:var(--green);border-radius:2px;transform:rotate(-12deg)}.app-nav .nav-place{color:var(--sub)}.app-content{padding:24px}.before .app-content{padding:20px}.generic-hero{min-height:176px;padding:30px 24px;background:linear-gradient(125deg,#e6f0fb,#f0e8fa 55%,#f5efe6);border:1px solid #dfddec;border-radius:12px;text-align:center;display:grid;align-content:center;gap:10px}.generic-hero .hello{font-size:12px;color:#5b5280;font-weight:700;letter-spacing:.1em}.generic-hero h3{font-size:26px;color:#393358;line-height:1.3}.generic-hero p{font-size:13px;line-height:1.7;color:#605a77}.redundant-guide{padding:18px;margin:16px 0 24px;border:1px solid #e2e5ef;background:#f9faff;border-radius:9px;font-size:13px;line-height:1.7;color:#5b6170;min-height:78px}.section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:14px}.section-heading h3{font-size:19px;letter-spacing:-.03em}.section-heading .count{font-size:12px;color:var(--sub)}.generic-course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0;padding:0;list-style:none}.course-card{border:1px solid #dce1e7;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0;background:#fff}.course-card .thumbnail{width:100%;height:auto;aspect-ratio:4/3}.course-card .course-main{padding:14px;display:flex;flex-direction:column;flex:1;gap:12px}.course-card h4{font-size:17px;line-height:1.5;letter-spacing:-.025em;min-height:3em}.course-card .course-type{font-size:11px;line-height:1.6;color:var(--sub)}.course-card .fact-lines{font-size:12px;line-height:1.75;display:grid;gap:6px}.course-card .next-task{padding-top:10px;border-top:1px solid #e3e8e2;font-size:12px;line-height:1.7}.course-card .course-action{margin-top:auto;padding-top:6px}.course-card .course-action button{width:100%;background:#6557a1;border-color:#6557a1;color:#fff;font-size:12px;padding:10px 7px}.thumbnail{min-width:0;overflow:hidden;background:var(--wash);color:var(--accent)}.thumbnail svg{display:block;width:100%;height:100%}.course-type{font-size:12px;line-height:1.6;color:var(--sub)}.current-label{font-size:11px;font-weight:750;color:var(--green);min-height:18px}.muted-label{color:var(--sub);font-weight:450}.fact-lines{color:#49534b}.fact-lines p{word-break:keep-all;overflow-wrap:anywhere}.fact-name{color:var(--sub);font-size:11px;font-weight:600;margin-right:5px}.progress-block{font-size:12px;line-height:1.5}.progress-copy{display:flex;gap:5px;flex-wrap:wrap;justify-content:space-between;align-items:baseline}.progress-track{height:5px;border-radius:10px;background:#e4e8e1;margin-top:7px;overflow:hidden}.progress-track span{display:block;height:100%;background:var(--green);width:var(--progress)}.after .section-heading{margin-bottom:16px}.task-course-list{list-style:none;margin:0;padding:0}.course-focus{border:1px solid #b8cab8;border-left:4px solid var(--green);border-radius:9px;background:#f6f9f3;padding:20px;margin-bottom:22px;min-width:0}.focus-top{display:flex;gap:15px;align-items:flex-start;margin-bottom:15px}.focus-top .thumbnail{width:84px;aspect-ratio:4/3;flex:none;border-radius:5px}.focus-title{min-width:0;flex:1}.focus-title h4{font-size:23px;line-height:1.4;letter-spacing:-.035em;margin:4px 0}.course-focus .next-task{border-top:1px solid #d5dfcf;padding-top:14px}.next-task .next-kicker{display:block;font-size:11px;font-weight:700;color:var(--sub);margin-bottom:5px}.course-focus .next-task .next-name{display:block;font-size:20px;line-height:1.5;font-weight:700;letter-spacing:-.025em;word-break:keep-all;overflow-wrap:anywhere}.course-focus .next-task .next-time{display:block;font-size:12px;color:var(--sub);margin-top:5px}.course-focus .progress-block{margin-top:15px}.course-focus .fact-lines{font-size:12px;line-height:1.7;display:grid;gap:4px;margin-top:15px}.course-focus .course-action{margin-top:16px}.course-focus .course-action button{background:var(--green);color:white;border-color:var(--green);min-width:160px;font-size:14px}.course-row{border-top:1px solid var(--line);padding:17px 0;display:grid;grid-template-columns:60px minmax(0,1fr);gap:13px;min-width:0}.course-row .thumbnail{width:60px;aspect-ratio:4/3;border-radius:4px;align-self:start}.row-body{min-width:0}.row-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.row-title{min-width:0}.course-row h4{font-size:16px;line-height:1.5;letter-spacing:-.025em;margin:3px 0}.course-row .course-action{flex:none;align-self:center}.course-row .course-action button{font-size:12px;min-width:96px;min-height:44px}.course-row .fact-lines{font-size:12px;line-height:1.7;display:grid;gap:3px;margin:9px 0}.course-row .next-task{font-size:12px;line-height:1.7;margin-top:8px}.course-row .next-kicker{display:inline;font-size:11px;font-weight:600;margin-right:5px}.course-row .next-name{font-weight:650}.course-row .next-time{font-size:11px;margin-left:5px;color:var(--sub)}.course-row .progress-copy{justify-content:flex-start;gap:9px}.course-row .progress-track{max-width:240px;height:4px}.empty-state{padding:32px 20px;border:1px dashed #afbdad;border-radius:8px;display:grid;gap:12px;text-align:center}.empty-state h4{font-size:20px}.empty-state p{font-size:13px;line-height:1.7;color:var(--sub)}.empty-state button{justify-self:center}.lesson-workspace{border:1px solid #b7c4b4;background:#fff;border-radius:8px;padding:20px;margin-top:22px;min-width:0}.after .lesson-workspace{margin:0 0 22px;border-top:4px solid var(--green)}.lesson-meta{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;font-size:12px;line-height:1.6;color:var(--sub)}.lesson-meta button{min-height:44px;font-size:12px;padding:8px 10px}.lesson-workspace h4{font-size:22px;letter-spacing:-.03em;line-height:1.5;margin:8px 0 16px}.lesson-copy{font-size:14px;line-height:1.9;display:grid;gap:10px;word-break:keep-all;overflow-wrap:anywhere}.checkpoint{padding:18px 0 0;margin:18px 0 0;border:0;border-top:1px solid var(--line);min-width:0}.checkpoint legend{float:left;width:100%;font-size:14px;font-weight:750;line-height:1.7;padding:0;margin-bottom:12px;word-break:keep-all;overflow-wrap:anywhere}.answers{clear:both;display:grid;gap:7px}.answer-option{border:1px solid #dbe0d8;border-radius:5px;display:flex;align-items:flex-start;gap:9px;padding:11px;font-size:13px;line-height:1.7;min-height:44px;cursor:pointer}.answer-option:has(input:checked){border-color:var(--green);background:#f0f5ed}.answer-option input{flex:none;margin:5px 0 0;width:16px;height:16px;accent-color:var(--green)}.lesson-feedback{font-size:13px;line-height:1.7;padding:11px 12px;background:#edf3e9;color:#244f3d;margin-top:12px;border-left:3px solid #527b44;word-break:keep-all;overflow-wrap:anywhere}.lesson-feedback.error{color:#8a311b;background:#fcf0e9;border-color:#b34f2d}.lesson-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.lesson-actions .primary{background:var(--green);color:#fff;border-color:var(--green)}.completion-policy{font-size:11px;line-height:1.7;color:var(--sub);margin-top:10px}.correction-notes{margin-top:32px;padding-top:24px;border-top:1px solid #c9d2c4;max-width:980px}.correction-notes summary{font-size:16px;font-weight:750;cursor:pointer;padding:10px 0;min-height:44px}.correction-notes p,.correction-notes li{font-size:13px;line-height:1.8}.correction-notes ol{padding-left:22px;display:grid;gap:9px}.correction-notes .limits{margin-top:14px;color:var(--sub)}.no-js{padding:16px;background:#fcf0e9}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@container pane (max-width:480px){.generic-course-grid{grid-template-columns:1fr}.course-card{display:grid;grid-template-columns:90px minmax(0,1fr)}.course-card .thumbnail{width:90px;height:auto;aspect-ratio:4/3}.course-card h4{min-height:0}.course-card .course-main{padding:14px}.course-row .row-header{flex-direction:column;gap:5px}.course-row .course-action{align-self:flex-start}.course-focus{padding:16px}.focus-top .thumbnail{width:64px}.focus-title h4{font-size:20px}.course-focus .next-task .next-name{font-size:18px}}
+@media(max-width:900px){.demo-shell{padding:22px 16px 36px}.demo-header{flex-direction:column;gap:12px}.approval{align-self:flex-start}.toolbar{align-items:flex-start;flex-direction:column;gap:12px}.toolbar-hint{display:none}.mobile-choice{display:flex}.comparison{grid-template-columns:minmax(0,1fr)}.panel{display:none}body[data-mobile-view="before"] .panel.before,body[data-mobile-view="after"] .panel.after{display:block}.app-content,.before .app-content{padding:18px}.app-nav{padding:14px 18px}.panel-label span{font-size:11px}.lesson-workspace{padding:16px}.generic-hero{padding:24px 18px}.generic-hero h3{font-size:23px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media(min-width:901px){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body data-mobile-view="after">
+<main class="demo-shell">
+<header class="demo-header"><div><div class="eyebrow">CONSTRUCTED COMPARISON / LEARNING</div><h1>같은 학습, 다른 화면 구조</h1><p>직접 만든 가상 비교판입니다. 동일한 강의·수업·조건·행동을 두 화면에 배치하고, 한쪽에서 바꾼 진행 상태를 양쪽에 반영합니다. 실제 제품의 개편이나 측정된 사용성 개선을 뜻하지 않습니다.</p></div><span class="approval">사용자 검수 대기</span></header>
+<div class="toolbar"><div class="case-control"><label for="case-select">비교 상태</label><select id="case-select" data-focus-key="case-select"><option value="baseline">기본 · 학습 중</option><option value="empty">빈 강의 목록</option><option value="completed">모든 강의 완료</option><option value="long_title">긴 한글 제목</option></select><button type="button" id="reset-state" data-command="RESET" data-focus-key="reset-state">선택 상태 초기화</button></div><p class="toolbar-hint">강의를 열고 확인 문제를 풀어 보세요 · 진행은 이 페이지에서만 유지</p><div class="mobile-choice" role="group" aria-label="작은 화면 비교 보기"><button type="button" data-command="VIEW" data-view="before" data-focus-key="view-before" aria-pressed="false">수정 전</button><button type="button" data-command="VIEW" data-view="after" data-focus-key="view-after" aria-pressed="true">수정 후</button></div></div>
+<p id="sync-status" class="sync-status" role="status" aria-live="polite" aria-atomic="true">같은 시작 상태 · 진행 2/6, 0/4, 5/5</p>
+<noscript><p class="no-js">이 비교판의 상태 동기화와 수업 확인에는 JavaScript가 필요합니다.</p></noscript>
+<div class="comparison"><section class="panel before" aria-labelledby="before-label"><div class="panel-label"><h2 id="before-label">수정 전</h2><span>환영 → 사용법 → 동일 카드</span></div><div id="before-root" class="app-screen"></div></section><section class="panel after" aria-labelledby="after-label"><div class="panel-label"><h2 id="after-label">수정 후</h2><span>현재 수업 → 나머지 강의</span></div><div id="after-root" class="app-screen"></div></section></div>
+<details class="correction-notes" open><summary>눈에 보이는 교정 지시와 검수 조건</summary><ol><li><strong>V05 / 순서를 과업에 맞춘다.</strong> 환영 히어로와 반복 사용법 컨테이너를 함께 제거한다. 현재 강의를 맨 위에 두고 나머지 강의는 구분선이 있는 압축 행으로 바꾼다. 검수: 강의 3개와 각 고유 정보·행동이 양쪽에 그대로 남아야 한다.</li><li><strong>V06 / 실제 수업이 중심을 차지한다.</strong> 현재 강의의 다음 수업명·소요 시간·학습 열기를 묶는다. 수업을 열면 수정 후에서는 수업 본문과 확인 문제를 강의 목록보다 먼저 배치한다. 검수: 어느 쪽에서 열어도 같은 수업과 답 상태를 보여야 한다.</li><li><strong>V07 / 반복 문구와 그 빈 자리까지 없앤다.</strong> ‘목록에서 강의를 선택하면…’과 분위기 문구만 삭제한다. 학습 목표·준비물·무료 조건·완료 규칙·오류 복구는 같은 값으로 행동 가까이 남긴다. 검수: 확인 문제 오답을 알려야 하고, 정답 확인 전에는 완료를 막아야 한다.</li><li><strong>긴 제목·빈 목록·완료 상태를 양쪽에 같이 적용한다.</strong> 한글은 여러 줄로 표시하며 고정 카드 높이와 말줄임을 쓰지 않는다. 작은 화면은 수정 전/후 버튼으로 바꾼다. 검수: 320px·390px·200% 글자 확대·키보드·스크린 리더는 실제 브라우저에서 별도로 확인해야 한다.</li></ol><p>참고 근거: <a href="https://moodle.com/news/find-your-way-around-moodle-4-0/" rel="noreferrer">Moodle의 과정 위치·완료 표시</a> · <a href="https://design-histories.education.gov.uk/connect-families-to-support/iterating-search-find" rel="noreferrer">DfE의 설명을 결과 가까이 두는 결정</a>. 이 예시의 구성·치수·학습 자료는 직접 만든 제안입니다.</p><p class="limits">현재 확인: 소스 수준 DOM 구조·정보 동등성·공유 상태 테스트. 실제 데스크톱/모바일 렌더링·포커스·접근성·사용자 승인: 미검수.</p></details>
+</main>
+<script id="fixture-data" type="application/json">{
+  "fixtureVersion": "1.0.0",
+  "identity": "own_constructed_comparison",
+  "userApprovalStatus": "pending",
+  "locale": "ko-KR",
+  "appName": "작은 배움",
+  "progressPolicy": "A correct local checkpoint answer is required before an unfinished lesson can be completed. Review does not remove or add completion.",
+  "cases": [
+    {"id": "baseline", "label": "기본 · 학습 중"},
+    {"id": "empty", "label": "빈 강의 목록"},
+    {"id": "completed", "label": "모든 강의 완료"},
+    {"id": "long_title", "label": "긴 한글 제목"}
+  ],
+  "longTitle": "관찰한 문제를 사용자 행동과 연결해 검증 가능한 가설로 바꾸는 실무자를 위한 인터페이스 설계 입문 과정",
+  "initialCompleted": {"observe": ["o1", "o2"], "words": [], "reading": ["r1", "r2", "r3", "r4", "r5"]},
+  "courses": [
+    {
+      "id": "observe", "title": "관찰에서 가설까지", "category": "리서치", "level": "입문",
+      "objective": "관찰 근거가 있는 개선 가설 한 문장을 쓴다",
+      "prerequisite": "준비물: 최근 사용한 앱 화면 한 장",
+      "access": "조건: 무료 · 가입 없이 이 예시에서 학습",
+      "thumbnail": {"number": "01", "label": "관찰", "line": "NOTE → TEST", "accent": "#a94324", "wash": "#f8e8dd"},
+      "lessons": [
+        {"id": "o1", "title": "판단 대신 행동 기록하기", "minutes": 8, "body": ["‘어려워 보였다’는 해석이다. ‘버튼을 두 번 누른 뒤 이전 화면으로 돌아갔다’는 관찰이다.", "시간, 화면, 행동을 함께 적으면 다른 사람도 같은 근거를 검토할 수 있다."], "question": "관찰 기록에 더 가까운 문장은?", "options": ["이 화면은 별로다", "사용자가 필터를 열고 아무 항목도 고르지 않은 채 닫았다", "사용자는 항상 빠른 화면을 좋아한다"], "correctIndex": 1, "explanation": "화면에서 일어난 행동을 기록해야 해석을 나중에 검토할 수 있다."},
+        {"id": "o2", "title": "막힌 지점 좁히기", "minutes": 12, "body": ["여러 불편을 한꺼번에 해결하려 하면 무엇이 바뀌었는지 알기 어렵다.", "이번 과업, 막힌 순간, 필요한 정보를 하나씩 정해 문제의 범위를 좁힌다."], "question": "검토할 범위를 가장 잘 좁힌 질문은?", "options": ["우리 앱 전체가 왜 나쁠까?", "결제 전 배송비를 확인할 수 있는가?", "모든 사용자에게 더 즐겁게 만들 수 있을까?"], "correctIndex": 1, "explanation": "하나의 과업과 확인할 정보를 정하면 수정의 효과를 검토할 수 있다."},
+        {"id": "o3", "title": "가설을 한 문장으로 쓰기", "minutes": 10, "body": ["가설은 바꿀 요소, 예상하는 행동, 확인할 근거를 연결한다.", "예: ‘배송비를 결제 버튼 옆에 두면, 사용자가 총액을 확인한 뒤 주문할 수 있는지 과업 관찰로 확인한다.’ 결과를 미리 사실로 단정하지 않는다."], "question": "검증 가능한 가설에 필요한 것은?", "options": ["바꿀 요소와 확인할 사용자 행동", "모든 화면에 같은 카드 모양", "실험 전부터 개선을 확정한 문구"], "correctIndex": 0, "explanation": "무엇을 바꾸고 어떤 행동을 확인할지 있어야 가설을 검증할 수 있다."},
+        {"id": "o4", "title": "비교 조건 맞추기", "minutes": 9, "body": ["수정 전후의 상품, 수량, 조건이 다르면 레이아웃 차이와 내용 차이를 구분하기 어렵다.", "같은 데이터와 상태를 공유하고 구조만 바꾼다. 긴 제목과 오류도 양쪽에 같이 적용한다."], "question": "레이아웃 비교에서 먼저 맞출 것은?", "options": ["수정 후의 더 짧은 제목", "전후의 데이터와 상태", "각 화면의 서로 다른 버튼 기능"], "correctIndex": 1, "explanation": "같은 데이터와 상태를 써야 구조 차이를 구체적으로 검토할 수 있다."},
+        {"id": "o5", "title": "성공과 실패 기준 정하기", "minutes": 14, "body": ["측정할 행동과 실패 신호를 수정 전에 정한다.", "빠른 클릭만 보지 않고 필요한 조건을 이해했는지, 잘못된 완료가 늘지 않았는지도 확인한다."], "question": "수정 전에 정할 검수 기준은?", "options": ["예쁜 느낌만", "사용자가 조건을 확인하고 올바르게 완료하는가", "클릭 수가 줄면 무조건 성공"], "correctIndex": 1, "explanation": "속도뿐 아니라 조건 이해와 올바른 완료를 함께 검토해야 한다."},
+        {"id": "o6", "title": "근거와 한계 남기기", "minutes": 11, "body": ["제작자가 의도한 수정과 실제로 확인한 결과를 구분해 쓴다.", "브라우저 검수를 하지 않았다면 미실행으로 남긴다. 몇 번의 관찰을 모든 사용자에게 일반화하지 않는다."], "question": "아직 화면 검수를 하지 않았다면?", "options": ["사용성이 개선됐다고 발표한다", "모바일도 통과했다고 쓴다", "미실행 검수와 남은 한계를 명시한다"], "correctIndex": 2, "explanation": "확인하지 않은 결과는 미실행으로 남겨야 다음 검수를 정확하게 계획할 수 있다."}
+      ]
+    },
+    {
+      "id": "words", "title": "인터페이스 글쓰기", "category": "콘텐츠", "level": "입문",
+      "objective": "조건을 남기고 반복 사용법을 줄인다",
+      "prerequisite": "준비물: 버튼과 안내문이 있는 화면 한 장",
+      "access": "조건: 무료 · 가입 없이 이 예시에서 학습",
+      "thumbnail": {"number": "02", "label": "문장", "line": "NAME → ACT", "accent": "#3563a4", "wash": "#e9f0fa"},
+      "lessons": [
+        {"id": "w1", "title": "이름과 안내 구분하기", "minutes": 8, "body": ["항목 이름과 버튼이 이미 행동을 설명한다면 같은 사용법을 다시 적을 필요가 줄어든다.", "대상, 조건, 결과가 있는 문장은 이름과 다르다. 이를 지우기 전에 사용자가 잃는 판단 정보를 확인한다."], "question": "먼저 삭제를 검토할 문장은?", "options": ["무료 체험 종료 후 월 9,900원", "목록에서 항목을 선택하면 항목을 선택할 수 있습니다", "이 작업은 되돌릴 수 없습니다"], "correctIndex": 1, "explanation": "이미 보이는 사용법을 반복하는 문장부터 검토하고 조건과 위험은 남긴다."},
+        {"id": "w2", "title": "행동 이름 쓰기", "minutes": 10, "body": ["‘확인’만으로는 무엇이 일어날지 알기 어려울 수 있다.", "‘변경 저장’처럼 행동과 대상을 함께 쓰고, 결과가 큰 행동은 필요한 조건도 가까이 둔다."], "question": "수정한 값을 보관하는 버튼 이름은?", "options": ["변경 저장", "멋진 시작", "다음 이야기"], "correctIndex": 0, "explanation": "행동과 대상을 함께 쓰면 버튼의 결과를 구체적으로 예상할 수 있다."},
+        {"id": "w3", "title": "조건을 행동 가까이 두기", "minutes": 12, "body": ["조건을 하단 도움말에만 두면 선택 전에 보지 못할 수 있다.", "비용, 자격, 되돌릴 수 없는 결과를 해당 행동이나 선택지 가까이 둔다."], "question": "구독 요금은 어디에 둘까?", "options": ["결제 버튼 가까이", "상관없는 환영 문구 사이", "숨겨진 이미지 안에만"], "correctIndex": 0, "explanation": "요금처럼 판단을 바꾸는 조건은 행동 전에 확인할 수 있어야 한다."},
+        {"id": "w4", "title": "삭제한 자리 다시 배치하기", "minutes": 9, "body": ["설명문만 지우고 높이가 고정된 카드를 남기면 빈 공간이 그대로 남는다.", "불필요한 컨테이너와 최소 높이도 함께 없애고 실제 내용의 정렬과 간격을 다시 맞춘다."], "question": "불필요한 설명 배너를 지운 다음 할 일은?", "options": ["빈 배너 높이를 유지한다", "새 홍보 문구로 채운다", "컨테이너와 간격도 제거해 작업을 위로 옮긴다"], "correctIndex": 2, "explanation": "설명 삭제와 공간 재배치가 함께 이뤄져야 구조가 바뀐다."}
+      ]
+    },
+    {
+      "id": "reading", "title": "작은 화면의 읽기 설계", "category": "레이아웃", "level": "입문",
+      "objective": "긴 제목과 조건이 잘리지 않는 읽기 흐름을 만든다",
+      "prerequisite": "준비물: 긴 제목과 짧은 제목 각각 하나",
+      "access": "조건: 무료 · 가입 없이 이 예시에서 학습",
+      "thumbnail": {"number": "03", "label": "읽기", "line": "TYPE → FLOW", "accent": "#47705e", "wash": "#e9f1eb"},
+      "lessons": [
+        {"id": "r1", "title": "읽기 순서 정하기", "minutes": 9, "body": ["크기, 대비, 간격은 읽기 순서에 영향을 준다.", "가장 필요한 답과 행동을 먼저 정한 다음 제목과 보조 정보를 묶는다."], "question": "화면의 위계를 정할 때 먼저 묻는 것은?", "options": ["어떤 장식을 더할까?", "사용자가 먼저 알아야 할 것은 무엇인가?", "모든 글자를 굵게 할까?"], "correctIndex": 1, "explanation": "사용자 과업에 필요한 정보부터 정해야 위계의 이유를 설명할 수 있다."},
+        {"id": "r2", "title": "긴 제목 줄바꿈하기", "minutes": 11, "body": ["긴 제목을 무조건 한 줄로 제한하면 중요한 차이가 사라질 수 있다.", "행 높이가 내용에 맞게 늘어나게 하고, 버튼과 상태가 제목 위에 겹치지 않게 한다."], "question": "긴 제목에 적합한 기본 처리는?", "options": ["여러 줄로 표시하고 행 높이를 늘린다", "조건까지 모두 말줄임한다", "버튼을 제목 위에 겹친다"], "correctIndex": 0, "explanation": "내용에 따라 높이가 늘어나야 제목과 행동 영역이 충돌하지 않는다."},
+        {"id": "r3", "title": "목록의 기준선 맞추기", "minutes": 10, "body": ["썸네일, 제목, 상태, 행동이 일정한 축을 가지면 서로 비교하기 쉽다.", "다만 모든 내용을 같은 높이의 카드에 억지로 맞추지 않는다."], "question": "목록 정렬의 목적은?", "options": ["내용과 상관없이 높이를 고정하기", "정보 위치를 예측하고 비교하기", "모든 행에 장식을 붙이기"], "correctIndex": 1, "explanation": "정렬은 정보 위치를 예측하도록 돕되 내용 길이를 숨기면 안 된다."},
+        {"id": "r4", "title": "좁은 화면에서 행동 남기기", "minutes": 12, "body": ["작은 화면에서는 보조 열을 다른 위치로 옮길 수 있다.", "현재 상태와 핵심 행동은 남기고, 숨긴 정보로 다시 돌아올 수 있는 경로를 유지한다."], "question": "모바일 전환에서도 남겨야 할 것은?", "options": ["큰 환영 이미지", "현재 상태와 핵심 행동", "사용법을 반복하는 문단"], "correctIndex": 1, "explanation": "과업 수행에 필요한 상태와 행동은 화면 크기와 상관없이 발견할 수 있어야 한다."},
+        {"id": "r5", "title": "확대와 키보드 확인하기", "minutes": 8, "body": ["소스에서 줄바꿈 규칙을 썼다는 사실만으로 실제 화면 검수가 끝나지는 않는다.", "지원 브라우저에서 좁은 폭, 글자 확대, 키보드 포커스를 각각 확인한다."], "question": "소스 테스트 뒤에도 필요한 것은?", "options": ["실제 브라우저의 확대·포커스·줄바꿈 검수", "테스트를 했다고 가정하기", "모든 접근성 결과를 자동 통과 처리하기"], "correctIndex": 0, "explanation": "소스 검사는 실제 렌더링과 보조 기술 검수를 대체하지 않는다."}
+      ]
+    }
+  ]
+}</script>
+<script id="learning-app">
+'use strict';
+(() => {
+const fixture = JSON.parse(document.getElementById('fixture-data').textContent);
+const deepFreeze = obj => { Object.freeze(obj); Object.values(obj).forEach(v => { if (v && typeof v === 'object' && !Object.isFrozen(v)) deepFreeze(v); }); return obj; };
+deepFreeze(fixture);
+const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fact = (key, value, tag='span', cls='') => `<${tag} data-fact-key="${escape(key)}" data-fact-value="${escape(value)}"${cls?` class="${cls}"`:''}>${escape(value)}</${tag}>`;
+const courseById = id => fixture.courses.find(c => c.id === id);
+let state;
+const makeState = (caseId='baseline', mobileView='after') => ({ caseId, mobileView, enrolled:caseId==='empty'?[]:fixture.courses.map(c=>c.id), completed:Object.fromEntries(fixture.courses.map(c=>[c.id,caseId==='completed'?c.lessons.map(l=>l.id):[...fixture.initialCompleted[c.id]]])), selectedCourseId:caseId==='empty'?null:fixture.courses[0].id, active:null, answer:null, feedback:null, ready:false, notice:caseId==='baseline'?'같은 시작 상태 · 진행 2/6, 0/4, 5/5':`${fixture.cases.find(c=>c.id===caseId).label} · 두 화면에 같은 상태 적용` });
+state=makeState();
+function courseSnapshot(id) {
+ const course=courseById(id); const completed=state.completed[id]; const next=course.lessons.find(l=>!completed.includes(l.id));
+ return {course,title:state.caseId==='long_title'&&id==='observe'?fixture.longTitle:course.title,done:completed.length,total:course.lessons.length,percent:Math.round(completed.length/course.lessons.length*100),next,status:completed.length===course.lessons.length?'완료':completed.length?'학습 중':'시작 전',totalMinutes:course.lessons.reduce((a,l)=>a+l.minutes,0),selected:state.selectedCourseId===id};
+}
+function thumbnail(course) {
+ const t=course.thumbnail;
+ return `<div class="thumbnail" role="img" aria-label="${escape(t.label)} 강의 썸네일" data-fact-key="${course.id}.thumbnail" data-fact-value="${escape(JSON.stringify(t))}" style="--accent:${t.accent};--wash:${t.wash}"><svg viewBox="0 0 200 150" aria-hidden="true"><rect x="0" y="0" width="200" height="150" fill="${t.wash}"/><path d="M120 15h65v120h-65M134 36h35M134 48h35M134 60h23" fill="none" stroke="${t.accent}" stroke-width="2" opacity=".45"/><text x="18" y="69" font-size="51" font-family="system-ui,sans-serif" font-weight="750" fill="${t.accent}">${t.number}</text><text x="20" y="100" font-size="17" font-family="system-ui,sans-serif" font-weight="650" fill="${t.accent}">${t.label}</text><text x="20" y="128" font-size="10" font-family="system-ui,sans-serif" letter-spacing="1" fill="${t.accent}">${t.line}</text></svg></div>`;
+}
+function courseHeading(s) {
+ return `<div class="current-label ${s.selected?'':'muted-label'}">${fact(`${s.course.id}.selection`,s.selected?'현재 강의':'수강 강의')}</div>${fact(`${s.course.id}.title`,s.title,'h4')}<div class="course-type">${fact(`${s.course.id}.category`,s.course.category)} · ${fact(`${s.course.id}.level`,s.course.level)} · ${fact(`${s.course.id}.totalDuration`,`${s.totalMinutes}분`)}</div>`;
+}
+function courseFacts(s) {
+ const id=s.course.id;
+ return `<div class="fact-lines"><p><span class="fact-name">목표</span>${fact(`${id}.objective`,s.course.objective)}</p><p>${fact(`${id}.prerequisite`,s.course.prerequisite)}</p><p>${fact(`${id}.access`,s.course.access)}</p></div>`;
+}
+function progress(s) {
+ return `<div class="progress-block"><div class="progress-copy">${fact(`${s.course.id}.status`,s.status)}${fact(`${s.course.id}.progress`,`${s.done}/${s.total}수업 · ${s.percent}%`)}</div><div class="progress-track" role="progressbar" aria-label="${escape(s.title)} 학습 진행" aria-valuemin="0" aria-valuemax="${s.total}" aria-valuenow="${s.done}" aria-valuetext="${s.done}/${s.total}수업 · ${s.percent}%"><span style="--progress:${s.percent}%"></span></div></div>`;
+}
+function nextTask(s) {
+ const id=s.course.id;
+ return `<div class="next-task"><span class="next-kicker">${fact(`${id}.nextLabel`,s.next?'다음 수업':'남은 수업')}</span>${fact(`${id}.nextTitle`,s.next?s.next.title:'모든 수업 완료','span','next-name')}${fact(`${id}.nextDuration`,s.next?`${s.next.minutes}분`:'첫 수업부터 복습 가능','span','next-time')}<span class="sr-only" data-fact-key="${id}.nextId" data-fact-value="${s.next?s.next.id:'none'}">${s.next?s.next.id:'none'}</span></div>`;
+}
+function courseAction(s,view) {
+ const label=s.next?'학습 열기':'처음부터 복습';
+ return `<div class="course-action"><button type="button" data-command="OPEN_COURSE" data-course="${s.course.id}" data-focus-key="${view}-open-${s.course.id}" aria-label="${escape(s.title)} ${label}">${label}</button></div>`;
+}
+function renderCourse(id,kind,view) {
+ const s=courseSnapshot(id); const start=`<li class="course-${kind}" data-course-record="${id}">`;
+ if(kind==='card') return `${start}${thumbnail(s.course)}<div class="course-main">${courseHeading(s)}${courseFacts(s)}${progress(s)}${nextTask(s)}${courseAction(s,view)}</div></li>`;
+ if(kind==='focus') return `${start}<div class="focus-top">${thumbnail(s.course)}<div class="focus-title">${courseHeading(s)}</div></div>${nextTask(s)}${progress(s)}${courseFacts(s)}${courseAction(s,view)}</li>`;
+ return `${start}${thumbnail(s.course)}<div class="row-body"><div class="row-header"><div class="row-title">${courseHeading(s)}</div>${courseAction(s,view)}</div>${nextTask(s)}${courseFacts(s)}${progress(s)}</div></li>`;
+}
+function renderEmpty(view) {
+ return `<div class="empty-state">${fact('empty.title','아직 수강 중인 강의가 없습니다','h4')}${fact('empty.explanation','이 비교 상태에는 등록 강의가 없습니다. 기본 예시 강의를 불러오면 3개 강의가 표시됩니다.','p')}<button type="button" data-command="CASE" data-case="baseline" data-focus-key="${view}-restore">기본 강의 불러오기</button></div>`;
+}
+function renderLesson(view) {
+ if(!state.active)return '';
+ const c=courseById(state.active.courseId),l=c.lessons.find(l=>l.id===state.active.lessonId),index=c.lessons.indexOf(l)+1,review=state.completed[c.id].includes(l.id),key=`lesson.${c.id}.${l.id}`;
+ const content=l.body.map((p,i)=>fact(`${key}.body${i}`,p,'p')).join('');
+ const answers=l.options.map((option,i)=>`<label class="answer-option" for="${view}-answer-${i}"><input type="radio" id="${view}-answer-${i}" name="${view}-checkpoint" value="${i}" data-command="ANSWER" data-focus-key="${view}-answer-${i}"${state.answer===i?' checked':''}>${fact(`${key}.option${i}`,option)}</label>`).join('');
+ const feedback=state.feedback?`<p class="lesson-feedback ${state.feedback.kind==='error'?'error':''}" role="status">${fact(`${key}.feedback`,state.feedback.text)}</p>`:'';
+ const policy=review?'이미 완료한 수업을 복습하고 있습니다. 복습을 마쳐도 진행률은 바뀌지 않습니다.':'정답을 확인한 뒤 학습 완료를 누르면 진행률이 올라가고 다음 수업이 열립니다.';
+ return `<section class="lesson-workspace" aria-label="현재 수업" id="${view}-lesson-workspace"><div class="lesson-meta"><div>${fact(`${key}.position`,`${index}/${c.lessons.length}수업`)} · ${fact(`${key}.duration`,`${l.minutes}분`)} · ${fact(`${key}.mode`,review?'복습':'학습')}<br>${fact(`${key}.course`,courseSnapshot(c.id).title)}</div><button type="button" data-command="CLOSE_LESSON" data-focus-key="${view}-close">수업 닫기</button></div>${fact(`${key}.title`,l.title,'h4')}<div class="lesson-copy">${content}</div><fieldset class="checkpoint"><legend>${fact(`${key}.question`,l.question)}</legend><div class="answers">${answers}</div></fieldset>${feedback}<div class="lesson-actions"><button type="button" data-command="SUBMIT_ANSWER" data-focus-key="${view}-submit">정답 확인</button><button type="button" class="primary" data-command="COMPLETE_LESSON" data-focus-key="${view}-complete"${!state.ready?' disabled':''}>${review?'복습 마치기':'학습 완료'}</button></div>${fact(`${key}.policy`,policy,'p','completion-policy')}</section>`;
+}
+function renderView(view) {
+ const top=`<div class="app-nav"><span class="brand"><span class="brand-mark" aria-hidden="true"></span>${escape(fixture.appName)}</span><span class="nav-place">내 강의</span></div>`;
+ const heading=`<div class="section-heading"><h3>${view==='before'?'내 강의':'다음 학습'}</h3><span class="count">등록 ${state.enrolled.length}개</span></div>`;
+ if(view==='before') return `${top}<div class="app-content"><section class="generic-hero framing-copy" data-redundant-framing="welcome"><span class="hello">WELCOME BACK</span><h3>배움의 가능성을 열어 보세요</h3><p>작은 시작이 더 큰 내일을 만듭니다.<br>오늘도 나만의 성장 여정을 이어가세요.</p></section><div class="redundant-guide framing-copy" data-redundant-framing="selection">아래 강의 목록에서 원하는 강의를 선택하면<br>수업 내용을 확인하고 학습을 시작할 수 있습니다.</div>${heading}${state.enrolled.length?`<ul class="generic-course-grid">${state.enrolled.map(id=>renderCourse(id,'card',view)).join('')}</ul>`:renderEmpty(view)}${renderLesson(view)}</div>`;
+ const ordered=state.enrolled.length?[state.selectedCourseId,...state.enrolled.filter(id=>id!==state.selectedCourseId)]:[];
+ return `${top}<div class="app-content">${heading}${renderLesson(view)}${ordered.length?`<ul class="task-course-list">${ordered.map((id,i)=>renderCourse(id,i===0?'focus':'row',view)).join('')}</ul>`:renderEmpty(view)}</div>`;
+}
+function render() {
+ const activeKey=document.activeElement?.dataset?.focusKey;
+ document.getElementById('before-root').innerHTML=renderView('before');
+ document.getElementById('after-root').innerHTML=renderView('after');
+ document.getElementById('sync-status').textContent=state.notice;
+ document.getElementById('case-select').value=state.caseId;
+ document.body.dataset.mobileView=state.mobileView;
+ document.querySelectorAll('[data-command="VIEW"]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.view===state.mobileView)));
+ if(activeKey) document.querySelector(`[data-focus-key="${activeKey}"]`)?.focus({preventScroll:true});
+}
+function dispatch(command,payload={}) {
+ if(command==='CASE') {
+  if(!fixture.cases.some(c=>c.id===payload.caseId))return false;
+  state=makeState(payload.caseId,state.mobileView);
+ } else if(command==='RESET') {
+  state=makeState(state.caseId,state.mobileView);state.notice='선택한 비교 상태를 초기화했습니다. 두 화면의 진행이 같습니다.';
+ } else if(command==='VIEW') {
+  if(!['before','after'].includes(payload.view))return false;
+  state.mobileView=payload.view;
+ } else if(command==='OPEN_COURSE') {
+  if(!state.enrolled.includes(payload.courseId))return false;
+  const s=courseSnapshot(payload.courseId);state.selectedCourseId=payload.courseId;state.active={courseId:payload.courseId,lessonId:s.next?s.next.id:s.course.lessons[0].id};state.answer=null;state.feedback=null;state.ready=false;state.notice=`${s.next?s.next.title:s.course.lessons[0].title} · 두 화면에서 같은 수업을 열었습니다.`;
+ } else if(command==='CLOSE_LESSON') {
+  if(!state.active)return false;
+  state.active=null;state.answer=null;state.feedback=null;state.ready=false;state.notice='수업을 닫았습니다. 완료한 진행은 그대로 유지됩니다.';
+ } else if(command==='ANSWER') {
+  if(!state.active||!Number.isInteger(payload.value))return false;
+  const l=courseById(state.active.courseId).lessons.find(l=>l.id===state.active.lessonId);
+  if(payload.value<0||payload.value>=l.options.length)return false;
+  state.answer=payload.value;state.ready=false;state.feedback=null;
+ } else if(command==='SUBMIT_ANSWER') {
+  if(!state.active)return false;
+  const l=courseById(state.active.courseId).lessons.find(l=>l.id===state.active.lessonId);
+  if(state.answer===null){state.feedback={kind:'error',text:'답을 하나 선택한 뒤 정답 확인을 눌러 주세요.'};state.ready=false;}
+  else if(state.answer!==l.correctIndex){state.feedback={kind:'error',text:`다시 생각해 보세요. ${l.explanation}`};state.ready=false;}
+  else{state.feedback={kind:'success',text:`정답입니다. ${l.explanation}`};state.ready=true;}
+  state.notice=state.feedback.text;
+ } else if(command==='COMPLETE_LESSON') {
+  if(!state.active||!state.ready)return false;
+  const {courseId,lessonId}=state.active,c=courseById(courseId),l=c.lessons.find(l=>l.id===lessonId),review=state.completed[courseId].includes(lessonId);
+  if(review){state.notice=`${l.title} 복습을 마쳤습니다. 기존 진행은 유지됩니다.`;state.active=null;}
+  else{state.completed[courseId].push(lessonId);const next=c.lessons.find(l=>!state.completed[courseId].includes(l.id));state.active=next?{courseId,lessonId:next.id}:null;state.notice=`${l.title} 완료 · ${state.completed[courseId].length}/${c.lessons.length}수업. ${next?`다음 수업: ${next.title}`:'이 강의를 모두 완료했습니다.'}`;}
+  state.answer=null;state.feedback=null;state.ready=false;
+ } else return false;
+ render();return true;
+}
+document.addEventListener('click',event=>{
+ const button=event.target.closest('button[data-command]');if(!button||button.disabled)return;
+ const command=button.dataset.command;
+ dispatch(command,{courseId:button.dataset.course,caseId:button.dataset.case,view:button.dataset.view});
+ if(command==='OPEN_COURSE'){
+  const view=button.closest('.panel')?.classList.contains('before')?'before':'after';
+  const workspace=document.getElementById(`${view}-lesson-workspace`);
+  workspace?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'nearest'});
+ }
+});
+document.addEventListener('change',event=>{
+ if(event.target.id==='case-select')dispatch('CASE',{caseId:event.target.value});
+ else if(event.target.matches('input[data-command="ANSWER"]'))dispatch('ANSWER',{value:Number(event.target.value)});
+});
+globalThis.__learningComparison=Object.freeze({getFixture:()=>fixture,getState:()=>JSON.parse(JSON.stringify(state)),courseSnapshot:id=>{const s=courseSnapshot(id);return {...s,course:s.course};},renderView,dispatch});
+render();
+})();
+</script>
+</body>
+</html>

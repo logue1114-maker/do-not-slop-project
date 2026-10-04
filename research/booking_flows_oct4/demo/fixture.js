@@ -1,0 +1,97 @@
+/* Exact local copy of BKF4-F01. Values and policies are fictional. */
+(function(root){
+  const fixture = {
+  "fixture_id": "BKF4-F01",
+  "namespace": "booking_flows_oct4",
+  "synthetic": true,
+  "no_external_side_effects": true,
+  "fixed_now": "2026-10-04T06:10:00Z",
+  "locale": "ko-KR",
+  "time_zone": "Asia/Seoul",
+  "time_zone_label": "한국 시간 (UTC+9)",
+  "room": {
+    "id": "maple",
+    "name": "메이플 회의실",
+    "capacity": 6,
+    "duration_minutes": 60
+  },
+  "details": {
+    "meeting_name": "팀 회의",
+    "headcount": 4
+  },
+  "existing_booking": {
+    "id": "DEMO-R17",
+    "date": "2026-10-14",
+    "start": "10:00",
+    "end": "11:00",
+    "status": "confirmed_local_demo"
+  },
+  "draft": {
+    "date": "2026-10-15",
+    "start": "14:00",
+    "end": "15:00",
+    "status": "review_local_demo"
+  },
+  "availability": {
+    "2026-10-15": [
+      {
+        "start": "09:00",
+        "available": true
+      },
+      {
+        "start": "11:00",
+        "available": true
+      },
+      {
+        "start": "14:00",
+        "available": true
+      },
+      {
+        "start": "15:00",
+        "available": true
+      },
+      {
+        "start": "16:00",
+        "available": false
+      }
+    ],
+    "2026-10-16": [],
+    "2026-10-19": [
+      {
+        "start": "10:00",
+        "available": true
+      },
+      {
+        "start": "14:00",
+        "available": true
+      }
+    ]
+  },
+  "price": {
+    "currency": "KRW",
+    "room": 24000,
+    "service_fee": 2000,
+    "tax_included": true,
+    "total": 26000,
+    "charge_mode": "local_simulation_only"
+  },
+  "conditions": {
+    "free_cancel_until": "2026-10-14T14:00:00+09:00",
+    "late_cancellation_fee": 13000,
+    "policy_text": "10월 14일 14:00까지 취소 수수료 0원 · 이후 13,000원",
+    "all_amounts_are_synthetic": true
+  },
+  "availability_revision": "fixture-v1",
+  "stale_slot_simulation": {
+    "date": "2026-10-15",
+    "start": "14:00",
+    "invalidate_on_recheck": true,
+    "replacement_candidates": [
+      "15:00"
+    ]
+  },
+  "persistence": "memory_only_no_storage_no_network"
+};
+  if (typeof module === "object" && module.exports) module.exports = fixture;
+  else root.BOOKING_FIXTURE = fixture;
+})(typeof globalThis !== "undefined" ? globalThis : this);

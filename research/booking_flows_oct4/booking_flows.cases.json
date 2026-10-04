@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0.0",
+  "namespace": "booking_flows_oct4",
+  "language": "ko",
+  "researched_at": "2026-10-04",
+  "status": "research_with_authored_static_visuals_and_implementation_spec",
+  "source_groups": 3,
+  "source_documents": 4,
+  "excluded_existing_cases": [
+    "Shopify",
+    "Moodle",
+    "Linear",
+    "GOVUK informational",
+    "DfE search"
+  ],
+  "evidence_contract": {
+    "D": "저자/제품팀이 공개한 결정·수정; 실제 효과 측정과 구별",
+    "V": "cloud browser에서 원본 public UI 이미지 직접 관찰",
+    "P": "가상 회의실에 적용한 자체 correction/layout/state 제안",
+    "U": "실행 또는 측정하지 않음"
+  },
+  "source_word_policy": "원문 인용 없이 최소 사실만 한국어 요약. 직접 인용과 이미지 재배포를 release에 넣지 않는다.",
+  "measurements": {
+    "original_css_measured": false,
+    "original_usability_effect_measured": false,
+    "published_quantitative_outcomes_used": false,
+    "our_layout_units": "SVG/own demo CSS px only; not universal thresholds"
+  },
+  "rights": {
+    "source_screenshots": "research only; none bundled into release visuals",
+    "synthetic_visuals": "authored here, no third-party UI/logo/image copied",
+    "release_allowed_material": "links, short independent summaries, own synthetic visuals/spec"
+  },
+  "sources": {
+    "BKF4-S01": {
+      "title": "MoeGo Online Booking 3.0",
+      "url": "https://www.mufanlu.com/home/moego_online_booking",
+      "author": "Mufan Lu, project design lead",
+      "project_period": "2022–2023",
+      "publication_date": "not stated",
+      "kind": "original_designer_case_study",
+      "verified_at": "2026-10-04",
+      "scope": "프로젝트 담당 디자이너의 설계 결정 서술. 현재 MoeGo 운영 화면·예약 정책은 검증하지 않음",
+      "facts_ko": "디자이너는 서비스 적합성에 영향을 주는 최소 입력만 먼저 받아 가용 시간을 빨리 보여주고, 재방문자는 이전 서비스 카드와 Book Again으로 단축했다고 설명한다. 달력에서 오전·오후 가용 상태를 알려 반복 이동을 줄였다고 서술한다.",
+      "published_measurements": [],
+      "visual": {
+        "observed": true,
+        "mode": "public source image inspected in cloud browser",
+        "image_url": "https://framerusercontent.com/images/xMZS1nztGcZ2PmwetcC1iLtlx08.png?scale-down-to=1024",
+        "observed_fact_ko": "달력 날짜 아래 작은 점, 선택 날짜의 강조, AM/PM별 시간 버튼이 보인다. 점만으로 의미를 전달하는 방식의 접근성 효과나 실제 동작은 측정하지 않았다.",
+        "before_after": "해당 이미지는 단일 설계 화면; 원본 동일-state before/after 아님",
+        "rights": "원본 이미지의 재배포 허가를 확인하지 않음. research-only; release에는 원문 링크와 독자 요약만 사용"
+      }
+    },
+    "BKF4-S02": {
+      "title": "Changelog: Cal.com v6.6",
+      "url": "https://cal.com/blog/calcom-v6-6",
+      "author": "Peer Richelsen / Cal.com product-engineering team",
+      "publication_date": "2026-06-15",
+      "kind": "first_party_developer_release_notes",
+      "verified_at": "2026-10-04",
+      "scope": "게시된 수정 내역의 확인. 실제 Cal.com 예약·메일·캘린더를 실행하지 않음",
+      "facts_ko": "변경 이메일에 기존 날짜·시간의 취소선을 표시하고, 변경 시 attendee locale 손실을 고쳤다고 명시한다. 날짜 비교를 timezone-aware로 고치고, 필수값 누락 시 첫 누락 필드로 스크롤하도록 수정했다. 메일의 비교 방식을 웹 검토 화면에 쓰는 것은 이 문서의 제안이다.",
+      "published_measurements": [],
+      "visual": {
+        "observed": false,
+        "reason": "관련 변경메일 before/after 이미지·실메일 미관찰",
+        "before_after": "문서화된 수정 내역이지 원본 UI 전후 실측 아님",
+        "rights": "로고·메일 템플릿 복사 없음; 링크와 독자 요약만"
+      }
+    },
+    "BKF4-S02A": {
+      "title": "v2.7 - Booking questions, new docs & more…",
+      "url": "https://cal.com/blog/v-2-7",
+      "author": "Ciarán Hanrahan / Cal.com",
+      "publication_date": "2023-03-15",
+      "kind": "first_party_developer_release_notes_supplement",
+      "verified_at": "2026-10-04",
+      "facts_ko": "예약 페이지·확인 화면의 날짜·시간·시간대 현지화, 빈 가용일에도 시간대 표시, 날짜를 바꿀 때 모바일 시간 위치가 튀는 문제의 수정을 명시한다. 기본 optional Additional notes 질문을 숨기거나 편집할 수 있게 했다.",
+      "published_measurements": [],
+      "visual": {
+        "observed": false,
+        "rights": "링크와 독자 요약만"
+      }
+    },
+    "BKF4-S03": {
+      "title": "Airbnb is introducing total price display and updating guest checkout",
+      "url": "https://news.airbnb.com/airbnb-is-introducing-total-price-display-and-updating-guest-checkout",
+      "author": "Airbnb product announcement, unnamed individual designer",
+      "publication_date": "2022-11-07",
+      "kind": "first_party_historical_product_change_announcement",
+      "verified_at": "2026-10-04",
+      "scope": "2022년 출시 계획·정책 방향 발표의 역사적 근거. 2026 checkout/tax/fee/cancellation 동작 근거가 아님",
+      "facts_ko": "기존 표시 의무가 없는 국가에 12월부터 세금 전 모든 수수료를 포함한 총액 표시 옵션을 도입하겠다고 발표했다. 예약 확정 전 서비스 수수료·할인·세금의 전체 내역을 볼 수 있다고 설명하며, 퇴실 요구도 예약 전에 공개하도록 안내했다. 발표 자체는 모든 시장에서의 실제 적용을 증명하지 않는다.",
+      "published_measurements": [],
+      "visual": {
+        "observed": false,
+        "reason": "기사의 생활 사진은 UI 근거로 쓰지 않음; 현행 예약 화면을 열지 않음",
+        "before_after": "before/after UI 이미지 없음; 역사적 제품 변경 발표",
+        "rights": "링크와 독자 요약만"
+      }
+    }
+  },
+  "fixture": {
+    "id": "BKF4-F01",
+    "path": "fixture.json",
+    "sha256": "272dfbe68ae00ababbd738d3a2e4e6d0cfe5822485e18034df64f9dbab1a21c0",
+    "sensitive_data": false,
+    "external_effects": false,
+    "amounts_and_policy": "fictional fixture; not product policies"
+  },
+  "cases": [
+    {
+      "id": "BKF4-01",
+      "domain": "reservation_booking",
+      "title": "가용 시간에 영향을 주는 입력만 앞세우고 선택을 보존한다",
+      "sources": [
+        "BKF4-S01",
+        "BKF4-S02A"
+      ],
+      "evidence_level": [
+        "D",
+        "V",
+        "P"
+      ],
+      "defect": "가용 시간을 보기 전에 무관한 이름·안내 카드·optional 설명이 길게 펼쳐진다. 가용일 표시 없이 날짜를 번갈아 눌러야 하고, 뒤로 이동하면 이미 쓴 회의명·인원이 사라지는 synthetic 결함을 대상으로 한다.",
+      "precise_correction": [
+        {
+          "target": "#booking-intro, .feature-card, .instruction-card",
+          "operation": "delete_redundant_copy_only",
+          "command_ko": "환영 히어로와 기능 장점 카드, “날짜를 선택하면 날짜를 선택할 수 있습니다” 같은 동어 반복을 삭제한다. 방 정원·기간·가용 상태·조건은 삭제하지 않는다."
+        },
+        {
+          "target": "#room-context → #date-picker → #time-options → #details-summary",
+          "operation": "reorder",
+          "command_ko": "방·정원·기간 뒤에 날짜와 시간 선택을 배치한다. 회의명·인원은 값이 보이는 요약+변경으로 보존한다. 정원/장비/서비스가 availability를 바꾸면 그 제약은 시간 선택 전에 둔다."
+        },
+        {
+          "target": "#time-zone-label, #availability-empty, [data-slot]",
+          "operation": "state_labels",
+          "command_ko": "가용/선택/불가를 텍스트와 상태 속성으로 함께 표시한다. 10/16의 빈 결과에는 빈 이유와 10/19 보기 버튼을 둔다. 한국 시간 (UTC+9)은 빈 결과에도 유지한다."
+        },
+        {
+          "target": "draft.details, draft.date, draft.slot",
+          "operation": "preserve_independent_inputs",
+          "command_ko": "편집·back·validation failure 때 독립 입력은 보존한다. 날짜 변경 후 기존 slot이 그 날짜에 유효하지 않으면 slot만 invalid/재선택으로 처리하고 회의명·인원은 지우지 않는다."
+        }
+      ],
+      "copy_change": {
+        "delete": [
+          "쾌적한 회의 경험을 시작하세요",
+          "다양한 기능으로 편리한 예약",
+          "원하는 날짜를 선택해 보세요"
+        ],
+        "keep": [
+          "메이플 회의실 · 정원 6명 · 60분",
+          "한국 시간 (UTC+9)",
+          "예약 가능한 시간이 없습니다",
+          "팀 회의 · 4명 · 변경"
+        ]
+      },
+      "content_parity": "BKF4-F01 selection: 방/기간/기존예약/기입값/날짜/시간/금액/조건 동일. removed copy는 고유 정보를 갖지 않는 rhetoric만",
+      "suggested_tokens": {
+        "type": "our_proposal_not_source_measurements",
+        "mobile_min_button_height_px": 44,
+        "mobile_horizontal_padding_px": 20,
+        "desktop_column_gap_px": 24
+      },
+      "failure_cases": [
+        "capacity/amenity가 availability를 바꾸는데 뒤로 미루면 안 됨",
+        "가용 달력 indicator를 실제 데이터 없이 만들어내면 안 됨",
+        "입력 보존은 만료된 slot이 계속 유효하다는 뜻이 아님"
+      ],
+      "acceptance_tests": [
+        "empty date exposes next available date and timezone",
+        "unavailable slot cannot proceed",
+        "back/edit/error preserve meeting_name and headcount",
+        "calendar and slots reachable by keyboard with visible focus"
+      ],
+      "visual_artifacts": [
+        "visuals/BKF4-01-selection.svg",
+        "visuals/BKF4-01-selection.png"
+      ]
+    },
+    {
+      "id": "BKF4-02",
+      "domain": "reservation_booking",
+      "title": "기존 예약과 변경안을 대조하고 실패 시 필요한 부분만 고친다",
+      "sources": [
+        "BKF4-S02",
+        "BKF4-S02A"
+      ],
+      "evidence_level": [
+        "D",
+        "P"
+      ],
+      "defect": "변경 확정 화면이 새 시간만 강조하고 기존 시간은 묻힌다. 누락 오류나 availability conflict가 화면의 문맥을 없애거나 모든 입력을 다시 요구하는 synthetic 결함이다.",
+      "precise_correction": [
+        {
+          "target": "#review-title, #old-time, #new-time, #time-zone-label",
+          "operation": "compare",
+          "command_ko": "“변경 내용 확인” 아래 기존 10/14 10–11시와 변경 후 10/15 14–15시를 각각 label과 함께 표시한다. 취소선은 보조로만 쓰고 timezone/기간/방 이름을 같은 영역에 둔다."
+        },
+        {
+          "target": "#error-summary, #field-errors, [aria-invalid=true]",
+          "operation": "targeted_recovery",
+          "command_ko": "필수 인원 누락은 오류 요약에서 인원 필드로 이동시킨다. 메시지는 “인원을 입력하세요 (1–6명)”로 구체화하고 다른 값은 보존한다. 오류에 focus 이동을 추가하는 것은 제안이며 Cal의 scroll 수정과 구별한다."
+        },
+        {
+          "target": "#availability-conflict, #confirm-change",
+          "operation": "recheck_block",
+          "command_ko": "확정 전에 가용성을 재검사한다. 14:00이 unavailable이면 선택 실패 이유와 15:00 선택 행동을 표시하고 확정은 차단한다. 다른 입력은 유지한다. 자동 대체 예약은 금지한다."
+        },
+        {
+          "target": "existing_booking.id, pending_submission",
+          "operation": "commit_once",
+          "command_ko": "최종 성공 전 기존 예약을 변경하지 않는다. pending 동안 중복 확정을 막고 성공 후 DEMO-R17을 한 번 교체한다. 변경 취소는 원본 유지다."
+        }
+      ],
+      "copy_change": {
+        "delete": [
+          "거의 완료되었습니다!",
+          "아래 안내에 따라 간편하게 일정을 변경하세요",
+          "선택한 일정을 잘 확인해 주세요"
+        ],
+        "keep": [
+          "기존",
+          "변경 후",
+          "시간 다시 선택",
+          "변경 취소",
+          "14:00은 방금 예약되어 선택할 수 없습니다"
+        ]
+      },
+      "content_parity": "BKF4-F01 review/conflict: 같은 old/new/inputs; conflict는 before와 after 모두 같은 revision에서 slot invalid 상태",
+      "suggested_tokens": {
+        "type": "our_proposal_not_source_measurements",
+        "comparison_label_px": 14,
+        "primary_heading_px": 28,
+        "section_gap_px": 24
+      },
+      "failure_cases": [
+        "취소선만으로 old/new 의미를 전달하지 말 것",
+        "새 시간 선택만으로 기존 예약을 취소하지 말 것",
+        "email diff 수정은 웹 review placement의 직접 검증 자료가 아님"
+      ],
+      "acceptance_tests": [
+        "old and new date/time visible with timezone",
+        "field error links to exact field, other values retained",
+        "stale slot produces no booking mutation",
+        "duplicate submit replaces one local record",
+        "cancel produces deep-equal original booking"
+      ],
+      "visual_artifacts": [
+        "visuals/BKF4-02-review.svg",
+        "visuals/BKF4-02-review.png"
+      ]
+    },
+    {
+      "id": "BKF4-03",
+      "domain": "reservation_booking",
+      "title": "총액과 결과 조건을 확정 행동에 붙이고 안내 카드를 걷어낸다",
+      "sources": [
+        "BKF4-S03"
+      ],
+      "evidence_level": [
+        "D-historical",
+        "P"
+      ],
+      "defect": "기본 대여료를 가장 큰 숫자로 내세우고 수수료·총액·취소 경계는 다른 카드에 흩어진다. “안심하고 예약하세요”가 구체적 비용을 대신하는 synthetic 결함이다.",
+      "precise_correction": [
+        {
+          "target": "#price-breakdown, #booking-total",
+          "operation": "compose_total",
+          "command_ko": "24,000원 대여료와 서비스 수수료 2,000원을 한 내역으로 묶고 총 26,000원(세금 포함)을 같은 영역의 가장 명확한 값으로 둔다. booking duration은 60분이며 시간당/예약당 단위를 혼동하지 않는다."
+        },
+        {
+          "target": "#cancellation-terms → #confirm-change",
+          "operation": "place_before_commit",
+          "command_ko": "확정 버튼 바로 앞에 “10월 14일 14:00까지 취소 수수료 0원 · 이후 13,000원”을 둔다. 한국 시간 기준을 함께 읽을 수 있게 한다. 자세한 조건 링크가 있어도 이 경계와 금액은 링크 안으로 숨기지 않는다."
+        },
+        {
+          "target": "#confirm-change, #change-time, #cancel-draft",
+          "operation": "consequential_labels",
+          "command_ko": "primary는 “26,000원 · 변경 확정(데모)”, 시간 편집은 “시간 다시 선택”, abandon은 “변경 취소”로 구별한다. 실제 결제가 없는 local demo라는 별도 표기를 유지한다."
+        },
+        {
+          "target": ".assurance-card, .how-to-book, .repeat-confirmation-note",
+          "operation": "remove_redundancy_not_terms",
+          "command_ko": "안심/편리함 같은 장점 카드와 CTA를 설명만 하는 문장은 삭제한다. 비용·취소·환불·만료·자원 가용성이 행동을 바꾸는 정보라면 삭제 금지다."
+        }
+      ],
+      "copy_change": {
+        "delete": [
+          "안심하고 일정 변경을 완료하세요",
+          "간편한 한 번의 클릭으로 예약 완료",
+          "예약 확정 버튼을 누르면 예약이 확정됩니다"
+        ],
+        "keep": [
+          "총 26,000원 · 세금 포함",
+          "10월 14일 14:00까지 취소 수수료 0원 · 이후 13,000원",
+          "가상 데모 · 실제 예약/결제 없음"
+        ]
+      },
+      "content_parity": "BKF4-F01 review: all monetary facts and conditions identical; only placement/label prominence and redundant rhetoric differ",
+      "suggested_tokens": {
+        "type": "our_proposal_not_source_measurements",
+        "total_font_px": 24,
+        "terms_font_px": 14,
+        "terms_to_confirm_gap_px": 16
+      },
+      "failure_cases": [
+        "2022 Airbnb announcement does not establish 2026 policies or tax display",
+        "fictional fixture cancellation charge is not taken from Airbnb",
+        "small screens must not hide terms behind sticky CTA",
+        "never infer refundability from a reassurance badge"
+      ],
+      "acceptance_tests": [
+        "sum room + fee equals total in both skins",
+        "tax-included status visible",
+        "cutoff timestamp and late fee before primary in DOM order",
+        "mobile CTA does not overlap terms",
+        "no network/payment side effects"
+      ],
+      "visual_artifacts": [
+        "visuals/BKF4-02-review.svg",
+        "visuals/BKF4-02-review.png"
+      ]
+    }
+  ],
+  "test_status": {
+    "json_parse": "pass",
+    "source_link_text_verification": "done via current web search/open",
+    "source_visual_observation": "MoeGo availability original image observed",
+    "svg_xml_parse": "pass",
+    "authored_visual_render": "pass PNG 1280x1190 via sharp",
+    "authored_visual_human_review": "pass both PNGs inspected, no overlap or missing Korean glyphs",
+    "interactive_implementation": "implemented_in_demo; code and browser evidence must be reported separately",
+    "runtime_transition_tests": "not_run_here",
+    "keyboard_screenreader_audit": "not_run_here",
+    "same_fixture_metadata_and_critical_visible_facts": "pass"
+  },
+  "stop_condition": "compact sources/cases/spec and reviewed authored visuals complete; no existing Site or plugin changes or publication"
+}

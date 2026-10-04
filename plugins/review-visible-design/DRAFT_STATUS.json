@@ -1,0 +1,18 @@
+{
+  "project": "Do Not Slop Project",
+  "version": "0.1.0-draft.3",
+  "status": "DRAFT_NOT_ADOPTED_NOT_INSTALLED",
+  "gates": {
+    "natural_language_activation_and_output": "not_run",
+    "browser_and_input_regressions": "not_run",
+    "same_content_rendered_before_after": "not_run",
+    "visual_effectiveness": "not_run",
+    "host_loading": "not_run",
+    "full_remote_agent_plugins_json_schema": "not_run",
+    "source_claim_currentness": "not_run",
+    "user_review": "not_run"
+  },
+  "validation_scope": "offline deterministic helper and public package checks only",
+  "official_approval": "not_claimed",
+  "usability_effectiveness": "not_proven"
+}

@@ -1,0 +1,810 @@
+{
+  "schema_version": "1.0",
+  "namespace": "antislop.mobile_control_layouts.v1",
+  "research_date": "2026-10-04 UTC",
+  "language": "ko",
+  "scope": "Three original-developer native/mobile product design cases, with official platform supporting material; authored control-layout proposals, not web marketing templates",
+  "excluded_existing_cases": [
+    "Duolingo",
+    "Todoist"
+  ],
+  "sources": [
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.slack_2020",
+      "title": "A simpler, more organized Slack on your phone",
+      "publisher": "Slack",
+      "authors": [
+        "Preet Mangat",
+        "Johnny Rodgers",
+        "Cory Bujnowicz"
+      ],
+      "url": "https://slack.com/blog/productivity/simpler-more-organized-slack-mobile-app",
+      "observed_url": "https://slack.com/intl/ko-kr/blog/productivity/simpler-more-organized-slack-mobile-app",
+      "published_at": "2020-05-13",
+      "scope": "Historical iPhone and Android redesign, not current installed app",
+      "verification": "Official article read with web tool; official GIFs downloaded from article DOM in dot cloud browser; sampled frames inspected",
+      "rights": "No asset redistribution license established; original images/GIFs and derived frame sheets are research-only, excluded from a published Site/plugin/package"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.things_2025",
+      "title": "Things for OS 26",
+      "publisher": "Cultured Code",
+      "authors": [
+        "Mick"
+      ],
+      "url": "https://culturedcode.com/things/blog/2025/09/things-for-os-26/",
+      "published_at": "2025-09-15",
+      "scope": "Things 3.22 and OS 26 promotional screenshots; no live native app test",
+      "verification": "Official article read; original iPhone JPEG downloaded from named article image and visually inspected",
+      "rights": "No asset redistribution license established; original JPEG is research-only, excluded from a published Site/plugin/package"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.things_gestures",
+      "title": "Using Gestures",
+      "publisher": "Cultured Code",
+      "authors": [],
+      "url": "https://culturedcode.com/things/support/articles/2803582/",
+      "published_at": null,
+      "scope": "Official explanation of Magic Plus tap/drag-related functionality, not a verified runtime recording",
+      "verification": "Official support text read on 2026-10-04",
+      "rights": "Link and short paraphrase only; no copied artwork"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.toss_signup",
+      "title": "거꾸로 입력하는 가입 화면, 처음에 어떻게 떠올렸을까?",
+      "publisher": "Toss Tech",
+      "authors": [
+        "정희연 토스 Head of UX"
+      ],
+      "url": "https://toss.tech/article/toss-signup-process",
+      "published_at": "2022-09-20",
+      "scope": "Author describes 2018 signup design; current 2026 signup not established",
+      "verification": "Official article read; two linked original PNGs downloaded in dot cloud browser and visually inspected",
+      "rights": "No redistribution license established; source screenshots contain publisher demonstration identity fields; preserve as research-only and do not copy values into authored fixtures or packages"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.android_insets",
+      "title": "Set up window insets",
+      "publisher": "Android Developers",
+      "authors": [],
+      "url": "https://developer.android.com/develop/ui/compose/system/insets-ui",
+      "observed_url": "https://developer.android.com/develop/ui/compose/system/insets-ui?hl=ko",
+      "published_at": null,
+      "last_updated_at": "2026-09-23",
+      "scope": "Official Compose LazyColumn TextField keyboard example, not a shipping-product usability study",
+      "verification": "Official text read; embedded MP4 downloaded and 0, 3, 5 second frames inspected",
+      "rights": "Android content license differentiates documentation/sample code and other content; exact asset category not adjudicated; exclude original MP4/frames from publication in this pass; source link and authored diagrams only"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.android_sheet_api",
+      "title": "ModalBottomSheet API reference",
+      "publisher": "Android Developers",
+      "authors": [],
+      "url": "https://developer.android.com/reference/kotlin/androidx/compose/material3/ModalBottomSheet.composable",
+      "published_at": null,
+      "scope": "Current retrieved API contract; verify project Material3 version before applying; default IME handling must not be assumed absent",
+      "verification": "Official API reference read on 2026-10-04",
+      "rights": "Link and short paraphrase only"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.android_systembars",
+      "title": "Android system bars",
+      "publisher": "Android Developers",
+      "authors": [],
+      "url": "https://developer.android.com/design/ui/mobile/guides/foundations/system-bars",
+      "published_at": null,
+      "last_updated_at": "2026-09-22",
+      "scope": "Android platform guidance; not an iOS geometry specification",
+      "verification": "Official guide read on 2026-10-04",
+      "rights": "Link and short paraphrase only"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.apple_tabs",
+      "title": "Tab bars",
+      "publisher": "Apple Developer",
+      "authors": [],
+      "url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+      "published_at": null,
+      "last_updated_at": "2026-06-08",
+      "scope": "Apple platform guidance includes iOS 26 and different iPad placement; not a universal four-tab or bottom-bar rule",
+      "verification": "Web text extraction was JavaScript-only; loaded article and best-practice text read in dot cloud browser",
+      "rights": "Link and short paraphrase only; no copied Apple artwork"
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.source.android_license",
+      "title": "Content License",
+      "publisher": "Android Developers",
+      "authors": [],
+      "url": "https://developer.android.com/license",
+      "published_at": null,
+      "scope": "Documentation and code generally Apache 2.0, other content generally CC BY 2.5, exceptions and brand restrictions apply",
+      "verification": "Official license page read on 2026-10-04",
+      "rights": "Does not automatically license linked external materials or proprietary brand features"
+    }
+  ],
+  "cases": [
+    {
+      "id": "antislop.mobile_control_layouts.v1.case.slack_navigation_action",
+      "title": "Slack 모바일 목적지와 작성 액션 분리",
+      "source_ids": [
+        "antislop.mobile_control_layouts.v1.source.slack_2020",
+        "antislop.mobile_control_layouts.v1.source.apple_tabs",
+        "antislop.mobile_control_layouts.v1.source.android_systembars"
+      ],
+      "product_case": "historical developer-authored redesign",
+      "fixture_id": "antislop.mobile_control_layouts.v1.fixture.slack_navigation_action",
+      "board": "mobile_app_v1/boards/01_navigation_action.svg",
+      "observations": [
+        {
+          "kind": "source_report",
+          "text": "2020 개편 글은 DMs 접근이 iPhone의 덜 알려진 스와이프와 Android의 드롭다운에 숨어 있었다고 설명하며, Home·DMs·Mentions·You를 탭 바에 올렸다."
+        },
+        {
+          "kind": "official_visual_observation",
+          "text": "공식 탭 GIF의 표본 프레임에는 네 목적지, 선택 상태, 별도 보라색 작성 버튼이 보인다. 작성 GIF에는 새 메시지 화면과 키보드 위 입력줄이 보인다."
+        },
+        {
+          "kind": "limit",
+          "text": "현재 설치 앱, 실제 터치 도달성, 한국어 레이블, 탭별 상태 복원은 조작하지 않았다."
+        }
+      ],
+      "diagnosis": "하단에 놓였다는 이유만으로 목적지와 실행 명령을 같은 탭처럼 그리면 현재 위치와 새 작업의 차이가 흐려진다. 큰 작성 버튼을 추가하면서 마지막 행을 가리는 것도 별도 문제다.",
+      "corrections": [
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.nav_role_separation",
+          "if": "bottom navigation mixes a destination and a create/send action",
+          "command": "하단 바에는 전환 목적지만 남기고, 새 메시지 작성은 목록 영역의 별도 버튼으로 분리하라. 선택 탭 스타일을 작성 버튼에 쓰지 말라. 목적지 ID와 순서, 선택 상태를 유지하라.",
+          "change": [
+            "control role grouping",
+            "action position"
+          ],
+          "preserve": [
+            "all destinations",
+            "compose meaning",
+            "active destination"
+          ],
+          "exception": "Persistent media mini-players and platform-supported tab accessories need their own component contract; do not classify every attached control as an extra tab."
+        },
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.nav_korean_labels",
+          "if": "full Korean destination labels clip or collide",
+          "command": "먼저 레이블의 실제 렌더링 폭과 각 탭 폭을 재라. 이 합성안에서는 같은 글자 크기로 두 줄을 허용하고 줄 높이와 바 높이를 함께 늘려라. 제품명 축약은 목적지의 뜻이 보존되는지 확인하고 별도 승인을 받아 적용하라.",
+          "change": [
+            "label wrapping",
+            "bar block-size"
+          ],
+          "preserve": [
+            "full label content",
+            "font-size",
+            "destination mapping"
+          ],
+          "exception": "A native platform tab component may not support two-line labels. Then test an approved short label plus matching full destination heading and accessible name; do not force the synthetic geometry into the native component."
+        },
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.nav_safe_content",
+          "if": "bottom action or app navigation overlaps last row or system gesture hit region",
+          "command": "작성 버튼과 내비게이션의 실제 가림 높이를 목록의 끝 스크롤 여유에 반영하고, 상호작용 영역은 시스템이 보고한 안전 영역 안에 배치하라. 그림 배경을 끝까지 칠하는 것과 터치 영역을 끝까지 늘리는 것을 구별하라.",
+          "change": [
+            "content clearance",
+            "inset-aware interaction bounds"
+          ],
+          "preserve": [
+            "row content",
+            "ability to reach last row"
+          ],
+          "exception": "Insets change with OS, navigation mode and orientation. Never hard-code this board’s 26-unit gesture band as a device constant."
+        }
+      ],
+      "tests": [
+        {
+          "id": "N1",
+          "type": "static_fixture",
+          "assert": "Same IDs/full strings/state across both variants; action is not selected-tab role",
+          "status": "passed in authored data"
+        },
+        {
+          "id": "N2",
+          "type": "static_board",
+          "assert": "Proposal full tab strings fit their own label boxes and compose does not overlap rows/navigation/gesture band",
+          "status": "passed at authored 390x844 only"
+        },
+        {
+          "id": "N3",
+          "type": "native_runtime",
+          "assert": "Switch each destination, scroll, enter detail, return, verify chosen restoration policy and independent compose action",
+          "status": "not_run"
+        },
+        {
+          "id": "N4",
+          "type": "native_runtime",
+          "assert": "Smallest supported width, Korean long labels, supported accessibility text categories, rotation, gesture/three-button modes, VoiceOver/TalkBack names and selected state",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.case.things_dense_tasks",
+      "title": "Things iPhone 작업 밀도와 보조 액션",
+      "source_ids": [
+        "antislop.mobile_control_layouts.v1.source.things_2025",
+        "antislop.mobile_control_layouts.v1.source.things_gestures"
+      ],
+      "product_case": "developer-authored native iPhone refresh",
+      "fixture_id": "antislop.mobile_control_layouts.v1.fixture.things_dense_tasks",
+      "board": "mobile_app_v1/boards/02_dense_task_actions.svg",
+      "observations": [
+        {
+          "kind": "source_report",
+          "text": "2025 OS 26 개편 글은 여백을 넓히고 컨트롤을 갱신했다고 설명한다. 여백을 항상 줄여야 한다는 근거로 읽으면 안 된다."
+        },
+        {
+          "kind": "official_visual_observation",
+          "text": "공식 iPhone 이미지에는 날짜 묶음 안의 여러 작업과 메타데이터, 작은 추가 버튼, 별도 편집 패널과 키보드 위 Save가 보인다."
+        },
+        {
+          "kind": "source_report",
+          "text": "공식 제스처 도움말은 Magic Plus를 원하는 위치로 끌어 작업을 넣는 행동을 설명한다."
+        },
+        {
+          "kind": "limit",
+          "text": "실제 앱의 추가·저장·완료·취소, 제스처 대안, 확대와 오류 복구는 실행하지 않았다."
+        }
+      ],
+      "diagnosis": "추가가 중요한 액션이라고 해서 일상 목록의 대부분을 큰 추가 카드와 사용 설명에 주면 사용자가 비교해야 하는 제목·기한·상태를 밀어낸다. 시각적으로 작은 컨트롤과 실제 터치 영역은 구별해야 한다.",
+      "corrections": [
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.task_explanation_budget",
+          "if": "a repeat-use task list places a tall generic instruction panel above tasks",
+          "command": "같은 안내 문장을 제목 아래 필요한 줄 수의 자연스러운 문장으로 놓고, 설명 카드의 최소 높이와 장식용 패딩을 제거하라. 목록 행의 제목·기한·상태를 먼저 보존하라. 처음 필요한 설명, 오류 설명, 되돌릴 수 없는 결과 안내는 이 명령의 삭제 대상이 아니다.",
+          "change": [
+            "guidance container height",
+            "grouping"
+          ],
+          "preserve": [
+            "guidance text",
+            "task data",
+            "font-size"
+          ],
+          "exception": "A genuinely empty first-run screen or unfamiliar high-consequence workflow may need fuller instruction. Judge the actual state; do not apply the populated-list layout blindly."
+        },
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.task_row_density",
+          "if": "repeated cards obscure row alignment or consume space without new grouping meaning",
+          "command": "같은 작업을 공통 시작선의 목록으로 정렬하라. 체크 영역, 제목, 메타데이터의 열을 유지하고 긴 제목은 행 안에서 감싸라. 행 사이 구분은 먼저 조용한 선이나 여백으로 해결하라. 구분 의미가 다른 그룹까지 하나로 합치지 말라.",
+          "change": [
+            "row chrome",
+            "shared alignment"
+          ],
+          "preserve": [
+            "task order",
+            "full titles",
+            "metadata",
+            "completion state"
+          ],
+          "exception": "Rich previews, distinct object groups, independently draggable blocks or card-specific controls may justify cards. Do not remove their grouping or interaction boundaries solely for density."
+        },
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.task_secondary_emphasis",
+          "if": "add and list options are equal large filled controls",
+          "command": "새 작업 추가는 계속 보이는 이름 있는 액션으로 남기고, 목록 옵션은 제목 근처의 중립 버튼으로 옮겨라. 보조 액션의 터치 영역과 접근 가능한 이름은 유지하되 채색 면적과 반복 강조를 줄여라.",
+          "change": [
+            "secondary action location",
+            "visual emphasis"
+          ],
+          "preserve": [
+            "action IDs",
+            "labels",
+            "results",
+            "reachable hit regions"
+          ],
+          "exception": "If the present task is arranging or bulk-editing, list options may become a primary contextual toolbar. Update hierarchy for that state instead of permanently demoting it."
+        }
+      ],
+      "tests": [
+        {
+          "id": "T1",
+          "type": "static_fixture",
+          "assert": "Same five rows, guidance sentence, two action strings and state",
+          "status": "passed in authored data"
+        },
+        {
+          "id": "T2",
+          "type": "static_board",
+          "assert": "Full titles and metadata fit row bounds; primary and secondary labels fit without shrink",
+          "status": "passed at authored 390x844 only"
+        },
+        {
+          "id": "T3",
+          "type": "native_runtime",
+          "assert": "Tap add with keyboard closed/open; insert at chosen position; save/cancel/error preserve draft and return context",
+          "status": "not_run"
+        },
+        {
+          "id": "T4",
+          "type": "native_runtime",
+          "assert": "Large accessibility text, multiline metadata, long due-date labels and minimum platform hit regions do not overlap",
+          "status": "not_run"
+        }
+      ]
+    },
+    {
+      "id": "antislop.mobile_control_layouts.v1.case.toss_keyboard_sheet",
+      "title": "토스 입력 개편에서 배우는 키보드 가림 교정",
+      "source_ids": [
+        "antislop.mobile_control_layouts.v1.source.toss_signup",
+        "antislop.mobile_control_layouts.v1.source.android_insets",
+        "antislop.mobile_control_layouts.v1.source.android_sheet_api"
+      ],
+      "product_case": "developer-authored historical signup correction with platform inset support",
+      "fixture_id": "antislop.mobile_control_layouts.v1.fixture.toss_keyboard_sheet",
+      "board": "mobile_app_v1/boards/03_keyboard_sheet.svg",
+      "observations": [
+        {
+          "kind": "source_report",
+          "text": "원저자는 2018 가입 화면 구현에서 CTA와 통신사 필드가 키보드 때문에 가려졌고 휴대폰 필드에 부적절한 키보드가 나온 문제를 설명한다."
+        },
+        {
+          "kind": "official_visual_observation",
+          "text": "공식 시안 PNG 마지막 화면은 숫자 키보드 위 파란 CTA가 보이지만 실제 구현 PNG 마지막 화면은 한국어 키보드와 번호 필드가 보이며 CTA·통신사 필드는 보이지 않는다."
+        },
+        {
+          "kind": "source_report",
+          "text": "저자는 정해진 데이터 형식에 맞춰 새 필드를 위로 쌓는 해결을 설명한다. 자동 진행과 역순 필드가 모든 폼에 적합하다는 뜻은 아니다."
+        },
+        {
+          "kind": "platform_visual_observation",
+          "text": "Android 공식 inset MP4의 표본 프레임은 IME 열린 상태에서 하단 TextField가 키보드 바로 위에 드러나 있는 예제를 보여준다."
+        },
+        {
+          "kind": "limit",
+          "text": "Toss 현재 가입 흐름, 재입력·오류·화면 낭독, 합성 알림 시트의 native runtime은 미검증이다."
+        }
+      ],
+      "diagnosis": "화면 바닥에 고정했다는 CSS·좌표 조건은 키보드 위에 남는다는 조건이 아니다. 모달·시트의 사용 가능 높이와 현재 필드·footer가 같은 inset 소유권 안에서 재배치되어야 한다.",
+      "corrections": [
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.sheet_ime_clearance",
+          "if": "an expanded editing sheet keeps save/cancel under the software keyboard",
+          "command": "현재 키보드가 차지한 실제 가림 영역을 사용해 시트의 사용 가능 높이를 다시 계산하라. 저장과 취소는 키보드 위 footer에 남기고, 현재 필드와 오류는 그 위의 스크롤 영역에서 보이게 하라. 시트와 내부 footer가 같은 inset을 두 번 더하지 않는지 확인하라.",
+          "change": [
+            "sheet usable bounds",
+            "scroll/footer allocation",
+            "inset ownership"
+          ],
+          "preserve": [
+            "keyboard state",
+            "draft value",
+            "focus",
+            "save/cancel result"
+          ],
+          "exception": "Current Compose ModalBottomSheet defaults already handle IME via contentWindowInsets in the retrieved API. Inspect your project version and nested consumption before adding imePadding; a second padding can create a large false gap."
+        },
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.sheet_korean_action",
+          "if": "a meaningful Korean save label is truncated or is squeezed to smaller text",
+          "command": "긴 동작 이름을 두 줄로 감싸고 버튼 높이·내부 패딩을 그 줄 수에 맞춰 늘려라. 글자 크기를 줄이거나 결과를 설명하는 말만 잘라내지 말라. 취소와 저장을 같은 채색·면적으로 강조하지 말라.",
+          "change": [
+            "primary label line wrapping",
+            "button block-size",
+            "secondary emphasis"
+          ],
+          "preserve": [
+            "full action label",
+            "font-size",
+            "action result",
+            "cancel availability"
+          ],
+          "exception": "A short approved product label may be preferable; first verify that the result remains clear from the screen context and accessibility name. No automatic text rewrite is authorized by this fixture."
+        },
+        {
+          "id": "antislop.mobile_control_layouts.v1.command.input_predictable_progress",
+          "if": "new input appears below the keyboard or the wrong keyboard increases avoidable switching",
+          "command": "새 필드는 현재 가시 영역 안에 나타나고 포커스가 따라오게 하라. 필드 의미에 맞는 키보드를 선택하라. 정해진 길이만으로 자동 제출하지 말고 붙여넣기, 한국어 조합 중, 값 수정과 검증 실패를 검수하라. 입력값이 완성된 것과 저장이 승인된 것을 구별하라.",
+          "change": [
+            "field reveal",
+            "focus movement",
+            "keyboard mapping"
+          ],
+          "preserve": [
+            "draft values",
+            "validation requirements",
+            "explicit save boundary"
+          ],
+          "exception": "Fixed-format low-risk local selection can support auto-advance after confirmed input. Legal consent, payments, destructive changes and identity verification require separate boundaries; do not borrow historical signup automation as universal permission."
+        }
+      ],
+      "tests": [
+        {
+          "id": "K1",
+          "type": "static_fixture",
+          "assert": "Same modal/IME/focus/value/caret/helper/actions; no sensitive copied demo identity fields",
+          "status": "passed in authored data"
+        },
+        {
+          "id": "K2",
+          "type": "static_board",
+          "assert": "Proposal field and footer are above authored keyboard; full primary label fits two lines",
+          "status": "passed at authored 390x844 only"
+        },
+        {
+          "id": "K3",
+          "type": "native_runtime",
+          "assert": "IME open/close and animation, Korean composition, predictive strip, taller keyboard, hardware keyboard and rotation preserve reachable field and actions",
+          "status": "not_run"
+        },
+        {
+          "id": "K4",
+          "type": "native_runtime",
+          "assert": "Back first follows platform keyboard/sheet policy; dismiss restores focus; save failure keeps sheet and draft, cancel does not save",
+          "status": "not_run"
+        },
+        {
+          "id": "K5",
+          "type": "native_runtime",
+          "assert": "Large text and validation error can scroll without pushing footer under IME; no duplicate inset gap",
+          "status": "not_run"
+        }
+      ]
+    }
+  ],
+  "fixtures": {
+    "slack_navigation_action": {
+      "id": "antislop.mobile_control_layouts.v1.fixture.slack_navigation_action",
+      "synthetic": true,
+      "app_name": "공동 작업 앱",
+      "screen_title": "팀 대화",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "units": "authored logical drawing units, not measured dp/pt"
+      },
+      "state": {
+        "active_destination": "home",
+        "keyboard_open": false,
+        "modal_open": false,
+        "scroll_offset": 0,
+        "selection": null,
+        "pending_request": false
+      },
+      "content": {
+        "search_placeholder": "대화 검색",
+        "destinations": [
+          {
+            "id": "home",
+            "label": "홈"
+          },
+          {
+            "id": "dms",
+            "label": "다이렉트 메시지"
+          },
+          {
+            "id": "mentions",
+            "label": "내가 받은 멘션과 반응"
+          },
+          {
+            "id": "profile",
+            "label": "내 프로필"
+          }
+        ],
+        "rows": [
+          {
+            "id": "c1",
+            "title": "제품 디자인 검수",
+            "detail": "오늘 10:30 · 새 메시지 2개"
+          },
+          {
+            "id": "c2",
+            "title": "지은 · 다음 화면 교정안",
+            "detail": "목록과 버튼 위치를 확인했어요"
+          },
+          {
+            "id": "c3",
+            "title": "모바일 앱 출시 준비",
+            "detail": "키보드 상태도 함께 검수해요"
+          },
+          {
+            "id": "c4",
+            "title": "민호 · 긴 제목 테스트",
+            "detail": "번역된 이름을 그대로 넣었어요"
+          },
+          {
+            "id": "c5",
+            "title": "하단 탐색 및 작성 버튼 검수",
+            "detail": "마지막 대화도 가리지 않아야 해요"
+          }
+        ],
+        "actions": [
+          {
+            "id": "compose",
+            "label": "새 메시지 작성",
+            "role": "action",
+            "result": "open composer; not select a new destination"
+          }
+        ]
+      },
+      "invariants": [
+        "Same destination IDs, full labels, selected destination, rows, ordering, action label, action meaning and scroll offset",
+        "No new tab, hidden destination, unread count change or invented sent message",
+        "No font-size reduction between variants"
+      ],
+      "variants": {
+        "problem": {
+          "changes": [
+            "oversized compose control covers last row",
+            "single-line long tab labels clip inside own tiles",
+            "tab hit region intrudes into authored gesture area"
+          ],
+          "content_ref": "antislop.mobile_control_layouts.v1.fixture.slack_navigation_action.content",
+          "state_ref": "antislop.mobile_control_layouts.v1.fixture.slack_navigation_action.state"
+        },
+        "proposal": {
+          "changes": [
+            "compose is a separate compact labeled action above navigation",
+            "same full tab labels wrap at word boundaries",
+            "navigation interaction ends above gesture area"
+          ],
+          "content_ref": "antislop.mobile_control_layouts.v1.fixture.slack_navigation_action.content",
+          "state_ref": "antislop.mobile_control_layouts.v1.fixture.slack_navigation_action.state"
+        }
+      },
+      "canonical_content_state_sha256": "f9480d1e7979ed4cb2bc5286514b9b16352725667933e98303f33f75828c48f7"
+    },
+    "things_dense_tasks": {
+      "id": "antislop.mobile_control_layouts.v1.fixture.things_dense_tasks",
+      "synthetic": true,
+      "app_name": "개인 작업 앱",
+      "screen_title": "오늘",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "units": "authored logical drawing units, not measured dp/pt"
+      },
+      "state": {
+        "keyboard_open": false,
+        "modal_open": false,
+        "scroll_offset": 0,
+        "selected_task": null,
+        "menu_open": false,
+        "pending_request": false
+      },
+      "content": {
+        "guidance": "해야 할 작업을 확인하고 완료한 항목에 표시하세요",
+        "rows": [
+          {
+            "id": "t1",
+            "title": "분기 디자인 검수 자료를 팀에 전달하기",
+            "detail": "업무 · 오늘",
+            "completed": false
+          },
+          {
+            "id": "t2",
+            "title": "가장 작은 지원 화면에서 긴 한국어 작업 제목과 기한 확인하기",
+            "detail": "모바일 교정 · 오늘",
+            "completed": false
+          },
+          {
+            "id": "t3",
+            "title": "회의에서 결정한 수정 사항을 정리하기",
+            "detail": "공동 작업 · 오늘",
+            "completed": false
+          },
+          {
+            "id": "t4",
+            "title": "다음 주 발표 순서와 자료를 점검하기",
+            "detail": "준비 · 오늘",
+            "completed": false
+          },
+          {
+            "id": "t5",
+            "title": "완료한 작업 목록을 마지막으로 확인하기",
+            "detail": "검수 · 오늘",
+            "completed": false
+          }
+        ],
+        "actions": [
+          {
+            "id": "add",
+            "label": "새 작업 추가",
+            "role": "primary action",
+            "result": "open new task editor"
+          },
+          {
+            "id": "options",
+            "label": "목록 옵션",
+            "role": "secondary action",
+            "result": "open list options"
+          }
+        ]
+      },
+      "invariants": [
+        "Same five task IDs, full titles, details, order and completion flags",
+        "Guidance sentence remains visible in both variants, not removed or hidden behind a changed disclosure state",
+        "Same add and options actions with unchanged labels and meaning",
+        "Same font sizes for guidance, task titles, metadata and actions"
+      ],
+      "variants": {
+        "problem": {
+          "changes": [
+            "guidance in a tall standalone panel",
+            "each task has repeated card chrome",
+            "two equal large saturated footer actions"
+          ],
+          "content_ref": "antislop.mobile_control_layouts.v1.fixture.things_dense_tasks.content",
+          "state_ref": "antislop.mobile_control_layouts.v1.fixture.things_dense_tasks.state"
+        },
+        "proposal": {
+          "changes": [
+            "guidance is compact text under screen title",
+            "tasks form one aligned list with quiet separators",
+            "add remains labeled, options moves beside title with lower visual emphasis"
+          ],
+          "content_ref": "antislop.mobile_control_layouts.v1.fixture.things_dense_tasks.content",
+          "state_ref": "antislop.mobile_control_layouts.v1.fixture.things_dense_tasks.state"
+        }
+      },
+      "canonical_content_state_sha256": "3611ddd12e1e912202752894989e6a425e54c285f07de67abf02020da58f8b89"
+    },
+    "toss_keyboard_sheet": {
+      "id": "antislop.mobile_control_layouts.v1.fixture.toss_keyboard_sheet",
+      "synthetic": true,
+      "app_name": "알림 설정 앱",
+      "screen_title": "알림",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "units": "authored logical drawing units, not measured dp/pt"
+      },
+      "state": {
+        "modal_open": true,
+        "sheet_state": "expanded",
+        "keyboard_open": true,
+        "keyboard_kind": "Korean text",
+        "focused_field": "reminder_name",
+        "field_value": "분기 디자인 검수 준비 알림",
+        "composition_committed": true,
+        "selection": "caret at end",
+        "scroll_offset": 0,
+        "pending_request": false,
+        "error": null
+      },
+      "content": {
+        "background_title": "알림",
+        "sheet_title": "알림 이름 바꾸기",
+        "helper": "이름만 바뀌며 알림 시간은 그대로 유지돼요",
+        "field_label": "알림 이름",
+        "field_value": "분기 디자인 검수 준비 알림",
+        "actions": [
+          {
+            "id": "cancel",
+            "label": "취소",
+            "role": "secondary action",
+            "result": "dismiss without applying draft name"
+          },
+          {
+            "id": "save",
+            "label": "알림 이름 저장하고 목록으로 돌아가기",
+            "role": "primary action",
+            "result": "save draft name then return to list"
+          }
+        ]
+      },
+      "invariants": [
+        "Same modal, expanded sheet, keyboard type and visible keyboard geometry",
+        "Same focused field, draft value, caret, helper consequence, action labels and save/cancel meaning",
+        "No real signup data, financial data or authentication values",
+        "Problem hidden buttons still exist in semantic fixture; proposal exposes them without changing their result"
+      ],
+      "variants": {
+        "problem": {
+          "changes": [
+            "sheet footer stays pinned to screen bottom behind IME",
+            "helper panel wastes vertical space",
+            "primary long label is treated as a single-line label"
+          ],
+          "content_ref": "antislop.mobile_control_layouts.v1.fixture.toss_keyboard_sheet.content",
+          "state_ref": "antislop.mobile_control_layouts.v1.fixture.toss_keyboard_sheet.state"
+        },
+        "proposal": {
+          "changes": [
+            "sheet usable content and footer are above keyboard top",
+            "helper uses natural two-line text",
+            "primary long label wraps to two lines without font shrink; cancel stays quiet and reachable"
+          ],
+          "content_ref": "antislop.mobile_control_layouts.v1.fixture.toss_keyboard_sheet.content",
+          "state_ref": "antislop.mobile_control_layouts.v1.fixture.toss_keyboard_sheet.state"
+        }
+      },
+      "canonical_content_state_sha256": "0d6d1b2932b6453d59cd8c9d970e8f8afc52accabeda3ca96b7351de3217f9f8"
+    }
+  },
+  "authored_assets": [
+    {
+      "svg": "mobile_app_v1/boards/01_navigation_action.svg",
+      "png": "mobile_app_v1/boards/01_navigation_action.png",
+      "canvas": [
+        1440,
+        1080
+      ]
+    },
+    {
+      "svg": "mobile_app_v1/boards/02_dense_task_actions.svg",
+      "png": "mobile_app_v1/boards/02_dense_task_actions.png",
+      "canvas": [
+        1440,
+        1080
+      ]
+    },
+    {
+      "svg": "mobile_app_v1/boards/03_keyboard_sheet.svg",
+      "png": "mobile_app_v1/boards/03_keyboard_sheet.png",
+      "canvas": [
+        1440,
+        1080
+      ]
+    }
+  ],
+  "evidence_assets": [
+    {
+      "source_id": "antislop.mobile_control_layouts.v1.source.slack_2020",
+      "asset_url": "https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/IA-mobile_tab-bar-1.gif",
+      "bytes": 1154979,
+      "sha256": "9d7407a2551f50daca9bf27939d1b6692f736666bccdbbaa04e2db179c03aada",
+      "use": "research-only; do not include in public release/package",
+      "inspected": true,
+      "bundled": false,
+      "availability": "external_link_only; redistribution_permission_not_established"
+    },
+    {
+      "source_id": "antislop.mobile_control_layouts.v1.source.slack_2020",
+      "asset_url": "https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/IA-mobile_Composing-a-message-1.gif",
+      "bytes": 3004506,
+      "sha256": "834e3713359269e2669322b5269671bf8176a3421af351ffc0930710ec4125c2",
+      "use": "research-only; do not include in public release/package",
+      "inspected": true,
+      "bundled": false,
+      "availability": "external_link_only; redistribution_permission_not_established"
+    },
+    {
+      "source_id": "antislop.mobile_control_layouts.v1.source.things_2025",
+      "asset_url": "https://culturedcode.com/frozen/2025/09/things-os26-screenshot-ios-io75.jpg",
+      "bytes": 105786,
+      "sha256": "965c490a5bfdeeec07e385362d0cbcde2cb59dda2ad2e41298b634520a4a27f8",
+      "use": "research-only; do not include in public release/package",
+      "inspected": true,
+      "bundled": false,
+      "availability": "external_link_only; redistribution_permission_not_established"
+    },
+    {
+      "source_id": "antislop.mobile_control_layouts.v1.source.toss_signup",
+      "asset_url": "https://static.toss.im/ipd-tcs/toss_core/live/3fff7f20-6349-4072-9060-74c390b06d84/Untitled.png",
+      "bytes": 81161,
+      "sha256": "8082337fea10f618485303585aae4b76e9802cbc45d20b7c0f06bec51ba66824",
+      "use": "research-only; do not include in public release/package",
+      "inspected": true,
+      "bundled": false,
+      "availability": "external_link_only; redistribution_permission_not_established"
+    },
+    {
+      "source_id": "antislop.mobile_control_layouts.v1.source.toss_signup",
+      "asset_url": "https://static.toss.im/ipd-tcs/toss_core/live/ce8973b2-a3e5-40dd-8986-2acca785074f/Untitled.png",
+      "bytes": 94869,
+      "sha256": "5d321dc489bc987cc9c094bef9735f7738bca4bd9776d1929e9ab069f71a0375",
+      "use": "research-only; do not include in public release/package",
+      "inspected": true,
+      "bundled": false,
+      "availability": "external_link_only; redistribution_permission_not_established"
+    },
+    {
+      "source_id": "antislop.mobile_control_layouts.v1.source.android_insets",
+      "asset_url": "https://developer.android.com/static/develop/ui/compose/images/layouts/insets/edge-to-edge-lazy-column-textfields.mp4?hl=ko",
+      "bytes": 1293101,
+      "sha256": "beae6d3b52df961d392c07cac29db64e2bd5330b96cb2f3d7cd5ef8567b53f49",
+      "use": "research-only; do not include in public release/package",
+      "inspected": true,
+      "bundled": false,
+      "availability": "external_link_only; redistribution_permission_not_established"
+    }
+  ],
+  "source_rights_boundary": "Only authored SVG/PNG boards are release candidates. Source originals and derived source frame sheets remain research-only; links do not grant reprint rights. No Site, plugin, external Library or user computer was modified.",
+  "runtime_status": "No native app installed/launched; no current product account or interaction verified; no user outcomes measured"
+}

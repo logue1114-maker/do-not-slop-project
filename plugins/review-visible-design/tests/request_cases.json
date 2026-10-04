@@ -1,0 +1,1020 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_type": "synthetic_normalized_contract_inputs",
+  "cases": [
+    {
+      "case_id": "REQ:rpg-equipment:direct",
+      "type": "direct",
+      "prompt": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G01"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/game-equipment.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:rpg-equipment:indirect",
+      "type": "indirect",
+      "prompt": "현재 검과 후보 검의 차이가 안 읽히고 장착과 설정이 같은 크기야",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "현재 검과 후보 검의 차이가 안 읽히고 장착과 설정이 같은 크기야",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G01"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/game-equipment.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:card-execution:direct",
+      "type": "direct",
+      "prompt": "이 카드 사용 화면을 같은 손패와 자원으로 교정해줘",
+      "normalized_input": {
+        "purpose": "card-execution",
+        "task": "이 카드 사용 화면을 같은 손패와 자원으로 교정해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G02"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/game-card-execution.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:card-execution:indirect",
+      "type": "indirect",
+      "prompt": "카드 비용을 보려면 매번 올려야 하고 대상 선택과 실행이 구별 안 돼",
+      "normalized_input": {
+        "purpose": "card-execution",
+        "task": "카드 비용을 보려면 매번 올려야 하고 대상 선택과 실행이 구별 안 돼",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G02"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/game-card-execution.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:short-puzzle:direct",
+      "type": "direct",
+      "prompt": "이 짧은 퍼즐 화면의 보드와 조작 위계를 봐줘",
+      "normalized_input": {
+        "purpose": "short-puzzle",
+        "task": "이 짧은 퍼즐 화면의 보드와 조작 위계를 봐줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G03"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/game-short-puzzle.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:short-puzzle:indirect",
+      "type": "indirect",
+      "prompt": "시작 설명을 닫고 나면 목표와 도움을 못 찾겠어",
+      "normalized_input": {
+        "purpose": "short-puzzle",
+        "task": "시작 설명을 닫고 나면 목표와 도움을 못 찾겠어",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G03"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/game-short-puzzle.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:product-selection-cart:direct",
+      "type": "direct",
+      "prompt": "상품 옵션 선택과 담기 화면의 구성을 검토해줘",
+      "normalized_input": {
+        "purpose": "product-selection-cart",
+        "task": "상품 옵션 선택과 담기 화면의 구성을 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "W01"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/web-product-selection.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:product-selection-cart:indirect",
+      "type": "indirect",
+      "prompt": "상품보다 장점 카드가 먼저 보이고 담긴 수량이 불분명해",
+      "normalized_input": {
+        "purpose": "product-selection-cart",
+        "task": "상품보다 장점 카드가 먼저 보이고 담긴 수량이 불분명해",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "W01"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/web-product-selection.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:information-reading:direct",
+      "type": "direct",
+      "prompt": "이 안내문의 제목과 목차와 본문을 교정해줘",
+      "normalized_input": {
+        "purpose": "information-reading",
+        "task": "이 안내문의 제목과 목차와 본문을 교정해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "W02"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/web-information-reading.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:information-reading:indirect",
+      "type": "indirect",
+      "prompt": "눌러도 안 되는 문서 아이콘이 버튼처럼 보이고 원하는 절을 찾기 힘들어",
+      "normalized_input": {
+        "purpose": "information-reading",
+        "task": "눌러도 안 되는 문서 아이콘이 버튼처럼 보이고 원하는 절을 찾기 힘들어",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "W02"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/web-information-reading.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:lesson-question:direct",
+      "type": "direct",
+      "prompt": "수업과 확인 문제 화면의 탐색과 피드백을 검토해줘",
+      "normalized_input": {
+        "purpose": "lesson-question",
+        "task": "수업과 확인 문제 화면의 탐색과 피드백을 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "W03",
+        "A01:question-only"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/web-lesson-question.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:lesson-question:indirect",
+      "type": "indirect",
+      "prompt": "완료한 수업과 현재 수업이 똑같이 보이고 오답 뒤 어디로 돌아갈지 안 보여",
+      "normalized_input": {
+        "purpose": "lesson-question",
+        "task": "완료한 수업과 현재 수업이 똑같이 보이고 오답 뒤 어디로 돌아갈지 안 보여",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "W03",
+        "A01:question-only"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Normalized input is test-author supplied, not evidence of model intent inference or screenshot availability",
+      "expected_loaded_references": [
+        "references/web-lesson-question.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:missing-purpose",
+      "type": "edge",
+      "normalized_input": {
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "needs_input",
+      "expected_manual_ids": null,
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": []
+    },
+    {
+      "case_id": "REQ:missing-task",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "unknown",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "needs_input",
+      "expected_manual_ids": null,
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": []
+    },
+    {
+      "case_id": "REQ:unsupported",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "productivity-issue-list",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "unsupported",
+      "expected_manual_ids": null,
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": []
+    },
+    {
+      "case_id": "REQ:translation-nonactivation",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "not_interface",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "not_applicable",
+      "expected_manual_ids": [],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": []
+    },
+    {
+      "case_id": "REQ:no-screen",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "none"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "proposal_only",
+      "expected_manual_ids": [
+        "G01"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": [
+        "references/game-equipment.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:source-only",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "source",
+          "location": "fixture:source-only"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "proposal_only",
+      "expected_manual_ids": [
+        "G01"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": [
+        "references/game-equipment.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:unknown-platform-controller",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "unknown",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "input_modes": [
+            "controller"
+          ],
+          "locale": "en-US"
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G01"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_overlay_ids": [
+        "OV:controller"
+      ],
+      "expected_loaded_references": [
+        "references/game-equipment.md",
+        "references/evidence-contract.json"
+      ]
+    },
+    {
+      "case_id": "REQ:invalid-mode",
+      "type": "edge",
+      "normalized_input": {
+        "purpose": "rpg-equipment",
+        "task": "이 RPG 장비창의 버튼과 비교 위계를 검토해줘",
+        "platform": "web",
+        "mode": "publish",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:declared-screen-not-rendered"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "invalid_input",
+      "expected_manual_ids": null,
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "expected_loaded_references": []
+    },
+    {
+      "case_id": "REQ:game.action_controls:source-only",
+      "type": "regression",
+      "prompt": "고정 대상 능력 버튼의 장면과 조형 가족을 소스로 검토해줘",
+      "normalized_input": {
+        "purpose": "game.action_controls",
+        "task": "Choose a fixed-target ability then execute or pause without changing original semantics",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "source",
+          "location": "fixture:game_controls_same_fixture.html"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "proposal_only",
+      "expected_manual_ids": [
+        "G04"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "expected_loaded_references": [
+        "references/game-action-controls.md",
+        "references/evidence-contract.json"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Author-normalized routing regression; source-only is never a visual pass and fixed-target controls are never forced through card semantics"
+    },
+    {
+      "case_id": "REQ:game.action_controls:rendered",
+      "type": "regression",
+      "prompt": "능력을 선택하고 선택 실행을 누르는 action bar를 검토해줘",
+      "normalized_input": {
+        "purpose": "game.action_controls",
+        "task": "Choose a fixed-target ability then execute or pause without changing original semantics",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "screenshot",
+          "location": "fixture:game_controls_same_fixture.png"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "routed",
+      "expected_manual_ids": [
+        "G04"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "expected_loaded_references": [
+        "references/game-action-controls.md",
+        "references/evidence-contract.json"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Author-normalized routing regression; source-only is never a visual pass and fixed-target controls are never forced through card semantics"
+    },
+    {
+      "case_id": "REQ:game.action_controls:no-evidence",
+      "type": "regression",
+      "prompt": "능력·실행·일시정지 버튼 시안을 제안해줘",
+      "normalized_input": {
+        "purpose": "game.action_controls",
+        "task": "Choose a fixed-target ability then execute or pause without changing original semantics",
+        "platform": "web",
+        "mode": "propose",
+        "interface_ref": {
+          "kind": "none"
+        },
+        "context": {
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_modes": [
+            "keyboard",
+            "mouse"
+          ],
+          "art_direction": "existing system",
+          "allowed_changes": [
+            "visual presentation only"
+          ]
+        }
+      },
+      "expected_status": "proposal_only",
+      "expected_manual_ids": [
+        "G04"
+      ],
+      "expected_overlay_ids": [
+        "OV:web",
+        "OV:keyboard",
+        "OV:localization"
+      ],
+      "expected_loaded_references": [
+        "references/game-action-controls.md",
+        "references/evidence-contract.json"
+      ],
+      "natural_language_activation": "not_run",
+      "behavioral_output": "not_run",
+      "note": "Author-normalized routing regression; source-only is never a visual pass and fixed-target controls are never forced through card semantics"
+    }
+  ]
+}

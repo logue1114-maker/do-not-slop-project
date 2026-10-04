@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fleet command · controlled HUD comparison</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="page-bar">
+    <div><span class="eyebrow">ORIGINAL INTERACTIVE STUDY</span><h1>Fleet command</h1></div>
+    <div class="viewport-controls" aria-label="Frame size"><button type="button" data-frame="wide" aria-pressed="true">Desktop frame</button><button type="button" data-frame="narrow" aria-pressed="false">Narrow frame</button></div>
+  </header>
+  <div class="scenario-bar"><span>Shared state</span><div class="scenario-controls" aria-label="State examples"><button type="button" data-preset="normal">Normal</button><button type="button" data-preset="selection">Selection</button><button type="button" data-preset="preview">Order preview</button><button type="button" data-preset="invalid">Invalid target</button><button type="button" data-preset="empty">Empty</button><button type="button" id="reset">Reset</button></div><span id="fixture-label"></span></div>
+  <div id="comparison" class="comparison" data-frame="wide"></div>
+  <p class="interaction-note">Either frame controls both. Click a friendly ship to select it; Shift + click adds or removes. Choose Move or Attack, choose a target, then Confirm. Stop sends immediately. M / A / S and Escape work only within a focused frame; Enter and Space keep their native button behavior.</p>
+  <div id="live-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <details class="evidence"><summary>Study boundaries and sources</summary><p>A and B share one fixture and one state, including hover, focus, selection, targets, errors and committed orders. A is an authored high-footprint baseline; B is an authored compact proposal. Neither is a screenshot, reconstruction or measurement of an existing game. Commands create records and lines; ships do not simulate movement or damage.</p><p>Source-backed design inputs: <a href="https://www.homeworlduniverse.com/war-games-feedback/">Homeworld 3 official demo feedback</a> (control conflicts, concurrent movement/attack lines, HUD scale) and <a href="https://www.joshsquiresdesign.com/homeworld-vast-reaches-gameplay-ui">Homeworld: Vast Reaches designer documentation</a> (selection and hover states). Their actual product results do not establish this demo’s usability.</p></details>
+</main>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>

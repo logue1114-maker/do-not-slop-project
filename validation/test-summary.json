@@ -1,0 +1,47 @@
+{
+  "project": "Do Not Slop Project",
+  "executed_at_utc": "2026-10-04T08:47:22.242874+00:00",
+  "scope": "Fresh commands executed on public source tree; no model, browser, network, install or remote write",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "commands": [
+    {
+      "command": "node --test research/strategy_controls_oct4/demo/tests.mjs",
+      "exit_code": 0,
+      "passed": true,
+      "output_tail": "✔ every transition sequence yields equal A/B presentation data (0.271229ms)\n✔ UI builds both variants through the same world and control template (9.31452ms)\n✔ Confirm and Cancel recover only the disabled focused order control (0.193641ms)\n✔ focus recovery leaves enabled, unrelated and hover controls untouched (0.096906ms)\n✔ UI focus repair is local to the captured scene and does not select or hover (1.158355ms)\n✔ three selected ships retain every fact, invalid target and prior order together (0.225811ms)\n✔ desktop A reserves a fixed inset without clipping or suppressing its HUD content (0.630439ms)\nℹ tests 30\nℹ suites 0\nℹ pass 30\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 99.944219"
+    },
+    {
+      "command": "node research/booking_flows_oct4/demo/test-model.cjs",
+      "exit_code": 0,
+      "passed": true,
+      "output_tail": "PASS Cancellation from review preserves the original booking\nPASS Cancellation from conflict preserves the original booking\nPASS Cancellation during pending invalidates delayed completion\nPASS Reset during pending prevents a late mutation of the reset state\nPASS A newer confirmation survives completion of an invalidated older operation\nPASS Reset restores fixture availability, original booking and counters in every preset\nPASS HTML loads only local scripts in fixture-model-app order\nPASS Static CSP blocks connection and form-submission destinations\nPASS Fixed HTML IDs are unique and the comparison presets are explicit\nPASS Runtime source has no explicit network or persistent-storage API calls\nPASS App source renders both presentations from the same subscribed store\nPASS Static motion and text-wrapping guards remain in the authored styles\nPASS Tests leave the imported and preserved fixture values unchanged\n\n58/58 public model/source checks passed; 0 failed."
+    },
+    {
+      "command": "node research/booking_flows_oct4/demo/test-app-wiring.cjs",
+      "exit_code": 0,
+      "passed": true,
+      "output_tail": "PASS Negative control reproduces the browser defect when subscription is removed\nPASS Actual app date click rerenders empty day and next-day recovery\nPASS Actual app selection → review → Back rerenders and preserves values\nPASS Actual app error correction clears old DOM error and summary without double render\nPASS Actual app render subscription preserves text focus and caret\nPASS Actual app Korean composition keeps input node until one committed render\nPASS Actual app checkbox → pending → conflict renders every store transition\n\n7/7 app-wiring regressions passed. Actual browser QA remains separate."
+    },
+    {
+      "command": "python3 research/comparison_assets/learning_layout/tests/test_source.py",
+      "exit_code": 0,
+      "passed": true,
+      "output_tail": "PASS long_korean_lesson: lesson DOM order is before the course list only in After\nPASS course_completed_end_to_end: shared state has no phantom or duplicate lesson completion\nPASS course_completed_end_to_end: course membership, order and layout roles follow the shared state\nPASS course_completed_end_to_end: Before unique facts and text match the fixture and state\nPASS course_completed_end_to_end: After unique facts and text match the fixture and state\nPASS course_completed_end_to_end: both presentations preserve identical unique fact values\nPASS course_completed_end_to_end: commands, labels and enabled states preserve their meanings\nPASS course_completed_end_to_end: progress attributes and fill source values match completion\nPASS course_completed_end_to_end: lesson, radio, feedback and completion-control state agree\nPASS course_completed_end_to_end: paired IDs and answer labels remain unique and connected\nPASS course_completed_end_to_end: After removes redundant framing containers and empty slots\nPASS course_completed_end_to_end: lesson DOM order is before the course list only in After\nPASS Checks leave the preserved fixture and HTML bytes unchanged\n\n245/245 public fixture/source/DOM-string checks passed; 0 failed; 18 source states."
+    },
+    {
+      "command": "python3 research/do_not_slop_copy/validate.py",
+      "exit_code": 0,
+      "passed": true,
+      "output_tail": "70 static checks, 65 JavaScript unit checks passed. Browser visual QA not run by this validator; usability study not performed."
+    },
+    {
+      "command": "python3 plugins/review-visible-design/validation/validate_package.py",
+      "exit_code": 0,
+      "passed": true,
+      "output_tail": "{\n  \"status\": \"passed_offline_public_copy_checks\",\n  \"counts\": {\n    \"checks\": 104,\n    \"failed_checks\": 0,\n    \"deterministic_fixtures\": 151,\n    \"fixture_failures\": 0\n  },\n  \"error\": null,\n  \"failed_checks\": []\n}"
+    }
+  ],
+  "failed_commands": 0,
+  "preserved_input_policy": "Exact fixture/runtime bytes and expected raw/canonical hashes retained"
+}

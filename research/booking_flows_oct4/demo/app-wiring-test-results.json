@@ -1,0 +1,40 @@
+{
+  "fixture_id": "BKF4-F01",
+  "method": "Actual app.js and model.js executed in Node VM with DOM-shaped event harness; no browser engine",
+  "total": 7,
+  "passed": 7,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Negative control reproduces the browser defect when subscription is removed",
+      "status": "passed"
+    },
+    {
+      "name": "Actual app date click rerenders empty day and next-day recovery",
+      "status": "passed"
+    },
+    {
+      "name": "Actual app selection → review → Back rerenders and preserves values",
+      "status": "passed"
+    },
+    {
+      "name": "Actual app error correction clears old DOM error and summary without double render",
+      "status": "passed"
+    },
+    {
+      "name": "Actual app render subscription preserves text focus and caret",
+      "status": "passed"
+    },
+    {
+      "name": "Actual app Korean composition keeps input node until one committed render",
+      "status": "passed"
+    },
+    {
+      "name": "Actual app checkbox → pending → conflict renders every store transition",
+      "status": "passed"
+    }
+  ],
+  "browser_runtime": "not represented by this test",
+  "rendered_visual": "not represented by this test",
+  "manual_keyboard": "not represented by this test"
+}

@@ -1,0 +1,1159 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_type": "synthetic_contract_records_not_model_behavior",
+  "cases": [
+    {
+      "case_id": "REP:proposal-no-observation",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "proposal",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "pass"
+    },
+    {
+      "case_id": "REP:observation-without-evidence",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "observed_visible",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:code-is-not-visible-screen",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "DRAFT:E:1",
+            "kind": "source_code",
+            "artifact_ref": "fixture:source",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "observed_visible",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [
+              "DRAFT:E:1"
+            ],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:screenshot-is-not-interaction",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "DRAFT:E:1",
+            "kind": "screenshot",
+            "artifact_ref": "fixture:screenshot",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "observed_behavior",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [
+              "DRAFT:E:1"
+            ],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:synthetic-is-not-live-product",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "DRAFT:E:1",
+            "kind": "synthetic_visual",
+            "artifact_ref": "fixture:synthetic",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "observed_visible",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [
+              "DRAFT:E:1"
+            ],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:synthetic-scope-explicit",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "DRAFT:E:1",
+            "kind": "synthetic_visual",
+            "artifact_ref": "fixture:synthetic",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "observed_visible",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [
+              "DRAFT:E:1"
+            ],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ],
+            "observed_scope": "synthetic_fixture_only"
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "pass"
+    },
+    {
+      "case_id": "REP:test-pass-without-actual-result",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "proposal",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "pass",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:command-missing-preservation",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "proposal",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:unscoped-source",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "proposal",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "S01"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:EQUIP",
+            "status": "not_run",
+            "reason": "No implementation or running UI in the package"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:complete-structural-evidence-fields",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "DRAFT:E:CLI",
+            "kind": "validation_log",
+            "artifact_ref": "fixture:validation-log-not-actually-run",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "proposal",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:STRUCTURE",
+            "test_kind": "structural",
+            "input": "fixture metadata",
+            "expected_result": "equal fixture IDs",
+            "environment": "synthetic-contract-test-only",
+            "revision": "fixture-revision",
+            "actual_result": "Synthetic passed result used to test report contract, not a claim about this product",
+            "evidence_ids": [
+              "DRAFT:E:CLI"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "pass"
+    },
+    {
+      "case_id": "REP:structural-log-is-not-interaction",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "DRAFT:E:CLI",
+            "kind": "validation_log",
+            "artifact_ref": "fixture:validation-log-not-actually-run",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [
+          {
+            "id": "DRAFT:FINDING:01",
+            "kind": "proposal",
+            "locator": "fixture candidate/current stat rows and settings button",
+            "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+            "cause_hypothesis": "Possible equal-emphasis template, untested",
+            "evidence_ids": [],
+            "source_ids": [
+              "AS:S23"
+            ],
+            "correction_command": {
+              "target": "equipment comparison stat rows and settings control",
+              "operation": "align_and_rebalance",
+              "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+              "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+              "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+              "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+            },
+            "preservation": [
+              "oak 12/2",
+              "patrol 16/2",
+              "selection/commit semantics"
+            ],
+            "verification": [
+              "same-fixture screenshots",
+              "equip/cancel interaction tests"
+            ]
+          }
+        ],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "DRAFT:T:STRUCTURE",
+            "test_kind": "interaction",
+            "input": "fixture metadata",
+            "expected_result": "equal fixture IDs",
+            "environment": "synthetic-contract-test-only",
+            "revision": "fixture-revision",
+            "actual_result": "Synthetic passed result used to test report contract, not a claim about this product",
+            "evidence_ids": [
+              "DRAFT:E:CLI"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "rpg-equipment",
+          "selected_manual_ids": [
+            "G01"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Synthetic fixture proposal only; no interface observed",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:game-source-only-canonical-evidence-enum",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "FIXTURE:SOURCE",
+            "kind": "source_code",
+            "artifact_ref": "fixture:source-not-a-product-observation",
+            "inspection_status": "inspected"
+          },
+          {
+            "id": "FIXTURE:CHECK",
+            "kind": "validation_log",
+            "artifact_ref": "fixture:static-log-not-an-input-trace",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "FIXTURE:STRUCTURAL",
+            "test_kind": "structural",
+            "input": "constructed report metadata only",
+            "expected_result": "source facts and a static check use the exposed canonical enum",
+            "environment": "synthetic-validator-fixture",
+            "revision": "draft.2-fixture",
+            "actual_result": "This synthetic passed declaration tests fields only, not execution on a game",
+            "evidence_ids": [
+              "FIXTURE:SOURCE",
+              "FIXTURE:CHECK"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "game.action_controls",
+          "selected_manual_ids": [
+            "G04"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Source-only fixture contract regression, no rendering or executed game input",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "pass"
+    },
+    {
+      "case_id": "REP:source-alias-has-actionable-enum-hint",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "FIXTURE:SOURCE",
+            "kind": "source",
+            "artifact_ref": "fixture:source-not-a-product-observation",
+            "inspection_status": "inspected"
+          },
+          {
+            "id": "FIXTURE:CHECK",
+            "kind": "validation_log",
+            "artifact_ref": "fixture:static-log-not-an-input-trace",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "FIXTURE:STRUCTURAL",
+            "test_kind": "structural",
+            "input": "constructed report metadata only",
+            "expected_result": "source facts and a static check use the exposed canonical enum",
+            "environment": "synthetic-validator-fixture",
+            "revision": "draft.2-fixture",
+            "actual_result": "This synthetic passed declaration tests fields only, not execution on a game",
+            "evidence_ids": [
+              "FIXTURE:SOURCE",
+              "FIXTURE:CHECK"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "game.action_controls",
+          "selected_manual_ids": [
+            "G04"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Source-only fixture contract regression, no rendering or executed game input",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail",
+      "expected_error_contains": "use source_code"
+    },
+    {
+      "case_id": "REP:static-check-alias-has-actionable-enum-hint",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "FIXTURE:SOURCE",
+            "kind": "source_code",
+            "artifact_ref": "fixture:source-not-a-product-observation",
+            "inspection_status": "inspected"
+          },
+          {
+            "id": "FIXTURE:CHECK",
+            "kind": "static_check",
+            "artifact_ref": "fixture:static-log-not-an-input-trace",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "FIXTURE:STRUCTURAL",
+            "test_kind": "structural",
+            "input": "constructed report metadata only",
+            "expected_result": "source facts and a static check use the exposed canonical enum",
+            "environment": "synthetic-validator-fixture",
+            "revision": "draft.2-fixture",
+            "actual_result": "This synthetic passed declaration tests fields only, not execution on a game",
+            "evidence_ids": [
+              "FIXTURE:SOURCE",
+              "FIXTURE:CHECK"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "game.action_controls",
+          "selected_manual_ids": [
+            "G04"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Source-only fixture contract regression, no rendering or executed game input",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail",
+      "expected_error_contains": "use validation_log"
+    },
+    {
+      "case_id": "REP:game-static-check-is-not-rendered-visual-evidence",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "FIXTURE:SOURCE",
+            "kind": "source_code",
+            "artifact_ref": "fixture:source-not-a-product-observation",
+            "inspection_status": "inspected"
+          },
+          {
+            "id": "FIXTURE:CHECK",
+            "kind": "validation_log",
+            "artifact_ref": "fixture:static-log-not-an-input-trace",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "FIXTURE:STRUCTURAL",
+            "test_kind": "visual",
+            "input": "constructed report metadata only",
+            "expected_result": "source facts and a static check use the exposed canonical enum",
+            "environment": "synthetic-validator-fixture",
+            "revision": "draft.2-fixture",
+            "actual_result": "This synthetic passed declaration tests fields only, not execution on a game",
+            "evidence_ids": [
+              "FIXTURE:SOURCE",
+              "FIXTURE:CHECK"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "game.action_controls",
+          "selected_manual_ids": [
+            "G04"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Source-only fixture contract regression, no rendering or executed game input",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    },
+    {
+      "case_id": "REP:game-static-check-is-not-executed-input",
+      "input": {
+        "assumptions_unknowns": [],
+        "evidence": [
+          {
+            "id": "FIXTURE:SOURCE",
+            "kind": "source_code",
+            "artifact_ref": "fixture:source-not-a-product-observation",
+            "inspection_status": "inspected"
+          },
+          {
+            "id": "FIXTURE:CHECK",
+            "kind": "validation_log",
+            "artifact_ref": "fixture:static-log-not-an-input-trace",
+            "inspection_status": "inspected"
+          }
+        ],
+        "findings": [],
+        "decisions": [],
+        "rejected_alternatives": [],
+        "change_ledger": [],
+        "test_results": [
+          {
+            "case_id": "FIXTURE:STRUCTURAL",
+            "test_kind": "interaction",
+            "input": "constructed report metadata only",
+            "expected_result": "source facts and a static check use the exposed canonical enum",
+            "environment": "synthetic-validator-fixture",
+            "revision": "draft.2-fixture",
+            "actual_result": "This synthetic passed declaration tests fields only, not execution on a game",
+            "evidence_ids": [
+              "FIXTURE:SOURCE",
+              "FIXTURE:CHECK"
+            ],
+            "status": "pass"
+          }
+        ],
+        "unresolved_defects": [],
+        "route": {
+          "purpose": "game.action_controls",
+          "selected_manual_ids": [
+            "G04"
+          ]
+        },
+        "mode": "propose",
+        "scope": "Source-only fixture contract regression, no rendering or executed game input",
+        "implementation_contract": {
+          "mode": "not_implemented",
+          "source_targets": []
+        },
+        "before_after_evidence": {
+          "status": "not_run",
+          "comparison": "tests/sample_comparison.json"
+        },
+        "user_review_package": {
+          "status": "pending",
+          "visual": "not_run",
+          "behavioral": "not_run"
+        }
+      },
+      "expected_contract_result": "fail"
+    }
+  ]
+}

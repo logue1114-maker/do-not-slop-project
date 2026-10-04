@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080"><title>반복 작업 목록에 작업부터 보이게 하기</title><desc>Synthetic proposals only. Both variants use one fixture. Not original app screenshots, not tested native apps.</desc>
+<rect x="0" y="0" width="1440" height="1080" fill="#edf1f5" rx="0" />
+<text x="42" y="61.6" font-family="Noto Sans CJK KR" font-size="30" font-weight="700" fill="#172437" text-anchor="start" data-full-content="반복 작업 목록에 작업부터 보이게 하기">
+<tspan x="42" dy="0">반복 작업 목록에 작업부터 보이게 하기</tspan>
+</text>
+<text x="42" y="96.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#172437" text-anchor="start" data-full-content="Things iPhone 공식 화면에서 추출한 판단 · 같은 안내문과 다섯 작업을 유지한 새 제안">
+<tspan x="42" dy="0">Things iPhone 공식 화면에서 추출한 판단 · 같은 안내문과 다섯 작업을 유지한 새 제안</tspan>
+</text>
+<text x="48" y="134.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="700" fill="#b23b37" text-anchor="start" data-full-content="문제 재현 · 합성 화면">
+<tspan x="48" dy="0">문제 재현 · 합성 화면</tspan>
+</text>
+<text x="520" y="134.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="교정 제안 · 합성 화면">
+<tspan x="520" dy="0">교정 제안 · 합성 화면</tspan>
+</text>
+<rect x="41" y="147" width="404" height="858" fill="#172437" rx="32" />
+<rect x="48" y="154" width="390" height="844" fill="#fff" rx="25" />
+<text x="70" y="178.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="700" fill="#172437" text-anchor="start" data-full-content="9:41">
+<tspan x="70" dy="0">9:41</tspan>
+</text>
+<rect x="328" y="171" width="45" height="8" fill="#172437" rx="3" />
+<rect x="382" y="168" width="30" height="14" fill="#172437" rx="3" />
+<rect x="48" y="972" width="390" height="26" fill="#e7edf2" rx="0" />
+<rect x="191" y="983" width="104" height="5" fill="#334b63" rx="3" />
+<text x="70" y="235.0" font-family="Noto Sans CJK KR" font-size="25" font-weight="700" fill="#172437" text-anchor="start" data-full-content="오늘">
+<tspan x="70" dy="0">오늘</tspan>
+</text>
+<rect x="68" y="266" width="350" height="142" fill="#e6eef8" rx="15" />
+<text x="88" y="334.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="해야 할 작업을 확인하고 완료한 항목에 표시하세요">
+<tspan x="88" dy="0">해야 할 작업을 확인하고 완료한 항목에</tspan>
+<tspan x="88" dy="23.2">표시하세요</tspan>
+</text>
+<rect x="68" y="424" width="350" height="84" fill="#f7f9fc" rx="12" stroke="#dce3ec" />
+<rect x="78" y="439" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="112" y="451.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="분기 디자인 검수 자료를 팀에 전달하기">
+<tspan x="112" dy="0">분기 디자인 검수 자료를 팀에 전달하기</tspan>
+</text>
+<text x="112" y="498.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="업무 · 오늘">
+<tspan x="112" dy="0">업무 · 오늘</tspan>
+</text>
+<rect x="68" y="512" width="350" height="84" fill="#f7f9fc" rx="12" stroke="#dce3ec" />
+<rect x="78" y="527" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="112" y="539.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="가장 작은 지원 화면에서 긴 한국어 작업 제목과 기한 확인하기">
+<tspan x="112" dy="0">가장 작은 지원 화면에서 긴 한국어 작업</tspan>
+<tspan x="112" dy="23.2">제목과 기한 확인하기</tspan>
+</text>
+<text x="112" y="586.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="모바일 교정 · 오늘">
+<tspan x="112" dy="0">모바일 교정 · 오늘</tspan>
+</text>
+<rect x="68" y="600" width="350" height="84" fill="#f7f9fc" rx="12" stroke="#dce3ec" />
+<rect x="78" y="615" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="112" y="627.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="회의에서 결정한 수정 사항을 정리하기">
+<tspan x="112" dy="0">회의에서 결정한 수정 사항을 정리하기</tspan>
+</text>
+<text x="112" y="674.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="공동 작업 · 오늘">
+<tspan x="112" dy="0">공동 작업 · 오늘</tspan>
+</text>
+<rect x="68" y="688" width="350" height="84" fill="#f7f9fc" rx="12" stroke="#dce3ec" />
+<rect x="78" y="703" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="112" y="715.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="다음 주 발표 순서와 자료를 점검하기">
+<tspan x="112" dy="0">다음 주 발표 순서와 자료를 점검하기</tspan>
+</text>
+<text x="112" y="762.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="준비 · 오늘">
+<tspan x="112" dy="0">준비 · 오늘</tspan>
+</text>
+<rect x="68" y="776" width="350" height="84" fill="#f7f9fc" rx="12" stroke="#dce3ec" />
+<rect x="78" y="791" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="112" y="803.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="완료한 작업 목록을 마지막으로 확인하기">
+<tspan x="112" dy="0">완료한 작업 목록을 마지막으로 확인하기</tspan>
+</text>
+<text x="112" y="850.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="검수 · 오늘">
+<tspan x="112" dy="0">검수 · 오늘</tspan>
+</text>
+<rect x="68" y="862" width="170" height="88" fill="#1764c0" rx="12" />
+<text x="153.0" y="912.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="새 작업 추가">
+<tspan x="153.0" dy="0">새 작업 추가</tspan>
+</text>
+<rect x="248" y="862" width="170" height="88" fill="#1764c0" rx="12" />
+<text x="333.0" y="912.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="목록 옵션">
+<tspan x="333.0" dy="0">목록 옵션</tspan>
+</text>
+<rect x="513" y="147" width="404" height="858" fill="#172437" rx="32" />
+<rect x="520" y="154" width="390" height="844" fill="#fff" rx="25" />
+<text x="542" y="178.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="700" fill="#172437" text-anchor="start" data-full-content="9:41">
+<tspan x="542" dy="0">9:41</tspan>
+</text>
+<rect x="800" y="171" width="45" height="8" fill="#172437" rx="3" />
+<rect x="854" y="168" width="30" height="14" fill="#172437" rx="3" />
+<rect x="520" y="972" width="390" height="26" fill="#e7edf2" rx="0" />
+<rect x="663" y="983" width="104" height="5" fill="#334b63" rx="3" />
+<text x="542" y="235.0" font-family="Noto Sans CJK KR" font-size="25" font-weight="700" fill="#172437" text-anchor="start" data-full-content="오늘">
+<tspan x="542" dy="0">오늘</tspan>
+</text>
+<rect x="782" y="204" width="108" height="48" fill="#edf2f7" rx="12" />
+<text x="836.0" y="234.32" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#304c68" text-anchor="middle" data-full-content="목록 옵션">
+<tspan x="836.0" dy="0">목록 옵션</tspan>
+</text>
+<text x="540" y="282.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="해야 할 작업을 확인하고 완료한 항목에 표시하세요">
+<tspan x="540" dy="0">해야 할 작업을 확인하고 완료한 항목에 표시하세요</tspan>
+</text>
+<path d="M540 427L890 427" stroke="#dde3ea" fill="none"/>
+<rect x="550" y="357" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="584" y="369.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="분기 디자인 검수 자료를 팀에 전달하기">
+<tspan x="584" dy="0">분기 디자인 검수 자료를 팀에 전달하기</tspan>
+</text>
+<text x="584" y="416.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="업무 · 오늘">
+<tspan x="584" dy="0">업무 · 오늘</tspan>
+</text>
+<path d="M540 515L890 515" stroke="#dde3ea" fill="none"/>
+<rect x="550" y="445" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="584" y="457.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="가장 작은 지원 화면에서 긴 한국어 작업 제목과 기한 확인하기">
+<tspan x="584" dy="0">가장 작은 지원 화면에서 긴 한국어 작업</tspan>
+<tspan x="584" dy="23.2">제목과 기한 확인하기</tspan>
+</text>
+<text x="584" y="504.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="모바일 교정 · 오늘">
+<tspan x="584" dy="0">모바일 교정 · 오늘</tspan>
+</text>
+<path d="M540 603L890 603" stroke="#dde3ea" fill="none"/>
+<rect x="550" y="533" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="584" y="545.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="회의에서 결정한 수정 사항을 정리하기">
+<tspan x="584" dy="0">회의에서 결정한 수정 사항을 정리하기</tspan>
+</text>
+<text x="584" y="592.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="공동 작업 · 오늘">
+<tspan x="584" dy="0">공동 작업 · 오늘</tspan>
+</text>
+<path d="M540 691L890 691" stroke="#dde3ea" fill="none"/>
+<rect x="550" y="621" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="584" y="633.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="다음 주 발표 순서와 자료를 점검하기">
+<tspan x="584" dy="0">다음 주 발표 순서와 자료를 점검하기</tspan>
+</text>
+<text x="584" y="680.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="준비 · 오늘">
+<tspan x="584" dy="0">준비 · 오늘</tspan>
+</text>
+<path d="M540 779L890 779" stroke="#dde3ea" fill="none"/>
+<rect x="550" y="709" width="22" height="22" fill="#fff" rx="5" stroke="#8ca0b5" />
+<text x="584" y="721.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#172437" text-anchor="start" data-full-content="완료한 작업 목록을 마지막으로 확인하기">
+<tspan x="584" dy="0">완료한 작업 목록을 마지막으로 확인하기</tspan>
+</text>
+<text x="584" y="768.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="검수 · 오늘">
+<tspan x="584" dy="0">검수 · 오늘</tspan>
+</text>
+<rect x="720" y="810" width="170" height="52" fill="#1764c0" rx="12" />
+<text x="805.0" y="842.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="새 작업 추가">
+<tspan x="805.0" dy="0">새 작업 추가</tspan>
+</text>
+<text x="970" y="184.64" font-family="Noto Sans CJK KR" font-size="22" font-weight="700" fill="#172437" text-anchor="start" data-full-content="정보 밀도를 가리는 장식">
+<tspan x="970" dy="0">정보 밀도를 가리는 장식</tspan>
+</text>
+<text x="970" y="236.16" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="1  안내를 지우지 않기">
+<tspan x="970" dy="0">1  안내를 지우지 않기</tspan>
+</text>
+<text x="970" y="275.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="같은 한 문장을 제목 아래 자연스럽게 배치했어요. 처음 필요한 설명이나 결과·오류 안내를 무조건 숨기는 제안은 아니에요.">
+<tspan x="970" dy="0">같은 한 문장을 제목 아래 자연스럽게 배치했어요. 처음 필요한</tspan>
+<tspan x="970" dy="23.2">설명이나 결과·오류 안내를 무조건 숨기는 제안은 아니에요.</tspan>
+</text>
+<text x="970" y="353.56" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="2  목록의 공통 시작선">
+<tspan x="970" dy="0">2  목록의 공통 시작선</tspan>
+</text>
+<text x="970" y="393.32" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="체크, 제목, 메타데이터의 자리를 고정했어요. 모든 작업을 카드로 감싸던 테두리는 조용한 행 구분으로 바꿨어요.">
+<tspan x="970" dy="0">체크, 제목, 메타데이터의 자리를 고정했어요. 모든 작업을</tspan>
+<tspan x="970" dy="23.2">카드로 감싸던 테두리는 조용한 행 구분으로 바꿨어요.</tspan>
+</text>
+<text x="970" y="470.96" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="3  보조 액션의 무게">
+<tspan x="970" dy="0">3  보조 액션의 무게</tspan>
+</text>
+<text x="970" y="510.71999999999997" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="새 작업 추가와 목록 옵션의 기능은 같아요. 옵션은 제목 옆의 중립 버튼으로 옮기고 주 작업과 같은 채색을 줄였어요.">
+<tspan x="970" dy="0">새 작업 추가와 목록 옵션의 기능은 같아요. 옵션은 제목 옆의</tspan>
+<tspan x="970" dy="23.2">중립 버튼으로 옮기고 주 작업과 같은 채색을 줄였어요.</tspan>
+</text>
+<text x="970" y="588.3599999999999" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="예외">
+<tspan x="970" dy="0">예외</tspan>
+</text>
+<text x="970" y="628.1199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="큰 글자에서 제목이 늘어나면 행도 늘려야 해요. 이 그림의 행 높이는 접근성 크기의 고정 상한이 아니에요.">
+<tspan x="970" dy="0">큰 글자에서 제목이 늘어나면 행도 늘려야 해요. 이 그림의 행</tspan>
+<tspan x="970" dy="23.2">높이는 접근성 크기의 고정 상한이 아니에요.</tspan>
+</text>
+<text x="970" y="932.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#536579" text-anchor="start" data-full-content="그림 숫자는 이 합성 fixture의 좌표예요. 실제 앱의 dp·pt 권장값이나 사용성 실측이 아닙니다.">
+<tspan x="970" dy="0">그림 숫자는 이 합성 fixture의 좌표예요. 실제 앱의 dp·pt 권장값이나</tspan>
+<tspan x="970" dy="20.3">사용성 실측이 아닙니다.</tspan>
+</text>
+<text x="42" y="1042.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#536579" text-anchor="start" data-full-content="SYNTHETIC PROPOSALS · 동일 데이터와 상태 · 원본 앱 화면 아님 · 네이티브 런타임 검수 전">
+<tspan x="42" dy="0">SYNTHETIC PROPOSALS · 동일 데이터와 상태 · 원본 앱 화면 아님 · 네이티브 런타임 검수 전</tspan>
+</text>
+</svg>

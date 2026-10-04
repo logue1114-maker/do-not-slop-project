@@ -1,0 +1,398 @@
+{
+  "schema_version": "0.2.0",
+  "title": "용도별 UI UX 매뉴얼",
+  "updated_at": "2026-10-03",
+  "status": "user_review_draft",
+  "installed_as_skill": false,
+  "classification_note": "웹게임은 실행 플랫폼이고 RPG·카드게임은 장르입니다. 게임·웹·앱 책장은 탐색 편의를 위한 것이며 용도 본편과 플랫폼 보충편을 조합합니다.",
+  "manuals": [
+    {
+      "id": "G01",
+      "shelf": "games",
+      "title": "RPG 탐험과 성장",
+      "purpose": "explore_and_progress",
+      "scope": "퀘스트·지도·인벤토리·장비 비교·성장",
+      "core_flow": "탐험 → 보상 → 비교 → 성장 → 복귀",
+      "priority": 1,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-FFXIV",
+        "CASE-DIABLO4"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "G02",
+      "shelf": "games",
+      "title": "카드게임과 덱빌딩",
+      "purpose": "card_decision",
+      "scope": "손패·자원·대상·효과 처리·덱 편집",
+      "core_flow": "상태 해석 → 카드 → 대상 → 확정 → 결과",
+      "priority": 1,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-HEARTHSTONE",
+        "CASE-MARVELSNAP"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "G03",
+      "shelf": "games",
+      "title": "퍼즐과 짧은 캐주얼",
+      "purpose": "solve_puzzle",
+      "scope": "규칙 학습·실패·되돌리기·재시작",
+      "core_flow": "시작 → 조작 → 결과 → 재시도",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-2048",
+        "CASE-LICHESS"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "G04",
+      "shelf": "games",
+      "title": "전략과 관리 시뮬레이션",
+      "purpose": "manage_system",
+      "scope": "자원·목록과 지도·배치·경고",
+      "core_flow": "파악 → 비교 → 명령 → 관찰 → 조정",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [],
+      "case_scope_status": "no_case_attached"
+    },
+    {
+      "id": "G05",
+      "shelf": "games",
+      "title": "실시간 액션과 협동",
+      "purpose": "real_time_action",
+      "scope": "위협·쿨다운·아군·핑·전투 HUD",
+      "core_flow": "인지 → 조작 → 피드백 → 회복",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-DIABLO4"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "W01",
+      "shelf": "web",
+      "title": "쇼핑과 상품 비교",
+      "purpose": "purchase",
+      "scope": "검색·필터·옵션·가격·장바구니·주문",
+      "core_flow": "탐색 → 비교 → 조건 → 주문 → 확인",
+      "priority": 1,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-IKEA",
+        "CASE-APPLE"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "W02",
+      "shelf": "web",
+      "title": "정보 검색과 지식 열람",
+      "purpose": "find_information",
+      "scope": "검색·목차·본문·출처·읽던 위치",
+      "core_flow": "질문 → 탐색 → 읽기 → 확인 → 복귀",
+      "priority": 1,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-WIKIPEDIA",
+        "CASE-MDN"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "W03",
+      "shelf": "web",
+      "title": "온라인 강의와 과정 학습",
+      "purpose": "take_course",
+      "scope": "과정·선수 지식·영상·자막·진도",
+      "core_flow": "선택 → 수강 → 실습 → 피드백 → 다음",
+      "priority": 1,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-KHAN",
+        "CASE-COURSERA"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "W04",
+      "shelf": "web",
+      "title": "콘텐츠와 커뮤니티",
+      "purpose": "participate",
+      "scope": "피드·작성·댓글·알림·신고",
+      "core_flow": "발견 → 이해 → 반응 → 작성 → 회수",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [],
+      "case_scope_status": "no_case_attached"
+    },
+    {
+      "id": "W05",
+      "shelf": "web",
+      "title": "업무 도구와 데이터 관리",
+      "purpose": "manage_work",
+      "scope": "목록·상세·편집·저장·충돌",
+      "core_flow": "찾기 → 수정 → 저장 → 회복",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-TODOIST"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "W06",
+      "shelf": "web",
+      "title": "예약과 신청",
+      "purpose": "book_or_apply",
+      "scope": "단계·조건·입력·오류·완료·변경",
+      "core_flow": "조건 → 선택 → 입력 → 검토 → 제출",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [],
+      "case_scope_status": "no_case_attached"
+    },
+    {
+      "id": "A01",
+      "shelf": "apps",
+      "title": "반복 학습과 문제 풀이",
+      "purpose": "practice",
+      "scope": "문제·힌트·피드백·복습·중단",
+      "core_flow": "문제 → 응답 → 피드백 → 재학습",
+      "priority": 1,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-LICHESS",
+        "CASE-DUOLINGO",
+        "CASE-KHAN"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "A02",
+      "shelf": "apps",
+      "title": "읽기와 미디어 소비",
+      "purpose": "consume_media",
+      "scope": "탐색·플레이어·재생 큐·오프라인",
+      "core_flow": "발견 → 소비 → 제어 → 중단 → 재개",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [],
+      "case_scope_status": "no_case_attached"
+    },
+    {
+      "id": "A03",
+      "shelf": "apps",
+      "title": "개인 생산성과 기록",
+      "purpose": "capture_and_retrieve",
+      "scope": "입력·분류·검색·편집·동기화",
+      "core_flow": "기록 → 정리 → 찾기 → 수행",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "CASE-TODOIST"
+      ],
+      "case_scope_status": "research_available_with_limits"
+    },
+    {
+      "id": "A04",
+      "shelf": "apps",
+      "title": "생활 서비스와 현장 사용",
+      "purpose": "complete_service",
+      "scope": "지도·조건·진행·권한·단절",
+      "core_flow": "선택 → 실행 → 진행 → 현장 → 회복",
+      "priority": 2,
+      "status": "architecture_draft",
+      "case_target": [
+        2,
+        4
+      ],
+      "case_ids": [],
+      "case_scope_status": "no_case_attached"
+    }
+  ],
+  "overlays": [
+    {
+      "id": "P01",
+      "kind": "platform",
+      "title": "웹게임",
+      "condition": "browser-game"
+    },
+    {
+      "id": "P02",
+      "kind": "platform",
+      "title": "데스크톱 웹과 키보드",
+      "condition": "desktop-web"
+    },
+    {
+      "id": "P03",
+      "kind": "platform",
+      "title": "모바일 웹과 네이티브",
+      "condition": "mobile"
+    },
+    {
+      "id": "P04",
+      "kind": "platform",
+      "title": "컨트롤러와 거실 화면",
+      "condition": "controller"
+    },
+    {
+      "id": "P05",
+      "kind": "platform",
+      "title": "태블릿과 다중 창",
+      "condition": "multi-window"
+    },
+    {
+      "id": "C01",
+      "kind": "common",
+      "title": "조사와 실측",
+      "condition": "all"
+    },
+    {
+      "id": "C02",
+      "kind": "common",
+      "title": "접근성과 현지화",
+      "condition": "all"
+    },
+    {
+      "id": "C03",
+      "kind": "common",
+      "title": "동작과 성능",
+      "condition": "all"
+    },
+    {
+      "id": "C04",
+      "kind": "common",
+      "title": "구현과 검수",
+      "condition": "all"
+    }
+  ],
+  "manual_sections": [
+    "목표와 범위",
+    "사례 2~4개와 관찰 경계",
+    "화면 지도",
+    "핵심 동선",
+    "화면과 컴포넌트 실측",
+    "정보와 색상의 역할",
+    "입력·숙련도·플랫폼 차이",
+    "대조 분석",
+    "원리와 사용 조건",
+    "구현 토큰·동선·상태",
+    "검수 결과",
+    "근거와 변경 기록"
+  ],
+  "evidence_types": [
+    {
+      "id": "OBS",
+      "label": "관찰",
+      "meaning": "확인한 특정 화면과 행동"
+    },
+    {
+      "id": "MEASURED",
+      "label": "실측",
+      "meaning": "측정 방법과 단위를 갖춘 값"
+    },
+    {
+      "id": "OFFICIAL",
+      "label": "공식 기준",
+      "meaning": "공식 문서의 안내 또는 요구"
+    },
+    {
+      "id": "INFERRED",
+      "label": "해석",
+      "meaning": "관찰에서 도출한 가설"
+    },
+    {
+      "id": "RECOMMENDED",
+      "label": "제안",
+      "meaning": "프로젝트에 적용할 설계안"
+    },
+    {
+      "id": "UNKNOWN",
+      "label": "미확인",
+      "meaning": "관찰하거나 측정하지 못한 값"
+    }
+  ],
+  "review_scope": "사용자가 규칙과 예시를 검수한 후 승인한 범위에서만 실제 스킬 문서화 또는 등록을 별도로 진행합니다.",
+  "case_evidence_registry": null,
+  "case_link_summary": {
+    "cases_indexed": 14,
+    "live_desktop_cases": 8,
+    "document_or_official_media_cases": 6,
+    "evidence_records": 24,
+    "linked_evidence_records": 23,
+    "unlinked_evidence_records": 1,
+    "rules_with_partial_case_support": 16,
+    "rules_without_case_support": 14,
+    "acceptance_tests": 34,
+    "acceptance_tests_passed": 0,
+    "ux_test_status": "not_run",
+    "web_case_status": "research_document_linked",
+    "official_standard_sources": 21,
+    "evidence_bundle_status": "original_capture_registry_and_third_party_media_not_bundled"
+  }
+}

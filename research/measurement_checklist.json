@@ -1,0 +1,151 @@
+{
+  "title": "사례별 실측 체크리스트",
+  "status": "template_not_measurement_results",
+  "count": 18,
+  "checks": [
+    {
+      "id": "MC01",
+      "title": "관찰 환경",
+      "measure": "플랫폼·버전·로그인·언어·시각을 기록",
+      "unit_policy": "metadata",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC02",
+      "title": "좌표 기준",
+      "measure": "viewport·콘텐츠·캔버스·이미지 중 기준 원점 명시",
+      "unit_policy": "metadata",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC03",
+      "title": "사용 가능한 화면",
+      "measure": "layout viewport·visual viewport·창·안전 영역 구분",
+      "unit_policy": "logical_unit",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC04",
+      "title": "캡처 배율",
+      "measure": "원본 이미지 크기·crop·축소·DPR·zoom·OS 배율·보정 방법",
+      "unit_policy": "metadata",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC05",
+      "title": "보이는 크기",
+      "measure": "버튼·메뉴·카드·패널의 시각 경계와 너비·높이",
+      "unit_policy": "native_unit",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC06",
+      "title": "실제 조작 영역",
+      "measure": "시각 경계와 별도 hit area 및 겹침",
+      "unit_policy": "native_unit",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC07",
+      "title": "상대 크기와 위치",
+      "measure": "정규화 위치·가로와 세로 점유율의 분모",
+      "unit_policy": "ratio",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC08",
+      "title": "면적 점유율",
+      "measure": "포함 영역·제외 영역·겹침 합집합·분모",
+      "unit_policy": "ratio",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC09",
+      "title": "간격과 여백",
+      "measure": "시각 경계 간격과 hit 간격·그룹 내외 간격",
+      "unit_policy": "native_unit",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC10",
+      "title": "텍스트",
+      "measure": "크기 단위·굵기·행간·줄 길이·잘림·glyph body height",
+      "unit_policy": "mixed_explicit",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC11",
+      "title": "색의 역할과 분포",
+      "measure": "UI와 사진·게임 장면 분리·마스크·색공간·테마",
+      "unit_policy": "role_and_ratio",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC12",
+      "title": "대비",
+      "measure": "텍스트·필수 비텍스트·상태별 전경과 배경",
+      "unit_policy": "contrast_ratio",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC13",
+      "title": "정보 밀도",
+      "measure": "동시 항목·행동 수와 관련 정보 묶음",
+      "unit_policy": "count_and_structure",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC14",
+      "title": "동선 비용",
+      "measure": "전환·스크롤·입력·판단·취소·복귀를 따로 기록",
+      "unit_policy": "count_and_path",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC15",
+      "title": "입력과 포커스",
+      "measure": "키보드 순서·controller 인접 그래프·터치 대안",
+      "unit_policy": "graph_and_state",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC16",
+      "title": "피드백과 시간",
+      "measure": "입력 수락·진행·완료·오류와 측정 환경",
+      "unit_policy": "ms_or_observed_only",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC17",
+      "title": "반응형과 확대",
+      "measure": "내용·입력·창 변화에서 레이아웃 전환과 가림",
+      "unit_policy": "layout_and_state",
+      "result": "not_measured",
+      "evidence_id": null
+    },
+    {
+      "id": "MC18",
+      "title": "상태와 데이터 경계",
+      "measure": "로딩·빈값·오류·완료·긴 번역·중단·복구",
+      "unit_policy": "state_and_fixture",
+      "result": "not_measured",
+      "evidence_id": null
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "fixture_id": "BKF4-F01",
+  "method": "Public Node model transitions and static-source checks; no browser engine",
+  "total": 58,
+  "passed": 58,
+  "failed": 0,
+  "fixture_byte_sha256": "272dfbe68ae00ababbd738d3a2e4e6d0cfe5822485e18034df64f9dbab1a21c0",
+  "fixture_canonical_sha256": "fe498756fbf81ccc3642964bf232e62268588e048ebc2623707fbd2340ad21a2",
+  "results": [
+    {
+      "name": "Bundled JavaScript fixture equals the preserved JSON values",
+      "status": "passed"
+    },
+    {
+      "name": "Fixture explicitly identifies a fictional memory-only comparison",
+      "status": "passed"
+    },
+    {
+      "name": "Synthetic total includes the room price and service fee",
+      "status": "passed"
+    },
+    {
+      "name": "Canonical serialization sorts objects recursively without reordering arrays",
+      "status": "passed"
+    },
+    {
+      "name": "Clone isolates nested fixture records",
+      "status": "passed"
+    },
+    {
+      "name": "Time helper calculates the configured duration and rejects malformed starts",
+      "status": "passed"
+    },
+    {
+      "name": "Initial selection uses one unchanged existing reservation",
+      "status": "passed"
+    },
+    {
+      "name": "Constructor copies input without modifying its nested availability",
+      "status": "passed"
+    },
+    {
+      "name": "Snapshot and contract reads are detached from mutable state",
+      "status": "passed"
+    },
+    {
+      "name": "Presentation contract rejects unknown view names",
+      "status": "passed"
+    },
+    {
+      "name": "Subscriptions receive snapshots and unsubscribe cleanly",
+      "status": "passed"
+    },
+    {
+      "name": "Unchanged valid details do not trigger redundant emissions",
+      "status": "passed"
+    },
+    {
+      "name": "Unsupported detail fields are rejected without changing state",
+      "status": "passed"
+    },
+    {
+      "name": "Unavailable and unknown time choices preserve the selected draft",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown date choices preserve independent details and draft",
+      "status": "passed"
+    },
+    {
+      "name": "Selecting the current date preserves its selected time",
+      "status": "passed"
+    },
+    {
+      "name": "Changing date clears only the draft time and preserves details",
+      "status": "passed"
+    },
+    {
+      "name": "Empty day offers the next available date and cannot enter review",
+      "status": "passed"
+    },
+    {
+      "name": "Last available date has no phantom next date",
+      "status": "passed"
+    },
+    {
+      "name": "Empty-day recovery requires explicit date and time choices",
+      "status": "passed"
+    },
+    {
+      "name": "Valid time choice uses the room duration and clears selection errors",
+      "status": "passed"
+    },
+    {
+      "name": "Meeting-name validation rejects \"\"",
+      "status": "passed"
+    },
+    {
+      "name": "Meeting-name validation rejects \"   \"",
+      "status": "passed"
+    },
+    {
+      "name": "Meeting-name validation rejects \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"",
+      "status": "passed"
+    },
+    {
+      "name": "Meeting-name validation rejects 123",
+      "status": "passed"
+    },
+    {
+      "name": "Meeting-name boundaries accept 1 and 60 characters",
+      "status": "passed"
+    },
+    {
+      "name": "Headcount validation rejects \"\"",
+      "status": "passed"
+    },
+    {
+      "name": "Headcount validation rejects 0",
+      "status": "passed"
+    },
+    {
+      "name": "Headcount validation rejects 7",
+      "status": "passed"
+    },
+    {
+      "name": "Headcount validation rejects 2.5",
+      "status": "passed"
+    },
+    {
+      "name": "Headcount validation rejects \"not-a-number\"",
+      "status": "passed"
+    },
+    {
+      "name": "Headcount boundaries accept integer strings from 1 through capacity",
+      "status": "passed"
+    },
+    {
+      "name": "Detail correction clears that field error and permits review",
+      "status": "passed"
+    },
+    {
+      "name": "Review then Back preserves edits and the chosen time",
+      "status": "passed"
+    },
+    {
+      "name": "History-style navigation rejects invalid phases and invalid review",
+      "status": "passed"
+    },
+    {
+      "name": "Confirm outside review is ignored without starting an operation",
+      "status": "passed"
+    },
+    {
+      "name": "Confirmation revalidates edited review details before pending",
+      "status": "passed"
+    },
+    {
+      "name": "Pending blocks edits, Back, phase navigation and duplicate confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "Success replaces one existing reservation exactly once with its original ID",
+      "status": "passed"
+    },
+    {
+      "name": "Stale recheck marks the chosen slot invalid without an automatic replacement",
+      "status": "passed"
+    },
+    {
+      "name": "Conflict recovery uses an explicit available replacement and fresh confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "Disabling simulation does not silently restore a stale invalid slot",
+      "status": "passed"
+    },
+    {
+      "name": "History-style review navigation retains an invalid selection as conflict",
+      "status": "passed"
+    },
+    {
+      "name": "Stale simulation does not invalidate an explicitly selected alternative",
+      "status": "passed"
+    },
+    {
+      "name": "Cancellation from selection preserves the original booking",
+      "status": "passed"
+    },
+    {
+      "name": "Cancellation from review preserves the original booking",
+      "status": "passed"
+    },
+    {
+      "name": "Cancellation from conflict preserves the original booking",
+      "status": "passed"
+    },
+    {
+      "name": "Cancellation during pending invalidates delayed completion",
+      "status": "passed"
+    },
+    {
+      "name": "Reset during pending prevents a late mutation of the reset state",
+      "status": "passed"
+    },
+    {
+      "name": "A newer confirmation survives completion of an invalidated older operation",
+      "status": "passed"
+    },
+    {
+      "name": "Reset restores fixture availability, original booking and counters in every preset",
+      "status": "passed"
+    },
+    {
+      "name": "HTML loads only local scripts in fixture-model-app order",
+      "status": "passed"
+    },
+    {
+      "name": "Static CSP blocks connection and form-submission destinations",
+      "status": "passed"
+    },
+    {
+      "name": "Fixed HTML IDs are unique and the comparison presets are explicit",
+      "status": "passed"
+    },
+    {
+      "name": "Runtime source has no explicit network or persistent-storage API calls",
+      "status": "passed"
+    },
+    {
+      "name": "App source renders both presentations from the same subscribed store",
+      "status": "passed"
+    },
+    {
+      "name": "Static motion and text-wrapping guards remain in the authored styles",
+      "status": "passed"
+    },
+    {
+      "name": "Tests leave the imported and preserved fixture values unchanged",
+      "status": "passed"
+    }
+  ],
+  "browser_runtime": "not_run",
+  "visual_rendering": "not_run",
+  "manual_keyboard": "not_run",
+  "accessibility_audit": "not_run",
+  "usability_measurement": "not_run"
+}

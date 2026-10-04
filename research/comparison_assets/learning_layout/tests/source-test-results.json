@@ -1,0 +1,998 @@
+{
+  "method": "Public fixture/static-source checks plus included Node VM state checks and Python HTMLParser inspection of DOM strings",
+  "total": 245,
+  "passed": 245,
+  "failed": 0,
+  "node_state_checks": 29,
+  "rendered_source_states": 18,
+  "fixture_byte_sha256": "57dab36b6e6504574c1252eed1f01bd2ccf88066f54b38483d67e446d4a003f6",
+  "results": [
+    {
+      "name": "Embedded fixture preserves exact JSON text except the file's final LF",
+      "status": "passed"
+    },
+    {
+      "name": "Embedded fixture JSON values equal the preserved source fixture",
+      "status": "passed"
+    },
+    {
+      "name": "Fixture identity and approval remain explicitly constructed and pending",
+      "status": "passed"
+    },
+    {
+      "name": "Fixture contains three unique courses and exactly four comparison cases",
+      "status": "passed"
+    },
+    {
+      "name": "Fixture lesson IDs are unique and initial completions belong to their course",
+      "status": "passed"
+    },
+    {
+      "name": "HTML includes only one JSON fixture script and one inline application script",
+      "status": "passed"
+    },
+    {
+      "name": "Static HTML has unique IDs and valid toolbar label targets",
+      "status": "passed"
+    },
+    {
+      "name": "Static HTML keeps the Korean locale, viewport and unapproved comparison notice",
+      "status": "passed"
+    },
+    {
+      "name": "App reads one fixture and uses one shared mutable state",
+      "status": "passed"
+    },
+    {
+      "name": "Both presentation roots use the shared renderView and dispatcher",
+      "status": "passed"
+    },
+    {
+      "name": "Runtime source contains no explicit network or persistent-storage API calls",
+      "status": "passed"
+    },
+    {
+      "name": "Authored CSS has wrapping guards without title-clamp rules",
+      "status": "passed"
+    },
+    {
+      "name": "Authored compact course rows have no fixed height",
+      "status": "passed"
+    },
+    {
+      "name": "Authored CSS includes mobile-panel switching and reduced-motion handling",
+      "status": "passed"
+    },
+    {
+      "name": "Included Node state runner exits successfully",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: fixture inline JSON exactly matches fixture.json",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: fixture has the same three unique course records",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: user approval is pending and identity is constructed comparison",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: fixture and nested courses are immutable",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: baseline progress and current lesson come from one state",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: clicking rendered BEFORE open button opens one shared next lesson",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: completion is blocked before checkpoint confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: no answer shows recovery text without changing progress",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: wrong answer from AFTER stays unfinished in both views",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: correct answer from BEFORE enables completion in both views",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: changing a checked answer revokes completion permission",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: clicking BEFORE complete synchronizes progress and next lesson",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: stale double completion cannot finish the next lesson",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: clicking AFTER complete synchronizes next progress transition",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: closing lesson preserves progress",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: switching course from AFTER updates selected focus and shared lesson",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: selected-case RESET restores baseline without changing mobile choice",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: rendered mobile-view button click routes through shared event handler",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: mobile toggle updates shared view state and aria-pressed controls",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: empty case removes enrollment and lesson from both views",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: empty restoration from rendered BEFORE button restores identical fixture",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: all-completed case has 100% and no next unfinished lesson",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: completed course opens real first lesson for review",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: review completion never duplicates or removes finished progress",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: long Korean title changes the same field in both views",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: long-title lesson also inherits the same shared title",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: invalid course, command, case and answer payloads are rejected",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: finishing a full course reaches terminal 100% without phantom next lesson",
+      "status": "passed"
+    },
+    {
+      "name": "State runner: every fixture lesson has usable text, three choices and one valid answer",
+      "status": "passed"
+    },
+    {
+      "name": "State runner emits all 18 unique public source-state snapshots",
+      "status": "passed"
+    },
+    {
+      "name": "Source-state snapshots cover all four fixture cases",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "baseline: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "open_from_before: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "no_answer: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_answer: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "correct_answer: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_before: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "completed_from_after: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "closed_lesson: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "other_course_selected: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "reset_baseline: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "empty: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "empty: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "empty: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "empty: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "empty: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "empty: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "empty: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "empty: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "empty: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "empty: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "empty: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "empty_restored: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "all_completed: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "review_open: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "review_finished: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_title: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "long_korean_lesson: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: shared state has no phantom or duplicate lesson completion",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: course membership, order and layout roles follow the shared state",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: Before unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: After unique facts and text match the fixture and state",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: both presentations preserve identical unique fact values",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: commands, labels and enabled states preserve their meanings",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: progress attributes and fill source values match completion",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: lesson, radio, feedback and completion-control state agree",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: paired IDs and answer labels remain unique and connected",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: After removes redundant framing containers and empty slots",
+      "status": "passed"
+    },
+    {
+      "name": "course_completed_end_to_end: lesson DOM order is before the course list only in After",
+      "status": "passed"
+    },
+    {
+      "name": "Checks leave the preserved fixture and HTML bytes unchanged",
+      "status": "passed"
+    }
+  ],
+  "browser_runtime": "not_run",
+  "visual_rendering": "not_run",
+  "manual_keyboard": "not_run",
+  "screen_reader": "not_run",
+  "accessibility_audit": "not_run",
+  "usability_measurement": "not_run",
+  "user_approval": "pending"
+}

@@ -1,0 +1,547 @@
+{
+  "title": "RPG / 카드게임 UI 자료 커버리지",
+  "research_date": "2026-10-03",
+  "scope": "공개 공식 자료 기반. 실행·설치·로그인·결제·사용자 컴퓨터 조작 없음",
+  "labels": {
+    "D": "문서 동작 설명, 재현 아님",
+    "V": "이 조사에서 공개 이미지/영상 프레임 직접 관찰",
+    "I": "UX 해석/설계 제안",
+    "U": "미확인"
+  },
+  "coverage": {
+    "R1_FFXIV": {
+      "menu_structure": "D",
+      "hud": "D",
+      "exploration_map_quests": "D",
+      "combat_skill_input": "D",
+      "inventory": "D",
+      "gear_comparison": "D+V",
+      "shop": "D_partial",
+      "return_focus_scroll": "U",
+      "error_recovery": "D_partial",
+      "visual_measurement": "V_896x512_original_only",
+      "latest_client_play": "U"
+    },
+    "R2_Diablo_IV": {
+      "menu_structure": "U_current",
+      "hud": "D_historical",
+      "exploration_map_quests": "D_expansion_guide",
+      "combat_skill_input": "D+V_historical",
+      "inventory": "D_historical_intent",
+      "gear_comparison": "U_current",
+      "shop_return": "U",
+      "error_recovery": "D_patch_history",
+      "visual_measurement": "V_550x309_WIP_frame",
+      "latest_client_play": "U"
+    },
+    "C1_Hearthstone": {
+      "hand_board_cost_turn": "V_2015_mobile_still",
+      "card_reading_detail": "U_interaction",
+      "deck_collection": "D+V_2018_and_D_2026_path",
+      "target_selection": "U",
+      "undo_commit": "U",
+      "opponent_action_history": "V_still_only",
+      "mobile_input": "D_development_intent+V_still",
+      "return_errors": "D_filter_conflict+U_runtime",
+      "visual_measurement": "V_950x534_and_1270x780_originals",
+      "latest_client_play": "U"
+    },
+    "C2_Marvel_Snap": {
+      "hand_board_cost_turn": "D+V_2026_guide_and_demo",
+      "card_reading": "D+V_layout_U_input",
+      "deck_collection": "D_old_FAQ",
+      "target_selection": "D_placement_rules_U_live",
+      "undo_commit": "D_2024_patch_conflict_recorded",
+      "opponent_action_priority": "D+V_2026_guide",
+      "mobile_input": "D+V_guide_U_device_test",
+      "return_errors": "D_patch_history_U_current",
+      "visual_measurement": "V_1920x1080_clip_and_800x14856_infographic",
+      "latest_client_play": "U"
+    }
+  },
+  "sources": [
+    {
+      "id": "R1-01",
+      "links": [
+        {
+          "title": "Navigating the Game Screen",
+          "url": "https://na.finalfantasyxiv.com/game_manual/view/"
+        }
+      ],
+      "note": "Navigating the Game Screen, 공식 메뉴·HUD 문서. 2026-10-03 읽음",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-02",
+      "links": [
+        {
+          "title": "How do I keep the map from closing?",
+          "url": "https://na.finalfantasyxiv.com/uiguide/know/know-hud/hud_map_lock.html"
+        }
+      ],
+      "note": "How do I keep the map from closing?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-03",
+      "links": [
+        {
+          "title": "Why are some quest icons different than others?",
+          "url": "https://na.finalfantasyxiv.com/uiguide/know/faq-display/interface_npc_icon.html"
+        }
+      ],
+      "note": "Why are some quest icons different than others?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-04",
+      "links": [
+        {
+          "title": "Using the Cross Hotbar, Step by Step",
+          "url": "https://na.finalfantasyxiv.com/uiguide/know/know-xhb/xhb_how_to.html"
+        }
+      ],
+      "note": "Using the Cross Hotbar, Step by Step",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-05",
+      "links": [
+        {
+          "title": "Modifying the HUD Layout, Step by Step",
+          "url": "https://na.finalfantasyxiv.com/uiguide/know/know-hud/hud-layout.html"
+        }
+      ],
+      "note": "Modifying the HUD Layout, Step by Step",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-06",
+      "links": [
+        {
+          "title": "How can I view more inventory items at once?",
+          "url": "https://na.finalfantasyxiv.com/uiguide/equipment/equipment-bag/setting_itemsort.html"
+        }
+      ],
+      "note": "How can I view more inventory items at once?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-07",
+      "links": [
+        {
+          "title": "Comparing Gear Side-by-side",
+          "url": "https://na.finalfantasyxiv.com/uiguide/equipment/equipment-compare/equipment_compare.html"
+        }
+      ],
+      "note": "Comparing Gear Side-by-side",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-08",
+      "links": [
+        {
+          "title": "Browsing the Market Board",
+          "url": "https://na.finalfantasyxiv.com/uiguide/item/item-market/market_how_to.html"
+        }
+      ],
+      "note": "Browsing the Market Board",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-09",
+      "links": [
+        {
+          "title": "Checking Prices",
+          "url": "https://na.finalfantasyxiv.com/uiguide/item/item-history/market_price.html"
+        }
+      ],
+      "note": "Checking Prices",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R1-V1",
+      "links": [
+        {
+          "title": "장비 비교 공식 이미지 원본",
+          "url": "https://lds-img.finalfantasyxiv.com/uiguide/na/7f/7b877337ff56c1ae1c56540d94d367a0e968d5.jpg"
+        }
+      ],
+      "note": "장비 비교 공식 이미지 원본. 문서 DOM 이미지 naturalWidth/naturalHeight=896×512 확인, 원본을 클라우드 브라우저로 열어 시각 관찰. 빌드·DPI·UI 스케일 미표기. 색 면적과 컨트롤 픽셀 크기는 미실측",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R2-01",
+      "links": [
+        {
+          "title": "Diablo IV Quarterly Update—February 2020",
+          "url": "https://news.blizzard.com/en-gb/article/23308274/diablo-iv-quarterly-updatefebruary-2020"
+        }
+      ],
+      "note": "Diablo IV Quarterly Update—February 2020, UI 책임자의 설계 과정. 출시 전 역사 자료",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R2-02",
+      "links": [
+        {
+          "title": "Combatting Demons with Accessibility in Diablo IV",
+          "url": "https://news.blizzard.com/en-gb/article/23954932/combatting-demons-with-accessibility-in-diablo-iv"
+        }
+      ],
+      "note": "Combatting Demons with Accessibility in Diablo IV, 2023년 출시 전 기능 설명",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R2-03",
+      "links": [
+        {
+          "title": "A Crucible for All—Accessibility Features in Vessel of Hatred",
+          "url": "https://news.blizzard.com/en-us/article/24139219/a-crucible-for-allaccessibility-features-in-vessel-of-hatred"
+        }
+      ],
+      "note": "A Crucible for All—Accessibility Features in Vessel of Hatred, 확장팩 길찾기 접근성",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R2-04",
+      "links": [
+        {
+          "title": "Diablo IV Patch Notes (3.0)",
+          "url": "https://news.blizzard.com/en-gb/article/24271857/diablo-iv-patch-notes-3-0"
+        }
+      ],
+      "note": "Diablo IV Patch Notes (3.0), 3.0 계열 누적 기록. 최신 전체 게임 상태로 일반화하지 않음",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "R2-V1",
+      "links": [
+        {
+          "title": "Mouse / Controller 스킬 UI 공식 GIF",
+          "url": "https://bnetcmsus-a.akamaihd.net/cms/gallery/2MQ4LLY0WQ8V1582662150330.gif"
+        }
+      ],
+      "note": "Mouse / Controller 스킬 UI 공식 GIF. 브라우저 naturalWidth/Height=550×309 확인, 한 프레임 직접 관찰. WIP, 영상 전체 상호작용 검증 아님",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-01",
+      "links": [
+        {
+          "title": "Hearthstone Now Available on Mobile",
+          "url": "https://worldofwarcraft.blizzard.com/en-gb/news/18782302/hearthstone-now-available-on-mobile"
+        }
+      ],
+      "note": "Hearthstone Now Available on Mobile, 2015-04-15, 공식 출시 자료. 웹 검색 일부 직접 열기 실패 후 같은 공개 페이지를 클라우드 브라우저로 확인",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-02",
+      "links": [
+        {
+          "title": "Opening Moves: Mulligans",
+          "url": "https://hearthstone.blizzard.com/en-us/news/21363040/opening-moves-mulligans"
+        }
+      ],
+      "note": "Opening Moves: Mulligans, 2018-01-24",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-03",
+      "links": [
+        {
+          "title": "Managing the Collection Manager",
+          "url": "https://news.blizzard.com/en-gb/article/21790299/managing-the-collection-manager"
+        }
+      ],
+      "note": "Managing the Collection Manager, Jesse Hill, 역사적 검색 기능 설명",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-04",
+      "links": [
+        {
+          "title": "Search Your Hearthstone Collection Like Never Before!",
+          "url": "https://hearthstone.blizzard.com/en-gb/news/20056284/search-your-hearthstone-collection-like-never-before"
+        }
+      ],
+      "note": "Search Your Hearthstone Collection Like Never Before!, 2016-03-17, Patch 4.2. 지금의 전체 문법 명세로 쓰지 않음",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-05",
+      "links": [
+        {
+          "title": "Welcome Back to Hearthstone: A Returning Player’s Guide",
+          "url": "https://news.blizzard.com/en-us/article/24244450/welcome-back-to-hearthstone-a-returning-players-guide"
+        }
+      ],
+      "note": "Welcome Back to Hearthstone: A Returning Player’s Guide, 2026년 CATACLYSM 시기. 한시적 보상은 현행 혜택이라고 권하지 않음",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-06",
+      "links": [
+        {
+          "title": "Hearthside Chat - Mobile Development Update",
+          "url": "https://hearthstone.blizzard.com/en-gb/news/16421347/fireside-chat-mobile-development-update-21-10-2014"
+        }
+      ],
+      "note": "Hearthside Chat - Mobile Development Update, 2014-10-21",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-V1",
+      "links": [
+        {
+          "title": "2015 모바일 보드 원본",
+          "url": "https://bnetcmsus-a.akamaihd.net/cms/gallery/G2OKRU48VRL71428959630793.jpg"
+        }
+      ],
+      "note": "2015 모바일 보드 원본, 950×534, naturalWidth/Height 확인 및 직접 관찰. 빌드 번호·기기·DPI 미표기",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C1-V2",
+      "links": [
+        {
+          "title": "2018 컬렉션 검색 원본",
+          "url": "https://bnetcmsus-a.akamaihd.net/cms/page_media/Q6RRHIPGG9ZB1527296496249.jpg"
+        }
+      ],
+      "note": "2018 컬렉션 검색 원본, 1270×780, naturalWidth/Height 확인 및 직접 관찰. 행·열은 이 자료에 한정",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-01",
+      "links": [
+        {
+          "title": "New to MARVEL SNAP?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/654-new-to-marvel-snap/"
+        }
+      ],
+      "note": "New to MARVEL SNAP?, 링크된 Quick Guide의 상단~6000px 구간 직접 읽음. 도해 표기: August 2026, v55.8.35+7",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-V2",
+      "links": [
+        {
+          "title": "공식 Quick Guide 원본",
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/marvelsnap/8bc5ea33-8ee9-47ce-bb47-f2bf8a04a9a0.png"
+        }
+      ],
+      "note": "공식 Quick Guide 원본, 800×14856. 공식 도해에 게임 화면을 삽입한 자료. 자연 해상도 확인 후 상단 두 구간을 확대 관찰. 최신 클라이언트 실행 화면으로 보증하지 않음",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-02",
+      "links": [
+        {
+          "title": "What does the information on cards mean?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/21-what-does-the-information-on-cards-mean/"
+        }
+      ],
+      "note": "What does the information on cards mean?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-03",
+      "links": [
+        {
+          "title": "How do I undo the actions I took in a turn?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/26-how-do-i-undo-the-actions-i-took-in-a-turn/?p=web"
+        }
+      ],
+      "note": "How do I undo the actions I took in a turn?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-04",
+      "links": [
+        {
+          "title": "Patch Notes – Mar 12, 2024",
+          "url": "https://marvelsnap.com/patch-notes-mar-12-2024/"
+        }
+      ],
+      "note": "Patch Notes – Mar 12, 2024, 도입/알려진 문제의 역사 기록",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-05",
+      "links": [
+        {
+          "title": "Patch Notes – April 10, 2024",
+          "url": "https://marvelsnap.com/patch-notes-april-10-2024/"
+        }
+      ],
+      "note": "Patch Notes – April 10, 2024, 수정 공지. 해결 재현 아님",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-06",
+      "links": [
+        {
+          "title": "Can I undo actions if I have already ended my turn?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/27-can-i-undo-actions-if-i-have-already-ended-my-turn/"
+        }
+      ],
+      "note": "Can I undo actions if I have already ended my turn?, **패치와 충돌하는 오래된 설명으로 분류**",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-07",
+      "links": [
+        {
+          "title": "Whose cards are revealed first during a turn?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/38-whose-cards-are-revealed-first-during-a-turn/"
+        }
+      ],
+      "note": "Whose cards are revealed first during a turn?, **새 Quick Guide보다 동률 조건이 단순화된 옛 자료**",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-08",
+      "links": [
+        {
+          "title": "Why do the card power/energy numbers show as red/green?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/22-why-do-the-card-power-energy-numbers-show-as-red-green/"
+        }
+      ],
+      "note": "Why do the card power/energy numbers show as red/green?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-09",
+      "links": [
+        {
+          "title": "How do I Sort and Filter cards?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/104-how-do-i-sort-and-filter-cards/"
+        }
+      ],
+      "note": "How do I Sort and Filter cards?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-10",
+      "links": [
+        {
+          "title": "How does the smart deck work?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/315-how-does-the-smart-deck-work/"
+        }
+      ],
+      "note": "How does the smart deck work?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-11",
+      "links": [
+        {
+          "title": "How long do I have to take my turn?",
+          "url": "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/faq/46-how-long-do-i-have-to-take-my-turn/"
+        }
+      ],
+      "note": "How long do I have to take my turn?",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-V1",
+      "links": [
+        {
+          "title": "Game Overview",
+          "url": "https://marvelsnap.com/game-overview/"
+        },
+        {
+          "title": "Spider-Man 시연 MP4",
+          "url": "https://d2fstzkj6h0nvg.cloudfront.net/wp-content/uploads/2026/03/10144417/spiderman-card.mp4"
+        }
+      ],
+      "note": "Game Overview에 링크된 Spider-Man 시연 MP4. videoWidth/Height=1920×1080, duration=12.166667s. 일시정지 프레임 0.771126s, 10.973710s 관찰. 전체 경기/실제 조작 확인 아님",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    },
+    {
+      "id": "C2-A",
+      "links": [
+        {
+          "title": "Second Dinner 개발자 App Store 등록",
+          "url": "https://apps.apple.com/us/app/marvel-snap-hero-card-game/id1592081003"
+        }
+      ],
+      "note": "Second Dinner 개발자 App Store 등록, 버전 표기와 자료 시점 차이 교차 확인. 마케팅 mockup은 실제 UI 측정 자료로 제외",
+      "accessed_utc": "2026-10-03",
+      "primary": true
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "SNAP End Turn undo",
+      "older_source": "C2-06",
+      "newer_specific_sources": [
+        "C2-04",
+        "C2-05"
+      ],
+      "decision": "옛 FAQ의 절대 불가 주장은 채택하지 않음. 패치 시점의 조건부 취소 도입/수정만 설명. 현재 모든 모드 재검증 필요"
+    },
+    {
+      "topic": "SNAP reveal priority tie",
+      "older_source": "C2-07",
+      "newer_specific_source": "C2-01",
+      "decision": "2026년 8월 도해의 점수 차 중간 기준을 반영. 옛 FAQ의 단순 동률 무작위 설명만 사용하지 않음"
+    },
+    {
+      "topic": "SNAP current version",
+      "sources": [
+        "C2-01",
+        "C2-A",
+        "https://marvelsnap.helpshift.com/hc/en/3-marvel-snap/section/18-gameplay-1768314133/"
+      ],
+      "decision": "각 자료 버전 표기 다름. 본문에서 최신 버전 판정 안 함"
+    }
+  ],
+  "limitations": [
+    "동작 지연·사용자 완료율·오류율을 측정하지 않았다",
+    "FFXIV 외 최신 전체 메뉴 구조를 확정하지 않았다",
+    "Diablo IV 비교·상점 복귀, Hearthstone 대상·취소, SNAP 최신 세로 터치 입력은 부족하다",
+    "게임 화면 원본 해상도만 확인했으며 색 면적 비율·DPI·터치 목표 실물 크기는 미실측",
+    "SNAP how-to-play 공개 웹 페이지는 메뉴/푸터만 렌더링되어 본문 근거로 사용하지 않았다",
+    "SNAP App Store 미리보기는 마케팅 mockup으로 UI 픽셀 측정에서 제외했다",
+    "SNAP 공식 긴 도해는 상단 6000px의 규칙·카드·에너지·시작손패·플레이·Retreat·우선순위·일부 능력 설명을 읽었고 그 아래 전체 내용을 읽었다고 주장하지 않는다"
+  ]
+}

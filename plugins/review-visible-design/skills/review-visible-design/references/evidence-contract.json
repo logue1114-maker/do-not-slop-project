@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.2.0",
+  "statuses": {
+    "execution": [
+      "pass",
+      "fail",
+      "not_run",
+      "blocked"
+    ],
+    "user_review": [
+      "pending",
+      "approved",
+      "changes_requested"
+    ],
+    "comparison": [
+      "pass",
+      "fail",
+      "inconclusive"
+    ]
+  },
+  "required_report_fields": [
+    "route",
+    "mode",
+    "scope",
+    "assumptions_unknowns",
+    "evidence",
+    "findings",
+    "decisions",
+    "rejected_alternatives",
+    "implementation_contract",
+    "change_ledger",
+    "before_after_evidence",
+    "test_results",
+    "unresolved_defects",
+    "user_review_package"
+  ],
+  "required_finding_fields": [
+    "id",
+    "kind",
+    "locator",
+    "symptom",
+    "cause_hypothesis",
+    "evidence_ids",
+    "source_ids",
+    "correction_command",
+    "preservation",
+    "verification"
+  ],
+  "required_command_fields": [
+    "target",
+    "operation",
+    "proposed_value_or_relationship",
+    "value_origin_and_unit",
+    "retained_content_state",
+    "verification"
+  ],
+  "evidence_record_fields": [
+    "id",
+    "kind",
+    "artifact_ref",
+    "inspection_status",
+    "observed_at_if_actually_observed",
+    "scope",
+    "environment",
+    "revision",
+    "limitations"
+  ],
+  "finding_kinds": [
+    "observed_visible",
+    "observed_behavior",
+    "hypothesis",
+    "proposal"
+  ],
+  "comparison_invariants": [
+    "task",
+    "fixture_id",
+    "data",
+    "initial_state",
+    "scenario_id",
+    "state_id",
+    "viewport_css",
+    "dpr",
+    "zoom_percent",
+    "locale",
+    "input_mode",
+    "camera",
+    "visual_asset_hashes",
+    "required_information"
+  ],
+  "finding_policy": "Cause and effectiveness remain hypotheses/proposals until tested; public critique is not universal preference or proof of AI generation",
+  "comparison_policy": "Unknown required invariant means inconclusive; metadata pass never implies pixel/interaction/visibility pass",
+  "preservation_policy": "Protect numeric facts, constraints, risks, recovery, required content and action semantics; semantic wording changes need an explicit ledger and separate visibility test",
+  "execution_policy": "No edit without requested mode, specific targets and host authorization; output contract validation cannot grant permission",
+  "executed_test_required_fields": [
+    "case_id",
+    "test_kind",
+    "input",
+    "expected_result",
+    "environment",
+    "revision",
+    "actual_result",
+    "evidence_ids",
+    "status"
+  ],
+  "test_kinds": [
+    "structural",
+    "visual",
+    "interaction"
+  ],
+  "evidence_kinds": [
+    "screenshot",
+    "interface_capture",
+    "synthetic_visual",
+    "interaction_trace",
+    "source_code",
+    "validation_log"
+  ],
+  "evidence_kind_mapping": {
+    "source": "source_code",
+    "source_file": "source_code",
+    "static_check": "validation_log",
+    "static_check_log": "validation_log",
+    "note": "These are descriptive-label-to-enum instructions, not accepted aliases. Use the right-hand value in evidence.kind. A source read/static log is never rendered or interaction evidence."
+  },
+  "finding_evidence_kinds": {
+    "observed_visible": [
+      "screenshot",
+      "interface_capture",
+      "synthetic_visual"
+    ],
+    "observed_behavior": [
+      "interaction_trace"
+    ],
+    "hypothesis": [
+      "screenshot",
+      "interface_capture",
+      "synthetic_visual",
+      "interaction_trace",
+      "source_code",
+      "validation_log"
+    ],
+    "proposal": [
+      "screenshot",
+      "interface_capture",
+      "synthetic_visual",
+      "interaction_trace",
+      "source_code",
+      "validation_log"
+    ]
+  },
+  "test_evidence_kinds": {
+    "structural": [
+      "source_code",
+      "validation_log"
+    ],
+    "visual": [
+      "screenshot",
+      "interface_capture",
+      "synthetic_visual"
+    ],
+    "interaction": [
+      "interaction_trace"
+    ]
+  },
+  "synthetic_visual_policy": "observed_visible requires observed_scope=synthetic_fixture_only; never proves live-product behavior",
+  "inspection_policy": "Observed findings and executed pass/fail tests need artifact_ref and inspection_status=inspected. This checker checks declarations only. No evidence is required for explicitly unobserved proposals or not_run tests.",
+  "hash_policies": {
+    "raw_file_sha256": {
+      "algorithm": "SHA-256",
+      "input": "exact original file bytes, including whitespace, key order, encoding, BOM and final newline",
+      "field": "raw_file_sha256",
+      "role": "artifact identity/provenance; excluded from comparison invariants; retain historic raw_bytes_sha256/fixture_sha256 declarations with their original meaning"
+    },
+    "canonical_json": {
+      "policy_id": "python-json-compact-sorted-utf8-v1",
+      "algorithm": "SHA-256",
+      "implementation": "Python 3.9+ json.loads then json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(\",\", \":\"), allow_nan=False).encode(\"utf-8\")",
+      "parse": "UTF-8 text; no BOM; reject duplicate object keys, NaN/Infinity and invalid/non-finite numeric values. JSON integers become arbitrary-precision Python int; fractional/exponent numbers become IEEE-754 binary64 Python float.",
+      "serialization": "Object string keys sorted in ascending Unicode code-point order recursively; arrays retain order; strings retain exact Unicode code points (no NFC/NFD normalization); reject unpaired surrogates. No indent, spaces, BOM or final newline. Standard Python JSON string escaping; non-ASCII code points emitted as UTF-8. Integers serialize as Python base-10 ints; floats use Python json float representation, including integral .0 and -0.0. Not RFC 8785/JCS and not an exact-decimal interchange hash.",
+      "scope_warning": "For precision-critical decimals, store the exact approved decimal value as a string or use a separately specified policy; never silently round or reinterpret facts.",
+      "fixture_scope": "The entire parsed fixture object. canonical_json_sha256 identifies this encoding, not the original raw file.",
+      "comparison_scope": "Object containing each comparison_invariants field in listed order (serialization then sorts keys). Missing fields become JSON null. Excludes revision, capture_ref, raw_file_sha256/raw_bytes_sha256, fixture hashes and change ledger.",
+      "comparison_fields": [
+        "before_comparison_canonical_sha256",
+        "after_comparison_canonical_sha256"
+      ],
+      "legacy_output_aliases": {
+        "before_fixture_sha256": "before_comparison_canonical_sha256",
+        "after_fixture_sha256": "after_comparison_canonical_sha256"
+      },
+      "legacy_alias_warning": "These draft.1 output names always hashed the invariant comparison payload, not raw fixture bytes. Aliases remain for compatibility; do not relabel old fixture hashes.",
+      "semantic_comparison": "Objects ignore key order, arrays preserve order, strings compare exact code points, booleans are distinct from numbers. Finite numeric JSON values compare by numeric value (1 equals 1.0, -0.0 equals 0). A canonical representation hash difference alone is not a content/state mismatch.",
+      "unknown_policy": "Missing/null or literal unknown invariants yield inconclusive except exact schema-declared known-absence control-state paths in comparison_value_schema. Missing/empty/unknown initial_state remains unresolved. Hashing cannot supply state/environment evidence."
+    },
+    "outcome_policy": "compare determines pass/fail/inconclusive from parsed invariant values and validation, not raw hash equality or canonical hash equality alone. Any hash claim must name policy and scope. Metadata equality never verifies camera/background pixels, rendered visibility, input behavior or effectiveness.",
+    "original_game_example": {
+      "fixture_id": "game-controls-moonforest-v1",
+      "raw_file_sha256": "6a9c9a6b741600cba85867e92ee9183d3b196829e8f703859661660905ac7b61",
+      "canonical_json_sha256": "27342f17a44e2c1eeee2420f8b3543aa0a18e09d9110cf2dc652d2eeb044ae70",
+      "canonical_policy": "python-json-compact-sorted-utf8-v1",
+      "scope": "entire original external fixture object; not the comparison invariant payload",
+      "meaning": "Two different hash inputs; not a semantic change. Original fixture and historic declarations are not rewritten."
+    }
+  },
+  "comparison_value_schema": {
+    "policy_id": "required-metadata-known-empty-control-state-v1",
+    "nullable_paths": [
+      [
+        "initial_state",
+        "selectedId"
+      ],
+      [
+        "initial_state",
+        "focusId"
+      ],
+      [
+        "initial_state",
+        "pressedId"
+      ]
+    ],
+    "nullable_meanings": {
+      "initial_state.selectedId": "Explicitly no selected ability/action",
+      "initial_state.focusId": "Explicitly no focused control",
+      "initial_state.pressedId": "Explicitly no pressed control"
+    },
+    "control_state_required_together": [
+      "selectedId",
+      "focusId",
+      "pressedId"
+    ],
+    "control_state_presence_policy": "If any of these direct control-state ID properties is supplied, all three must be explicit. Missing one is unresolved initial_state, not a known empty value. Other nonempty initial_state object shapes do not acquire these properties or nullability.",
+    "control_state_non_null_type": "Nonempty string ID; the literal unknown remains unresolved",
+    "initial_state_policy": "A required nonempty object. Missing, null, literal unknown, or empty object is unresolved. Other null properties, arbitrary nested copies of these names, and unknown values remain unresolved.",
+    "required_metadata_policy": "Every comparison_invariants field is required. Missing, null or literal unknown is unresolved except null at the three exact declared paths. Null viewport/DPR/zoom/camera/input/fixture identity is never a known absent state.",
+    "comparison_policy": "Compare known null as an ordinary JSON value. Null versus a concrete ID is a state mismatch, not an unknown. There is no synthetic flag, fixture name, route, hash, or evidence-label bypass.",
+    "evidence_policy": "A supplied null declares state absence; it does not prove observation or execution. Even a metadata pass leaves visual_effectiveness, behavioral_result and required_information_visibility not_run and user_review pending. Source-only missing environment evidence remains inconclusive."
+  }
+}

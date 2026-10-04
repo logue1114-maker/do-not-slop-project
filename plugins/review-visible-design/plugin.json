@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "anti-ai-slop-draft",
+  "version": "0.1.0-draft.3",
+  "description": "Draft screenshot-led correction workflow for seven bounded game, web, and learning interface tasks."
+}

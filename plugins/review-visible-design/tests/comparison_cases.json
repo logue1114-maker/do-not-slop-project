@@ -1,0 +1,1907 @@
+{
+  "schema_version": "1.0.0",
+  "fixture_type": "synthetic_metadata_not_captured_UI",
+  "cases": [
+    {
+      "case_id": "CMP:equal-data-no-captures",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "pass",
+      "expected_visual_effectiveness": "not_run",
+      "expected_original_draft1_payload_hash": "52560d13808960c62169f5534c7c52ec8befabd42a5ae20e1540ee9a0f910034"
+    },
+    {
+      "case_id": "CMP:changed-data",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "different_item": true
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:changed-state_id",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "equipped_after_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:changed-viewport_css",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            390,
+            844
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:changed-camera",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "different-camera",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:changed-locale",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "en-US",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:unknown-dpr",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": "unknown",
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "inconclusive",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:malformed-equal-viewport_css",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": "1024x720",
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": "1024x720",
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:malformed-equal-dpr",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 0,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 0,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:malformed-equal-required_information",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:nested-unknown",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": null,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": null,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "inconclusive",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:raw-hash-representation-is-not-content",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null,
+          "raw_file_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null,
+          "raw_file_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "pass",
+      "expected_visual_effectiveness": "not_run",
+      "expected_representation_only_hash_difference": false,
+      "expected_canonical_hashes_equal": true
+    },
+    {
+      "case_id": "CMP:object-order-is-not-content",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ],
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            }
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "pass",
+      "expected_visual_effectiveness": "not_run",
+      "expected_canonical_hashes_equal": true
+    },
+    {
+      "case_id": "CMP:numeric-representation-is-not-content",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12.0,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "pass",
+      "expected_visual_effectiveness": "not_run",
+      "expected_representation_only_hash_difference": true,
+      "expected_canonical_hashes_equal": false
+    },
+    {
+      "case_id": "CMP:boolean-is-not-number",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ],
+            "active": true
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ],
+            "active": 1
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:array-order-is-content",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "설정",
+              "취소",
+              "장착"
+            ]
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    },
+    {
+      "case_id": "CMP:no-silent-unicode-normalization",
+      "input": {
+        "before": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ],
+            "unicode_label": "é"
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-before",
+          "capture_ref": null
+        },
+        "after": {
+          "task": "후보 순찰검과 현재 검을 비교하고 장착 또는 취소한다",
+          "fixture_id": "DRAFT:F:RPG-01",
+          "data": {
+            "current": {
+              "id": "sword-oak",
+              "name": "참나무 검",
+              "attack": 12,
+              "defense": 2
+            },
+            "candidate": {
+              "id": "sword-patrol",
+              "name": "순찰검",
+              "attack": 16,
+              "defense": 2
+            },
+            "actions": [
+              "장착",
+              "취소",
+              "설정"
+            ],
+            "unicode_label": "é"
+          },
+          "initial_state": {
+            "candidate_selected": "sword-patrol",
+            "equipped": "sword-oak",
+            "menu": "equipment"
+          },
+          "scenario_id": "DRAFT:SCENARIO:RPG-EQUIP",
+          "state_id": "selected_before_commit",
+          "viewport_css": [
+            1024,
+            720
+          ],
+          "dpr": 1,
+          "zoom_percent": 100,
+          "locale": "ko-KR",
+          "input_mode": "keyboard",
+          "camera": "fixed-user-fixture-camera-01",
+          "visual_asset_hashes": {},
+          "required_information": [
+            "current name and attack/defense",
+            "candidate name and attack/defense",
+            "action labels",
+            "equipped and selected identity"
+          ],
+          "revision": "draft-after",
+          "capture_ref": null
+        },
+        "change_ledger": [
+          {
+            "change": "Align common stat baselines and lower settings prominence",
+            "preserves": [
+              "all stats",
+              "action semantics",
+              "selection state"
+            ]
+          }
+        ]
+      },
+      "expected_metadata_result": "fail",
+      "expected_visual_effectiveness": "not_run"
+    }
+  ]
+}

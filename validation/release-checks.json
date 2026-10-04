@@ -1,0 +1,881 @@
+{
+  "project": "Do Not Slop Project",
+  "validated_at_utc": "2026-10-04T08:48:23.942287+00:00",
+  "status": "passed_public_tree_checks",
+  "scope": "Local bytes, declared preserved inputs, authored board allowlist, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
+  "network_requests": 0,
+  "counts": {
+    "files": 149,
+    "checks": 171,
+    "failed_checks": 0
+  },
+  "checks": [
+    {
+      "name": "regular_contained_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excluded_media_archives_configuration_absent",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "required_release_content",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "exact_project_title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:FILES.sha256.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:docs/PRESERVED_INPUTS.sha256.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:docs/PROVENANCE.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/DRAFT_STATUS.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/PROVENANCE.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/plugin.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/skills/review-visible-design/references/evidence-contract.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/skills/review-visible-design/references/routing.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/skills/review-visible-design/references/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/comparison_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/hash_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/hash_fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/hash_fixture_reformatted.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/invalid_json_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/known_null_state_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/report_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/request_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/sample_action_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/sample_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/sample_known_null_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/sample_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/tests/sample_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:plugins/review-visible-design/validation/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/antislop_research.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/booking_flows_oct4/booking_flows.cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/booking_flows_oct4/demo/app-wiring-test-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/booking_flows_oct4/demo/model-test-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/booking_flows_oct4/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/comparison_assets/learning_layout/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/comparison_assets/learning_layout/tests/source-test-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/do_not_slop_copy/rules.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/do_not_slop_copy/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/do_not_slop_copy/validation.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_controls_corrections_v2.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/games_rpg_card_sourcecoverage.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/measurement_checklist.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/mobile_app_corrections_v1.cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/rules_catalog.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/series_index.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/strategy_controls_oct4/demo/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/strategy_controls_oct4/strategy_controls_research.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_app_corrections_v2.cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:validation/release-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:validation/relocation-summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:validation/test-summary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/plugin.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/agents/openai.yaml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/evidence-contract.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/game-action-controls.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/game-card-execution.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/game-corrections.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/game-equipment.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/game-short-puzzle.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/routing.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/web-corrections.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/web-information-reading.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/web-lesson-question.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/references/web-product-selection.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/skills/review-visible-design/scripts/review_contract.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/comparison_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/hash_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/hash_fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/hash_fixture_reformatted.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/invalid_json_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/known_null_state_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/report_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/request_cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/sample_action_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/sample_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/sample_known_null_comparison.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/sample_report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:plugins/review-visible-design/tests/sample_request.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/demo/app.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/demo/fixture.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/demo/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/demo/model.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/demo/styles.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/demo/test-app-wiring.cjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/booking_flows_oct4/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/comparison_assets/learning_layout/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/comparison_assets/learning_layout/same_fixture_learning.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/comparison_assets/learning_layout/tests/state_checks.mjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/do_not_slop_copy/copy_examples.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/app.mjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/focus.mjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/state.mjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/style.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_bytes:research/strategy_controls_oct4/demo/tests.mjs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_authority_and_license_boundaries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_authored_board_allowlist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/booking_flows_oct4/visuals/BKF4-01-selection.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/booking_flows_oct4/visuals/BKF4-01-selection.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/booking_flows_oct4/visuals/BKF4-01-selection.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/booking_flows_oct4/visuals/BKF4-02-review.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/booking_flows_oct4/visuals/BKF4-02-review.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/booking_flows_oct4/visuals/BKF4-02-review.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/mobile_app_v1/boards/01_navigation_action.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/mobile_app_v1/boards/01_navigation_action.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/mobile_app_v1/boards/01_navigation_action.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/mobile_app_v1/boards/02_dense_task_actions.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/mobile_app_v1/boards/02_dense_task_actions.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/mobile_app_v1/boards/02_dense_task_actions.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/mobile_app_v1/boards/03_keyboard_sheet.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/mobile_app_v1/boards/03_keyboard_sheet.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/mobile_app_v1/boards/03_keyboard_sheet.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-01-after.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-01-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-01-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-01-before.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-01-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-01-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-01-comparison.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-01-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-01-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-02-after.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-02-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-02-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-02-before.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-02-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-02-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-02-comparison.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-02-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-02-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-03-after.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-03-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-03-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-03-before.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-03-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-03-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-03-comparison.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-03-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-03-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-04-after.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-04-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-04-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-04-before.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-04-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-04-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-04-comparison.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-04-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-04-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-05-after.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-05-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-05-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-05-before.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-05-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-05-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-05-comparison.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-05-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-05-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-06-after.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-06-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-06-after.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-06-before.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-06-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-06-before.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-06-comparison.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "authored_board_bytes:research/web_app_v2/visuals/wcv2-06-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "vector_no_embedded_media:research/web_app_v2/visuals/wcv2-06-comparison.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "local_markdown_html_links_exist",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "escaped": []
+      }
+    },
+    {
+      "name": "secret_path_contact_coordination_scan",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "release_inventory_complete",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "release_inventory_bytes",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "limitations": [
+    "This scan is bounded and cannot certify absence of every possible secret",
+    "External links were not fetched by this validator",
+    "Browser rendering, accessibility, source currentness and usability are separate gates"
+  ],
+  "receipt_hash_policy": "This report is excluded from its own byte verification; regenerate FILES.sha256.json after the report is written"
+}

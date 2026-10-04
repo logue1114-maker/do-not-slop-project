@@ -1,0 +1,27 @@
+{
+  "purpose": "game.action_controls",
+  "task": "Choose a fixed-target ability then execute or pause without changing original semantics",
+  "platform": "web",
+  "mode": "propose",
+  "interface_ref": {
+    "kind": "source",
+    "location": "fixture:game-controls-source-not-rendered"
+  },
+  "context": {
+    "viewport_css": [
+      1024,
+      720
+    ],
+    "dpr": 1,
+    "zoom_percent": 100,
+    "locale": "ko-KR",
+    "input_modes": [
+      "keyboard",
+      "mouse"
+    ],
+    "art_direction": "existing system",
+    "allowed_changes": [
+      "visual presentation only"
+    ]
+  }
+}

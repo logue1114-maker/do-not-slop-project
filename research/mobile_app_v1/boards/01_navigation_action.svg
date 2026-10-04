@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080"><title>하단 탐색과 작성 액션을 구분하기</title><desc>Synthetic proposals only. Both variants use one fixture. Not original app screenshots, not tested native apps.</desc>
+<rect x="0" y="0" width="1440" height="1080" fill="#edf1f5" rx="0" />
+<text x="42" y="61.6" font-family="Noto Sans CJK KR" font-size="30" font-weight="700" fill="#172437" text-anchor="start" data-full-content="하단 탐색과 작성 액션을 구분하기">
+<tspan x="42" dy="0">하단 탐색과 작성 액션을 구분하기</tspan>
+</text>
+<text x="42" y="96.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#172437" text-anchor="start" data-full-content="Slack 2020 원저자 개편에서 추출한 판단 · 한국어 레이블과 마지막 행을 보존하는 새 제안">
+<tspan x="42" dy="0">Slack 2020 원저자 개편에서 추출한 판단 · 한국어 레이블과 마지막 행을 보존하는 새 제안</tspan>
+</text>
+<text x="48" y="134.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="700" fill="#b23b37" text-anchor="start" data-full-content="문제 재현 · 합성 화면">
+<tspan x="48" dy="0">문제 재현 · 합성 화면</tspan>
+</text>
+<text x="520" y="134.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="교정 제안 · 합성 화면">
+<tspan x="520" dy="0">교정 제안 · 합성 화면</tspan>
+</text>
+<rect x="41" y="147" width="404" height="858" fill="#172437" rx="32" />
+<rect x="48" y="154" width="390" height="844" fill="#fff" rx="25" />
+<text x="70" y="178.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="700" fill="#172437" text-anchor="start" data-full-content="9:41">
+<tspan x="70" dy="0">9:41</tspan>
+</text>
+<rect x="328" y="171" width="45" height="8" fill="#172437" rx="3" />
+<rect x="382" y="168" width="30" height="14" fill="#172437" rx="3" />
+<rect x="48" y="972" width="390" height="26" fill="#e7edf2" rx="0" />
+<rect x="191" y="983" width="104" height="5" fill="#334b63" rx="3" />
+<text x="70" y="235.0" font-family="Noto Sans CJK KR" font-size="25" font-weight="700" fill="#172437" text-anchor="start" data-full-content="팀 대화">
+<tspan x="70" dy="0">팀 대화</tspan>
+</text>
+<rect x="68" y="264" width="350" height="44" fill="#f0f4f8" rx="9" />
+<text x="84" y="291.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="대화 검색">
+<tspan x="84" dy="0">대화 검색</tspan>
+</text>
+<rect x="68" y="335" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="90.0" y="361.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="1">
+<tspan x="90.0" dy="0">1</tspan>
+</text>
+<text x="126" y="353.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="제품 디자인 검수">
+<tspan x="126" dy="0">제품 디자인 검수</tspan>
+</text>
+<text x="126" y="398.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="오늘 10:30 · 새 메시지 2개">
+<tspan x="126" dy="0">오늘 10:30 · 새 메시지 2개</tspan>
+</text>
+<path d="M68 419L418 419" stroke="#dde3ea" fill="none"/>
+<rect x="68" y="425" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="90.0" y="451.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="2">
+<tspan x="90.0" dy="0">2</tspan>
+</text>
+<text x="126" y="443.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="지은 · 다음 화면 교정안">
+<tspan x="126" dy="0">지은 · 다음 화면 교정안</tspan>
+</text>
+<text x="126" y="488.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="목록과 버튼 위치를 확인했어요">
+<tspan x="126" dy="0">목록과 버튼 위치를 확인했어요</tspan>
+</text>
+<path d="M68 509L418 509" stroke="#dde3ea" fill="none"/>
+<rect x="68" y="515" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="90.0" y="541.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="3">
+<tspan x="90.0" dy="0">3</tspan>
+</text>
+<text x="126" y="533.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="모바일 앱 출시 준비">
+<tspan x="126" dy="0">모바일 앱 출시 준비</tspan>
+</text>
+<text x="126" y="578.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="키보드 상태도 함께 검수해요">
+<tspan x="126" dy="0">키보드 상태도 함께 검수해요</tspan>
+</text>
+<path d="M68 599L418 599" stroke="#dde3ea" fill="none"/>
+<rect x="68" y="605" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="90.0" y="631.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="4">
+<tspan x="90.0" dy="0">4</tspan>
+</text>
+<text x="126" y="623.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="민호 · 긴 제목 테스트">
+<tspan x="126" dy="0">민호 · 긴 제목 테스트</tspan>
+</text>
+<text x="126" y="668.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="번역된 이름을 그대로 넣었어요">
+<tspan x="126" dy="0">번역된 이름을 그대로 넣었어요</tspan>
+</text>
+<path d="M68 689L418 689" stroke="#dde3ea" fill="none"/>
+<rect x="68" y="695" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="90.0" y="721.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="5">
+<tspan x="90.0" dy="0">5</tspan>
+</text>
+<text x="126" y="713.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="하단 탐색 및 작성 버튼 검수">
+<tspan x="126" dy="0">하단 탐색 및 작성 버튼 검수</tspan>
+</text>
+<text x="126" y="758.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="마지막 대화도 가리지 않아야 해요">
+<tspan x="126" dy="0">마지막 대화도 가리지 않아야 해요</tspan>
+</text>
+<path d="M68 779L418 779" stroke="#dde3ea" fill="none"/>
+<rect x="68" y="749" width="350" height="94" fill="#1764c0" rx="12" />
+<text x="243.0" y="802.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="새 메시지 작성">
+<tspan x="243.0" dy="0">새 메시지 작성</tspan>
+</text>
+<rect x="48" y="896" width="390" height="86" fill="#fafcfe" rx="0" />
+<path d="M48 896L438 896" stroke="#becbd8" fill="none"/>
+<rect x="72" y="905" width="60" height="30" fill="#dceafb" rx="15" />
+<text x="102.0" y="925.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#1764c0" text-anchor="middle" data-full-content="⌂">
+<tspan x="102.0" dy="0">⌂</tspan>
+</text>
+<clipPath id="tile0"><rect x="55" y="896" width="88" height="76"/></clipPath><g clip-path="url(#tile0)">
+<text x="99.0" y="952.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="홈">
+<tspan x="99.0" dy="0">홈</tspan>
+</text>
+</g>
+<text x="196.0" y="925.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#536579" text-anchor="middle" data-full-content="○">
+<tspan x="196.0" dy="0">○</tspan>
+</text>
+<clipPath id="tile1"><rect x="149" y="896" width="88" height="76"/></clipPath><g clip-path="url(#tile1)">
+<text x="193.0" y="952.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="400" fill="#536579" text-anchor="middle" data-full-content="다이렉트 메시지">
+<tspan x="193.0" dy="0">다이렉트 메시지</tspan>
+</text>
+</g>
+<text x="290.0" y="925.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#536579" text-anchor="middle" data-full-content="@">
+<tspan x="290.0" dy="0">@</tspan>
+</text>
+<clipPath id="tile2"><rect x="243" y="896" width="88" height="76"/></clipPath><g clip-path="url(#tile2)">
+<text x="287.0" y="952.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="400" fill="#536579" text-anchor="middle" data-full-content="내가 받은 멘션과 반응">
+<tspan x="287.0" dy="0">내가 받은 멘션과 반응</tspan>
+</text>
+</g>
+<text x="384.0" y="925.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#536579" text-anchor="middle" data-full-content="○">
+<tspan x="384.0" dy="0">○</tspan>
+</text>
+<clipPath id="tile3"><rect x="337" y="896" width="88" height="76"/></clipPath><g clip-path="url(#tile3)">
+<text x="381.0" y="952.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="400" fill="#536579" text-anchor="middle" data-full-content="내 프로필">
+<tspan x="381.0" dy="0">내 프로필</tspan>
+</text>
+</g>
+<rect x="513" y="147" width="404" height="858" fill="#172437" rx="32" />
+<rect x="520" y="154" width="390" height="844" fill="#fff" rx="25" />
+<text x="542" y="178.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="700" fill="#172437" text-anchor="start" data-full-content="9:41">
+<tspan x="542" dy="0">9:41</tspan>
+</text>
+<rect x="800" y="171" width="45" height="8" fill="#172437" rx="3" />
+<rect x="854" y="168" width="30" height="14" fill="#172437" rx="3" />
+<rect x="520" y="972" width="390" height="26" fill="#e7edf2" rx="0" />
+<rect x="663" y="983" width="104" height="5" fill="#334b63" rx="3" />
+<text x="542" y="235.0" font-family="Noto Sans CJK KR" font-size="25" font-weight="700" fill="#172437" text-anchor="start" data-full-content="팀 대화">
+<tspan x="542" dy="0">팀 대화</tspan>
+</text>
+<rect x="540" y="264" width="350" height="44" fill="#f0f4f8" rx="9" />
+<text x="556" y="291.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="대화 검색">
+<tspan x="556" dy="0">대화 검색</tspan>
+</text>
+<rect x="540" y="335" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="562.0" y="361.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="1">
+<tspan x="562.0" dy="0">1</tspan>
+</text>
+<text x="598" y="353.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="제품 디자인 검수">
+<tspan x="598" dy="0">제품 디자인 검수</tspan>
+</text>
+<text x="598" y="398.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="오늘 10:30 · 새 메시지 2개">
+<tspan x="598" dy="0">오늘 10:30 · 새 메시지 2개</tspan>
+</text>
+<path d="M540 419L890 419" stroke="#dde3ea" fill="none"/>
+<rect x="540" y="425" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="562.0" y="451.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="2">
+<tspan x="562.0" dy="0">2</tspan>
+</text>
+<text x="598" y="443.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="지은 · 다음 화면 교정안">
+<tspan x="598" dy="0">지은 · 다음 화면 교정안</tspan>
+</text>
+<text x="598" y="488.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="목록과 버튼 위치를 확인했어요">
+<tspan x="598" dy="0">목록과 버튼 위치를 확인했어요</tspan>
+</text>
+<path d="M540 509L890 509" stroke="#dde3ea" fill="none"/>
+<rect x="540" y="515" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="562.0" y="541.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="3">
+<tspan x="562.0" dy="0">3</tspan>
+</text>
+<text x="598" y="533.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="모바일 앱 출시 준비">
+<tspan x="598" dy="0">모바일 앱 출시 준비</tspan>
+</text>
+<text x="598" y="578.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="키보드 상태도 함께 검수해요">
+<tspan x="598" dy="0">키보드 상태도 함께 검수해요</tspan>
+</text>
+<path d="M540 599L890 599" stroke="#dde3ea" fill="none"/>
+<rect x="540" y="605" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="562.0" y="631.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="4">
+<tspan x="562.0" dy="0">4</tspan>
+</text>
+<text x="598" y="623.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="민호 · 긴 제목 테스트">
+<tspan x="598" dy="0">민호 · 긴 제목 테스트</tspan>
+</text>
+<text x="598" y="668.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="번역된 이름을 그대로 넣었어요">
+<tspan x="598" dy="0">번역된 이름을 그대로 넣었어요</tspan>
+</text>
+<path d="M540 689L890 689" stroke="#dde3ea" fill="none"/>
+<rect x="540" y="695" width="44" height="44" fill="#e5edf6" rx="13" />
+<text x="562.0" y="721.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="5">
+<tspan x="562.0" dy="0">5</tspan>
+</text>
+<text x="598" y="713.04" font-family="Noto Sans CJK KR" font-size="17" font-weight="700" fill="#172437" text-anchor="start" data-full-content="하단 탐색 및 작성 버튼 검수">
+<tspan x="598" dy="0">하단 탐색 및 작성 버튼 검수</tspan>
+</text>
+<text x="598" y="758.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="마지막 대화도 가리지 않아야 해요">
+<tspan x="598" dy="0">마지막 대화도 가리지 않아야 해요</tspan>
+</text>
+<path d="M540 779L890 779" stroke="#dde3ea" fill="none"/>
+<rect x="737" y="794" width="153" height="52" fill="#1764c0" rx="12" />
+<text x="813.5" y="826.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="새 메시지 작성">
+<tspan x="813.5" dy="0">새 메시지 작성</tspan>
+</text>
+<rect x="520" y="868" width="390" height="104" fill="#fafcfe" rx="0" />
+<path d="M520 868L910 868" stroke="#becbd8" fill="none"/>
+<rect x="544" y="877" width="60" height="30" fill="#dceafb" rx="15" />
+<text x="574.0" y="897.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#1764c0" text-anchor="middle" data-full-content="⌂">
+<tspan x="574.0" dy="0">⌂</tspan>
+</text>
+<text x="571.0" y="924.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="700" fill="#145aa0" text-anchor="middle" data-full-content="홈">
+<tspan x="571.0" dy="0">홈</tspan>
+</text>
+<text x="668.0" y="897.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#536579" text-anchor="middle" data-full-content="○">
+<tspan x="668.0" dy="0">○</tspan>
+</text>
+<text x="665.0" y="924.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="400" fill="#536579" text-anchor="middle" data-full-content="다이렉트 메시지">
+<tspan x="665.0" dy="0">다이렉트 메시지</tspan>
+</text>
+<text x="762.0" y="897.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#536579" text-anchor="middle" data-full-content="@">
+<tspan x="762.0" dy="0">@</tspan>
+</text>
+<text x="759.0" y="924.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="400" fill="#536579" text-anchor="middle" data-full-content="내가 받은 멘션과 반응">
+<tspan x="759.0" dy="0">내가 받은 멘션과</tspan>
+<tspan x="759.0" dy="17.4">반응</tspan>
+</text>
+<text x="856.0" y="897.28" font-family="Noto Sans CJK KR" font-size="19" font-weight="700" fill="#536579" text-anchor="middle" data-full-content="○">
+<tspan x="856.0" dy="0">○</tspan>
+</text>
+<text x="853.0" y="924.44" font-family="Noto Sans CJK KR" font-size="12" font-weight="400" fill="#536579" text-anchor="middle" data-full-content="내 프로필">
+<tspan x="853.0" dy="0">내 프로필</tspan>
+</text>
+<text x="970" y="184.64" font-family="Noto Sans CJK KR" font-size="22" font-weight="700" fill="#172437" text-anchor="start" data-full-content="바꿀 것은 위치와 역할">
+<tspan x="970" dy="0">바꿀 것은 위치와 역할</tspan>
+</text>
+<text x="970" y="236.16" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="1  목적지와 실행 명령">
+<tspan x="970" dy="0">1  목적지와 실행 명령</tspan>
+</text>
+<text x="970" y="275.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="작성은 대화를 만드는 액션이에요. 목적지의 선택 표시를 쓰지 않고 별도 이름 있는 버튼으로 남겼어요.">
+<tspan x="970" dy="0">작성은 대화를 만드는 액션이에요. 목적지의 선택 표시를 쓰지</tspan>
+<tspan x="970" dy="23.2">않고 별도 이름 있는 버튼으로 남겼어요.</tspan>
+</text>
+<text x="970" y="353.56" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="2  긴 한국어 레이블">
+<tspan x="970" dy="0">2  긴 한국어 레이블</tspan>
+</text>
+<text x="970" y="393.32" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="원문 레이블 네 개를 그대로 유지했어요. 교정안은 같은 12 크기에서 두 줄을 허용해 서로 겹치거나 잘리지 않게 했어요.">
+<tspan x="970" dy="0">원문 레이블 네 개를 그대로 유지했어요. 교정안은 같은 12</tspan>
+<tspan x="970" dy="23.2">크기에서 두 줄을 허용해 서로 겹치거나 잘리지 않게 했어요.</tspan>
+</text>
+<text x="970" y="470.96" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="3  목록과 안전 영역">
+<tspan x="970" dy="0">3  목록과 안전 영역</tspan>
+</text>
+<text x="970" y="510.71999999999997" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="문제안의 큰 작성 버튼은 마지막 대화를 가려요. 교정안은 그 행, 작성 버튼, 내비게이션, 제스처 영역을 분리했어요.">
+<tspan x="970" dy="0">문제안의 큰 작성 버튼은 마지막 대화를 가려요. 교정안은 그</tspan>
+<tspan x="970" dy="23.2">행, 작성 버튼, 내비게이션, 제스처 영역을 분리했어요.</tspan>
+</text>
+<text x="970" y="588.3599999999999" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="예외">
+<tspan x="970" dy="0">예외</tspan>
+</text>
+<text x="970" y="628.1199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="네이티브 탭이 두 줄을 지원하지 않으면 승인된 짧은 이름과 전체 목적지 제목을 검수해야 해요. 네 탭이 항상 정답은 아니에요.">
+<tspan x="970" dy="0">네이티브 탭이 두 줄을 지원하지 않으면 승인된 짧은 이름과</tspan>
+<tspan x="970" dy="23.2">전체 목적지 제목을 검수해야 해요. 네 탭이 항상 정답은</tspan>
+<tspan x="970" dy="23.2">아니에요.</tspan>
+</text>
+<text x="970" y="932.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#536579" text-anchor="start" data-full-content="그림 숫자는 이 합성 fixture의 좌표예요. 실제 앱의 dp·pt 권장값이나 사용성 실측이 아닙니다.">
+<tspan x="970" dy="0">그림 숫자는 이 합성 fixture의 좌표예요. 실제 앱의 dp·pt 권장값이나</tspan>
+<tspan x="970" dy="20.3">사용성 실측이 아닙니다.</tspan>
+</text>
+<text x="42" y="1042.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#536579" text-anchor="start" data-full-content="SYNTHETIC PROPOSALS · 동일 데이터와 상태 · 원본 앱 화면 아님 · 네이티브 런타임 검수 전">
+<tspan x="42" dy="0">SYNTHETIC PROPOSALS · 동일 데이터와 상태 · 원본 앱 화면 아님 · 네이티브 런타임 검수 전</tspan>
+</text>
+</svg>

@@ -1,0 +1,378 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080"><title>키보드 위에서 입력과 저장을 끝내기</title><desc>Synthetic proposals only. Both variants use one fixture. Not original app screenshots, not tested native apps.</desc>
+<rect x="0" y="0" width="1440" height="1080" fill="#edf1f5" rx="0" />
+<text x="42" y="61.6" font-family="Noto Sans CJK KR" font-size="30" font-weight="700" fill="#172437" text-anchor="start" data-full-content="키보드 위에서 입력과 저장을 끝내기">
+<tspan x="42" dy="0">키보드 위에서 입력과 저장을 끝내기</tspan>
+</text>
+<text x="42" y="96.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#172437" text-anchor="start" data-full-content="토스 원저자 입력 개편과 Android inset 예제에서 추출한 판단 · 금융·가입 화면이 아닌 새 합성 제안">
+<tspan x="42" dy="0">토스 원저자 입력 개편과 Android inset 예제에서 추출한 판단 · 금융·가입 화면이 아닌 새 합성 제안</tspan>
+</text>
+<text x="48" y="134.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="700" fill="#b23b37" text-anchor="start" data-full-content="문제 재현 · 합성 화면">
+<tspan x="48" dy="0">문제 재현 · 합성 화면</tspan>
+</text>
+<text x="520" y="134.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="교정 제안 · 합성 화면">
+<tspan x="520" dy="0">교정 제안 · 합성 화면</tspan>
+</text>
+<rect x="41" y="147" width="404" height="858" fill="#172437" rx="32" />
+<rect x="48" y="154" width="390" height="844" fill="#fff" rx="25" />
+<text x="70" y="178.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="700" fill="#172437" text-anchor="start" data-full-content="9:41">
+<tspan x="70" dy="0">9:41</tspan>
+</text>
+<rect x="328" y="171" width="45" height="8" fill="#172437" rx="3" />
+<rect x="382" y="168" width="30" height="14" fill="#172437" rx="3" />
+<rect x="48" y="972" width="390" height="26" fill="#e7edf2" rx="0" />
+<rect x="191" y="983" width="104" height="5" fill="#334b63" rx="3" />
+<text x="70" y="235.0" font-family="Noto Sans CJK KR" font-size="25" font-weight="700" fill="#172437" text-anchor="start" data-full-content="알림">
+<tspan x="70" dy="0">알림</tspan>
+</text>
+<rect x="48" y="196" width="390" height="776" fill="#8090a3" rx="0" fill-opacity="0.55"/>
+<rect x="48" y="399" width="390" height="573" fill="#fff" rx="22" />
+<rect x="216" y="411" width="54" height="5" fill="#b7c5d3" rx="3" />
+<text x="70" y="463.76" font-family="Noto Sans CJK KR" font-size="23" font-weight="700" fill="#172437" text-anchor="start" data-full-content="알림 이름 바꾸기">
+<tspan x="70" dy="0">알림 이름 바꾸기</tspan>
+</text>
+<rect x="70" y="497" width="346" height="104" fill="#eef3f9" rx="12" />
+<text x="86" y="542.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="이름만 바뀌며 알림 시간은 그대로 유지돼요">
+<tspan x="86" dy="0">이름만 바뀌며 알림 시간은 그대로 유지돼요</tspan>
+</text>
+<text x="70" y="638.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#304c68" text-anchor="start" data-full-content="알림 이름">
+<tspan x="70" dy="0">알림 이름</tspan>
+</text>
+<rect x="70" y="652" width="346" height="58" fill="#f4f8fd" rx="9" stroke="#1764c0" />
+<text x="84" y="685.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="분기 디자인 검수 준비 알림">
+<tspan x="84" dy="0">분기 디자인 검수 준비 알림</tspan>
+</text>
+<path d="M262.21875 666L262.21875 693" stroke="#1764c0" fill="none"/>
+<rect x="70" y="846" width="84" height="76" fill="#edf2f7" rx="12" />
+<text x="112.0" y="890.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#304c68" text-anchor="middle" data-full-content="취소">
+<tspan x="112.0" dy="0">취소</tspan>
+</text>
+<rect x="164" y="846" width="252" height="76" fill="#1764c0" rx="12" />
+<text x="290.0" y="890.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="알림 이름 저장하고 목록으로 돌아가기">
+<tspan x="290.0" dy="0">알림 이름 저장하고 목록으로 돌아가기</tspan>
+</text>
+<rect x="48" y="714" width="390" height="258" fill="#d6dde5" rx="0" />
+<rect x="48" y="714" width="390" height="35" fill="#e3e9ef" rx="0" />
+<text x="242.0" y="736.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="한글 입력 · 조합 확정 상태">
+<tspan x="242.0" dy="0">한글 입력 · 조합 확정 상태</tspan>
+</text>
+<rect x="65.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="81.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅂ">
+<tspan x="81.0" dy="0">ㅂ</tspan>
+</text>
+<rect x="101.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="117.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅈ">
+<tspan x="117.0" dy="0">ㅈ</tspan>
+</text>
+<rect x="137.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="153.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄷ">
+<tspan x="153.0" dy="0">ㄷ</tspan>
+</text>
+<rect x="173.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="189.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄱ">
+<tspan x="189.0" dy="0">ㄱ</tspan>
+</text>
+<rect x="209.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="225.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅅ">
+<tspan x="225.0" dy="0">ㅅ</tspan>
+</text>
+<rect x="245.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="261.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅛ">
+<tspan x="261.0" dy="0">ㅛ</tspan>
+</text>
+<rect x="281.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="297.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅕ">
+<tspan x="297.0" dy="0">ㅕ</tspan>
+</text>
+<rect x="317.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="333.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅑ">
+<tspan x="333.0" dy="0">ㅑ</tspan>
+</text>
+<rect x="353.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="369.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅐ">
+<tspan x="369.0" dy="0">ㅐ</tspan>
+</text>
+<rect x="389.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="405.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅔ">
+<tspan x="405.0" dy="0">ㅔ</tspan>
+</text>
+<rect x="83.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="99.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅁ">
+<tspan x="99.0" dy="0">ㅁ</tspan>
+</text>
+<rect x="119.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="135.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄴ">
+<tspan x="135.0" dy="0">ㄴ</tspan>
+</text>
+<rect x="155.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="171.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅇ">
+<tspan x="171.0" dy="0">ㅇ</tspan>
+</text>
+<rect x="191.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="207.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄹ">
+<tspan x="207.0" dy="0">ㄹ</tspan>
+</text>
+<rect x="227.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="243.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅎ">
+<tspan x="243.0" dy="0">ㅎ</tspan>
+</text>
+<rect x="263.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="279.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅗ">
+<tspan x="279.0" dy="0">ㅗ</tspan>
+</text>
+<rect x="299.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="315.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅓ">
+<tspan x="315.0" dy="0">ㅓ</tspan>
+</text>
+<rect x="335.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="351.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅏ">
+<tspan x="351.0" dy="0">ㅏ</tspan>
+</text>
+<rect x="371.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="387.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅣ">
+<tspan x="387.0" dy="0">ㅣ</tspan>
+</text>
+<rect x="119.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="135.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅋ">
+<tspan x="135.0" dy="0">ㅋ</tspan>
+</text>
+<rect x="155.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="171.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅌ">
+<tspan x="171.0" dy="0">ㅌ</tspan>
+</text>
+<rect x="191.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="207.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅊ">
+<tspan x="207.0" dy="0">ㅊ</tspan>
+</text>
+<rect x="227.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="243.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅍ">
+<tspan x="243.0" dy="0">ㅍ</tspan>
+</text>
+<rect x="263.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="279.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅠ">
+<tspan x="279.0" dy="0">ㅠ</tspan>
+</text>
+<rect x="299.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="315.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅜ">
+<tspan x="315.0" dy="0">ㅜ</tspan>
+</text>
+<rect x="335.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="351.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅡ">
+<tspan x="351.0" dy="0">ㅡ</tspan>
+</text>
+<rect x="72" y="891" width="70" height="46" fill="#b9c6d4" rx="7" />
+<text x="107.0" y="916.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="123">
+<tspan x="107.0" dy="0">123</tspan>
+</text>
+<rect x="150" y="891" width="182" height="46" fill="#fff" rx="7" />
+<text x="241.0" y="916.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="간격">
+<tspan x="241.0" dy="0">간격</tspan>
+</text>
+<rect x="342" y="891" width="72" height="46" fill="#1764c0" rx="7" />
+<text x="378.0" y="916.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="완료">
+<tspan x="378.0" dy="0">완료</tspan>
+</text>
+<text x="242.0" y="953.32" font-family="Noto Sans CJK KR" font-size="11" font-weight="400" fill="#52677e" text-anchor="middle" data-full-content="합성 키보드 · 앱 버튼과 다른 시스템 영역">
+<tspan x="242.0" dy="0">합성 키보드 · 앱 버튼과 다른 시스템 영역</tspan>
+</text>
+<rect x="513" y="147" width="404" height="858" fill="#172437" rx="32" />
+<rect x="520" y="154" width="390" height="844" fill="#fff" rx="25" />
+<text x="542" y="178.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="700" fill="#172437" text-anchor="start" data-full-content="9:41">
+<tspan x="542" dy="0">9:41</tspan>
+</text>
+<rect x="800" y="171" width="45" height="8" fill="#172437" rx="3" />
+<rect x="854" y="168" width="30" height="14" fill="#172437" rx="3" />
+<rect x="520" y="972" width="390" height="26" fill="#e7edf2" rx="0" />
+<rect x="663" y="983" width="104" height="5" fill="#334b63" rx="3" />
+<text x="542" y="235.0" font-family="Noto Sans CJK KR" font-size="25" font-weight="700" fill="#172437" text-anchor="start" data-full-content="알림">
+<tspan x="542" dy="0">알림</tspan>
+</text>
+<rect x="520" y="196" width="390" height="776" fill="#8090a3" rx="0" fill-opacity="0.55"/>
+<rect x="520" y="330" width="390" height="642" fill="#fff" rx="22" />
+<rect x="688" y="342" width="54" height="5" fill="#b7c5d3" rx="3" />
+<text x="542" y="394.76" font-family="Noto Sans CJK KR" font-size="23" font-weight="700" fill="#172437" text-anchor="start" data-full-content="알림 이름 바꾸기">
+<tspan x="542" dy="0">알림 이름 바꾸기</tspan>
+</text>
+<text x="542" y="441.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#52677e" text-anchor="start" data-full-content="이름만 바뀌며 알림 시간은 그대로 유지돼요">
+<tspan x="542" dy="0">이름만 바뀌며 알림 시간은 그대로 유지돼요</tspan>
+</text>
+<text x="542" y="509.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#304c68" text-anchor="start" data-full-content="알림 이름">
+<tspan x="542" dy="0">알림 이름</tspan>
+</text>
+<rect x="542" y="523" width="346" height="58" fill="#f4f8fd" rx="9" stroke="#1764c0" />
+<text x="556" y="556.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="분기 디자인 검수 준비 알림">
+<tspan x="556" dy="0">분기 디자인 검수 준비 알림</tspan>
+</text>
+<path d="M734.21875 537L734.21875 564" stroke="#1764c0" fill="none"/>
+<rect x="542" y="622" width="84" height="68" fill="#edf2f7" rx="12" />
+<text x="584.0" y="662.3199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#304c68" text-anchor="middle" data-full-content="취소">
+<tspan x="584.0" dy="0">취소</tspan>
+</text>
+<rect x="636" y="622" width="252" height="68" fill="#1764c0" rx="12" />
+<text x="762.0" y="650.7199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="알림 이름 저장하고 목록으로 돌아가기">
+<tspan x="762.0" dy="0">알림 이름 저장하고 목록으로</tspan>
+<tspan x="762.0" dy="23.2">돌아가기</tspan>
+</text>
+<rect x="520" y="714" width="390" height="258" fill="#d6dde5" rx="0" />
+<rect x="520" y="714" width="390" height="35" fill="#e3e9ef" rx="0" />
+<text x="714.0" y="736.56" font-family="Noto Sans CJK KR" font-size="13" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="한글 입력 · 조합 확정 상태">
+<tspan x="714.0" dy="0">한글 입력 · 조합 확정 상태</tspan>
+</text>
+<rect x="537.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="553.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅂ">
+<tspan x="553.0" dy="0">ㅂ</tspan>
+</text>
+<rect x="573.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="589.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅈ">
+<tspan x="589.0" dy="0">ㅈ</tspan>
+</text>
+<rect x="609.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="625.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄷ">
+<tspan x="625.0" dy="0">ㄷ</tspan>
+</text>
+<rect x="645.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="661.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄱ">
+<tspan x="661.0" dy="0">ㄱ</tspan>
+</text>
+<rect x="681.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="697.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅅ">
+<tspan x="697.0" dy="0">ㅅ</tspan>
+</text>
+<rect x="717.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="733.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅛ">
+<tspan x="733.0" dy="0">ㅛ</tspan>
+</text>
+<rect x="753.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="769.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅕ">
+<tspan x="769.0" dy="0">ㅕ</tspan>
+</text>
+<rect x="789.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="805.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅑ">
+<tspan x="805.0" dy="0">ㅑ</tspan>
+</text>
+<rect x="825.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="841.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅐ">
+<tspan x="841.0" dy="0">ㅐ</tspan>
+</text>
+<rect x="861.5" y="755" width="31" height="36" fill="#fff" rx="5" />
+<text x="877.0" y="776.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅔ">
+<tspan x="877.0" dy="0">ㅔ</tspan>
+</text>
+<rect x="555.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="571.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅁ">
+<tspan x="571.0" dy="0">ㅁ</tspan>
+</text>
+<rect x="591.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="607.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄴ">
+<tspan x="607.0" dy="0">ㄴ</tspan>
+</text>
+<rect x="627.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="643.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅇ">
+<tspan x="643.0" dy="0">ㅇ</tspan>
+</text>
+<rect x="663.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="679.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㄹ">
+<tspan x="679.0" dy="0">ㄹ</tspan>
+</text>
+<rect x="699.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="715.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅎ">
+<tspan x="715.0" dy="0">ㅎ</tspan>
+</text>
+<rect x="735.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="751.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅗ">
+<tspan x="751.0" dy="0">ㅗ</tspan>
+</text>
+<rect x="771.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="787.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅓ">
+<tspan x="787.0" dy="0">ㅓ</tspan>
+</text>
+<rect x="807.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="823.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅏ">
+<tspan x="823.0" dy="0">ㅏ</tspan>
+</text>
+<rect x="843.5" y="798" width="31" height="36" fill="#fff" rx="5" />
+<text x="859.0" y="819.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅣ">
+<tspan x="859.0" dy="0">ㅣ</tspan>
+</text>
+<rect x="591.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="607.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅋ">
+<tspan x="607.0" dy="0">ㅋ</tspan>
+</text>
+<rect x="627.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="643.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅌ">
+<tspan x="643.0" dy="0">ㅌ</tspan>
+</text>
+<rect x="663.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="679.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅊ">
+<tspan x="679.0" dy="0">ㅊ</tspan>
+</text>
+<rect x="699.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="715.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅍ">
+<tspan x="715.0" dy="0">ㅍ</tspan>
+</text>
+<rect x="735.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="751.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅠ">
+<tspan x="751.0" dy="0">ㅠ</tspan>
+</text>
+<rect x="771.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="787.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅜ">
+<tspan x="787.0" dy="0">ㅜ</tspan>
+</text>
+<rect x="807.5" y="841" width="31" height="36" fill="#fff" rx="5" />
+<text x="823.0" y="862.8" font-family="Noto Sans CJK KR" font-size="15" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="ㅡ">
+<tspan x="823.0" dy="0">ㅡ</tspan>
+</text>
+<rect x="544" y="891" width="70" height="46" fill="#b9c6d4" rx="7" />
+<text x="579.0" y="916.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="123">
+<tspan x="579.0" dy="0">123</tspan>
+</text>
+<rect x="622" y="891" width="182" height="46" fill="#fff" rx="7" />
+<text x="713.0" y="916.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#304c68" text-anchor="middle" data-full-content="간격">
+<tspan x="713.0" dy="0">간격</tspan>
+</text>
+<rect x="814" y="891" width="72" height="46" fill="#1764c0" rx="7" />
+<text x="850.0" y="916.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#fff" text-anchor="middle" data-full-content="완료">
+<tspan x="850.0" dy="0">완료</tspan>
+</text>
+<text x="714.0" y="953.32" font-family="Noto Sans CJK KR" font-size="11" font-weight="400" fill="#52677e" text-anchor="middle" data-full-content="합성 키보드 · 앱 버튼과 다른 시스템 영역">
+<tspan x="714.0" dy="0">합성 키보드 · 앱 버튼과 다른 시스템 영역</tspan>
+</text>
+<text x="970" y="184.64" font-family="Noto Sans CJK KR" font-size="22" font-weight="700" fill="#172437" text-anchor="start" data-full-content="화면 바닥과 키보드 위는 달라요">
+<tspan x="970" dy="0">화면 바닥과 키보드 위는 달라요</tspan>
+</text>
+<text x="970" y="236.16" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="1  같은 입력 상태 유지">
+<tspan x="970" dy="0">1  같은 입력 상태 유지</tspan>
+</text>
+<text x="970" y="275.92" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="모달, 확장 시트, 한글 키보드, 값, 커서, 저장·취소 결과는 같아요. 버튼만 키보드 위 사용 가능 영역으로 옮겼어요.">
+<tspan x="970" dy="0">모달, 확장 시트, 한글 키보드, 값, 커서, 저장·취소 결과는</tspan>
+<tspan x="970" dy="23.2">같아요. 버튼만 키보드 위 사용 가능 영역으로 옮겼어요.</tspan>
+</text>
+<text x="970" y="353.56" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="2  결과를 말하는 긴 버튼">
+<tspan x="970" dy="0">2  결과를 말하는 긴 버튼</tspan>
+</text>
+<text x="970" y="393.32" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="저장하고 목록으로 돌아간다는 전체 이름을 유지했어요. 같은 16 크기에서 두 줄로 감싸고 버튼 높이를 맞췄어요.">
+<tspan x="970" dy="0">저장하고 목록으로 돌아간다는 전체 이름을 유지했어요. 같은</tspan>
+<tspan x="970" dy="23.2">16 크기에서 두 줄로 감싸고 버튼 높이를 맞췄어요.</tspan>
+</text>
+<text x="970" y="470.96" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="3  중복 inset 금지">
+<tspan x="970" dy="0">3  중복 inset 금지</tspan>
+</text>
+<text x="970" y="510.71999999999997" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="시트와 footer가 모두 키보드 높이를 더하면 가짜 빈 공간이 생겨요. 현재 컴포넌트의 기본 inset 처리부터 확인해야 해요.">
+<tspan x="970" dy="0">시트와 footer가 모두 키보드 높이를 더하면 가짜 빈 공간이</tspan>
+<tspan x="970" dy="23.2">생겨요. 현재 컴포넌트의 기본 inset 처리부터 확인해야 해요.</tspan>
+</text>
+<text x="970" y="588.3599999999999" font-family="Noto Sans CJK KR" font-size="18" font-weight="700" fill="#145aa0" text-anchor="start" data-full-content="검수 전제">
+<tspan x="970" dy="0">검수 전제</tspan>
+</text>
+<text x="970" y="628.1199999999999" font-family="Noto Sans CJK KR" font-size="16" font-weight="400" fill="#172437" text-anchor="start" data-full-content="오류 문구, 더 큰 글자, 더 높은 키보드에서는 시트 본문이 스크롤되어야 해요. 이 정적 그림은 실제 IME 동작을 증명하지 않아요.">
+<tspan x="970" dy="0">오류 문구, 더 큰 글자, 더 높은 키보드에서는 시트 본문이</tspan>
+<tspan x="970" dy="23.2">스크롤되어야 해요. 이 정적 그림은 실제 IME 동작을 증명하지</tspan>
+<tspan x="970" dy="23.2">않아요.</tspan>
+</text>
+<text x="970" y="932.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="400" fill="#536579" text-anchor="start" data-full-content="그림 숫자는 이 합성 fixture의 좌표예요. 실제 앱의 dp·pt 권장값이나 사용성 실측이 아닙니다.">
+<tspan x="970" dy="0">그림 숫자는 이 합성 fixture의 좌표예요. 실제 앱의 dp·pt 권장값이나</tspan>
+<tspan x="970" dy="20.3">사용성 실측이 아닙니다.</tspan>
+</text>
+<text x="42" y="1042.68" font-family="Noto Sans CJK KR" font-size="14" font-weight="700" fill="#536579" text-anchor="start" data-full-content="SYNTHETIC PROPOSALS · 동일 데이터와 상태 · 원본 앱 화면 아님 · 네이티브 런타임 검수 전">
+<tspan x="42" dy="0">SYNTHETIC PROPOSALS · 동일 데이터와 상태 · 원본 앱 화면 아님 · 네이티브 런타임 검수 전</tspan>
+</text>
+</svg>

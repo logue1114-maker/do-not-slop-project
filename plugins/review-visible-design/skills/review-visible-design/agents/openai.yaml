@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Visible Design"
+  short_description: "Find visible defects and specify same-content fixes"
+  default_prompt: "Use $review-visible-design to review this screenshot and task, then propose precise corrections with preserved content and tests."

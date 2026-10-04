@@ -1,0 +1,24 @@
+{
+  "fixture_type": "offline_hash_policy_regression_not_visual_evidence",
+  "cases": [
+    {
+      "case_id": "HASH:original-author-fixture",
+      "input_file": "hash_fixture.json",
+      "expected_status": "hashed",
+      "raw_file_sha256": "6b24973e25805dee630f3cee55a1642ab940fd3bef0060924542b8083735ffca",
+      "canonical_json_sha256": "d4aa11430dd7cc297ba65876dc128ec766715667cd1a88b5e9753e389caf7a78"
+    },
+    {
+      "case_id": "HASH:reformatted-equal-value",
+      "input_file": "hash_fixture_reformatted.json",
+      "expected_status": "hashed",
+      "raw_file_sha256": "be7e4e4a46698dc0feb1f35554a65436ad51149e00982340defef31f1476a415",
+      "canonical_json_sha256": "d4aa11430dd7cc297ba65876dc128ec766715667cd1a88b5e9753e389caf7a78"
+    }
+  ],
+  "equivalence": {
+    "raw_hashes_differ": true,
+    "canonical_hashes_equal": true,
+    "parsed_values_equal": true
+  }
+}

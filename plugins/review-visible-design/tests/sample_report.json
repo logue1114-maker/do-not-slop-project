@@ -1,0 +1,66 @@
+{
+  "assumptions_unknowns": [],
+  "evidence": [],
+  "findings": [
+    {
+      "id": "DRAFT:FINDING:01",
+      "kind": "proposal",
+      "locator": "fixture candidate/current stat rows and settings button",
+      "symptom": "Hypothetical duplicate emphasis and unmatched stat baselines; not observed on a rendered interface",
+      "cause_hypothesis": "Possible equal-emphasis template, untested",
+      "evidence_ids": [],
+      "source_ids": [
+        "AS:S23"
+      ],
+      "correction_command": {
+        "target": "equipment comparison stat rows and settings control",
+        "operation": "align_and_rebalance",
+        "proposed_value_or_relationship": "Share name/attack/defense row baselines; equipment commit is primary, settings stays reachable as secondary",
+        "value_origin_and_unit": "author_proposal; relational constraint, no measured pixels",
+        "retained_content_state": "Keep oak 12/2, patrol 16/2, equipment IDs, selected/equipped state and all action semantics",
+        "verification": "Capture same selected-before-commit milestone and verify stats/controls remain readable, then execute equip/cancel separately"
+      },
+      "preservation": [
+        "oak 12/2",
+        "patrol 16/2",
+        "selection/commit semantics"
+      ],
+      "verification": [
+        "same-fixture screenshots",
+        "equip/cancel interaction tests"
+      ]
+    }
+  ],
+  "decisions": [],
+  "rejected_alternatives": [],
+  "change_ledger": [],
+  "test_results": [
+    {
+      "case_id": "DRAFT:T:EQUIP",
+      "status": "not_run",
+      "reason": "No implementation or running UI in the package"
+    }
+  ],
+  "unresolved_defects": [],
+  "route": {
+    "purpose": "rpg-equipment",
+    "selected_manual_ids": [
+      "G01"
+    ]
+  },
+  "mode": "propose",
+  "scope": "Synthetic fixture proposal only; no interface observed",
+  "implementation_contract": {
+    "mode": "not_implemented",
+    "source_targets": []
+  },
+  "before_after_evidence": {
+    "status": "not_run",
+    "comparison": "tests/sample_comparison.json"
+  },
+  "user_review_package": {
+    "status": "pending",
+    "visual": "not_run",
+    "behavioral": "not_run"
+  }
+}

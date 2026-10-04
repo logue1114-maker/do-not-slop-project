@@ -1,0 +1,65 @@
+{
+  "before": {
+    "task": "synthetic known-null validator fixture only",
+    "fixture_id": "validator-known-null-state-v1",
+    "data": {
+      "ability": "fixed"
+    },
+    "initial_state": {
+      "selectedId": null,
+      "focusId": null,
+      "pressedId": null
+    },
+    "scenario_id": "initial",
+    "state_id": "default",
+    "viewport_css": [
+      560,
+      600
+    ],
+    "dpr": 1,
+    "zoom_percent": 100,
+    "locale": "ko-KR",
+    "input_mode": "keyboard",
+    "camera": "synthetic-validator-camera",
+    "visual_asset_hashes": {
+      "background": "synthetic-validator-asset-id"
+    },
+    "required_information": [
+      "ability"
+    ],
+    "synthetic_validator_case": true,
+    "limitations": "All metadata are explicit synthetic unit-test inputs, not observed game environment evidence"
+  },
+  "after": {
+    "task": "synthetic known-null validator fixture only",
+    "fixture_id": "validator-known-null-state-v1",
+    "data": {
+      "ability": "fixed"
+    },
+    "initial_state": {
+      "selectedId": null,
+      "focusId": null,
+      "pressedId": null
+    },
+    "scenario_id": "initial",
+    "state_id": "default",
+    "viewport_css": [
+      560,
+      600
+    ],
+    "dpr": 1,
+    "zoom_percent": 100,
+    "locale": "ko-KR",
+    "input_mode": "keyboard",
+    "camera": "synthetic-validator-camera",
+    "visual_asset_hashes": {
+      "background": "synthetic-validator-asset-id"
+    },
+    "required_information": [
+      "ability"
+    ],
+    "synthetic_validator_case": true,
+    "limitations": "All metadata are explicit synthetic unit-test inputs, not observed game environment evidence"
+  },
+  "purpose": "Reproduce checker null-state limitation only. Original fixture and main comparison unchanged."
+}
