@@ -45,6 +45,55 @@ GAME_PRESET_CAPTURE_PATHS = (
 )
 
 
+WEB_PRESET_ROOT = 'research/web_interface_presets_v1/'
+WEB_PRESET_CAPTURE_PATHS = {
+    WEB_PRESET_ROOT + 'checks/final/booking-confirmed-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-confirmed-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-conflict-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-conflict-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-entry-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-no-times-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/booking-review-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/community-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/community-entry-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/community-preview-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/community-preview-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/course-complete-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/course-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/course-entry-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/course-incorrect-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/course-incorrect-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/information-article-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/information-article-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/information-empty-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/information-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/information-entry-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/shopping-empty-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/shopping-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/shopping-entry-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/shopping-keyboard-focus-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/shopping-review-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/shopping-review-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/work-edit-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/work-empty-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/work-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'checks/final/work-entry-390x844.png',
+    WEB_PRESET_ROOT + 'checks/final/work-saved-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/booking-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/booking-entry-390x844.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/community-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/community-entry-390x844.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/course-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/course-entry-390x844.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/information-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/information-entry-390x844.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/shopping-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/shopping-entry-390x844.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/work-entry-1165x747.png',
+    WEB_PRESET_ROOT + 'first-pass/screenshots/work-entry-390x844.png',
+}
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -67,7 +116,8 @@ def inspect(root):
     approved_captures_v2 = provenance.get('instruction_trial_02', {}).get('approved_synthetic_capture_sha256', {})
     approved_captures_palettes = provenance.get('white_surface_palettes_v1', {}).get('approved_synthetic_capture_sha256', {})
     approved_captures_games = provenance.get('game_interface_presets_v1', {}).get('approved_synthetic_capture_sha256', {})
-    approved_captures = {**approved_captures_v1, **approved_captures_v2, **approved_captures_palettes, **approved_captures_games}
+    approved_captures_web = provenance.get('web_interface_presets_v1', {}).get('approved_synthetic_capture_sha256', {})
+    approved_captures = {**approved_captures_v1, **approved_captures_v2, **approved_captures_palettes, **approved_captures_games, **approved_captures_web}
     denied_parts = {'.git', '.openai', '.aws', '.codex', '.agents', 'node_modules', 'evidence', 'browser_qa', 'public_release_audit'}
     forbidden = [r for r, p in relative.items() if set(p.relative_to(root).parts) & denied_parts
                  or re.search(r'(?:evaluation|private|audit_report)', r, re.I)
@@ -97,7 +147,7 @@ def inspect(root):
     check('source_authority_and_license_boundaries', provenance['public_redistribution'] == 'authorized_source_release_only'
           and provenance['license_choice'] == 'pending_user_decision' and provenance['external_rights'] == 'unknown_link_only')
     approved_art = provenance['approved_authored_board_sha256']
-    art_paths = {r for r, p in relative.items() if p.suffix in {'.png', '.svg'} and r not in GAME_PRESET_CAPTURE_PATHS}
+    art_paths = {r for r, p in relative.items() if p.suffix in {'.png', '.svg'} and r not in (GAME_PRESET_CAPTURE_PATHS | WEB_PRESET_CAPTURE_PATHS)}
     check('exact_authored_board_allowlist', set(approved_art) == art_paths and len(art_paths) == 46)
     for rel in sorted(art_paths):
         path = relative[rel]
@@ -107,13 +157,15 @@ def inspect(root):
             check('vector_no_embedded_media:' + rel, not any(element.tag.split('}')[-1] in {'image', 'script', 'foreignObject'} for element in document.iter())
                   and 'data:' not in path.read_text() and '@font-face' not in path.read_text())
     capture_paths = {r for r, p in relative.items() if p.suffix.lower() in {'.jpg', '.jpeg'}
-                     or (p.suffix.lower() == '.png' and r.startswith(GAME_PRESET_ROOT))}
+                     or (p.suffix.lower() == '.png' and r.startswith((GAME_PRESET_ROOT, WEB_PRESET_ROOT)))}
     check('exact_original_capture_allowlist', set(approved_captures_v1) == TRIAL_CAPTURE_PATHS)
     check('exact_guided_iteration_capture_allowlist', set(approved_captures_v2) == GUIDED_CAPTURE_PATHS)
     check('exact_white_palette_capture_allowlist', set(approved_captures_palettes) == WHITE_PALETTE_CAPTURE_PATHS)
     check('exact_game_preset_capture_allowlist', set(approved_captures_games) == GAME_PRESET_CAPTURE_PATHS
           and len(GAME_PRESET_CAPTURE_PATHS) == 33)
-    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS | WHITE_PALETTE_CAPTURE_PATHS | GAME_PRESET_CAPTURE_PATHS) == capture_paths)
+    check('exact_web_preset_capture_allowlist', set(approved_captures_web) == WEB_PRESET_CAPTURE_PATHS
+          and len(WEB_PRESET_CAPTURE_PATHS) == 45)
+    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS | WHITE_PALETTE_CAPTURE_PATHS | GAME_PRESET_CAPTURE_PATHS | WEB_PRESET_CAPTURE_PATHS) == capture_paths)
     for rel in sorted(capture_paths):
         check('synthetic_capture_bytes:' + rel, hashlib.sha256(relative[rel].read_bytes()).hexdigest() == approved_captures.get(rel))
     broken, escaped = [], []

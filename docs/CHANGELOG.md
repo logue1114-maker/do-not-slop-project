@@ -1,5 +1,16 @@
 # Source changes
 
+## 2026-10-05: Six authored web-interface presets
+
+Integrated directly from the author’s existing local source on main baseline `6e3fadd5c5b7a921cd4c8157f98154444365efce`.
+
+- Add six original English local flows, purpose-specific presets, separated functional/design inputs, exact completed HTML/first-pass files and transparent repair history
+- Make development browser tools environment-configurable; omit machine paths, authentication, transfer metadata, internal conversations, archives and third-party media
+- Add fresh integrated-source browser/HTTP/source checks, own synthetic captures, capture hashes and public release provenance
+- Update the concise web README route, research index/series, AI routing, rights, verification and file inventory; preserve the game package and earlier research/runtime/fixture/evidence bytes
+
+This is an authored/guided preset demo, not a new ordinary-quality/design-treatment experiment, causal improvement or approved final design. Source/capture publication was requested; no force push, Site deployment, plugin installation or license selection is included.
+
 ## 2026-10-05: Five authored game interface presets
 
 Additive integration against public commit `246f4b6fec8995e017af13efa9fe0c79f64a6b4d`.

@@ -1,0 +1,147 @@
+{
+  "run": "final",
+  "started": "2026-10-05T04:17:03.820Z",
+  "capture_mode": "Full-page PNG; viewport is CSS layout viewport, not image height",
+  "browser": "Real headless Chromium via installed Chrome; no application mocks",
+  "environment": {
+    "platform": "win32",
+    "browser": "Installed Chromium; executable configured outside the report"
+  },
+  "viewports": [
+    {
+      "width": 1165,
+      "height": 747
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "tests": [
+    {
+      "name": "shopping entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "information entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "course entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "community entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "work entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "booking entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "shopping entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "information entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "course entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "community entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "work entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "booking entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "Shopping variants, quantity boundaries, repeated review, Back, remove/undo",
+      "passed": true
+    },
+    {
+      "name": "Information query/topic, article sections, Back, zero results and clear",
+      "passed": true
+    },
+    {
+      "name": "Course native radio arrows, incorrect/revisit/retry/correct/continue",
+      "passed": true
+    },
+    {
+      "name": "Community invalid/escaped draft, guard Escape, switch, browser Back, cancel",
+      "passed": true
+    },
+    {
+      "name": "Community kept drafts belong to their own thread and cannot be repeated into posts",
+      "passed": true
+    },
+    {
+      "name": "Work invalid/save/cancel/Escape preserve stable records and filters",
+      "passed": true
+    },
+    {
+      "name": "Work changed edit guard and genuine empty-filter recovery",
+      "passed": true
+    },
+    {
+      "name": "Booking unavailable date, field preservation, stale-slot recovery, duplicate confirmation",
+      "passed": true
+    },
+    {
+      "name": "Explicit reset clears one example only and Escape keeps state",
+      "passed": true
+    },
+    {
+      "name": "Native Enter/Space and ordinary Tab/Shift+Tab focus",
+      "passed": true
+    },
+    {
+      "name": "All active visible controls reachable in native Tab order",
+      "passed": true
+    },
+    {
+      "name": "Mobile critical screens and outline reopen",
+      "passed": true
+    },
+    {
+      "name": "CSS reflow at 320px and enlarged type probe",
+      "passed": true
+    },
+    {
+      "name": "Mobile emulated touch booking and cart actions",
+      "passed": true
+    },
+    {
+      "name": "No page console errors or application network requests",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "external_requests": [],
+  "limitations": [
+    "Not a native phone",
+    "No screen reader",
+    "No human participant usability test",
+    "No full WCAG certification",
+    "No real transaction/backend",
+    "CSS reflow probe is not native browser zoom"
+  ],
+  "finished": "2026-10-05T04:17:13.494Z",
+  "passed": 27,
+  "failed": 0,
+  "tested_source": {
+    "index_sha256": "18d59cd046ba0a6aa34ab12b4effecf489c033932ad762471cc888f2d6d92848",
+    "harness_sha256": "aca1b12c997a72e00d45a2337f429cf8192439eb3256e7c97a65f31124cd1840"
+  }
+}

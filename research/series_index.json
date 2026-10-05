@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "title": "용도별 UI UX 매뉴얼",
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-05",
   "status": "user_review_draft",
   "installed_as_skill": false,
   "classification_note": "웹게임은 실행 플랫폼이고 RPG·카드게임은 장르입니다. 게임·웹·앱 책장은 탐색 편의를 위한 것이며 용도 본편과 플랫폼 보충편을 조합합니다.",
@@ -114,7 +114,13 @@
         "CASE-IKEA",
         "CASE-APPLE"
       ],
-      "case_scope_status": "research_available_with_limits"
+      "case_scope_status": "research_available_with_limits",
+      "runnable_authored_example": {
+        "path": "research/web_interface_presets_v1/README.md",
+        "preset": "shopping",
+        "artifact_type": "authored_guided_demo",
+        "experiment_status": "not_performed"
+      }
     },
     {
       "id": "W02",
@@ -133,7 +139,13 @@
         "CASE-WIKIPEDIA",
         "CASE-MDN"
       ],
-      "case_scope_status": "research_available_with_limits"
+      "case_scope_status": "research_available_with_limits",
+      "runnable_authored_example": {
+        "path": "research/web_interface_presets_v1/README.md",
+        "preset": "information",
+        "artifact_type": "authored_guided_demo",
+        "experiment_status": "not_performed"
+      }
     },
     {
       "id": "W03",
@@ -152,7 +164,13 @@
         "CASE-KHAN",
         "CASE-COURSERA"
       ],
-      "case_scope_status": "research_available_with_limits"
+      "case_scope_status": "research_available_with_limits",
+      "runnable_authored_example": {
+        "path": "research/web_interface_presets_v1/README.md",
+        "preset": "course",
+        "artifact_type": "authored_guided_demo",
+        "experiment_status": "not_performed"
+      }
     },
     {
       "id": "W04",
@@ -168,7 +186,13 @@
         4
       ],
       "case_ids": [],
-      "case_scope_status": "no_case_attached"
+      "case_scope_status": "no_case_attached",
+      "runnable_authored_example": {
+        "path": "research/web_interface_presets_v1/README.md",
+        "preset": "community",
+        "artifact_type": "authored_guided_demo",
+        "experiment_status": "not_performed"
+      }
     },
     {
       "id": "W05",
@@ -186,7 +210,13 @@
       "case_ids": [
         "CASE-TODOIST"
       ],
-      "case_scope_status": "research_available_with_limits"
+      "case_scope_status": "research_available_with_limits",
+      "runnable_authored_example": {
+        "path": "research/web_interface_presets_v1/README.md",
+        "preset": "work",
+        "artifact_type": "authored_guided_demo",
+        "experiment_status": "not_performed"
+      }
     },
     {
       "id": "W06",
@@ -202,7 +232,13 @@
         4
       ],
       "case_ids": [],
-      "case_scope_status": "no_case_attached"
+      "case_scope_status": "no_case_attached",
+      "runnable_authored_example": {
+        "path": "research/web_interface_presets_v1/README.md",
+        "preset": "booking",
+        "artifact_type": "authored_guided_demo",
+        "experiment_status": "not_performed"
+      }
     },
     {
       "id": "A01",
@@ -394,5 +430,14 @@
     "web_case_status": "research_document_linked",
     "official_standard_sources": 21,
     "evidence_bundle_status": "original_capture_registry_and_third_party_media_not_bundled"
-  }
+  },
+  "runnable_packages": [
+    {
+      "id": "web_interface_presets_v1",
+      "path": "research/web_interface_presets_v1/README.md",
+      "presets": 6,
+      "status": "authored_local_demo",
+      "design_approval": "not_established"
+    }
+  ]
 }

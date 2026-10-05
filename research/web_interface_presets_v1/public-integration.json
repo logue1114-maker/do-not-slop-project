@@ -1,0 +1,39 @@
+{
+  "artifact": "Authored/guided local web gallery; no experimental arms",
+  "integrated_on_utc": "2026-10-05T04:24:35.443Z",
+  "integration_base_commit": "6e3fadd5c5b7a921cd4c8157f98154444365efce",
+  "authoring_reference_commit": "bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e",
+  "local_authored_index_byte_match": true,
+  "integrated_index_sha256": "18d59cd046ba0a6aa34ab12b4effecf489c033932ad762471cc888f2d6d92848",
+  "first_completed_files_byte_match": true,
+  "browser_checks": {
+    "passed": 27,
+    "failed": 0
+  },
+  "http_checks": {
+    "passed": 21,
+    "failed": 0
+  },
+  "capture_manifest": "screenshot-manifest.json",
+  "development_adaptation": "Only harness module/browser locations, report paths and working-directory handling made portable; runtime HTML byte-for-byte unchanged.",
+  "public_sanitization": "No private machine path, authentication, transfer metadata, internal conversation, archive or external media included",
+  "scope": "Direct source/capture publication requested; no Site deployment or plugin installation",
+  "design_approval": "not_established",
+  "comparison_experiment": "not_performed",
+  "usability_gain": "not_proven",
+  "license_choice": "pending_user_decision",
+  "publication_preflight": {
+    "checked_on_utc": "2026-10-05T10:47:44.662Z",
+    "latest_remote_main": "6e3fadd5c5b7a921cd4c8157f98154444365efce",
+    "protected_baseline_files_byte_match": 261,
+    "game_package_files_byte_match": 63,
+    "browser_source_hash_match": true,
+    "first_completed_files_hash_match": true,
+    "capture_hashes_match": 45,
+    "http_checks": {
+      "passed": 21,
+      "failed": 0
+    },
+    "remote_publication": "Pending commit/push; later remote confirmation is separate from this local receipt"
+  }
+}

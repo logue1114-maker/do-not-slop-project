@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "web-flows-oct4-v1",
+  "normal_request": "Build a polished, attractive English-first web interface with six usable local examples using the supplied functional requirements and data. Each action must work locally; preserve inputs and records on Back, repeated actions and interrupted flows. Make it usable on desktop and mobile and with keyboard controls. No account, network, real payment, posting or booking. Provide a runnable self-contained index.html and bounded verification.",
+  "fixture": {
+    "id": "web-flows-oct4-v1",
+    "shopping": {
+      "products": [
+        {
+          "id": "bookends",
+          "name": "Arc bookends",
+          "detail": "A pair of solid wood bookends. 15 × 12 cm each.",
+          "price": 28,
+          "variant": "Oak",
+          "variants": [
+            "Oak",
+            "Walnut"
+          ],
+          "maxQuantity": 5
+        },
+        {
+          "id": "cup",
+          "name": "Everyday cup",
+          "detail": "Unglazed base, matte finish. 250 ml.",
+          "price": 14,
+          "variant": "Chalk",
+          "variants": [
+            "Chalk",
+            "Clay"
+          ],
+          "maxQuantity": 5
+        }
+      ],
+      "shipping": 4,
+      "currency": "USD",
+      "tax": "Not calculated; this is an item review."
+    },
+    "information": {
+      "articles": [
+        {
+          "id": "seeds",
+          "title": "Store seeds between seasons",
+          "category": "Garden",
+          "date": "October 2, 2026",
+          "summary": "Dry containers, labels, and a cool shelf.",
+          "sections": [
+            {
+              "id": "prepare",
+              "title": "Before storing",
+              "body": "Let the seed packet and container dry. A small paper envelope keeps each variety separate. Label it with the plant name and collection date."
+            },
+            {
+              "id": "keep",
+              "title": "On the shelf",
+              "body": "Keep the envelopes in a closed, dry container away from sunlight. These are synthetic garden notes; storage needs vary by seed type."
+            }
+          ]
+        },
+        {
+          "id": "tools",
+          "title": "Clean hand tools after use",
+          "category": "Garden",
+          "date": "September 30, 2026",
+          "summary": "Remove soil and dry tools before putting them away.",
+          "sections": [
+            {
+              "id": "prepare",
+              "title": "Remove soil",
+              "body": "Brush off loose soil. Wipe the handle and blade, then leave both to dry."
+            },
+            {
+              "id": "keep",
+              "title": "Store separately",
+              "body": "Keep sharp tools in a covered tray. This is a fictional handbook entry, not equipment safety advice."
+            }
+          ]
+        },
+        {
+          "id": "labels",
+          "title": "Label a shared storage shelf",
+          "category": "Home",
+          "date": "October 1, 2026",
+          "summary": "Use names that describe the items in each space.",
+          "sections": [
+            {
+              "id": "prepare",
+              "title": "Group the items",
+              "body": "Keep items used together in one place. Give each shelf a short name based on its contents."
+            },
+            {
+              "id": "keep",
+              "title": "Keep labels useful",
+              "body": "Update the label when the contents change. These local examples contain no account or shared service."
+            }
+          ]
+        }
+      ]
+    },
+    "course": {
+      "name": "Reading a chart",
+      "lessons": [
+        {
+          "id": "axes",
+          "title": "Read the axes",
+          "body": "An axis label tells you what a number measures. Read the label and unit before comparing values.",
+          "question": "The vertical axis is labeled ‘Minutes’. What does a value of 12 mean?",
+          "options": [
+            "12 people",
+            "12 minutes",
+            "12 percent"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "compare",
+          "title": "Compare two values",
+          "body": "Compare values that share the same unit. A value of 18 minutes is 6 minutes greater than a value of 12 minutes."
+        }
+      ]
+    },
+    "community": {
+      "threads": [
+        {
+          "id": "shelf",
+          "title": "What belongs on our shared shelf?",
+          "author": "Morgan",
+          "initials": "M",
+          "date": "October 3",
+          "tag": "Ideas",
+          "replies": 2,
+          "body": "We have one free shelf near the reading table. I would like to keep the weekly magazines there. What else would be useful?"
+        },
+        {
+          "id": "meetup",
+          "title": "Saturday sketch session",
+          "author": "Alex",
+          "initials": "A",
+          "date": "October 2",
+          "tag": "Events",
+          "replies": 4,
+          "body": "The local example starts at 10:00. Bring a sketchbook and a pencil. This is a fictional discussion; no event registration is connected."
+        }
+      ],
+      "maxDraft": 600
+    },
+    "work": {
+      "records": [
+        {
+          "id": "T-104",
+          "title": "Check shelf measurements",
+          "owner": "Sam",
+          "due": "October 6",
+          "status": "Open",
+          "notes": "Check the width and depth before choosing the storage bins."
+        },
+        {
+          "id": "T-105",
+          "title": "Prepare workshop outline",
+          "owner": "Taylor",
+          "due": "October 8",
+          "status": "Open",
+          "notes": "Include the materials list and a 15-minute practice activity."
+        },
+        {
+          "id": "T-103",
+          "title": "Update room labels",
+          "owner": "Jamie",
+          "due": "October 3",
+          "status": "Done",
+          "notes": "The new labels are ready for review."
+        }
+      ],
+      "owners": [
+        "Sam",
+        "Taylor",
+        "Jamie"
+      ],
+      "maxTitle": 80
+    },
+    "booking": {
+      "services": [
+        {
+          "id": "room",
+          "name": "Small room",
+          "duration": 60,
+          "capacity": 4,
+          "price": 26
+        },
+        {
+          "id": "desk",
+          "name": "Quiet desk",
+          "duration": 30,
+          "capacity": 1,
+          "price": 18
+        }
+      ],
+      "dates": [
+        {
+          "id": "2026-10-15",
+          "label": "Thu, Oct 15",
+          "availability": "3 times"
+        },
+        {
+          "id": "2026-10-16",
+          "label": "Fri, Oct 16",
+          "availability": "No times"
+        }
+      ],
+      "slots": [
+        "14:00",
+        "15:00",
+        "16:00"
+      ],
+      "timezone": "UTC (UTC+0)",
+      "staleSlot": "14:00",
+      "staleService": "room",
+      "terms": "Fictional policy: cancel by October 14, 14:00 UTC for no fee; after that, 50% of the session price. Prices include all fixture fees.",
+      "confirmationId": "DEMO-B01"
+    }
+  },
+  "requirements": [
+    {
+      "id": "shopping",
+      "entry": "shopping/list",
+      "main_path": [
+        "list: compare two products",
+        "product: choose a finish; Add to cart",
+        "cart: quantity 1–5, remove/undo",
+        "review: inspect amounts; Finish local review"
+      ],
+      "state_conditions": [
+        "Empty cart",
+        "Quantity at minimum 1 or maximum 5 per finish",
+        "Removed item available to undo once",
+        "Review complete; any cart change clears completion"
+      ],
+      "navigation_requirements": {
+        "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+        "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+        "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+        "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+      },
+      "protected_state": [
+        "product IDs, variants, prices, limits",
+        "current cart",
+        "last removal until undo or next removal",
+        "no real order"
+      ],
+      "fixture": {
+        "products": [
+          {
+            "id": "bookends",
+            "name": "Arc bookends",
+            "detail": "A pair of solid wood bookends. 15 × 12 cm each.",
+            "price": 28,
+            "variant": "Oak",
+            "variants": [
+              "Oak",
+              "Walnut"
+            ],
+            "maxQuantity": 5
+          },
+          {
+            "id": "cup",
+            "name": "Everyday cup",
+            "detail": "Unglazed base, matte finish. 250 ml.",
+            "price": 14,
+            "variant": "Chalk",
+            "variants": [
+              "Chalk",
+              "Clay"
+            ],
+            "maxQuantity": 5
+          }
+        ],
+        "shipping": 4,
+        "currency": "USD",
+        "tax": "Not calculated; this is an item review."
+      }
+    },
+    {
+      "id": "information",
+      "entry": "information/results",
+      "main_path": [
+        "results: enter query and choose topic; Search",
+        "article: read sections",
+        "return: same query/topic/results, focus and list scroll"
+      ],
+      "state_conditions": [
+        "Unfiltered or filtered results",
+        "No query/topic matches",
+        "Article open",
+        "Return retains committed query/topic and result context"
+      ],
+      "navigation_requirements": {
+        "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+        "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+        "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+        "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+      },
+      "protected_state": [
+        "article IDs, dates, sections",
+        "committed query and topic",
+        "result-link focus and in-app return scroll"
+      ],
+      "fixture": {
+        "articles": [
+          {
+            "id": "seeds",
+            "title": "Store seeds between seasons",
+            "category": "Garden",
+            "date": "October 2, 2026",
+            "summary": "Dry containers, labels, and a cool shelf.",
+            "sections": [
+              {
+                "id": "prepare",
+                "title": "Before storing",
+                "body": "Let the seed packet and container dry. A small paper envelope keeps each variety separate. Label it with the plant name and collection date."
+              },
+              {
+                "id": "keep",
+                "title": "On the shelf",
+                "body": "Keep the envelopes in a closed, dry container away from sunlight. These are synthetic garden notes; storage needs vary by seed type."
+              }
+            ]
+          },
+          {
+            "id": "tools",
+            "title": "Clean hand tools after use",
+            "category": "Garden",
+            "date": "September 30, 2026",
+            "summary": "Remove soil and dry tools before putting them away.",
+            "sections": [
+              {
+                "id": "prepare",
+                "title": "Remove soil",
+                "body": "Brush off loose soil. Wipe the handle and blade, then leave both to dry."
+              },
+              {
+                "id": "keep",
+                "title": "Store separately",
+                "body": "Keep sharp tools in a covered tray. This is a fictional handbook entry, not equipment safety advice."
+              }
+            ]
+          },
+          {
+            "id": "labels",
+            "title": "Label a shared storage shelf",
+            "category": "Home",
+            "date": "October 1, 2026",
+            "summary": "Use names that describe the items in each space.",
+            "sections": [
+              {
+                "id": "prepare",
+                "title": "Group the items",
+                "body": "Keep items used together in one place. Give each shelf a short name based on its contents."
+              },
+              {
+                "id": "keep",
+                "title": "Keep labels useful",
+                "body": "Update the label when the contents change. These local examples contain no account or shared service."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "course",
+      "entry": "course/lesson",
+      "main_path": [
+        "lesson 1: read axis label",
+        "practice: select an answer; Check answer",
+        "feedback: wrong → Try again or Revisit lesson; correct → Continue to lesson 2",
+        "lesson 2: read comparison; Finish lesson"
+      ],
+      "state_conditions": [
+        "No answer selected",
+        "Answer selected",
+        "Incorrect feedback with retry",
+        "Correct feedback with continue",
+        "Lessons completed"
+      ],
+      "navigation_requirements": {
+        "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+        "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+        "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+        "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+      },
+      "protected_state": [
+        "question/options/correct answer",
+        "attempt count",
+        "current lesson and completion",
+        "answer/feedback on revisit"
+      ],
+      "fixture": {
+        "name": "Reading a chart",
+        "lessons": [
+          {
+            "id": "axes",
+            "title": "Read the axes",
+            "body": "An axis label tells you what a number measures. Read the label and unit before comparing values.",
+            "question": "The vertical axis is labeled ‘Minutes’. What does a value of 12 mean?",
+            "options": [
+              "12 people",
+              "12 minutes",
+              "12 percent"
+            ],
+            "correct": 1
+          },
+          {
+            "id": "compare",
+            "title": "Compare two values",
+            "body": "Compare values that share the same unit. A value of 18 minutes is 6 minutes greater than a value of 12 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "community",
+      "entry": "community/list",
+      "main_path": [
+        "topic rows: select thread; optional channel filter",
+        "thread: read original post",
+        "draft: write local reply; Preview draft",
+        "preview: Edit draft, Keep draft locally or Cancel draft"
+      ],
+      "state_conditions": [
+        "Thread list or thread open",
+        "Empty/whitespace reply cannot preview",
+        "Unsaved reply",
+        "Escaped text preview",
+        "Saved local draft per thread",
+        "Attempt to leave with unsaved changes"
+      ],
+      "navigation_requirements": {
+        "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+        "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+        "cancel": "Discard unsaved reply changes only after the user agrees; retain any earlier saved local draft.",
+        "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+      },
+      "protected_state": [
+        "thread IDs, authors, dates, fixture reply counts",
+        "saved local draft per thread",
+        "raw unsaved input until explicit discard"
+      ],
+      "fixture": {
+        "threads": [
+          {
+            "id": "shelf",
+            "title": "What belongs on our shared shelf?",
+            "author": "Morgan",
+            "initials": "M",
+            "date": "October 3",
+            "tag": "Ideas",
+            "replies": 2,
+            "body": "We have one free shelf near the reading table. I would like to keep the weekly magazines there. What else would be useful?"
+          },
+          {
+            "id": "meetup",
+            "title": "Saturday sketch session",
+            "author": "Alex",
+            "initials": "A",
+            "date": "October 2",
+            "tag": "Events",
+            "replies": 4,
+            "body": "The local example starts at 10:00. Bring a sketchbook and a pencil. This is a fictional discussion; no event registration is connected."
+          }
+        ],
+        "maxDraft": 600
+      }
+    },
+    {
+      "id": "work",
+      "entry": "work/list",
+      "main_path": [
+        "register: status filter; choose task",
+        "detail: read fields and notes",
+        "edit: title/owner/status/notes",
+        "Save task → same record detail; Cancel edit → prior saved record"
+      ],
+      "state_conditions": [
+        "Saved record list/detail",
+        "Editable draft",
+        "Empty/whitespace title cannot save",
+        "Saved edit",
+        "Canceled edit",
+        "No records match status"
+      ],
+      "navigation_requirements": {
+        "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+        "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+        "cancel": "Discard the edit copy; saved record unchanged.",
+        "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+      },
+      "protected_state": [
+        "record count/order/IDs/due dates",
+        "unselected record values",
+        "committed values across Back/filter/example switching"
+      ],
+      "fixture": {
+        "records": [
+          {
+            "id": "T-104",
+            "title": "Check shelf measurements",
+            "owner": "Sam",
+            "due": "October 6",
+            "status": "Open",
+            "notes": "Check the width and depth before choosing the storage bins."
+          },
+          {
+            "id": "T-105",
+            "title": "Prepare workshop outline",
+            "owner": "Taylor",
+            "due": "October 8",
+            "status": "Open",
+            "notes": "Include the materials list and a 15-minute practice activity."
+          },
+          {
+            "id": "T-103",
+            "title": "Update room labels",
+            "owner": "Jamie",
+            "due": "October 3",
+            "status": "Done",
+            "notes": "The new labels are ready for review."
+          }
+        ],
+        "owners": [
+          "Sam",
+          "Taylor",
+          "Jamie"
+        ],
+        "maxTitle": 80
+      }
+    },
+    {
+      "id": "booking",
+      "entry": "booking/select",
+      "main_path": [
+        "space/capacity: Small room or Quiet desk",
+        "date/time: select available slot; meeting name and people",
+        "review: exact date/time/timezone/space/cost/terms",
+        "14:00 Small room confirm → conflict → choose 15:00 → review again",
+        "explicit local confirm → DEMO-B01"
+      ],
+      "state_conditions": [
+        "No time selected",
+        "Date with no times",
+        "Invalid name or people outside capacity",
+        "Review of valid selection",
+        "Small room 14:00 becomes unavailable at confirmation",
+        "Alternative 15:00 selected; explicit confirmation still required",
+        "Confirmed locally once"
+      ],
+      "navigation_requirements": {
+        "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+        "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+        "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+        "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+      },
+      "protected_state": [
+        "space prices/durations/capacities",
+        "meeting/people across date/conflict/back",
+        "explicit timezone and terms",
+        "confirmation ID; at most one current confirmation"
+      ],
+      "fixture": {
+        "services": [
+          {
+            "id": "room",
+            "name": "Small room",
+            "duration": 60,
+            "capacity": 4,
+            "price": 26
+          },
+          {
+            "id": "desk",
+            "name": "Quiet desk",
+            "duration": 30,
+            "capacity": 1,
+            "price": 18
+          }
+        ],
+        "dates": [
+          {
+            "id": "2026-10-15",
+            "label": "Thu, Oct 15",
+            "availability": "3 times"
+          },
+          {
+            "id": "2026-10-16",
+            "label": "Fri, Oct 16",
+            "availability": "No times"
+          }
+        ],
+        "slots": [
+          "14:00",
+          "15:00",
+          "16:00"
+        ],
+        "timezone": "UTC (UTC+0)",
+        "staleSlot": "14:00",
+        "staleService": "room",
+        "terms": "Fictional policy: cancel by October 14, 14:00 UTC for no fee; after that, 50% of the session price. Prices include all fixture fees.",
+        "confirmationId": "DEMO-B01"
+      }
+    }
+  ],
+  "evaluation_boundary": "Functional-only input for a possible future matched run. It includes no palette, layout, screenshot, dimension, source guide or instruction to produce a weak design. No experiment was run in this task."
+}

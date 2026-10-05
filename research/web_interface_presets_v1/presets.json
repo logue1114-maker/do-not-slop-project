@@ -1,0 +1,4092 @@
+{
+  "schema_version": "1.0",
+  "title": "Do Not Slop Project · Six web flow presets",
+  "created": "2026-10-04",
+  "language": "en",
+  "reference_commit": "bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e",
+  "status": "Independent design proposals; owner review pending",
+  "fixture_id": "web-flows-oct4-v1",
+  "persistence": "Memory in this tab only. Example switching and in-app Back preserve intended state. Reload clears all local changes.",
+  "reset": "Reset this example opens an explicit guard, restores only that fixture, clears local edits/outcomes, and leaves other examples unchanged.",
+  "standards_note": "WCAG 2.2 AA target size minimum is 24×24 CSS px with stated exceptions including spacing. 44×44 is the enhanced AAA criterion. Our 44/46/56px hit-area proposals are not universal WCAG requirements; no conformance certification is claimed. Browser Tab does not adopt Xbox controller wrapping.",
+  "presets": [
+    {
+      "id": "shopping",
+      "label": "Shopping",
+      "visitor_intent": "Compare two objects, choose a finish, and review quantities and costs.",
+      "entry": "shopping/list",
+      "main_path": [
+        "list: compare two products",
+        "product: choose a finish; Add to cart",
+        "cart: quantity 1–5, remove/undo",
+        "review: inspect amounts; Finish local review"
+      ],
+      "layout_family": "Two-column product catalog; split product detail; line-item cart and receipt.",
+      "inappropriate_when": "A large marketplace needs search, stock and fulfillment rules. This small catalog does not represent checkout.",
+      "menu": {
+        "product_menu": [
+          "Browse",
+          "Cart (item count)"
+        ],
+        "density": "Two top-level shop destinations; two finish options; quantity controls stay with each line.",
+        "desktop": {
+          "outer": 1100,
+          "catalog": 820,
+          "catalog_columns": 2,
+          "catalog_gap": 32,
+          "detail_gap": 48,
+          "cart_summary": 300,
+          "cart_gap": 40
+        },
+        "mobile": {
+          "outer": 358,
+          "catalog_columns": 1,
+          "detail_art_height": 240,
+          "quantity_target": 44
+        },
+        "control_height": 46,
+        "radius": 3
+      },
+      "routes": {
+        "back": "Product → collection; review → cart; cart → collection.",
+        "cancel": "Removal has Undo last removal; no purchase cancellation exists.",
+        "exit": "Choose another example; cart and finish selections remain in memory.",
+        "browser_back": "Restores prior stage with the current cart. A stale review route with an empty cart becomes cart."
+      },
+      "states": {
+        "fixture_id": "web-flows-oct4-v1",
+        "empty": "Remove every line → Your cart is empty → Browse objects.",
+        "error": "Adding beyond 5 per finish announces the limit; current cart retained.",
+        "recovery": "Undo last removal once; repeated undo does not add another item.",
+        "loading": null,
+        "loading_scope": "Not represented: local synchronous operations; no synthetic spinner/latency."
+      },
+      "roles": {
+        "canvas": "#ffffff",
+        "surface": "#ffffff",
+        "primaryText": "#ffffff",
+        "secondaryFill": "#ffffff",
+        "secondaryHover": "#f6f7f8",
+        "destructive": "#9b2837",
+        "destructiveHover": "#fff3f4",
+        "disabledFill": "#f0f1f2",
+        "disabledText": "#666d75",
+        "disabledBorder": "#a7adb4",
+        "success": "#24633e",
+        "error": "#a12636",
+        "primary": "#93472e",
+        "primaryHover": "#763822",
+        "text": "#302721",
+        "muted": "#71625b",
+        "groupBoundary": "#e4dbd5",
+        "controlBoundary": "#948176",
+        "secondaryText": "#6c3b29",
+        "focus": {
+          "color": "#a4573b",
+          "width": 3,
+          "offset": 3,
+          "trigger": ":focus-visible",
+          "not_hover": true
+        },
+        "selection": {
+          "fill": "#fbf5f1",
+          "border": "#93472e",
+          "width": 2,
+          "additional_signal": "aria-pressed or current label where applicable"
+        },
+        "pressed": {
+          "translationY": 1,
+          "disabled": false
+        },
+        "destructive_usage": "Remove line; undo available"
+      },
+      "typography": {
+        "body": {
+          "family": "system-ui",
+          "size": 16,
+          "line_height": 24
+        },
+        "heading": {
+          "family": "Georgia, serif",
+          "size": 30,
+          "mobile_size": 27
+        },
+        "metadata": {
+          "size": 14,
+          "line_height": 21
+        },
+        "control": {
+          "size": 16,
+          "line_height": 24
+        },
+        "specific_reading": null
+      },
+      "dimensions": {
+        "unit": "CSS px",
+        "classification": "Context-specific design proposals; rendered measurements are separate below.",
+        "proposals": {
+          "product_menu": [
+            "Browse",
+            "Cart (item count)"
+          ],
+          "density": "Two top-level shop destinations; two finish options; quantity controls stay with each line.",
+          "desktop": {
+            "outer": 1100,
+            "catalog": 820,
+            "catalog_columns": 2,
+            "catalog_gap": 32,
+            "detail_gap": 48,
+            "cart_summary": 300,
+            "cart_gap": 40
+          },
+          "mobile": {
+            "outer": 358,
+            "catalog_columns": 1,
+            "detail_art_height": 240,
+            "quantity_target": 44
+          },
+          "control_height": 46,
+          "radius": 3
+        },
+        "rendered": [
+          {
+            "purpose": "shopping",
+            "stage": "entry",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "shopping",
+              "view": "list"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 573.89
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 77
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 374.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 434.5,
+              "width": 820,
+              "height": 381.89
+            },
+            "primary_buttons": [
+              {
+                "label": "Choose finish",
+                "disabled": false,
+                "x": 32.5,
+                "y": 745.39,
+                "width": 137.16,
+                "height": 46
+              },
+              {
+                "label": "Choose finish",
+                "disabled": false,
+                "x": 458.5,
+                "y": 745.39,
+                "width": 137.16,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 44,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "Shopping",
+                "x": 32.5,
+                "y": 129.5,
+                "width": 93.77,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Information",
+                "x": 130.27,
+                "y": 129.5,
+                "width": 109.25,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course",
+                "x": 243.52,
+                "y": 129.5,
+                "width": 75.89,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Community",
+                "x": 323.41,
+                "y": 129.5,
+                "width": 107.23,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Work",
+                "x": 434.64,
+                "y": 129.5,
+                "width": 65.7,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Booking",
+                "x": 504.34,
+                "y": 129.5,
+                "width": 85.17,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Browse",
+                "x": 973.23,
+                "y": 258.5,
+                "width": 74.34,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "3px"
+              },
+              {
+                "label": "Cart (0)",
+                "x": 1055.58,
+                "y": 258.5,
+                "width": 76.92,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "3px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Useful objects",
+              "x": 32.5,
+              "y": 374.5,
+              "width": 1100,
+              "height": 36,
+              "font_size": "30px",
+              "line_height": "36px",
+              "radius": "0px"
+            },
+            "layout_columns": []
+          },
+          {
+            "purpose": "shopping",
+            "stage": "entry",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "shopping",
+              "view": "list"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 962.17
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 77
+            },
+            "heading": {
+              "x": 16,
+              "y": 397,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 449.39,
+              "width": 358,
+              "height": 781.78
+            },
+            "primary_buttons": [
+              {
+                "label": "Choose finish",
+                "disabled": false,
+                "x": 16,
+                "y": 755.28,
+                "width": 137.16,
+                "height": 46
+              },
+              {
+                "label": "Choose finish",
+                "disabled": false,
+                "x": 16,
+                "y": 1160.17,
+                "width": 137.16,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 44,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "ShoppingInformationCourseCommunityWorkBooking",
+                "x": 16,
+                "y": 165,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Browse",
+                "x": 234.73,
+                "y": 285,
+                "width": 66.34,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "3px"
+              },
+              {
+                "label": "Cart (0)",
+                "x": 305.08,
+                "y": 285,
+                "width": 68.92,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "3px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Useful objects",
+              "x": 16,
+              "y": 397,
+              "width": 358,
+              "height": 32.39,
+              "font_size": "27px",
+              "line_height": "32.4px",
+              "radius": "0px"
+            },
+            "layout_columns": []
+          },
+          {
+            "purpose": "shopping",
+            "stage": "review",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "shopping",
+              "view": "review"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 711.28
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 77
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 413.5,
+              "width": 680,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Finish local review",
+                "disabled": false,
+                "x": 32.5,
+                "y": 907.78,
+                "width": 173.95,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 44,
+            "css_pixels": true
+          },
+          {
+            "purpose": "shopping",
+            "stage": "empty",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "shopping",
+              "view": "cart"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 149.5,
+              "width": 1100,
+              "height": 411
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 149.5,
+              "width": 1100,
+              "height": 77
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 320.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Browse objects",
+                "disabled": false,
+                "x": 32.5,
+                "y": 514.5,
+                "width": 149.41,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 44,
+            "css_pixels": true
+          },
+          {
+            "purpose": "shopping",
+            "stage": "keyboard-focus",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "shopping",
+              "view": "product"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 5.5,
+              "width": 1100,
+              "height": 555
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 5.5,
+              "width": 1100,
+              "height": 77
+            },
+            "heading": {
+              "x": 643.19,
+              "y": 176.5,
+              "width": 489.3,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 176.5,
+              "width": 1100,
+              "height": 384
+            },
+            "primary_buttons": [
+              {
+                "label": "Add to cart",
+                "disabled": false,
+                "x": 643.19,
+                "y": 477.5,
+                "width": 121.95,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 44,
+            "css_pixels": true
+          },
+          {
+            "purpose": "shopping",
+            "stage": "review",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "shopping",
+              "view": "review"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 618.28
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 77
+            },
+            "heading": {
+              "x": 16,
+              "y": 436,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Finish local review",
+                "disabled": false,
+                "x": 16,
+                "y": 841.28,
+                "width": 173.95,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 44,
+            "css_pixels": true
+          }
+        ]
+      },
+      "keyboard_touch": {
+        "tab": "DOM order; ordinary browser Tab/Shift+Tab. No controller-style menu wrapping or roving tab index.",
+        "activation": "Native buttons: Enter and Space. Links: Enter. Radio groups: native arrow behavior.",
+        "focus": "3px visible ring with 3px offset; headings focused on stage navigation, status updates do not steal focus.",
+        "guard": "Native dialog contains focus while open. Escape keeps editing; focus returns to trigger.",
+        "touch": "Prototype buttons aim for 44–56px or larger control heights; these are proposed hit areas, not universal WCAG requirements. No drag-only or hover-only path.",
+        "special": "Use explicit controls rather than gesture shortcuts.",
+        "reduced_motion": "No animation or scroll reveals; pressed translation removed for reduced motion."
+      },
+      "review_gates": [
+        "Add Oak and Walnut as separate lines; cap repeated adds at 5 per finish.",
+        "Quantity changes must recompute exact costs; floor 1, ceiling 5.",
+        "Remove all, undo once, review, repeat completion, change quantity and review again.",
+        "Browse and browser Back retain cart; original product prices remain fixed.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "protected_state": [
+        "product IDs, variants, prices, limits",
+        "current cart",
+        "last removal until undo or next removal",
+        "no real order"
+      ],
+      "design_instructions": [
+        "Build shopping from the web-flows-oct4-v1 fixture. Render the shopping/list entry and every main-path stage.",
+        "Start with the two merchandise objects; use original inline vector silhouettes as illustrative media. Keep names, finish, size and unit prices beside the decision.",
+        "Use terracotta only for the supported next action; keep amount rows in neutral text.",
+        "Build cart line controls, a receipt summary, and a separate review; do not introduce payment fields or an order API.",
+        "Recompute from integer fixture amounts and line quantities. Clear the local reviewed flag after any cart mutation.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "functional_contract": {
+        "entry": "shopping/list",
+        "main_path": [
+          "list: compare two products",
+          "product: choose a finish; Add to cart",
+          "cart: quantity 1–5, remove/undo",
+          "review: inspect amounts; Finish local review"
+        ],
+        "state_conditions": [
+          "Empty cart",
+          "Quantity at minimum 1 or maximum 5 per finish",
+          "Removed item available to undo once",
+          "Review complete; any cart change clears completion"
+        ],
+        "navigation_requirements": {
+          "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+          "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+          "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+          "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+        },
+        "protected_state": [
+          "product IDs, variants, prices, limits",
+          "current cart",
+          "last removal until undo or next removal",
+          "no real order"
+        ],
+        "fixture": {
+          "products": [
+            {
+              "id": "bookends",
+              "name": "Arc bookends",
+              "detail": "A pair of solid wood bookends. 15 × 12 cm each.",
+              "price": 28,
+              "variant": "Oak",
+              "variants": [
+                "Oak",
+                "Walnut"
+              ],
+              "maxQuantity": 5
+            },
+            {
+              "id": "cup",
+              "name": "Everyday cup",
+              "detail": "Unglazed base, matte finish. 250 ml.",
+              "price": 14,
+              "variant": "Chalk",
+              "variants": [
+                "Chalk",
+                "Clay"
+              ],
+              "maxQuantity": 5
+            }
+          ],
+          "shipping": 4,
+          "currency": "USD",
+          "tax": "Not calculated; this is an item review."
+        }
+      }
+    },
+    {
+      "id": "information",
+      "label": "Information",
+      "visitor_intent": "Find one short entry and return to the same search context.",
+      "entry": "information/results",
+      "main_path": [
+        "results: enter query and choose topic; Search",
+        "article: read sections",
+        "return: same query/topic/results, focus and list scroll"
+      ],
+      "layout_family": "Search/filter rail and editorial result index; narrow reading page.",
+      "inappropriate_when": "Long technical documentation may need a persistent section tree. This short handbook is not current legal or safety guidance.",
+      "menu": {
+        "product_menu": [
+          "Search",
+          "Topic filter",
+          "Article sections"
+        ],
+        "density": "Two search controls and one submit; two short article section links only when reading.",
+        "desktop": {
+          "outer": 1100,
+          "search_rail": 240,
+          "gap": 40,
+          "result_column": 820,
+          "article_max": 700
+        },
+        "mobile": {
+          "outer": 358,
+          "search_columns": "query spans full row; topic and submit share next row",
+          "article_max": 358
+        },
+        "control_height": 46,
+        "radius": 2
+      },
+      "routes": {
+        "back": "Return to results restores committed query/topic and result-link focus; in-app return restores list scroll.",
+        "cancel": "Clear search & filters returns the full fixture; no deletion.",
+        "exit": "Choose another example; committed search and current article remain.",
+        "browser_back": "Article → results keeps committed query/topic. Scroll restoration is browser-managed for browser Back, explicitly restored for in-app Return."
+      },
+      "states": {
+        "fixture_id": "web-flows-oct4-v1",
+        "empty": "Search “zzzz” → No entries match → Clear search & filters.",
+        "error": null,
+        "recovery": "Clear query and topic; focus Search entries.",
+        "loading": null,
+        "loading_scope": "Not represented: local synchronous operations; no synthetic spinner/latency."
+      },
+      "roles": {
+        "canvas": "#ffffff",
+        "surface": "#ffffff",
+        "primaryText": "#ffffff",
+        "secondaryFill": "#ffffff",
+        "secondaryHover": "#f6f7f8",
+        "destructive": "#9b2837",
+        "destructiveHover": "#fff3f4",
+        "disabledFill": "#f0f1f2",
+        "disabledText": "#666d75",
+        "disabledBorder": "#a7adb4",
+        "success": "#24633e",
+        "error": "#a12636",
+        "primary": "#333d3a",
+        "primaryHover": "#192420",
+        "text": "#282d2a",
+        "muted": "#5f6c64",
+        "groupBoundary": "#dce1dc",
+        "controlBoundary": "#7f8d82",
+        "secondaryText": "#344c3f",
+        "focus": {
+          "color": "#526c61",
+          "width": 3,
+          "offset": 3,
+          "trigger": ":focus-visible",
+          "not_hover": true
+        },
+        "selection": {
+          "fill": "#f3f6f3",
+          "border": "#333d3a",
+          "width": 2,
+          "additional_signal": "aria-pressed or current label where applicable"
+        },
+        "pressed": {
+          "translationY": 1,
+          "disabled": false
+        },
+        "destructive_usage": "Only explicit example reset in shared guard"
+      },
+      "typography": {
+        "body": {
+          "family": "system-ui",
+          "size": 16,
+          "line_height": 24
+        },
+        "heading": {
+          "family": "Georgia, serif",
+          "size": 36,
+          "mobile_size": 30
+        },
+        "metadata": {
+          "size": 14,
+          "line_height": 21
+        },
+        "control": {
+          "size": 16,
+          "line_height": 24
+        },
+        "specific_reading": {
+          "family": "Georgia",
+          "size": 19,
+          "line_height": 32.3,
+          "mobile_size": 18,
+          "mobile_line_height": 29.7
+        }
+      },
+      "dimensions": {
+        "unit": "CSS px",
+        "classification": "Context-specific design proposals; rendered measurements are separate below.",
+        "proposals": {
+          "product_menu": [
+            "Search",
+            "Topic filter",
+            "Article sections"
+          ],
+          "density": "Two search controls and one submit; two short article section links only when reading.",
+          "desktop": {
+            "outer": 1100,
+            "search_rail": 240,
+            "gap": 40,
+            "result_column": 820,
+            "article_max": 700
+          },
+          "mobile": {
+            "outer": 358,
+            "search_columns": "query spans full row; topic and submit share next row",
+            "article_max": 358
+          },
+          "control_height": 46,
+          "radius": 2
+        },
+        "rendered": [
+          {
+            "purpose": "information",
+            "stage": "entry",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "information",
+              "view": "results"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 612.5
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 396.5,
+              "width": 1100,
+              "height": 458.5
+            },
+            "primary_buttons": [
+              {
+                "label": "Search",
+                "disabled": false,
+                "x": 32.5,
+                "y": 568.5,
+                "width": 84.27,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "Shopping",
+                "x": 32.5,
+                "y": 129.5,
+                "width": 93.77,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Information",
+                "x": 130.27,
+                "y": 129.5,
+                "width": 109.25,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course",
+                "x": 243.52,
+                "y": 129.5,
+                "width": 75.89,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Community",
+                "x": 323.41,
+                "y": 129.5,
+                "width": 107.23,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Work",
+                "x": 434.64,
+                "y": 129.5,
+                "width": 65.7,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Booking",
+                "x": 504.34,
+                "y": 129.5,
+                "width": 85.17,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "AllGardenHome",
+                "x": 32.5,
+                "y": 506.5,
+                "width": 215,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "2px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Handbook",
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36,
+              "font_size": "30px",
+              "line_height": "36px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "Search entriesTopicAllGardenHomeSearch",
+                "x": 32.5,
+                "y": 396.5,
+                "width": 240,
+                "height": 458.5,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "3 entries · All topicsGarden · October 2, 2026Store seeds between seasonsDry containers, labels, and a cool shelf.Garden · September 30, 2026Clean hand tools after useRemove soil and dry tools before putting them away.Home · October 1, 2026Label a shared storage shelfUse names that describe the items in each space.",
+                "x": 312.5,
+                "y": 396.5,
+                "width": 820,
+                "height": 458.5,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "information",
+            "stage": "entry",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "information",
+              "view": "results"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 883.89
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 113.5
+            },
+            "heading": {
+              "x": 16,
+              "y": 406.5,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 458.89,
+              "width": 358,
+              "height": 694
+            },
+            "primary_buttons": [
+              {
+                "label": "Search",
+                "disabled": false,
+                "x": 289.73,
+                "y": 580.89,
+                "width": 84.27,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "ShoppingInformationCourseCommunityWorkBooking",
+                "x": 16,
+                "y": 165,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "AllGardenHome",
+                "x": 16,
+                "y": 580.89,
+                "width": 261.73,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "2px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Handbook",
+              "x": 16,
+              "y": 406.5,
+              "width": 358,
+              "height": 32.39,
+              "font_size": "27px",
+              "line_height": "32.4px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "Search entriesTopicAllGardenHomeSearch",
+                "x": 16,
+                "y": 458.89,
+                "width": 358,
+                "height": 168,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "3 entries · All topicsGarden · October 2, 2026Store seeds between seasonsDry containers, labels, and a cool shelf.Garden · September 30, 2026Clean hand tools after useRemove soil and dry tools before putting them away.Home · October 1, 2026Label a shared storage shelfUse names that describe the items in each space.",
+                "x": 16,
+                "y": 650.89,
+                "width": 358,
+                "height": 502,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "information",
+            "stage": "article",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "information",
+              "view": "article"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": -142.5,
+              "width": 1100,
+              "height": 764.16
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": -142.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 232.5,
+              "y": 44.5,
+              "width": 700,
+              "height": 43.19
+            },
+            "layout": null,
+            "primary_buttons": [],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "information",
+            "stage": "empty",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "information",
+              "view": "results"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 372
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 396.5,
+              "width": 1100,
+              "height": 218
+            },
+            "primary_buttons": [
+              {
+                "label": "Search",
+                "disabled": false,
+                "x": 32.5,
+                "y": 568.5,
+                "width": 84.27,
+                "height": 46
+              },
+              {
+                "label": "Clear search & filters",
+                "disabled": false,
+                "x": 312.5,
+                "y": 501.5,
+                "width": 194.98,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "information",
+            "stage": "article",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "information",
+              "view": "article"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 940.78
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 113.5
+            },
+            "heading": {
+              "x": 16,
+              "y": 499.5,
+              "width": 358,
+              "height": 72
+            },
+            "layout": null,
+            "primary_buttons": [],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          }
+        ]
+      },
+      "keyboard_touch": {
+        "tab": "DOM order; ordinary browser Tab/Shift+Tab. No controller-style menu wrapping or roving tab index.",
+        "activation": "Native buttons: Enter and Space. Links: Enter. Radio groups: native arrow behavior.",
+        "focus": "3px visible ring with 3px offset; headings focused on stage navigation, status updates do not steal focus.",
+        "guard": "Native dialog contains focus while open. Escape keeps editing; focus returns to trigger.",
+        "touch": "Prototype buttons aim for 44–56px or larger control heights; these are proposed hit areas, not universal WCAG requirements. No drag-only or hover-only path.",
+        "special": "In-app Return restores result link focus and list scroll; section links focus the destination section.",
+        "reduced_motion": "No animation or scroll reveals; pressed translation removed for reduced motion."
+      },
+      "review_gates": [
+        "Search seeds + Garden; open article; Return shows seeds + Garden and the same result.",
+        "Zero results must name the applied conditions; Clear restores three records.",
+        "Section links scroll/focus their section without replacing app route.",
+        "Search Enter submits; metadata and source label remain readable.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "protected_state": [
+        "article IDs, dates, sections",
+        "committed query and topic",
+        "result-link focus and in-app return scroll"
+      ],
+      "design_instructions": [
+        "Build information from the web-flows-oct4-v1 fixture. Render the information/results entry and every main-path stage.",
+        "Use a factual result index, with a serif title rhythm and a compact search rail. Do not add a promotional hero or result cards.",
+        "Commit query/topic on Search. Keep the committed values when returning from an article.",
+        "Use a maximum 700px reading measure for this short fixture. Expose both sections; no sidebar tree is required.",
+        "No external document retrieval; show the synthetic source and dates honestly.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "functional_contract": {
+        "entry": "information/results",
+        "main_path": [
+          "results: enter query and choose topic; Search",
+          "article: read sections",
+          "return: same query/topic/results, focus and list scroll"
+        ],
+        "state_conditions": [
+          "Unfiltered or filtered results",
+          "No query/topic matches",
+          "Article open",
+          "Return retains committed query/topic and result context"
+        ],
+        "navigation_requirements": {
+          "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+          "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+          "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+          "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+        },
+        "protected_state": [
+          "article IDs, dates, sections",
+          "committed query and topic",
+          "result-link focus and in-app return scroll"
+        ],
+        "fixture": {
+          "articles": [
+            {
+              "id": "seeds",
+              "title": "Store seeds between seasons",
+              "category": "Garden",
+              "date": "October 2, 2026",
+              "summary": "Dry containers, labels, and a cool shelf.",
+              "sections": [
+                {
+                  "id": "prepare",
+                  "title": "Before storing",
+                  "body": "Let the seed packet and container dry. A small paper envelope keeps each variety separate. Label it with the plant name and collection date."
+                },
+                {
+                  "id": "keep",
+                  "title": "On the shelf",
+                  "body": "Keep the envelopes in a closed, dry container away from sunlight. These are synthetic garden notes; storage needs vary by seed type."
+                }
+              ]
+            },
+            {
+              "id": "tools",
+              "title": "Clean hand tools after use",
+              "category": "Garden",
+              "date": "September 30, 2026",
+              "summary": "Remove soil and dry tools before putting them away.",
+              "sections": [
+                {
+                  "id": "prepare",
+                  "title": "Remove soil",
+                  "body": "Brush off loose soil. Wipe the handle and blade, then leave both to dry."
+                },
+                {
+                  "id": "keep",
+                  "title": "Store separately",
+                  "body": "Keep sharp tools in a covered tray. This is a fictional handbook entry, not equipment safety advice."
+                }
+              ]
+            },
+            {
+              "id": "labels",
+              "title": "Label a shared storage shelf",
+              "category": "Home",
+              "date": "October 1, 2026",
+              "summary": "Use names that describe the items in each space.",
+              "sections": [
+                {
+                  "id": "prepare",
+                  "title": "Group the items",
+                  "body": "Keep items used together in one place. Give each shelf a short name based on its contents."
+                },
+                {
+                  "id": "keep",
+                  "title": "Keep labels useful",
+                  "body": "Update the label when the contents change. These local examples contain no account or shared service."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "course",
+      "label": "Course",
+      "visitor_intent": "Understand an axis label, try one question, then continue.",
+      "entry": "course/lesson",
+      "main_path": [
+        "lesson 1: read axis label",
+        "practice: select a native radio answer; Check answer",
+        "feedback: wrong → Try again or Revisit lesson; correct → Continue to lesson 2",
+        "lesson 2: read comparison; Finish lesson"
+      ],
+      "layout_family": "Course outline beside a reading/practice workspace; native outline disclosure on narrow screens.",
+      "inappropriate_when": "One answer is not a mastery measure. This pattern does not cover exam timing, graded submissions or video players.",
+      "menu": {
+        "product_menu": [
+          "Course outline (2 lessons)",
+          "Current next action"
+        ],
+        "density": "Two outline entries; lesson 2 disabled until lesson 1 passed. Mobile native disclosure can reopen.",
+        "desktop": {
+          "outer": 1100,
+          "outline": 240,
+          "gap": 48,
+          "reading_max": 650
+        },
+        "mobile": {
+          "outer": 358,
+          "outline": "native disclosure above content",
+          "answer_min_height": 66
+        },
+        "control_height": 46,
+        "radius": 7
+      },
+      "routes": {
+        "back": "Practice/feedback → lesson without clearing answer or attempts.",
+        "cancel": "No submitted grading record or external enrollment to cancel.",
+        "exit": "Choose another example; lesson, attempts and completion retained.",
+        "browser_back": "Earlier course stage keeps current local learning state; invalid old practice routes on lesson 2 become lesson."
+      },
+      "states": {
+        "fixture_id": "web-flows-oct4-v1",
+        "empty": "No response selected: Check answer disabled.",
+        "error": "Incorrect is learning feedback, not a system error.",
+        "recovery": "Try again clears response/feedback only; attempts retained. Revisit lesson preserves feedback.",
+        "loading": null,
+        "loading_scope": "Not represented: local synchronous operations; no synthetic spinner/latency."
+      },
+      "roles": {
+        "canvas": "#ffffff",
+        "surface": "#ffffff",
+        "primaryText": "#ffffff",
+        "secondaryFill": "#ffffff",
+        "secondaryHover": "#f6f7f8",
+        "destructive": "#9b2837",
+        "destructiveHover": "#fff3f4",
+        "disabledFill": "#f0f1f2",
+        "disabledText": "#666d75",
+        "disabledBorder": "#a7adb4",
+        "success": "#24633e",
+        "error": "#a12636",
+        "primary": "#653d72",
+        "primaryHover": "#4f2c5d",
+        "text": "#2d2531",
+        "muted": "#6d6172",
+        "groupBoundary": "#e0d9e4",
+        "controlBoundary": "#8c7d93",
+        "secondaryText": "#573463",
+        "focus": {
+          "color": "#815592",
+          "width": 3,
+          "offset": 3,
+          "trigger": ":focus-visible",
+          "not_hover": true
+        },
+        "selection": {
+          "fill": "#f8f4fa",
+          "border": "#653d72",
+          "width": 2,
+          "additional_signal": "Native checked radio + Selected text; Current/Completed labels"
+        },
+        "pressed": {
+          "translationY": 1,
+          "disabled": false
+        },
+        "destructive_usage": "Only explicit example reset in shared guard"
+      },
+      "typography": {
+        "body": {
+          "family": "system-ui",
+          "size": 16,
+          "line_height": 24
+        },
+        "heading": {
+          "family": "system-ui",
+          "size": 30,
+          "mobile_size": 27
+        },
+        "metadata": {
+          "size": 14,
+          "line_height": 21
+        },
+        "control": {
+          "size": 16,
+          "line_height": 24
+        },
+        "specific_reading": null
+      },
+      "dimensions": {
+        "unit": "CSS px",
+        "classification": "Context-specific design proposals; rendered measurements are separate below.",
+        "proposals": {
+          "product_menu": [
+            "Course outline (2 lessons)",
+            "Current next action"
+          ],
+          "density": "Two outline entries; lesson 2 disabled until lesson 1 passed. Mobile native disclosure can reopen.",
+          "desktop": {
+            "outer": 1100,
+            "outline": 240,
+            "gap": 48,
+            "reading_max": 650
+          },
+          "mobile": {
+            "outer": 358,
+            "outline": "native disclosure above content",
+            "answer_min_height": 66
+          },
+          "control_height": 46,
+          "radius": 7
+        },
+        "rendered": [
+          {
+            "purpose": "course",
+            "stage": "entry",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "course",
+              "view": "lesson"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 449.19
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 320.5,
+              "y": 363.5,
+              "width": 650,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 355.19
+            },
+            "primary_buttons": [
+              {
+                "label": "Practice this lesson",
+                "disabled": false,
+                "x": 320.5,
+                "y": 645.69,
+                "width": 180.27,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "Shopping",
+                "x": 32.5,
+                "y": 129.5,
+                "width": 93.77,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Information",
+                "x": 130.27,
+                "y": 129.5,
+                "width": 109.25,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course",
+                "x": 243.52,
+                "y": 129.5,
+                "width": 75.89,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Community",
+                "x": 323.41,
+                "y": 129.5,
+                "width": 107.23,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Work",
+                "x": 434.64,
+                "y": 129.5,
+                "width": 65.7,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Booking",
+                "x": 504.34,
+                "y": 129.5,
+                "width": 85.17,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "1. Read the axesCurrent",
+                "x": 32.5,
+                "y": 379.89,
+                "width": 215,
+                "height": 70,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "7px"
+              },
+              {
+                "label": "2. Compare two valuesUpcoming",
+                "x": 32.5,
+                "y": 457.89,
+                "width": 215,
+                "height": 70,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "7px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Read the axes",
+              "x": 320.5,
+              "y": 363.5,
+              "width": 650,
+              "height": 36,
+              "font_size": "30px",
+              "line_height": "36px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "Course outline1. Read the axesCurrent2. Compare two valuesUpcoming0 of 2 completed",
+                "x": 32.5,
+                "y": 336.5,
+                "width": 240,
+                "height": 355.19,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course outline · lesson 1 of 21. Read the axesCurrent2. Compare two valuesUpcoming0 of 2 completedLesson 1 of 2Read the axesAn axis label tells you what a number measures. Read the label and unit before comparing values.ExampleVertical axis: MinutesShown value: 12Practice this lesson",
+                "x": 320.5,
+                "y": 336.5,
+                "width": 650,
+                "height": 355.19,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "course",
+            "stage": "entry",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "course",
+              "view": "lesson"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 549.17
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 467,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 459.17
+            },
+            "primary_buttons": [
+              {
+                "label": "Practice this lesson",
+                "disabled": false,
+                "x": 16,
+                "y": 772.17,
+                "width": 180.27,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "ShoppingInformationCourseCommunityWorkBooking",
+                "x": 16,
+                "y": 165,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Course outline · lesson 1 of 2",
+                "x": 16,
+                "y": 359,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Read the axes",
+              "x": 16,
+              "y": 467,
+              "width": 358,
+              "height": 32.39,
+              "font_size": "27px",
+              "line_height": "32.4px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "Course outline · lesson 1 of 21. Read the axesCurrent2. Compare two valuesUpcoming0 of 2 completedLesson 1 of 2Read the axesAn axis label tells you what a number measures. Read the label and unit before comparing values.ExampleVertical axis: MinutesShown value: 12Practice this lesson",
+                "x": 16,
+                "y": 359,
+                "width": 358,
+                "height": 459.17,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "course",
+            "stage": "incorrect",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "course",
+              "view": "feedback"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 485
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 320.5,
+              "y": 363.5,
+              "width": 650,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 391
+            },
+            "primary_buttons": [
+              {
+                "label": "Try again",
+                "disabled": false,
+                "x": 320.5,
+                "y": 681.5,
+                "width": 104.7,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "course",
+            "stage": "complete",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "course",
+              "view": "complete"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 347.39
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 320.5,
+              "y": 336.5,
+              "width": 650,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 253.39
+            },
+            "primary_buttons": [
+              {
+                "label": "Review lesson 1",
+                "disabled": false,
+                "x": 320.5,
+                "y": 460.5,
+                "width": 155.47,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "course",
+            "stage": "incorrect",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "course",
+              "view": "feedback"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 602.39
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 467,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 512.39
+            },
+            "primary_buttons": [
+              {
+                "label": "Try again",
+                "disabled": false,
+                "x": 16,
+                "y": 825.39,
+                "width": 104.7,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          }
+        ]
+      },
+      "keyboard_touch": {
+        "tab": "DOM order; ordinary browser Tab/Shift+Tab. No controller-style menu wrapping or roving tab index.",
+        "activation": "Native buttons: Enter and Space. Links: Enter. Radio groups: native arrow behavior.",
+        "focus": "3px visible ring with 3px offset; headings focused on stage navigation, status updates do not steal focus.",
+        "guard": "Native dialog contains focus while open. Escape keeps editing; focus returns to trigger.",
+        "touch": "Prototype buttons aim for 44–56px or larger control heights; these are proposed hit areas, not universal WCAG requirements. No drag-only or hover-only path.",
+        "special": "Native radio arrows and a re-openable mobile outline disclosure.",
+        "reduced_motion": "No animation or scroll reveals; pressed translation removed for reduced motion."
+      },
+      "review_gates": [
+        "Check answer disabled before selection; native arrow navigation selects an option.",
+        "Wrong answer → feedback → lesson → feedback → retry; attempts count exactly once per check.",
+        "Correct → continue; first lesson completed; second lesson finishes; repeated actions do not increment progress.",
+        "Outline current/completed labels and progress value agree.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "protected_state": [
+        "question/options/correct answer",
+        "attempt count",
+        "current lesson and completion",
+        "answer/feedback on revisit"
+      ],
+      "design_instructions": [
+        "Build course from the web-flows-oct4-v1 fixture. Render the course/lesson entry and every main-path stage.",
+        "Use the question or lesson as the dominant object and the outline as context. Keep global gallery navigation separate.",
+        "Use plum for the next action, a modest current/selected surface, and explicit Current/Completed labels.",
+        "Choice selection must remain distinct from feedback. Explain the missed axis unit and give retry/revisit routes.",
+        "No score, mastery, video player, enrollment or server submission claims.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "functional_contract": {
+        "entry": "course/lesson",
+        "main_path": [
+          "lesson 1: read axis label",
+          "practice: select an answer; Check answer",
+          "feedback: wrong → Try again or Revisit lesson; correct → Continue to lesson 2",
+          "lesson 2: read comparison; Finish lesson"
+        ],
+        "state_conditions": [
+          "No answer selected",
+          "Answer selected",
+          "Incorrect feedback with retry",
+          "Correct feedback with continue",
+          "Lessons completed"
+        ],
+        "navigation_requirements": {
+          "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+          "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+          "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+          "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+        },
+        "protected_state": [
+          "question/options/correct answer",
+          "attempt count",
+          "current lesson and completion",
+          "answer/feedback on revisit"
+        ],
+        "fixture": {
+          "name": "Reading a chart",
+          "lessons": [
+            {
+              "id": "axes",
+              "title": "Read the axes",
+              "body": "An axis label tells you what a number measures. Read the label and unit before comparing values.",
+              "question": "The vertical axis is labeled ‘Minutes’. What does a value of 12 mean?",
+              "options": [
+                "12 people",
+                "12 minutes",
+                "12 percent"
+              ],
+              "correct": 1
+            },
+            {
+              "id": "compare",
+              "title": "Compare two values",
+              "body": "Compare values that share the same unit. A value of 18 minutes is 6 minutes greater than a value of 12 minutes."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "visitor_intent": "Read a conversation and inspect a private local reply draft.",
+      "entry": "community/list",
+      "main_path": [
+        "topic rows: select thread; optional channel filter",
+        "thread: read original post",
+        "draft: write local reply; Preview draft",
+        "preview: Edit draft, Keep draft locally or Cancel draft"
+      ],
+      "layout_family": "Topic rows and a compact channel rail; linear thread, separate editor and preview.",
+      "inappropriate_when": "Live communities require moderation, identity, abuse handling and server-side drafts. This example never posts.",
+      "menu": {
+        "product_menu": [
+          "All",
+          "Ideas",
+          "Events"
+        ],
+        "density": "Three channel filters plus topic rows; no feed metrics, notifications or account menu.",
+        "desktop": {
+          "outer": 1100,
+          "channel_rail": 220,
+          "gap": 48,
+          "thread_max": 800,
+          "editor_max": 700
+        },
+        "mobile": {
+          "outer": 358,
+          "channel_rail": "horizontal buttons above topics",
+          "textarea_min_height": 160
+        },
+        "control_height": 46,
+        "radius": 6
+      },
+      "routes": {
+        "back": "Thread → Topics; preview → Edit draft retains text.",
+        "cancel": "Unsaved reply changes → guard → discard to prior local draft or keep editing.",
+        "exit": "Dirty draft triggers guard on example switch, browser Back, or Cancel; reload/close uses browser beforeunload when supported.",
+        "browser_back": "Guard prevents loss. Canceling a Back attempt restores current route with pushState; the browser forward branch can change."
+      },
+      "states": {
+        "fixture_id": "web-flows-oct4-v1",
+        "empty": "Empty reply → Enter a reply before previewing.",
+        "error": "Whitespace-only preview has associated error and aria-invalid; text preserved.",
+        "recovery": "Type a reply; Preview. Guard Keep editing preserves raw text.",
+        "loading": null,
+        "loading_scope": "Not represented: local synchronous operations; no synthetic spinner/latency."
+      },
+      "roles": {
+        "canvas": "#ffffff",
+        "surface": "#ffffff",
+        "primaryText": "#ffffff",
+        "secondaryFill": "#ffffff",
+        "secondaryHover": "#f6f7f8",
+        "destructive": "#9b2837",
+        "destructiveHover": "#fff3f4",
+        "disabledFill": "#f0f1f2",
+        "disabledText": "#666d75",
+        "disabledBorder": "#a7adb4",
+        "success": "#24633e",
+        "error": "#a12636",
+        "primary": "#244f3d",
+        "primaryHover": "#18372a",
+        "text": "#252b27",
+        "muted": "#616b63",
+        "groupBoundary": "#dbe1dc",
+        "controlBoundary": "#7f8980",
+        "secondaryText": "#315441",
+        "focus": {
+          "color": "#376d55",
+          "width": 3,
+          "offset": 3,
+          "trigger": ":focus-visible",
+          "not_hover": true
+        },
+        "selection": {
+          "fill": "#f3f7f4",
+          "border": "#244f3d",
+          "width": 2,
+          "additional_signal": "aria-pressed or current label where applicable"
+        },
+        "pressed": {
+          "translationY": 1,
+          "disabled": false
+        },
+        "destructive_usage": "Discard actual unsaved changes in guard"
+      },
+      "typography": {
+        "body": {
+          "family": "system-ui",
+          "size": 16,
+          "line_height": 24
+        },
+        "heading": {
+          "family": "system-ui",
+          "size": 30,
+          "mobile_size": 27
+        },
+        "metadata": {
+          "size": 14,
+          "line_height": 21
+        },
+        "control": {
+          "size": 16,
+          "line_height": 24
+        },
+        "specific_reading": null
+      },
+      "dimensions": {
+        "unit": "CSS px",
+        "classification": "Context-specific design proposals; rendered measurements are separate below.",
+        "proposals": {
+          "product_menu": [
+            "All",
+            "Ideas",
+            "Events"
+          ],
+          "density": "Three channel filters plus topic rows; no feed metrics, notifications or account menu.",
+          "desktop": {
+            "outer": 1100,
+            "channel_rail": 220,
+            "gap": 48,
+            "thread_max": 800,
+            "editor_max": 700
+          },
+          "mobile": {
+            "outer": 358,
+            "channel_rail": "horizontal buttons above topics",
+            "textarea_min_height": 160
+          },
+          "control_height": 46,
+          "radius": 6
+        },
+        "rendered": [
+          {
+            "purpose": "community",
+            "stage": "entry",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "community",
+              "view": "list"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 365.39
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 396.5,
+              "width": 1100,
+              "height": 211.39
+            },
+            "primary_buttons": [],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "Shopping",
+                "x": 32.5,
+                "y": 129.5,
+                "width": 93.77,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Information",
+                "x": 130.27,
+                "y": 129.5,
+                "width": 109.25,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course",
+                "x": 243.52,
+                "y": 129.5,
+                "width": 75.89,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Community",
+                "x": 323.41,
+                "y": 129.5,
+                "width": 107.23,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Work",
+                "x": 434.64,
+                "y": 129.5,
+                "width": 65.7,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Booking",
+                "x": 504.34,
+                "y": 129.5,
+                "width": 85.17,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "All",
+                "x": 937.5,
+                "y": 427.89,
+                "width": 195,
+                "height": 48,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "6px"
+              },
+              {
+                "label": "Ideas",
+                "x": 937.5,
+                "y": 495.89,
+                "width": 195,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "6px"
+              },
+              {
+                "label": "Events",
+                "x": 937.5,
+                "y": 561.89,
+                "width": 195,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "6px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Topics",
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36,
+              "font_size": "30px",
+              "line_height": "36px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "What belongs on our shared shelf?Morgan · October 3 · Ideas2 fixture repliesSaturday sketch sessionAlex · October 2 · Events4 fixture replies",
+                "x": 32.5,
+                "y": 396.5,
+                "width": 832,
+                "height": 211.39,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "ChannelsAllIdeasEvents",
+                "x": 912.5,
+                "y": 396.5,
+                "width": 220,
+                "height": 211.39,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "community",
+            "stage": "entry",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "community",
+              "view": "list"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 522.78
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 411.39,
+              "width": 358,
+              "height": 380.39
+            },
+            "primary_buttons": [],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "ShoppingInformationCourseCommunityWorkBooking",
+                "x": 16,
+                "y": 165,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "All",
+                "x": 16,
+                "y": 442.78,
+                "width": 56.05,
+                "height": 48,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "6px"
+              },
+              {
+                "label": "Ideas",
+                "x": 80.05,
+                "y": 443.78,
+                "width": 73.86,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "6px"
+              },
+              {
+                "label": "Events",
+                "x": 161.91,
+                "y": 443.78,
+                "width": 83.11,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "6px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Topics",
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 32.39,
+              "font_size": "27px",
+              "line_height": "32.4px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "What belongs on our shared shelf?Morgan · October 3 · Ideas2 fixture repliesSaturday sketch sessionAlex · October 2 · Events4 fixture replies",
+                "x": 16,
+                "y": 514.78,
+                "width": 358,
+                "height": 277,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "ChannelsAllIdeasEvents",
+                "x": 16,
+                "y": 411.39,
+                "width": 358,
+                "height": 79.39,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "community",
+            "stage": "preview",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "community",
+              "view": "preview"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 373
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 363.5,
+              "width": 700,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Keep draft locally",
+                "disabled": false,
+                "x": 32.5,
+                "y": 569.5,
+                "width": 168.59,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "community",
+            "stage": "preview",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "community",
+              "view": "preview"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 417.39
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 386,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Keep draft locally",
+                "disabled": false,
+                "x": 16,
+                "y": 584.39,
+                "width": 168.59,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          }
+        ]
+      },
+      "keyboard_touch": {
+        "tab": "DOM order; ordinary browser Tab/Shift+Tab. No controller-style menu wrapping or roving tab index.",
+        "activation": "Native buttons: Enter and Space. Links: Enter. Radio groups: native arrow behavior.",
+        "focus": "3px visible ring with 3px offset; headings focused on stage navigation, status updates do not steal focus.",
+        "guard": "Native dialog contains focus while open. Escape keeps editing; focus returns to trigger.",
+        "touch": "Prototype buttons aim for 44–56px or larger control heights; these are proposed hit areas, not universal WCAG requirements. No drag-only or hover-only path.",
+        "special": "Use explicit controls rather than gesture shortcuts.",
+        "reduced_motion": "No animation or scroll reveals; pressed translation removed for reduced motion."
+      },
+      "review_gates": [
+        "Preview text is escaped, including literal HTML-looking input.",
+        "Preview/edit/cancel retain raw input until explicit discard; Escape dismisses guard.",
+        "Example switch and browser Back while dirty require guard; Keep editing returns focus.",
+        "Keep locally is private and idempotent; thread and other fixture records stay unchanged.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "protected_state": [
+        "thread IDs, authors, dates, fixture reply counts",
+        "saved local draft per thread",
+        "raw unsaved input until explicit discard"
+      ],
+      "design_instructions": [
+        "Build community from the web-flows-oct4-v1 fixture. Render the community/list entry and every main-path stage.",
+        "Use forum topic rows and a narrow channel rail; reflow channel controls above topics on mobile.",
+        "Separate thread reading, reply editing and preview. The final action keeps a private draft; never call it Post.",
+        "Store local drafts by thread ID. Editing one thread must not display that text on another thread.",
+        "Use a native dialog only for actual unsaved changes. Escape keeps editing; confirmation discards unsaved changes.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "functional_contract": {
+        "entry": "community/list",
+        "main_path": [
+          "topic rows: select thread; optional channel filter",
+          "thread: read original post",
+          "draft: write local reply; Preview draft",
+          "preview: Edit draft, Keep draft locally or Cancel draft"
+        ],
+        "state_conditions": [
+          "Thread list or thread open",
+          "Empty/whitespace reply cannot preview",
+          "Unsaved reply",
+          "Escaped text preview",
+          "Saved local draft per thread",
+          "Attempt to leave with unsaved changes"
+        ],
+        "navigation_requirements": {
+          "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+          "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+          "cancel": "Discard unsaved reply changes only after the user agrees; retain any earlier saved local draft.",
+          "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+        },
+        "protected_state": [
+          "thread IDs, authors, dates, fixture reply counts",
+          "saved local draft per thread",
+          "raw unsaved input until explicit discard"
+        ],
+        "fixture": {
+          "threads": [
+            {
+              "id": "shelf",
+              "title": "What belongs on our shared shelf?",
+              "author": "Morgan",
+              "initials": "M",
+              "date": "October 3",
+              "tag": "Ideas",
+              "replies": 2,
+              "body": "We have one free shelf near the reading table. I would like to keep the weekly magazines there. What else would be useful?"
+            },
+            {
+              "id": "meetup",
+              "title": "Saturday sketch session",
+              "author": "Alex",
+              "initials": "A",
+              "date": "October 2",
+              "tag": "Events",
+              "replies": 4,
+              "body": "The local example starts at 10:00. Bring a sketchbook and a pencil. This is a fictional discussion; no event registration is connected."
+            }
+          ],
+          "maxDraft": 600
+        }
+      }
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "visitor_intent": "Find a task, change its saved fields, and return without losing other records.",
+      "entry": "work/list",
+      "main_path": [
+        "register: status filter; choose task",
+        "detail: read fields and notes",
+        "edit: title/owner/status/notes",
+        "Save task → same record detail; Cancel edit → prior saved record"
+      ],
+      "layout_family": "Compact project rail and task register; factual detail and labeled form.",
+      "inappropriate_when": "Multi-user concurrent editing needs versioning and conflict recovery. This page only edits memory in one tab.",
+      "menu": {
+        "product_menu": [
+          "Workshop tasks",
+          "Status filter"
+        ],
+        "density": "One actual project destination and three filter values; register rows expose title/ID/owner/due/status.",
+        "desktop": {
+          "outer": 1100,
+          "project_rail": 180,
+          "gap": 32,
+          "register_columns": [
+            null,
+            125,
+            125
+          ],
+          "detail_max": 740
+        },
+        "mobile": {
+          "outer": 358,
+          "project_rail": "single contextual destination above register",
+          "row_columns": "title/owner/date plus status"
+        },
+        "control_height": 46,
+        "radius": 4
+      },
+      "routes": {
+        "back": "Detail → current filtered task list.",
+        "cancel": "Cancel edit or Escape discards only the open edit and retains original record.",
+        "exit": "Changed edit triggers guard before switching examples or browser Back; other records retained.",
+        "browser_back": "Returns through prior stages; an edit route without an active draft becomes detail."
+      },
+      "states": {
+        "fixture_id": "web-flows-oct4-v1",
+        "empty": "Mark all tasks Done, choose Open → No tasks have this status → Show all tasks.",
+        "error": "Empty/whitespace title → Enter a task title; owner/status/notes retained.",
+        "recovery": "Correct the title and Save task; no new record appended.",
+        "loading": null,
+        "loading_scope": "Not represented: local synchronous operations; no synthetic spinner/latency."
+      },
+      "roles": {
+        "canvas": "#ffffff",
+        "surface": "#ffffff",
+        "primaryText": "#ffffff",
+        "secondaryFill": "#ffffff",
+        "secondaryHover": "#f6f7f8",
+        "destructive": "#9b2837",
+        "destructiveHover": "#fff3f4",
+        "disabledFill": "#f0f1f2",
+        "disabledText": "#666d75",
+        "disabledBorder": "#a7adb4",
+        "success": "#24633e",
+        "error": "#a12636",
+        "primary": "#252b36",
+        "primaryHover": "#101722",
+        "text": "#242b35",
+        "muted": "#616a76",
+        "groupBoundary": "#d9dee5",
+        "controlBoundary": "#7b8493",
+        "secondaryText": "#252b36",
+        "focus": {
+          "color": "#425773",
+          "width": 3,
+          "offset": 3,
+          "trigger": ":focus-visible",
+          "not_hover": true
+        },
+        "selection": {
+          "fill": "#f3f5f8",
+          "border": "#252b36",
+          "width": 2,
+          "additional_signal": "aria-pressed or current label where applicable"
+        },
+        "pressed": {
+          "translationY": 1,
+          "disabled": false
+        },
+        "destructive_usage": "Discard actual unsaved changes in guard"
+      },
+      "typography": {
+        "body": {
+          "family": "system-ui",
+          "size": 16,
+          "line_height": 24
+        },
+        "heading": {
+          "family": "system-ui",
+          "size": 30,
+          "mobile_size": 27
+        },
+        "metadata": {
+          "size": 14,
+          "line_height": 21
+        },
+        "control": {
+          "size": 16,
+          "line_height": 24
+        },
+        "specific_reading": null
+      },
+      "dimensions": {
+        "unit": "CSS px",
+        "classification": "Context-specific design proposals; rendered measurements are separate below.",
+        "proposals": {
+          "product_menu": [
+            "Workshop tasks",
+            "Status filter"
+          ],
+          "density": "One actual project destination and three filter values; register rows expose title/ID/owner/due/status.",
+          "desktop": {
+            "outer": 1100,
+            "project_rail": 180,
+            "gap": 32,
+            "register_columns": [
+              null,
+              125,
+              125
+            ],
+            "detail_max": 740
+          },
+          "mobile": {
+            "outer": 358,
+            "project_rail": "single contextual destination above register",
+            "row_columns": "title/owner/date plus status"
+          },
+          "control_height": 46,
+          "radius": 4
+        },
+        "rendered": [
+          {
+            "purpose": "work",
+            "stage": "entry",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "work",
+              "view": "list"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 470
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 244.5,
+              "y": 332.5,
+              "width": 888,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 332.5,
+              "width": 1100,
+              "height": 380
+            },
+            "primary_buttons": [],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 45,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "Shopping",
+                "x": 32.5,
+                "y": 129.5,
+                "width": 93.77,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Information",
+                "x": 130.27,
+                "y": 129.5,
+                "width": 109.25,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course",
+                "x": 243.52,
+                "y": 129.5,
+                "width": 75.89,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Community",
+                "x": 323.41,
+                "y": 129.5,
+                "width": 107.23,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Work",
+                "x": 434.64,
+                "y": 129.5,
+                "width": 65.7,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Booking",
+                "x": 504.34,
+                "y": 129.5,
+                "width": 85.17,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Workshop tasks",
+                "x": 32.5,
+                "y": 362.69,
+                "width": 159,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "4px"
+              },
+              {
+                "label": "AllOpenDone",
+                "x": 972.5,
+                "y": 392.5,
+                "width": 160,
+                "height": 45,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Tasks",
+              "x": 244.5,
+              "y": 332.5,
+              "width": 888,
+              "height": 36,
+              "font_size": "30px",
+              "line_height": "36px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "ProjectWorkshop tasks",
+                "x": 32.5,
+                "y": 332.5,
+                "width": 180,
+                "height": 380,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Tasks3 recordsStatusAllOpenDoneT-104Check shelf measurementsSamOctober 6○ OpenT-105Prepare workshop outlineTaylorOctober 8○ OpenT-103Update room labelsJamieOctober 3✓ Done",
+                "x": 244.5,
+                "y": 332.5,
+                "width": 888,
+                "height": 380,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "work",
+            "stage": "entry",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "work",
+              "view": "list"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 674.39
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 421,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 584.39
+            },
+            "primary_buttons": [],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 45,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "ShoppingInformationCourseCommunityWorkBooking",
+                "x": 16,
+                "y": 165,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Workshop tasks",
+                "x": 16,
+                "y": 359,
+                "width": 155.97,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "4px"
+              },
+              {
+                "label": "AllOpenDone",
+                "x": 214,
+                "y": 473.39,
+                "width": 160,
+                "height": 45,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Tasks",
+              "x": 16,
+              "y": 421,
+              "width": 358,
+              "height": 32.39,
+              "font_size": "27px",
+              "line_height": "32.4px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "ProjectWorkshop tasks",
+                "x": 16,
+                "y": 359,
+                "width": 358,
+                "height": 46,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Tasks3 recordsStatusAllOpenDoneT-104Check shelf measurementsSamOctober 6○ OpenT-105Prepare workshop outlineTaylorOctober 8○ OpenT-103Update room labelsJamieOctober 3✓ Done",
+                "x": 16,
+                "y": 421,
+                "width": 358,
+                "height": 522.39,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "work",
+            "stage": "saved",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "work",
+              "view": "detail"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 487.39
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 425.5,
+              "width": 740,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Edit task",
+                "disabled": false,
+                "x": 32.5,
+                "y": 683.89,
+                "width": 99.91,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "work",
+            "stage": "empty",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "work",
+              "view": "list"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 325
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 244.5,
+              "y": 332.5,
+              "width": 888,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 332.5,
+              "width": 1100,
+              "height": 235
+            },
+            "primary_buttons": [
+              {
+                "label": "Show all tasks",
+                "disabled": false,
+                "x": 244.5,
+                "y": 521.5,
+                "width": 142.63,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 45,
+            "css_pixels": true
+          },
+          {
+            "purpose": "work",
+            "stage": "edit",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "work",
+              "view": "edit"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 737.39
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 386,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Save task",
+                "disabled": false,
+                "x": 16,
+                "y": 960.39,
+                "width": 105.69,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          }
+        ]
+      },
+      "keyboard_touch": {
+        "tab": "DOM order; ordinary browser Tab/Shift+Tab. No controller-style menu wrapping or roving tab index.",
+        "activation": "Native buttons: Enter and Space. Links: Enter. Radio groups: native arrow behavior.",
+        "focus": "3px visible ring with 3px offset; headings focused on stage navigation, status updates do not steal focus.",
+        "guard": "Native dialog contains focus while open. Escape keeps editing; focus returns to trigger.",
+        "touch": "Prototype buttons aim for 44–56px or larger control heights; these are proposed hit areas, not universal WCAG requirements. No drag-only or hover-only path.",
+        "special": "Escape in the editor cancels unsaved edit; native title constraints retain the other fields.",
+        "reduced_motion": "No animation or scroll reveals; pressed translation removed for reduced motion."
+      },
+      "review_gates": [
+        "Save changes the selected record only and preserves IDs/dates/order/count.",
+        "Cancel and Escape restore saved title/notes/owner/status.",
+        "Invalid title retains other entered fields; correcting then saving succeeds.",
+        "All Done + Open filter → empty; clear filter restores original records with saved changes.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "protected_state": [
+        "record count/order/IDs/due dates",
+        "unselected record values",
+        "committed values across Back/filter/example switching"
+      ],
+      "design_instructions": [
+        "Build work from the web-flows-oct4-v1 fixture. Render the work/list entry and every main-path stage.",
+        "Keep an aligned register for scanning names and due values, then a compact factual detail view.",
+        "Use charcoal for the next supported task action and slate for metadata/focus. Completed state has a checkmark and text, not a row wash.",
+        "Edit a copy; commit by stable record ID only on valid Save. Cancel discards the copy.",
+        "No new metrics, account, collaboration, server saving or conflict simulation outside this fixture.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "functional_contract": {
+        "entry": "work/list",
+        "main_path": [
+          "register: status filter; choose task",
+          "detail: read fields and notes",
+          "edit: title/owner/status/notes",
+          "Save task → same record detail; Cancel edit → prior saved record"
+        ],
+        "state_conditions": [
+          "Saved record list/detail",
+          "Editable draft",
+          "Empty/whitespace title cannot save",
+          "Saved edit",
+          "Canceled edit",
+          "No records match status"
+        ],
+        "navigation_requirements": {
+          "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+          "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+          "cancel": "Discard the edit copy; saved record unchanged.",
+          "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+        },
+        "protected_state": [
+          "record count/order/IDs/due dates",
+          "unselected record values",
+          "committed values across Back/filter/example switching"
+        ],
+        "fixture": {
+          "records": [
+            {
+              "id": "T-104",
+              "title": "Check shelf measurements",
+              "owner": "Sam",
+              "due": "October 6",
+              "status": "Open",
+              "notes": "Check the width and depth before choosing the storage bins."
+            },
+            {
+              "id": "T-105",
+              "title": "Prepare workshop outline",
+              "owner": "Taylor",
+              "due": "October 8",
+              "status": "Open",
+              "notes": "Include the materials list and a 15-minute practice activity."
+            },
+            {
+              "id": "T-103",
+              "title": "Update room labels",
+              "owner": "Jamie",
+              "due": "October 3",
+              "status": "Done",
+              "notes": "The new labels are ready for review."
+            }
+          ],
+          "owners": [
+            "Sam",
+            "Taylor",
+            "Jamie"
+          ],
+          "maxTitle": 80
+        }
+      }
+    },
+    {
+      "id": "booking",
+      "label": "Booking",
+      "visitor_intent": "Choose a suitable space and an available time, inspect terms, and recover from a stale slot.",
+      "entry": "booking/select",
+      "main_path": [
+        "space/capacity: Small room or Quiet desk",
+        "date/time: select available slot; meeting name and people",
+        "review: exact date/time/timezone/space/cost/terms",
+        "14:00 Small room confirm → conflict → choose 15:00 → review again",
+        "explicit local confirm → DEMO-B01"
+      ],
+      "layout_family": "Service/capacity rail and date/time grid; separate booking review with all terms.",
+      "inappropriate_when": "Real booking requires authoritative availability, time-zone conversion, payment and cancellation handling. Synthetic availability is not a reservation guarantee.",
+      "menu": {
+        "product_menu": [
+          "2 spaces",
+          "2 dates",
+          "3 initial time slots"
+        ],
+        "density": "No month browser or fictitious calendar days; only two fixture dates and available times.",
+        "desktop": {
+          "outer": 1100,
+          "service_rail": 280,
+          "gap": 40,
+          "slots_columns": 3,
+          "review_max": 680
+        },
+        "mobile": {
+          "outer": 358,
+          "service_columns": 2,
+          "slots_columns": 3,
+          "slot_min_height": 56
+        },
+        "control_height": 46,
+        "radius": 8
+      },
+      "routes": {
+        "back": "Review/conflict → space & time retains meeting/name/people/selected date.",
+        "cancel": "Change session edits selections; no actual booking cancellation exists.",
+        "exit": "Choose another example; local inputs and confirmation remain until changed/reset/reload.",
+        "browser_back": "Previous stage keeps current inputs; stale selection stays explicitly unavailable and cannot be confirmed."
+      },
+      "states": {
+        "fixture_id": "web-flows-oct4-v1",
+        "empty": "October 16 has no times → Next available date: Oct 15; selection stays empty.",
+        "error": "Blank meeting name or people outside space capacity; values preserved. Small room 14:00 becomes stale at confirm.",
+        "recovery": "Conflict shows attempted 14:00, retained details and Choose 15:00; returns to review without automatic confirmation.",
+        "loading": null,
+        "loading_scope": "Not represented: local synchronous operations; no synthetic spinner/latency."
+      },
+      "roles": {
+        "canvas": "#ffffff",
+        "surface": "#ffffff",
+        "primaryText": "#ffffff",
+        "secondaryFill": "#ffffff",
+        "secondaryHover": "#f6f7f8",
+        "destructive": "#9b2837",
+        "destructiveHover": "#fff3f4",
+        "disabledFill": "#f0f1f2",
+        "disabledText": "#666d75",
+        "disabledBorder": "#a7adb4",
+        "success": "#24633e",
+        "error": "#a12636",
+        "primary": "#24556a",
+        "primaryHover": "#173e50",
+        "text": "#243039",
+        "muted": "#5e6e78",
+        "groupBoundary": "#d8e1e5",
+        "controlBoundary": "#7a8b95",
+        "secondaryText": "#244d60",
+        "focus": {
+          "color": "#366d84",
+          "width": 3,
+          "offset": 3,
+          "trigger": ":focus-visible",
+          "not_hover": true
+        },
+        "selection": {
+          "fill": "#f1f6f8",
+          "border": "#24556a",
+          "width": 2,
+          "additional_signal": "Selected text + aria-pressed; native radio for service"
+        },
+        "pressed": {
+          "translationY": 1,
+          "disabled": false
+        },
+        "destructive_usage": "Only explicit example reset in shared guard; no cancel-reservation control"
+      },
+      "typography": {
+        "body": {
+          "family": "system-ui",
+          "size": 16,
+          "line_height": 24
+        },
+        "heading": {
+          "family": "system-ui",
+          "size": 30,
+          "mobile_size": 27
+        },
+        "metadata": {
+          "size": 14,
+          "line_height": 21
+        },
+        "control": {
+          "size": 16,
+          "line_height": 24
+        },
+        "specific_reading": null
+      },
+      "dimensions": {
+        "unit": "CSS px",
+        "classification": "Context-specific design proposals; rendered measurements are separate below.",
+        "proposals": {
+          "product_menu": [
+            "2 spaces",
+            "2 dates",
+            "3 initial time slots"
+          ],
+          "density": "No month browser or fictitious calendar days; only two fixture dates and available times.",
+          "desktop": {
+            "outer": 1100,
+            "service_rail": 280,
+            "gap": 40,
+            "slots_columns": 3,
+            "review_max": 680
+          },
+          "mobile": {
+            "outer": 358,
+            "service_columns": 2,
+            "slots_columns": 3,
+            "slot_min_height": 56
+          },
+          "control_height": 46,
+          "radius": 8
+        },
+        "rendered": [
+          {
+            "purpose": "booking",
+            "stage": "entry",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "select"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 567
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 396.5,
+              "width": 1100,
+              "height": 413
+            },
+            "primary_buttons": [
+              {
+                "label": "Review session",
+                "disabled": true,
+                "x": 352.5,
+                "y": 763.5,
+                "width": 147.95,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "Shopping",
+                "x": 32.5,
+                "y": 129.5,
+                "width": 93.77,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Information",
+                "x": 130.27,
+                "y": 129.5,
+                "width": 109.25,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Course",
+                "x": 243.52,
+                "y": 129.5,
+                "width": 75.89,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Community",
+                "x": 323.41,
+                "y": 129.5,
+                "width": 107.23,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Work",
+                "x": 434.64,
+                "y": 129.5,
+                "width": 65.7,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "Booking",
+                "x": 504.34,
+                "y": 129.5,
+                "width": 85.17,
+                "height": 44,
+                "font_size": "14px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Small room60 min · up to 4$26.00 per session",
+                "x": 32.5,
+                "y": 444.5,
+                "width": 251,
+                "height": 100,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "Quiet desk30 min · up to 1$18.00 per session",
+                "x": 32.5,
+                "y": 556.5,
+                "width": 251,
+                "height": 100,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "Thu, Oct 153 times",
+                "x": 352.5,
+                "y": 448.5,
+                "width": 385,
+                "height": 84,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "Fri, Oct 16No times",
+                "x": 749.5,
+                "y": 448.5,
+                "width": 383,
+                "height": 84,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "14:00",
+                "x": 352.5,
+                "y": 589.5,
+                "width": 252,
+                "height": 56,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "15:00",
+                "x": 616.5,
+                "y": 589.5,
+                "width": 252,
+                "height": 56,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "16:00",
+                "x": 880.5,
+                "y": 589.5,
+                "width": 252,
+                "height": 56,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Choose a space & time",
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36,
+              "font_size": "30px",
+              "line_height": "36px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "SpaceSmall room60 min · up to 4$26.00 per sessionQuiet desk30 min · up to 1$18.00 per sessionAll fixture fees included.",
+                "x": 32.5,
+                "y": 396.5,
+                "width": 280,
+                "height": 293,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "October 2026Thu, Oct 153 timesFri, Oct 16No timesTimes in UTC (UTC+0)14:0015:0016:00Meeting name · up to 60 charactersPeople · 1–4Review session",
+                "x": 352.5,
+                "y": 396.5,
+                "width": 780,
+                "height": 413,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "booking",
+            "stage": "entry",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "select"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 847.39
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": {
+              "x": 16,
+              "y": 411.39,
+              "width": 358,
+              "height": 705
+            },
+            "primary_buttons": [
+              {
+                "label": "Review session",
+                "disabled": true,
+                "x": 16,
+                "y": 1070.39,
+                "width": 147.95,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true,
+            "shared_gallery_menu": [
+              {
+                "label": "ShoppingInformationCourseCommunityWorkBooking",
+                "x": 16,
+                "y": 165,
+                "width": 358,
+                "height": 44,
+                "font_size": "16px",
+                "line_height": "normal",
+                "radius": "4px"
+              }
+            ],
+            "task_navigation": [
+              {
+                "label": "Small room60 min · up to 4$26.00 per session",
+                "x": 16,
+                "y": 447.39,
+                "width": 173,
+                "height": 113,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "Quiet desk30 min · up to 1$18.00 per session",
+                "x": 201,
+                "y": 447.39,
+                "width": 173,
+                "height": 113,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "Thu, Oct 153 times",
+                "x": 16,
+                "y": 669.39,
+                "width": 174,
+                "height": 84,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "Fri, Oct 16No times",
+                "x": 202,
+                "y": 669.39,
+                "width": 172,
+                "height": 84,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "14:00",
+                "x": 16,
+                "y": 810.39,
+                "width": 114,
+                "height": 56,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "15:00",
+                "x": 138,
+                "y": 810.39,
+                "width": 114,
+                "height": 56,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              },
+              {
+                "label": "16:00",
+                "x": 260,
+                "y": 810.39,
+                "width": 114,
+                "height": 56,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "8px"
+              }
+            ],
+            "reading_heading": {
+              "label": "Choose a space & time",
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 32.39,
+              "font_size": "27px",
+              "line_height": "32.4px",
+              "radius": "0px"
+            },
+            "layout_columns": [
+              {
+                "label": "SpaceSmall room60 min · up to 4$26.00 per sessionQuiet desk30 min · up to 1$18.00 per sessionAll fixture fees included.",
+                "x": 16,
+                "y": 411.39,
+                "width": 358,
+                "height": 182,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              },
+              {
+                "label": "October 2026Thu, Oct 153 timesFri, Oct 16No timesTimes in UTC (UTC+0)14:0015:0016:00Meeting name · up to 60 charactersPeople · 1–4Review session",
+                "x": 16,
+                "y": 617.39,
+                "width": 358,
+                "height": 499,
+                "font_size": "16px",
+                "line_height": "24px",
+                "radius": "0px"
+              }
+            ]
+          },
+          {
+            "purpose": "booking",
+            "stage": "no-times",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "select"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 621
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 1100,
+              "height": 36
+            },
+            "layout": {
+              "x": 32.5,
+              "y": 396.5,
+              "width": 1100,
+              "height": 467
+            },
+            "primary_buttons": [
+              {
+                "label": "Review session",
+                "disabled": true,
+                "x": 352.5,
+                "y": 817.5,
+                "width": 147.95,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "booking",
+            "stage": "review",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "review"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 658.5
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 402.5,
+              "width": 680,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Confirm locally · $26.00",
+                "disabled": false,
+                "x": 32.5,
+                "y": 855,
+                "width": 215.09,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "booking",
+            "stage": "conflict",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "conflict"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 718.5
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 402.5,
+              "width": 680,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Choose 15:00",
+                "disabled": false,
+                "x": 32.5,
+                "y": 915,
+                "width": 136.86,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "booking",
+            "stage": "confirmed",
+            "viewport": {
+              "width": 1165,
+              "height": 747
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "confirmed"
+            },
+            "screen": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 652.5
+            },
+            "appbar": {
+              "x": 32.5,
+              "y": 242.5,
+              "width": 1100,
+              "height": 66
+            },
+            "heading": {
+              "x": 32.5,
+              "y": 336.5,
+              "width": 680,
+              "height": 36
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Confirm locally",
+                "disabled": true,
+                "x": 32.5,
+                "y": 849,
+                "width": 149.09,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "booking",
+            "stage": "conflict",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "conflict"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 807.89
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 425,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Choose 15:00",
+                "disabled": false,
+                "x": 16,
+                "y": 974.89,
+                "width": 136.86,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          },
+          {
+            "purpose": "booking",
+            "stage": "confirmed",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "actual_route": {
+              "id": "booking",
+              "view": "confirmed"
+            },
+            "screen": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 685.89
+            },
+            "appbar": {
+              "x": 16,
+              "y": 269,
+              "width": 358,
+              "height": 66
+            },
+            "heading": {
+              "x": 16,
+              "y": 359,
+              "width": 358,
+              "height": 32.39
+            },
+            "layout": null,
+            "primary_buttons": [
+              {
+                "label": "Confirm locally",
+                "disabled": true,
+                "x": 16,
+                "y": 908.89,
+                "width": 149.09,
+                "height": 46
+              }
+            ],
+            "horizontal_overflow": false,
+            "min_visible_control_height": 46,
+            "css_pixels": true
+          }
+        ]
+      },
+      "keyboard_touch": {
+        "tab": "DOM order; ordinary browser Tab/Shift+Tab. No controller-style menu wrapping or roving tab index.",
+        "activation": "Native buttons: Enter and Space. Links: Enter. Radio groups: native arrow behavior.",
+        "focus": "3px visible ring with 3px offset; headings focused on stage navigation, status updates do not steal focus.",
+        "guard": "Native dialog contains focus while open. Escape keeps editing; focus returns to trigger.",
+        "touch": "Prototype buttons aim for 44–56px or larger control heights; these are proposed hit areas, not universal WCAG requirements. No drag-only or hover-only path.",
+        "special": "Use explicit controls rather than gesture shortcuts.",
+        "reduced_motion": "No animation or scroll reveals; pressed translation removed for reduced motion."
+      },
+      "review_gates": [
+        "Unavailable date clears only time; recovery preserves meeting/people/service.",
+        "Space change clears time; retains name/people and validates new capacity.",
+        "Review shows UTC, duration, all fixture fees and exact cancellation boundary before Confirm.",
+        "14:00 conflict → 15:00 review → explicit confirm exactly once; no automatic alternative booking.",
+        "Repeated confirm is disabled; changing input invalidates earlier confirmation.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "protected_state": [
+        "space prices/durations/capacities",
+        "meeting/people across date/conflict/back",
+        "explicit timezone and terms",
+        "confirmation ID; at most one current confirmation"
+      ],
+      "design_instructions": [
+        "Build booking from the web-flows-oct4-v1 fixture. Render the booking/select entry and every main-path stage.",
+        "Show space/capacity/duration before availability, then only the fixture dates and time slots.",
+        "Keep date/time/timezone together and all costs/terms before the final action in DOM order.",
+        "On the prescribed stale-slot event, retain independent inputs; mark 14:00 unavailable. Require a new explicit confirmation after choosing 15:00.",
+        "No real availability check, account, network, payment or email. Say Confirmed locally and No booking sent or payment made.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "functional_contract": {
+        "entry": "booking/select",
+        "main_path": [
+          "space/capacity: Small room or Quiet desk",
+          "date/time: select available slot; meeting name and people",
+          "review: exact date/time/timezone/space/cost/terms",
+          "14:00 Small room confirm → conflict → choose 15:00 → review again",
+          "explicit local confirm → DEMO-B01"
+        ],
+        "state_conditions": [
+          "No time selected",
+          "Date with no times",
+          "Invalid name or people outside capacity",
+          "Review of valid selection",
+          "Small room 14:00 becomes unavailable at confirmation",
+          "Alternative 15:00 selected; explicit confirmation still required",
+          "Confirmed locally once"
+        ],
+        "navigation_requirements": {
+          "back": "Return to the preceding relevant stage with the applicable committed values, selections and records retained.",
+          "exit": "Switching examples retains local state. Attempting to leave a changed work edit or unsaved community reply requires a decision to keep editing or discard unsaved changes.",
+          "cancel": "Provide the stated change/back/recovery paths; do not invent an external cancellation action.",
+          "browser_back": "Within the example, preserve applicable state and protect unsaved changes; repeated navigation must be safe."
+        },
+        "protected_state": [
+          "space prices/durations/capacities",
+          "meeting/people across date/conflict/back",
+          "explicit timezone and terms",
+          "confirmation ID; at most one current confirmation"
+        ],
+        "fixture": {
+          "services": [
+            {
+              "id": "room",
+              "name": "Small room",
+              "duration": 60,
+              "capacity": 4,
+              "price": 26
+            },
+            {
+              "id": "desk",
+              "name": "Quiet desk",
+              "duration": 30,
+              "capacity": 1,
+              "price": 18
+            }
+          ],
+          "dates": [
+            {
+              "id": "2026-10-15",
+              "label": "Thu, Oct 15",
+              "availability": "3 times"
+            },
+            {
+              "id": "2026-10-16",
+              "label": "Fri, Oct 16",
+              "availability": "No times"
+            }
+          ],
+          "slots": [
+            "14:00",
+            "15:00",
+            "16:00"
+          ],
+          "timezone": "UTC (UTC+0)",
+          "staleSlot": "14:00",
+          "staleService": "room",
+          "terms": "Fictional policy: cancel by October 14, 14:00 UTC for no fee; after that, 50% of the session price. Prices include all fixture fees.",
+          "confirmationId": "DEMO-B01"
+        }
+      }
+    }
+  ],
+  "artifact_classification": "Authored, guided preset demonstration. No unguided comparison arm, effectiveness experiment or measured improvement."
+}

@@ -1,0 +1,61 @@
+{
+  "reference_commit": "bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "0e5014ab9ad63ba9f198dd523d0cb25048e745957664dcead176ee85f3f34f28"
+    },
+    {
+      "path": "research/web_shopping_information_learning.md",
+      "sha256": "158a087a9560ac398046e53221d200c9e3a3a5f48c37871bafb936dab6cf6437"
+    },
+    {
+      "path": "research/web_app_corrections_v2.md",
+      "sha256": "83198040f4982aef3c46ed52330790637d1b72adef686cf4798c5c63fb9c9feb"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-product-selection.md",
+      "sha256": "3b377434ad9adfe8b949b57bbc5f2280b811886c7abd996813c6b05c22f32e51"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-information-reading.md",
+      "sha256": "091f40fe95a97b9fd422452634a09b9d804fee6e0b5c1abaabe983a4a0b36e0e"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/web-lesson-question.md",
+      "sha256": "91d8e8b4bae40fd7e9196ad9e5b1ba781746081425672e0c158bd6cfee1541e3"
+    },
+    {
+      "path": "research/booking_flows_oct4/booking_manual_ko.md",
+      "sha256": "2192880b49228f47a0bc0e9722d047b8d4da46d6e806ef156c3a688eeb410238"
+    },
+    {
+      "path": "research/do_not_slop_copy/rules.json",
+      "sha256": "93cc66ab4e5811b02c928eb9c26f76932effaf43c341d359d8c6d8fd72a358bc"
+    },
+    {
+      "path": "research/white_surface_palettes_v1/README.md",
+      "sha256": "f2fc35b9a1e6d19384511dcc34f60ad0cf4d6fa0ca89c3399ae8a0a9b4fa685e"
+    },
+    {
+      "path": "research/white_surface_palettes_v1/palettes.json",
+      "sha256": "898cc0e731cfe69f0454a8174f06be212e35dcc05522f1d92840b21dcbf3c96a"
+    },
+    {
+      "path": "research/white_surface_palettes_v1/ai-implementation-rules.md",
+      "sha256": "d2f6441343ec50234bc6dc2f4f38ecc1928851ca5290ff98b93a0eaaa70a9897"
+    },
+    {
+      "path": "guides/cp01-task-first.md",
+      "sha256": "651a6b92d7e1c920e356c631646709ca22f0173cb1c1d5d834627d882f8d6f9c"
+    },
+    {
+      "path": "guides/cp01-task-first-v2.md",
+      "sha256": "b7143e7103cc327197413a228ef69cca0641a5b8939f3364ec47bb316f765000"
+    },
+    {
+      "path": "docs/RIGHTS_AND_SCOPE.md",
+      "sha256": "2c011d1aa6b88edd97041e220a5c5423359970cfdf77328493c6101c77e13e22"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "classification": "Authored, guided preset demonstration. No unguided comparison arm, effectiveness experiment or measured improvement.",
+  "usage": "Treatment-only proposed design guidance for future isolated matched runs; both arms should receive the same functional requirements/data and quality goal. Freeze prompts, fixtures, guides, permitted repairs and evaluation before running. Preserve all actual first outputs; do not select favorable examples.",
+  "presets": [
+    {
+      "id": "shopping",
+      "instructions": [
+        "Build shopping from the web-flows-oct4-v1 fixture. Render the shopping/list entry and every main-path stage.",
+        "Start with the two merchandise objects; use original inline vector silhouettes as illustrative media. Keep names, finish, size and unit prices beside the decision.",
+        "Use terracotta only for the supported next action; keep amount rows in neutral text.",
+        "Build cart line controls, a receipt summary, and a separate review; do not introduce payment fields or an order API.",
+        "Recompute from integer fixture amounts and line quantities. Clear the local reviewed flag after any cart mutation.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "review_gates": [
+        "Add Oak and Walnut as separate lines; cap repeated adds at 5 per finish.",
+        "Quantity changes must recompute exact costs; floor 1, ceiling 5.",
+        "Remove all, undo once, review, repeat completion, change quantity and review again.",
+        "Browse and browser Back retain cart; original product prices remain fixed.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "inappropriate_when": "A large marketplace needs search, stock and fulfillment rules. This small catalog does not represent checkout."
+    },
+    {
+      "id": "information",
+      "instructions": [
+        "Build information from the web-flows-oct4-v1 fixture. Render the information/results entry and every main-path stage.",
+        "Use a factual result index, with a serif title rhythm and a compact search rail. Do not add a promotional hero or result cards.",
+        "Commit query/topic on Search. Keep the committed values when returning from an article.",
+        "Use a maximum 700px reading measure for this short fixture. Expose both sections; no sidebar tree is required.",
+        "No external document retrieval; show the synthetic source and dates honestly.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "review_gates": [
+        "Search seeds + Garden; open article; Return shows seeds + Garden and the same result.",
+        "Zero results must name the applied conditions; Clear restores three records.",
+        "Section links scroll/focus their section without replacing app route.",
+        "Search Enter submits; metadata and source label remain readable.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "inappropriate_when": "Long technical documentation may need a persistent section tree. This short handbook is not current legal or safety guidance."
+    },
+    {
+      "id": "course",
+      "instructions": [
+        "Build course from the web-flows-oct4-v1 fixture. Render the course/lesson entry and every main-path stage.",
+        "Use the question or lesson as the dominant object and the outline as context. Keep global gallery navigation separate.",
+        "Use plum for the next action, a modest current/selected surface, and explicit Current/Completed labels.",
+        "Choice selection must remain distinct from feedback. Explain the missed axis unit and give retry/revisit routes.",
+        "No score, mastery, video player, enrollment or server submission claims.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "review_gates": [
+        "Check answer disabled before selection; native arrow navigation selects an option.",
+        "Wrong answer → feedback → lesson → feedback → retry; attempts count exactly once per check.",
+        "Correct → continue; first lesson completed; second lesson finishes; repeated actions do not increment progress.",
+        "Outline current/completed labels and progress value agree.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "inappropriate_when": "One answer is not a mastery measure. This pattern does not cover exam timing, graded submissions or video players."
+    },
+    {
+      "id": "community",
+      "instructions": [
+        "Build community from the web-flows-oct4-v1 fixture. Render the community/list entry and every main-path stage.",
+        "Use forum topic rows and a narrow channel rail; reflow channel controls above topics on mobile.",
+        "Separate thread reading, reply editing and preview. The final action keeps a private draft; never call it Post.",
+        "Store local drafts by thread ID. Editing one thread must not display that text on another thread.",
+        "Use a native dialog only for actual unsaved changes. Escape keeps editing; confirmation discards unsaved changes.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "review_gates": [
+        "Preview text is escaped, including literal HTML-looking input.",
+        "Preview/edit/cancel retain raw input until explicit discard; Escape dismisses guard.",
+        "Example switch and browser Back while dirty require guard; Keep editing returns focus.",
+        "Keep locally is private and idempotent; thread and other fixture records stay unchanged.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "inappropriate_when": "Live communities require moderation, identity, abuse handling and server-side drafts. This example never posts."
+    },
+    {
+      "id": "work",
+      "instructions": [
+        "Build work from the web-flows-oct4-v1 fixture. Render the work/list entry and every main-path stage.",
+        "Keep an aligned register for scanning names and due values, then a compact factual detail view.",
+        "Use charcoal for the next supported task action and slate for metadata/focus. Completed state has a checkmark and text, not a row wash.",
+        "Edit a copy; commit by stable record ID only on valid Save. Cancel discards the copy.",
+        "No new metrics, account, collaboration, server saving or conflict simulation outside this fixture.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "review_gates": [
+        "Save changes the selected record only and preserves IDs/dates/order/count.",
+        "Cancel and Escape restore saved title/notes/owner/status.",
+        "Invalid title retains other entered fields; correcting then saving succeeds.",
+        "All Done + Open filter → empty; clear filter restores original records with saved changes.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "inappropriate_when": "Multi-user concurrent editing needs versioning and conflict recovery. This page only edits memory in one tab."
+    },
+    {
+      "id": "booking",
+      "instructions": [
+        "Build booking from the web-flows-oct4-v1 fixture. Render the booking/select entry and every main-path stage.",
+        "Show space/capacity/duration before availability, then only the fixture dates and time slots.",
+        "Keep date/time/timezone together and all costs/terms before the final action in DOM order.",
+        "On the prescribed stale-slot event, retain independent inputs; mark 14:00 unavailable. Require a new explicit confirmation after choosing 15:00.",
+        "No real availability check, account, network, payment or email. Say Confirmed locally and No booking sent or payment made.",
+        "Keep all actions local and synchronous; escape all user input in HTML output. Use semantic headings, labels, buttons and native controls.",
+        "Use this preset’s role names and exact proposed token values; do not substitute a shared dashboard skeleton or generic blue primary.",
+        "Render at 1165×747 and 390×844 CSS pixels. Preserve the first completed source before repairs; log each objective fix."
+      ],
+      "review_gates": [
+        "Unavailable date clears only time; recovery preserves meeting/people/service.",
+        "Space change clears time; retains name/people and validates new capacity.",
+        "Review shows UTC, duration, all fixture fees and exact cancellation boundary before Confirm.",
+        "14:00 conflict → 15:00 review → explicit confirm exactly once; no automatic alternative booking.",
+        "Repeated confirm is disabled; changing input invalidates earlier confirmation.",
+        "No horizontal overflow at both recorded viewports; inspect first screen and important later stages.",
+        "Check enabled/disabled/hover/focus/selection states; status and selection must have written or native semantic signals.",
+        "Exercise repeated activation, interrupted navigation, Back, keyboard activation and explicit reset.",
+        "Reject external requests, unescaped input, fabricated loading, unexplained hero copy, hidden costs/conditions or false native-phone/screen-reader/usability claims."
+      ],
+      "inappropriate_when": "Real booking requires authoritative availability, time-zone conversion, payment and cancellation handling. Synthetic availability is not a reservation guarantee."
+    }
+  ]
+}

@@ -1,0 +1,2649 @@
+[
+  {
+    "purpose": "shopping",
+    "stage": "entry",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "shopping",
+      "view": "list"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 573.89
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 77
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 374.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 434.5,
+      "width": 820,
+      "height": 381.89
+    },
+    "primary_buttons": [
+      {
+        "label": "Choose finish",
+        "disabled": false,
+        "x": 32.5,
+        "y": 745.39,
+        "width": 137.16,
+        "height": 46
+      },
+      {
+        "label": "Choose finish",
+        "disabled": false,
+        "x": 458.5,
+        "y": 745.39,
+        "width": 137.16,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 44,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "Shopping",
+        "x": 32.5,
+        "y": 129.5,
+        "width": 93.77,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Information",
+        "x": 130.27,
+        "y": 129.5,
+        "width": 109.25,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course",
+        "x": 243.52,
+        "y": 129.5,
+        "width": 75.89,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Community",
+        "x": 323.41,
+        "y": 129.5,
+        "width": 107.23,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Work",
+        "x": 434.64,
+        "y": 129.5,
+        "width": 65.7,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Booking",
+        "x": 504.34,
+        "y": 129.5,
+        "width": 85.17,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Browse",
+        "x": 973.23,
+        "y": 258.5,
+        "width": 74.34,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "3px"
+      },
+      {
+        "label": "Cart (0)",
+        "x": 1055.58,
+        "y": 258.5,
+        "width": 76.92,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "3px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Useful objects",
+      "x": 32.5,
+      "y": 374.5,
+      "width": 1100,
+      "height": 36,
+      "font_size": "30px",
+      "line_height": "36px",
+      "radius": "0px"
+    },
+    "layout_columns": []
+  },
+  {
+    "purpose": "information",
+    "stage": "entry",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "information",
+      "view": "results"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 612.5
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 396.5,
+      "width": 1100,
+      "height": 458.5
+    },
+    "primary_buttons": [
+      {
+        "label": "Search",
+        "disabled": false,
+        "x": 32.5,
+        "y": 568.5,
+        "width": 84.27,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "Shopping",
+        "x": 32.5,
+        "y": 129.5,
+        "width": 93.77,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Information",
+        "x": 130.27,
+        "y": 129.5,
+        "width": 109.25,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course",
+        "x": 243.52,
+        "y": 129.5,
+        "width": 75.89,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Community",
+        "x": 323.41,
+        "y": 129.5,
+        "width": 107.23,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Work",
+        "x": 434.64,
+        "y": 129.5,
+        "width": 65.7,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Booking",
+        "x": 504.34,
+        "y": 129.5,
+        "width": 85.17,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "AllGardenHome",
+        "x": 32.5,
+        "y": 506.5,
+        "width": 215,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "2px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Handbook",
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36,
+      "font_size": "30px",
+      "line_height": "36px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "Search entriesTopicAllGardenHomeSearch",
+        "x": 32.5,
+        "y": 396.5,
+        "width": 240,
+        "height": 458.5,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "3 entries · All topicsGarden · October 2, 2026Store seeds between seasonsDry containers, labels, and a cool shelf.Garden · September 30, 2026Clean hand tools after useRemove soil and dry tools before putting them away.Home · October 1, 2026Label a shared storage shelfUse names that describe the items in each space.",
+        "x": 312.5,
+        "y": 396.5,
+        "width": 820,
+        "height": 458.5,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "course",
+    "stage": "entry",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "course",
+      "view": "lesson"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 449.19
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 320.5,
+      "y": 363.5,
+      "width": 650,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 355.19
+    },
+    "primary_buttons": [
+      {
+        "label": "Practice this lesson",
+        "disabled": false,
+        "x": 320.5,
+        "y": 645.69,
+        "width": 180.27,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "Shopping",
+        "x": 32.5,
+        "y": 129.5,
+        "width": 93.77,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Information",
+        "x": 130.27,
+        "y": 129.5,
+        "width": 109.25,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course",
+        "x": 243.52,
+        "y": 129.5,
+        "width": 75.89,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Community",
+        "x": 323.41,
+        "y": 129.5,
+        "width": 107.23,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Work",
+        "x": 434.64,
+        "y": 129.5,
+        "width": 65.7,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Booking",
+        "x": 504.34,
+        "y": 129.5,
+        "width": 85.17,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "1. Read the axesCurrent",
+        "x": 32.5,
+        "y": 379.89,
+        "width": 215,
+        "height": 70,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "7px"
+      },
+      {
+        "label": "2. Compare two valuesUpcoming",
+        "x": 32.5,
+        "y": 457.89,
+        "width": 215,
+        "height": 70,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "7px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Read the axes",
+      "x": 320.5,
+      "y": 363.5,
+      "width": 650,
+      "height": 36,
+      "font_size": "30px",
+      "line_height": "36px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "Course outline1. Read the axesCurrent2. Compare two valuesUpcoming0 of 2 completed",
+        "x": 32.5,
+        "y": 336.5,
+        "width": 240,
+        "height": 355.19,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course outline · lesson 1 of 21. Read the axesCurrent2. Compare two valuesUpcoming0 of 2 completedLesson 1 of 2Read the axesAn axis label tells you what a number measures. Read the label and unit before comparing values.ExampleVertical axis: MinutesShown value: 12Practice this lesson",
+        "x": 320.5,
+        "y": 336.5,
+        "width": 650,
+        "height": 355.19,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "community",
+    "stage": "entry",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "community",
+      "view": "list"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 365.39
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 396.5,
+      "width": 1100,
+      "height": 211.39
+    },
+    "primary_buttons": [],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "Shopping",
+        "x": 32.5,
+        "y": 129.5,
+        "width": 93.77,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Information",
+        "x": 130.27,
+        "y": 129.5,
+        "width": 109.25,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course",
+        "x": 243.52,
+        "y": 129.5,
+        "width": 75.89,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Community",
+        "x": 323.41,
+        "y": 129.5,
+        "width": 107.23,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Work",
+        "x": 434.64,
+        "y": 129.5,
+        "width": 65.7,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Booking",
+        "x": 504.34,
+        "y": 129.5,
+        "width": 85.17,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "All",
+        "x": 937.5,
+        "y": 427.89,
+        "width": 195,
+        "height": 48,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "6px"
+      },
+      {
+        "label": "Ideas",
+        "x": 937.5,
+        "y": 495.89,
+        "width": 195,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "6px"
+      },
+      {
+        "label": "Events",
+        "x": 937.5,
+        "y": 561.89,
+        "width": 195,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "6px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Topics",
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36,
+      "font_size": "30px",
+      "line_height": "36px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "What belongs on our shared shelf?Morgan · October 3 · Ideas2 fixture repliesSaturday sketch sessionAlex · October 2 · Events4 fixture replies",
+        "x": 32.5,
+        "y": 396.5,
+        "width": 832,
+        "height": 211.39,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "ChannelsAllIdeasEvents",
+        "x": 912.5,
+        "y": 396.5,
+        "width": 220,
+        "height": 211.39,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "work",
+    "stage": "entry",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "work",
+      "view": "list"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 470
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 244.5,
+      "y": 332.5,
+      "width": 888,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 332.5,
+      "width": 1100,
+      "height": 380
+    },
+    "primary_buttons": [],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 45,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "Shopping",
+        "x": 32.5,
+        "y": 129.5,
+        "width": 93.77,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Information",
+        "x": 130.27,
+        "y": 129.5,
+        "width": 109.25,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course",
+        "x": 243.52,
+        "y": 129.5,
+        "width": 75.89,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Community",
+        "x": 323.41,
+        "y": 129.5,
+        "width": 107.23,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Work",
+        "x": 434.64,
+        "y": 129.5,
+        "width": 65.7,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Booking",
+        "x": 504.34,
+        "y": 129.5,
+        "width": 85.17,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Workshop tasks",
+        "x": 32.5,
+        "y": 362.69,
+        "width": 159,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "4px"
+      },
+      {
+        "label": "AllOpenDone",
+        "x": 972.5,
+        "y": 392.5,
+        "width": 160,
+        "height": 45,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Tasks",
+      "x": 244.5,
+      "y": 332.5,
+      "width": 888,
+      "height": 36,
+      "font_size": "30px",
+      "line_height": "36px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "ProjectWorkshop tasks",
+        "x": 32.5,
+        "y": 332.5,
+        "width": 180,
+        "height": 380,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Tasks3 recordsStatusAllOpenDoneT-104Check shelf measurementsSamOctober 6○ OpenT-105Prepare workshop outlineTaylorOctober 8○ OpenT-103Update room labelsJamieOctober 3✓ Done",
+        "x": 244.5,
+        "y": 332.5,
+        "width": 888,
+        "height": 380,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "booking",
+    "stage": "entry",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "select"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 567
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 396.5,
+      "width": 1100,
+      "height": 413
+    },
+    "primary_buttons": [
+      {
+        "label": "Review session",
+        "disabled": true,
+        "x": 352.5,
+        "y": 763.5,
+        "width": 147.95,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "Shopping",
+        "x": 32.5,
+        "y": 129.5,
+        "width": 93.77,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Information",
+        "x": 130.27,
+        "y": 129.5,
+        "width": 109.25,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Course",
+        "x": 243.52,
+        "y": 129.5,
+        "width": 75.89,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Community",
+        "x": 323.41,
+        "y": 129.5,
+        "width": 107.23,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Work",
+        "x": 434.64,
+        "y": 129.5,
+        "width": 65.7,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Booking",
+        "x": 504.34,
+        "y": 129.5,
+        "width": 85.17,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Small room60 min · up to 4$26.00 per session",
+        "x": 32.5,
+        "y": 444.5,
+        "width": 251,
+        "height": 100,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "Quiet desk30 min · up to 1$18.00 per session",
+        "x": 32.5,
+        "y": 556.5,
+        "width": 251,
+        "height": 100,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "Thu, Oct 153 times",
+        "x": 352.5,
+        "y": 448.5,
+        "width": 385,
+        "height": 84,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "Fri, Oct 16No times",
+        "x": 749.5,
+        "y": 448.5,
+        "width": 383,
+        "height": 84,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "14:00",
+        "x": 352.5,
+        "y": 589.5,
+        "width": 252,
+        "height": 56,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "15:00",
+        "x": 616.5,
+        "y": 589.5,
+        "width": 252,
+        "height": 56,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "16:00",
+        "x": 880.5,
+        "y": 589.5,
+        "width": 252,
+        "height": 56,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Choose a space & time",
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36,
+      "font_size": "30px",
+      "line_height": "36px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "SpaceSmall room60 min · up to 4$26.00 per sessionQuiet desk30 min · up to 1$18.00 per sessionAll fixture fees included.",
+        "x": 32.5,
+        "y": 396.5,
+        "width": 280,
+        "height": 293,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "October 2026Thu, Oct 153 timesFri, Oct 16No timesTimes in UTC (UTC+0)14:0015:0016:00Meeting name · up to 60 charactersPeople · 1–4Review session",
+        "x": 352.5,
+        "y": 396.5,
+        "width": 780,
+        "height": 413,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "shopping",
+    "stage": "entry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "shopping",
+      "view": "list"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 962.17
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 77
+    },
+    "heading": {
+      "x": 16,
+      "y": 397,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 449.39,
+      "width": 358,
+      "height": 781.78
+    },
+    "primary_buttons": [
+      {
+        "label": "Choose finish",
+        "disabled": false,
+        "x": 16,
+        "y": 755.28,
+        "width": 137.16,
+        "height": 46
+      },
+      {
+        "label": "Choose finish",
+        "disabled": false,
+        "x": 16,
+        "y": 1160.17,
+        "width": 137.16,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 44,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "ShoppingInformationCourseCommunityWorkBooking",
+        "x": 16,
+        "y": 165,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Browse",
+        "x": 234.73,
+        "y": 285,
+        "width": 66.34,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "3px"
+      },
+      {
+        "label": "Cart (0)",
+        "x": 305.08,
+        "y": 285,
+        "width": 68.92,
+        "height": 44,
+        "font_size": "14px",
+        "line_height": "24px",
+        "radius": "3px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Useful objects",
+      "x": 16,
+      "y": 397,
+      "width": 358,
+      "height": 32.39,
+      "font_size": "27px",
+      "line_height": "32.4px",
+      "radius": "0px"
+    },
+    "layout_columns": []
+  },
+  {
+    "purpose": "information",
+    "stage": "entry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "information",
+      "view": "results"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 883.89
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 113.5
+    },
+    "heading": {
+      "x": 16,
+      "y": 406.5,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 458.89,
+      "width": 358,
+      "height": 694
+    },
+    "primary_buttons": [
+      {
+        "label": "Search",
+        "disabled": false,
+        "x": 289.73,
+        "y": 580.89,
+        "width": 84.27,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "ShoppingInformationCourseCommunityWorkBooking",
+        "x": 16,
+        "y": 165,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "AllGardenHome",
+        "x": 16,
+        "y": 580.89,
+        "width": 261.73,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "2px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Handbook",
+      "x": 16,
+      "y": 406.5,
+      "width": 358,
+      "height": 32.39,
+      "font_size": "27px",
+      "line_height": "32.4px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "Search entriesTopicAllGardenHomeSearch",
+        "x": 16,
+        "y": 458.89,
+        "width": 358,
+        "height": 168,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "3 entries · All topicsGarden · October 2, 2026Store seeds between seasonsDry containers, labels, and a cool shelf.Garden · September 30, 2026Clean hand tools after useRemove soil and dry tools before putting them away.Home · October 1, 2026Label a shared storage shelfUse names that describe the items in each space.",
+        "x": 16,
+        "y": 650.89,
+        "width": 358,
+        "height": 502,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "course",
+    "stage": "entry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "course",
+      "view": "lesson"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 549.17
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 467,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 459.17
+    },
+    "primary_buttons": [
+      {
+        "label": "Practice this lesson",
+        "disabled": false,
+        "x": 16,
+        "y": 772.17,
+        "width": 180.27,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "ShoppingInformationCourseCommunityWorkBooking",
+        "x": 16,
+        "y": 165,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Course outline · lesson 1 of 2",
+        "x": 16,
+        "y": 359,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Read the axes",
+      "x": 16,
+      "y": 467,
+      "width": 358,
+      "height": 32.39,
+      "font_size": "27px",
+      "line_height": "32.4px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "Course outline · lesson 1 of 21. Read the axesCurrent2. Compare two valuesUpcoming0 of 2 completedLesson 1 of 2Read the axesAn axis label tells you what a number measures. Read the label and unit before comparing values.ExampleVertical axis: MinutesShown value: 12Practice this lesson",
+        "x": 16,
+        "y": 359,
+        "width": 358,
+        "height": 459.17,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "community",
+    "stage": "entry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "community",
+      "view": "list"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 522.78
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 411.39,
+      "width": 358,
+      "height": 380.39
+    },
+    "primary_buttons": [],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "ShoppingInformationCourseCommunityWorkBooking",
+        "x": 16,
+        "y": 165,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "All",
+        "x": 16,
+        "y": 442.78,
+        "width": 56.05,
+        "height": 48,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "6px"
+      },
+      {
+        "label": "Ideas",
+        "x": 80.05,
+        "y": 443.78,
+        "width": 73.86,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "6px"
+      },
+      {
+        "label": "Events",
+        "x": 161.91,
+        "y": 443.78,
+        "width": 83.11,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "6px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Topics",
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 32.39,
+      "font_size": "27px",
+      "line_height": "32.4px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "What belongs on our shared shelf?Morgan · October 3 · Ideas2 fixture repliesSaturday sketch sessionAlex · October 2 · Events4 fixture replies",
+        "x": 16,
+        "y": 514.78,
+        "width": 358,
+        "height": 277,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "ChannelsAllIdeasEvents",
+        "x": 16,
+        "y": 411.39,
+        "width": 358,
+        "height": 79.39,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "work",
+    "stage": "entry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "work",
+      "view": "list"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 674.39
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 421,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 584.39
+    },
+    "primary_buttons": [],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 45,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "ShoppingInformationCourseCommunityWorkBooking",
+        "x": 16,
+        "y": 165,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Workshop tasks",
+        "x": 16,
+        "y": 359,
+        "width": 155.97,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "4px"
+      },
+      {
+        "label": "AllOpenDone",
+        "x": 214,
+        "y": 473.39,
+        "width": 160,
+        "height": 45,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Tasks",
+      "x": 16,
+      "y": 421,
+      "width": 358,
+      "height": 32.39,
+      "font_size": "27px",
+      "line_height": "32.4px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "ProjectWorkshop tasks",
+        "x": 16,
+        "y": 359,
+        "width": 358,
+        "height": 46,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "Tasks3 recordsStatusAllOpenDoneT-104Check shelf measurementsSamOctober 6○ OpenT-105Prepare workshop outlineTaylorOctober 8○ OpenT-103Update room labelsJamieOctober 3✓ Done",
+        "x": 16,
+        "y": 421,
+        "width": 358,
+        "height": 522.39,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "booking",
+    "stage": "entry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "select"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 847.39
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 411.39,
+      "width": 358,
+      "height": 705
+    },
+    "primary_buttons": [
+      {
+        "label": "Review session",
+        "disabled": true,
+        "x": 16,
+        "y": 1070.39,
+        "width": 147.95,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true,
+    "shared_gallery_menu": [
+      {
+        "label": "ShoppingInformationCourseCommunityWorkBooking",
+        "x": 16,
+        "y": 165,
+        "width": 358,
+        "height": 44,
+        "font_size": "16px",
+        "line_height": "normal",
+        "radius": "4px"
+      }
+    ],
+    "task_navigation": [
+      {
+        "label": "Small room60 min · up to 4$26.00 per session",
+        "x": 16,
+        "y": 447.39,
+        "width": 173,
+        "height": 113,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "Quiet desk30 min · up to 1$18.00 per session",
+        "x": 201,
+        "y": 447.39,
+        "width": 173,
+        "height": 113,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "Thu, Oct 153 times",
+        "x": 16,
+        "y": 669.39,
+        "width": 174,
+        "height": 84,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "Fri, Oct 16No times",
+        "x": 202,
+        "y": 669.39,
+        "width": 172,
+        "height": 84,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "14:00",
+        "x": 16,
+        "y": 810.39,
+        "width": 114,
+        "height": 56,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "15:00",
+        "x": 138,
+        "y": 810.39,
+        "width": 114,
+        "height": 56,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      },
+      {
+        "label": "16:00",
+        "x": 260,
+        "y": 810.39,
+        "width": 114,
+        "height": 56,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "8px"
+      }
+    ],
+    "reading_heading": {
+      "label": "Choose a space & time",
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 32.39,
+      "font_size": "27px",
+      "line_height": "32.4px",
+      "radius": "0px"
+    },
+    "layout_columns": [
+      {
+        "label": "SpaceSmall room60 min · up to 4$26.00 per sessionQuiet desk30 min · up to 1$18.00 per sessionAll fixture fees included.",
+        "x": 16,
+        "y": 411.39,
+        "width": 358,
+        "height": 182,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      },
+      {
+        "label": "October 2026Thu, Oct 153 timesFri, Oct 16No timesTimes in UTC (UTC+0)14:0015:0016:00Meeting name · up to 60 charactersPeople · 1–4Review session",
+        "x": 16,
+        "y": 617.39,
+        "width": 358,
+        "height": 499,
+        "font_size": "16px",
+        "line_height": "24px",
+        "radius": "0px"
+      }
+    ]
+  },
+  {
+    "purpose": "shopping",
+    "stage": "review",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "shopping",
+      "view": "review"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 711.28
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 77
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 413.5,
+      "width": 680,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Finish local review",
+        "disabled": false,
+        "x": 32.5,
+        "y": 907.78,
+        "width": 173.95,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 44,
+    "css_pixels": true
+  },
+  {
+    "purpose": "shopping",
+    "stage": "empty",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "shopping",
+      "view": "cart"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 149.5,
+      "width": 1100,
+      "height": 411
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 149.5,
+      "width": 1100,
+      "height": 77
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 320.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Browse objects",
+        "disabled": false,
+        "x": 32.5,
+        "y": 514.5,
+        "width": 149.41,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 44,
+    "css_pixels": true
+  },
+  {
+    "purpose": "information",
+    "stage": "article",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "information",
+      "view": "article"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": -142.5,
+      "width": 1100,
+      "height": 764.16
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": -142.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 232.5,
+      "y": 44.5,
+      "width": 700,
+      "height": 43.19
+    },
+    "layout": null,
+    "primary_buttons": [],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "information",
+    "stage": "empty",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "information",
+      "view": "results"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 372
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 396.5,
+      "width": 1100,
+      "height": 218
+    },
+    "primary_buttons": [
+      {
+        "label": "Search",
+        "disabled": false,
+        "x": 32.5,
+        "y": 568.5,
+        "width": 84.27,
+        "height": 46
+      },
+      {
+        "label": "Clear search & filters",
+        "disabled": false,
+        "x": 312.5,
+        "y": 501.5,
+        "width": 194.98,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "course",
+    "stage": "incorrect",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "course",
+      "view": "feedback"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 485
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 320.5,
+      "y": 363.5,
+      "width": 650,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 391
+    },
+    "primary_buttons": [
+      {
+        "label": "Try again",
+        "disabled": false,
+        "x": 320.5,
+        "y": 681.5,
+        "width": 104.7,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "course",
+    "stage": "complete",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "course",
+      "view": "complete"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 347.39
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 320.5,
+      "y": 336.5,
+      "width": 650,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 253.39
+    },
+    "primary_buttons": [
+      {
+        "label": "Review lesson 1",
+        "disabled": false,
+        "x": 320.5,
+        "y": 460.5,
+        "width": 155.47,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "community",
+    "stage": "preview",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "community",
+      "view": "preview"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 373
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 363.5,
+      "width": 700,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Keep draft locally",
+        "disabled": false,
+        "x": 32.5,
+        "y": 569.5,
+        "width": 168.59,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "work",
+    "stage": "saved",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "work",
+      "view": "detail"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 487.39
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 425.5,
+      "width": 740,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Edit task",
+        "disabled": false,
+        "x": 32.5,
+        "y": 683.89,
+        "width": 99.91,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "work",
+    "stage": "empty",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "work",
+      "view": "list"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 325
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 244.5,
+      "y": 332.5,
+      "width": 888,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 332.5,
+      "width": 1100,
+      "height": 235
+    },
+    "primary_buttons": [
+      {
+        "label": "Show all tasks",
+        "disabled": false,
+        "x": 244.5,
+        "y": 521.5,
+        "width": 142.63,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 45,
+    "css_pixels": true
+  },
+  {
+    "purpose": "booking",
+    "stage": "no-times",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "select"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 621
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 1100,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 396.5,
+      "width": 1100,
+      "height": 467
+    },
+    "primary_buttons": [
+      {
+        "label": "Review session",
+        "disabled": true,
+        "x": 352.5,
+        "y": 817.5,
+        "width": 147.95,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "booking",
+    "stage": "review",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "review"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 658.5
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 402.5,
+      "width": 680,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Confirm locally · $26.00",
+        "disabled": false,
+        "x": 32.5,
+        "y": 855,
+        "width": 215.09,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "booking",
+    "stage": "conflict",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "conflict"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 718.5
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 402.5,
+      "width": 680,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Choose 15:00",
+        "disabled": false,
+        "x": 32.5,
+        "y": 915,
+        "width": 136.86,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "booking",
+    "stage": "confirmed",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "confirmed"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 652.5
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 242.5,
+      "width": 1100,
+      "height": 66
+    },
+    "heading": {
+      "x": 32.5,
+      "y": 336.5,
+      "width": 680,
+      "height": 36
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Confirm locally",
+        "disabled": true,
+        "x": 32.5,
+        "y": 849,
+        "width": 149.09,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "shopping",
+    "stage": "keyboard-focus",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "actual_route": {
+      "id": "shopping",
+      "view": "product"
+    },
+    "screen": {
+      "x": 32.5,
+      "y": 5.5,
+      "width": 1100,
+      "height": 555
+    },
+    "appbar": {
+      "x": 32.5,
+      "y": 5.5,
+      "width": 1100,
+      "height": 77
+    },
+    "heading": {
+      "x": 643.19,
+      "y": 176.5,
+      "width": 489.3,
+      "height": 36
+    },
+    "layout": {
+      "x": 32.5,
+      "y": 176.5,
+      "width": 1100,
+      "height": 384
+    },
+    "primary_buttons": [
+      {
+        "label": "Add to cart",
+        "disabled": false,
+        "x": 643.19,
+        "y": 477.5,
+        "width": 121.95,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 44,
+    "css_pixels": true
+  },
+  {
+    "purpose": "shopping",
+    "stage": "review",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "shopping",
+      "view": "review"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 618.28
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 77
+    },
+    "heading": {
+      "x": 16,
+      "y": 436,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Finish local review",
+        "disabled": false,
+        "x": 16,
+        "y": 841.28,
+        "width": 173.95,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 44,
+    "css_pixels": true
+  },
+  {
+    "purpose": "information",
+    "stage": "article",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "information",
+      "view": "article"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 940.78
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 113.5
+    },
+    "heading": {
+      "x": 16,
+      "y": 499.5,
+      "width": 358,
+      "height": 72
+    },
+    "layout": null,
+    "primary_buttons": [],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "course",
+    "stage": "incorrect",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "course",
+      "view": "feedback"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 602.39
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 467,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": {
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 512.39
+    },
+    "primary_buttons": [
+      {
+        "label": "Try again",
+        "disabled": false,
+        "x": 16,
+        "y": 825.39,
+        "width": 104.7,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "community",
+    "stage": "preview",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "community",
+      "view": "preview"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 417.39
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 386,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Keep draft locally",
+        "disabled": false,
+        "x": 16,
+        "y": 584.39,
+        "width": 168.59,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "work",
+    "stage": "edit",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "work",
+      "view": "edit"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 737.39
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 386,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Save task",
+        "disabled": false,
+        "x": 16,
+        "y": 960.39,
+        "width": 105.69,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "booking",
+    "stage": "conflict",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "conflict"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 807.89
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 425,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Choose 15:00",
+        "disabled": false,
+        "x": 16,
+        "y": 974.89,
+        "width": 136.86,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  },
+  {
+    "purpose": "booking",
+    "stage": "confirmed",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actual_route": {
+      "id": "booking",
+      "view": "confirmed"
+    },
+    "screen": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 685.89
+    },
+    "appbar": {
+      "x": 16,
+      "y": 269,
+      "width": 358,
+      "height": 66
+    },
+    "heading": {
+      "x": 16,
+      "y": 359,
+      "width": 358,
+      "height": 32.39
+    },
+    "layout": null,
+    "primary_buttons": [
+      {
+        "label": "Confirm locally",
+        "disabled": true,
+        "x": 16,
+        "y": 908.89,
+        "width": 149.09,
+        "height": 46
+      }
+    ],
+    "horizontal_overflow": false,
+    "min_visible_control_height": 46,
+    "css_pixels": true
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "run": "first-pass",
+  "started": "2026-10-04T14:23:46.153Z",
+  "browser": "Real headless Chromium via installed Chrome; no application mocks",
+  "viewports": [
+    {
+      "width": 1165,
+      "height": 747
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "tests": [
+    {
+      "name": "shopping entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "information entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "course entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "community entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "work entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "booking entry render 1165x747",
+      "passed": true
+    },
+    {
+      "name": "shopping entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "information entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "course entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "community entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "work entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "booking entry render 390x844",
+      "passed": true
+    },
+    {
+      "name": "Shopping variants, quantity boundaries, repeated review, Back, remove/undo",
+      "passed": true
+    },
+    {
+      "name": "Information query/topic, article sections, Back, zero results and clear",
+      "passed": true
+    },
+    {
+      "name": "Course native radio arrows, incorrect/revisit/retry/correct/continue",
+      "passed": true
+    },
+    {
+      "name": "Community invalid/escaped draft, guard Escape, switch, browser Back, cancel",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "Community kept drafts belong to their own thread and cannot be repeated into posts",
+      "passed": false,
+      "error": "draft from shelf leaked into meetup\n\n1 !== 0\n"
+    },
+    {
+      "name": "Work invalid/save/cancel/Escape preserve stable records and filters",
+      "passed": true
+    },
+    {
+      "name": "Work changed edit guard and genuine empty-filter recovery",
+      "passed": true
+    },
+    {
+      "name": "Booking unavailable date, field preservation, stale-slot recovery, duplicate confirmation",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'confirmed'\n- 'conflict'\n       ^\n"
+    },
+    {
+      "name": "Explicit reset clears one example only and Escape keeps state",
+      "passed": true
+    },
+    {
+      "name": "Native Enter/Space and ordinary Tab/Shift+Tab focus",
+      "passed": true
+    },
+    {
+      "name": "All active visible controls reachable in native Tab order",
+      "passed": false,
+      "error": "booking Tab coverage\n\n8 !== 9\n"
+    },
+    {
+      "name": "Mobile critical screens and outline reopen",
+      "passed": false,
+      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#screen [data-action=\"booking-recover\"]').filter({ visible: true }).first()\u001b[22m\n"
+    },
+    {
+      "name": "CSS reflow at 320px and enlarged type probe",
+      "passed": true
+    },
+    {
+      "name": "Mobile emulated touch booking and cart actions",
+      "passed": true
+    },
+    {
+      "name": "No page console errors or application network requests",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "external_requests": [],
+  "limitations": [
+    "Not a native phone",
+    "No screen reader",
+    "No human participant usability test",
+    "No full WCAG certification",
+    "No real transaction/backend",
+    "CSS reflow probe is not native browser zoom"
+  ],
+  "finished": "2026-10-04T14:24:23.405Z",
+  "passed": 22,
+  "failed": 5,
+  "public_sanitization": "Execution-specific machine locations omitted; recorded checks, failures, timings and limits retained."
+}

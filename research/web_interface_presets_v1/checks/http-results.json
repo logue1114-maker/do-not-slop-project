@@ -1,0 +1,101 @@
+{
+  "scope": "Fresh loopback HTTP checks of integrated public HTML; native DOM actions, no service deployment",
+  "started": "2026-10-05T10:46:52.096Z",
+  "checks": [
+    {
+      "name": "Served HTML exactly matches integrated runtime",
+      "passed": true
+    },
+    {
+      "name": "shopping HTTP entry",
+      "passed": true
+    },
+    {
+      "name": "information HTTP entry",
+      "passed": true
+    },
+    {
+      "name": "course HTTP entry",
+      "passed": true
+    },
+    {
+      "name": "community HTTP entry",
+      "passed": true
+    },
+    {
+      "name": "work HTTP entry",
+      "passed": true
+    },
+    {
+      "name": "booking HTTP entry",
+      "passed": true
+    },
+    {
+      "name": "Shopping HTTP cart and safe local review",
+      "passed": true
+    },
+    {
+      "name": "Information HTTP committed query and return",
+      "passed": true
+    },
+    {
+      "name": "Course HTTP wrong/retry/correct/continue",
+      "passed": true
+    },
+    {
+      "name": "Community HTTP draft preview and explicit discard",
+      "passed": true
+    },
+    {
+      "name": "Work HTTP save and cancel preserve record",
+      "passed": true
+    },
+    {
+      "name": "Booking HTTP stale recovery requires explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "HTTP document links return expected bytes",
+      "passed": true
+    },
+    {
+      "name": "shopping narrow HTTP render retains local state",
+      "passed": true
+    },
+    {
+      "name": "information narrow HTTP render retains local state",
+      "passed": true
+    },
+    {
+      "name": "course narrow HTTP render retains local state",
+      "passed": true
+    },
+    {
+      "name": "community narrow HTTP render retains local state",
+      "passed": true
+    },
+    {
+      "name": "work narrow HTTP render retains local state",
+      "passed": true
+    },
+    {
+      "name": "booking narrow HTTP render retains local state",
+      "passed": true
+    },
+    {
+      "name": "No application console error or external request",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "external_requests": [],
+  "limitations": [
+    "Not public hosting",
+    "Not native-phone or screen-reader testing",
+    "Not participant usability or design approval"
+  ],
+  "finished": "2026-10-05T10:46:53.815Z",
+  "passed": 21,
+  "failed": 0,
+  "index_sha256": "18d59cd046ba0a6aa34ab12b4effecf489c033932ad762471cc888f2d6d92848"
+}

@@ -1,12 +1,12 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-05T04:05:05.868405+00:00",
+  "validated_at_utc": "2026-10-05T10:48:12.734319+00:00",
   "status": "passed_public_tree_checks",
   "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 272,
-    "checks": 252,
+    "files": 350,
+    "checks": 316,
     "failed_checks": 0
   },
   "checks": [
@@ -347,6 +347,96 @@
     },
     {
       "name": "json:research/web_app_corrections_v2.cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/checks/final/measurements.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/checks/final/test-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/checks/http-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/checks/measurements.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/checks/structural-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/checks/test-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/design-instructions.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/first-completed-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/first-pass/check-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/first-pass/fixtures.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/first-pass/presets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/fixtures.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/functional-requirements.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/package-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/presets.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/public-integration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/screenshot-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/web_interface_presets_v1/source-hashes.json",
       "passed": true,
       "detail": null
     },
@@ -1011,6 +1101,11 @@
       "detail": null
     },
     {
+      "name": "exact_web_preset_capture_allowlist",
+      "passed": true,
+      "detail": null
+    },
+    {
       "name": "exact_synthetic_capture_allowlist",
       "passed": true,
       "detail": null
@@ -1212,6 +1307,231 @@
     },
     {
       "name": "synthetic_capture_bytes:research/instruction_trial_02/screenshots/revision2-narrow.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-confirmed-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-confirmed-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-conflict-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-conflict-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-no-times-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/booking-review-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/community-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/community-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/community-preview-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/community-preview-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/course-complete-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/course-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/course-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/course-incorrect-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/course-incorrect-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/information-article-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/information-article-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/information-empty-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/information-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/information-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/shopping-empty-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/shopping-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/shopping-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/shopping-keyboard-focus-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/shopping-review-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/shopping-review-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/work-edit-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/work-empty-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/work-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/work-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/checks/final/work-saved-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/booking-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/booking-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/community-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/community-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/course-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/course-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/information-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/information-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/shopping-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/shopping-entry-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/work-entry-1165x747.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/web_interface_presets_v1/first-pass/screenshots/work-entry-390x844.png",
       "passed": true,
       "detail": null
     },

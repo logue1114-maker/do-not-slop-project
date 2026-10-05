@@ -61,6 +61,12 @@ The [English gallery](../research/game_interface_presets_v1/README.md) contains 
 
 [Desktop](../research/game_interface_presets_v1/contact-sheet-desktop.png) and [narrow](../research/game_interface_presets_v1/contact-sheet-narrow.png) contact sheets show retained original captures. [Browser checks and limits](../research/game_interface_presets_v1/BROWSER_REPORT.md) and [first-pass repairs](../research/game_interface_presets_v1/REPAIR_LOG.md) distinguish implementation evidence from unrun phone/controller/screen-reader/usability tests. This is an authored/guided demonstration, not an experiment or approved final design; the [honest protocol](HONEST_COMPARISONS.md) remains unchanged.
 
+## Six authored web-interface presets
+
+The [six-flow gallery](../research/web_interface_presets_v1/README.md) covers shopping, information, course, community, work and booking. [Functional requirements/data](../research/web_interface_presets_v1/functional-requirements.json) and [specific design instructions](../research/web_interface_presets_v1/design-instructions.json) are separate. [First-pass/repair history](../research/web_interface_presets_v1/REPAIRS.md), [original-source/capture provenance](../research/web_interface_presets_v1/public-integration.json), [presets and geometry](../research/web_interface_presets_v1/presets.json), and [bounded browser results](../research/web_interface_presets_v1/BROWSER_REPORT.md) do not establish a comparison-arm result, measured improvement or design approval.
+
+The earlier [learning layout](../research/comparison_assets/learning_layout/README.md) and [booking-change demo](../research/booking_flows_oct4/demo/README.md) remain distinct packages.
+
 ## Run and check
 
 From the repository root, serve the files locally:
@@ -76,6 +82,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | CP01 initial guided output | http://127.0.0.1:8765/research/instruction_trial_01/beta/ |
 | CP01 final guide-v2 iteration | http://127.0.0.1:8765/research/instruction_trial_02/implementation/ |
 | White-surface palette explorer | http://127.0.0.1:8765/research/white_surface_palettes_v1/ |
+| Six web interface presets | http://127.0.0.1:8765/research/web_interface_presets_v1/ |
 | Five game interface presets | http://127.0.0.1:8765/research/game_interface_presets_v1/ |
 | Fleet command | http://127.0.0.1:8765/research/strategy_controls_oct4/demo/ |
 | Booking change | http://127.0.0.1:8765/research/booking_flows_oct4/demo/ |
@@ -100,6 +107,9 @@ python3 plugins/review-visible-design/validation/validate_package.py
 python3 research/instruction_trial_01/checks/validate_trial.py
 node research/instruction_trial_02/checks/verify-source.mjs
 node research/white_surface_palettes_v1/verify-local.mjs
+node research/web_interface_presets_v1/verify-source.mjs
+node research/web_interface_presets_v1/tests.mjs
+node research/web_interface_presets_v1/verify-http.mjs
 python3 validation/build_inventory.py
 python3 validation/validate_release.py
 python3 validation/build_inventory.py

@@ -1,0 +1,216 @@
+{
+  "id": "web-flows-oct4-v1",
+  "shopping": {
+    "products": [
+      {
+        "id": "bookends",
+        "name": "Arc bookends",
+        "detail": "A pair of solid wood bookends. 15 × 12 cm each.",
+        "price": 28,
+        "variant": "Oak",
+        "variants": [
+          "Oak",
+          "Walnut"
+        ],
+        "maxQuantity": 5
+      },
+      {
+        "id": "cup",
+        "name": "Everyday cup",
+        "detail": "Unglazed base, matte finish. 250 ml.",
+        "price": 14,
+        "variant": "Chalk",
+        "variants": [
+          "Chalk",
+          "Clay"
+        ],
+        "maxQuantity": 5
+      }
+    ],
+    "shipping": 4,
+    "currency": "USD",
+    "tax": "Not calculated; this is an item review."
+  },
+  "information": {
+    "articles": [
+      {
+        "id": "seeds",
+        "title": "Store seeds between seasons",
+        "category": "Garden",
+        "date": "October 2, 2026",
+        "summary": "Dry containers, labels, and a cool shelf.",
+        "sections": [
+          {
+            "id": "prepare",
+            "title": "Before storing",
+            "body": "Let the seed packet and container dry. A small paper envelope keeps each variety separate. Label it with the plant name and collection date."
+          },
+          {
+            "id": "keep",
+            "title": "On the shelf",
+            "body": "Keep the envelopes in a closed, dry container away from sunlight. These are synthetic garden notes; storage needs vary by seed type."
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "title": "Clean hand tools after use",
+        "category": "Garden",
+        "date": "September 30, 2026",
+        "summary": "Remove soil and dry tools before putting them away.",
+        "sections": [
+          {
+            "id": "prepare",
+            "title": "Remove soil",
+            "body": "Brush off loose soil. Wipe the handle and blade, then leave both to dry."
+          },
+          {
+            "id": "keep",
+            "title": "Store separately",
+            "body": "Keep sharp tools in a covered tray. This is a fictional handbook entry, not equipment safety advice."
+          }
+        ]
+      },
+      {
+        "id": "labels",
+        "title": "Label a shared storage shelf",
+        "category": "Home",
+        "date": "October 1, 2026",
+        "summary": "Use names that describe the items in each space.",
+        "sections": [
+          {
+            "id": "prepare",
+            "title": "Group the items",
+            "body": "Keep items used together in one place. Give each shelf a short name based on its contents."
+          },
+          {
+            "id": "keep",
+            "title": "Keep labels useful",
+            "body": "Update the label when the contents change. These local examples contain no account or shared service."
+          }
+        ]
+      }
+    ]
+  },
+  "course": {
+    "name": "Reading a chart",
+    "lessons": [
+      {
+        "id": "axes",
+        "title": "Read the axes",
+        "body": "An axis label tells you what a number measures. Read the label and unit before comparing values.",
+        "question": "The vertical axis is labeled ‘Minutes’. What does a value of 12 mean?",
+        "options": [
+          "12 people",
+          "12 minutes",
+          "12 percent"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "compare",
+        "title": "Compare two values",
+        "body": "Compare values that share the same unit. A value of 18 minutes is 6 minutes greater than a value of 12 minutes."
+      }
+    ]
+  },
+  "community": {
+    "threads": [
+      {
+        "id": "shelf",
+        "title": "What belongs on our shared shelf?",
+        "author": "Morgan",
+        "initials": "M",
+        "date": "October 3",
+        "tag": "Ideas",
+        "replies": 2,
+        "body": "We have one free shelf near the reading table. I would like to keep the weekly magazines there. What else would be useful?"
+      },
+      {
+        "id": "meetup",
+        "title": "Saturday sketch session",
+        "author": "Alex",
+        "initials": "A",
+        "date": "October 2",
+        "tag": "Events",
+        "replies": 4,
+        "body": "The local example starts at 10:00. Bring a sketchbook and a pencil. This is a fictional discussion; no event registration is connected."
+      }
+    ],
+    "maxDraft": 600
+  },
+  "work": {
+    "records": [
+      {
+        "id": "T-104",
+        "title": "Check shelf measurements",
+        "owner": "Sam",
+        "due": "October 6",
+        "status": "Open",
+        "notes": "Check the width and depth before choosing the storage bins."
+      },
+      {
+        "id": "T-105",
+        "title": "Prepare workshop outline",
+        "owner": "Taylor",
+        "due": "October 8",
+        "status": "Open",
+        "notes": "Include the materials list and a 15-minute practice activity."
+      },
+      {
+        "id": "T-103",
+        "title": "Update room labels",
+        "owner": "Jamie",
+        "due": "October 3",
+        "status": "Done",
+        "notes": "The new labels are ready for review."
+      }
+    ],
+    "owners": [
+      "Sam",
+      "Taylor",
+      "Jamie"
+    ],
+    "maxTitle": 80
+  },
+  "booking": {
+    "services": [
+      {
+        "id": "room",
+        "name": "Small room",
+        "duration": 60,
+        "capacity": 4,
+        "price": 26
+      },
+      {
+        "id": "desk",
+        "name": "Quiet desk",
+        "duration": 30,
+        "capacity": 1,
+        "price": 18
+      }
+    ],
+    "dates": [
+      {
+        "id": "2026-10-15",
+        "label": "Thu, Oct 15",
+        "availability": "3 times"
+      },
+      {
+        "id": "2026-10-16",
+        "label": "Fri, Oct 16",
+        "availability": "No times"
+      }
+    ],
+    "slots": [
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "timezone": "UTC (UTC+0)",
+    "staleSlot": "14:00",
+    "staleService": "room",
+    "terms": "Fictional policy: cancel by October 14, 14:00 UTC for no fee; after that, 50% of the session price. Prices include all fixture fees.",
+    "confirmationId": "DEMO-B01"
+  }
+}

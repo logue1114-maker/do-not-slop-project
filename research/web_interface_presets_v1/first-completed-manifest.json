@@ -1,0 +1,36 @@
+{
+  "artifact_type": "authored_guided_demo",
+  "preservation": "Exact original completed files; raw originals remain in their authoring workspace. The original browser harness containing a private machine path is omitted from this public archive.",
+  "files": [
+    {
+      "path": "first-pass/build-presets.mjs",
+      "bytes": 18743,
+      "sha256": "60f09d822cc0a70e336f0379af9c60e76dfe11fb847ccca97b3ee028084f0bc4"
+    },
+    {
+      "path": "first-pass/fixtures.json",
+      "bytes": 6071,
+      "sha256": "9b3474404e0431d8a19a650f2875aec903330be1a99fbb3f2bfecc6813c515f1"
+    },
+    {
+      "path": "first-pass/IMPLEMENTATION.md",
+      "bytes": 4125,
+      "sha256": "2050facd1d78930f6e9aff2e8f78b4fd17c77856789c77ec6b13bc0776fbb168"
+    },
+    {
+      "path": "first-pass/index.html",
+      "bytes": 61545,
+      "sha256": "9290f69d5a0e46efb4342717560b6e9f59b4c643e234b34b84f68c8a88c85f02"
+    },
+    {
+      "path": "first-pass/presets.json",
+      "bytes": 48095,
+      "sha256": "60b7d081f60dbffb1ca3c0cd6f3a4bff31219423b38c2e747898b0d15b3f2ea1"
+    },
+    {
+      "path": "first-pass/SOURCES_RIGHTS.md",
+      "bytes": 3166,
+      "sha256": "dc5ee25587a687a413aaae18aee8cbaad9991333a1ab47dd2a2ee28bd59d6fef"
+    }
+  ]
+}

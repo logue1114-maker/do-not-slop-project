@@ -1,0 +1,913 @@
+{
+  "passed": true,
+  "generated": "2026-10-05T04:17:31.849Z",
+  "checks": [
+    "Embedded fixture exactly matches JSON mirror",
+    "Six different layout descriptions",
+    "Functional data isolated from preset design fields",
+    "90 declared semantic-role contrast pairs computed"
+  ],
+  "contrast_scope": "Declared role foreground/background pairs; not every pixel/state or WCAG certification",
+  "contrast": [
+    {
+      "purpose": "shopping",
+      "name": "body",
+      "foreground": "#302721",
+      "background": "#ffffff",
+      "ratio": 14.605,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "metadata",
+      "foreground": "#71625b",
+      "background": "#ffffff",
+      "ratio": 5.833,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "primary",
+      "foreground": "#ffffff",
+      "background": "#93472e",
+      "ratio": 6.601,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "primaryHover",
+      "foreground": "#ffffff",
+      "background": "#763822",
+      "ratio": 8.902,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "secondary",
+      "foreground": "#6c3b29",
+      "background": "#ffffff",
+      "ratio": 9.149,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "secondaryHover",
+      "foreground": "#6c3b29",
+      "background": "#f6f7f8",
+      "ratio": 8.53,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "success",
+      "foreground": "#24633e",
+      "background": "#ffffff",
+      "ratio": 7.169,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "error",
+      "foreground": "#a12636",
+      "background": "#ffffff",
+      "ratio": 7.379,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "destructive",
+      "foreground": "#9b2837",
+      "background": "#ffffff",
+      "ratio": 7.63,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "destructiveHover",
+      "foreground": "#9b2837",
+      "background": "#fff3f4",
+      "ratio": 7.041,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "selectedText",
+      "foreground": "#302721",
+      "background": "#fbf5f1",
+      "ratio": 13.515,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "focusOnWhite",
+      "foreground": "#a4573b",
+      "background": "#ffffff",
+      "ratio": 5.244,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "controlBoundary",
+      "foreground": "#948176",
+      "background": "#ffffff",
+      "ratio": 3.71,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "selectedBoundary",
+      "foreground": "#93472e",
+      "background": "#fbf5f1",
+      "ratio": 6.108,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "shopping",
+      "name": "disabledText",
+      "foreground": "#666d75",
+      "background": "#f0f1f2",
+      "ratio": 4.632,
+      "review_threshold": 0,
+      "passed": true,
+      "exception": "No threshold asserted for disabled controls"
+    },
+    {
+      "purpose": "information",
+      "name": "body",
+      "foreground": "#282d2a",
+      "background": "#ffffff",
+      "ratio": 14.009,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "metadata",
+      "foreground": "#5f6c64",
+      "background": "#ffffff",
+      "ratio": 5.504,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "primary",
+      "foreground": "#ffffff",
+      "background": "#333d3a",
+      "ratio": 11.234,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "primaryHover",
+      "foreground": "#ffffff",
+      "background": "#192420",
+      "ratio": 15.975,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "secondary",
+      "foreground": "#344c3f",
+      "background": "#ffffff",
+      "ratio": 9.327,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "secondaryHover",
+      "foreground": "#344c3f",
+      "background": "#f6f7f8",
+      "ratio": 8.695,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "success",
+      "foreground": "#24633e",
+      "background": "#ffffff",
+      "ratio": 7.169,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "error",
+      "foreground": "#a12636",
+      "background": "#ffffff",
+      "ratio": 7.379,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "destructive",
+      "foreground": "#9b2837",
+      "background": "#ffffff",
+      "ratio": 7.63,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "destructiveHover",
+      "foreground": "#9b2837",
+      "background": "#fff3f4",
+      "ratio": 7.041,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "selectedText",
+      "foreground": "#282d2a",
+      "background": "#f3f6f3",
+      "ratio": 12.867,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "focusOnWhite",
+      "foreground": "#526c61",
+      "background": "#ffffff",
+      "ratio": 5.712,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "controlBoundary",
+      "foreground": "#7f8d82",
+      "background": "#ffffff",
+      "ratio": 3.48,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "selectedBoundary",
+      "foreground": "#333d3a",
+      "background": "#f3f6f3",
+      "ratio": 10.318,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "information",
+      "name": "disabledText",
+      "foreground": "#666d75",
+      "background": "#f0f1f2",
+      "ratio": 4.632,
+      "review_threshold": 0,
+      "passed": true,
+      "exception": "No threshold asserted for disabled controls"
+    },
+    {
+      "purpose": "course",
+      "name": "body",
+      "foreground": "#2d2531",
+      "background": "#ffffff",
+      "ratio": 14.783,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "metadata",
+      "foreground": "#6d6172",
+      "background": "#ffffff",
+      "ratio": 5.828,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "primary",
+      "foreground": "#ffffff",
+      "background": "#653d72",
+      "ratio": 8.523,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "primaryHover",
+      "foreground": "#ffffff",
+      "background": "#4f2c5d",
+      "ratio": 11.347,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "secondary",
+      "foreground": "#573463",
+      "background": "#ffffff",
+      "ratio": 10.113,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "secondaryHover",
+      "foreground": "#573463",
+      "background": "#f6f7f8",
+      "ratio": 9.428,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "success",
+      "foreground": "#24633e",
+      "background": "#ffffff",
+      "ratio": 7.169,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "error",
+      "foreground": "#a12636",
+      "background": "#ffffff",
+      "ratio": 7.379,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "destructive",
+      "foreground": "#9b2837",
+      "background": "#ffffff",
+      "ratio": 7.63,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "destructiveHover",
+      "foreground": "#9b2837",
+      "background": "#fff3f4",
+      "ratio": 7.041,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "selectedText",
+      "foreground": "#2d2531",
+      "background": "#f8f4fa",
+      "ratio": 13.595,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "focusOnWhite",
+      "foreground": "#815592",
+      "background": "#ffffff",
+      "ratio": 5.757,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "controlBoundary",
+      "foreground": "#8c7d93",
+      "background": "#ffffff",
+      "ratio": 3.839,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "selectedBoundary",
+      "foreground": "#653d72",
+      "background": "#f8f4fa",
+      "ratio": 7.838,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "course",
+      "name": "disabledText",
+      "foreground": "#666d75",
+      "background": "#f0f1f2",
+      "ratio": 4.632,
+      "review_threshold": 0,
+      "passed": true,
+      "exception": "No threshold asserted for disabled controls"
+    },
+    {
+      "purpose": "community",
+      "name": "body",
+      "foreground": "#252b27",
+      "background": "#ffffff",
+      "ratio": 14.448,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "metadata",
+      "foreground": "#616b63",
+      "background": "#ffffff",
+      "ratio": 5.539,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "primary",
+      "foreground": "#ffffff",
+      "background": "#244f3d",
+      "ratio": 9.289,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "primaryHover",
+      "foreground": "#ffffff",
+      "background": "#18372a",
+      "ratio": 12.973,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "secondary",
+      "foreground": "#315441",
+      "background": "#ffffff",
+      "ratio": 8.485,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "secondaryHover",
+      "foreground": "#315441",
+      "background": "#f6f7f8",
+      "ratio": 7.91,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "success",
+      "foreground": "#24633e",
+      "background": "#ffffff",
+      "ratio": 7.169,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "error",
+      "foreground": "#a12636",
+      "background": "#ffffff",
+      "ratio": 7.379,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "destructive",
+      "foreground": "#9b2837",
+      "background": "#ffffff",
+      "ratio": 7.63,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "destructiveHover",
+      "foreground": "#9b2837",
+      "background": "#fff3f4",
+      "ratio": 7.041,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "selectedText",
+      "foreground": "#252b27",
+      "background": "#f3f7f4",
+      "ratio": 13.362,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "focusOnWhite",
+      "foreground": "#376d55",
+      "background": "#ffffff",
+      "ratio": 6.033,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "controlBoundary",
+      "foreground": "#7f8980",
+      "background": "#ffffff",
+      "ratio": 3.625,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "selectedBoundary",
+      "foreground": "#244f3d",
+      "background": "#f3f7f4",
+      "ratio": 8.591,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "community",
+      "name": "disabledText",
+      "foreground": "#666d75",
+      "background": "#f0f1f2",
+      "ratio": 4.632,
+      "review_threshold": 0,
+      "passed": true,
+      "exception": "No threshold asserted for disabled controls"
+    },
+    {
+      "purpose": "work",
+      "name": "body",
+      "foreground": "#242b35",
+      "background": "#ffffff",
+      "ratio": 14.267,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "metadata",
+      "foreground": "#616a76",
+      "background": "#ffffff",
+      "ratio": 5.481,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "primary",
+      "foreground": "#ffffff",
+      "background": "#252b36",
+      "ratio": 14.213,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "primaryHover",
+      "foreground": "#ffffff",
+      "background": "#101722",
+      "ratio": 17.984,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "secondary",
+      "foreground": "#252b36",
+      "background": "#ffffff",
+      "ratio": 14.213,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "secondaryHover",
+      "foreground": "#252b36",
+      "background": "#f6f7f8",
+      "ratio": 13.251,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "success",
+      "foreground": "#24633e",
+      "background": "#ffffff",
+      "ratio": 7.169,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "error",
+      "foreground": "#a12636",
+      "background": "#ffffff",
+      "ratio": 7.379,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "destructive",
+      "foreground": "#9b2837",
+      "background": "#ffffff",
+      "ratio": 7.63,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "destructiveHover",
+      "foreground": "#9b2837",
+      "background": "#fff3f4",
+      "ratio": 7.041,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "selectedText",
+      "foreground": "#242b35",
+      "background": "#f3f5f8",
+      "ratio": 13.062,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "focusOnWhite",
+      "foreground": "#425773",
+      "background": "#ffffff",
+      "ratio": 7.388,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "controlBoundary",
+      "foreground": "#7b8493",
+      "background": "#ffffff",
+      "ratio": 3.774,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "selectedBoundary",
+      "foreground": "#252b36",
+      "background": "#f3f5f8",
+      "ratio": 13.014,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "work",
+      "name": "disabledText",
+      "foreground": "#666d75",
+      "background": "#f0f1f2",
+      "ratio": 4.632,
+      "review_threshold": 0,
+      "passed": true,
+      "exception": "No threshold asserted for disabled controls"
+    },
+    {
+      "purpose": "booking",
+      "name": "body",
+      "foreground": "#243039",
+      "background": "#ffffff",
+      "ratio": 13.489,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "metadata",
+      "foreground": "#5e6e78",
+      "background": "#ffffff",
+      "ratio": 5.28,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "primary",
+      "foreground": "#ffffff",
+      "background": "#24556a",
+      "ratio": 8.132,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "primaryHover",
+      "foreground": "#ffffff",
+      "background": "#173e50",
+      "ratio": 11.405,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "secondary",
+      "foreground": "#244d60",
+      "background": "#ffffff",
+      "ratio": 9.109,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "secondaryHover",
+      "foreground": "#244d60",
+      "background": "#f6f7f8",
+      "ratio": 8.492,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "success",
+      "foreground": "#24633e",
+      "background": "#ffffff",
+      "ratio": 7.169,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "error",
+      "foreground": "#a12636",
+      "background": "#ffffff",
+      "ratio": 7.379,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "destructive",
+      "foreground": "#9b2837",
+      "background": "#ffffff",
+      "ratio": 7.63,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "destructiveHover",
+      "foreground": "#9b2837",
+      "background": "#fff3f4",
+      "ratio": 7.041,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "selectedText",
+      "foreground": "#243039",
+      "background": "#f1f6f8",
+      "ratio": 12.382,
+      "review_threshold": 4.5,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "focusOnWhite",
+      "foreground": "#366d84",
+      "background": "#ffffff",
+      "ratio": 5.71,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "controlBoundary",
+      "foreground": "#7a8b95",
+      "background": "#ffffff",
+      "ratio": 3.527,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "selectedBoundary",
+      "foreground": "#24556a",
+      "background": "#f1f6f8",
+      "ratio": 7.465,
+      "review_threshold": 3,
+      "passed": true,
+      "exception": null
+    },
+    {
+      "purpose": "booking",
+      "name": "disabledText",
+      "foreground": "#666d75",
+      "background": "#f0f1f2",
+      "ratio": 4.632,
+      "review_threshold": 0,
+      "passed": true,
+      "exception": "No threshold asserted for disabled controls"
+    }
+  ]
+}
