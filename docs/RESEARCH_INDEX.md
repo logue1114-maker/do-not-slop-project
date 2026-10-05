@@ -55,6 +55,12 @@ The [palette package](../research/white_surface_palettes_v1/README.md) contains 
 
 Desktop captures use 1165 × 747 outer frames; the narrow order capture uses 390 × 844 with 375px document width. Captures show initial states, not every interaction or full page. Full keyboard traversal, screen-reader, native-phone, 200% zoom, and complete console audit remain unrun. User approval and measured usability are unestablished. Green remains an available action color.
 
+## Five game interface presets
+
+The [English gallery](../research/game_interface_presets_v1/README.md) contains five distinct functional slices: RPG inventory/equipment, card selection/play/end turn, crate puzzle move/undo/retry, strategy select/preview/confirm/cancel and action movement HUD/pause/cooldown/retry. [Presets](../research/game_interface_presets_v1/presets.json) contain design/flow instructions; [functional requirements and data](../research/game_interface_presets_v1/functional-fixtures.json) exclude specific design direction for possible later matched requests.
+
+[Desktop](../research/game_interface_presets_v1/contact-sheet-desktop.png) and [narrow](../research/game_interface_presets_v1/contact-sheet-narrow.png) contact sheets show retained original captures. [Browser checks and limits](../research/game_interface_presets_v1/BROWSER_REPORT.md) and [first-pass repairs](../research/game_interface_presets_v1/REPAIR_LOG.md) distinguish implementation evidence from unrun phone/controller/screen-reader/usability tests. This is an authored/guided demonstration, not an experiment or approved final design; the [honest protocol](HONEST_COMPARISONS.md) remains unchanged.
+
 ## Run and check
 
 From the repository root, serve the files locally:
@@ -70,6 +76,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | CP01 initial guided output | http://127.0.0.1:8765/research/instruction_trial_01/beta/ |
 | CP01 final guide-v2 iteration | http://127.0.0.1:8765/research/instruction_trial_02/implementation/ |
 | White-surface palette explorer | http://127.0.0.1:8765/research/white_surface_palettes_v1/ |
+| Five game interface presets | http://127.0.0.1:8765/research/game_interface_presets_v1/ |
 | Fleet command | http://127.0.0.1:8765/research/strategy_controls_oct4/demo/ |
 | Booking change | http://127.0.0.1:8765/research/booking_flows_oct4/demo/ |
 | Learning layout | http://127.0.0.1:8765/research/comparison_assets/learning_layout/same_fixture_learning.html |

@@ -1,0 +1,881 @@
+{
+  "schema_version": "1.0",
+  "language": "en",
+  "proposal_date": "2026-10-04",
+  "reference_commit": "bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e",
+  "preset_count": 5,
+  "presets": [
+    {
+      "scope": "Original synthetic UI/flow prototype; all values are proposals for this example, not genre standards or compliance claims.",
+      "entry": "Choose genre in gallery. Focus enters prototype. Session state survives genre switches; reload begins a fresh session.",
+      "input": {
+        "navigation": "Native Tab/Shift+Tab; Enter/Space activate focused native buttons. No wrapping imposed on browser Tab.",
+        "pointer": "Native buttons and labeled map cells; no drag gesture required.",
+        "mobile": "Visible direct selection and movement controls. No native-phone claim.",
+        "controller": "Not implemented or tested."
+      },
+      "layout_contract": {
+        "desktop": {
+          "viewport_css": [
+            1165,
+            747
+          ],
+          "shell_inset": 24,
+          "stage_padding": 24
+        },
+        "narrow": {
+          "viewport_css": [
+            390,
+            844
+          ],
+          "shell_inset": 16,
+          "stage_padding": 16,
+          "safe_area": "16px + env(safe-area-inset-bottom) outer bottom padding; no fixed footer",
+          "minimum_control_height": 46
+        },
+        "notes": "Coordinates are authoring proposals in page CSS pixels. See render-geometry.json for actual measured bounds. 44/46/48px buttons and 56px marks are chosen here, not a universal WCAG requirement."
+      },
+      "states": {
+        "input_focus": "3px visible outline with 3px offset; follows native keyboard focus. Does not imply selection.",
+        "pressed": "1px downward transform while actively pressed; hitbox retains layout bounds. Suppressed with reduced motion.",
+        "hover": "Enabled controls only; changes face or rim without rearranging siblings.",
+        "destructive": "Reset current genre clears that local fixture and history. No account, economy, item sale or hold-to-confirm action.",
+        "error": "Concrete blocked reason and reachable correction; no network failure simulation."
+      },
+      "verification_boundary": "Browser viewport/input checks only. Native phone, controller, screen-reader and participant usability are not run.",
+      "genre": "rpg",
+      "id": "GAME:RPG:FEN:01",
+      "title": "Fen outpost",
+      "primary_flow": [
+        "Outpost",
+        "Inventory",
+        "Select blade",
+        "Compare current/candidate",
+        "Equip",
+        "Return to outpost"
+      ],
+      "entry_state": {
+        "view": "camp",
+        "rank": 2,
+        "equipped": "reed",
+        "candidate": "brass"
+      },
+      "back_cancel_escape": "Return/Escape closes inventory and focuses Inventory. Equipment remains committed; selected candidate remains available on reopening.",
+      "blocked_error_recovery": [
+        {
+          "when": "Anchor blade selected at rank 2",
+          "visible": "Requires rank 3. Choose an available blade.",
+          "blocked_action": "Equip",
+          "recovery": "Select Reed or Brass blade"
+        },
+        {
+          "when": "Candidate is already equipped",
+          "visible": "Already equipped.",
+          "blocked_action": "Equip",
+          "recovery": "Choose another available blade"
+        }
+      ],
+      "hierarchy": [
+        "Place and rank",
+        "Equipped item or inventory list",
+        "Current/candidate attributes with signed differences",
+        "Equip and Return",
+        "Session reset"
+      ],
+      "world_context": "Muted fen-green canvas and brass equipment action; serif headings and square restrained edges suggest a field equipment ledger. Original tent diagram provides outpost context without licensed art.",
+      "geometry_proposals": {
+        "desktop": {
+          "inventory": [
+            49,
+            225,
+            1067,
+            275
+          ],
+          "list_columns": 1,
+          "comparison_columns": 2,
+          "control_height": 46,
+          "heading_px": 28
+        },
+        "narrow": {
+          "inventory": [
+            33,
+            239,
+            324,
+            350
+          ],
+          "list_columns": 3,
+          "item_min_height": 108,
+          "comparison_columns": 2,
+          "control_height": 46,
+          "heading_px": 25
+        }
+      },
+      "roles": {
+        "primary": "Equip, or Inventory in camp",
+        "secondary": "Return; item selection controls",
+        "selected": "Candidate item face + Selected text + aria-pressed",
+        "cooldown": "Not applicable; no timing mechanics",
+        "destructive": "Reset RPG utility only; text #ffb2a3",
+        "disabled": "Fill #35413c, label #b8bdb0 and nearby blocked reason",
+        "hover": "Primary #f0cc8e; secondary #3a4740",
+        "focus": "3px #c6e1ff ring with 3px offset",
+        "pressed": "1px transient offset; no committed selection implication"
+      },
+      "shortcuts": {
+        "I": "Open inventory from camp",
+        "1–3": "Select item in inventory",
+        "Escape": "Return"
+      },
+      "ai_instructions": [
+        "Build camp and inventory as separate states. Do not add shopping, currency, quest panels or an equip confirmation.",
+        "Use exact item fixture: Reed power 8 guard 2 rank 1; Brass power 12 guard 1 rank 2; Anchor power 18 guard 5 rank 3. Player rank remains 2.",
+        "Compare current and candidate in matching columns. Show signed deltas for Power and Guard even when zero.",
+        "Selecting changes only candidate. Equip changes only equipped ID; repeated equip cannot consume an item or duplicate a result.",
+        "Use brass only for primary equipment actions and stat deltas. Keep requirements in written text beside Equip. Return to camp must show equipped values."
+      ],
+      "gates": [
+        "Open→select→equip→Return→reopen retains equipment and candidate",
+        "Unavailable item never equips",
+        "Selecting does not change equipped ID",
+        "Repeated equip is idempotent",
+        "Escape restores Inventory focus; reset restores rank/item fixture"
+      ],
+      "tokens": {
+        "canvas": "#1d2524",
+        "surface": "#293330",
+        "text": "#f3ecdd",
+        "muted": "#c3c5b7",
+        "border": "#586559",
+        "controlBorder": "#9b9b82",
+        "primary": "#e3bb73",
+        "primaryText": "#252923",
+        "hover": "#f0cc8e",
+        "secondaryHover": "#3a4740",
+        "selected": "#3c4633",
+        "disabled": "#35413c",
+        "disabledText": "#b8bdb0",
+        "destructive": "#ffb2a3",
+        "focus": "#c6e1ff",
+        "radius": 2,
+        "type": "System sans labels; Georgia serif section titles"
+      }
+    },
+    {
+      "scope": "Original synthetic UI/flow prototype; all values are proposals for this example, not genre standards or compliance claims.",
+      "entry": "Choose genre in gallery. Focus enters prototype. Session state survives genre switches; reload begins a fresh session.",
+      "input": {
+        "navigation": "Native Tab/Shift+Tab; Enter/Space activate focused native buttons. No wrapping imposed on browser Tab.",
+        "pointer": "Native buttons and labeled map cells; no drag gesture required.",
+        "mobile": "Visible direct selection and movement controls. No native-phone claim.",
+        "controller": "Not implemented or tested."
+      },
+      "layout_contract": {
+        "desktop": {
+          "viewport_css": [
+            1165,
+            747
+          ],
+          "shell_inset": 24,
+          "stage_padding": 24
+        },
+        "narrow": {
+          "viewport_css": [
+            390,
+            844
+          ],
+          "shell_inset": 16,
+          "stage_padding": 16,
+          "safe_area": "16px + env(safe-area-inset-bottom) outer bottom padding; no fixed footer",
+          "minimum_control_height": 46
+        },
+        "notes": "Coordinates are authoring proposals in page CSS pixels. See render-geometry.json for actual measured bounds. 44/46/48px buttons and 56px marks are chosen here, not a universal WCAG requirement."
+      },
+      "states": {
+        "input_focus": "3px visible outline with 3px offset; follows native keyboard focus. Does not imply selection.",
+        "pressed": "1px downward transform while actively pressed; hitbox retains layout bounds. Suppressed with reduced motion.",
+        "hover": "Enabled controls only; changes face or rim without rearranging siblings.",
+        "destructive": "Reset current genre clears that local fixture and history. No account, economy, item sale or hold-to-confirm action.",
+        "error": "Concrete blocked reason and reachable correction; no network failure simulation."
+      },
+      "verification_boundary": "Browser viewport/input checks only. Native phone, controller, screen-reader and participant usability are not run.",
+      "genre": "card",
+      "id": "GAME:CARD:GLASS:01",
+      "title": "Glass sentinel",
+      "primary_flow": [
+        "Local duel",
+        "Select card",
+        "Check energy and effect",
+        "Play card",
+        "End turn",
+        "Repeat or retry"
+      ],
+      "entry_state": {
+        "turn": 1,
+        "health": 10,
+        "enemy_health": 12,
+        "energy": 3,
+        "shield": 0,
+        "hand": [
+          "cut",
+          "guard",
+          "focus",
+          "burst"
+        ]
+      },
+      "back_cancel_escape": "Escape clears selection only. No turn or card is consumed. Gallery switching retains duel state.",
+      "blocked_error_recovery": [
+        {
+          "when": "Burst costs 4 but energy is 3",
+          "visible": "Needs 4 energy. Use Focus or choose another card.",
+          "blocked_action": "Play Burst",
+          "recovery": "Play Focus to gain 1 energy, then select Burst"
+        },
+        {
+          "when": "Card already used this turn",
+          "visible": "Already played this turn.",
+          "blocked_action": "Play selected card",
+          "recovery": "Select another card or End turn"
+        },
+        {
+          "when": "Health or enemy health reaches 0",
+          "visible": "Duel lost / Sentinel defeated",
+          "blocked_action": "Play and End turn",
+          "recovery": "Retry duel"
+        }
+      ],
+      "hierarchy": [
+        "Opponent and turn",
+        "Both health values, shield, energy and next attack",
+        "Hand with cost/effect",
+        "Play selected card; End turn",
+        "Reset"
+      ],
+      "world_context": "Dark plum table with pale paper card faces keeps the local duel and readable card costs central. A geometric glass sigil is an authored symbol, not game art. Card selection border differs from the cyan focus ring.",
+      "geometry_proposals": {
+        "desktop": {
+          "duel": [
+            61,
+            225,
+            1043,
+            87
+          ],
+          "hand_columns": 4,
+          "card_min_height": 196,
+          "control_height": 46
+        },
+        "narrow": {
+          "duel": [
+            33,
+            239,
+            324,
+            75
+          ],
+          "hand_columns": 2,
+          "card_min_height": 142,
+          "card_gap": 10,
+          "control_height": 46
+        }
+      },
+      "roles": {
+        "primary": "Play selected card, replaced by Retry duel after result",
+        "secondary": "End turn; selectable card faces",
+        "selected": "Gold card boundary, Selected text and aria-pressed",
+        "cooldown": "Not applicable; played-this-turn lock uses dashed face and written state",
+        "destructive": "Reset Card utility only; text #ffc2b9",
+        "disabled": "Fill #453e54, label #c6bdcd and nearby blocked reason",
+        "hover": "Primary #f7e6b7; secondary #49405e",
+        "focus": "3px #9de4ef ring with 3px offset",
+        "pressed": "1px transient offset; no committed selection implication"
+      },
+      "shortcuts": {
+        "1–4": "Select card",
+        "P": "Play selected card",
+        "T": "End turn",
+        "Escape": "Clear selection"
+      },
+      "ai_instructions": [
+        "Use Cut cost 2 damage 6, Guard cost 1 shield 4, Focus cost 0 energy +1, Burst cost 4 damage 10. These are synthetic rules, not balance claims.",
+        "Selection spends nothing. Play spends cost once, applies effect once and adds one used ID. Do not implement drag-only card play.",
+        "End turn applies max(0,3-shield) damage, clears shield, restores energy to 3 and resets used cards only when health remains above zero.",
+        "Keep card cost, effect, health, energy and next attack visible before committing. Retain played cards as inspectable faces marked Played this turn.",
+        "End result replaces Play with Retry; retry returns exact initial state. Do not invent network readiness or hidden opponent resources."
+      ],
+      "gates": [
+        "Selection changes no resources",
+        "Focus then Burst consumes exactly 4 energy and deals 10 damage",
+        "Played card cannot resolve twice",
+        "Guard absorbs exactly the next attack up to its shield",
+        "Loss/win blocks further resolution; retry restores fixture"
+      ],
+      "tokens": {
+        "canvas": "#252139",
+        "surface": "#353049",
+        "text": "#f7f2e9",
+        "muted": "#c9c4d4",
+        "border": "#676075",
+        "controlBorder": "#a59baa",
+        "primary": "#ecd797",
+        "primaryText": "#2c2337",
+        "hover": "#f7e6b7",
+        "secondaryHover": "#49405e",
+        "selected": "#4a3a53",
+        "disabled": "#453e54",
+        "disabledText": "#c6bdcd",
+        "destructive": "#ffc2b9",
+        "focus": "#9de4ef",
+        "radius": 9,
+        "type": "System sans resources; Georgia serif title/card names"
+      }
+    },
+    {
+      "scope": "Original synthetic UI/flow prototype; all values are proposals for this example, not genre standards or compliance claims.",
+      "entry": "Choose genre in gallery. Focus enters prototype. Session state survives genre switches; reload begins a fresh session.",
+      "input": {
+        "navigation": "Native Tab/Shift+Tab; Enter/Space activate focused native buttons. No wrapping imposed on browser Tab.",
+        "pointer": "Native buttons and labeled map cells; no drag gesture required.",
+        "mobile": "Visible direct selection and movement controls. No native-phone claim.",
+        "controller": "Not implemented or tested."
+      },
+      "layout_contract": {
+        "desktop": {
+          "viewport_css": [
+            1165,
+            747
+          ],
+          "shell_inset": 24,
+          "stage_padding": 24
+        },
+        "narrow": {
+          "viewport_css": [
+            390,
+            844
+          ],
+          "shell_inset": 16,
+          "stage_padding": 16,
+          "safe_area": "16px + env(safe-area-inset-bottom) outer bottom padding; no fixed footer",
+          "minimum_control_height": 46
+        },
+        "notes": "Coordinates are authoring proposals in page CSS pixels. See render-geometry.json for actual measured bounds. 44/46/48px buttons and 56px marks are chosen here, not a universal WCAG requirement."
+      },
+      "states": {
+        "input_focus": "3px visible outline with 3px offset; follows native keyboard focus. Does not imply selection.",
+        "pressed": "1px downward transform while actively pressed; hitbox retains layout bounds. Suppressed with reduced motion.",
+        "hover": "Enabled controls only; changes face or rim without rearranging siblings.",
+        "destructive": "Reset current genre clears that local fixture and history. No account, economy, item sale or hold-to-confirm action.",
+        "error": "Concrete blocked reason and reachable correction; no network failure simulation."
+      },
+      "verification_boundary": "Browser viewport/input checks only. Native phone, controller, screen-reader and participant usability are not run.",
+      "genre": "puzzle",
+      "id": "GAME:PUZZLE:CRATE:01",
+      "title": "Room 01",
+      "primary_flow": [
+        "Room",
+        "Move/push",
+        "Blocked or updated board",
+        "Undo previous move or retry",
+        "Target reached"
+      ],
+      "entry_state": {
+        "board_size": [
+          6,
+          6
+        ],
+        "player": [
+          1,
+          3
+        ],
+        "crate": [
+          2,
+          3
+        ],
+        "goal": [
+          4,
+          2
+        ],
+        "extra_wall": [
+          2,
+          2
+        ],
+        "moves": 0
+      },
+      "back_cancel_escape": "No stacked gameplay menu; gallery switches retain board/history. Undo reverses one committed move. Escape has no puzzle binding.",
+      "blocked_error_recovery": [
+        {
+          "when": "Movement or push enters a wall",
+          "visible": "Blocked by a wall / crate cannot move into a wall",
+          "blocked_action": "That movement",
+          "recovery": "Try another direction or Undo"
+        },
+        {
+          "when": "No move history",
+          "visible": "Undo disabled",
+          "blocked_action": "Undo",
+          "recovery": "Make a valid move"
+        },
+        {
+          "when": "Crate reaches target",
+          "visible": "Solved in N moves",
+          "blocked_action": "Further movement",
+          "recovery": "Undo or Retry room"
+        }
+      ],
+      "hierarchy": [
+        "Room and move count",
+        "Board with player/crate/target shapes",
+        "Directional controls",
+        "Undo and Retry room",
+        "Reset"
+      ],
+      "world_context": "Warm paper floor, dark masonry edges, round blue player and square clay crate make collision roles distinct by silhouette. Soft corners apply to controls, while board geometry stays exact.",
+      "geometry_proposals": {
+        "desktop": {
+          "board_max_size": [
+            366,
+            366
+          ],
+          "tools_width": 280,
+          "dpad_target": [
+            48,
+            48
+          ],
+          "dpad_gap": 6,
+          "board_position": "Left-centered; tools on right"
+        },
+        "narrow": {
+          "board_max_size": [
+            310,
+            310
+          ],
+          "dpad_target": [
+            48,
+            48
+          ],
+          "board_position": "Above directional controls; Undo/Retry beside controls",
+          "heading_px": 25
+        }
+      },
+      "roles": {
+        "primary": "Retry room; movement is the main repeated action via dpad/keys",
+        "secondary": "Directional controls and Undo",
+        "selected": "Not applicable to board; current player uses circle and coordinate state",
+        "cooldown": "Not applicable; movement is immediate",
+        "destructive": "Reset Puzzle utility only; text #913f32",
+        "disabled": "Fill #ece5da, label #666259 and nearby blocked reason",
+        "hover": "Primary #813423; secondary #efe7da",
+        "focus": "3px #2056b8 ring with 3px offset",
+        "pressed": "1px transient offset; no committed selection implication"
+      },
+      "shortcuts": {
+        "Arrows": "Move",
+        "U": "Undo",
+        "R": "Retry room"
+      },
+      "ai_instructions": [
+        "Build a 6×6 board with boundary walls, one internal wall at 2,2, player 1,3, crate 2,3 and target 4,2; coordinates are zero based.",
+        "Commit a history snapshot only for valid movement. A blocked move cannot change player, crate or count.",
+        "Push only if the next crate cell is free. Do not let player or crate pass through a wall.",
+        "Undo restores both positions, count and solved state. Retry clears all history and restores the fixture.",
+        "Keep directional buttons and Undo/Retry visible below or beside the board at narrow width. Show target using dashed shape, not hue alone."
+      ],
+      "gates": [
+        "Right Right Down Right Up solves naturally in 5 moves",
+        "Blocked move changes no positions/count/history",
+        "Undo after solve restores unsolved board and count 4",
+        "Retry restores board and clears undo history",
+        "Keyboard and visible dpad produce identical transitions"
+      ],
+      "tokens": {
+        "canvas": "#faf6ee",
+        "surface": "#fffdf8",
+        "text": "#282a32",
+        "muted": "#5e626c",
+        "border": "#ccc4b7",
+        "controlBorder": "#8c847a",
+        "primary": "#9f422e",
+        "primaryText": "#ffffff",
+        "hover": "#813423",
+        "secondaryHover": "#efe7da",
+        "selected": "#eaddc9",
+        "disabled": "#ece5da",
+        "disabledText": "#666259",
+        "destructive": "#913f32",
+        "focus": "#2056b8",
+        "radius": 10,
+        "type": "System sans throughout"
+      }
+    },
+    {
+      "scope": "Original synthetic UI/flow prototype; all values are proposals for this example, not genre standards or compliance claims.",
+      "entry": "Choose genre in gallery. Focus enters prototype. Session state survives genre switches; reload begins a fresh session.",
+      "input": {
+        "navigation": "Native Tab/Shift+Tab; Enter/Space activate focused native buttons. No wrapping imposed on browser Tab.",
+        "pointer": "Native buttons and labeled map cells; no drag gesture required.",
+        "mobile": "Visible direct selection and movement controls. No native-phone claim.",
+        "controller": "Not implemented or tested."
+      },
+      "layout_contract": {
+        "desktop": {
+          "viewport_css": [
+            1165,
+            747
+          ],
+          "shell_inset": 24,
+          "stage_padding": 24
+        },
+        "narrow": {
+          "viewport_css": [
+            390,
+            844
+          ],
+          "shell_inset": 16,
+          "stage_padding": 16,
+          "safe_area": "16px + env(safe-area-inset-bottom) outer bottom padding; no fixed footer",
+          "minimum_control_height": 46
+        },
+        "notes": "Coordinates are authoring proposals in page CSS pixels. See render-geometry.json for actual measured bounds. 44/46/48px buttons and 56px marks are chosen here, not a universal WCAG requirement."
+      },
+      "states": {
+        "input_focus": "3px visible outline with 3px offset; follows native keyboard focus. Does not imply selection.",
+        "pressed": "1px downward transform while actively pressed; hitbox retains layout bounds. Suppressed with reduced motion.",
+        "hover": "Enabled controls only; changes face or rim without rearranging siblings.",
+        "destructive": "Reset current genre clears that local fixture and history. No account, economy, item sale or hold-to-confirm action.",
+        "error": "Concrete blocked reason and reachable correction; no network failure simulation."
+      },
+      "verification_boundary": "Browser viewport/input checks only. Native phone, controller, screen-reader and participant usability are not run.",
+      "genre": "strategy",
+      "id": "GAME:STRATEGY:DELTA:01",
+      "title": "Delta crossing",
+      "primary_flow": [
+        "Map",
+        "Select unit",
+        "Choose open target",
+        "Inspect dashed preview",
+        "Confirm order or Cancel preview"
+      ],
+      "entry_state": {
+        "map_size": [
+          9,
+          5
+        ],
+        "units": [
+          {
+            "id": "A",
+            "position": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "B",
+            "position": [
+              1,
+              3
+            ]
+          }
+        ],
+        "water": [
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "orders": 0
+      },
+      "back_cancel_escape": "Escape/Cancel discards preview, preserves selection and last committed order. Focus returns to selected unit if Confirm/Cancel becomes disabled.",
+      "blocked_error_recovery": [
+        {
+          "when": "Target selected before unit",
+          "visible": "Select a unit before choosing a target.",
+          "blocked_action": "Confirm order",
+          "recovery": "Select A or B"
+        },
+        {
+          "when": "Water selected",
+          "visible": "Water is blocked. Choose open ground.",
+          "blocked_action": "Confirm order",
+          "recovery": "Choose open ground"
+        },
+        {
+          "when": "No preview",
+          "visible": "No pending order.",
+          "blocked_action": "Confirm and Cancel preview",
+          "recovery": "Select unit and open target"
+        }
+      ],
+      "hierarchy": [
+        "Operation title and order count",
+        "Map with units and terrain",
+        "Contextual selection/target inspector",
+        "Confirm/Cancel",
+        "Last order and reset"
+      ],
+      "world_context": "Olive field map, squared beveled controls and compact inspector support spatial targeting. Gold dashed previews and solid committed lines express distinct command boundaries; focus remains blue.",
+      "geometry_proposals": {
+        "desktop": {
+          "map_columns": 9,
+          "map_rows": 5,
+          "inspector_width": 275,
+          "map_aspect": "9/5",
+          "control_height": 46
+        },
+        "narrow": {
+          "map_columns": 9,
+          "cell_size_approx": 35.6,
+          "inspector_position": "Below map; full selection/target rows; paired Confirm/Cancel",
+          "control_height": 46
+        }
+      },
+      "roles": {
+        "primary": "Confirm order",
+        "secondary": "Cancel preview; map and unit targets",
+        "selected": "Unit inset border + inspector unit name + aria-pressed",
+        "cooldown": "Not applicable; no movement simulation",
+        "destructive": "Reset Strategy utility only; text #ffc1af",
+        "disabled": "Fill #3d443d, label #b3bbaa and nearby blocked reason",
+        "hover": "Primary #cbdc9e; secondary #48513f",
+        "focus": "3px #b9d9ff ring with 3px offset",
+        "pressed": "1px transient offset; no committed selection implication"
+      },
+      "shortcuts": {
+        "1": "Select Surveyor A",
+        "2": "Select Rover B",
+        "Escape": "Cancel preview"
+      },
+      "ai_instructions": [
+        "Use the original 9×5 fixed map and exact unit/water fixture. Commands record orders; units do not animate or move.",
+        "Selection issues no order. Clicking open ground with selection creates only a pending target. Water clears pending target and explains recovery.",
+        "Dashed line and Preview label represent pending command. Solid line and Last order text represent committed command.",
+        "Confirm appends exactly one local order count and clears pending target. Cancel preserves prior order and selected unit.",
+        "Keep HUD outside map hitboxes and svg vectors pointer-events:none. Browser Tab traverses native map cells without controller wrap behavior."
+      ],
+      "gates": [
+        "Selection and preview do not increment orders",
+        "Water cannot commit and clears stale preview",
+        "Cancel preserves unit and last committed target",
+        "Confirm once records exactly one order and clears preview",
+        "HUD clicks never become world targets; disabled footer action restores unit focus"
+      ],
+      "tokens": {
+        "canvas": "#262c29",
+        "surface": "#373f38",
+        "text": "#eef1e7",
+        "muted": "#c4cbbd",
+        "border": "#687066",
+        "controlBorder": "#99a18c",
+        "primary": "#b8ce82",
+        "primaryText": "#253020",
+        "hover": "#cbdc9e",
+        "secondaryHover": "#48513f",
+        "selected": "#4a543a",
+        "disabled": "#3d443d",
+        "disabledText": "#b3bbaa",
+        "destructive": "#ffc1af",
+        "focus": "#b9d9ff",
+        "radius": 0,
+        "type": "System sans; compact tabular coordinate rows"
+      }
+    },
+    {
+      "scope": "Original synthetic UI/flow prototype; all values are proposals for this example, not genre standards or compliance claims.",
+      "entry": "Choose genre in gallery. Focus enters prototype. Session state survives genre switches; reload begins a fresh session.",
+      "input": {
+        "navigation": "Native Tab/Shift+Tab; Enter/Space activate focused native buttons. No wrapping imposed on browser Tab.",
+        "pointer": "Native buttons and labeled map cells; no drag gesture required.",
+        "mobile": "Visible direct selection and movement controls. No native-phone claim.",
+        "controller": "Not implemented or tested."
+      },
+      "layout_contract": {
+        "desktop": {
+          "viewport_css": [
+            1165,
+            747
+          ],
+          "shell_inset": 24,
+          "stage_padding": 24
+        },
+        "narrow": {
+          "viewport_css": [
+            390,
+            844
+          ],
+          "shell_inset": 16,
+          "stage_padding": 16,
+          "safe_area": "16px + env(safe-area-inset-bottom) outer bottom padding; no fixed footer",
+          "minimum_control_height": 46
+        },
+        "notes": "Coordinates are authoring proposals in page CSS pixels. See render-geometry.json for actual measured bounds. 44/46/48px buttons and 56px marks are chosen here, not a universal WCAG requirement."
+      },
+      "states": {
+        "input_focus": "3px visible outline with 3px offset; follows native keyboard focus. Does not imply selection.",
+        "pressed": "1px downward transform while actively pressed; hitbox retains layout bounds. Suppressed with reduced motion.",
+        "hover": "Enabled controls only; changes face or rim without rearranging siblings.",
+        "destructive": "Reset current genre clears that local fixture and history. No account, economy, item sale or hold-to-confirm action.",
+        "error": "Concrete blocked reason and reachable correction; no network failure simulation."
+      },
+      "verification_boundary": "Browser viewport/input checks only. Native phone, controller, screen-reader and participant usability are not run.",
+      "genre": "action",
+      "id": "GAME:ACTION:RELAY:01",
+      "title": "Relay run",
+      "primary_flow": [
+        "Arena",
+        "Move toward sentries",
+        "Pulse within range",
+        "Wait for cooldown",
+        "Clear both sentries",
+        "Reach gate",
+        "Result or retry"
+      ],
+      "entry_state": {
+        "arena_size": [
+          11,
+          7
+        ],
+        "player": [
+          0,
+          3
+        ],
+        "sentries": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hazards": [
+          [
+            3,
+            2
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "gate": [
+          10,
+          3
+        ],
+        "health": 3,
+        "cooldown_ms": 0
+      },
+      "back_cancel_escape": "Pause/Escape opens native modal. Resume/Escape closes it and restores Pause focus. Gallery switching freezes cooldown for inactive action prototype.",
+      "blocked_error_recovery": [
+        {
+          "when": "Pulse recharging",
+          "visible": "Pulse · remaining seconds",
+          "blocked_action": "Pulse",
+          "recovery": "Wait 3 active, unpaused seconds"
+        },
+        {
+          "when": "Collision with sentry or hazard",
+          "visible": "Hit. Returned to the entry.",
+          "blocked_action": "That movement",
+          "recovery": "Health decrements by 1; move from entry"
+        },
+        {
+          "when": "Gate reached with remaining sentries",
+          "visible": "Gate blocked. Clear N sentries.",
+          "blocked_action": "Victory",
+          "recovery": "Move within pulse range and clear sentries"
+        },
+        {
+          "when": "Health reaches zero",
+          "visible": "Run lost. Retry to start again.",
+          "blocked_action": "Movement/Pulse/Pause",
+          "recovery": "Retry run"
+        }
+      ],
+      "hierarchy": [
+        "Title and Pause",
+        "Health and sentries cleared",
+        "Arena and gate/hazard marks",
+        "Movement controls and Pulse/cooldown",
+        "Status, reset and result retry"
+      ],
+      "world_context": "Compact cyan hardware HUD sits above a blue-black arena. Peach diamond sentries and striped hazards differ from circular player and barred gate. Local opaque backing preserves label contrast.",
+      "geometry_proposals": {
+        "desktop": {
+          "arena_max_width": 720,
+          "arena_aspect": "11/7",
+          "dpad_target": [
+            48,
+            48
+          ],
+          "pulse_width": 200,
+          "control_height": 46
+        },
+        "narrow": {
+          "arena_min_height": 248,
+          "arena_aspect": "11/9",
+          "dpad_target": [
+            44,
+            44
+          ],
+          "pulse_width": 140,
+          "control_height": 46,
+          "safe_area": "All controls in document flow; outer env safe-area inset"
+        }
+      },
+      "roles": {
+        "primary": "Pulse, replaced by Retry run at result",
+        "secondary": "Directional controls; Pause/Resume",
+        "selected": "No target selection; player is a persistent circular marker",
+        "cooldown": "Disabled Pulse with numeric seconds + fill bar; a 3000ms synthetic gameplay setting",
+        "destructive": "Reset Action utility only; text #ffb5a7",
+        "disabled": "Fill #304552, label #bdcbd1 and nearby blocked reason",
+        "hover": "Primary #a4edf6; secondary #2b4858",
+        "focus": "3px #f5d893 ring with 3px offset",
+        "pressed": "1px transient offset; no committed selection implication"
+      },
+      "shortcuts": {
+        "Arrows/WASD": "Move",
+        "Space": "Pulse from arena focus; focused native buttons retain normal Space activation",
+        "Escape": "Pause or Resume"
+      },
+      "ai_instructions": [
+        "Use exact 11×7 fixture. Movement is one cell per accepted input. Sentries are static; do not invent chasers or difficulty claims.",
+        "Pulse clears sentries at Manhattan distance ≤3. An empty pulse still starts 3000ms cooldown. Cooldown ticks only in active visible unpaused action screen.",
+        "Pause uses a native modal, stops movement and cooldown, and returns focus to Pause on Resume/Escape. Retry resets health, positions, sentries, result and cooldown.",
+        "Collision decrements health once and returns player to entry. At zero health block further gameplay and expose Retry. Gate completes only when both sentries are cleared.",
+        "Keep mobile dpad, Pulse, Pause and retry visible with no HUD/world overlap. Do not claim native phone, controller, game timing accessibility or latency certification."
+      ],
+      "gates": [
+        "Natural input path clears sentries and reaches gate",
+        "Pulse cannot resolve again during cooldown",
+        "Pause freezes both movement and cooldown; resume continues without time jump",
+        "Three sentry collisions produce loss; retry restores fixture",
+        "Cooldown freezes during gallery switch and document hidden; result blocks movement"
+      ],
+      "tokens": {
+        "canvas": "#101f2a",
+        "surface": "#1c3342",
+        "text": "#eef7f9",
+        "muted": "#bacbd4",
+        "border": "#537184",
+        "controlBorder": "#829dac",
+        "primary": "#83dfef",
+        "primaryText": "#0e2635",
+        "hover": "#a4edf6",
+        "secondaryHover": "#2b4858",
+        "selected": "#244b5a",
+        "disabled": "#304552",
+        "disabledText": "#bdcbd1",
+        "destructive": "#ffb5a7",
+        "focus": "#f5d893",
+        "radius": 3,
+        "type": "System sans; numeric health and cooldown readouts"
+      }
+    }
+  ]
+}

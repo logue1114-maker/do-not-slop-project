@@ -1,0 +1,2378 @@
+[
+  {
+    "genre": "rpg",
+    "state": "1165 default/preview",
+    "overflow": false,
+    "width": 1165,
+    "height": 747,
+    "main": {
+      "x": 24,
+      "y": 145,
+      "width": 1117,
+      "height": 528,
+      "bottom": 673
+    },
+    "elements": {
+      "#play": {
+        "x": 24,
+        "y": 145,
+        "width": 1117,
+        "height": 528,
+        "bottom": 673
+      },
+      ".topline": {
+        "x": 49,
+        "y": 170,
+        "width": 1067,
+        "height": 57.59375,
+        "bottom": 227.59375
+      },
+      ".inventory": {
+        "x": 49,
+        "y": 245.59375,
+        "width": 1067,
+        "height": 291,
+        "bottom": 536.59375
+      },
+      ".compare": {
+        "x": 526.46875,
+        "y": 245.59375,
+        "width": 589.53125,
+        "height": 291,
+        "bottom": 536.59375
+      },
+      ".hand": null,
+      ".board": null,
+      ".map": null,
+      ".inspector": null,
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 49,
+        "y": 590.59375,
+        "width": 1067,
+        "height": 57,
+        "bottom": 647.59375
+      }
+    },
+    "controls": [
+      {
+        "id": "item-reed",
+        "disabled": false,
+        "rect": {
+          "x": 49,
+          "y": 245.59375,
+          "width": 453.46875,
+          "height": 91.65625,
+          "bottom": 337.25
+        },
+        "visible": true
+      },
+      {
+        "id": "item-brass",
+        "disabled": false,
+        "rect": {
+          "x": 49,
+          "y": 345.25,
+          "width": 453.46875,
+          "height": 91.671875,
+          "bottom": 436.921875
+        },
+        "visible": true
+      },
+      {
+        "id": "item-anchor",
+        "disabled": false,
+        "rect": {
+          "x": 49,
+          "y": 444.921875,
+          "width": 453.46875,
+          "height": 91.671875,
+          "bottom": 536.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "equip",
+        "disabled": false,
+        "rect": {
+          "x": 547.46875,
+          "y": 469.59375,
+          "width": 80.78125,
+          "height": 46,
+          "bottom": 515.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "return",
+        "disabled": false,
+        "rect": {
+          "x": 638.25,
+          "y": 469.59375,
+          "width": 88.78125,
+          "height": 46,
+          "bottom": 515.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 1021.140625,
+          "y": 603.59375,
+          "width": 94.859375,
+          "height": 44,
+          "bottom": 647.59375
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "card",
+    "state": "1165 default/preview",
+    "overflow": false,
+    "width": 1165,
+    "height": 747,
+    "main": {
+      "x": 24,
+      "y": 145,
+      "width": 1117,
+      "height": 603.59375,
+      "bottom": 748.59375
+    },
+    "elements": {
+      "#play": {
+        "x": 24,
+        "y": 145,
+        "width": 1117,
+        "height": 603.59375,
+        "bottom": 748.59375
+      },
+      ".topline": {
+        "x": 49,
+        "y": 170,
+        "width": 1067,
+        "height": 57.59375,
+        "bottom": 227.59375
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": {
+        "x": 49,
+        "y": 358.59375,
+        "width": 1067,
+        "height": 196,
+        "bottom": 554.59375
+      },
+      ".board": null,
+      ".map": null,
+      ".inspector": null,
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 49,
+        "y": 666.59375,
+        "width": 1067,
+        "height": 57,
+        "bottom": 723.59375
+      }
+    },
+    "controls": [
+      {
+        "id": "card-cut",
+        "disabled": false,
+        "rect": {
+          "x": 49,
+          "y": 358.59375,
+          "width": 256.25,
+          "height": 196,
+          "bottom": 554.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "card-guard",
+        "disabled": false,
+        "rect": {
+          "x": 319.25,
+          "y": 358.59375,
+          "width": 256.25,
+          "height": 196,
+          "bottom": 554.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "card-focus",
+        "disabled": false,
+        "rect": {
+          "x": 589.5,
+          "y": 358.59375,
+          "width": 256.25,
+          "height": 196,
+          "bottom": 554.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "card-burst",
+        "disabled": false,
+        "rect": {
+          "x": 859.75,
+          "y": 358.59375,
+          "width": 256.25,
+          "height": 196,
+          "bottom": 554.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "play",
+        "disabled": true,
+        "rect": {
+          "x": 49,
+          "y": 602.59375,
+          "width": 114.96875,
+          "height": 46,
+          "bottom": 648.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "end-turn",
+        "disabled": false,
+        "rect": {
+          "x": 173.96875,
+          "y": 602.59375,
+          "width": 103.953125,
+          "height": 46,
+          "bottom": 648.59375
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 1018.3125,
+          "y": 679.59375,
+          "width": 97.6875,
+          "height": 44,
+          "bottom": 723.59375
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "puzzle",
+    "state": "1165 default/preview",
+    "overflow": false,
+    "width": 1165,
+    "height": 747,
+    "main": {
+      "x": 24,
+      "y": 119,
+      "width": 1117,
+      "height": 652.65625,
+      "bottom": 771.65625
+    },
+    "elements": {
+      "#play": {
+        "x": 24,
+        "y": 119,
+        "width": 1117,
+        "height": 652.65625,
+        "bottom": 771.65625
+      },
+      ".topline": {
+        "x": 49,
+        "y": 144,
+        "width": 1067,
+        "height": 57.59375,
+        "bottom": 201.59375
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": null,
+      ".board": {
+        "x": 235.5,
+        "y": 219.59375,
+        "width": 366,
+        "height": 366.0625,
+        "bottom": 585.65625
+      },
+      ".map": null,
+      ".inspector": null,
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 49,
+        "y": 689.65625,
+        "width": 1067,
+        "height": 57,
+        "bottom": 746.65625
+      }
+    },
+    "controls": [
+      {
+        "id": "up",
+        "disabled": false,
+        "rect": {
+          "x": 890,
+          "y": 344.625,
+          "width": 48,
+          "height": 48,
+          "bottom": 392.625
+        },
+        "visible": true
+      },
+      {
+        "id": "left",
+        "disabled": false,
+        "rect": {
+          "x": 836,
+          "y": 398.625,
+          "width": 48,
+          "height": 48,
+          "bottom": 446.625
+        },
+        "visible": true
+      },
+      {
+        "id": "down",
+        "disabled": false,
+        "rect": {
+          "x": 890,
+          "y": 398.625,
+          "width": 48,
+          "height": 48,
+          "bottom": 446.625
+        },
+        "visible": true
+      },
+      {
+        "id": "right",
+        "disabled": false,
+        "rect": {
+          "x": 944,
+          "y": 398.625,
+          "width": 48,
+          "height": 48,
+          "bottom": 446.625
+        },
+        "visible": true
+      },
+      {
+        "id": "undo",
+        "disabled": true,
+        "rect": {
+          "x": 836,
+          "y": 464.625,
+          "width": 79.359375,
+          "height": 46,
+          "bottom": 510.625
+        },
+        "visible": true
+      },
+      {
+        "id": "retry",
+        "disabled": false,
+        "rect": {
+          "x": 925.359375,
+          "y": 464.625,
+          "width": 124.96875,
+          "height": 46,
+          "bottom": 510.625
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 1006.859375,
+          "y": 702.65625,
+          "width": 109.140625,
+          "height": 44,
+          "bottom": 746.65625
+        },
+        "visible": false
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "strategy",
+    "state": "1165 default/preview",
+    "overflow": false,
+    "width": 1165,
+    "height": 747,
+    "main": {
+      "x": 24,
+      "y": 82,
+      "width": 1117,
+      "height": 724.109375,
+      "bottom": 806.109375
+    },
+    "elements": {
+      "#play": {
+        "x": 24,
+        "y": 82,
+        "width": 1117,
+        "height": 724.109375,
+        "bottom": 806.109375
+      },
+      ".topline": {
+        "x": 49,
+        "y": 107,
+        "width": 1067,
+        "height": 54,
+        "bottom": 161
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": null,
+      ".board": null,
+      ".map": {
+        "x": 49,
+        "y": 179,
+        "width": 772,
+        "height": 429.8125,
+        "bottom": 608.8125
+      },
+      ".inspector": {
+        "x": 841,
+        "y": 179,
+        "width": 275,
+        "height": 456.8125,
+        "bottom": 635.8125
+      },
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 49,
+        "y": 689.8125,
+        "width": 1067,
+        "height": 57,
+        "bottom": 746.8125
+      }
+    },
+    "controls": [
+      {
+        "id": "map-0-0",
+        "disabled": false,
+        "rect": {
+          "x": 51,
+          "y": 181,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 264.546875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-0",
+        "disabled": false,
+        "rect": {
+          "x": 136.546875,
+          "y": 181,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 264.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-0",
+        "disabled": false,
+        "rect": {
+          "x": 222.109375,
+          "y": 181,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 264.546875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-0",
+        "disabled": false,
+        "rect": {
+          "x": 307.65625,
+          "y": 181,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 264.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-0",
+        "disabled": false,
+        "rect": {
+          "x": 393.21875,
+          "y": 181,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 264.546875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-0",
+        "disabled": false,
+        "rect": {
+          "x": 478.765625,
+          "y": 181,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 264.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-0",
+        "disabled": false,
+        "rect": {
+          "x": 564.328125,
+          "y": 181,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 264.546875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-0",
+        "disabled": false,
+        "rect": {
+          "x": 649.875,
+          "y": 181,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 264.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-0",
+        "disabled": false,
+        "rect": {
+          "x": 735.4375,
+          "y": 181,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 264.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-1",
+        "disabled": false,
+        "rect": {
+          "x": 51,
+          "y": 266.5625,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 350.109375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-1",
+        "disabled": false,
+        "rect": {
+          "x": 136.546875,
+          "y": 266.5625,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 350.125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-1",
+        "disabled": false,
+        "rect": {
+          "x": 222.109375,
+          "y": 266.5625,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 350.109375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-1",
+        "disabled": false,
+        "rect": {
+          "x": 307.65625,
+          "y": 266.5625,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 350.125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-1",
+        "disabled": false,
+        "rect": {
+          "x": 393.21875,
+          "y": 266.5625,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 350.109375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-1",
+        "disabled": false,
+        "rect": {
+          "x": 478.765625,
+          "y": 266.5625,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 350.125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-1",
+        "disabled": false,
+        "rect": {
+          "x": 564.328125,
+          "y": 266.5625,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 350.109375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-1",
+        "disabled": false,
+        "rect": {
+          "x": 649.875,
+          "y": 266.5625,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 350.125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-1",
+        "disabled": false,
+        "rect": {
+          "x": 735.4375,
+          "y": 266.5625,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 350.125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-2",
+        "disabled": false,
+        "rect": {
+          "x": 51,
+          "y": 352.125,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 435.671875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-2",
+        "disabled": false,
+        "rect": {
+          "x": 136.546875,
+          "y": 352.125,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 435.6875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-2",
+        "disabled": false,
+        "rect": {
+          "x": 222.109375,
+          "y": 352.125,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 435.671875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-2",
+        "disabled": false,
+        "rect": {
+          "x": 307.65625,
+          "y": 352.125,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 435.6875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-2",
+        "disabled": false,
+        "rect": {
+          "x": 393.21875,
+          "y": 352.125,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 435.671875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-2",
+        "disabled": false,
+        "rect": {
+          "x": 478.765625,
+          "y": 352.125,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 435.6875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-2",
+        "disabled": false,
+        "rect": {
+          "x": 564.328125,
+          "y": 352.125,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 435.671875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-2",
+        "disabled": false,
+        "rect": {
+          "x": 649.875,
+          "y": 352.125,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 435.6875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-2",
+        "disabled": false,
+        "rect": {
+          "x": 735.4375,
+          "y": 352.125,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 435.6875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-3",
+        "disabled": false,
+        "rect": {
+          "x": 51,
+          "y": 437.6875,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 521.234375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-3",
+        "disabled": false,
+        "rect": {
+          "x": 136.546875,
+          "y": 437.6875,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 521.25
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-3",
+        "disabled": false,
+        "rect": {
+          "x": 222.109375,
+          "y": 437.6875,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 521.234375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-3",
+        "disabled": false,
+        "rect": {
+          "x": 307.65625,
+          "y": 437.6875,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 521.25
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-3",
+        "disabled": false,
+        "rect": {
+          "x": 393.21875,
+          "y": 437.6875,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 521.234375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-3",
+        "disabled": false,
+        "rect": {
+          "x": 478.765625,
+          "y": 437.6875,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 521.25
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-3",
+        "disabled": false,
+        "rect": {
+          "x": 564.328125,
+          "y": 437.6875,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 521.234375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-3",
+        "disabled": false,
+        "rect": {
+          "x": 649.875,
+          "y": 437.6875,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 521.25
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-3",
+        "disabled": false,
+        "rect": {
+          "x": 735.4375,
+          "y": 437.6875,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 521.25
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-4",
+        "disabled": false,
+        "rect": {
+          "x": 51,
+          "y": 523.25,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 606.796875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-4",
+        "disabled": false,
+        "rect": {
+          "x": 136.546875,
+          "y": 523.25,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 606.8125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-4",
+        "disabled": false,
+        "rect": {
+          "x": 222.109375,
+          "y": 523.25,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 606.796875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-4",
+        "disabled": false,
+        "rect": {
+          "x": 307.65625,
+          "y": 523.25,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 606.8125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-4",
+        "disabled": false,
+        "rect": {
+          "x": 393.21875,
+          "y": 523.25,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 606.796875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-4",
+        "disabled": false,
+        "rect": {
+          "x": 478.765625,
+          "y": 523.25,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 606.8125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-4",
+        "disabled": false,
+        "rect": {
+          "x": 564.328125,
+          "y": 523.25,
+          "width": 83.546875,
+          "height": 83.546875,
+          "bottom": 606.796875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-4",
+        "disabled": false,
+        "rect": {
+          "x": 649.875,
+          "y": 523.25,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 606.8125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-4",
+        "disabled": false,
+        "rect": {
+          "x": 735.4375,
+          "y": 523.25,
+          "width": 83.5625,
+          "height": 83.5625,
+          "bottom": 606.8125
+        },
+        "visible": true
+      },
+      {
+        "id": "confirm",
+        "disabled": false,
+        "rect": {
+          "x": 859,
+          "y": 328,
+          "width": 239,
+          "height": 46,
+          "bottom": 374
+        },
+        "visible": true
+      },
+      {
+        "id": "cancel",
+        "disabled": false,
+        "rect": {
+          "x": 859,
+          "y": 382,
+          "width": 152.796875,
+          "height": 46,
+          "bottom": 428
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 993.75,
+          "y": 702.8125,
+          "width": 122.25,
+          "height": 44,
+          "bottom": 746.8125
+        },
+        "visible": false
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "action",
+    "state": "1165 default/preview",
+    "overflow": false,
+    "width": 1165,
+    "height": 747,
+    "main": {
+      "x": 24,
+      "y": -228,
+      "width": 1117,
+      "height": 870.765625,
+      "bottom": 642.765625
+    },
+    "elements": {
+      "#play": {
+        "x": 24,
+        "y": -228,
+        "width": 1117,
+        "height": 870.765625,
+        "bottom": 642.765625
+      },
+      ".topline": {
+        "x": 49,
+        "y": -203,
+        "width": 1067,
+        "height": 57.59375,
+        "bottom": -145.40625
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": null,
+      ".board": null,
+      ".map": null,
+      ".inspector": null,
+      ".arena": {
+        "x": 222.5,
+        "y": -91.40625,
+        "width": 720,
+        "height": 458.171875,
+        "bottom": 366.765625
+      },
+      ".action-controls": {
+        "x": 49,
+        "y": 408.765625,
+        "width": 1067,
+        "height": 102,
+        "bottom": 510.765625
+      },
+      ".foot": {
+        "x": 49,
+        "y": 560.765625,
+        "width": 1067,
+        "height": 57,
+        "bottom": 617.765625
+      }
+    },
+    "controls": [
+      {
+        "id": "pause",
+        "disabled": false,
+        "rect": {
+          "x": 1034,
+          "y": -197.203125,
+          "width": 82,
+          "height": 46,
+          "bottom": -151.203125
+        },
+        "visible": true
+      },
+      {
+        "id": "up",
+        "disabled": false,
+        "rect": {
+          "x": 103,
+          "y": 408.765625,
+          "width": 48,
+          "height": 48,
+          "bottom": 456.765625
+        },
+        "visible": true
+      },
+      {
+        "id": "left",
+        "disabled": false,
+        "rect": {
+          "x": 49,
+          "y": 462.765625,
+          "width": 48,
+          "height": 48,
+          "bottom": 510.765625
+        },
+        "visible": true
+      },
+      {
+        "id": "down",
+        "disabled": false,
+        "rect": {
+          "x": 103,
+          "y": 462.765625,
+          "width": 48,
+          "height": 48,
+          "bottom": 510.765625
+        },
+        "visible": true
+      },
+      {
+        "id": "right",
+        "disabled": false,
+        "rect": {
+          "x": 157,
+          "y": 462.765625,
+          "width": 48,
+          "height": 48,
+          "bottom": 510.765625
+        },
+        "visible": true
+      },
+      {
+        "id": "pulse",
+        "disabled": false,
+        "rect": {
+          "x": 916,
+          "y": 417.265625,
+          "width": 200,
+          "height": 46,
+          "bottom": 463.265625
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 1005.96875,
+          "y": 573.765625,
+          "width": 110.03125,
+          "height": 44,
+          "bottom": 617.765625
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "rpg",
+    "state": "390 default/preview",
+    "overflow": false,
+    "width": 390,
+    "height": 844,
+    "main": {
+      "x": 16,
+      "y": 152.1875,
+      "width": 358,
+      "height": 614.375,
+      "bottom": 766.5625
+    },
+    "elements": {
+      "#play": {
+        "x": 16,
+        "y": 152.1875,
+        "width": 358,
+        "height": 614.375,
+        "bottom": 766.5625
+      },
+      ".topline": {
+        "x": 33,
+        "y": 169.1875,
+        "width": 324,
+        "height": 54,
+        "bottom": 223.1875
+      },
+      ".inventory": {
+        "x": 33,
+        "y": 237.1875,
+        "width": 324,
+        "height": 403.375,
+        "bottom": 640.5625
+      },
+      ".compare": {
+        "x": 33,
+        "y": 371.5625,
+        "width": 324,
+        "height": 269,
+        "bottom": 640.5625
+      },
+      ".hand": null,
+      ".board": null,
+      ".map": null,
+      ".inspector": null,
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 33,
+        "y": 690.5625,
+        "width": 324,
+        "height": 59,
+        "bottom": 749.5625
+      }
+    },
+    "controls": [
+      {
+        "id": "item-reed",
+        "disabled": false,
+        "rect": {
+          "x": 33,
+          "y": 237.1875,
+          "width": 104,
+          "height": 120.375,
+          "bottom": 357.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "item-brass",
+        "disabled": false,
+        "rect": {
+          "x": 143,
+          "y": 237.1875,
+          "width": 104,
+          "height": 120.375,
+          "bottom": 357.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "item-anchor",
+        "disabled": false,
+        "rect": {
+          "x": 253,
+          "y": 237.1875,
+          "width": 104,
+          "height": 120.375,
+          "bottom": 357.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "equip",
+        "disabled": false,
+        "rect": {
+          "x": 48,
+          "y": 579.5625,
+          "width": 72.78125,
+          "height": 46,
+          "bottom": 625.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "return",
+        "disabled": false,
+        "rect": {
+          "x": 130.78125,
+          "y": 579.5625,
+          "width": 80.78125,
+          "height": 46,
+          "bottom": 625.5625
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 258.140625,
+          "y": 703.5625,
+          "width": 98.859375,
+          "height": 46,
+          "bottom": 749.5625
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "card",
+    "state": "390 default/preview",
+    "overflow": false,
+    "width": 390,
+    "height": 844,
+    "main": {
+      "x": 16,
+      "y": 152.1875,
+      "width": 358,
+      "height": 677,
+      "bottom": 829.1875
+    },
+    "elements": {
+      "#play": {
+        "x": 16,
+        "y": 152.1875,
+        "width": 358,
+        "height": 677,
+        "bottom": 829.1875
+      },
+      ".topline": {
+        "x": 33,
+        "y": 169.1875,
+        "width": 324,
+        "height": 54,
+        "bottom": 223.1875
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": {
+        "x": 33,
+        "y": 333.1875,
+        "width": 324,
+        "height": 294,
+        "bottom": 627.1875
+      },
+      ".board": null,
+      ".map": null,
+      ".inspector": null,
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 33,
+        "y": 753.1875,
+        "width": 324,
+        "height": 59,
+        "bottom": 812.1875
+      }
+    },
+    "controls": [
+      {
+        "id": "card-cut",
+        "disabled": false,
+        "rect": {
+          "x": 33,
+          "y": 333.1875,
+          "width": 157,
+          "height": 142,
+          "bottom": 475.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "card-guard",
+        "disabled": false,
+        "rect": {
+          "x": 200,
+          "y": 333.1875,
+          "width": 157,
+          "height": 142,
+          "bottom": 475.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "card-focus",
+        "disabled": false,
+        "rect": {
+          "x": 33,
+          "y": 485.1875,
+          "width": 157,
+          "height": 142,
+          "bottom": 627.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "card-burst",
+        "disabled": false,
+        "rect": {
+          "x": 200,
+          "y": 485.1875,
+          "width": 157,
+          "height": 142,
+          "bottom": 627.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "play",
+        "disabled": true,
+        "rect": {
+          "x": 33,
+          "y": 693.1875,
+          "width": 220.046875,
+          "height": 46,
+          "bottom": 739.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "end-turn",
+        "disabled": false,
+        "rect": {
+          "x": 261.046875,
+          "y": 693.1875,
+          "width": 95.953125,
+          "height": 46,
+          "bottom": 739.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 255.3125,
+          "y": 766.1875,
+          "width": 101.6875,
+          "height": 46,
+          "bottom": 812.1875
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "puzzle",
+    "state": "390 default/preview",
+    "overflow": false,
+    "width": 390,
+    "height": 844,
+    "main": {
+      "x": 16,
+      "y": 152.1875,
+      "width": 358,
+      "height": 683,
+      "bottom": 835.1875
+    },
+    "elements": {
+      "#play": {
+        "x": 16,
+        "y": 152.1875,
+        "width": 358,
+        "height": 683,
+        "bottom": 835.1875
+      },
+      ".topline": {
+        "x": 33,
+        "y": 169.1875,
+        "width": 324,
+        "height": 54,
+        "bottom": 223.1875
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": null,
+      ".board": {
+        "x": 40,
+        "y": 237.1875,
+        "width": 310,
+        "height": 310,
+        "bottom": 547.1875
+      },
+      ".map": null,
+      ".inspector": null,
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 33,
+        "y": 759.1875,
+        "width": 324,
+        "height": 59,
+        "bottom": 818.1875
+      }
+    },
+    "controls": [
+      {
+        "id": "up",
+        "disabled": false,
+        "rect": {
+          "x": 87,
+          "y": 607.1875,
+          "width": 48,
+          "height": 48,
+          "bottom": 655.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "left",
+        "disabled": false,
+        "rect": {
+          "x": 33,
+          "y": 661.1875,
+          "width": 48,
+          "height": 48,
+          "bottom": 709.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "down",
+        "disabled": false,
+        "rect": {
+          "x": 87,
+          "y": 661.1875,
+          "width": 48,
+          "height": 48,
+          "bottom": 709.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "right",
+        "disabled": false,
+        "rect": {
+          "x": 141,
+          "y": 661.1875,
+          "width": 48,
+          "height": 48,
+          "bottom": 709.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "undo",
+        "disabled": true,
+        "rect": {
+          "x": 240.03125,
+          "y": 608.1875,
+          "width": 116.96875,
+          "height": 46,
+          "bottom": 654.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "retry",
+        "disabled": false,
+        "rect": {
+          "x": 240.03125,
+          "y": 662.1875,
+          "width": 116.96875,
+          "height": 46,
+          "bottom": 708.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 243.859375,
+          "y": 772.1875,
+          "width": 113.140625,
+          "height": 46,
+          "bottom": 818.1875
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "strategy",
+    "state": "390 default/preview",
+    "overflow": false,
+    "width": 390,
+    "height": 844,
+    "main": {
+      "x": 16,
+      "y": 152.1875,
+      "width": 358,
+      "height": 671.6875,
+      "bottom": 823.875
+    },
+    "elements": {
+      "#play": {
+        "x": 16,
+        "y": 152.1875,
+        "width": 358,
+        "height": 671.6875,
+        "bottom": 823.875
+      },
+      ".topline": {
+        "x": 33,
+        "y": 169.1875,
+        "width": 324,
+        "height": 54,
+        "bottom": 223.1875
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": null,
+      ".board": null,
+      ".map": {
+        "x": 33,
+        "y": 237.1875,
+        "width": 324,
+        "height": 180.90625,
+        "bottom": 418.09375
+      },
+      ".inspector": {
+        "x": 33,
+        "y": 459.09375,
+        "width": 324,
+        "height": 188.1875,
+        "bottom": 647.28125
+      },
+      ".arena": null,
+      ".action-controls": null,
+      ".foot": {
+        "x": 33,
+        "y": 697.28125,
+        "width": 324,
+        "height": 59,
+        "bottom": 756.28125
+      }
+    },
+    "controls": [
+      {
+        "id": "map-0-0",
+        "disabled": false,
+        "rect": {
+          "x": 35,
+          "y": 239.1875,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 272.953125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-0",
+        "disabled": false,
+        "rect": {
+          "x": 70.765625,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-0",
+        "disabled": false,
+        "rect": {
+          "x": 106.546875,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-0",
+        "disabled": false,
+        "rect": {
+          "x": 142.328125,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-0",
+        "disabled": false,
+        "rect": {
+          "x": 178.109375,
+          "y": 239.1875,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 272.953125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-0",
+        "disabled": false,
+        "rect": {
+          "x": 213.875,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-0",
+        "disabled": false,
+        "rect": {
+          "x": 249.65625,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-0",
+        "disabled": false,
+        "rect": {
+          "x": 285.4375,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-0",
+        "disabled": false,
+        "rect": {
+          "x": 321.21875,
+          "y": 239.1875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 272.96875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-1",
+        "disabled": false,
+        "rect": {
+          "x": 35,
+          "y": 274.96875,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 308.734375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-1",
+        "disabled": false,
+        "rect": {
+          "x": 70.765625,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-1",
+        "disabled": false,
+        "rect": {
+          "x": 106.546875,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-1",
+        "disabled": false,
+        "rect": {
+          "x": 142.328125,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-1",
+        "disabled": false,
+        "rect": {
+          "x": 178.109375,
+          "y": 274.96875,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 308.734375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-1",
+        "disabled": false,
+        "rect": {
+          "x": 213.875,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-1",
+        "disabled": false,
+        "rect": {
+          "x": 249.65625,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-1",
+        "disabled": false,
+        "rect": {
+          "x": 285.4375,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-1",
+        "disabled": false,
+        "rect": {
+          "x": 321.21875,
+          "y": 274.96875,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 308.75
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-2",
+        "disabled": false,
+        "rect": {
+          "x": 35,
+          "y": 310.75,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 344.515625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-2",
+        "disabled": false,
+        "rect": {
+          "x": 70.765625,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-2",
+        "disabled": false,
+        "rect": {
+          "x": 106.546875,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-2",
+        "disabled": false,
+        "rect": {
+          "x": 142.328125,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-2",
+        "disabled": false,
+        "rect": {
+          "x": 178.109375,
+          "y": 310.75,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 344.515625
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-2",
+        "disabled": false,
+        "rect": {
+          "x": 213.875,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-2",
+        "disabled": false,
+        "rect": {
+          "x": 249.65625,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-2",
+        "disabled": false,
+        "rect": {
+          "x": 285.4375,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-2",
+        "disabled": false,
+        "rect": {
+          "x": 321.21875,
+          "y": 310.75,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 344.53125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-3",
+        "disabled": false,
+        "rect": {
+          "x": 35,
+          "y": 346.53125,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 380.296875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-3",
+        "disabled": false,
+        "rect": {
+          "x": 70.765625,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-3",
+        "disabled": false,
+        "rect": {
+          "x": 106.546875,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-3",
+        "disabled": false,
+        "rect": {
+          "x": 142.328125,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-3",
+        "disabled": false,
+        "rect": {
+          "x": 178.109375,
+          "y": 346.53125,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 380.296875
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-3",
+        "disabled": false,
+        "rect": {
+          "x": 213.875,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-3",
+        "disabled": false,
+        "rect": {
+          "x": 249.65625,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-3",
+        "disabled": false,
+        "rect": {
+          "x": 285.4375,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-3",
+        "disabled": false,
+        "rect": {
+          "x": 321.21875,
+          "y": 346.53125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 380.3125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-0-4",
+        "disabled": false,
+        "rect": {
+          "x": 35,
+          "y": 382.3125,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 416.078125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-1-4",
+        "disabled": false,
+        "rect": {
+          "x": 70.765625,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-2-4",
+        "disabled": false,
+        "rect": {
+          "x": 106.546875,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-3-4",
+        "disabled": false,
+        "rect": {
+          "x": 142.328125,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-4-4",
+        "disabled": false,
+        "rect": {
+          "x": 178.109375,
+          "y": 382.3125,
+          "width": 33.765625,
+          "height": 33.765625,
+          "bottom": 416.078125
+        },
+        "visible": true
+      },
+      {
+        "id": "map-5-4",
+        "disabled": false,
+        "rect": {
+          "x": 213.875,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-6-4",
+        "disabled": false,
+        "rect": {
+          "x": 249.65625,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-7-4",
+        "disabled": false,
+        "rect": {
+          "x": 285.4375,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "map-8-4",
+        "disabled": false,
+        "rect": {
+          "x": 321.21875,
+          "y": 382.3125,
+          "width": 33.78125,
+          "height": 33.78125,
+          "bottom": 416.09375
+        },
+        "visible": true
+      },
+      {
+        "id": "confirm",
+        "disabled": false,
+        "rect": {
+          "x": 47,
+          "y": 569.28125,
+          "width": 142,
+          "height": 64,
+          "bottom": 633.28125
+        },
+        "visible": true
+      },
+      {
+        "id": "cancel",
+        "disabled": false,
+        "rect": {
+          "x": 201,
+          "y": 569.28125,
+          "width": 142,
+          "height": 64,
+          "bottom": 633.28125
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 230.75,
+          "y": 710.28125,
+          "width": 126.25,
+          "height": 46,
+          "bottom": 756.28125
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  },
+  {
+    "genre": "action",
+    "state": "390 default/preview",
+    "overflow": false,
+    "width": 390,
+    "height": 844,
+    "main": {
+      "x": 16,
+      "y": 152.1875,
+      "width": 358,
+      "height": 639.671875,
+      "bottom": 791.859375
+    },
+    "elements": {
+      "#play": {
+        "x": 16,
+        "y": 152.1875,
+        "width": 358,
+        "height": 639.671875,
+        "bottom": 791.859375
+      },
+      ".topline": {
+        "x": 33,
+        "y": 169.1875,
+        "width": 324,
+        "height": 54,
+        "bottom": 223.1875
+      },
+      ".inventory": null,
+      ".compare": null,
+      ".hand": null,
+      ".board": null,
+      ".map": null,
+      ".inspector": null,
+      ".arena": {
+        "x": 33,
+        "y": 270.1875,
+        "width": 324,
+        "height": 265.078125,
+        "bottom": 535.265625
+      },
+      ".action-controls": {
+        "x": 33,
+        "y": 576.859375,
+        "width": 324,
+        "height": 93,
+        "bottom": 669.859375
+      },
+      ".foot": {
+        "x": 33,
+        "y": 715.859375,
+        "width": 324,
+        "height": 59,
+        "bottom": 774.859375
+      }
+    },
+    "controls": [
+      {
+        "id": "pause",
+        "disabled": false,
+        "rect": {
+          "x": 283,
+          "y": 173.1875,
+          "width": 74,
+          "height": 46,
+          "bottom": 219.1875
+        },
+        "visible": true
+      },
+      {
+        "id": "up",
+        "disabled": false,
+        "rect": {
+          "x": 82,
+          "y": 576.859375,
+          "width": 44,
+          "height": 44,
+          "bottom": 620.859375
+        },
+        "visible": true
+      },
+      {
+        "id": "left",
+        "disabled": false,
+        "rect": {
+          "x": 33,
+          "y": 625.859375,
+          "width": 44,
+          "height": 44,
+          "bottom": 669.859375
+        },
+        "visible": true
+      },
+      {
+        "id": "down",
+        "disabled": false,
+        "rect": {
+          "x": 82,
+          "y": 625.859375,
+          "width": 44,
+          "height": 44,
+          "bottom": 669.859375
+        },
+        "visible": true
+      },
+      {
+        "id": "right",
+        "disabled": false,
+        "rect": {
+          "x": 131,
+          "y": 625.859375,
+          "width": 44,
+          "height": 44,
+          "bottom": 669.859375
+        },
+        "visible": true
+      },
+      {
+        "id": "pulse",
+        "disabled": false,
+        "rect": {
+          "x": 217,
+          "y": 580.859375,
+          "width": 140,
+          "height": 46,
+          "bottom": 626.859375
+        },
+        "visible": true
+      },
+      {
+        "id": "reset",
+        "disabled": false,
+        "rect": {
+          "x": 242.96875,
+          "y": 728.859375,
+          "width": 114.03125,
+          "height": 46,
+          "bottom": 774.859375
+        },
+        "visible": true
+      }
+    ],
+    "collisions": []
+  }
+]

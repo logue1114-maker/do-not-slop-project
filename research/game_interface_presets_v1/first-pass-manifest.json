@@ -1,0 +1,22 @@
+[
+  {
+    "path": "first-pass/IMPLEMENTATION.md",
+    "bytes": 3154,
+    "sha256": "b5b408f9f496e34c11d2d0d36be4e59809f7a55433f4efd02772f92b58d15cf8"
+  },
+  {
+    "path": "first-pass/index.html",
+    "bytes": 36366,
+    "sha256": "5268a5989b26033e7d97d13a4210a9eee8d8c69d1aa6617ba62f7f8aa37a7a76"
+  },
+  {
+    "path": "first-pass/presets.json",
+    "bytes": 35626,
+    "sha256": "d97bfd6957693d8befcb07bcc5972788d3e05620d08084d4a24935d3a2d196b2"
+  },
+  {
+    "path": "first-pass/SOURCES_AND_RIGHTS.md",
+    "bytes": 2785,
+    "sha256": "97e3805bd639982bc31ade9f1ace4af8d144fa4b50e6942f40d45a3da8c8378e"
+  }
+]

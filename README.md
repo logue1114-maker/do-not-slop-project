@@ -37,11 +37,11 @@ Verify desktop/phone rendering and keyboard interactions; report unrun checks.
 
 ## Guides and examples
 
-Most research manuals are in Korean. The AI entrypoint, CP01 packages, and palette explorer are in English.
+Most research manuals are in Korean. The AI entrypoint, CP01 packages, palette explorer, and five game presets are in English.
 
 | Task | Start here | Example or source |
 | :--- | :--- | :--- |
-| Game controls and HUD | [Controls manual](research/game_controls_corrections_v2.md) · [Fleet commands](research/strategy_controls_oct4/strategy_controls_research.ko.md) | [Fleet-command demo](research/strategy_controls_oct4/demo/README.md) |
+| Game controls and HUD | [Controls manual](research/game_controls_corrections_v2.md) · [Fleet commands](research/strategy_controls_oct4/strategy_controls_research.ko.md) | [Five game presets](research/game_interface_presets_v1/README.md) · [Fleet-command demo](research/strategy_controls_oct4/demo/README.md) |
 | Web layout and task flow | [Web manual](research/web_app_corrections_v2.md) · [Booking flow](research/booking_flows_oct4/booking_manual_ko.md) | [Booking-change demo](research/booking_flows_oct4/demo/README.md) · [Learning demo](research/comparison_assets/learning_layout/README.md) |
 | Mobile app layout | [Mobile manual](research/mobile_app_corrections_v1.md) | [Three authored boards](research/mobile_app_v1/boards/) |
 | UI copy | [Copy manual](research/do_not_slop_copy/manual_ko.md) · [CP01 guide v2](guides/cp01-task-first-v2.md) | [Nine interactive examples](research/do_not_slop_copy/copy_examples.html) |

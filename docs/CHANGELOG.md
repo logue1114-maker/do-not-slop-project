@@ -1,5 +1,17 @@
 # Source changes
 
+## 2026-10-05: Five authored game interface presets
+
+Additive integration against public commit `246f4b6fec8995e017af13efa9fe0c79f64a6b4d`.
+
+- Add [five English game-interface slices](../research/game_interface_presets_v1/README.md): RPG equipment, local card duel, crate puzzle, strategy command preview and action HUD/pause/cooldown/retry
+- Retain the first completed implementation and its original failed check/captures beside final source, scoped repair history, synthetic fixtures, role/flow presets and public browser evidence
+- Separate functional requirements/data from treatment-specific design guidance; label the gallery as an authored/guided demonstration, not an actual ordinary-quality/design-treatment experiment, measured improvement or approved design
+- Link the new package from the existing game row and research index; preserve existing README structure, links, AI instructions, methods and historical evidence
+- Make browser development scripts environment-configurable, register only original project-authored PNGs in a separate exact allowlist, and regenerate the public release receipt and file inventory
+
+Publication of these original sources and captures was requested. Local absolute paths, authentication, transfer identifiers, internal coordination and delivery archives are excluded. Native-phone, controller, screen-reader, participant usability, full accessibility, design approval and reuse licensing remain unestablished. No force push, Site deployment or plugin installation is included.
+
 ## 2026-10-04: README and research navigation
 
 Prepared as a presentation-only update to public commit `7b3709c4ea064ca35538c88fab4a79efd50bf969`.

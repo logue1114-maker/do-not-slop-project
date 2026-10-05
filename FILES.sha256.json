@@ -1,6 +1,6 @@
 {
   "project": "Do Not Slop Project",
-  "created_at_utc": "2026-10-04T14:44:06.454042+00:00",
+  "created_at_utc": "2026-10-05T04:05:06.030189+00:00",
   "hash_algorithm": "sha256",
   "self_hash": "not included to avoid recursive self-reference",
   "license_choice": "pending_user_decision",
@@ -16,14 +16,9 @@
       "sha256": "dfb997090a74f58477aa15cde3ddf98465c8425888b8f0b68f0352e34b786a8b"
     },
     {
-      "path": "README.md",
-      "bytes": 6221,
-      "sha256": "40ae7c939eb0f3b2f53df764b82e6337fc35801e516120675bf274562b587d54"
-    },
-    {
       "path": "docs/CHANGELOG.md",
-      "bytes": 7820,
-      "sha256": "204031776f8125bef48fd3cf98f1d041a8e2ca384f79ab16a498b1db71e8cec0"
+      "bytes": 9345,
+      "sha256": "7c0cb03bac09421f00540a53c215fb005a1071a87cd484fa64864343735b0094"
     },
     {
       "path": "docs/HONEST_COMPARISONS.md",
@@ -37,23 +32,23 @@
     },
     {
       "path": "docs/PROVENANCE.json",
-      "bytes": 14180,
-      "sha256": "0834b54de5f907bf03804481daede613d535d431bd4e5f95951a96587b56ca81"
+      "bytes": 20883,
+      "sha256": "bee80cdee8a5bbb6a7d7eace7698ad8e79efd9ebf8fb86a78caef1161cada187"
     },
     {
       "path": "docs/RESEARCH_INDEX.md",
-      "bytes": 12401,
-      "sha256": "cbeb2a744dc354d971bca498c28afe6791a38c4c43990c4d150f02bee358b1b6"
+      "bytes": 13684,
+      "sha256": "b15124ed780de182fcd666958350c01b105df1b36f9b7eb4588e3c6fc141abf0"
     },
     {
       "path": "docs/RIGHTS_AND_SCOPE.md",
-      "bytes": 4464,
-      "sha256": "f88a0004ee71ba8312fe9c7faa49761422e05738a4ad3c9a91ec07ebeea71f15"
+      "bytes": 5581,
+      "sha256": "ef0e142d64d9e9cb8484f9bc266ca79093513919105b56da1e57feef5b16f079"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 11727,
-      "sha256": "1103f7599e4104379573422cfd68ae95efe01be058e68b81ad3c9848f991540b"
+      "bytes": 13892,
+      "sha256": "9d4e43470c59968523c19824b0e2eb0461702e6249dd2cae3ad9ecc5a7261905"
     },
     {
       "path": "guides/cp01-task-first-v2.md",
@@ -71,6 +66,11 @@
       "sha256": "c7d16390c566cb42a500f2710e780d989a0790d5625775e5870f605d8a34a715"
     },
     {
+      "path": "plugins/review-visible-design/plugin.json",
+      "bytes": 260,
+      "sha256": "81303be9aa812e1fb5c298d03b80ace8d966ab59f2b5daab55b0f117ecc2b889"
+    },
+    {
       "path": "plugins/review-visible-design/PROVENANCE.json",
       "bytes": 10141,
       "sha256": "87d15f70d4fb038db5f569763717bf915f4c4fb317ce3f804a6c5d61a892b0dd"
@@ -79,16 +79,6 @@
       "path": "plugins/review-visible-design/README.md",
       "bytes": 2789,
       "sha256": "9f70139b418adc48f8db73392b5071b3a13924857d51a22aa323a9835d7ec40c"
-    },
-    {
-      "path": "plugins/review-visible-design/plugin.json",
-      "bytes": 260,
-      "sha256": "81303be9aa812e1fb5c298d03b80ace8d966ab59f2b5daab55b0f117ecc2b889"
-    },
-    {
-      "path": "plugins/review-visible-design/skills/review-visible-design/SKILL.md",
-      "bytes": 11580,
-      "sha256": "1f74f337c8ee4a09f97497cb9657c1995fe68b9a105af24118403c24dd8cb0d1"
     },
     {
       "path": "plugins/review-visible-design/skills/review-visible-design/agents/openai.yaml",
@@ -159,6 +149,11 @@
       "path": "plugins/review-visible-design/skills/review-visible-design/scripts/review_contract.py",
       "bytes": 20210,
       "sha256": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+      "bytes": 11580,
+      "sha256": "1f74f337c8ee4a09f97497cb9657c1995fe68b9a105af24118403c24dd8cb0d1"
     },
     {
       "path": "plugins/review-visible-design/tests/comparison_cases.json",
@@ -236,6 +231,11 @@
       "sha256": "57e89101be19f1ace923750522b4fc59c8bc9023e946f53d739ac94bd3c84f2a"
     },
     {
+      "path": "README.md",
+      "bytes": 6309,
+      "sha256": "4bebfb16b0ce8e081b5a34dfbcc5c501271a2ef1c93b13a8e1ba117734c1f721"
+    },
+    {
       "path": "research/antislop_research.json",
       "bytes": 68682,
       "sha256": "c02499e09b8ed5a238eca94cf0200db0bc03e87f9216ead9ccb85aa5fc14c698"
@@ -254,11 +254,6 @@
       "path": "research/booking_flows_oct4/booking_manual_ko.md",
       "bytes": 8744,
       "sha256": "2192880b49228f47a0bc0e9722d047b8d4da46d6e806ef156c3a688eeb410238"
-    },
-    {
-      "path": "research/booking_flows_oct4/demo/README.md",
-      "bytes": 7194,
-      "sha256": "2120b63a9c3d0ebdecbbb5d827075fedcc2814507065f7a5255f2d596111647f"
     },
     {
       "path": "research/booking_flows_oct4/demo/app-wiring-test-results.json",
@@ -294,6 +289,11 @@
       "path": "research/booking_flows_oct4/demo/model.js",
       "bytes": 8577,
       "sha256": "cabc697b8ec49d2237fa97bfccb63162e8b100658dd1e10d7a13f4ae80b2b9db"
+    },
+    {
+      "path": "research/booking_flows_oct4/demo/README.md",
+      "bytes": 7194,
+      "sha256": "2120b63a9c3d0ebdecbbb5d827075fedcc2814507065f7a5255f2d596111647f"
     },
     {
       "path": "research/booking_flows_oct4/demo/styles.css",
@@ -346,14 +346,14 @@
       "sha256": "2ad864b4f4d24536ea1ed1efbbadabd704b4901a19030d90ef695d7a397331ad"
     },
     {
-      "path": "research/comparison_assets/learning_layout/README.md",
-      "bytes": 9947,
-      "sha256": "854984f9610c4a4656d71e701026deed6c1e0c180cba50e168953f8b2491e41e"
-    },
-    {
       "path": "research/comparison_assets/learning_layout/fixture.json",
       "bytes": 11806,
       "sha256": "57dab36b6e6504574c1252eed1f01bd2ccf88066f54b38483d67e446d4a003f6"
+    },
+    {
+      "path": "research/comparison_assets/learning_layout/README.md",
+      "bytes": 9947,
+      "sha256": "854984f9610c4a4656d71e701026deed6c1e0c180cba50e168953f8b2491e41e"
     },
     {
       "path": "research/comparison_assets/learning_layout/same_fixture_learning.html",
@@ -381,11 +381,6 @@
       "sha256": "565eebbe6685881a3fd2c64ab699a78c385240a8f828b55f1adea4b84d04d036"
     },
     {
-      "path": "research/do_not_slop_copy/README.md",
-      "bytes": 1791,
-      "sha256": "7a6dcad11cf8aaa5bdc852fdf791282c0f5fdfd05ea3eb1e87e2da5695ffee49"
-    },
-    {
       "path": "research/do_not_slop_copy/copy_examples.html",
       "bytes": 20635,
       "sha256": "0c8ef58d152991898b627831f8accecaffaa9d8ca4956b56011cdc5c7cf291c3"
@@ -394,6 +389,11 @@
       "path": "research/do_not_slop_copy/manual_ko.md",
       "bytes": 52749,
       "sha256": "fd274c08fc6b66fc16284f65292ec12d000d99c8560ac423e739f56a8427aa2e"
+    },
+    {
+      "path": "research/do_not_slop_copy/README.md",
+      "bytes": 1791,
+      "sha256": "7a6dcad11cf8aaa5bdc852fdf791282c0f5fdfd05ea3eb1e87e2da5695ffee49"
     },
     {
       "path": "research/do_not_slop_copy/rules.json",
@@ -426,6 +426,321 @@
       "sha256": "51b666e7df5359cf5ebc81f543c0de5d34e12e105cdab65cd3feddf20c66f743"
     },
     {
+      "path": "research/game_interface_presets_v1/BROWSER_REPORT.md",
+      "bytes": 3932,
+      "sha256": "6b016928f788a782759987e7f25f5252726671cf994de5dfa21e0e9f2159b098"
+    },
+    {
+      "path": "research/game_interface_presets_v1/build-functional.mjs",
+      "bytes": 7100,
+      "sha256": "ff4da2f313b70f9225a6e3fc75047ee576c2066f905c04cb7add82ca00fcec46"
+    },
+    {
+      "path": "research/game_interface_presets_v1/build-presets.mjs",
+      "bytes": 18519,
+      "sha256": "aaed0aca424003c92730aa378c3954719bff209e7e17f686827951290fe52c75"
+    },
+    {
+      "path": "research/game_interface_presets_v1/contact-sheet-desktop.png",
+      "bytes": 191130,
+      "sha256": "e7449e8930cf557eabf551065ff96659019032f276f830af5bb27b97b75d88e8"
+    },
+    {
+      "path": "research/game_interface_presets_v1/contact-sheet-narrow.png",
+      "bytes": 104264,
+      "sha256": "7ef7bc1149627386256744b9ea78ac0760168eea6227adf2597923088e31c6a4"
+    },
+    {
+      "path": "research/game_interface_presets_v1/contrast-report.json",
+      "bytes": 7161,
+      "sha256": "d1c8d55382d151b1671e2f5757efde4e588cd44201afae86c1927e3b914437af"
+    },
+    {
+      "path": "research/game_interface_presets_v1/finalize-package.mjs",
+      "bytes": 4177,
+      "sha256": "b16c9865bb38a5e71bc69946c72ac4f9df67db7c23d868d808831ef7214c0ce1"
+    },
+    {
+      "path": "research/game_interface_presets_v1/finish-evidence.mjs",
+      "bytes": 4815,
+      "sha256": "f2419411fed825fd02930089df727d2db625016bdaba62c767397be420f5e8af"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/IMPLEMENTATION.md",
+      "bytes": 3154,
+      "sha256": "b5b408f9f496e34c11d2d0d36be4e59809f7a55433f4efd02772f92b58d15cf8"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/index.html",
+      "bytes": 36366,
+      "sha256": "5268a5989b26033e7d97d13a4210a9eee8d8c69d1aa6617ba62f7f8aa37a7a76"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/presets.json",
+      "bytes": 35626,
+      "sha256": "d97bfd6957693d8befcb07bcc5972788d3e05620d08084d4a24935d3a2d196b2"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/qa-report.json",
+      "bytes": 47634,
+      "sha256": "91fc00353c808728a6c8e767dbe00619c63c59fc002d60597708bdcd61c9e51a"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/render-geometry.json",
+      "bytes": 49636,
+      "sha256": "da2262c46fcd81eca94bed7d0cd415cf233700eb33a75d51185b7ece2ac71331"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/action-desktop.png",
+      "bytes": 21482,
+      "sha256": "ab88e49d71a88243251e4a80c336a016496b943f4970a7b85a465f12bf1e1e25"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/action-narrow.png",
+      "bytes": 30127,
+      "sha256": "6742d5879e473c7249ddcec695fd86f1c130e3f3d526010f8fd99b0f415d8ef7"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/action-pause-desktop.png",
+      "bytes": 29805,
+      "sha256": "8336ad608228f247c7ae2486b7cf265f6e3b8930e21ec03fb34865907f0e0d69"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/card-desktop.png",
+      "bytes": 51487,
+      "sha256": "f57065b6d9c421d9dffacee8f44f1930342116a9d687c8e4dfb355459f7c508a"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/card-narrow.png",
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/puzzle-desktop.png",
+      "bytes": 42255,
+      "sha256": "a65335c8b1162b9cad26de5ffa5b0fe289f87071d091bf4fc920be0c7f96b7d8"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/puzzle-narrow.png",
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/rpg-desktop-first.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/rpg-desktop.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/rpg-narrow.png",
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/strategy-desktop.png",
+      "bytes": 38895,
+      "sha256": "85cd2121f62eb173af0c679a51aa088ca324b0ee40bfde057d8d121cc7506139"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/screenshots/strategy-narrow.png",
+      "bytes": 35816,
+      "sha256": "4f9cec13325fc2f4ba5bdf0dd6b1b19d34593a67c5e7c1d916b337747cd6961b"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass/SOURCES_AND_RIGHTS.md",
+      "bytes": 2785,
+      "sha256": "97e3805bd639982bc31ade9f1ace4af8d144fa4b50e6942f40d45a3da8c8378e"
+    },
+    {
+      "path": "research/game_interface_presets_v1/first-pass-manifest.json",
+      "bytes": 631,
+      "sha256": "10942c28f4323c8f0f4386705011510a7f84b9bc41076aa0098c6c042e010eb3"
+    },
+    {
+      "path": "research/game_interface_presets_v1/functional-fixtures.json",
+      "bytes": 8658,
+      "sha256": "1d81e2e0ba8ff33f7f7661c99da727a465922b3853c853731008813d9d13b478"
+    },
+    {
+      "path": "research/game_interface_presets_v1/http-checks.json",
+      "bytes": 1502,
+      "sha256": "888431996ec4e85748577141f93e17a0f2cb9e77bd5ad2563547019c8c4b655e"
+    },
+    {
+      "path": "research/game_interface_presets_v1/IMPLEMENTATION.md",
+      "bytes": 3647,
+      "sha256": "a37a3eaabc63cb4b4a8cb62348f5d8c3b0a92bd6581e0c683df4dcc8bd24d5cf"
+    },
+    {
+      "path": "research/game_interface_presets_v1/index.html",
+      "bytes": 37441,
+      "sha256": "c24b02f95e9fd60d842e3a31bff2106a8e6a96d844db4149b048485e0c302c30"
+    },
+    {
+      "path": "research/game_interface_presets_v1/package-checks.json",
+      "bytes": 762,
+      "sha256": "72f40eb6c48251ac8ac5988a4a7e671a9111b337d2184232c1e57a2748e43e2f"
+    },
+    {
+      "path": "research/game_interface_presets_v1/package-manifest.json",
+      "bytes": 10267,
+      "sha256": "dd53eb9cd53bc5ae61c49c4806515ca02cfa005b5a3e7dfbdd08fcd72ab97296"
+    },
+    {
+      "path": "research/game_interface_presets_v1/presets.json",
+      "bytes": 47452,
+      "sha256": "01d7c82159642f32468197248a8057ae2e9acf5a13f5062f8686141bdcd3c685"
+    },
+    {
+      "path": "research/game_interface_presets_v1/public-integration.json",
+      "bytes": 1298,
+      "sha256": "1999ecbf007f9fb29f2fb8cddd64004c61af1e9dba608997da5c6460f7a8d420"
+    },
+    {
+      "path": "research/game_interface_presets_v1/qa-report.json",
+      "bytes": 48067,
+      "sha256": "4ca614aa8ec67bda468bc85ad31cafcd167d7763c6865f27573f3e9b0ef124df"
+    },
+    {
+      "path": "research/game_interface_presets_v1/README.md",
+      "bytes": 2624,
+      "sha256": "1ed0b68e8a5f2eeab805a68efc3f5ce9f91ad5a9626b2ba4029010c526dfcd67"
+    },
+    {
+      "path": "research/game_interface_presets_v1/reference-manifest.json",
+      "bytes": 1553,
+      "sha256": "8faa6ec16b9b1a0e8ae54b9e9f83ab7bfa32d83672cce0b63500df860e41d362"
+    },
+    {
+      "path": "research/game_interface_presets_v1/render-geometry.json",
+      "bytes": 49730,
+      "sha256": "0b04a14eed35826a9bab8b6efa5e4bf21cae7c5551e441b4f0fecab52a5c0072"
+    },
+    {
+      "path": "research/game_interface_presets_v1/REPAIR_LOG.md",
+      "bytes": 2866,
+      "sha256": "f2743b43eedbf5284cd28ec4743206c2780fd2ff09940c8e5a551e85f40e4b18"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshot-manifest.json",
+      "bytes": 7195,
+      "sha256": "b31ed0057fefaad35530fe36b78224403ceb89efae18c46c7ee07b27b4c2d775"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/action-desktop.png",
+      "bytes": 36967,
+      "sha256": "1f187398eb6eb128c0dad6cd27305367fa1c0b0b133200e781efea4688773936"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/action-lost-narrow.png",
+      "bytes": 30177,
+      "sha256": "8d2c50437fcf476241710cfd696ac6f6ad2054137381b5357e84073ad2d83427"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/action-narrow.png",
+      "bytes": 30067,
+      "sha256": "7c214e71132ef5508572dbfbc1accc579cc839eba295c038530fa93a30fc211b"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/action-pause-desktop.png",
+      "bytes": 40237,
+      "sha256": "0d0d12b44ea4e89cedd34226cd86efac0c8835d135f3c7ade2146d26a43aaf72"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/action-pause-narrow.png",
+      "bytes": 32285,
+      "sha256": "f6fa3c5beba3a41eb0061e22e1779f62b5fd4d4dd31f71d71eeb9483da091d02"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/card-desktop.png",
+      "bytes": 51494,
+      "sha256": "add4d748f55e9b172986f3421cbf86ff24accd0ceb76e6225534102554a8cc4e"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/card-narrow.png",
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/card-win-narrow.png",
+      "bytes": 40084,
+      "sha256": "c50ea973693d75f2f92783142e1900f993677ed665407a8f627a5734c12fcb03"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/puzzle-desktop.png",
+      "bytes": 38890,
+      "sha256": "31bcc6c60acf68aad428ee4ae1a188d22e64bd7d6c26d48e9668890e8175ee53"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/puzzle-narrow.png",
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/puzzle-solved-narrow.png",
+      "bytes": 31509,
+      "sha256": "20e4ff67ab2ef826582ee787e9bc87ac682c18ce6fae97ff38bbc4435f2b66f6"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/rpg-desktop-first.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/rpg-desktop.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/rpg-equipped-narrow.png",
+      "bytes": 32772,
+      "sha256": "996484e6623260cec34921f41f4f2f5763122a8a861ec610760a82f565f9596b"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/rpg-narrow.png",
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/rpg-rank-blocked-narrow.png",
+      "bytes": 32905,
+      "sha256": "e8769ada842519f80fd43b30e0ab9ba1fe8a4d6d6e59b48d95b248100203a235"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/strategy-blocked-with-prior-order-narrow.png",
+      "bytes": 33834,
+      "sha256": "4ff884194b6fd4352d89e79518bef2ac17467594de0bf738dfd2a31d6d1f84d8"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/strategy-desktop.png",
+      "bytes": 45001,
+      "sha256": "f864410c6bd25e72658ad696af3fdb366358f5ef5f72a59bdc520f103d8ecc1f"
+    },
+    {
+      "path": "research/game_interface_presets_v1/screenshots/strategy-narrow.png",
+      "bytes": 34820,
+      "sha256": "e52f8f5b8cae81dd2ad24f8541c2b2fdaf1295288a6c32b2e1c3a035b1dbf33d"
+    },
+    {
+      "path": "research/game_interface_presets_v1/SOURCES_AND_RIGHTS.md",
+      "bytes": 2983,
+      "sha256": "e276a99c7c8539ab9c932a523936476a4f0adb4d38023caefaf31e9cb5171c92"
+    },
+    {
+      "path": "research/game_interface_presets_v1/state-evidence.json",
+      "bytes": 18548,
+      "sha256": "c4d9e930db952cd440fc3d21bde34b657dd3eea4c270c7a0056c0964e856ec1a"
+    },
+    {
+      "path": "research/game_interface_presets_v1/verify-browser.mjs",
+      "bytes": 14066,
+      "sha256": "b9b2dfced08b91fbbc4a5e3a23cca8927acc66dc9c2410e361b64320ce696280"
+    },
+    {
       "path": "research/games_rpg_card_research.md",
       "bytes": 47551,
       "sha256": "6cc8e9b3cbfd4a20405a7aa0eac7219e41e96814cea80baaa5733a573b303fd7"
@@ -444,11 +759,6 @@
       "path": "research/instruction_trial_01/AGENTS.v1.md",
       "bytes": 8596,
       "sha256": "3980985ce2d65c3e1490013ea39fb34fa44e71f920829d4d095f98222b23652e"
-    },
-    {
-      "path": "research/instruction_trial_01/README.md",
-      "bytes": 4929,
-      "sha256": "f9c1c0c929767388ca4fedf8a5073c859a401b635d781069c87af054e2878ae7"
     },
     {
       "path": "research/instruction_trial_01/alpha/index.html",
@@ -516,6 +826,11 @@
       "sha256": "6c8a4c6d2e4037c993a171e78fc09fd4fe928e700b24296f18caae02794a4d0e"
     },
     {
+      "path": "research/instruction_trial_01/README.md",
+      "bytes": 4929,
+      "sha256": "f9c1c0c929767388ca4fedf8a5073c859a401b635d781069c87af054e2878ae7"
+    },
+    {
       "path": "research/instruction_trial_01/reference/reference-en.html",
       "bytes": 6549,
       "sha256": "4d444f3ad80a20db9c621ee7f8d2bae7667477de9416d6690934c210b4738d81"
@@ -546,11 +861,6 @@
       "sha256": "12a02a60788cc280f1255e7ef55c7d41754743b933e148b61ec1e1e80965a365"
     },
     {
-      "path": "research/instruction_trial_02/README.md",
-      "bytes": 4158,
-      "sha256": "b1c63cccf59c7de6a64bacab08f9f8aca7c250842b5eaeaf54a3826a4d954d57"
-    },
-    {
       "path": "research/instruction_trial_02/checks/source-results.json",
       "bytes": 2700,
       "sha256": "fdf5d54358eced37532a34f3bf03ff590818f5aa7a6f172f9f2fdca3c8c9f38b"
@@ -579,6 +889,11 @@
       "path": "research/instruction_trial_02/prompts/CP01-guided-iteration.txt",
       "bytes": 8334,
       "sha256": "1dc3b79c55395374e5cb24d26e6c6a997987bb5347b5b16ccd006e1dd4d2bd9a"
+    },
+    {
+      "path": "research/instruction_trial_02/README.md",
+      "bytes": 4158,
+      "sha256": "b1c63cccf59c7de6a64bacab08f9f8aca7c250842b5eaeaf54a3826a4d954d57"
     },
     {
       "path": "research/instruction_trial_02/run-record.json",
@@ -656,11 +971,6 @@
       "sha256": "171894b0f9ce963e26bdf706cba339a72911705cef632dd0c5a91686dc9c69d8"
     },
     {
-      "path": "research/strategy_controls_oct4/demo/README.md",
-      "bytes": 6376,
-      "sha256": "6bca8ddffbb69b66d5a5670c60220074ce122db03f2a767559233524a4118cdf"
-    },
-    {
       "path": "research/strategy_controls_oct4/demo/app.mjs",
       "bytes": 14704,
       "sha256": "722d32ab3f6705c83cb26c14bfb78620b787d64ac964308ee53ba774179d7731"
@@ -679,6 +989,11 @@
       "path": "research/strategy_controls_oct4/demo/index.html",
       "bytes": 2555,
       "sha256": "8116a3c44cce22bd6d738a2eddaa1c358a331db48bb6b3fb5a5c29b29c7bd760"
+    },
+    {
+      "path": "research/strategy_controls_oct4/demo/README.md",
+      "bytes": 6376,
+      "sha256": "6bca8ddffbb69b66d5a5670c60220074ce122db03f2a767559233524a4118cdf"
     },
     {
       "path": "research/strategy_controls_oct4/demo/state.mjs",
@@ -906,11 +1221,6 @@
       "sha256": "158a087a9560ac398046e53221d200c9e3a3a5f48c37871bafb936dab6cf6437"
     },
     {
-      "path": "research/white_surface_palettes_v1/README.md",
-      "bytes": 3056,
-      "sha256": "f2fc35b9a1e6d19384511dcc34f60ad0cf4d6fa0ca89c3399ae8a0a9b4fa685e"
-    },
-    {
       "path": "research/white_surface_palettes_v1/ai-implementation-rules.md",
       "bytes": 6962,
       "sha256": "d2f6441343ec50234bc6dc2f4f38ecc1928851ca5290ff98b93a0eaaa70a9897"
@@ -959,6 +1269,11 @@
       "path": "research/white_surface_palettes_v1/qa-local.json",
       "bytes": 25173,
       "sha256": "3ed231a68e6d5e139b5f2f81d4c711a5ebe6030927d9651581f6c4f130e76dfc"
+    },
+    {
+      "path": "research/white_surface_palettes_v1/README.md",
+      "bytes": 3056,
+      "sha256": "f2fc35b9a1e6d19384511dcc34f60ad0cf4d6fa0ca89c3399ae8a0a9b4fa685e"
     },
     {
       "path": "research/white_surface_palettes_v1/repair-log.md",
@@ -1027,8 +1342,8 @@
     },
     {
       "path": "validation/release-checks.json",
-      "bytes": 29259,
-      "sha256": "1bb2f2d0509d8375a09fc2795752e188222690981fd98506e771ecbd4d57e820"
+      "bytes": 38368,
+      "sha256": "9bd53c48fbca6198114abc81f6fe416bfaa9b2adc4efcde482020e3fb9b5fcdb"
     },
     {
       "path": "validation/relocation-summary.json",
@@ -1042,8 +1357,8 @@
     },
     {
       "path": "validation/validate_release.py",
-      "bytes": 10925,
-      "sha256": "8244a8b3ed2e8a8543aef827851fe2647458274acd0cecb83d3a365dce8cd933"
+      "bytes": 12556,
+      "sha256": "cbed5850e2b57bd6e68490b8546e558679a900476330693e116f8f87a83d4cde"
     }
   ]
 }

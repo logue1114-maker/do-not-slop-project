@@ -1,0 +1,24 @@
+{
+  "artifact": "Authored/guided game-interface micro-prototypes; no experimental arms",
+  "integrated_on_utc": "2026-10-05T03:59:51.488Z",
+  "integration_base_commit": "246f4b6fec8995e017af13efa9fe0c79f64a6b4d",
+  "authoring_reference_commit": "bbcbabe1b1626ba6c8dcfa8554f7c38eacaa5f2e",
+  "publication_scope": "Explicitly requested publication of local original sources and own synthetic captures",
+  "integrated_index_sha256": "c24b02f95e9fd60d842e3a31bff2106a8e6a96d844db4149b048485e0c302c30",
+  "local_authored_index_byte_match": true,
+  "original_first_completed_files_byte_match": true,
+  "genre_count": 5,
+  "browser_checks": {
+    "passed": 77,
+    "failed": 0
+  },
+  "package_integrity_report": "package-checks.json",
+  "final_runtime_capture_count": 19,
+  "total_png_count": 33,
+  "public_sanitization": "Development driver/browser locations are environment-configurable. No private path, credential, transfer identity, internal conversation, delivery archive or third-party media included.",
+  "runtime_scope": "Standalone HTML, fixed synthetic data, local session state; no service, Site deployment or live game connection",
+  "design_approval": "not_established",
+  "experiment_status": "not_performed",
+  "usability_gain": "not_proven",
+  "license_choice": "pending_user_decision"
+}

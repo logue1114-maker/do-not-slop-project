@@ -1,0 +1,315 @@
+{
+  "artifact": "Original authored/guided game UI preset gallery; no comparison experiment",
+  "files": [
+    {
+      "path": "BROWSER_REPORT.md",
+      "bytes": 3932,
+      "sha256": "6b016928f788a782759987e7f25f5252726671cf994de5dfa21e0e9f2159b098"
+    },
+    {
+      "path": "build-functional.mjs",
+      "bytes": 7100,
+      "sha256": "ff4da2f313b70f9225a6e3fc75047ee576c2066f905c04cb7add82ca00fcec46"
+    },
+    {
+      "path": "build-presets.mjs",
+      "bytes": 18519,
+      "sha256": "aaed0aca424003c92730aa378c3954719bff209e7e17f686827951290fe52c75"
+    },
+    {
+      "path": "contact-sheet-desktop.png",
+      "bytes": 191130,
+      "sha256": "e7449e8930cf557eabf551065ff96659019032f276f830af5bb27b97b75d88e8"
+    },
+    {
+      "path": "contact-sheet-narrow.png",
+      "bytes": 104264,
+      "sha256": "7ef7bc1149627386256744b9ea78ac0760168eea6227adf2597923088e31c6a4"
+    },
+    {
+      "path": "contrast-report.json",
+      "bytes": 7161,
+      "sha256": "d1c8d55382d151b1671e2f5757efde4e588cd44201afae86c1927e3b914437af"
+    },
+    {
+      "path": "finalize-package.mjs",
+      "bytes": 4177,
+      "sha256": "b16c9865bb38a5e71bc69946c72ac4f9df67db7c23d868d808831ef7214c0ce1"
+    },
+    {
+      "path": "finish-evidence.mjs",
+      "bytes": 4815,
+      "sha256": "f2419411fed825fd02930089df727d2db625016bdaba62c767397be420f5e8af"
+    },
+    {
+      "path": "first-pass/IMPLEMENTATION.md",
+      "bytes": 3154,
+      "sha256": "b5b408f9f496e34c11d2d0d36be4e59809f7a55433f4efd02772f92b58d15cf8"
+    },
+    {
+      "path": "first-pass/index.html",
+      "bytes": 36366,
+      "sha256": "5268a5989b26033e7d97d13a4210a9eee8d8c69d1aa6617ba62f7f8aa37a7a76"
+    },
+    {
+      "path": "first-pass/presets.json",
+      "bytes": 35626,
+      "sha256": "d97bfd6957693d8befcb07bcc5972788d3e05620d08084d4a24935d3a2d196b2"
+    },
+    {
+      "path": "first-pass/qa-report.json",
+      "bytes": 47634,
+      "sha256": "91fc00353c808728a6c8e767dbe00619c63c59fc002d60597708bdcd61c9e51a"
+    },
+    {
+      "path": "first-pass/render-geometry.json",
+      "bytes": 49636,
+      "sha256": "da2262c46fcd81eca94bed7d0cd415cf233700eb33a75d51185b7ece2ac71331"
+    },
+    {
+      "path": "first-pass/screenshots/action-desktop.png",
+      "bytes": 21482,
+      "sha256": "ab88e49d71a88243251e4a80c336a016496b943f4970a7b85a465f12bf1e1e25"
+    },
+    {
+      "path": "first-pass/screenshots/action-narrow.png",
+      "bytes": 30127,
+      "sha256": "6742d5879e473c7249ddcec695fd86f1c130e3f3d526010f8fd99b0f415d8ef7"
+    },
+    {
+      "path": "first-pass/screenshots/action-pause-desktop.png",
+      "bytes": 29805,
+      "sha256": "8336ad608228f247c7ae2486b7cf265f6e3b8930e21ec03fb34865907f0e0d69"
+    },
+    {
+      "path": "first-pass/screenshots/card-desktop.png",
+      "bytes": 51487,
+      "sha256": "f57065b6d9c421d9dffacee8f44f1930342116a9d687c8e4dfb355459f7c508a"
+    },
+    {
+      "path": "first-pass/screenshots/card-narrow.png",
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430"
+    },
+    {
+      "path": "first-pass/screenshots/puzzle-desktop.png",
+      "bytes": 42255,
+      "sha256": "a65335c8b1162b9cad26de5ffa5b0fe289f87071d091bf4fc920be0c7f96b7d8"
+    },
+    {
+      "path": "first-pass/screenshots/puzzle-narrow.png",
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64"
+    },
+    {
+      "path": "first-pass/screenshots/rpg-desktop-first.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "first-pass/screenshots/rpg-desktop.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "first-pass/screenshots/rpg-narrow.png",
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2"
+    },
+    {
+      "path": "first-pass/screenshots/strategy-desktop.png",
+      "bytes": 38895,
+      "sha256": "85cd2121f62eb173af0c679a51aa088ca324b0ee40bfde057d8d121cc7506139"
+    },
+    {
+      "path": "first-pass/screenshots/strategy-narrow.png",
+      "bytes": 35816,
+      "sha256": "4f9cec13325fc2f4ba5bdf0dd6b1b19d34593a67c5e7c1d916b337747cd6961b"
+    },
+    {
+      "path": "first-pass/SOURCES_AND_RIGHTS.md",
+      "bytes": 2785,
+      "sha256": "97e3805bd639982bc31ade9f1ace4af8d144fa4b50e6942f40d45a3da8c8378e"
+    },
+    {
+      "path": "first-pass-manifest.json",
+      "bytes": 631,
+      "sha256": "10942c28f4323c8f0f4386705011510a7f84b9bc41076aa0098c6c042e010eb3"
+    },
+    {
+      "path": "functional-fixtures.json",
+      "bytes": 8658,
+      "sha256": "1d81e2e0ba8ff33f7f7661c99da727a465922b3853c853731008813d9d13b478"
+    },
+    {
+      "path": "http-checks.json",
+      "bytes": 1502,
+      "sha256": "888431996ec4e85748577141f93e17a0f2cb9e77bd5ad2563547019c8c4b655e"
+    },
+    {
+      "path": "IMPLEMENTATION.md",
+      "bytes": 3647,
+      "sha256": "a37a3eaabc63cb4b4a8cb62348f5d8c3b0a92bd6581e0c683df4dcc8bd24d5cf"
+    },
+    {
+      "path": "index.html",
+      "bytes": 37441,
+      "sha256": "c24b02f95e9fd60d842e3a31bff2106a8e6a96d844db4149b048485e0c302c30"
+    },
+    {
+      "path": "package-checks.json",
+      "bytes": 762,
+      "sha256": "72f40eb6c48251ac8ac5988a4a7e671a9111b337d2184232c1e57a2748e43e2f"
+    },
+    {
+      "path": "presets.json",
+      "bytes": 47452,
+      "sha256": "01d7c82159642f32468197248a8057ae2e9acf5a13f5062f8686141bdcd3c685"
+    },
+    {
+      "path": "public-integration.json",
+      "bytes": 1298,
+      "sha256": "1999ecbf007f9fb29f2fb8cddd64004c61af1e9dba608997da5c6460f7a8d420"
+    },
+    {
+      "path": "qa-report.json",
+      "bytes": 48067,
+      "sha256": "4ca614aa8ec67bda468bc85ad31cafcd167d7763c6865f27573f3e9b0ef124df"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2624,
+      "sha256": "1ed0b68e8a5f2eeab805a68efc3f5ce9f91ad5a9626b2ba4029010c526dfcd67"
+    },
+    {
+      "path": "reference-manifest.json",
+      "bytes": 1553,
+      "sha256": "8faa6ec16b9b1a0e8ae54b9e9f83ab7bfa32d83672cce0b63500df860e41d362"
+    },
+    {
+      "path": "render-geometry.json",
+      "bytes": 49730,
+      "sha256": "0b04a14eed35826a9bab8b6efa5e4bf21cae7c5551e441b4f0fecab52a5c0072"
+    },
+    {
+      "path": "REPAIR_LOG.md",
+      "bytes": 2866,
+      "sha256": "f2743b43eedbf5284cd28ec4743206c2780fd2ff09940c8e5a551e85f40e4b18"
+    },
+    {
+      "path": "screenshot-manifest.json",
+      "bytes": 7195,
+      "sha256": "b31ed0057fefaad35530fe36b78224403ceb89efae18c46c7ee07b27b4c2d775"
+    },
+    {
+      "path": "screenshots/action-desktop.png",
+      "bytes": 36967,
+      "sha256": "1f187398eb6eb128c0dad6cd27305367fa1c0b0b133200e781efea4688773936"
+    },
+    {
+      "path": "screenshots/action-lost-narrow.png",
+      "bytes": 30177,
+      "sha256": "8d2c50437fcf476241710cfd696ac6f6ad2054137381b5357e84073ad2d83427"
+    },
+    {
+      "path": "screenshots/action-narrow.png",
+      "bytes": 30067,
+      "sha256": "7c214e71132ef5508572dbfbc1accc579cc839eba295c038530fa93a30fc211b"
+    },
+    {
+      "path": "screenshots/action-pause-desktop.png",
+      "bytes": 40237,
+      "sha256": "0d0d12b44ea4e89cedd34226cd86efac0c8835d135f3c7ade2146d26a43aaf72"
+    },
+    {
+      "path": "screenshots/action-pause-narrow.png",
+      "bytes": 32285,
+      "sha256": "f6fa3c5beba3a41eb0061e22e1779f62b5fd4d4dd31f71d71eeb9483da091d02"
+    },
+    {
+      "path": "screenshots/card-desktop.png",
+      "bytes": 51494,
+      "sha256": "add4d748f55e9b172986f3421cbf86ff24accd0ceb76e6225534102554a8cc4e"
+    },
+    {
+      "path": "screenshots/card-narrow.png",
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430"
+    },
+    {
+      "path": "screenshots/card-win-narrow.png",
+      "bytes": 40084,
+      "sha256": "c50ea973693d75f2f92783142e1900f993677ed665407a8f627a5734c12fcb03"
+    },
+    {
+      "path": "screenshots/puzzle-desktop.png",
+      "bytes": 38890,
+      "sha256": "31bcc6c60acf68aad428ee4ae1a188d22e64bd7d6c26d48e9668890e8175ee53"
+    },
+    {
+      "path": "screenshots/puzzle-narrow.png",
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64"
+    },
+    {
+      "path": "screenshots/puzzle-solved-narrow.png",
+      "bytes": 31509,
+      "sha256": "20e4ff67ab2ef826582ee787e9bc87ac682c18ce6fae97ff38bbc4435f2b66f6"
+    },
+    {
+      "path": "screenshots/rpg-desktop-first.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "screenshots/rpg-desktop.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "screenshots/rpg-equipped-narrow.png",
+      "bytes": 32772,
+      "sha256": "996484e6623260cec34921f41f4f2f5763122a8a861ec610760a82f565f9596b"
+    },
+    {
+      "path": "screenshots/rpg-narrow.png",
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2"
+    },
+    {
+      "path": "screenshots/rpg-rank-blocked-narrow.png",
+      "bytes": 32905,
+      "sha256": "e8769ada842519f80fd43b30e0ab9ba1fe8a4d6d6e59b48d95b248100203a235"
+    },
+    {
+      "path": "screenshots/strategy-blocked-with-prior-order-narrow.png",
+      "bytes": 33834,
+      "sha256": "4ff884194b6fd4352d89e79518bef2ac17467594de0bf738dfd2a31d6d1f84d8"
+    },
+    {
+      "path": "screenshots/strategy-desktop.png",
+      "bytes": 45001,
+      "sha256": "f864410c6bd25e72658ad696af3fdb366358f5ef5f72a59bdc520f103d8ecc1f"
+    },
+    {
+      "path": "screenshots/strategy-narrow.png",
+      "bytes": 34820,
+      "sha256": "e52f8f5b8cae81dd2ad24f8541c2b2fdaf1295288a6c32b2e1c3a035b1dbf33d"
+    },
+    {
+      "path": "SOURCES_AND_RIGHTS.md",
+      "bytes": 2983,
+      "sha256": "e276a99c7c8539ab9c932a523936476a4f0adb4d38023caefaf31e9cb5171c92"
+    },
+    {
+      "path": "state-evidence.json",
+      "bytes": 18548,
+      "sha256": "c4d9e930db952cd440fc3d21bde34b657dd3eea4c270c7a0056c0964e856ec1a"
+    },
+    {
+      "path": "verify-browser.mjs",
+      "bytes": 14066,
+      "sha256": "b9b2dfced08b91fbbc4a5e3a23cca8927acc66dc9c2410e361b64320ce696280"
+    }
+  ]
+}

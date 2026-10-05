@@ -27,6 +27,23 @@ WHITE_PALETTE_CAPTURE_PATHS = {
                  'learning-plum', 'learning-petrol', 'order-narrow')
 }
 
+GAME_PRESET_ROOT = 'research/game_interface_presets_v1/'
+GAME_CANONICAL_NAMES = {genre + '-' + viewport
+                        for genre in ('rpg', 'card', 'puzzle', 'strategy', 'action')
+                        for viewport in ('desktop', 'narrow')}
+GAME_SHARED_NAMES = {'rpg-desktop-first', 'action-pause-desktop'}
+GAME_FLOW_NAMES = {'rpg-rank-blocked-narrow', 'rpg-equipped-narrow', 'card-win-narrow',
+                   'puzzle-solved-narrow', 'strategy-blocked-with-prior-order-narrow',
+                   'action-pause-narrow', 'action-lost-narrow'}
+GAME_PRESET_CAPTURE_PATHS = (
+    {GAME_PRESET_ROOT + 'screenshots/' + name + '.png'
+     for name in GAME_CANONICAL_NAMES | GAME_SHARED_NAMES | GAME_FLOW_NAMES}
+    | {GAME_PRESET_ROOT + 'first-pass/screenshots/' + name + '.png'
+       for name in GAME_CANONICAL_NAMES | GAME_SHARED_NAMES}
+    | {GAME_PRESET_ROOT + 'contact-sheet-' + viewport + '.png'
+       for viewport in ('desktop', 'narrow')}
+)
+
 
 class Links(HTMLParser):
     def __init__(self):
@@ -49,7 +66,8 @@ def inspect(root):
     approved_captures_v1 = provenance.get('instruction_trial_01', {}).get('approved_synthetic_capture_sha256', {})
     approved_captures_v2 = provenance.get('instruction_trial_02', {}).get('approved_synthetic_capture_sha256', {})
     approved_captures_palettes = provenance.get('white_surface_palettes_v1', {}).get('approved_synthetic_capture_sha256', {})
-    approved_captures = {**approved_captures_v1, **approved_captures_v2, **approved_captures_palettes}
+    approved_captures_games = provenance.get('game_interface_presets_v1', {}).get('approved_synthetic_capture_sha256', {})
+    approved_captures = {**approved_captures_v1, **approved_captures_v2, **approved_captures_palettes, **approved_captures_games}
     denied_parts = {'.git', '.openai', '.aws', '.codex', '.agents', 'node_modules', 'evidence', 'browser_qa', 'public_release_audit'}
     forbidden = [r for r, p in relative.items() if set(p.relative_to(root).parts) & denied_parts
                  or re.search(r'(?:evaluation|private|audit_report)', r, re.I)
@@ -79,7 +97,7 @@ def inspect(root):
     check('source_authority_and_license_boundaries', provenance['public_redistribution'] == 'authorized_source_release_only'
           and provenance['license_choice'] == 'pending_user_decision' and provenance['external_rights'] == 'unknown_link_only')
     approved_art = provenance['approved_authored_board_sha256']
-    art_paths = {r for r, p in relative.items() if p.suffix in {'.png', '.svg'}}
+    art_paths = {r for r, p in relative.items() if p.suffix in {'.png', '.svg'} and r not in GAME_PRESET_CAPTURE_PATHS}
     check('exact_authored_board_allowlist', set(approved_art) == art_paths and len(art_paths) == 46)
     for rel in sorted(art_paths):
         path = relative[rel]
@@ -88,11 +106,14 @@ def inspect(root):
             document = ET.fromstring(path.read_text())
             check('vector_no_embedded_media:' + rel, not any(element.tag.split('}')[-1] in {'image', 'script', 'foreignObject'} for element in document.iter())
                   and 'data:' not in path.read_text() and '@font-face' not in path.read_text())
-    capture_paths = {r for r, p in relative.items() if p.suffix.lower() in {'.jpg', '.jpeg'}}
+    capture_paths = {r for r, p in relative.items() if p.suffix.lower() in {'.jpg', '.jpeg'}
+                     or (p.suffix.lower() == '.png' and r.startswith(GAME_PRESET_ROOT))}
     check('exact_original_capture_allowlist', set(approved_captures_v1) == TRIAL_CAPTURE_PATHS)
     check('exact_guided_iteration_capture_allowlist', set(approved_captures_v2) == GUIDED_CAPTURE_PATHS)
     check('exact_white_palette_capture_allowlist', set(approved_captures_palettes) == WHITE_PALETTE_CAPTURE_PATHS)
-    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS | WHITE_PALETTE_CAPTURE_PATHS) == capture_paths)
+    check('exact_game_preset_capture_allowlist', set(approved_captures_games) == GAME_PRESET_CAPTURE_PATHS
+          and len(GAME_PRESET_CAPTURE_PATHS) == 33)
+    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS | WHITE_PALETTE_CAPTURE_PATHS | GAME_PRESET_CAPTURE_PATHS) == capture_paths)
     for rel in sorted(capture_paths):
         check('synthetic_capture_bytes:' + rel, hashlib.sha256(relative[rel].read_bytes()).hexdigest() == approved_captures.get(rel))
     broken, escaped = [], []
@@ -118,10 +139,12 @@ def inspect(root):
     sensitive = []
     patterns = {
         'private_machine_path': re.compile('/' + r'(?:workspace|home/agent|root)/[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)+'),
+        'windows_machine_path': re.compile(r'(?<![A-Za-z0-9\\])\b[A-Za-z]:[\\/](?=[A-Za-z0-9_.-])'),
         'credential': re.compile(r'\b(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[0-9A-Z]{16}|sk-[A-Za-z0-9]{30,})\b'),
         'signed_download': re.compile(r'https?://[^\s"<>]+[?&](?:sig|X-Amz-Signature|token|access_token)='),
         'embedded_auth': re.compile(r'https?://[^/\s:]+:[^/\s@]+@'),
         'internal_coordination': re.compile('cloud' + r'_threads|collaboration' + r'\.|agent' + '_notes|sediment:' + '//|codex:' + '//|library_' + 'file_id'),
+        'transfer_identity': re.compile('lib' + r'file_[A-Za-z0-9]+|\b' + 'file_' + r'[A-Za-z0-9]{12,}'),
         'real_contact_candidate': re.compile(r'\b[A-Za-z0-9._%+-]+@(?!(?:example\.(?:test|com|org|net))\b)[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'),
     }
     for rel, path in relative.items():

@@ -1,0 +1,236 @@
+{
+  "note": "Original runtime PNGs and uncropped labeled sheets. first-pass evidence is retained separately and may show pre-repair viewport clipping.",
+  "images": [
+    {
+      "path": "contact-sheet-desktop.png",
+      "width": 1189,
+      "height": 1273,
+      "bytes": 191130,
+      "sha256": "e7449e8930cf557eabf551065ff96659019032f276f830af5bb27b97b75d88e8"
+    },
+    {
+      "path": "contact-sheet-narrow.png",
+      "width": 1065,
+      "height": 519,
+      "bytes": 104264,
+      "sha256": "7ef7bc1149627386256744b9ea78ac0760168eea6227adf2597923088e31c6a4"
+    },
+    {
+      "path": "first-pass/screenshots/action-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 21482,
+      "sha256": "ab88e49d71a88243251e4a80c336a016496b943f4970a7b85a465f12bf1e1e25"
+    },
+    {
+      "path": "first-pass/screenshots/action-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 30127,
+      "sha256": "6742d5879e473c7249ddcec695fd86f1c130e3f3d526010f8fd99b0f415d8ef7"
+    },
+    {
+      "path": "first-pass/screenshots/action-pause-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 29805,
+      "sha256": "8336ad608228f247c7ae2486b7cf265f6e3b8930e21ec03fb34865907f0e0d69"
+    },
+    {
+      "path": "first-pass/screenshots/card-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 51487,
+      "sha256": "f57065b6d9c421d9dffacee8f44f1930342116a9d687c8e4dfb355459f7c508a"
+    },
+    {
+      "path": "first-pass/screenshots/card-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430"
+    },
+    {
+      "path": "first-pass/screenshots/puzzle-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 42255,
+      "sha256": "a65335c8b1162b9cad26de5ffa5b0fe289f87071d091bf4fc920be0c7f96b7d8"
+    },
+    {
+      "path": "first-pass/screenshots/puzzle-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64"
+    },
+    {
+      "path": "first-pass/screenshots/rpg-desktop-first.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "first-pass/screenshots/rpg-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "first-pass/screenshots/rpg-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2"
+    },
+    {
+      "path": "first-pass/screenshots/strategy-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 38895,
+      "sha256": "85cd2121f62eb173af0c679a51aa088ca324b0ee40bfde057d8d121cc7506139"
+    },
+    {
+      "path": "first-pass/screenshots/strategy-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 35816,
+      "sha256": "4f9cec13325fc2f4ba5bdf0dd6b1b19d34593a67c5e7c1d916b337747cd6961b"
+    },
+    {
+      "path": "screenshots/action-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 36967,
+      "sha256": "1f187398eb6eb128c0dad6cd27305367fa1c0b0b133200e781efea4688773936"
+    },
+    {
+      "path": "screenshots/action-lost-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 30177,
+      "sha256": "8d2c50437fcf476241710cfd696ac6f6ad2054137381b5357e84073ad2d83427"
+    },
+    {
+      "path": "screenshots/action-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 30067,
+      "sha256": "7c214e71132ef5508572dbfbc1accc579cc839eba295c038530fa93a30fc211b"
+    },
+    {
+      "path": "screenshots/action-pause-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 40237,
+      "sha256": "0d0d12b44ea4e89cedd34226cd86efac0c8835d135f3c7ade2146d26a43aaf72"
+    },
+    {
+      "path": "screenshots/action-pause-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 32285,
+      "sha256": "f6fa3c5beba3a41eb0061e22e1779f62b5fd4d4dd31f71d71eeb9483da091d02"
+    },
+    {
+      "path": "screenshots/card-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 51494,
+      "sha256": "add4d748f55e9b172986f3421cbf86ff24accd0ceb76e6225534102554a8cc4e"
+    },
+    {
+      "path": "screenshots/card-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430"
+    },
+    {
+      "path": "screenshots/card-win-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 40084,
+      "sha256": "c50ea973693d75f2f92783142e1900f993677ed665407a8f627a5734c12fcb03"
+    },
+    {
+      "path": "screenshots/puzzle-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 38890,
+      "sha256": "31bcc6c60acf68aad428ee4ae1a188d22e64bd7d6c26d48e9668890e8175ee53"
+    },
+    {
+      "path": "screenshots/puzzle-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64"
+    },
+    {
+      "path": "screenshots/puzzle-solved-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 31509,
+      "sha256": "20e4ff67ab2ef826582ee787e9bc87ac682c18ce6fae97ff38bbc4435f2b66f6"
+    },
+    {
+      "path": "screenshots/rpg-desktop-first.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "screenshots/rpg-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77"
+    },
+    {
+      "path": "screenshots/rpg-equipped-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 32772,
+      "sha256": "996484e6623260cec34921f41f4f2f5763122a8a861ec610760a82f565f9596b"
+    },
+    {
+      "path": "screenshots/rpg-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2"
+    },
+    {
+      "path": "screenshots/rpg-rank-blocked-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 32905,
+      "sha256": "e8769ada842519f80fd43b30e0ab9ba1fe8a4d6d6e59b48d95b248100203a235"
+    },
+    {
+      "path": "screenshots/strategy-blocked-with-prior-order-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 33834,
+      "sha256": "4ff884194b6fd4352d89e79518bef2ac17467594de0bf738dfd2a31d6d1f84d8"
+    },
+    {
+      "path": "screenshots/strategy-desktop.png",
+      "width": 1165,
+      "height": 747,
+      "bytes": 45001,
+      "sha256": "f864410c6bd25e72658ad696af3fdb366358f5ef5f72a59bdc520f103d8ecc1f"
+    },
+    {
+      "path": "screenshots/strategy-narrow.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 34820,
+      "sha256": "e52f8f5b8cae81dd2ad24f8541c2b2fdaf1295288a6c32b2e1c3a035b1dbf33d"
+    }
+  ]
+}

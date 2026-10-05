@@ -1,0 +1,62 @@
+{
+  "date_utc": "2026-10-05T04:02:16.937Z",
+  "entry_path": "/research/game_interface_presets_v1/",
+  "method": "Loopback HTTP server serving the integrated public tree; actual click/key input in installed headless Chromium",
+  "checks": [
+    {
+      "name": "HTTP gallery entry",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP RPG inventory",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP card resolution",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP puzzle movement",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP strategy preview",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP action pause/resume",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP documentation presets.json",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP documentation IMPLEMENTATION.md",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP documentation SOURCES_AND_RIGHTS.md",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP inline runtime makes no outside request",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP console/page errors absent",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP runtime bytes match original",
+      "status": "passed"
+    }
+  ],
+  "totals": {
+    "passed": 12,
+    "failed": 0
+  },
+  "console_errors": [],
+  "outside_requests": [],
+  "limits": "Local HTTP loading and scoped flow/link checks; no public hosted game, physical phone, controller, screen-reader or usability test"
+}

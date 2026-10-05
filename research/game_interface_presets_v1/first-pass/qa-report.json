@@ -1,0 +1,2124 @@
+{
+  "date_utc": "2026-10-04T14:18:31.766Z",
+  "browser": "Headless Chromium 154.0.8037.93",
+  "runtime": "file:// standalone index.html; exact real entry, no state mutation hooks",
+  "checks": [
+    {
+      "name": "Synthetic boundary visible",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "RPG blocked rank preserves equipped item",
+      "status": "passed",
+      "evidence": {
+        "view": "inventory",
+        "equipped": "reed",
+        "selected": "anchor",
+        "status": "",
+        "rank": 2
+      }
+    },
+    {
+      "name": "RPG equip commits once",
+      "status": "passed",
+      "evidence": {
+        "view": "inventory",
+        "equipped": "brass",
+        "selected": "brass",
+        "status": "Brass blade equipped.",
+        "rank": 2
+      }
+    },
+    {
+      "name": "RPG return restores camp and focus",
+      "status": "passed",
+      "evidence": {
+        "id": "inventory",
+        "tag": "BUTTON"
+      }
+    },
+    {
+      "name": "RPG reopening retains equipment",
+      "status": "passed",
+      "evidence": {
+        "view": "inventory",
+        "equipped": "brass",
+        "selected": "brass",
+        "status": "",
+        "rank": 2
+      }
+    },
+    {
+      "name": "Card selection spends nothing and blocks cost 4",
+      "status": "passed",
+      "evidence": {
+        "turn": 1,
+        "hp": 10,
+        "enemy": 12,
+        "energy": 3,
+        "shield": 0,
+        "selected": "burst",
+        "used": [],
+        "status": "Needs 4 energy. Use Focus or choose another card.",
+        "result": null
+      }
+    },
+    {
+      "name": "Card Focus then Burst exact cost/effect",
+      "status": "passed",
+      "evidence": {
+        "turn": 1,
+        "hp": 10,
+        "enemy": 2,
+        "energy": 0,
+        "shield": 0,
+        "selected": "burst",
+        "used": [
+          "focus",
+          "burst"
+        ],
+        "status": "Burst played.",
+        "result": null
+      }
+    },
+    {
+      "name": "Card repeated play cannot apply twice",
+      "status": "passed",
+      "evidence": {
+        "turn": 1,
+        "hp": 10,
+        "enemy": 2,
+        "energy": 0,
+        "shield": 0,
+        "selected": "burst",
+        "used": [
+          "focus",
+          "burst"
+        ],
+        "status": "Burst played.",
+        "result": null
+      }
+    },
+    {
+      "name": "Card end turn absorbs attack and restores resources",
+      "status": "passed",
+      "evidence": {
+        "turn": 2,
+        "hp": 10,
+        "enemy": 12,
+        "energy": 3,
+        "shield": 0,
+        "selected": null,
+        "used": [],
+        "status": "Turn 2. Took 0 damage. Energy restored to 3.",
+        "result": null
+      }
+    },
+    {
+      "name": "Card natural win disables resolution",
+      "status": "passed",
+      "evidence": {
+        "turn": 3,
+        "hp": 7,
+        "enemy": 0,
+        "energy": 1,
+        "shield": 0,
+        "selected": "cut",
+        "used": [
+          "cut"
+        ],
+        "status": "Sentinel defeated.",
+        "result": "won"
+      }
+    },
+    {
+      "name": "Card natural loss exposes retry",
+      "status": "passed",
+      "evidence": {
+        "turn": 4,
+        "hp": 0,
+        "enemy": 12,
+        "energy": 3,
+        "shield": 0,
+        "selected": null,
+        "used": [],
+        "status": "Duel lost. Retry to start again.",
+        "result": "lost"
+      }
+    },
+    {
+      "name": "Card retry restores health",
+      "status": "passed",
+      "evidence": {
+        "turn": 1,
+        "hp": 10,
+        "enemy": 12,
+        "energy": 3,
+        "shield": 0,
+        "selected": null,
+        "used": [],
+        "status": "Select a card.",
+        "result": null
+      }
+    },
+    {
+      "name": "Puzzle wall blocks without history",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          1,
+          3
+        ],
+        "crate": [
+          2,
+          3
+        ],
+        "moves": 0,
+        "history": [],
+        "won": false,
+        "status": "Blocked by a wall. Try another direction."
+      }
+    },
+    {
+      "name": "Puzzle natural five-move solve",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          4,
+          3
+        ],
+        "crate": [
+          4,
+          2
+        ],
+        "moves": 5,
+        "history": [
+          {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "won": false
+          },
+          {
+            "player": [
+              2,
+              3
+            ],
+            "crate": [
+              3,
+              3
+            ],
+            "moves": 1,
+            "won": false
+          },
+          {
+            "player": [
+              3,
+              3
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 2,
+            "won": false
+          },
+          {
+            "player": [
+              3,
+              4
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 3,
+            "won": false
+          },
+          {
+            "player": [
+              4,
+              4
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 4,
+            "won": false
+          }
+        ],
+        "won": true,
+        "status": "Solved in 5 moves."
+      }
+    },
+    {
+      "name": "Puzzle undo reverses solved state",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          4,
+          4
+        ],
+        "crate": [
+          4,
+          3
+        ],
+        "moves": 4,
+        "history": [
+          {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "won": false
+          },
+          {
+            "player": [
+              2,
+              3
+            ],
+            "crate": [
+              3,
+              3
+            ],
+            "moves": 1,
+            "won": false
+          },
+          {
+            "player": [
+              3,
+              3
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 2,
+            "won": false
+          },
+          {
+            "player": [
+              3,
+              4
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 3,
+            "won": false
+          }
+        ],
+        "won": false,
+        "status": "Move undone. 4 moves."
+      }
+    },
+    {
+      "name": "Puzzle retry clears history",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          1,
+          3
+        ],
+        "crate": [
+          2,
+          3
+        ],
+        "moves": 0,
+        "history": [],
+        "won": false,
+        "status": "Push the crate onto the target."
+      }
+    },
+    {
+      "name": "Puzzle keyboard matches dpad",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          4,
+          3
+        ],
+        "crate": [
+          4,
+          2
+        ],
+        "moves": 5,
+        "history": [
+          {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "won": false
+          },
+          {
+            "player": [
+              2,
+              3
+            ],
+            "crate": [
+              3,
+              3
+            ],
+            "moves": 1,
+            "won": false
+          },
+          {
+            "player": [
+              3,
+              3
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 2,
+            "won": false
+          },
+          {
+            "player": [
+              3,
+              4
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 3,
+            "won": false
+          },
+          {
+            "player": [
+              4,
+              4
+            ],
+            "crate": [
+              4,
+              3
+            ],
+            "moves": 4,
+            "won": false
+          }
+        ],
+        "won": true,
+        "status": "Solved in 5 moves."
+      }
+    },
+    {
+      "name": "Strategy target before unit cannot issue order",
+      "status": "passed",
+      "evidence": {
+        "selected": null,
+        "preview": null,
+        "lastOrder": null,
+        "orders": 0,
+        "status": "Select a unit before choosing a target."
+      }
+    },
+    {
+      "name": "Strategy preview does not commit",
+      "status": "passed",
+      "evidence": {
+        "selected": "A",
+        "preview": [
+          6,
+          2
+        ],
+        "lastOrder": null,
+        "orders": 0,
+        "status": "Move preview ready. Confirm or cancel."
+      }
+    },
+    {
+      "name": "Strategy confirm clears preview and restores unit focus",
+      "status": "passed",
+      "evidence": {
+        "state": {
+          "selected": "A",
+          "preview": null,
+          "lastOrder": {
+            "unit": "A",
+            "target": [
+              6,
+              2
+            ]
+          },
+          "orders": 1,
+          "status": "Order 1 recorded for A."
+        },
+        "focus": {
+          "id": "map-1-2",
+          "tag": "BUTTON"
+        }
+      }
+    },
+    {
+      "name": "Strategy cancel preserves selection and prior order",
+      "status": "passed",
+      "evidence": {
+        "selected": "A",
+        "preview": null,
+        "lastOrder": {
+          "unit": "A",
+          "target": [
+            6,
+            2
+          ]
+        },
+        "orders": 1,
+        "status": "Preview cancelled. Selection retained."
+      }
+    },
+    {
+      "name": "Strategy water clears stale preview",
+      "status": "passed",
+      "evidence": {
+        "selected": "A",
+        "preview": null,
+        "lastOrder": {
+          "unit": "A",
+          "target": [
+            6,
+            2
+          ]
+        },
+        "orders": 1,
+        "status": "Water is blocked. Choose open ground."
+      }
+    },
+    {
+      "name": "Strategy last-order line stays with committed unit",
+      "status": "failed",
+      "evidence": {
+        "y1": "350",
+        "expected": "250"
+      }
+    },
+    {
+      "name": "Action empty pulse starts cooldown",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          0,
+          3
+        ],
+        "drones": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 3,
+        "cooldown": 3000,
+        "paused": false,
+        "result": null,
+        "status": "Pulse missed. Move within 3 cells."
+      }
+    },
+    {
+      "name": "Action cooldown disablement retains usable focus",
+      "status": "passed",
+      "evidence": {
+        "id": null,
+        "tag": "MAIN"
+      }
+    },
+    {
+      "name": "Action cooldown blocks repeat pulse",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          0,
+          3
+        ],
+        "drones": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 3,
+        "cooldown": 3000,
+        "paused": false,
+        "result": null,
+        "status": "Pulse missed. Move within 3 cells."
+      }
+    },
+    {
+      "name": "Action pause freezes cooldown",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          0,
+          3
+        ],
+        "drones": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 3,
+        "cooldown": 2900,
+        "paused": true,
+        "result": null,
+        "status": "Pulse missed. Move within 3 cells."
+      }
+    },
+    {
+      "name": "Action resume restores Pause focus",
+      "status": "passed",
+      "evidence": {
+        "id": "pause",
+        "tag": "BUTTON"
+      }
+    },
+    {
+      "name": "Action gallery switch freezes cooldown",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          0,
+          3
+        ],
+        "drones": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 3,
+        "cooldown": 2900,
+        "paused": false,
+        "result": null,
+        "status": "Pulse missed. Move within 3 cells."
+      }
+    },
+    {
+      "name": "Genre switch preserves RPG state",
+      "status": "passed",
+      "evidence": {
+        "view": "inventory",
+        "equipped": "brass",
+        "selected": "brass",
+        "status": "",
+        "rank": 2
+      }
+    },
+    {
+      "name": "Action in-range pulse clears first sentry",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          3,
+          3
+        ],
+        "drones": [
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 3,
+        "cooldown": 3000,
+        "paused": false,
+        "result": null,
+        "status": "Pulse cleared 1 sentry."
+      }
+    },
+    {
+      "name": "Action natural path clears sentries and reaches gate",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          10,
+          3
+        ],
+        "drones": [],
+        "hp": 3,
+        "cooldown": 2900,
+        "paused": false,
+        "result": "won",
+        "status": "Gate reached. Run complete."
+      }
+    },
+    {
+      "name": "Action collisions reach loss",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          0,
+          3
+        ],
+        "drones": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 0,
+        "cooldown": 0,
+        "paused": false,
+        "result": "lost",
+        "status": "Run lost. Retry to start again."
+      }
+    },
+    {
+      "name": "Action retry restores fixture",
+      "status": "passed",
+      "evidence": {
+        "player": [
+          0,
+          3
+        ],
+        "drones": [
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "hp": 3,
+        "cooldown": 0,
+        "paused": false,
+        "result": null,
+        "status": "Clear both sentries, then reach the gate."
+      }
+    },
+    {
+      "name": "rpg 1165 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "rpg 1165 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "rpg 1165 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "card 1165 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "card 1165 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "card 1165 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "puzzle 1165 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "puzzle 1165 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "puzzle 1165 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": [
+        {
+          "id": "reset",
+          "bottom": 746.65625
+        }
+      ]
+    },
+    {
+      "name": "strategy 1165 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "strategy 1165 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "strategy 1165 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": [
+        {
+          "id": "reset",
+          "bottom": 746.8125
+        }
+      ]
+    },
+    {
+      "name": "action 1165 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "action 1165 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "action 1165 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "rpg 390 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "rpg 390 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "rpg 390 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "card 390 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "card 390 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "card 390 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "puzzle 390 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "puzzle 390 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "puzzle 390 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "strategy 390 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "strategy 390 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "strategy 390 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "action 390 default/preview no horizontal overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "action 390 default/preview control text fits",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "action 390 default/preview enabled main actions above 16px bottom margin",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "RPG scoped keyboard entry",
+      "status": "passed",
+      "evidence": {
+        "view": "inventory",
+        "equipped": "reed",
+        "selected": "brass",
+        "status": "",
+        "rank": 2
+      }
+    },
+    {
+      "name": "Native Enter activates Return",
+      "status": "passed",
+      "evidence": {
+        "view": "camp",
+        "equipped": "reed",
+        "selected": "brass",
+        "status": "",
+        "rank": 2
+      }
+    },
+    {
+      "name": "Native Space activates Inventory",
+      "status": "passed",
+      "evidence": {
+        "view": "inventory",
+        "equipped": "reed",
+        "selected": "brass",
+        "status": "",
+        "rank": 2
+      }
+    },
+    {
+      "name": "Keyboard visible focus uses independent ring",
+      "status": "passed",
+      "evidence": {
+        "outline": "3px",
+        "selected": "true"
+      }
+    },
+    {
+      "name": "Shortcuts outside prototype do not mutate state",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "rpg 200% equivalent CSS reflow no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "card 200% equivalent CSS reflow no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "puzzle 200% equivalent CSS reflow no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "strategy 200% equivalent CSS reflow no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "action 200% equivalent CSS reflow no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Browser console/page errors absent",
+      "status": "passed",
+      "evidence": []
+    }
+  ],
+  "totals": {
+    "passed": 74,
+    "failed": 1
+  },
+  "console_errors": [],
+  "screenshots": [
+    {
+      "path": "screenshots/rpg-desktop-first.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "rpg",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": null,
+            "used": [],
+            "status": "Select a card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": null,
+            "preview": null,
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Select a unit."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/action-pause-desktop.png",
+      "bytes": 29805,
+      "sha256": "8336ad608228f247c7ae2486b7cf265f6e3b8930e21ec03fb34865907f0e0d69",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "action",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "brass",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": null,
+            "used": [],
+            "status": "Select a card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              4,
+              3
+            ],
+            "crate": [
+              4,
+              2
+            ],
+            "moves": 5,
+            "history": [
+              {
+                "player": [
+                  1,
+                  3
+                ],
+                "crate": [
+                  2,
+                  3
+                ],
+                "moves": 0,
+                "won": false
+              },
+              {
+                "player": [
+                  2,
+                  3
+                ],
+                "crate": [
+                  3,
+                  3
+                ],
+                "moves": 1,
+                "won": false
+              },
+              {
+                "player": [
+                  3,
+                  3
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 2,
+                "won": false
+              },
+              {
+                "player": [
+                  3,
+                  4
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 3,
+                "won": false
+              },
+              {
+                "player": [
+                  4,
+                  4
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 4,
+                "won": false
+              }
+            ],
+            "won": true,
+            "status": "Solved in 5 moves."
+          },
+          "strategy": {
+            "selected": "B",
+            "preview": null,
+            "lastOrder": {
+              "unit": "A",
+              "target": [
+                6,
+                2
+              ]
+            },
+            "orders": 1,
+            "status": "Rover B selected."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 2900,
+            "paused": true,
+            "result": null,
+            "status": "Pulse missed. Move within 3 cells."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/rpg-desktop.png",
+      "bytes": 42990,
+      "sha256": "ff6f456737e0da64416c661966859647f47cdc48eefa477d785d7f7fd6587f77",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "rpg",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": null,
+            "used": [],
+            "status": "Select a card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              4,
+              3
+            ],
+            "crate": [
+              4,
+              2
+            ],
+            "moves": 5,
+            "history": [
+              {
+                "player": [
+                  1,
+                  3
+                ],
+                "crate": [
+                  2,
+                  3
+                ],
+                "moves": 0,
+                "won": false
+              },
+              {
+                "player": [
+                  2,
+                  3
+                ],
+                "crate": [
+                  3,
+                  3
+                ],
+                "moves": 1,
+                "won": false
+              },
+              {
+                "player": [
+                  3,
+                  3
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 2,
+                "won": false
+              },
+              {
+                "player": [
+                  3,
+                  4
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 3,
+                "won": false
+              },
+              {
+                "player": [
+                  4,
+                  4
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 4,
+                "won": false
+              }
+            ],
+            "won": true,
+            "status": "Solved in 5 moves."
+          },
+          "strategy": {
+            "selected": "B",
+            "preview": null,
+            "lastOrder": {
+              "unit": "A",
+              "target": [
+                6,
+                2
+              ]
+            },
+            "orders": 1,
+            "status": "Rover B selected."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/card-desktop.png",
+      "bytes": 51487,
+      "sha256": "f57065b6d9c421d9dffacee8f44f1930342116a9d687c8e4dfb355459f7c508a",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "card",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              4,
+              3
+            ],
+            "crate": [
+              4,
+              2
+            ],
+            "moves": 5,
+            "history": [
+              {
+                "player": [
+                  1,
+                  3
+                ],
+                "crate": [
+                  2,
+                  3
+                ],
+                "moves": 0,
+                "won": false
+              },
+              {
+                "player": [
+                  2,
+                  3
+                ],
+                "crate": [
+                  3,
+                  3
+                ],
+                "moves": 1,
+                "won": false
+              },
+              {
+                "player": [
+                  3,
+                  3
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 2,
+                "won": false
+              },
+              {
+                "player": [
+                  3,
+                  4
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 3,
+                "won": false
+              },
+              {
+                "player": [
+                  4,
+                  4
+                ],
+                "crate": [
+                  4,
+                  3
+                ],
+                "moves": 4,
+                "won": false
+              }
+            ],
+            "won": true,
+            "status": "Solved in 5 moves."
+          },
+          "strategy": {
+            "selected": "B",
+            "preview": null,
+            "lastOrder": {
+              "unit": "A",
+              "target": [
+                6,
+                2
+              ]
+            },
+            "orders": 1,
+            "status": "Rover B selected."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/puzzle-desktop.png",
+      "bytes": 42255,
+      "sha256": "a65335c8b1162b9cad26de5ffa5b0fe289f87071d091bf4fc920be0c7f96b7d8",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "puzzle",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "B",
+            "preview": null,
+            "lastOrder": {
+              "unit": "A",
+              "target": [
+                6,
+                2
+              ]
+            },
+            "orders": 1,
+            "status": "Rover B selected."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/strategy-desktop.png",
+      "bytes": 38895,
+      "sha256": "85cd2121f62eb173af0c679a51aa088ca324b0ee40bfde057d8d121cc7506139",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "strategy",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/action-desktop.png",
+      "bytes": 21482,
+      "sha256": "ab88e49d71a88243251e4a80c336a016496b943f4970a7b85a465f12bf1e1e25",
+      "viewport_css": {
+        "width": 1165,
+        "height": 747
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "action",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/rpg-narrow.png",
+      "bytes": 31926,
+      "sha256": "0d50f94f05662de548ea8cc5a0902e07fd231d0adfe585a08f32f9a36a0ccab2",
+      "viewport_css": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "rpg",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/card-narrow.png",
+      "bytes": 40741,
+      "sha256": "014148042c681fd86f1fbedda230ee733070caf832e5735b5a45eb66c7012430",
+      "viewport_css": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "card",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/puzzle-narrow.png",
+      "bytes": 31881,
+      "sha256": "0dfb3de4d0407a03403415eda4654df2886b66dfe4c3d83bb565f818e3b9de64",
+      "viewport_css": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "puzzle",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/strategy-narrow.png",
+      "bytes": 35816,
+      "sha256": "4f9cec13325fc2f4ba5bdf0dd6b1b19d34593a67c5e7c1d916b337747cd6961b",
+      "viewport_css": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "strategy",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    },
+    {
+      "path": "screenshots/action-narrow.png",
+      "bytes": 30127,
+      "sha256": "6742d5879e473c7249ddcec695fd86f1c130e3f3d526010f8fd99b0f415d8ef7",
+      "viewport_css": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1,
+      "zoom_percent": 100,
+      "state": {
+        "active": "action",
+        "states": {
+          "rpg": {
+            "view": "inventory",
+            "equipped": "reed",
+            "selected": "brass",
+            "status": "",
+            "rank": 2
+          },
+          "card": {
+            "turn": 1,
+            "hp": 10,
+            "enemy": 12,
+            "energy": 3,
+            "shield": 0,
+            "selected": "burst",
+            "used": [],
+            "status": "Needs 4 energy. Use Focus or choose another card.",
+            "result": null
+          },
+          "puzzle": {
+            "player": [
+              1,
+              3
+            ],
+            "crate": [
+              2,
+              3
+            ],
+            "moves": 0,
+            "history": [],
+            "won": false,
+            "status": "Push the crate onto the target."
+          },
+          "strategy": {
+            "selected": "A",
+            "preview": [
+              7,
+              2
+            ],
+            "lastOrder": null,
+            "orders": 0,
+            "status": "Move preview ready. Confirm or cancel."
+          },
+          "action": {
+            "player": [
+              0,
+              3
+            ],
+            "drones": [
+              [
+                5,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            "hp": 3,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "status": "Clear both sentries, then reach the gate."
+          }
+        }
+      }
+    }
+  ],
+  "not_run": [
+    "Native phone/hardware safe-area",
+    "Controller navigation",
+    "Screen-reader",
+    "Human usability/participant study",
+    "External screenshot review",
+    "True browser 200% zoom (583x374 CSS viewport used as reflow probe)",
+    "Touch pointer gestures on physical device",
+    "Production performance/latency"
+  ]
+}
