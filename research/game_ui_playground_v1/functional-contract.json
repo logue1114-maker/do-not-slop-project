@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "artifactType": "authored-design-proposal",
+  "runtime": {"entry": "index.html", "state": "session memory", "reload": "restore fixture and default settings", "externalAccounts": false, "realPayments": false, "networkRequired": false},
+  "fixtures": "fixture.json",
+  "defaults": "config.json",
+  "settingInputs": {
+    "minimap": {"orientation":["north","heading"],"zoom":{"min":0.7,"max":2.8,"step":0.1},"shape":["circle","square"],"framing":["follow","full"],"edgeArrows":"boolean","enemies":"boolean","allies":"boolean","objectives":"boolean","iconScale":{"min":0.7,"max":1.6,"step":0.1},"pulse":"boolean","objectiveMaps":["both","minimap","overview"]},
+    "inventory": {"layout":["grid","list"],"sort":["rarity","name","power"],"filter":["all","weapon","armor","consumable","material"],"compare":"boolean","density":["roomy","compact"]},
+    "shop": {"catalog":["all","recommended"],"density":["roomy","compact"],"showOwned":"boolean"},
+    "hud": {"healthDisplay":["bar","number"],"showNumbers":"boolean","cooldownDisplay":["radial","time"],"lowHealthCue":"boolean"},
+    "dialogue": {"choices":["stack","inline"],"objectiveTracker":"boolean"}
+  },
+  "transitions": [
+    {"component":"minimap","input":"turn left / right","output":"heading -45 / +45 modulo 360; player arrow updates; heading-up terrain counter-rotates","checks":["position unchanged","north-up terrain rotation stays 0"]},
+    {"component":"minimap","input":"forward / backward","output":"move 35 world units along heading, clamp to x30..970 y30..670; minimap tracks player","checks":["world and minimap use the same player coordinates","full frame remains centered on 500,350"]},
+    {"component":"minimap","input":"zoom / shape / markers / pulse / full frame","output":"immediate SVG projection and visibility change","checks":["full frame disables zoom and orientation inputs without losing values","circle clamps offscreen direction radially; square clamps to its sides","controller priority is not implemented or represented as marker order"]},
+    {"component":"minimap","input":"open map / choose goal / close or Escape","output":"area map / new tracked objective / trail and focus on minimap opener","checks":["goal selection preserves player","objectiveMaps governs goal visibility"]},
+    {"component":"inventory","input":"open bag / sort / filter / grid-list","output":"same item records shown in new order or filtered; camp equipment preserved","checks":["filters clear selection but not equipment","rank remains 2"]},
+    {"component":"inventory","input":"select gear / equip","output":"select shows current-versus-candidate stats; equip updates only its slot","checks":["selection never commits","rank3 Anchor axe remains blocked","repeated equip is idempotent","supply/material selection never equips or crashes"]},
+    {"component":"inventory","input":"back / close / Escape / reopen","output":"compact detail to collection, then camp; reopen preserves equipment","checks":["focus returns to selected item on back and opener on close","viewport changes preserve selected item and committed equipment"]},
+    {"component":"shop","input":"select catalog / product / common supply","output":"catalog filter or item detail with quantity1; no debit","checks":["recommendations are authored contextual fixture flags, not player-data AI","common supplies use the same review/confirmation path"]},
+    {"component":"shop","input":"quantity +/-","output":"integer quantity1..min(9,stock); total and remaining balance or shortfall","checks":["boundary buttons disabled","insufficient funds and sold out block review"]},
+    {"component":"shop","input":"review / cancel or Escape","output":"pending purchase / pending cleared and detail restored","checks":["balance, stock, owned and transaction count unchanged","focus returns to Review"]},
+    {"component":"shop","input":"confirm purchase","output":"atomically debit total, reduce stock, add quantity to owned, increment transactions, clear pending, show receipt","checks":["repeated confirm cannot resolve the same pending purchase twice","quantity and balance validated again","receipt dismissal returns to catalog"]},
+    {"component":"hud","input":"strike / pause / resume","output":"12 enemy damage and 2500ms cooldown; pause freezes; resume continues","checks":["cooldown blocks repeated damage","inactive station freezes cooldown","settings changes never reset combat"]},
+    {"component":"hud","input":"take hit / heal / retry","output":"-24 health / +30 health with one tonic / restore fixture","checks":["health clamped0..100","tonics cannot fall below0","loss and win disable resolution"]},
+    {"component":"dialogue","input":"ask reward / accept / collect / return / claim","output":"reward explanation / accepted contract / max3 samples / reward offer / +80 coins once","checks":["accept leaves coins unchanged","incomplete return shows remaining count","repeated claim cannot add a second reward"]},
+    {"component":"all","input":"reset this example / switch station / reload","output":"restore only current station fixture and settings / retain session state / restore all","checks":["reset never mutates authored fixture","no external service calls or storage"]},
+    {"component":"all","input":"export settings JSON","output":"download current configuration plus preview framing","checks":["no player/economy state in export","valid JSON matching the settings contract","export is download-only; import is out of scope"]}
+  ],
+  "viewportTargets": [
+    {"width":1440,"height":1000,"purpose":"desktop settings beside game"},
+    {"width":1165,"height":747,"purpose":"repository desktop regression"},
+    {"width":844,"height":390,"purpose":"phone landscape exploration and combat; vertical lab scrolling allowed"},
+    {"width":390,"height":844,"purpose":"phone portrait inventory, shop and dialogue; sequential details"},
+    {"width":320,"height":568,"purpose":"small portrait crowding probe; scrolling allowed"}
+  ],
+  "acceptance": ["no horizontal page overflow","primary action and Back/Close reachable by scroll","no primary control overlap or covered hit target","Escape closes one level with focus recovery","native Enter/Space activation and visible focus","no console/page errors in covered states","repeated clicks safe where a pending purchase, equip or reward resolves","actual runtime screenshots with dimensions, bytes and SHA256"],
+  "unrunByDesign": ["native phone hardware and safe-area","controller navigation","screen-reader audit","participant usability study","real network/save recovery","actual matched A/B model experiment","user design approval","production deployment"]
+}

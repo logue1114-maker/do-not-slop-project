@@ -1,5 +1,11 @@
 # Rights, provenance and scope
 
+## Game UI playground publication
+
+The first [component bundle](../research/game_ui_playground_v1/README.md) contains original synthetic game scenes, vector icons, working local flows and22 project-owned PNGs:19 final browser captures, two labeled contact sheets and one retained overlap-failure capture. Their exact hashes are registered separately under `game_ui_playground_v1` in [provenance](PROVENANCE.json). Publication of this local source and its own captures was explicitly authorized. Public report copies remove machine paths; the untouched local records remain outside this public tree. Archival first-pass HTML navigation was relocated; its application/CSS/fixture bytes are retained.
+
+Official game sources remain links and bounded game-specific or historical summaries. No third-party screenshots, fonts, logos, accounts or payment connection are included. The playground is an authored first bundle, not an experiment, approved design, native-phone test or complete discovery of overlooked game details. No new reuse license is selected.
+
 The included research synthesis, operational rules, synthetic example content, code and comparison boards were authored for this project. External sources are cited by links, bibliographic metadata, bounded paraphrases and limited short quotations. Authorship/provenance review is not a legal ownership certification.
 
 No reuse license has been selected. Public source visibility is not an MIT, Creative Commons or other downstream licensing grant. External source rights remain unknown unless specific permission/license evidence is established.

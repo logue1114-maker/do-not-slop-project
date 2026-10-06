@@ -1,0 +1,13 @@
+{
+  "checkedDate": "2026-10-06",
+  "method": "Official pages opened through the web reader; response content and boundaries observed, not a shipping-game playtest",
+  "links": [
+    {"url":"https://na.finalfantasyxiv.com/game_manual/view/","status":"page_content_read","title":"Navigating the Game Screen","sourceType":"official live manual"},
+    {"url":"https://www.leagueoflegends.com/en-us/news/dev/preseason-item-shop-update/","status":"page_content_read","title":"Preseason Item Shop Update","sourceType":"historical2020 developer article"},
+    {"url":"https://dev.epicgames.com/documentation/fortnite/making-a-custom-mini-map-in-unreal-editor-for-fortnite?lang=en-US","status":"page_content_read","title":"Making a Mini Map with the Map Controller Device","sourceType":"official tool documentation"},
+    {"url":"https://dev.epicgames.com/documentation/fortnite/using-map-indicator-devices-in-fortnite-creative?lang=en-US","status":"page_content_read","title":"Map Indicator Devices","sourceType":"official tool documentation"},
+    {"url":"https://www.halowaypoint.com/news/season-1-outcomes-report","status":"later_detail_fetch_timeout","title":"Season 1 Outcomes Report","sourceType":"historical2022 outcomes report","evidenceBoundary":"Initial article retrieval and official-domain search result corroborated outer-fringe discussion. Repeated later full-page detail fetches timed out. No screenshot or shipping-build verification claimed."}
+  ],
+  "thirdPartyMediaDownloaded": false,
+  "limits": ["Reachable documentation does not establish current shipping-game behavior", "The Halo timeout is retained as a retrieval limit", "Local/public repository links are checked separately"]
+}

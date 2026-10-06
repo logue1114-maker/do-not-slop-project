@@ -1,5 +1,11 @@
 # Verification and limits
 
+## Game UI playground: local checks and public integration
+
+The [first component bundle](../research/game_ui_playground_v1/README.md) retains **136 pre-publication local browser/input/geometry checks** and **55 pre-publication source/contract checks**. Their [bounded report](../research/game_ui_playground_v1/BROWSER_REPORT.md) covers standalone Chrome at1440×1000,1165×747,844×390,390×844 and320×568 CSS pixels, live configuration, gear comparison/equip/back, shop cancel/duplicate-confirm/funds/stock, cooldown/pause and one-time quest reward. Two event-duplication probes use the actual rendered button; other flows use native clicks/keys/settings input. These counts apply to that retained local run, not the entire repository or a user/physical-device test.
+
+The [public integration record](../research/game_ui_playground_v1/PUBLIC_INTEGRATION.md) records fresh public-source/link/hash/flow checks separately. Original19 runtime captures and two contact sheets are hash-mapped; public reports redact private machine paths without changing outcomes. Existing game/web implementations and evidence remain unchanged. Native-phone, controller, screen-reader, exhaustive accessibility, external review, participant usability, user design approval, matched A/B and broader game-detail discovery remain unestablished. Source/capture publication was authorized; no Site deployment is included.
+
 Verification date: 2026-10-04 UTC. These results apply to the included public source bytes. `FILES.sha256.json` identifies the final payload; preserved runtime/reference/fixture/test inputs are anchored separately in `PRESERVED_INPUTS.sha256.json`.
 
 ## Offline checks

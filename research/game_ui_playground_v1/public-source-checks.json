@@ -1,0 +1,404 @@
+{
+  "timestamp": "2026-10-06T15:21:58.014Z",
+  "kind": "source/contract checks, distinct from browser input",
+  "checks": [
+    {
+      "name": "config JSON matches actual runtime data",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "fixture JSON matches actual runtime data",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.orientation default is in declared input domain",
+      "status": "passed",
+      "evidence": "north"
+    },
+    {
+      "name": "minimap.zoom default is in declared input domain",
+      "status": "passed",
+      "evidence": 1.4
+    },
+    {
+      "name": "minimap.shape default is in declared input domain",
+      "status": "passed",
+      "evidence": "circle"
+    },
+    {
+      "name": "minimap.framing default is in declared input domain",
+      "status": "passed",
+      "evidence": "follow"
+    },
+    {
+      "name": "minimap.edgeArrows default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.enemies default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.allies default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.objectives default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.iconScale default is in declared input domain",
+      "status": "passed",
+      "evidence": 1
+    },
+    {
+      "name": "minimap.pulse default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.objectiveMaps default is in declared input domain",
+      "status": "passed",
+      "evidence": "both"
+    },
+    {
+      "name": "inventory.layout default is in declared input domain",
+      "status": "passed",
+      "evidence": "grid"
+    },
+    {
+      "name": "inventory.sort default is in declared input domain",
+      "status": "passed",
+      "evidence": "rarity"
+    },
+    {
+      "name": "inventory.filter default is in declared input domain",
+      "status": "passed",
+      "evidence": "all"
+    },
+    {
+      "name": "inventory.compare default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "inventory.density default is in declared input domain",
+      "status": "passed",
+      "evidence": "roomy"
+    },
+    {
+      "name": "shop.catalog default is in declared input domain",
+      "status": "passed",
+      "evidence": "all"
+    },
+    {
+      "name": "shop.density default is in declared input domain",
+      "status": "passed",
+      "evidence": "roomy"
+    },
+    {
+      "name": "shop.showOwned default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "hud.healthDisplay default is in declared input domain",
+      "status": "passed",
+      "evidence": "bar"
+    },
+    {
+      "name": "hud.showNumbers default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "hud.cooldownDisplay default is in declared input domain",
+      "status": "passed",
+      "evidence": "radial"
+    },
+    {
+      "name": "hud.lowHealthCue default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "dialogue.choices default is in declared input domain",
+      "status": "passed",
+      "evidence": "stack"
+    },
+    {
+      "name": "dialogue.objectiveTracker default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "app.js syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "build-contact-sheets.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "data.js syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "finish-evidence.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "materialize-data.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "serve.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "verify-browser.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "verify-public-browser.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "verify-public.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "verify-source.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Local entry dependency/link styles.css",
+      "status": "passed",
+      "evidence": "styles.css"
+    },
+    {
+      "name": "Local entry dependency/link ../../README.md",
+      "status": "passed",
+      "evidence": "../../README.md"
+    },
+    {
+      "name": "Local entry dependency/link config.json",
+      "status": "passed",
+      "evidence": "config.json"
+    },
+    {
+      "name": "Local entry dependency/link functional-contract.json",
+      "status": "passed",
+      "evidence": "functional-contract.json"
+    },
+    {
+      "name": "Local entry dependency/link IMPLEMENTATION.md",
+      "status": "passed",
+      "evidence": "IMPLEMENTATION.md"
+    },
+    {
+      "name": "Local entry dependency/link BROWSER_REPORT.md",
+      "status": "passed",
+      "evidence": "BROWSER_REPORT.md"
+    },
+    {
+      "name": "Local entry dependency/link sources.json",
+      "status": "passed",
+      "evidence": "sources.json"
+    },
+    {
+      "name": "Local entry dependency/link data.js",
+      "status": "passed",
+      "evidence": "data.js"
+    },
+    {
+      "name": "Local entry dependency/link app.js",
+      "status": "passed",
+      "evidence": "app.js"
+    },
+    {
+      "name": "Runtime does not embed third-party media/font URLs",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "No service calls or browser-storage economy",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "lab text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#242923",
+        "bg": "#f3f0e8",
+        "ratio": 13.018531189655741
+      }
+    },
+    {
+      "name": "lab muted token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#60675f",
+        "bg": "#f3f0e8",
+        "ratio": 5.118437761455871
+      }
+    },
+    {
+      "name": "game text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#f4f1e4",
+        "bg": "#24382f",
+        "ratio": 11.02972760636634
+      }
+    },
+    {
+      "name": "game muted token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#b7c5b7",
+        "bg": "#24382f",
+        "ratio": 6.947450159241785
+      }
+    },
+    {
+      "name": "primary text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#233028",
+        "bg": "#e7bd73",
+        "ratio": 7.8198520126853355
+      }
+    },
+    {
+      "name": "blocked text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#acb6aa",
+        "bg": "#334139",
+        "ratio": 5.125747856555969
+      }
+    },
+    {
+      "name": "positive delta token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#a4e0b4",
+        "bg": "#20332a",
+        "ratio": 8.862538711404147
+      }
+    },
+    {
+      "name": "negative delta token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#ffb5a0",
+        "bg": "#20332a",
+        "ratio": 7.886588884873147
+      }
+    },
+    {
+      "name": "Tracked changes stay within authorized package and integration metadata",
+      "status": "passed",
+      "evidence": [
+        "FILES.sha256.json",
+        "README.md",
+        "docs/CHANGELOG.md",
+        "docs/PROVENANCE.json",
+        "docs/RESEARCH_INDEX.md",
+        "docs/RIGHTS_AND_SCOPE.md",
+        "docs/VERIFICATION.md",
+        "research/game_ui_playground_v1/BROWSER_REPORT.md",
+        "research/game_ui_playground_v1/IMPLEMENTATION.md",
+        "research/game_ui_playground_v1/PUBLIC_INTEGRATION.md",
+        "research/game_ui_playground_v1/README.md",
+        "research/game_ui_playground_v1/REPAIR_LOG.md",
+        "research/game_ui_playground_v1/app.js",
+        "research/game_ui_playground_v1/build-contact-sheets.mjs",
+        "research/game_ui_playground_v1/check-history/caption-overlap-failures.json",
+        "research/game_ui_playground_v1/check-history/minimap-landscape-before-caption-fix.png",
+        "research/game_ui_playground_v1/check-history/native-dialog-tab-boundary.json",
+        "research/game_ui_playground_v1/check-history/pre-play-view-pass.json",
+        "research/game_ui_playground_v1/check-history/public-http-first-check.json",
+        "research/game_ui_playground_v1/config.json",
+        "research/game_ui_playground_v1/contact-sheet-desktop.png",
+        "research/game_ui_playground_v1/contact-sheet-mobile.png",
+        "research/game_ui_playground_v1/contact-sheets-manifest.json",
+        "research/game_ui_playground_v1/data.js",
+        "research/game_ui_playground_v1/external-links.json",
+        "research/game_ui_playground_v1/finish-evidence.mjs",
+        "research/game_ui_playground_v1/first-pass/app.js",
+        "research/game_ui_playground_v1/first-pass/compositor-capture-failure.json",
+        "research/game_ui_playground_v1/first-pass/data.js",
+        "research/game_ui_playground_v1/first-pass/index.html",
+        "research/game_ui_playground_v1/first-pass/runner-selector-failure.json",
+        "research/game_ui_playground_v1/first-pass/sandbox-capture-failure.json",
+        "research/game_ui_playground_v1/first-pass/styles.css",
+        "research/game_ui_playground_v1/fixture.json",
+        "research/game_ui_playground_v1/functional-contract.json",
+        "research/game_ui_playground_v1/index.html",
+        "research/game_ui_playground_v1/input-output-log.json",
+        "research/game_ui_playground_v1/materialize-data.mjs",
+        "research/game_ui_playground_v1/package-manifest.json",
+        "research/game_ui_playground_v1/public-browser-checks.json",
+        "research/game_ui_playground_v1/public-checks.json",
+        "research/game_ui_playground_v1/public-integration.json",
+        "research/game_ui_playground_v1/public-source-checks.json",
+        "research/game_ui_playground_v1/qa-report.json",
+        "research/game_ui_playground_v1/render-geometry.json",
+        "research/game_ui_playground_v1/screenshot-manifest.json",
+        "research/game_ui_playground_v1/screenshots/01-minimap-desktop.png",
+        "research/game_ui_playground_v1/screenshots/02-inventory-compare-desktop.png",
+        "research/game_ui_playground_v1/screenshots/03-shop-confirm-desktop.png",
+        "research/game_ui_playground_v1/screenshots/04-hud-low-health-desktop.png",
+        "research/game_ui_playground_v1/screenshots/05-dialogue-reward-desktop.png",
+        "research/game_ui_playground_v1/screenshots/06-internal-portrait.png",
+        "research/game_ui_playground_v1/screenshots/dialogue-390x844.png",
+        "research/game_ui_playground_v1/screenshots/hud-844x390.png",
+        "research/game_ui_playground_v1/screenshots/inventory-320x568.png",
+        "research/game_ui_playground_v1/screenshots/inventory-390x844.png",
+        "research/game_ui_playground_v1/screenshots/minimap-390x844.png",
+        "research/game_ui_playground_v1/screenshots/minimap-844x390.png",
+        "research/game_ui_playground_v1/screenshots/play-view-hud-844x390.png",
+        "research/game_ui_playground_v1/screenshots/play-view-inventory-390x844.png",
+        "research/game_ui_playground_v1/screenshots/play-view-minimap-844x390.png",
+        "research/game_ui_playground_v1/screenshots/play-view-shop-844x390.png",
+        "research/game_ui_playground_v1/screenshots/shop-390x844.png",
+        "research/game_ui_playground_v1/screenshots/shop-844x390.png",
+        "research/game_ui_playground_v1/screenshots/shop-purchase-complete-desktop.png",
+        "research/game_ui_playground_v1/serve.mjs",
+        "research/game_ui_playground_v1/source-checks.json",
+        "research/game_ui_playground_v1/sources.json",
+        "research/game_ui_playground_v1/styles.css",
+        "research/game_ui_playground_v1/verify-browser.mjs",
+        "research/game_ui_playground_v1/verify-public-browser.mjs",
+        "research/game_ui_playground_v1/verify-public.mjs",
+        "research/game_ui_playground_v1/verify-source.mjs",
+        "research/series_index.json",
+        "validation/release-checks.json",
+        "validation/validate_release.py"
+      ]
+    }
+  ],
+  "totals": {
+    "passed": 57,
+    "failed": 0
+  }
+}

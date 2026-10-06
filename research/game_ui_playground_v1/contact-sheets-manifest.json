@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-10-06T14:56:22.557Z",
+  "outputs": [
+    {
+      "file": "contact-sheet-desktop.png",
+      "width": 1500,
+      "height": 1439,
+      "bytes": 245529,
+      "sha256": "733af680cb3190f227343d3cc90c1e4246bf5403b15b02b1bdbab1184cff9d63",
+      "sourceFiles": [
+        {
+          "file": "screenshots/01-minimap-desktop.png",
+          "sha256": "5cc836e2cb57f835d4927d8a60dabb93d162fee43f59193f6d0aa522344c95e8"
+        },
+        {
+          "file": "screenshots/02-inventory-compare-desktop.png",
+          "sha256": "b40f9332f5a4599f57d169a01c64b1c9ad58de2b5644f6fc1f9ab974a1a3c914"
+        },
+        {
+          "file": "screenshots/03-shop-confirm-desktop.png",
+          "sha256": "2d16909e08fa2b2ec19a493aa1460a784077962b4a51e6502e4beb52ddf476f1"
+        },
+        {
+          "file": "screenshots/shop-purchase-complete-desktop.png",
+          "sha256": "1ceaef0d9a1191172b13251ded9024a1aa43b2f46006114def39117e922ffbff"
+        },
+        {
+          "file": "screenshots/04-hud-low-health-desktop.png",
+          "sha256": "fca59e0688f0278f1ecf87e67defa5cb630fb9c407db7bd5e6c537af4789af0f"
+        },
+        {
+          "file": "screenshots/05-dialogue-reward-desktop.png",
+          "sha256": "0d03821a3116855d4bf37934d9f4d4145459fbc77c3dd1f3e0b88418d73665d2"
+        }
+      ],
+      "treatment": "Labeled layout of uniformly contained/scaled unedited sources; no source cropping"
+    },
+    {
+      "file": "contact-sheet-mobile.png",
+      "width": 1500,
+      "height": 1439,
+      "bytes": 242492,
+      "sha256": "f554babbf716be76b5fb338d058c2750ce8ee13a33b3f921359522f062fd39f6",
+      "sourceFiles": [
+        {
+          "file": "screenshots/play-view-minimap-844x390.png",
+          "sha256": "3226afd22c76d337bedc4ebd8d362be40b122a2f61040762b3582199397a95dd"
+        },
+        {
+          "file": "screenshots/play-view-hud-844x390.png",
+          "sha256": "1a62b343f660507f772f4552e66d401211ae23185c1bc812c083e1822a100830"
+        },
+        {
+          "file": "screenshots/play-view-inventory-390x844.png",
+          "sha256": "8455a0fab5dd73d05980ed69bf793dfbf1e5c08bfdf266070dad15b6100e7133"
+        },
+        {
+          "file": "screenshots/minimap-390x844.png",
+          "sha256": "a7258b693340afa9ea2f54cb39d1b1daf93e4e40c729e44b34ae533d194ad79f"
+        },
+        {
+          "file": "screenshots/inventory-390x844.png",
+          "sha256": "7e78c4bd84a402a026ead29de3ba7c40b64859428df54e12f095b56468de81b1"
+        },
+        {
+          "file": "screenshots/shop-390x844.png",
+          "sha256": "d44e7830fa7a43554713e55781a755fd336300a9811675ab99b6fcb3deafa302"
+        }
+      ],
+      "treatment": "Labeled layout of uniformly contained/scaled unedited sources; no source cropping"
+    }
+  ]
+}

@@ -1,0 +1,1409 @@
+{
+  "timestamp": "2026-10-06T14:53:08.560Z",
+  "browser": "Headless installed Chrome 154.0.8037.98",
+  "runtime": "[repository]/research/game_ui_playground_v1/index.html",
+  "inputEvidence": "Native Playwright clicks/keys/range inputs; two duplicate activation probes dispatch click on actual rendered button. Read-only snapshots never mutate app state.",
+  "checks": [
+    {
+      "name": "Real entry starts in exploration",
+      "status": "passed",
+      "evidence": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": null,
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      }
+    },
+    {
+      "name": "1440 desktop minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "1440 desktop minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Turn changes heading by45",
+      "status": "passed",
+      "evidence": {
+        "name": "Rowan",
+        "rank": 2,
+        "x": 480,
+        "y": 365,
+        "heading": 75
+      }
+    },
+    {
+      "name": "Heading-up map counter-rotates to player",
+      "status": "passed",
+      "evidence": "translate(120 120) rotate(-75) scale(0.6719999999999999) translate(-480 -365)"
+    },
+    {
+      "name": "Zoom updates from actual range input",
+      "status": "passed",
+      "evidence": 2.8
+    },
+    {
+      "name": "Offscreen hide removes rim arrows",
+      "status": "passed",
+      "evidence": 0
+    },
+    {
+      "name": "Shape updates live hit target",
+      "status": "passed",
+      "evidence": "square"
+    },
+    {
+      "name": "Move changes shared world coordinates",
+      "status": "passed",
+      "evidence": {
+        "name": "Rowan",
+        "rank": 2,
+        "x": 513.8074039201174,
+        "y": 355.9413334214118,
+        "heading": 75
+      }
+    },
+    {
+      "name": "Full frame disables tracking-only controls",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Full frame terrain stays fixed while player moves",
+      "status": "passed",
+      "evidence": "translate(120 120) rotate(0) scale(0.215) translate(-500 -350)"
+    },
+    {
+      "name": "Enemy visibility is independent",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Map-specific goals hidden on minimap",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Map-specific goals remain in overview",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Overview goal selection updates tracking",
+      "status": "passed",
+      "evidence": "camp"
+    },
+    {
+      "name": "Escape returns and restores map opener",
+      "status": "passed",
+      "evidence": "open-map"
+    },
+    {
+      "name": "Authored preset changes settings but retains same fixture",
+      "status": "passed",
+      "evidence": {
+        "orientation": "heading",
+        "zoom": 2.3,
+        "shape": "square",
+        "framing": "follow",
+        "edgeArrows": true,
+        "enemies": true,
+        "allies": true,
+        "objectives": true,
+        "iconScale": 1.3,
+        "pulse": false,
+        "objectiveMaps": "both"
+      }
+    },
+    {
+      "name": "Selecting gear does not equip",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "brass",
+        "equipment": {
+          "weapon": "reed",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Equipment comparison shows signed stat changes",
+      "status": "passed",
+      "evidence": "Stat\tEquipped\tSelected\tChange\nPower\t8\t14\t+6\nGuard\t2\t1\t-1"
+    },
+    {
+      "name": "1440 desktop inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "1440 desktop inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Equip commits chosen slot",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "brass",
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Repeated disabled equip preserves equipment",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "brass",
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Rank requirement blocks unavailable gear",
+      "status": "passed",
+      "evidence": "Requires rank 3"
+    },
+    {
+      "name": "Consumable detail renders without equip",
+      "status": "passed",
+      "evidence": "Field tonic\nCommon · consumable\n\nRestores 30 health.\n\nOwned ×4\n\nSupply · retained in bag"
+    },
+    {
+      "name": "Material has no equip action",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Sort reorders unchanged fixture names",
+      "status": "passed",
+      "evidence": [
+        "Anchor axe",
+        "Brass sabre",
+        "Copper ore",
+        "Field tonic",
+        "Linen vest",
+        "Mist crystal",
+        "Reed blade",
+        "Scale coat",
+        "Trail ration"
+      ]
+    },
+    {
+      "name": "Filter narrows collection and clears stale selection",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": null,
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Compare-off changes table columns",
+      "status": "passed",
+      "evidence": "Stat\tSelected\nPower\t8\nGuard\t2"
+    },
+    {
+      "name": "Close shows committed loadout and restores focus",
+      "status": "passed",
+      "evidence": "open-inventory"
+    },
+    {
+      "name": "Reopen retains equipped weapon",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "reed",
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Insufficient funds state names shortfall",
+      "status": "passed",
+      "evidence": "Need 160 more coins"
+    },
+    {
+      "name": "Review purchase creates pending intent without debit",
+      "status": "passed",
+      "evidence": {
+        "view": "detail",
+        "selected": "tonic",
+        "quantity": 2,
+        "balance": 260,
+        "owned": {
+          "tonic": 1,
+          "ward": 0,
+          "boots": 0,
+          "lens": 0
+        },
+        "stock": {
+          "tonic": 12,
+          "ward": 2,
+          "boots": 3,
+          "lens": 2
+        },
+        "pending": {
+          "id": "tonic",
+          "quantity": 2,
+          "total": 80
+        },
+        "receipt": null,
+        "transactions": 0
+      }
+    },
+    {
+      "name": "1440 desktop confirmation / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "1440 desktop confirmation / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Escape cancels transaction and restores focus",
+      "status": "passed",
+      "evidence": {
+        "view": "detail",
+        "selected": "tonic",
+        "quantity": 2,
+        "balance": 260,
+        "owned": {
+          "tonic": 1,
+          "ward": 0,
+          "boots": 0,
+          "lens": 0
+        },
+        "stock": {
+          "tonic": 12,
+          "ward": 2,
+          "boots": 3,
+          "lens": 2
+        },
+        "pending": null,
+        "receipt": null,
+        "transactions": 0
+      }
+    },
+    {
+      "name": "Cancel button makes no purchase",
+      "status": "passed",
+      "evidence": {
+        "view": "detail",
+        "selected": "tonic",
+        "quantity": 2,
+        "balance": 260,
+        "owned": {
+          "tonic": 1,
+          "ward": 0,
+          "boots": 0,
+          "lens": 0
+        },
+        "stock": {
+          "tonic": 12,
+          "ward": 2,
+          "boots": 3,
+          "lens": 2
+        },
+        "pending": null,
+        "receipt": null,
+        "transactions": 0
+      }
+    },
+    {
+      "name": "Repeated confirm resolves exactly one transaction",
+      "status": "passed",
+      "evidence": {
+        "view": "detail",
+        "selected": "tonic",
+        "quantity": 2,
+        "balance": 180,
+        "owned": {
+          "tonic": 3,
+          "ward": 0,
+          "boots": 0,
+          "lens": 0
+        },
+        "stock": {
+          "tonic": 10,
+          "ward": 2,
+          "boots": 3,
+          "lens": 2
+        },
+        "pending": null,
+        "receipt": {
+          "id": "tonic",
+          "quantity": 2,
+          "total": 80
+        },
+        "transactions": 1
+      }
+    },
+    {
+      "name": "Contextual catalog uses authored recommendation flags",
+      "status": "passed",
+      "evidence": 2
+    },
+    {
+      "name": "Quantity limit and insufficient total block review",
+      "status": "passed",
+      "evidence": {
+        "view": "detail",
+        "selected": "tonic",
+        "quantity": 9,
+        "balance": 180,
+        "owned": {
+          "tonic": 3,
+          "ward": 0,
+          "boots": 0,
+          "lens": 0
+        },
+        "stock": {
+          "tonic": 10,
+          "ward": 2,
+          "boots": 3,
+          "lens": 2
+        },
+        "pending": null,
+        "receipt": null,
+        "transactions": 1
+      }
+    },
+    {
+      "name": "Native dialog Tab never focuses a background page control",
+      "status": "passed",
+      "evidence": [
+        {
+          "dialog": "purchase-dialog",
+          "tag": "BUTTON",
+          "id": "confirm-purchase"
+        },
+        {
+          "dialog": null,
+          "tag": "BODY",
+          "id": ""
+        },
+        {
+          "dialog": "purchase-dialog",
+          "tag": "BUTTON",
+          "id": "cancel-purchase"
+        },
+        {
+          "dialog": "purchase-dialog",
+          "tag": "BUTTON",
+          "id": "cancel-review"
+        },
+        {
+          "dialog": "purchase-dialog",
+          "tag": "BUTTON",
+          "id": "confirm-purchase"
+        }
+      ]
+    },
+    {
+      "name": "Natural purchase depletion reaches sold-out recovery",
+      "status": "passed",
+      "evidence": {
+        "view": "detail",
+        "selected": "ward",
+        "quantity": 1,
+        "balance": 80,
+        "owned": {
+          "tonic": 1,
+          "ward": 2,
+          "boots": 0,
+          "lens": 0
+        },
+        "stock": {
+          "tonic": 12,
+          "ward": 0,
+          "boots": 3,
+          "lens": 2
+        },
+        "pending": null,
+        "receipt": null,
+        "transactions": 1
+      }
+    },
+    {
+      "name": "Cooldown rejects repeated strike",
+      "status": "passed",
+      "evidence": {
+        "health": 100,
+        "enemyHealth": 18,
+        "tonics": 2,
+        "cooldown": 2500,
+        "paused": false,
+        "result": null,
+        "strikes": 1
+      }
+    },
+    {
+      "name": "Pause freezes measured cooldown",
+      "status": "passed",
+      "evidence": 2456.5
+    },
+    {
+      "name": "Escape resumes and restores pause focus",
+      "status": "passed",
+      "evidence": "pause"
+    },
+    {
+      "name": "Station switch freezes inactive combat",
+      "status": "passed",
+      "evidence": 2413.099999997765
+    },
+    {
+      "name": "Heal consumes one tonic and clamps health",
+      "status": "passed",
+      "evidence": {
+        "health": 100,
+        "enemyHealth": 18,
+        "tonics": 1,
+        "cooldown": 2313.39999999851,
+        "paused": false,
+        "result": null,
+        "strikes": 1
+      }
+    },
+    {
+      "name": "Low-health warning appears alongside updated health",
+      "status": "passed",
+      "evidence": {
+        "health": 28,
+        "enemyHealth": 18,
+        "tonics": 1,
+        "cooldown": 2212.39999999851,
+        "paused": false,
+        "result": null,
+        "strikes": 1
+      }
+    },
+    {
+      "name": "Natural hit sequence reaches loss",
+      "status": "passed",
+      "evidence": {
+        "health": 0,
+        "enemyHealth": 18,
+        "tonics": 1,
+        "cooldown": 1713.0999999977648,
+        "paused": false,
+        "result": "lost",
+        "strikes": 1
+      }
+    },
+    {
+      "name": "Retry restores combat fixture",
+      "status": "passed",
+      "evidence": {
+        "health": 100,
+        "enemyHealth": 30,
+        "tonics": 2,
+        "cooldown": 0,
+        "paused": false,
+        "result": null,
+        "strikes": 0
+      }
+    },
+    {
+      "name": "Natural strike sequence reaches win",
+      "status": "passed",
+      "evidence": {
+        "health": 100,
+        "enemyHealth": 0,
+        "tonics": 2,
+        "cooldown": 2500,
+        "paused": false,
+        "result": "won",
+        "strikes": 3
+      }
+    },
+    {
+      "name": "Reward can be inspected before acceptance",
+      "status": "passed",
+      "evidence": {
+        "view": "reward",
+        "accepted": false,
+        "collected": 0,
+        "claimed": false,
+        "balance": 0
+      }
+    },
+    {
+      "name": "Accept starts progress without granting reward",
+      "status": "passed",
+      "evidence": {
+        "view": "trail",
+        "accepted": true,
+        "collected": 0,
+        "claimed": false,
+        "balance": 0
+      }
+    },
+    {
+      "name": "Early return shows remaining requirement",
+      "status": "passed",
+      "evidence": "You still need 3 samples. Come back when you have them."
+    },
+    {
+      "name": "Collection stops at declared requirement",
+      "status": "passed",
+      "evidence": {
+        "view": "trail",
+        "accepted": true,
+        "collected": 3,
+        "claimed": false,
+        "balance": 0
+      }
+    },
+    {
+      "name": "Reward claimed once under duplicate activation",
+      "status": "passed",
+      "evidence": {
+        "view": "return",
+        "accepted": true,
+        "collected": 3,
+        "claimed": true,
+        "balance": 80
+      }
+    },
+    {
+      "name": "1165x747 minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "1165x747 minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "1165x747 inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "1165x747 inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "1165x747 shop / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "1165x747 shop / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "1165x747 hud / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "1165x747 hud / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "1165x747 dialogue / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1165
+    },
+    {
+      "name": "1165x747 dialogue / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844x390 minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844x390 minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "failed",
+      "evidence": {
+        "overlaps": [
+          [
+            "map-caption",
+            "forward",
+            44,
+            18
+          ]
+        ],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844x390 inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844x390 inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844x390 shop / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844x390 shop / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844x390 hud / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844x390 hud / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844x390 dialogue / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844x390 dialogue / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "390x844 minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "390x844 minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "390x844 inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "390x844 inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "390x844 inventory uses sequential compact detail",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390x844 detail Back restores item focus",
+      "status": "passed",
+      "evidence": "item-brass"
+    },
+    {
+      "name": "390x844 inventory close restores opener",
+      "status": "passed",
+      "evidence": "open-inventory"
+    },
+    {
+      "name": "390x844 shop / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "390x844 shop / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "390x844 hud / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "390x844 hud / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "390x844 dialogue / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "390x844 dialogue / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "320x568 minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 320
+    },
+    {
+      "name": "320x568 minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "320x568 inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 320
+    },
+    {
+      "name": "320x568 inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "320x568 inventory uses sequential compact detail",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "320x568 detail Back restores item focus",
+      "status": "passed",
+      "evidence": "item-brass"
+    },
+    {
+      "name": "320x568 inventory close restores opener",
+      "status": "passed",
+      "evidence": "open-inventory"
+    },
+    {
+      "name": "320x568 shop / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 320
+    },
+    {
+      "name": "320x568 shop / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "320x568 hud / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 320
+    },
+    {
+      "name": "320x568 hud / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "320x568 dialogue / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 320
+    },
+    {
+      "name": "320x568 dialogue / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Play view hides tools and retains minimap state",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "844 landscape play view minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844 landscape play view minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844 landscape minimap primary controls fit viewport",
+      "status": "passed",
+      "evidence": [
+        {
+          "id": "forward",
+          "visible": true
+        },
+        {
+          "id": "turn-left",
+          "visible": true
+        },
+        {
+          "id": "turn-right",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "Exit play view restores station tools",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Play view hides tools and retains hud state",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "844 landscape play view hud / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844 landscape play view hud / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "844 landscape hud primary controls fit viewport",
+      "status": "passed",
+      "evidence": [
+        {
+          "id": "strike",
+          "visible": true
+        },
+        {
+          "id": "heal",
+          "visible": true
+        },
+        {
+          "id": "incoming-hit",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "Exit play view restores station tools",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Play view hides tools and retains shop state",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "844 landscape play view shop / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 844
+    },
+    {
+      "name": "844 landscape play view shop / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Exit play view restores station tools",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390 portrait play view inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 390
+    },
+    {
+      "name": "390 portrait play view inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Portrait play view can equip without tool panels",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Internal portrait framing makes game390px wide",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "desktop internal portrait / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "desktop internal portrait / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Internal landscape framing uses bounded game width",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "desktop internal landscape / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "desktop internal landscape / controls do not overlap, clip horizontally, or get covered",
+      "status": "failed",
+      "evidence": {
+        "overlaps": [
+          [
+            "map-caption",
+            "forward",
+            44,
+            27
+          ]
+        ],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Native Enter activates map opener",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Native Space activates map opener",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Scoped keyboard movement updates player",
+      "status": "passed",
+      "evidence": {
+        "player": {
+          "name": "Rowan",
+          "rank": 2,
+          "x": 497.5,
+          "y": 334.6891108675446,
+          "heading": 30
+        },
+        "view": "trail",
+        "waypoint": "tower"
+      }
+    },
+    {
+      "name": "Inspector keys do not move player",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Visible keyboard focus is3px",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Reduced motion suppresses objective pulse",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Export delivers valid current settings without session economy",
+      "status": "passed",
+      "evidence": {
+        "schemaVersion": "1.0",
+        "language": "en",
+        "artifactType": "authored-design-proposal",
+        "minimap": {
+          "orientation": "north",
+          "zoom": 1.4,
+          "shape": "circle",
+          "framing": "follow",
+          "edgeArrows": true,
+          "enemies": true,
+          "allies": true,
+          "objectives": true,
+          "iconScale": 1,
+          "pulse": true,
+          "objectiveMaps": "both"
+        },
+        "inventory": {
+          "layout": "grid",
+          "sort": "rarity",
+          "filter": "all",
+          "compare": true,
+          "density": "roomy"
+        },
+        "shop": {
+          "catalog": "all",
+          "density": "roomy",
+          "showOwned": true
+        },
+        "hud": {
+          "healthDisplay": "bar",
+          "showNumbers": true,
+          "cooldownDisplay": "radial",
+          "lowHealthCue": true
+        },
+        "dialogue": {
+          "choices": "stack",
+          "objectiveTracker": true
+        },
+        "preview": "adaptive"
+      }
+    },
+    {
+      "name": "Reload restores all default fixtures",
+      "status": "passed",
+      "evidence": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": null,
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      }
+    },
+    {
+      "name": "Emulated touch completes select/equip",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "No browser console or page errors",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "No failed requests",
+      "status": "passed",
+      "evidence": []
+    }
+  ],
+  "totals": {
+    "passed": 134,
+    "failed": 2
+  },
+  "errors": [],
+  "failedRequests": [],
+  "notRun": [
+    "native phone hardware/safe-area",
+    "controller",
+    "screen reader",
+    "human usability study",
+    "external screenshot reviewer",
+    "true browser200% zoom",
+    "network/save reconnect",
+    "actual model A/B experiment",
+    "user design approval",
+    "commit/push/Site deployment"
+  ]
+}

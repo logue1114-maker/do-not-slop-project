@@ -1,0 +1,2207 @@
+{
+  "timestamp": "2026-10-06T14:54:37.152Z",
+  "source": "Actual runtime screenshots, full-page, no crops or edits",
+  "screenshots": [
+    {
+      "name": "01-minimap-desktop",
+      "file": "screenshots/01-minimap-desktop.png",
+      "width": 1440,
+      "height": 1177,
+      "bytes": 230844,
+      "sha256": "5cc836e2cb57f835d4927d8a60dabb93d162fee43f59193f6d0aa522344c95e8",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": null,
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "02-inventory-compare-desktop",
+      "file": "screenshots/02-inventory-compare-desktop.png",
+      "width": 1440,
+      "height": 1215,
+      "bytes": 92424,
+      "sha256": "b40f9332f5a4599f57d169a01c64b1c9ad58de2b5644f6fc1f9ab974a1a3c914",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "inventory",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": null,
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "03-shop-confirm-desktop",
+      "file": "screenshots/03-shop-confirm-desktop.png",
+      "width": 1440,
+      "height": 1146,
+      "bytes": 101181,
+      "sha256": "2d16909e08fa2b2ec19a493aa1460a784077962b4a51e6502e4beb52ddf476f1",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "shop",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "list",
+            "sort": "name",
+            "filter": "weapon",
+            "compare": false,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "reed",
+            "equipment": {
+              "weapon": "brass",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 2,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": {
+              "id": "tonic",
+              "quantity": 2,
+              "total": 80
+            },
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "shop-purchase-complete-desktop",
+      "file": "screenshots/shop-purchase-complete-desktop.png",
+      "width": 1440,
+      "height": 1146,
+      "bytes": 97568,
+      "sha256": "1ceaef0d9a1191172b13251ded9024a1aa43b2f46006114def39117e922ffbff",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "shop",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "list",
+            "sort": "name",
+            "filter": "weapon",
+            "compare": false,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "reed",
+            "equipment": {
+              "weapon": "brass",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "ward",
+            "quantity": 2,
+            "balance": 80,
+            "owned": {
+              "tonic": 1,
+              "ward": 2,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 0,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": {
+              "id": "ward",
+              "quantity": 2,
+              "total": 180
+            },
+            "transactions": 1
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "04-hud-low-health-desktop",
+      "file": "screenshots/04-hud-low-health-desktop.png",
+      "width": 1440,
+      "height": 1146,
+      "bytes": 289894,
+      "sha256": "fca59e0688f0278f1ecf87e67defa5cb630fb9c407db7bd5e6c537af4789af0f",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "hud",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "list",
+            "sort": "name",
+            "filter": "weapon",
+            "compare": false,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "reed",
+            "equipment": {
+              "weapon": "brass",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": "ward",
+            "quantity": 1,
+            "balance": 80,
+            "owned": {
+              "tonic": 1,
+              "ward": 2,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 0,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 1
+          },
+          "hud": {
+            "health": 28,
+            "enemyHealth": 18,
+            "tonics": 1,
+            "cooldown": 1842.300000000745,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "05-dialogue-reward-desktop",
+      "file": "screenshots/05-dialogue-reward-desktop.png",
+      "width": 1440,
+      "height": 1146,
+      "bytes": 81009,
+      "sha256": "0d03821a3116855d4bf37934d9f4d4145459fbc77c3dd1f3e0b88418d73665d2",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "dialogue",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "list",
+            "sort": "name",
+            "filter": "weapon",
+            "compare": false,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "reed",
+            "equipment": {
+              "weapon": "brass",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": "ward",
+            "quantity": 1,
+            "balance": 80,
+            "owned": {
+              "tonic": 1,
+              "ward": 2,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 0,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 1
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 0,
+            "tonics": 2,
+            "cooldown": 2500,
+            "paused": false,
+            "result": "won",
+            "strikes": 3
+          },
+          "dialogue": {
+            "view": "return",
+            "accepted": true,
+            "collected": 3,
+            "claimed": true,
+            "balance": 80
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "minimap-844x390",
+      "file": "screenshots/minimap-844x390.png",
+      "width": 844,
+      "height": 1178,
+      "bytes": 150985,
+      "sha256": "30d238107438b2597b0f0986b3af1a85ae01fde1216bd7689a912ec8d486a76b",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "state": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2400.300000000745,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "shop-844x390",
+      "file": "screenshots/shop-844x390.png",
+      "width": 844,
+      "height": 1223,
+      "bytes": 105859,
+      "sha256": "05fbe83018b90c93b13b74195b5d84f2d4e5710c10bf4bb512f69392a38fce16",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "state": {
+        "station": "shop",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": {
+              "id": "tonic",
+              "quantity": 1,
+              "total": 40
+            },
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2400.300000000745,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "hud-844x390",
+      "file": "screenshots/hud-844x390.png",
+      "width": 844,
+      "height": 1065,
+      "bytes": 113169,
+      "sha256": "69e945466703e4743f33c00dcdb7e1f934a50e5e4382abffa8369c592b379a15",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "state": {
+        "station": "hud",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2447,
+            "paused": true,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "minimap-390x844",
+      "file": "screenshots/minimap-390x844.png",
+      "width": 390,
+      "height": 1718,
+      "bytes": 141919,
+      "sha256": "a7258b693340afa9ea2f54cb39d1b1daf93e4e40c729e44b34ae533d194ad79f",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2393.699999999255,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "inventory-390x844",
+      "file": "screenshots/inventory-390x844.png",
+      "width": 390,
+      "height": 1689,
+      "bytes": 62505,
+      "sha256": "7e78c4bd84a402a026ead29de3ba7c40b64859428df54e12f095b56468de81b1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "station": "inventory",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2393.699999999255,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "shop-390x844",
+      "file": "screenshots/shop-390x844.png",
+      "width": 390,
+      "height": 1608,
+      "bytes": 67889,
+      "sha256": "d44e7830fa7a43554713e55781a755fd336300a9811675ab99b6fcb3deafa302",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "station": "shop",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": {
+              "id": "tonic",
+              "quantity": 1,
+              "total": 40
+            },
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2393.699999999255,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "dialogue-390x844",
+      "file": "screenshots/dialogue-390x844.png",
+      "width": 390,
+      "height": 1543,
+      "bytes": 63393,
+      "sha256": "d92f63c8fc451064e292cab19e48ad84c74061c27fbe01737e6ebe0b56ac1f56",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "station": "dialogue",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2400.89999999851,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "inventory-320x568",
+      "file": "screenshots/inventory-320x568.png",
+      "width": 320,
+      "height": 1731,
+      "bytes": 61380,
+      "sha256": "488f3d66ba1e9ed1c8e0f20a3748365ea771ea1e1e003de71c895eff446dd7e1",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "state": {
+        "station": "inventory",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2400.89999999851,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "play-view-minimap-844x390",
+      "file": "screenshots/play-view-minimap-844x390.png",
+      "width": 844,
+      "height": 392,
+      "bytes": 108059,
+      "sha256": "3226afd22c76d337bedc4ebd8d362be40b122a2f61040762b3582199397a95dd",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "state": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 18,
+            "tonics": 2,
+            "cooldown": 2450.89999999851,
+            "paused": false,
+            "result": null,
+            "strikes": 1
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "play-view-hud-844x390",
+      "file": "screenshots/play-view-hud-844x390.png",
+      "width": 844,
+      "height": 392,
+      "bytes": 107943,
+      "sha256": "1a62b343f660507f772f4552e66d401211ae23185c1bc812c083e1822a100830",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "state": {
+        "station": "hud",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "play-view-shop-844x390",
+      "file": "screenshots/play-view-shop-844x390.png",
+      "width": 844,
+      "height": 392,
+      "bytes": 47375,
+      "sha256": "2228389ea80d5c2f27ab81f92869bef23eb7e94fb137da78d9231a927d6e08a0",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "state": {
+        "station": "shop",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "play-view-inventory-390x844",
+      "file": "screenshots/play-view-inventory-390x844.png",
+      "width": 390,
+      "height": 846,
+      "bytes": 25148,
+      "sha256": "8455a0fab5dd73d05980ed69bf793dfbf1e5c08bfdf266070dad15b6100e7133",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "station": "inventory",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      },
+      "unedited": true
+    },
+    {
+      "name": "06-internal-portrait",
+      "file": "screenshots/06-internal-portrait.png",
+      "width": 1440,
+      "height": 1342,
+      "bytes": 175419,
+      "sha256": "394455d402129f8b55de5b43fd16b8b952618a620b271997f67fd0971737c8da",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "state": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "bag",
+            "selected": "brass",
+            "equipment": {
+              "weapon": "brass",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "detail",
+            "selected": "tonic",
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 2,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "portrait"
+      },
+      "unedited": true
+    }
+  ]
+}

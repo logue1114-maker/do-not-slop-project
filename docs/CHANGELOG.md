@@ -1,5 +1,17 @@
 # Source changes
 
+## 2026-10-06: First game UI playground bundle
+
+Integrated from the existing local source against main `bdd696ffcde02808759fc009ac2dfa26e3834b5c`.
+
+- Add original English minimap/inventory/shop flows with immediate settings, plus bounded cooldown/pause and quest/reward slices; preserve the broader overlooked-detail goal as future work
+- Include reusable settings/fixtures/contracts, Play view, 19 exact local runtime captures, two labeled sheets and retained failure/repair history
+- Record pre-publication local coverage precisely:136 browser/input/geometry and55 source checks; keep native-phone, screen-reader, external-review, design-approval and actual A/B gates unrun
+- Preserve the local original outside the repository; remove private machine paths from public report copies and adjust archival navigation without changing their preserved application/fixture bytes
+- Add concise README/research routes, publication provenance, exact own-image allowlist and updated file inventory; keep existing game/web implementations and evidence unchanged
+
+Publication is authorized. No Site deployment, force push, plugin installation or new reuse license is included.
+
 ## 2026-10-05: Six authored web-interface presets
 
 Integrated directly from the author’s existing local source on main baseline `6e3fadd5c5b7a921cd4c8157f98154444365efce`.

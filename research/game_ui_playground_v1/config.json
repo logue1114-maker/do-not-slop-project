@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "language": "en",
+  "artifactType": "authored-design-proposal",
+  "minimap": {
+    "orientation": "north",
+    "zoom": 1.4,
+    "shape": "circle",
+    "framing": "follow",
+    "edgeArrows": true,
+    "enemies": true,
+    "allies": true,
+    "objectives": true,
+    "iconScale": 1,
+    "pulse": true,
+    "objectiveMaps": "both"
+  },
+  "inventory": {
+    "layout": "grid",
+    "sort": "rarity",
+    "filter": "all",
+    "compare": true,
+    "density": "roomy"
+  },
+  "shop": {
+    "catalog": "all",
+    "density": "roomy",
+    "showOwned": true
+  },
+  "hud": {
+    "healthDisplay": "bar",
+    "showNumbers": true,
+    "cooldownDisplay": "radial",
+    "lowHealthCue": true
+  },
+  "dialogue": {
+    "choices": "stack",
+    "objectiveTracker": true
+  }
+}

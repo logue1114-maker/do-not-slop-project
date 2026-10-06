@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-10-06T15:13:13.887Z",
+  "browser": "154.0.8037.98",
+  "entry": "Loopback-served public package",
+  "scope": "Fresh native served-entry smoke checks at1165x747 and390x844; distinct from retained136/55 local run and from native phone/user approval",
+  "checks": [
+    {
+      "name": "1165 served entry loads",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "1165 map/Escape/focus",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "1165 select/equip/return commits exactly",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "1165 cancellation preserves coins",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "1165 purchase/receipt/return resolves once",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "1165 no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390 served entry loads",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "390 map/Escape/focus",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390 select/equip/return commits exactly",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390 cancellation preserves coins",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390 purchase/receipt/return resolves once",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "390 no horizontal overflow",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Served handoff/capture config.json",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "Served handoff/capture functional-contract.json",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "Served handoff/capture README.md",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "Served handoff/capture BROWSER_REPORT.md",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "Served handoff/capture screenshots/01-minimap-desktop.png",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "Served handoff/capture contact-sheet-mobile.png",
+      "status": "passed",
+      "evidence": 200
+    },
+    {
+      "name": "Served browser has no application or failed-request errors",
+      "status": "passed",
+      "evidence": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "totals": {
+    "passed": 19,
+    "failed": 0
+  }
+}

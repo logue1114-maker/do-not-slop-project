@@ -1,0 +1,11 @@
+# Public integration
+
+Prepared against latest rechecked main `bdd696ffcde02808759fc009ac2dfa26e3834b5c`. Source and original synthetic capture publication was explicitly authorized. This is an authored first component bundle; the broader game-detail goal is future work. Design approval is not implied by publication.
+
+The [136 browser /55 source results](BROWSER_REPORT.md) are retained **pre-publication local checks** at their recorded timestamps. Public copies remove local machine paths without changing outcomes; raw local evidence was preserved outside the repository. Application/CSS/fixture bytes and original PNGs remain exact. First-pass HTML links were relocated for working public navigation; the original HTML was also retained locally.
+
+Fresh integration checks are recorded in [public-checks.json](public-checks.json), [public-source-checks.json](public-source-checks.json) and the repository [release-tree report](../../validation/release-checks.json). They check current public-source integrity, own-image dimensions/hashes, local links, private-data patterns, preservation of earlier packages and declared Git scope. A separate served-entry smoke check is recorded in [public-browser-checks.json](public-browser-checks.json). External source-link observations are in [external-links.json](external-links.json); a fetch failure is disclosed rather than described as current-product verification.
+
+Final integration results:37 package/preservation checks,57 current source checks,19 served-entry native-input/link checks and362 repository release-tree checks passed, with zero failures. Release checks use a clean public tree with canonical Git bytes, preserving Windows checkout line-ending differences. These are scoped technical checks, not user approval, native-device testing or general usability findings.
+
+The own-image publication allowlist covers19 final runtime PNGs, two labeled sheets and one retained overlap-failure capture. No third-party image/font/account bytes or delivery archives are included. Native-phone, controller, screen-reader, complete accessibility, external review, user design approval, participant usability and a matched ordinary/guided A/B experiment remain unrun. No Site deployment, plugin installation, force push or new reuse license is included.

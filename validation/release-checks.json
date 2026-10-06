@@ -1,12 +1,12 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-05T10:48:12.734319+00:00",
+  "validated_at_utc": "2026-10-06T15:22:19.903843+00:00",
   "status": "passed_public_tree_checks",
   "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 350,
-    "checks": 316,
+    "files": 416,
+    "checks": 362,
     "failed_checks": 0
   },
   "checks": [
@@ -277,6 +277,121 @@
     },
     {
       "name": "json:research/game_interface_presets_v1/state-evidence.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/check-history/caption-overlap-failures.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/check-history/native-dialog-tab-boundary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/check-history/pre-play-view-pass.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/check-history/public-http-first-check.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/config.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/contact-sheets-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/external-links.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/first-pass/compositor-capture-failure.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/first-pass/runner-selector-failure.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/first-pass/sandbox-capture-failure.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/fixture.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/functional-contract.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/input-output-log.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/package-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/public-browser-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/public-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/public-integration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/public-source-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/qa-report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/render-geometry.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/screenshot-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/source-checks.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/game_ui_playground_v1/sources.json",
       "passed": true,
       "detail": null
     },
@@ -1106,6 +1221,11 @@
       "detail": null
     },
     {
+      "name": "exact_game_playground_capture_allowlist",
+      "passed": true,
+      "detail": null
+    },
+    {
       "name": "exact_synthetic_capture_allowlist",
       "passed": true,
       "detail": null
@@ -1272,6 +1392,116 @@
     },
     {
       "name": "synthetic_capture_bytes:research/game_interface_presets_v1/screenshots/strategy-narrow.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/check-history/minimap-landscape-before-caption-fix.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/contact-sheet-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/contact-sheet-mobile.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/01-minimap-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/02-inventory-compare-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/03-shop-confirm-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/04-hud-low-health-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/05-dialogue-reward-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/06-internal-portrait.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/dialogue-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/hud-844x390.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/inventory-320x568.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/inventory-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/minimap-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/minimap-844x390.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/play-view-hud-844x390.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/play-view-inventory-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/play-view-minimap-844x390.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/play-view-shop-844x390.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/shop-390x844.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/shop-844x390.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/shop-purchase-complete-desktop.png",
       "passed": true,
       "detail": null
     },

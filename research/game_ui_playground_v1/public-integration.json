@@ -1,0 +1,58 @@
+{
+  "baseCommit": "bdd696ffcde02808759fc009ac2dfa26e3834b5c",
+  "artifactType": "authored-first-component-bundle",
+  "publication": "explicitly_authorized",
+  "designApproval": "not_established",
+  "prePublicationChecks": {
+    "browser": 136,
+    "source": 55
+  },
+  "protectedFiles": {
+    "index.html": "d54ff0b97ebd306a9f78b5dc552b898efb854cf47b7e25c431ef06fd59d55c51",
+    "app.js": "d075b35c3d1baa7ec693895b2f984991e8c41e69e60695a679dce67e814f117a",
+    "styles.css": "fa0ea216deda52f9ff0918ccce2905036a9c9c5d652c724c6b9ecd680781d0b2",
+    "data.js": "87e8277ad3f9d0c2a1190463ebb986c719baedfaf780b833345df76886c2b3fb",
+    "config.json": "f6f5284fd1780353f005a5f7ff30b03add82b8975ff87783d1eba0a2e68dda7a",
+    "fixture.json": "cd938452a694ef30ebdfbf036c9dcd7913357f9d5d85563d53c13d7e2c7b1cab",
+    "first-pass/app.js": "73ec2f3cc0ec7e996107adf646544967b8f917cb07bae0c7fad9632fc880e6de",
+    "first-pass/styles.css": "ff5af2c3645bc017268d84ebd2995dfb3ecfd8b4097e82d6bd6efa6b346a9803",
+    "first-pass/data.js": "cf53f566d074aa573c75261d5c8f5d0335d6cffa1e9f87d4cf64132e09f51b5a"
+  },
+  "approvedPngHashes": {
+    "check-history/minimap-landscape-before-caption-fix.png": "6efb2c2bcbd069edb75d6bc6acdc90b396d27315af6af53cd0ad8e8c4242e8a9",
+    "contact-sheet-desktop.png": "733af680cb3190f227343d3cc90c1e4246bf5403b15b02b1bdbab1184cff9d63",
+    "contact-sheet-mobile.png": "f554babbf716be76b5fb338d058c2750ce8ee13a33b3f921359522f062fd39f6",
+    "screenshots/01-minimap-desktop.png": "5cc836e2cb57f835d4927d8a60dabb93d162fee43f59193f6d0aa522344c95e8",
+    "screenshots/02-inventory-compare-desktop.png": "b40f9332f5a4599f57d169a01c64b1c9ad58de2b5644f6fc1f9ab974a1a3c914",
+    "screenshots/03-shop-confirm-desktop.png": "2d16909e08fa2b2ec19a493aa1460a784077962b4a51e6502e4beb52ddf476f1",
+    "screenshots/04-hud-low-health-desktop.png": "fca59e0688f0278f1ecf87e67defa5cb630fb9c407db7bd5e6c537af4789af0f",
+    "screenshots/05-dialogue-reward-desktop.png": "0d03821a3116855d4bf37934d9f4d4145459fbc77c3dd1f3e0b88418d73665d2",
+    "screenshots/06-internal-portrait.png": "394455d402129f8b55de5b43fd16b8b952618a620b271997f67fd0971737c8da",
+    "screenshots/dialogue-390x844.png": "d92f63c8fc451064e292cab19e48ad84c74061c27fbe01737e6ebe0b56ac1f56",
+    "screenshots/hud-844x390.png": "69e945466703e4743f33c00dcdb7e1f934a50e5e4382abffa8369c592b379a15",
+    "screenshots/inventory-320x568.png": "488f3d66ba1e9ed1c8e0f20a3748365ea771ea1e1e003de71c895eff446dd7e1",
+    "screenshots/inventory-390x844.png": "7e78c4bd84a402a026ead29de3ba7c40b64859428df54e12f095b56468de81b1",
+    "screenshots/minimap-390x844.png": "a7258b693340afa9ea2f54cb39d1b1daf93e4e40c729e44b34ae533d194ad79f",
+    "screenshots/minimap-844x390.png": "30d238107438b2597b0f0986b3af1a85ae01fde1216bd7689a912ec8d486a76b",
+    "screenshots/play-view-hud-844x390.png": "1a62b343f660507f772f4552e66d401211ae23185c1bc812c083e1822a100830",
+    "screenshots/play-view-inventory-390x844.png": "8455a0fab5dd73d05980ed69bf793dfbf1e5c08bfdf266070dad15b6100e7133",
+    "screenshots/play-view-minimap-844x390.png": "3226afd22c76d337bedc4ebd8d362be40b122a2f61040762b3582199397a95dd",
+    "screenshots/play-view-shop-844x390.png": "2228389ea80d5c2f27ab81f92869bef23eb7e94fb137da78d9231a927d6e08a0",
+    "screenshots/shop-390x844.png": "d44e7830fa7a43554713e55781a755fd336300a9811675ab99b6fcb3deafa302",
+    "screenshots/shop-844x390.png": "05fbe83018b90c93b13b74195b5d84f2d4e5710c10bf4bb512f69392a38fce16",
+    "screenshots/shop-purchase-complete-desktop.png": "1ceaef0d9a1191172b13251ded9024a1aa43b2f46006114def39117e922ffbff"
+  },
+  "publicAdaptations": [
+    "Remove private machine paths from report copies",
+    "Relocate first-pass HTML navigation links",
+    "Use environment-configurable browser development paths",
+    "Add public navigation, provenance and exact image allowlist"
+  ],
+  "notPerformed": [
+    "Site deployment",
+    "plugin installation",
+    "matched A/B trial",
+    "user design approval",
+    "native-phone testing"
+  ]
+}

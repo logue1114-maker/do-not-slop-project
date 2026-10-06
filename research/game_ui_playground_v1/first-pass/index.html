@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3f0e8">
+  <title>Game UI playground · Do Not Slop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="identity" href="../../../README.md" aria-label="Do Not Slop Project readme"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>DO NOT SLOP<span class="project">PROJECT / INTERFACE STUDIES</span></span></a>
+    <span class="boundary">Original design proposals · Local simulation</span>
+  </header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">PLAY / ADJUST / SEE</p><h1>Game UI playground<span class="title-dot">.</span></h1></div><p class="intro-note">Small settings. Different ways to play.</p></div>
+    <nav class="stations" aria-label="UI components">
+      <button data-station="minimap" aria-current="page"><span>01</span> Minimap</button>
+      <button data-station="inventory"><span>02</span> Inventory</button>
+      <button data-station="shop"><span>03</span> Shop</button>
+      <button data-station="hud"><span>04</span> Combat HUD</button>
+      <button data-station="dialogue"><span>05</span> Dialogue & quest</button>
+    </nav>
+    <div class="workbench">
+      <section class="preview" aria-label="Interactive game preview">
+        <div class="preview-toolbar"><div><span class="live-dot" aria-hidden="true"></span><strong id="preview-label">Trail survey</strong><span class="preview-note">PLAYABLE SLICE</span></div><label class="viewport-label">View <select id="viewport" aria-label="Preview viewport"><option value="adaptive">Adaptive</option><option value="desktop">Desktop</option><option value="landscape">Phone landscape</option><option value="portrait">Phone portrait</option></select></label></div>
+        <div id="frame" data-view="adaptive"><div id="game" class="game" tabindex="-1" aria-label="Game simulation"></div></div>
+        <div class="game-feedback"><span id="status" role="status" aria-live="polite">Move, turn, or open the minimap.</span><button id="reset" class="text-button">Reset this example</button></div>
+      </section>
+      <aside class="inspector" aria-label="Live settings"><div class="inspector-heading"><h2>Live settings</h2><span>↳ immediate preview</span></div><div id="settings"></div><button id="export" class="export-button">↓ Export settings JSON</button><span id="export-status" role="status"></span></aside>
+    </div>
+    <details class="rules"><summary>Build rules & developer handoff <span>JSON · input / output · checks</span></summary><div class="rule-content"><p>These are independently authored proposals with synthetic data. Preset comparisons use the same scene and records; they are not experimental runs or approved designs.</p><div class="rule-columns"><div><h3>Keep the state honest</h3><ul><li>Selecting gear never equips it.</li><li>Reviewing a purchase never spends coins.</li><li>Cancel and Back preserve committed state.</li><li>Confirm resolves one pending purchase once.</li><li>Edge arrows report direction, not exact position.</li></ul></div><div><h3>Keep the game usable</h3><ul><li>Use shape and text as well as color.</li><li>Keep actions clear of map and item overlays.</li><li>Return focus to the control that opened a view.</li><li>Freeze cooldown while paused or in another station.</li><li>Use Escape to return one level.</li></ul></div></div><p><a href="../config.json">Default settings</a> · <a href="../functional-contract.json">Input / output contract</a> · <a href="../IMPLEMENTATION.md">Implementation notes</a> · <a href="../BROWSER_REPORT.md">Verification scope</a></p></div></details>
+    <details class="sources"><summary>Official references <span>Game-specific observations, source links only</span></summary><ol><li><a href="https://na.finalfantasyxiv.com/game_manual/view/" target="_blank" rel="noreferrer">FFXIV · UI manual</a> — minimap to map, nearby markers, inventory actions. Live manual; accessed 6 Oct 2026.</li><li><a href="https://dev.epicgames.com/documentation/fortnite/making-a-custom-mini-map-in-unreal-editor-for-fortnite?lang=en-US" target="_blank" rel="noreferrer">Epic · Custom minimaps</a> — shape, viewpoint rotation, zoom, full frame. Controller priority selects maps; it is not marker drawing order.</li><li><a href="https://dev.epicgames.com/documentation/fortnite/using-map-indicator-devices-in-fortnite-creative?lang=en-US" target="_blank" rel="noreferrer">Epic · Map indicators</a> — icon scale, map visibility, objective pulse. Team / class filters remain out of scope.</li><li><a href="https://www.leagueoflegends.com/en-us/news/dev/preseason-item-shop-update/" target="_blank" rel="noreferrer">Riot · Preseason shop update (2020)</a> — recommended / all items, contextual reasons, quick-buy access. Historical development article, not a current build claim.</li><li><a href="https://www.halowaypoint.com/news/season-1-outcomes-report" target="_blank" rel="noreferrer">Halo · Season 1 outcomes (2022)</a> — planned distinction between directional edge contacts and inner positions. Historical report; not a general radar rule.</li></ol><p>Our artwork, fixture, settings, layout and simulated transactions are original. Third-party artwork and screenshots are not bundled. <a href="../sources.json">Provenance and limits</a></p></details>
+  </main>
+  <footer><span>Do Not Slop / Game UI playground v1</span><span>Session-only state · Reload starts fresh</span></footer>
+  <script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>

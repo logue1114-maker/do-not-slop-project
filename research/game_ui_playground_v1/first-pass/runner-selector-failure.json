@@ -1,0 +1,369 @@
+{
+  "timestamp": "2026-10-06T14:42:58.415Z",
+  "browser": "Headless installed Chrome 154.0.8037.98",
+  "runtime": "[repository]/research/game_ui_playground_v1/index.html",
+  "inputEvidence": "Native Playwright clicks/keys/range inputs; two duplicate activation probes dispatch click on actual rendered button. Read-only snapshots never mutate app state.",
+  "checks": [
+    {
+      "name": "Real entry starts in exploration",
+      "status": "passed",
+      "evidence": {
+        "station": "minimap",
+        "config": {
+          "schemaVersion": "1.0",
+          "language": "en",
+          "artifactType": "authored-design-proposal",
+          "minimap": {
+            "orientation": "north",
+            "zoom": 1.4,
+            "shape": "circle",
+            "framing": "follow",
+            "edgeArrows": true,
+            "enemies": true,
+            "allies": true,
+            "objectives": true,
+            "iconScale": 1,
+            "pulse": true,
+            "objectiveMaps": "both"
+          },
+          "inventory": {
+            "layout": "grid",
+            "sort": "rarity",
+            "filter": "all",
+            "compare": true,
+            "density": "roomy"
+          },
+          "shop": {
+            "catalog": "all",
+            "density": "roomy",
+            "showOwned": true
+          },
+          "hud": {
+            "healthDisplay": "bar",
+            "showNumbers": true,
+            "cooldownDisplay": "radial",
+            "lowHealthCue": true
+          },
+          "dialogue": {
+            "choices": "stack",
+            "objectiveTracker": true
+          }
+        },
+        "states": {
+          "minimap": {
+            "player": {
+              "name": "Rowan",
+              "rank": 2,
+              "x": 480,
+              "y": 365,
+              "heading": 30
+            },
+            "view": "trail",
+            "waypoint": "tower"
+          },
+          "inventory": {
+            "view": "camp",
+            "selected": null,
+            "equipment": {
+              "weapon": "reed",
+              "armor": "linen"
+            }
+          },
+          "shop": {
+            "view": "catalog",
+            "selected": null,
+            "quantity": 1,
+            "balance": 260,
+            "owned": {
+              "tonic": 1,
+              "ward": 0,
+              "boots": 0,
+              "lens": 0
+            },
+            "stock": {
+              "tonic": 12,
+              "ward": 6,
+              "boots": 3,
+              "lens": 2
+            },
+            "pending": null,
+            "receipt": null,
+            "transactions": 0
+          },
+          "hud": {
+            "health": 100,
+            "enemyHealth": 30,
+            "tonics": 2,
+            "cooldown": 0,
+            "paused": false,
+            "result": null,
+            "strikes": 0
+          },
+          "dialogue": {
+            "view": "talk",
+            "accepted": false,
+            "collected": 0,
+            "claimed": false,
+            "balance": 0
+          }
+        },
+        "preview": "adaptive"
+      }
+    },
+    {
+      "name": "1440 desktop minimap / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "1440 desktop minimap / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Turn changes heading by45",
+      "status": "passed",
+      "evidence": {
+        "name": "Rowan",
+        "rank": 2,
+        "x": 480,
+        "y": 365,
+        "heading": 75
+      }
+    },
+    {
+      "name": "Heading-up map counter-rotates to player",
+      "status": "passed",
+      "evidence": "translate(120 120) rotate(-75) scale(0.6719999999999999) translate(-480 -365)"
+    },
+    {
+      "name": "Zoom updates from actual range input",
+      "status": "passed",
+      "evidence": 2.8
+    },
+    {
+      "name": "Offscreen hide removes rim arrows",
+      "status": "passed",
+      "evidence": 0
+    },
+    {
+      "name": "Shape updates live hit target",
+      "status": "passed",
+      "evidence": "square"
+    },
+    {
+      "name": "Move changes shared world coordinates",
+      "status": "passed",
+      "evidence": {
+        "name": "Rowan",
+        "rank": 2,
+        "x": 513.8074039201174,
+        "y": 355.9413334214118,
+        "heading": 75
+      }
+    },
+    {
+      "name": "Full frame disables tracking-only controls",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Full frame terrain stays fixed while player moves",
+      "status": "passed",
+      "evidence": "translate(120 120) rotate(0) scale(0.215) translate(-500 -350)"
+    },
+    {
+      "name": "Enemy visibility is independent",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Map-specific goals hidden on minimap",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Map-specific goals remain in overview",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Overview goal selection updates tracking",
+      "status": "passed",
+      "evidence": "camp"
+    },
+    {
+      "name": "Escape returns and restores map opener",
+      "status": "passed",
+      "evidence": "open-map"
+    },
+    {
+      "name": "Authored preset changes settings but retains same fixture",
+      "status": "passed",
+      "evidence": {
+        "orientation": "heading",
+        "zoom": 2.3,
+        "shape": "square",
+        "framing": "follow",
+        "edgeArrows": true,
+        "enemies": true,
+        "allies": true,
+        "objectives": true,
+        "iconScale": 1.3,
+        "pulse": false,
+        "objectiveMaps": "both"
+      }
+    },
+    {
+      "name": "Selecting gear does not equip",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "brass",
+        "equipment": {
+          "weapon": "reed",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Equipment comparison shows signed stat changes",
+      "status": "passed",
+      "evidence": "Stat\tEquipped\tSelected\tChange\nPower\t8\t14\t+6\nGuard\t2\t1\t-1"
+    },
+    {
+      "name": "1440 desktop inventory / no horizontal page overflow",
+      "status": "passed",
+      "evidence": 1440
+    },
+    {
+      "name": "1440 desktop inventory / controls do not overlap, clip horizontally, or get covered",
+      "status": "passed",
+      "evidence": {
+        "overlaps": [],
+        "clipped": [],
+        "occluded": []
+      }
+    },
+    {
+      "name": "Equip commits chosen slot",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "brass",
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Repeated disabled equip preserves equipment",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "brass",
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Rank requirement blocks unavailable gear",
+      "status": "passed",
+      "evidence": "Requires rank 3"
+    },
+    {
+      "name": "Consumable detail renders without equip",
+      "status": "passed",
+      "evidence": "Field tonic\nCommon · consumable\n\nRestores 30 health.\n\nOwned ×4\n\nSupply · retained in bag"
+    },
+    {
+      "name": "Material has no equip action",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Sort reorders unchanged fixture names",
+      "status": "passed",
+      "evidence": [
+        "Anchor axe",
+        "Brass sabre",
+        "Copper ore",
+        "Field tonic",
+        "Linen vest",
+        "Mist crystal",
+        "Reed blade",
+        "Scale coat",
+        "Trail ration"
+      ]
+    },
+    {
+      "name": "Filter narrows collection and clears stale selection",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": null,
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Compare-off changes table columns",
+      "status": "passed",
+      "evidence": "Stat\tSelected\nPower\t8\nGuard\t2"
+    },
+    {
+      "name": "Close shows committed loadout and restores focus",
+      "status": "passed",
+      "evidence": "open-inventory"
+    },
+    {
+      "name": "Reopen retains equipped weapon",
+      "status": "passed",
+      "evidence": {
+        "view": "bag",
+        "selected": "reed",
+        "equipment": {
+          "weapon": "brass",
+          "armor": "linen"
+        }
+      }
+    },
+    {
+      "name": "Insufficient funds state names shortfall",
+      "status": "passed",
+      "evidence": "Need 160 more coins"
+    },
+    {
+      "name": "Runner completed declared flow",
+      "status": "failed",
+      "evidence": "locator.click: Error: strict mode violation: locator('[data-product=\"tonic\"]') resolved to 2 elements:\n    1) <button id=\"product-tonic\" class=\"product-card\" data-product=\"tonic\">…</button> aka getByRole('button', { name: 'Field tonic 40 coins Owned 1' })\n    2) <button id=\"quick-tonic\" data-product=\"tonic\" aria-label=\"Review Field tonic\">…</button> aka getByRole('button', { name: 'Review Field tonic' })\n\nCall log:\n\u001b[2m  - waiting for locator('[data-product=\"tonic\"]')\u001b[22m\n\n    at click ([repository]\\research\\game_ui_playground_v1\\verify-browser.mjs:21:90)\n    at async [repository]/research/game_ui_playground_v1/verify-browser.mjs:49:292"
+    }
+  ],
+  "totals": {
+    "passed": 32,
+    "failed": 1
+  },
+  "errors": [],
+  "failedRequests": [],
+  "notRun": [
+    "native phone hardware/safe-area",
+    "controller",
+    "screen reader",
+    "human usability study",
+    "external screenshot reviewer",
+    "true browser200% zoom",
+    "network/save reconnect",
+    "actual model A/B experiment",
+    "user design approval",
+    "commit/push/Site deployment"
+  ]
+}

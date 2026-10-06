@@ -94,6 +94,19 @@ WEB_PRESET_CAPTURE_PATHS = {
     WEB_PRESET_ROOT + 'first-pass/screenshots/work-entry-390x844.png',
 }
 
+GAME_PLAYGROUND_ROOT = 'research/game_ui_playground_v1/'
+GAME_PLAYGROUND_CAPTURE_PATHS = {
+    GAME_PLAYGROUND_ROOT + 'screenshots/' + name + '.png'
+    for name in ('01-minimap-desktop', '02-inventory-compare-desktop', '03-shop-confirm-desktop',
+                 '04-hud-low-health-desktop', '05-dialogue-reward-desktop', '06-internal-portrait',
+                 'dialogue-390x844', 'hud-844x390', 'inventory-320x568', 'inventory-390x844',
+                 'minimap-390x844', 'minimap-844x390', 'play-view-hud-844x390',
+                 'play-view-inventory-390x844', 'play-view-minimap-844x390',
+                 'play-view-shop-844x390', 'shop-390x844', 'shop-844x390',
+                 'shop-purchase-complete-desktop')
+} | {GAME_PLAYGROUND_ROOT + 'contact-sheet-' + view + '.png' for view in ('desktop', 'mobile')} \
+  | {GAME_PLAYGROUND_ROOT + 'check-history/minimap-landscape-before-caption-fix.png'}
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -117,7 +130,8 @@ def inspect(root):
     approved_captures_palettes = provenance.get('white_surface_palettes_v1', {}).get('approved_synthetic_capture_sha256', {})
     approved_captures_games = provenance.get('game_interface_presets_v1', {}).get('approved_synthetic_capture_sha256', {})
     approved_captures_web = provenance.get('web_interface_presets_v1', {}).get('approved_synthetic_capture_sha256', {})
-    approved_captures = {**approved_captures_v1, **approved_captures_v2, **approved_captures_palettes, **approved_captures_games, **approved_captures_web}
+    approved_captures_playground = provenance.get('game_ui_playground_v1', {}).get('approved_synthetic_capture_sha256', {})
+    approved_captures = {**approved_captures_v1, **approved_captures_v2, **approved_captures_palettes, **approved_captures_games, **approved_captures_web, **approved_captures_playground}
     denied_parts = {'.git', '.openai', '.aws', '.codex', '.agents', 'node_modules', 'evidence', 'browser_qa', 'public_release_audit'}
     forbidden = [r for r, p in relative.items() if set(p.relative_to(root).parts) & denied_parts
                  or re.search(r'(?:evaluation|private|audit_report)', r, re.I)
@@ -147,7 +161,7 @@ def inspect(root):
     check('source_authority_and_license_boundaries', provenance['public_redistribution'] == 'authorized_source_release_only'
           and provenance['license_choice'] == 'pending_user_decision' and provenance['external_rights'] == 'unknown_link_only')
     approved_art = provenance['approved_authored_board_sha256']
-    art_paths = {r for r, p in relative.items() if p.suffix in {'.png', '.svg'} and r not in (GAME_PRESET_CAPTURE_PATHS | WEB_PRESET_CAPTURE_PATHS)}
+    art_paths = {r for r, p in relative.items() if p.suffix in {'.png', '.svg'} and r not in (GAME_PRESET_CAPTURE_PATHS | WEB_PRESET_CAPTURE_PATHS | GAME_PLAYGROUND_CAPTURE_PATHS)}
     check('exact_authored_board_allowlist', set(approved_art) == art_paths and len(art_paths) == 46)
     for rel in sorted(art_paths):
         path = relative[rel]
@@ -157,7 +171,7 @@ def inspect(root):
             check('vector_no_embedded_media:' + rel, not any(element.tag.split('}')[-1] in {'image', 'script', 'foreignObject'} for element in document.iter())
                   and 'data:' not in path.read_text() and '@font-face' not in path.read_text())
     capture_paths = {r for r, p in relative.items() if p.suffix.lower() in {'.jpg', '.jpeg'}
-                     or (p.suffix.lower() == '.png' and r.startswith((GAME_PRESET_ROOT, WEB_PRESET_ROOT)))}
+                     or (p.suffix.lower() == '.png' and r.startswith((GAME_PRESET_ROOT, WEB_PRESET_ROOT, GAME_PLAYGROUND_ROOT)))}
     check('exact_original_capture_allowlist', set(approved_captures_v1) == TRIAL_CAPTURE_PATHS)
     check('exact_guided_iteration_capture_allowlist', set(approved_captures_v2) == GUIDED_CAPTURE_PATHS)
     check('exact_white_palette_capture_allowlist', set(approved_captures_palettes) == WHITE_PALETTE_CAPTURE_PATHS)
@@ -165,7 +179,9 @@ def inspect(root):
           and len(GAME_PRESET_CAPTURE_PATHS) == 33)
     check('exact_web_preset_capture_allowlist', set(approved_captures_web) == WEB_PRESET_CAPTURE_PATHS
           and len(WEB_PRESET_CAPTURE_PATHS) == 45)
-    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS | WHITE_PALETTE_CAPTURE_PATHS | GAME_PRESET_CAPTURE_PATHS | WEB_PRESET_CAPTURE_PATHS) == capture_paths)
+    check('exact_game_playground_capture_allowlist', set(approved_captures_playground) == GAME_PLAYGROUND_CAPTURE_PATHS
+          and len(GAME_PLAYGROUND_CAPTURE_PATHS) == 22)
+    check('exact_synthetic_capture_allowlist', set(approved_captures) == (TRIAL_CAPTURE_PATHS | GUIDED_CAPTURE_PATHS | WHITE_PALETTE_CAPTURE_PATHS | GAME_PRESET_CAPTURE_PATHS | WEB_PRESET_CAPTURE_PATHS | GAME_PLAYGROUND_CAPTURE_PATHS) == capture_paths)
     for rel in sorted(capture_paths):
         check('synthetic_capture_bytes:' + rel, hashlib.sha256(relative[rel].read_bytes()).hexdigest() == approved_captures.get(rel))
     broken, escaped = [], []

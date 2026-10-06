@@ -1,0 +1,317 @@
+{
+  "timestamp": "2026-10-06T14:56:20.869Z",
+  "kind": "source/contract checks, distinct from browser input",
+  "checks": [
+    {
+      "name": "config JSON matches actual runtime data",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "fixture JSON matches actual runtime data",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.orientation default is in declared input domain",
+      "status": "passed",
+      "evidence": "north"
+    },
+    {
+      "name": "minimap.zoom default is in declared input domain",
+      "status": "passed",
+      "evidence": 1.4
+    },
+    {
+      "name": "minimap.shape default is in declared input domain",
+      "status": "passed",
+      "evidence": "circle"
+    },
+    {
+      "name": "minimap.framing default is in declared input domain",
+      "status": "passed",
+      "evidence": "follow"
+    },
+    {
+      "name": "minimap.edgeArrows default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.enemies default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.allies default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.objectives default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.iconScale default is in declared input domain",
+      "status": "passed",
+      "evidence": 1
+    },
+    {
+      "name": "minimap.pulse default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "minimap.objectiveMaps default is in declared input domain",
+      "status": "passed",
+      "evidence": "both"
+    },
+    {
+      "name": "inventory.layout default is in declared input domain",
+      "status": "passed",
+      "evidence": "grid"
+    },
+    {
+      "name": "inventory.sort default is in declared input domain",
+      "status": "passed",
+      "evidence": "rarity"
+    },
+    {
+      "name": "inventory.filter default is in declared input domain",
+      "status": "passed",
+      "evidence": "all"
+    },
+    {
+      "name": "inventory.compare default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "inventory.density default is in declared input domain",
+      "status": "passed",
+      "evidence": "roomy"
+    },
+    {
+      "name": "shop.catalog default is in declared input domain",
+      "status": "passed",
+      "evidence": "all"
+    },
+    {
+      "name": "shop.density default is in declared input domain",
+      "status": "passed",
+      "evidence": "roomy"
+    },
+    {
+      "name": "shop.showOwned default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "hud.healthDisplay default is in declared input domain",
+      "status": "passed",
+      "evidence": "bar"
+    },
+    {
+      "name": "hud.showNumbers default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "hud.cooldownDisplay default is in declared input domain",
+      "status": "passed",
+      "evidence": "radial"
+    },
+    {
+      "name": "hud.lowHealthCue default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "dialogue.choices default is in declared input domain",
+      "status": "passed",
+      "evidence": "stack"
+    },
+    {
+      "name": "dialogue.objectiveTracker default is in declared input domain",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "app.js syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "build-contact-sheets.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "data.js syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "finish-evidence.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "materialize-data.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "serve.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "verify-browser.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "verify-source.mjs syntax",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "Local entry dependency/link styles.css",
+      "status": "passed",
+      "evidence": "styles.css"
+    },
+    {
+      "name": "Local entry dependency/link ../../README.md",
+      "status": "passed",
+      "evidence": "../../README.md"
+    },
+    {
+      "name": "Local entry dependency/link config.json",
+      "status": "passed",
+      "evidence": "config.json"
+    },
+    {
+      "name": "Local entry dependency/link functional-contract.json",
+      "status": "passed",
+      "evidence": "functional-contract.json"
+    },
+    {
+      "name": "Local entry dependency/link IMPLEMENTATION.md",
+      "status": "passed",
+      "evidence": "IMPLEMENTATION.md"
+    },
+    {
+      "name": "Local entry dependency/link BROWSER_REPORT.md",
+      "status": "passed",
+      "evidence": "BROWSER_REPORT.md"
+    },
+    {
+      "name": "Local entry dependency/link sources.json",
+      "status": "passed",
+      "evidence": "sources.json"
+    },
+    {
+      "name": "Local entry dependency/link data.js",
+      "status": "passed",
+      "evidence": "data.js"
+    },
+    {
+      "name": "Local entry dependency/link app.js",
+      "status": "passed",
+      "evidence": "app.js"
+    },
+    {
+      "name": "Runtime does not embed third-party media/font URLs",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "No service calls or browser-storage economy",
+      "status": "passed",
+      "evidence": true
+    },
+    {
+      "name": "lab text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#242923",
+        "bg": "#f3f0e8",
+        "ratio": 13.018531189655741
+      }
+    },
+    {
+      "name": "lab muted token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#60675f",
+        "bg": "#f3f0e8",
+        "ratio": 5.118437761455871
+      }
+    },
+    {
+      "name": "game text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#f4f1e4",
+        "bg": "#24382f",
+        "ratio": 11.02972760636634
+      }
+    },
+    {
+      "name": "game muted token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#b7c5b7",
+        "bg": "#24382f",
+        "ratio": 6.947450159241785
+      }
+    },
+    {
+      "name": "primary text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#233028",
+        "bg": "#e7bd73",
+        "ratio": 7.8198520126853355
+      }
+    },
+    {
+      "name": "blocked text token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#acb6aa",
+        "bg": "#334139",
+        "ratio": 5.125747856555969
+      }
+    },
+    {
+      "name": "positive delta token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#a4e0b4",
+        "bg": "#20332a",
+        "ratio": 8.862538711404147
+      }
+    },
+    {
+      "name": "negative delta token contrast >=4.5",
+      "status": "passed",
+      "evidence": {
+        "fg": "#ffb5a0",
+        "bg": "#20332a",
+        "ratio": 7.886588884873147
+      }
+    },
+    {
+      "name": "No existing tracked repository file changed",
+      "status": "passed",
+      "evidence": []
+    }
+  ],
+  "totals": {
+    "passed": 55,
+    "failed": 0
+  }
+}
