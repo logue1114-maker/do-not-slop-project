@@ -1,6 +1,6 @@
 {
   "project": "Do Not Slop Project",
-  "created_at_utc": "2026-10-06T15:22:20.377909+00:00",
+  "created_at_utc": "2026-10-06T15:43:20.073196+00:00",
   "hash_algorithm": "sha256",
   "self_hash": "not included to avoid recursive self-reference",
   "license_choice": "pending_user_decision",
@@ -17,8 +17,8 @@
     },
     {
       "path": "docs/CHANGELOG.md",
-      "bytes": 11619,
-      "sha256": "8816543ad3217bc36858d04b41a4d889deff98dbb0dd630e63aa3196da4c8437"
+      "bytes": 12731,
+      "sha256": "f307f29f1fba5c96ed0fcbaea4236e1cf6b2ca0a59b15d9ae22a16058e7ca00f"
     },
     {
       "path": "docs/HONEST_COMPARISONS.md",
@@ -32,23 +32,23 @@
     },
     {
       "path": "docs/PROVENANCE.json",
-      "bytes": 33956,
-      "sha256": "70334d218d9b778c9de273da9d0b365e5584b3ce5b4bb269c721c4c400996d40"
+      "bytes": 44418,
+      "sha256": "78b90bb7560e21f763cda107a3a189717d6ccd475066aa19a914512b4305cd12"
     },
     {
       "path": "docs/RESEARCH_INDEX.md",
-      "bytes": 16546,
-      "sha256": "7451c3f21b7b9bf078ed498e4a2d5fd85697448e9d74d0c1e639ac42b47a378a"
+      "bytes": 18016,
+      "sha256": "875a231e1b8e61568a7dd2f29f10d89a082a678a55fd676c13a86b7c2390b0f9"
     },
     {
       "path": "docs/RIGHTS_AND_SCOPE.md",
-      "bytes": 7685,
-      "sha256": "279f3dcd02dc3b6c4ddcdff7e3d03bf3ce6b712c44f5f147668e3f69b475ab3a"
+      "bytes": 8592,
+      "sha256": "0f456a0395b93a61762ac9f3da2790c0b797548461cdbb17c81c0b90ee3fd776"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 17004,
-      "sha256": "96259933449fdcb82eb03239607e947c93028b3276374f4cc73cc1c0a5d84a36"
+      "bytes": 18386,
+      "sha256": "f96bb8e9352b5167566f83f71b7c75bffd14413d1a52ab3cc5c6ee05a09ec208"
     },
     {
       "path": "guides/cp01-task-first-v2.md",
@@ -232,8 +232,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6639,
-      "sha256": "b085cdc11cb215c81b2b2cbd8a8d7fe50f4ba37a51498d1fb0da31314d0421ca"
+      "bytes": 6891,
+      "sha256": "480ab3f9a1def8fe43188828d8c923f1add966229f38682851a30e6415268135"
     },
     {
       "path": "research/antislop_research.json",
@@ -1071,6 +1071,491 @@
       "sha256": "d807662b1d078cc401d97b3cab82f5920f626c0efe8596bdad53efe2ddf5664d"
     },
     {
+      "path": "research/gameplay_details_v1/.gitattributes",
+      "bytes": 139,
+      "sha256": "c422a70039b5d3622d72857ee9e6bdfe9fb2a8dd69ca5723291baf6ee4d4770a"
+    },
+    {
+      "path": "research/gameplay_details_v1/app.js",
+      "bytes": 42392,
+      "sha256": "b33a7033930ab85ece77a19fc8a65fa4aa62824f484f2fbdd6896344498bba84"
+    },
+    {
+      "path": "research/gameplay_details_v1/browser-checks.mjs",
+      "bytes": 22484,
+      "sha256": "dbca5f0f327e54387e8b7efdb4ad62ebcf7373937e0a166797d2b344c9821d8b"
+    },
+    {
+      "path": "research/gameplay_details_v1/BROWSER_REPORT.md",
+      "bytes": 5888,
+      "sha256": "8d1da4b88ebeebd6b2e24b86f8b841a2bec9bc221f971aba4a7b931c8f0b0940"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-feedback-both-frame.png",
+      "bytes": 58074,
+      "sha256": "74922689f3d1aa987626524af865dbbcf2767a59a8d5492d6232397952ea8e9a"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-feedback-both.png",
+      "bytes": 84594,
+      "sha256": "15b918841fe4080482626147adb2237b8fce64c7cd54789b888783b429fc7a8e"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-feedback-frame.png",
+      "bytes": 58074,
+      "sha256": "74922689f3d1aa987626524af865dbbcf2767a59a8d5492d6232397952ea8e9a"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-feedback.png",
+      "bytes": 84558,
+      "sha256": "a71c24e4644233e00812733e42e7e6b4e71f0be04ddcf1cdf4ea017996be269f"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-interaction-frame.png",
+      "bytes": 105668,
+      "sha256": "951a36c89abf2e536dce2a59cd44f68caf8a8e9364e10457d0f70e2c46153e9f"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-interaction.png",
+      "bytes": 122763,
+      "sha256": "ff0a2ea75c0f7dc3e17813f4c8676a2dcf6357fe310c90787341b077360765d6"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-jump-buffer-frame.png",
+      "bytes": 48651,
+      "sha256": "b478096222f1059e5d77dd72106a6eb87ce295110167839432296ae713f22716"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-jump-buffer.png",
+      "bytes": 68229,
+      "sha256": "d8b8245daaf5f16a311a7156244893f90e0ae293647da95f6b15c355c30760b4"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-jump-coyote-frame.png",
+      "bytes": 48869,
+      "sha256": "58a977d638701f03689309d8e7abcadd68a21ca0df65b1f7c7cd550063621e87"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-jump-coyote.png",
+      "bytes": 68394,
+      "sha256": "7f6acea64041db2fab1126c91c57cc85db8e6b96259de21f9c4fc6512b9098dc"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-jump-frame.png",
+      "bytes": 48869,
+      "sha256": "58a977d638701f03689309d8e7abcadd68a21ca0df65b1f7c7cd550063621e87"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-jump.png",
+      "bytes": 68496,
+      "sha256": "e3cebadef7808f6ce99724518efa89deaa09d79f4e7d21f2deaef98f67c35110"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-recovery-frame.png",
+      "bytes": 82809,
+      "sha256": "8b4a10e48761dc8bcdbfd59576e9b04209cdc640c35d8980501eb1a0a598afc2"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-recovery-lost-frame.png",
+      "bytes": 82731,
+      "sha256": "53c0e6741bac0ef904f9040893a4906d4f5c6196cfcbc9f59741f0dcc473d3f7"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-recovery-lost.png",
+      "bytes": 117687,
+      "sha256": "3918525ed8f0178d625cd33666460b8e54fe0d0c93199c49eddfdd0418a4ff6b"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-recovery-recovered-frame.png",
+      "bytes": 82897,
+      "sha256": "afbcaff859aef6350bfaeeb2cff38632af7134b50eef3bbcf5e278d38b587a4d"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-recovery-recovered.png",
+      "bytes": 103845,
+      "sha256": "89e6c99581f9d75a5cc52a2789910b47807129689dad69004b2caae35db3b61e"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-recovery.png",
+      "bytes": 115133,
+      "sha256": "046e98f225ef81480cc76a4b2b33896a04cf8f02a14311a3601667ba25be83fb"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-target-occluded-frame.png",
+      "bytes": 102989,
+      "sha256": "3305c776c3644dcb4f7e198cee8e0be7afc0d186acfb557756b4d354d4ed15d3"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/desktop-target-occluded.png",
+      "bytes": 122863,
+      "sha256": "751fa9df4833decabdea1eeae51d3c4ad906b88887e4286f690fb107f56448e6"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-feedback-frame.png",
+      "bytes": 28560,
+      "sha256": "89ae45b611ea1b7f45e371361ffdf2de907013bd8e2a7ddb70bf46df2671fe23"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-feedback.png",
+      "bytes": 79913,
+      "sha256": "471f11ea7c2db091006b27fc145ee95503c880c92b70291d6e10eac65100d5ac"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-interaction-frame.png",
+      "bytes": 31640,
+      "sha256": "58489683f827b6478870c76ab240d8a6769b6fa2ab86a2ca72a5f4fd3f00b076"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-interaction.png",
+      "bytes": 110083,
+      "sha256": "778b665e50bc85528a1f901d497ffff6ed655e1a0bfcc6b5bfce3a029d53b714"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-jump-frame.png",
+      "bytes": 28051,
+      "sha256": "d9a1d9de64a38318570c61807587d940a3018e3e2d7e4bda6f033a5d88a27b65"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-jump.png",
+      "bytes": 67237,
+      "sha256": "e5300ee6021013f89d46fd659423d5505790f5bc19a0b778bb377218f6f35cce"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-recovery-frame.png",
+      "bytes": 34097,
+      "sha256": "92ead74ead26f66a0916dbcc3364310fe5263b3a7162e183120ca071cbce5224"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/landscape-recovery.png",
+      "bytes": 104280,
+      "sha256": "bd335fbd135d55034f1540a2a008da256b34e286c231de75f85e2303110dbbfa"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-feedback-frame.png",
+      "bytes": 40571,
+      "sha256": "193d2c4e1f0c47096eb71c636d927a97e93ce210f77ca4cfcba208f3a5cf99c3"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-feedback.png",
+      "bytes": 68760,
+      "sha256": "35341d4adc69a91063e5bc4f9937087667ecc24dd55f2d3d3bc769222230ba3f"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-interaction-frame.png",
+      "bytes": 61426,
+      "sha256": "2b70e956e88ec53ad8ecd437b0717579014ed6eef4e43ca64562b32e9e59d010"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-interaction.png",
+      "bytes": 84814,
+      "sha256": "b072a7cda0e13f315091aa107fe53fd054253e244e14f5809a906d23ae3e3b7c"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-jump-frame.png",
+      "bytes": 32498,
+      "sha256": "fb06441b694eb31fafc55f8e540809d864c6a05eebbf76f1144c57a75d877f6c"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-jump.png",
+      "bytes": 61292,
+      "sha256": "4c5a5b843fdd69c181e0d28a382c0ad7c33542a9515c003786e021be8b83812b"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-recovery-frame.png",
+      "bytes": 47977,
+      "sha256": "81518b75a9a10aefbcc36daa62a41992deb1dfa3ee527dcdb74a7385a2630ade"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/final/narrow-recovery.png",
+      "bytes": 82676,
+      "sha256": "687c4e15e322c959e09a4b82f4e076a768903825b1298452685560a2e94c19d6"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-feedback-both.png",
+      "bytes": 86186,
+      "sha256": "236145d327a4695abd5fc936e7fdf216a355ae46256011431ab83474271b2d9e"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-feedback.png",
+      "bytes": 86223,
+      "sha256": "3e37b3ad71316f2d2e7c34536ef5ea3b6680c9fdce79007966574ac5623a0e10"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-interaction.png",
+      "bytes": 123601,
+      "sha256": "5db5a352171131781ed0db5e32f8309b07e8c9e26a83d146af5f0b78cbb50183"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-jump-buffer.png",
+      "bytes": 69544,
+      "sha256": "9a21935300d591dc5fed2c955a607ce16063a0c6faaf94f923e23d2d21f30dce"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-jump-coyote.png",
+      "bytes": 70262,
+      "sha256": "9f8a51a3c2851d73d2d9c534a36551dfd096c25e746a1ff415fb1cfe0fbfbcbb"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-jump.png",
+      "bytes": 70097,
+      "sha256": "2547373091c9aa435582ca49b23746299a77ae755127e4476d46e5fbc940d3c7"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-recovery-lost.png",
+      "bytes": 118506,
+      "sha256": "b64945afb18c893f09f34b18462034e6bd5a1d9d32be5579c315492c92eb2cb8"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-recovery-recovered.png",
+      "bytes": 105142,
+      "sha256": "78eed5858409caa7f44f938f903c2596c22facff03b0bc8ddfa6a555ea7ae844"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-recovery.png",
+      "bytes": 116296,
+      "sha256": "b03d1518fd034e4382163a9c98fc88399e862a744e606403e92e10844e4d1d6f"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/desktop-target-occluded.png",
+      "bytes": 123654,
+      "sha256": "d43e5cfab72dec0b6fb0044c511c16b573c59522241c83ed2f1d61c166326c6c"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/landscape-feedback.png",
+      "bytes": 81207,
+      "sha256": "ed2c072e362f44776a4d61ea4bc24ad77f1865fe2911b5c3d2a48676ce4bb2c0"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/landscape-interaction.png",
+      "bytes": 111212,
+      "sha256": "dbaed942db6c02011eef177b1cfe1bb6c31d885af61610cfeef0c73b73430668"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/landscape-jump.png",
+      "bytes": 68782,
+      "sha256": "5abde5d551d79508c4115b6d6646f6221f93eec833ff08a2cb3868b4a6c707f1"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/landscape-recovery.png",
+      "bytes": 105369,
+      "sha256": "bc1a78318cf7aeffda2e22e7c02ce29d63ebd94dcc4513d2071d54b8a2bed09e"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/narrow-feedback.png",
+      "bytes": 68871,
+      "sha256": "72450b775d317300cc0bcd06f3e0d4ed655064559a7ba65974543ebaf82c92e8"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/narrow-interaction.png",
+      "bytes": 85730,
+      "sha256": "3a70bd7850e8327b7882a9211e82a6add2701b0373f08f4a3f2b1c882e7acd4c"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/narrow-jump.png",
+      "bytes": 62299,
+      "sha256": "b1e0371317054cc90264840ea5f7f1844385aa59913a30cdc4ead12197ddf1fd"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/first-browser/narrow-recovery.png",
+      "bytes": 83127,
+      "sha256": "ac6ad2765dcc1a84e40b308e1fc9eabf4d197a7c8184b0dfc9f721468f696a13"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/desktop-feedback-both-frame.png",
+      "bytes": 58883,
+      "sha256": "cd0107741dd2b36b195d33bde622dbd7b73d69274e7d4971a717477f96603b31"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/desktop-feedback-both.png",
+      "bytes": 85354,
+      "sha256": "39fb5577d4e666e5d38fc3eca46d6805110adaed10a3a1f7c8cf9b4d7a3f3723"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/desktop-feedback-frame.png",
+      "bytes": 58883,
+      "sha256": "cd0107741dd2b36b195d33bde622dbd7b73d69274e7d4971a717477f96603b31"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/desktop-feedback.png",
+      "bytes": 85377,
+      "sha256": "7799b0a7823309dbf294202d72868ae51e975e264c237547894ec077dbb22781"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/landscape-feedback-frame.png",
+      "bytes": 28560,
+      "sha256": "89ae45b611ea1b7f45e371361ffdf2de907013bd8e2a7ddb70bf46df2671fe23"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/landscape-feedback.png",
+      "bytes": 80313,
+      "sha256": "3da84a44a92550cbb2e7ae429f40867cb749c5dd515167055b5d0c89fba12c1c"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/narrow-feedback-frame.png",
+      "bytes": 40497,
+      "sha256": "941c95bb532456e563904ae1c8c0b71f8fbf009b8aa6c5543da55148271ea1a4"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/pre-contrast/narrow-feedback.png",
+      "bytes": 68694,
+      "sha256": "db17715895811fe6d021be5b904738d21a2712fcbb0bc9f2721fcced83fcda50"
+    },
+    {
+      "path": "research/gameplay_details_v1/captures/README.md",
+      "bytes": 2183,
+      "sha256": "f89e32eea9a0eb206a2fd8fd1e7ff3f439b920dcf0f8ae2b3c55d6e412bc83a6"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/final/browser-report.json",
+      "bytes": 174550,
+      "sha256": "e11997aaf32fe27822ce48c31772657ea6e29330ff7fb7cc75d7866d7a816379"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/final/capture-manifest.json",
+      "bytes": 16902,
+      "sha256": "a50832cb9ceae4cfb09ef7dc1186fe49b155f96e77b57fab0592417c4bdccd43"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/final/interaction-trace.json",
+      "bytes": 24070,
+      "sha256": "01311f16deb6d04da0f9ce67723bfc0a7f386abfc8a94669e5a9aa576a0433b4"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/final/results.json",
+      "bytes": 160527,
+      "sha256": "ddfb43f03d3d90d45b9bf818e71d0c7ce350f8c24906102e384444eeef136b3c"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/first-browser/browser-report.json",
+      "bytes": 162891,
+      "sha256": "2b0ab442f2104409deb67e3f18e83114f5176544b7cf6a71ac846cc74a4e3ca8"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/first-browser/capture-manifest.json",
+      "bytes": 6717,
+      "sha256": "00dd59f1a37aaecdfd9ef76f8391f5e49aca4d225647930c1faa027171bdf341"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/first-browser/interaction-trace.json",
+      "bytes": 23423,
+      "sha256": "fb251a8be47ab199af7b937feb52cbe91e7507079dac6062f30133385f066e9c"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/first-browser/results.json",
+      "bytes": 149722,
+      "sha256": "9c1f5c6aa9a0cdb797e92f5493db0e28c5a4c6eaecfc403ba0d9385c39400825"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-browser/app.js",
+      "bytes": 42262,
+      "sha256": "7f673297be01a9bd8eed0356e6ae2705c29f01c17a272a2930debe402e370173"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-browser/index.html",
+      "bytes": 3063,
+      "sha256": "31e5bcb1d62ffe316aec626cca8121a4bbd2f1a5f18101054f22657b5fddffe6"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-browser/parameters.json",
+      "bytes": 1532,
+      "sha256": "71ed417fdc7cbd5997939fac2267aa9086d97a7c7553a3cc531f671418323ce2"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-browser/README.md",
+      "bytes": 433,
+      "sha256": "a32c605544b689023b4d942be8a814c0615f51a1c6d9422e57fda8e59cebb1ef"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-browser/style.css",
+      "bytes": 15933,
+      "sha256": "6699317a9a7a3b81f88abbec73265016bbb33d31355cd6c0a5c12b15650f30b4"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-contrast/browser-report.json",
+      "bytes": 170834,
+      "sha256": "e3389d8e5f3dca715a49dc9398312a88eaac665c7e8ee5f03be6ace2d54b483b"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-contrast/capture-manifest.json",
+      "bytes": 16902,
+      "sha256": "1dcccff02a4d28ae7ccf7b41db7291c76a7169b2608686aa100454ed3c7464af"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-contrast/interaction-trace.json",
+      "bytes": 23822,
+      "sha256": "e32d57c29369db89d617200cd327c7acba985b6eb194d256e706764dba407abb"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/pre-contrast/style.css",
+      "bytes": 16423,
+      "sha256": "585f619c852f9f7e6874167852fd205685a2299c2b8019cb44292f33a838bd0f"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/public-integration.json",
+      "bytes": 1299,
+      "sha256": "62a91dbe15b453f5e8d186cae3cd97cb217a289b9cb9ea5436e73fec7287e079"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/source-repair.diff",
+      "bytes": 25446,
+      "sha256": "09319063894d7cc8e7e1a98c620dfde3e191a39c66d53d466dec01cc109cdcd6"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/structural-results.json",
+      "bytes": 1167,
+      "sha256": "18aeebbe629064a1431c76a09a0e099b5ff88d53050c93ccecd3951c4d3f0aa3"
+    },
+    {
+      "path": "research/gameplay_details_v1/checks/style-repair.diff",
+      "bytes": 2350,
+      "sha256": "d69c3d620fbcf74b336ddb101e0f5659e043be05aebf2cc1d4976b26f80e99c4"
+    },
+    {
+      "path": "research/gameplay_details_v1/DEVELOPER_SPEC.md",
+      "bytes": 6423,
+      "sha256": "b5d18398735365dfd83621d2a2a95d544f32dcecbcc04826bf1162211b428b3e"
+    },
+    {
+      "path": "research/gameplay_details_v1/index.html",
+      "bytes": 3063,
+      "sha256": "31e5bcb1d62ffe316aec626cca8121a4bbd2f1a5f18101054f22657b5fddffe6"
+    },
+    {
+      "path": "research/gameplay_details_v1/parameters.json",
+      "bytes": 1532,
+      "sha256": "71ed417fdc7cbd5997939fac2267aa9086d97a7c7553a3cc531f671418323ce2"
+    },
+    {
+      "path": "research/gameplay_details_v1/README.md",
+      "bytes": 4077,
+      "sha256": "a28b6589c9ae557a1f9e9e675927e18bede013f00d255ac1b2e13e37bacd1f41"
+    },
+    {
+      "path": "research/gameplay_details_v1/serve.mjs",
+      "bytes": 1112,
+      "sha256": "1daf95b7b325dbe9dcc3bb9fa081ab3efcca88d55fef6b777c1ef3844ad6c3a3"
+    },
+    {
+      "path": "research/gameplay_details_v1/sources.json",
+      "bytes": 3247,
+      "sha256": "10ca3ad307de0359a25fb194293e2ab5c678920dfb160abc1cd056dc03097a10"
+    },
+    {
+      "path": "research/gameplay_details_v1/style.css",
+      "bytes": 16521,
+      "sha256": "d5bd7786f3b0709b0ba6fc4cb121f7720a307998289d6b5e83bfa800d3d6297a"
+    },
+    {
+      "path": "research/gameplay_details_v1/verify-local.mjs",
+      "bytes": 2436,
+      "sha256": "4897a754c0d6bef91bb31974ac10d4647b769f3031942ee124188991c69d8c6a"
+    },
+    {
+      "path": "research/gameplay_details_v1/VISUAL_REVIEW.md",
+      "bytes": 3339,
+      "sha256": "c400bed23df56f3b410d492643f2cd266e3226c380c7f1699284a5b4927c5843"
+    },
+    {
       "path": "research/games_rpg_card_research.md",
       "bytes": 47551,
       "sha256": "6cc8e9b3cbfd4a20405a7aa0eac7219e41e96814cea80baaa5733a573b303fd7"
@@ -1297,8 +1782,8 @@
     },
     {
       "path": "research/series_index.json",
-      "bytes": 12887,
-      "sha256": "d9bcf6484fe728ba4ad86655a8f19aa72b0da2c504857db833f46213b3022668"
+      "bytes": 13312,
+      "sha256": "3ced32c7d031767ed0649842181120c7224eeee0f7beb0eda6a42479a4d50e4b"
     },
     {
       "path": "research/strategy_controls_oct4/demo/app.mjs",
@@ -2062,8 +2547,8 @@
     },
     {
       "path": "validation/release-checks.json",
-      "bytes": 54388,
-      "sha256": "d158d635bda2f5e6275805487edcaab0f44abd6a72f1fd793be394aaeed3f339"
+      "bytes": 67247,
+      "sha256": "7d80dd3300c2b2e72ae5dcd58ba91bb61b138f46b77bf46c3427943a70cecfd0"
     },
     {
       "path": "validation/relocation-summary.json",
@@ -2077,8 +2562,8 @@
     },
     {
       "path": "validation/validate_release.py",
-      "bytes": 17437,
-      "sha256": "e5eed97835a1834dfc4ad5bf9bbfbeb356de429856fadb1f43ff76aab031b51b"
+      "bytes": 18736,
+      "sha256": "9e4a0f923709893822a4c54585d72bd18d0336489b936bbe97ae3e4cb14131c1"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-06T15:22:19.903843+00:00",
+  "validated_at_utc": "2026-10-06T15:40:13.867392+00:00",
   "status": "passed_public_tree_checks",
   "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 416,
-    "checks": 362,
+    "files": 513,
+    "checks": 441,
     "failed_checks": 0
   },
   "checks": [
@@ -392,6 +392,86 @@
     },
     {
       "name": "json:research/game_ui_playground_v1/sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/final/browser-report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/final/capture-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/final/interaction-trace.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/final/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/first-browser/browser-report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/first-browser/capture-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/first-browser/interaction-trace.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/first-browser/results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/pre-browser/parameters.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/pre-contrast/browser-report.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/pre-contrast/capture-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/pre-contrast/interaction-trace.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/public-integration.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/checks/structural-results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/parameters.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/gameplay_details_v1/sources.json",
       "passed": true,
       "detail": null
     },
@@ -1226,6 +1306,11 @@
       "detail": null
     },
     {
+      "name": "exact_gameplay_details_capture_allowlist",
+      "passed": true,
+      "detail": null
+    },
+    {
       "name": "exact_synthetic_capture_allowlist",
       "passed": true,
       "detail": null
@@ -1502,6 +1587,316 @@
     },
     {
       "name": "synthetic_capture_bytes:research/game_ui_playground_v1/screenshots/shop-purchase-complete-desktop.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-feedback-both-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-feedback-both.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-feedback-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-interaction-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-interaction.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-jump-buffer-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-jump-buffer.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-jump-coyote-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-jump-coyote.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-jump-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-jump.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-recovery-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-recovery-lost-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-recovery-lost.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-recovery-recovered-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-recovery-recovered.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-recovery.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-target-occluded-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/desktop-target-occluded.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-feedback-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-interaction-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-interaction.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-jump-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-jump.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-recovery-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/landscape-recovery.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-feedback-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-interaction-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-interaction.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-jump-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-jump.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-recovery-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/final/narrow-recovery.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-feedback-both.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-interaction.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-jump-buffer.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-jump-coyote.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-jump.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-recovery-lost.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-recovery-recovered.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-recovery.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/desktop-target-occluded.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/landscape-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/landscape-interaction.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/landscape-jump.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/landscape-recovery.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/narrow-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/narrow-interaction.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/narrow-jump.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/first-browser/narrow-recovery.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/desktop-feedback-both-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/desktop-feedback-both.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/desktop-feedback-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/desktop-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/landscape-feedback-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/landscape-feedback.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/narrow-feedback-frame.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_capture_bytes:research/gameplay_details_v1/captures/pre-contrast/narrow-feedback.png",
       "passed": true,
       "detail": null
     },

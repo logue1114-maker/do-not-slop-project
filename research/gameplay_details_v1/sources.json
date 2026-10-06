@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-06",
+  "method": "Opened all four supplied official/developer URLs with the web reader and inspected relevant original page text.",
+  "scope": "Published documentation, not a hands-on current-version test of the original games.",
+  "media_policy": "Link-only. No downloaded game media, screenshots, logos, sprites or trademark graphics.",
+  "sources": [
+    {
+      "id": "celeste-forgiveness",
+      "title": "Celeste & Forgiveness",
+      "publisher": "Maddy Makes Games / Maddy",
+      "url": "https://www.maddymakesgames.com/articles/celeste_and_forgiveness/index.html",
+      "location": "Sections 1 Coyote Time and 2 Jump Buffering",
+      "confirmed": "Brief ledge departure grace; jump held shortly before landing causes a jump on the landing frame.",
+      "proposal": "100 ms grace, 120 ms buffer, 600 ms event, 0.5x analytical replay, controls and fictional art.",
+      "not_confirmed": "Exact Celeste timing constants, every release/platform, full movement physics."
+    },
+    {
+      "id": "nms-waypoint",
+      "title": "Waypoint Update",
+      "publisher": "Hello Games / No Man's Sky",
+      "url": "https://www.nomanssky.com/waypoint-update/",
+      "location": "4.0 Patch notes → User interface and quality of life → Interaction targeting",
+      "confirmed": "Nearby objects highlighted without precise aiming.",
+      "proposal": "Exact vs nearby fixture, 70/30 scoring, explicit cycling, selection retention, range/occlusion/completion guards.",
+      "not_confirmed": "Internal candidate algorithm, scoring, occlusion behavior, all current editions."
+    },
+    {
+      "id": "tlou2-accessibility",
+      "title": "The Last of Us Part II: Accessibility Features Detailed",
+      "publisher": "Naughty Dog",
+      "url": "https://www.naughtydog.com/blog/the_last_of_us_part_ii_accessibility_features_detailed",
+      "location": "HUD → Damage/Awareness Indicators; Motion Sickness → Camera Shake; Magnification and Visual Aids → HUD Flashing",
+      "confirmed": "Directional damage spikes and awareness indications with stealth/always modes; camera-shake adjustment and HUD-flashing on/off.",
+      "proposal": "Original lightning/eye symbols, independent damage and exposure buttons, numeric exposure, flash intensity and isolated one-pulse effect.",
+      "not_confirmed": "Demo effects matching the game, continuous flash slider in the game, comprehensive accessibility, every current release."
+    },
+    {
+      "id": "elden-ring-starter",
+      "title": "ELDEN RING Starter Guide: Tips to know before playing the game",
+      "publisher": "Bandai Namco Europe",
+      "url": "https://en.bandainamcoent.eu/elden-ring/news/elden-ring-starter-guide-tips-know-playing-the-game",
+      "location": "Game Environment → Stakes of Marika and Death",
+      "confirmed": "Last rested Site of Grace or nearby Stake of Marika return; all carried runes drop on death; another death before collection loses that drop.",
+      "proposal": "Fictional shards, Home/Relay names and positions, 125/25 amounts, explicit return/cancel menu, available-checkpoint toggle.",
+      "not_confirmed": "All original-game exceptions, all current versions, original map or original recovery UI."
+    }
+  ]
+}

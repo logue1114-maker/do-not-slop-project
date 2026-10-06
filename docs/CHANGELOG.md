@@ -1,5 +1,16 @@
 # Source changes
 
+## 2026-10-06: Four gameplay detail studies
+
+Additive public integration against main `22bb7bb972c95bd4e42a71266bbf1942b360e44e`, preserving the first game UI playground and all earlier runtime/fixture/evidence bytes.
+
+- Add four original English studies for input buffering/ledge grace, interaction candidates/occlusion/range, independent threat feedback and death/checkpoint/drop recovery
+- Retain exact local runtime, proposed parameters, directly checked official links, developer contract, 46 browser groups/5 source checks, 36 final PNGs and first-observation/contrast repair evidence
+- Keep the authored-demo/no-experiment and source/proposal/version boundaries visible; physical touch, assistive technology, complete accessibility and user design approval remain unestablished
+- Exclude internal handoff material and private execution details; add concise navigation, exact own-capture allowlist, protected-file/link checks and regenerated file hashes
+
+Source and original-capture publication is authorized. No force push, Site deployment, plugin installation, payment or new reuse license is included.
+
 ## 2026-10-06: First game UI playground bundle
 
 Integrated from the existing local source against main `bdd696ffcde02808759fc009ac2dfa26e3834b5c`.

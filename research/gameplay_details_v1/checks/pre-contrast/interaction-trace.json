@@ -1,0 +1,1208 @@
+[
+  {
+    "at": "2026-10-06T14:50:35.631Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:50:35.688Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:39.130Z",
+    "action": "click #coyote"
+  },
+  {
+    "at": "2026-10-06T14:50:39.169Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:42.417Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:45.669Z",
+    "action": "click #reset-jump"
+  },
+  {
+    "at": "2026-10-06T14:50:45.711Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:50:45.712Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.713Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.714Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.715Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.716Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.717Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.718Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.719Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.720Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.721Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.722Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.722Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.723Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.724Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.725Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.725Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.726Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.727Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.727Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.728Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.729Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.729Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.730Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.731Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.732Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.732Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.733Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.734Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.735Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.735Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:45.736Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:48.988Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:50:48.989Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.990Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.990Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.991Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.992Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.993Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.993Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.994Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.995Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.996Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.996Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.997Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.998Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.999Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:48.999Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.000Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.001Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.001Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.002Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.003Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.004Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.004Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.005Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.005Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.006Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.007Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.007Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.008Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.009Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.010Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.011Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:50:49.011Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:52.256Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:55.603Z",
+    "action": "click #hold"
+  },
+  {
+    "at": "2026-10-06T14:50:55.635Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:50:58.884Z",
+    "action": "click #hold"
+  },
+  {
+    "at": "2026-10-06T14:50:58.919Z",
+    "action": "click #buffer"
+  },
+  {
+    "at": "2026-10-06T14:50:58.952Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:02.202Z",
+    "action": "click #buffer"
+  },
+  {
+    "at": "2026-10-06T14:51:02.239Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:51:02.240Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.240Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.241Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.242Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.243Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.243Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.244Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.245Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:02.246Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:05.488Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:51:05.488Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.489Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.490Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.490Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.491Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.492Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.492Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:05.493Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:08.740Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:51:08.741Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.741Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.742Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.742Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.743Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.744Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.744Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.745Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.746Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.747Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.747Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.748Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.749Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.750Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.750Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.751Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.752Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.752Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.753Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.754Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:08.754Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:12.004Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:12.024Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:13.083Z",
+    "action": "hold Space"
+  },
+  {
+    "at": "2026-10-06T14:51:13.366Z",
+    "action": "release Space"
+  },
+  {
+    "at": "2026-10-06T14:51:15.270Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:18.518Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:18.554Z",
+    "action": "key Escape"
+  },
+  {
+    "at": "2026-10-06T14:51:18.556Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:18.586Z",
+    "action": "click #coyote"
+  },
+  {
+    "at": "2026-10-06T14:51:18.621Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:18.653Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:18.692Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:18.703Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:18.739Z",
+    "action": "click #mode-exact"
+  },
+  {
+    "at": "2026-10-06T14:51:18.771Z",
+    "action": "click #interact"
+  },
+  {
+    "at": "2026-10-06T14:51:18.820Z",
+    "action": "click #mode-nearby"
+  },
+  {
+    "at": "2026-10-06T14:51:18.856Z",
+    "action": "click #next-target"
+  },
+  {
+    "at": "2026-10-06T14:51:18.887Z",
+    "action": "click #closer"
+  },
+  {
+    "at": "2026-10-06T14:51:18.919Z",
+    "action": "click #object-relay"
+  },
+  {
+    "at": "2026-10-06T14:51:18.954Z",
+    "action": "click #block-relay"
+  },
+  {
+    "at": "2026-10-06T14:51:19.104Z",
+    "action": "click #block-relay"
+  },
+  {
+    "at": "2026-10-06T14:51:19.135Z",
+    "action": "click #object-relay"
+  },
+  {
+    "at": "2026-10-06T14:51:19.172Z",
+    "action": "click #reset-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:19.204Z",
+    "action": "click #mode-exact"
+  },
+  {
+    "at": "2026-10-06T14:51:19.236Z",
+    "action": "click #object-cache"
+  },
+  {
+    "at": "2026-10-06T14:51:19.270Z",
+    "action": "click #interact"
+  },
+  {
+    "at": "2026-10-06T14:51:19.303Z",
+    "action": "click #closer"
+  },
+  {
+    "at": "2026-10-06T14:51:19.335Z",
+    "action": "click #closer"
+  },
+  {
+    "at": "2026-10-06T14:51:19.370Z",
+    "action": "click #interact"
+  },
+  {
+    "at": "2026-10-06T14:51:19.403Z",
+    "action": "click #interact"
+  },
+  {
+    "at": "2026-10-06T14:51:19.437Z",
+    "action": "click #mode-nearby"
+  },
+  {
+    "at": "2026-10-06T14:51:19.470Z",
+    "action": "key Escape"
+  },
+  {
+    "at": "2026-10-06T14:51:19.472Z",
+    "action": "click #next-target"
+  },
+  {
+    "at": "2026-10-06T14:51:19.506Z",
+    "action": "click #reset-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:19.539Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.541Z",
+    "action": "key n"
+  },
+  {
+    "at": "2026-10-06T14:51:19.542Z",
+    "action": "key e"
+  },
+  {
+    "at": "2026-10-06T14:51:19.546Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:19.556Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:19.588Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:19.633Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:19.792Z",
+    "action": "click #hide"
+  },
+  {
+    "at": "2026-10-06T14:51:19.821Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:19.852Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:19.886Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:19.922Z",
+    "action": "key Escape"
+  },
+  {
+    "at": "2026-10-06T14:51:19.931Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:19.975Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:51:19.975Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.976Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.977Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.978Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.978Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.979Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.983Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:51:19.984Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.985Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.986Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:19.987Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:20.783Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:20.826Z",
+    "action": "click #restore"
+  },
+  {
+    "at": "2026-10-06T14:51:20.853Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:21.700Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:22.550Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:23.416Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:24.266Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:24.305Z",
+    "action": "click #restore"
+  },
+  {
+    "at": "2026-10-06T14:51:24.340Z",
+    "action": "key e"
+  },
+  {
+    "at": "2026-10-06T14:51:24.341Z",
+    "action": "key c"
+  },
+  {
+    "at": "2026-10-06T14:51:24.345Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:24.375Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:24.387Z",
+    "action": "click #tab-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:24.423Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:24.460Z",
+    "action": "key Escape"
+  },
+  {
+    "at": "2026-10-06T14:51:24.465Z",
+    "action": "click #choose-return"
+  },
+  {
+    "at": "2026-10-06T14:51:24.504Z",
+    "action": "click #return-relay"
+  },
+  {
+    "at": "2026-10-06T14:51:24.536Z",
+    "action": "click #relay-available"
+  },
+  {
+    "at": "2026-10-06T14:51:24.571Z",
+    "action": "click #confirm-return"
+  },
+  {
+    "at": "2026-10-06T14:51:24.607Z",
+    "action": "click #recover"
+  },
+  {
+    "at": "2026-10-06T14:51:24.638Z",
+    "action": "click #advance"
+  },
+  {
+    "at": "2026-10-06T14:51:24.669Z",
+    "action": "click #advance"
+  },
+  {
+    "at": "2026-10-06T14:51:24.702Z",
+    "action": "click #advance"
+  },
+  {
+    "at": "2026-10-06T14:51:24.737Z",
+    "action": "click #recover"
+  },
+  {
+    "at": "2026-10-06T14:51:24.900Z",
+    "action": "click #recover"
+  },
+  {
+    "at": "2026-10-06T14:51:24.937Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:24.973Z",
+    "action": "click #reset-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:25.004Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:25.036Z",
+    "action": "click #return-relay"
+  },
+  {
+    "at": "2026-10-06T14:51:25.069Z",
+    "action": "click #confirm-return"
+  },
+  {
+    "at": "2026-10-06T14:51:25.104Z",
+    "action": "click #find-shards"
+  },
+  {
+    "at": "2026-10-06T14:51:25.138Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:25.315Z",
+    "action": "click #confirm-return"
+  },
+  {
+    "at": "2026-10-06T14:51:25.354Z",
+    "action": "click #advance"
+  },
+  {
+    "at": "2026-10-06T14:51:25.387Z",
+    "action": "click #recover"
+  },
+  {
+    "at": "2026-10-06T14:51:25.426Z",
+    "action": "click #reset-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:25.454Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:25.486Z",
+    "action": "click #confirm-return"
+  },
+  {
+    "at": "2026-10-06T14:51:25.519Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:25.556Z",
+    "action": "click #confirm-return"
+  },
+  {
+    "at": "2026-10-06T14:51:25.589Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:25.590Z",
+    "action": "key d"
+  },
+  {
+    "at": "2026-10-06T14:51:25.595Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:25.620Z",
+    "action": "key ArrowRight"
+  },
+  {
+    "at": "2026-10-06T14:51:25.625Z",
+    "action": "key End"
+  },
+  {
+    "at": "2026-10-06T14:51:25.628Z",
+    "action": "key Home"
+  },
+  {
+    "at": "2026-10-06T14:51:25.634Z",
+    "action": "key Enter"
+  },
+  {
+    "at": "2026-10-06T14:51:25.636Z",
+    "action": "key Space"
+  },
+  {
+    "at": "2026-10-06T14:51:25.639Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:25.656Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:28.901Z",
+    "action": "click #live"
+  },
+  {
+    "at": "2026-10-06T14:51:32.153Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:32.163Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:35.421Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:35.431Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:38.769Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:38.778Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:38.957Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:38.967Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:39.002Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:39.035Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:39.199Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:39.208Z",
+    "action": "click #tab-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:39.236Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:39.404Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:39.413Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:42.670Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:42.679Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:42.723Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:42.731Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:42.769Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:42.802Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:42.839Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:42.847Z",
+    "action": "click #tab-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:42.887Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:42.926Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:42.935Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:46.276Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:46.286Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:46.420Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:46.430Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:46.470Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:46.503Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:46.645Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:46.655Z",
+    "action": "click #tab-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:46.687Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:46.823Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:46.831Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:50.176Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:50.186Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:50.315Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:50.325Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:50.354Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:50.385Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:50.527Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:50.537Z",
+    "action": "click #tab-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:50.571Z",
+    "action": "click #die"
+  },
+  {
+    "at": "2026-10-06T14:51:50.703Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:50.712Z",
+    "action": "click #replay"
+  },
+  {
+    "at": "2026-10-06T14:51:53.970Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:53.979Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:54.026Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:54.035Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:54.071Z",
+    "action": "click #expose"
+  },
+  {
+    "at": "2026-10-06T14:51:54.103Z",
+    "action": "click #take-hit"
+  },
+  {
+    "at": "2026-10-06T14:51:54.140Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:54.148Z",
+    "action": "click #tab-recovery"
+  },
+  {
+    "at": "2026-10-06T14:51:54.186Z",
+    "action": "click #die"
+  },
+  {
+    "action": "native touchscreen tap #replay"
+  },
+  {
+    "action": "native touchscreen tap #tab-interaction"
+  },
+  {
+    "action": "native touchscreen tap #object-relay"
+  },
+  {
+    "action": "native touchscreen tap #interact"
+  },
+  {
+    "action": "native touchscreen tap #tab-feedback"
+  },
+  {
+    "action": "native touchscreen tap #expose"
+  },
+  {
+    "action": "native touchscreen tap #take-hit"
+  },
+  {
+    "action": "native touchscreen tap #tab-recovery"
+  },
+  {
+    "action": "native touchscreen tap #die"
+  },
+  {
+    "action": "native touchscreen tap #return-relay"
+  },
+  {
+    "action": "native touchscreen tap #confirm-return"
+  },
+  {
+    "action": "native touchscreen tap #advance"
+  },
+  {
+    "action": "native touchscreen tap #advance"
+  },
+  {
+    "action": "native touchscreen tap #recover"
+  },
+  {
+    "at": "2026-10-06T14:51:58.309Z",
+    "action": "reload initial fixture"
+  },
+  {
+    "at": "2026-10-06T14:51:58.329Z",
+    "action": "click #tab-jump"
+  },
+  {
+    "at": "2026-10-06T14:51:58.403Z",
+    "action": "click #tab-interaction"
+  },
+  {
+    "at": "2026-10-06T14:51:58.469Z",
+    "action": "click #tab-feedback"
+  },
+  {
+    "at": "2026-10-06T14:51:58.536Z",
+    "action": "click #tab-recovery"
+  }
+]

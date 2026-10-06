@@ -1,0 +1,6066 @@
+[
+  {
+    "case_id": "jump-default-same-input-coyote",
+    "status": "pass",
+    "actual_result": "Same input 660 ms; strict rejects, assisted accepts.",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 660,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 660,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:09",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:47:05",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:05",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:09.157Z"
+  },
+  {
+    "case_id": "jump-coyote-disabled-repeat-reset",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:15",
+            "message": "Reset · default timing and both lanes restored."
+          },
+          {
+            "time": "23:47:15",
+            "message": "Finished · no tolerance: no jump; assistance: no jump."
+          },
+          {
+            "time": "23:47:12",
+            "message": "Replay started · identical recorded input in both lanes."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:15.732Z"
+  },
+  {
+    "case_id": "jump-coyote-boundary-100-and-110",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 110,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 710,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 710,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Outside grace window"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "Outside grace window"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Outside grace window"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "Outside grace window"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:22",
+            "message": "Finished · no tolerance: no jump; assistance: no jump."
+          },
+          {
+            "time": "23:47:19",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:19",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:22.278Z"
+  },
+  {
+    "case_id": "jump-buffer-held-release-disabled",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "buffer",
+        "offset": -60,
+        "coyote": true,
+        "buffer": false,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 540,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "buffer",
+          "input_ms": 540,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Early input discarded"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "Early input discarded"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Early input discarded"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "Early input discarded"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:32",
+            "message": "Finished · no tolerance: no jump; assistance: no jump."
+          },
+          {
+            "time": "23:47:28",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:28",
+            "message": "Setting changed. Replay uses a fresh shared input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:32.195Z"
+  },
+  {
+    "case_id": "jump-buffer-boundary-120-and-130",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "buffer",
+        "offset": -130,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 470,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "buffer",
+          "input_ms": 470,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Buffer expired"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "Buffer expired"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Buffer expired"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "Buffer expired"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:38",
+            "message": "Finished · no tolerance: no jump; assistance: no jump."
+          },
+          {
+            "time": "23:47:35",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:35",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:38.729Z"
+  },
+  {
+    "case_id": "jump-event-frame-equal-grounded",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "buffer",
+        "offset": 0,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 600,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "buffer",
+          "input_ms": 600,
+          "released_ms": null,
+          "strict": {
+            "accepted": true,
+            "at": 600,
+            "reason": "Landing-frame jump"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 600,
+            "reason": "Landing-frame jump"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": true,
+            "at": 600,
+            "reason": "Landing-frame jump"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 600,
+            "reason": "Landing-frame jump"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:41",
+            "message": "Finished · no tolerance: jump; assistance: jump."
+          },
+          {
+            "time": "23:47:38",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:38",
+            "message": "Finished · no tolerance: no jump; assistance: no jump."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:41.995Z"
+  },
+  {
+    "case_id": "jump-native-live-keyboard-held-buffer",
+    "status": "pass",
+    "actual_result": "Native hold captured input 515, release 657.",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "buffer",
+        "offset": -60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": true,
+        "t": 1600,
+        "input": 515,
+        "releasedAt": 657,
+        "lastRecord": {
+          "scenario": "buffer",
+          "input_ms": 515,
+          "released_ms": 657,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Early input discarded"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 600,
+            "reason": "Buffered → jump on landing"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "Early input discarded"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 600,
+            "reason": "Buffered → jump on landing"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:45",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:47:43",
+            "message": "Live input captured at 515 ms for both lanes."
+          },
+          {
+            "time": "23:47:42",
+            "message": "Live run started · hold Jump or Space."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:45.262Z"
+  },
+  {
+    "case_id": "jump-live-no-input-cancel-settings-tab-suspend",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "buffer",
+        "offset": -60,
+        "coyote": false,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": true,
+        "t": 15.75,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "buffer",
+          "input_ms": null,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:48",
+            "message": "Run cancelled on tab change. Input record retained."
+          },
+          {
+            "time": "23:47:48",
+            "message": "Live run started · hold Jump or Space."
+          },
+          {
+            "time": "23:47:48",
+            "message": "Setting changed. Replay uses a fresh shared input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:48",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:48.684Z"
+  },
+  {
+    "case_id": "target-mode-preserves-scene-and-aim",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:48",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:48",
+            "message": "Mode: nearby candidates. Same scene and reticle retained."
+          },
+          {
+            "time": "23:47:48",
+            "message": "Interaction failed: no eligible selection. Aim closer, move within 4 m, or clear occlusion."
+          },
+          {
+            "time": "23:47:48",
+            "message": "Mode: exact aim. Same scene and reticle retained."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:48.847Z"
+  },
+  {
+    "case_id": "target-cycling-retention-occlusion",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 53,
+          "y": 42
+        },
+        "travel": 1,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 2.5,
+            "aim": 0,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.8125
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 1.4,
+            "aim": 32.01562118716424,
+            "reason": "Outside aim area",
+            "eligible": false,
+            "score": 0.1946582865307822
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 4.3,
+            "aim": 31.89043743820395,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.02010331896071139
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:48",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:49",
+            "message": "Reticle centered on Relay."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Relay visible again. Eligibility restored."
+          },
+          {
+            "time": "23:47:48",
+            "message": "Relay occluded. It cannot be selected or activated."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:49.114Z"
+  },
+  {
+    "case_id": "target-range-stale-completion-repeat-cancel",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 77,
+          "y": 63
+        },
+        "travel": 2,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [
+          "cache"
+        ],
+        "candidates": [
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 3.3,
+            "aim": 0,
+            "reason": "Completed",
+            "eligible": false,
+            "score": 0.7525
+          },
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 1.5,
+            "aim": 31.89043743820395,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.18989668103928858
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 0.4,
+            "aim": 49.01020301937138,
+            "reason": "Outside aim area",
+            "eligible": false,
+            "score": -0.10209819104874895
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:48",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:49",
+            "message": "Switched to Relay. Selection retained until it becomes ineligible."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Selection cancelled. Aim again or use Next target to resume."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Mode: nearby candidates. Same scene and reticle retained."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:49.447Z"
+  },
+  {
+    "case_id": "target-keyboard-arrows-switch-interact",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 48,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [
+          "pod"
+        ],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 8.602325267042627,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.5493241347834424
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 23.853720883753127,
+            "reason": "Completed",
+            "eligible": false,
+            "score": 0.2981998556679003
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 32.202484376209235,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.101929345729577
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:48",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:49",
+            "message": "Collect succeeded · Seed pod. A completed object cannot grant a second result."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Switched to Seed pod. Selection retained until it becomes ineligible."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Reticle moved. Eligible candidates recalculated."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:49.486Z"
+  },
+  {
+    "case_id": "feedback-independent-shapes-and-states",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": "left",
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:49",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:47:49",
+            "message": "Cues cleared · health retained. Take hit or Expose to repeat."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Spotted · right, 100% exposure. Health unchanged."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Suspicious · right, 70% exposure. Health unchanged."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:49.818Z"
+  },
+  {
+    "case_id": "feedback-directions-zero-effects-adjustment",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 40,
+        "exposure": 0,
+        "damageDir": "behind",
+        "observerDir": "front",
+        "lastHit": "behind",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 60,
+        "flash": 40,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:49",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:47:50",
+            "message": "Damage from behind · −20 HP. HP 40. Awareness unchanged."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Damage from behind · −20 HP. HP 60. Awareness unchanged."
+          },
+          {
+            "time": "23:47:49",
+            "message": "Observer direction changed. Damage direction is independent."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:50.701Z"
+  },
+  {
+    "case_id": "feedback-down-repeat-restore",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "behind",
+        "observerDir": "front",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 60,
+        "flash": 40,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:49",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:47:54",
+            "message": "Hidden · awareness cleared. Damage and health unchanged."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Suspicious · front, 35% exposure. Health unchanged."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Restored · health 100, warnings cleared. Effect preferences retained."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:54.203Z"
+  },
+  {
+    "case_id": "feedback-reduced-motion-suppresses-effects",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 0,
+        "damageDir": "behind",
+        "observerDir": "front",
+        "lastHit": "behind",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 60,
+        "flash": 40,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:49",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:47:54",
+            "message": "Damage from behind · −20 HP. HP 80. Awareness unchanged."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Hidden · awareness cleared. Damage and health unchanged."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Suspicious · front, 35% exposure. Health unchanged."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:54.232Z"
+  },
+  {
+    "case_id": "recovery-cancel-checkpoint-availability-focus",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 14,
+        "available": false,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Returned"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:54",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:47:54",
+            "message": "Returned to home. Carrying 0; 125 still at the drop."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Nearby checkpoint unavailable. Home remains available."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Return point selected: relay. No shards recovered yet."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:47:54.448Z"
+  },
+  {
+    "case_id": "recovery-too-far-success-repeat-and-redeath",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 74
+        },
+        "lost": 0,
+        "x": 74,
+        "available": false,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:54",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:47:54",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Nothing to recover. A drop can be collected only once."
+          },
+          {
+            "time": "23:47:54",
+            "message": "Recovered 125 shards. Carrying 125; no recoverable drop remains."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:47:54.748Z"
+  },
+  {
+    "case_id": "recovery-precollection-redeath-replacement-conservation",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 25,
+        "pile": null,
+        "lost": 125,
+        "x": 34,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Recovered"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:54",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:47:55",
+            "message": "Recovered 25 shards. Carrying 25; no recoverable drop remains."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Moved · 4 route units from the drop."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Returned to home. Carrying 0; 25 still at the drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:47:55.115Z"
+  },
+  {
+    "case_id": "recovery-zero-wallet-redeath-removes-old-drop",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": null,
+        "lost": 125,
+        "x": 34,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:54",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:47:55",
+            "message": "Died · dropped 0. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Moved · no recoverable drop."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Returned to home. Carrying 0; 0 still at the drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:47:55.285Z"
+  },
+  {
+    "case_id": "tabs-native-arrow-home-end-focus-and-disclosure",
+    "status": "pass",
+    "actual_result": "Expected result observed",
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:55",
+            "message": "Choose a timing case, then replay the same input."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:55",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:47:55",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:47:55.317Z"
+  },
+  {
+    "case_id": "layout-1165x747-jump",
+    "status": "pass",
+    "actual_result": {
+      "width": 1165,
+      "scroll": 1165,
+      "stage": {
+        "x": 40.5,
+        "width": 1084,
+        "height": 354
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 660,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 660,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:58",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:55",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:58.648Z"
+  },
+  {
+    "case_id": "layout-1165x747-interaction",
+    "status": "pass",
+    "actual_result": {
+      "width": 1165,
+      "scroll": 1165,
+      "stage": {
+        "x": 40.5,
+        "width": 1084,
+        "height": 360
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:58",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:47:58",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:58.758Z"
+  },
+  {
+    "case_id": "layout-1165x747-feedback",
+    "status": "pass",
+    "actual_result": {
+      "width": 1165,
+      "scroll": 1165,
+      "stage": {
+        "x": 40.5,
+        "width": 1084,
+        "height": 355
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 35,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": "left",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:58",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:47:58",
+            "message": "Damage from left · −20 HP. HP 80. Awareness unchanged."
+          },
+          {
+            "time": "23:47:58",
+            "message": "Suspicious · right, 35% exposure. Health unchanged."
+          },
+          {
+            "time": "23:47:58",
+            "message": "Hidden · health 100. Hit and awareness cues are independent."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:47:58.928Z"
+  },
+  {
+    "case_id": "layout-1165x747-recovery",
+    "status": "pass",
+    "actual_result": {
+      "width": 1165,
+      "scroll": 1165,
+      "stage": {
+        "x": 40.5,
+        "width": 1084,
+        "height": 330
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:47:58",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:47:59",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:47:58",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:47:59.083Z"
+  },
+  {
+    "case_id": "layout-768x900-jump",
+    "status": "pass",
+    "actual_result": {
+      "width": 768,
+      "scroll": 768,
+      "stage": {
+        "x": 28,
+        "width": 712,
+        "height": 354
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 660,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 660,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:02",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:47:59",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:47:59",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:02.346Z"
+  },
+  {
+    "case_id": "layout-768x900-interaction",
+    "status": "pass",
+    "actual_result": {
+      "width": 768,
+      "scroll": 768,
+      "stage": {
+        "x": 28,
+        "width": 712,
+        "height": 360
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:02",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:48:02",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:02.399Z"
+  },
+  {
+    "case_id": "layout-768x900-feedback",
+    "status": "pass",
+    "actual_result": {
+      "width": 768,
+      "scroll": 768,
+      "stage": {
+        "x": 28,
+        "width": 712,
+        "height": 355
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 35,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": "left",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:02",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:48:02",
+            "message": "Damage from left · −20 HP. HP 80. Awareness unchanged."
+          },
+          {
+            "time": "23:48:02",
+            "message": "Suspicious · right, 35% exposure. Health unchanged."
+          },
+          {
+            "time": "23:48:02",
+            "message": "Hidden · health 100. Hit and awareness cues are independent."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:02.516Z"
+  },
+  {
+    "case_id": "layout-768x900-recovery",
+    "status": "pass",
+    "actual_result": {
+      "width": 768,
+      "scroll": 768,
+      "stage": {
+        "x": 28,
+        "width": 712,
+        "height": 330
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:02",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:48:02",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:48:02",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:48:02.599Z"
+  },
+  {
+    "case_id": "layout-390x844-jump",
+    "status": "pass",
+    "actual_result": {
+      "width": 390,
+      "scroll": 390,
+      "stage": {
+        "x": 16,
+        "width": 358,
+        "height": 348
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 660,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 660,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:05",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:48:02",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:48:02",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:05.918Z"
+  },
+  {
+    "case_id": "layout-390x844-interaction",
+    "status": "pass",
+    "actual_result": {
+      "width": 390,
+      "scroll": 390,
+      "stage": {
+        "x": 16,
+        "width": 358,
+        "height": 344
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:05",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:48:05",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:06.031Z"
+  },
+  {
+    "case_id": "layout-390x844-feedback",
+    "status": "pass",
+    "actual_result": {
+      "width": 390,
+      "scroll": 390,
+      "stage": {
+        "x": 16,
+        "width": 358,
+        "height": 348
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 35,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": "left",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:06",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:48:06",
+            "message": "Damage from left · −20 HP. HP 80. Awareness unchanged."
+          },
+          {
+            "time": "23:48:06",
+            "message": "Suspicious · right, 35% exposure. Health unchanged."
+          },
+          {
+            "time": "23:48:06",
+            "message": "Hidden · health 100. Hit and awareness cues are independent."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:06.200Z"
+  },
+  {
+    "case_id": "layout-390x844-recovery",
+    "status": "pass",
+    "actual_result": {
+      "width": 390,
+      "scroll": 390,
+      "stage": {
+        "x": 16,
+        "width": 358,
+        "height": 315
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:06",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:48:06",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:48:06",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:48:06.335Z"
+  },
+  {
+    "case_id": "layout-844x390-jump",
+    "status": "pass",
+    "actual_result": {
+      "width": 844,
+      "scroll": 844,
+      "stage": {
+        "x": 28,
+        "width": 788,
+        "height": 354
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 660,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 660,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:09",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:48:06",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:48:06",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:09.662Z"
+  },
+  {
+    "case_id": "layout-844x390-interaction",
+    "status": "pass",
+    "actual_result": {
+      "width": 844,
+      "scroll": 844,
+      "stage": {
+        "x": 28,
+        "width": 788,
+        "height": 360
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:09",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:48:09",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:09.773Z"
+  },
+  {
+    "case_id": "layout-844x390-feedback",
+    "status": "pass",
+    "actual_result": {
+      "width": 844,
+      "scroll": 844,
+      "stage": {
+        "x": 28,
+        "width": 788,
+        "height": 355
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 35,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": "left",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:09",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:48:09",
+            "message": "Damage from left · −20 HP. HP 80. Awareness unchanged."
+          },
+          {
+            "time": "23:48:09",
+            "message": "Suspicious · right, 35% exposure. Health unchanged."
+          },
+          {
+            "time": "23:48:09",
+            "message": "Hidden · health 100. Hit and awareness cues are independent."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:09.941Z"
+  },
+  {
+    "case_id": "layout-844x390-recovery",
+    "status": "pass",
+    "actual_result": {
+      "width": 844,
+      "scroll": 844,
+      "stage": {
+        "x": 28,
+        "width": 788,
+        "height": 330
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:09",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:48:10",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:48:09",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:48:10.096Z"
+  },
+  {
+    "case_id": "layout-320x720-jump",
+    "status": "pass",
+    "actual_result": {
+      "width": 320,
+      "scroll": 320,
+      "stage": {
+        "x": 16,
+        "width": 288,
+        "height": 365
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "jump",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 1600,
+        "input": 660,
+        "releasedAt": null,
+        "lastRecord": {
+          "scenario": "coyote",
+          "input_ms": 660,
+          "released_ms": null,
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        },
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No ledge grace"
+          },
+          "assisted": {
+            "accepted": true,
+            "at": 660,
+            "reason": "Ledge grace accepted"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:13",
+            "message": "Finished · no tolerance: no jump; assistance: jump."
+          },
+          {
+            "time": "23:48:10",
+            "message": "Replay started · identical recorded input in both lanes."
+          },
+          {
+            "time": "23:48:10",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:13.363Z"
+  },
+  {
+    "case_id": "layout-320x720-interaction",
+    "status": "pass",
+    "actual_result": {
+      "width": 320,
+      "scroll": 320,
+      "stage": {
+        "x": 16,
+        "width": 288,
+        "height": 344
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "interaction",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:13",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:48:13",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:13.418Z"
+  },
+  {
+    "case_id": "layout-320x720-feedback",
+    "status": "pass",
+    "actual_result": {
+      "width": 320,
+      "scroll": 320,
+      "stage": {
+        "x": 16,
+        "width": 288,
+        "height": 348
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "feedback",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 80,
+        "exposure": 35,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": "left",
+        "hitVisible": true,
+        "cooling": true,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:13",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [
+          {
+            "time": "23:48:13",
+            "message": "Damage from left · −20 HP. HP 80. Awareness unchanged."
+          },
+          {
+            "time": "23:48:13",
+            "message": "Suspicious · right, 35% exposure. Health unchanged."
+          },
+          {
+            "time": "23:48:13",
+            "message": "Hidden · health 100. Hit and awareness cues are independent."
+          }
+        ],
+        "recovery": []
+      }
+    },
+    "at": "2026-10-06T14:48:13.532Z"
+  },
+  {
+    "case_id": "layout-320x720-recovery",
+    "status": "pass",
+    "actual_result": {
+      "width": 320,
+      "scroll": 320,
+      "stage": {
+        "x": 16,
+        "width": 288,
+        "height": 315
+      },
+      "bad": []
+    },
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:13",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:48:13",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:48:13",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:48:13.615Z"
+  },
+  {
+    "case_id": "narrow-native-touch-emulation-all-four",
+    "status": "pass",
+    "actual_result": "Actual Chromium touch events in mobile emulation; physical touch remains unrun.",
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": null,
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": false,
+        "wallet": 0,
+        "pile": {
+          "amount": 125,
+          "x": 77
+        },
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": true,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Dropped"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:13",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [],
+        "feedback": [],
+        "recovery": [
+          {
+            "time": "23:48:13",
+            "message": "Died · dropped 125. Choose a checkpoint to return."
+          },
+          {
+            "time": "23:48:13",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:48:17.715Z"
+  },
+  {
+    "case_id": "source-links-http-bytes-and-console",
+    "status": "pass",
+    "actual_result": "Source destinations match verified originals; no app/console/request errors in tested session.",
+    "snapshot": {
+      "tab": "recovery",
+      "jump": {
+        "scenario": "coyote",
+        "offset": 60,
+        "coyote": true,
+        "buffer": true,
+        "hold": true,
+        "running": false,
+        "live": false,
+        "t": 0,
+        "input": null,
+        "releasedAt": null,
+        "lastRecord": null,
+        "outcomes": {
+          "strict": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          },
+          "assisted": {
+            "accepted": false,
+            "at": null,
+            "reason": "No input yet"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearby",
+        "aim": {
+          "x": 43,
+          "y": 49
+        },
+        "travel": 0,
+        "blocked": false,
+        "selected": "relay",
+        "cancelled": false,
+        "completed": [],
+        "candidates": [
+          {
+            "id": "relay",
+            "name": "Relay",
+            "x": 53,
+            "y": 42,
+            "distance_m": 3.5,
+            "action": "Activate",
+            "distance": 3.5,
+            "aim": 12.206555615733702,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.4704815959058252
+          },
+          {
+            "id": "pod",
+            "name": "Seed pod",
+            "x": 28,
+            "y": 62,
+            "distance_m": 2.4,
+            "action": "Collect",
+            "distance": 2.4,
+            "aim": 19.849433241279208,
+            "reason": "Eligible",
+            "eligible": true,
+            "score": 0.3857936478470173
+          },
+          {
+            "id": "cache",
+            "name": "Cache",
+            "x": 77,
+            "y": 63,
+            "distance_m": 5.3,
+            "action": "Open",
+            "distance": 5.3,
+            "aim": 36.76955262170048,
+            "reason": "Out of range",
+            "eligible": false,
+            "score": -0.2018339635996979
+          }
+        ]
+      },
+      "feedback": {
+        "hp": 100,
+        "exposure": 0,
+        "damageDir": "left",
+        "observerDir": "right",
+        "lastHit": null,
+        "hitVisible": false,
+        "cooling": false,
+        "shake": 0,
+        "flash": 0,
+        "effectsSuppressed": false
+      },
+      "recovery": {
+        "alive": true,
+        "wallet": 125,
+        "pile": null,
+        "lost": 0,
+        "x": 77,
+        "available": true,
+        "menu": false,
+        "checkpoint": "home",
+        "found": false,
+        "step": "Alive"
+      },
+      "records": {
+        "jump": [
+          {
+            "time": "23:48:17",
+            "message": "Choose a timing case, then replay the same input."
+          },
+          {
+            "time": "23:48:17",
+            "message": "Choose a timing case, then replay the same input."
+          }
+        ],
+        "interaction": [
+          {
+            "time": "23:48:17",
+            "message": "Nearby mode ranks eligible candidates. Click or tap the scene to aim."
+          }
+        ],
+        "feedback": [
+          {
+            "time": "23:48:17",
+            "message": "Hidden · health 100. Hit and awareness cues are independent."
+          }
+        ],
+        "recovery": [
+          {
+            "time": "23:48:17",
+            "message": "Alive · carrying 125 shards. Die to create a recoverable drop."
+          }
+        ]
+      }
+    },
+    "at": "2026-10-06T14:48:18.015Z"
+  }
+]

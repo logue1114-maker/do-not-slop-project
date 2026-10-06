@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "authored_educational_demo",
+  "experiment_status": "not_performed",
+  "value_origin": "All numbers are project proposals, not extracted game settings.",
+  "jump": {
+    "event_ms": 600,
+    "duration_ms": 1600,
+    "playback_rate": 0.5,
+    "coyote_ms": 100,
+    "buffer_ms": 120,
+    "offset_min_ms": -200,
+    "offset_max_ms": 200,
+    "offset_step_ms": 10,
+    "default_coyote_offset_ms": 60,
+    "default_buffer_offset_ms": -60
+  },
+  "interaction": {
+    "range_m": 4,
+    "exact_radius_scene_units": 5,
+    "nearby_radius_scene_units": 32,
+    "aim_weight": 0.7,
+    "range_weight": 0.3,
+    "movement_step_m": 1,
+    "aim_step_scene_units": 5,
+    "objects": [
+      {"id": "pod", "name": "Seed pod", "x": 28, "y": 62, "distance_m": 2.4, "action": "Collect"},
+      {"id": "relay", "name": "Relay", "x": 53, "y": 42, "distance_m": 3.5, "action": "Activate"},
+      {"id": "cache", "name": "Cache", "x": 77, "y": 63, "distance_m": 5.3, "action": "Open"}
+    ]
+  },
+  "feedback": {
+    "initial_health": 100,
+    "damage": 20,
+    "exposure_step": 35,
+    "hit_cue_ms": 1600,
+    "hit_cooldown_ms": 800,
+    "pulse_ms": 260,
+    "max_shake_px": 8,
+    "max_flash_opacity": 0.25,
+    "default_shake_percent": 0,
+    "default_flash_percent": 0
+  },
+  "recovery": {
+    "initial_shards": 125,
+    "find_shards": 25,
+    "movement_step": 20,
+    "recover_radius": 8,
+    "initial_position": 77,
+    "home_position": 14,
+    "relay_position": 38,
+    "relay_available": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "baseline_public_commit": "22bb7bb972c95bd4e42a71266bbf1942b360e44e",
+  "protected_existing_files": 406,
+  "protected_game_playground_files": 66,
+  "allowed_existing_changes": [
+    "README.md",
+    "docs/RESEARCH_INDEX.md",
+    "docs/CHANGELOG.md",
+    "docs/PROVENANCE.json",
+    "docs/RIGHTS_AND_SCOPE.md",
+    "docs/VERIFICATION.md",
+    "research/series_index.json",
+    "validation/validate_release.py",
+    "validation/release-checks.json",
+    "FILES.sha256.json"
+  ],
+  "original_runtime_hashes_preserved": {
+    "index.html": "31e5bcb1d62ffe316aec626cca8121a4bbd2f1a5f18101054f22657b5fddffe6",
+    "app.js": "b33a7033930ab85ece77a19fc8a65fa4aa62824f484f2fbdd6896344498bba84",
+    "style.css": "d5bd7786f3b0709b0ba6fc4cb121f7720a307998289d6b5e83bfa800d3d6297a",
+    "parameters.json": "71ed417fdc7cbd5997939fac2267aa9086d97a7c7553a3cc531f671418323ce2"
+  },
+  "final_capture_hashes_preserved": 36,
+  "third_party_media": "not_included",
+  "private_handoff": "excluded",
+  "existing_series_data": "preserved",
+  "source_checks": "checks/structural-results.json",
+  "browser_checks": "checks/final/browser-report.json",
+  "boundaries": "Publication does not establish design approval, current original-game behavior, physical-touch or comprehensive accessibility."
+}

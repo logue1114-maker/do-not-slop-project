@@ -57,12 +57,21 @@ Desktop captures use 1165 × 747 outer frames; the narrow order capture uses 390
 
 ## Game UI playground: first component bundle
 
-The [English playground](../research/game_ui_playground_v1/README.md) makes minimap rotation/zoom/markers, inventory comparison/equipment and shop review/cancel/confirmation directly adjustable. Two smaller examples cover cooldown/pause and quest/reward. This is the first bundle for exploring overlooked game details; richer hit response, interaction priority, checkpoint return, save/reconnect and tutorial re-entry remain future work.
+The [English playground](../research/game_ui_playground_v1/README.md) makes minimap rotation/zoom/markers, inventory comparison/equipment and shop review/cancel/confirmation directly adjustable. Two smaller examples cover cooldown/pause and quest/reward. This is the first component bundle. The companion [gameplay detail studies](../research/gameplay_details_v1/README.md) cover input timing, interaction priority, threat feedback and checkpoint recovery; save/reconnect and tutorial re-entry remain future work.
 
 - [Runnable entry](../research/game_ui_playground_v1/index.html), [settings JSON](../research/game_ui_playground_v1/config.json), [input/output contract](../research/game_ui_playground_v1/functional-contract.json), and [developer extension points](../research/game_ui_playground_v1/IMPLEMENTATION.md)
 - [Desktop captures](../research/game_ui_playground_v1/contact-sheet-desktop.png), [phone viewport captures](../research/game_ui_playground_v1/contact-sheet-mobile.png), [136 browser / 55 source checks and limits](../research/game_ui_playground_v1/BROWSER_REPORT.md), and [public integration checks](../research/game_ui_playground_v1/PUBLIC_INTEGRATION.md)
 
 These are independently authored proposals and synthetic flows, not an actual ordinary/guided A/B experiment, user-approved design or native-phone usability result. [Official game-specific sources](../research/game_ui_playground_v1/sources.json) are link-only; no third-party game screenshot bytes are included.
+
+## Gameplay details: four interactive studies
+
+Try shared-input jump grace/buffering, exact versus nearby target selection, independent damage/detection signals and death/checkpoint/drop-recovery flows in the [English study package](../research/gameplay_details_v1/README.md). These are authored educational proposals, not actual ordinary/instructed-AI experiment outputs or universal game rules.
+
+- [Runnable source](../research/gameplay_details_v1/index.html), [parameters](../research/gameplay_details_v1/parameters.json), [developer specification](../research/gameplay_details_v1/DEVELOPER_SPEC.md) and [four directly checked official/developer sources](../research/gameplay_details_v1/sources.json)
+- [46 bounded browser groups and 5 source checks](../research/gameplay_details_v1/BROWSER_REPORT.md), [36 final captures plus retained repair evidence](../research/gameplay_details_v1/captures/README.md) and [visual corrections](../research/gameplay_details_v1/VISUAL_REVIEW.md)
+
+All graphics are original. Timing constants, target priority, effect intensities and recovery fixtures are our proposals. Physical touch, screen-reader, full zoom/accessibility matrices, current original-game behavior and measured learning benefits remain unestablished.
 
 ## Five game interface presets
 
@@ -94,6 +103,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | Six web interface presets | http://127.0.0.1:8765/research/web_interface_presets_v1/ |
 | Five game interface presets | http://127.0.0.1:8765/research/game_interface_presets_v1/ |
 | Game UI playground: first component bundle | http://127.0.0.1:8765/research/game_ui_playground_v1/ |
+| Four gameplay detail studies | http://127.0.0.1:8765/research/gameplay_details_v1/ |
 | Fleet command | http://127.0.0.1:8765/research/strategy_controls_oct4/demo/ |
 | Booking change | http://127.0.0.1:8765/research/booking_flows_oct4/demo/ |
 | Learning layout | http://127.0.0.1:8765/research/comparison_assets/learning_layout/same_fixture_learning.html |
@@ -121,6 +131,7 @@ node research/web_interface_presets_v1/verify-source.mjs
 node research/web_interface_presets_v1/tests.mjs
 node research/web_interface_presets_v1/verify-http.mjs
 node research/game_ui_playground_v1/verify-public.mjs
+node research/gameplay_details_v1/verify-local.mjs
 python3 validation/build_inventory.py
 python3 validation/validate_release.py
 python3 validation/build_inventory.py

@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-10-06T15:39:06.706Z",
+  "scope": "source/package checks, not browser execution",
+  "results": [
+    {
+      "name": "Runtime parameter object exactly equals parameters.json",
+      "status": "pass"
+    },
+    {
+      "name": "Classic JavaScript parses",
+      "status": "pass"
+    },
+    {
+      "name": "Four supplied official/developer source URLs retained with confirmed/proposed boundaries",
+      "status": "pass"
+    },
+    {
+      "name": "No external runtime media/scripts/fonts; authored artifact and no experiment label",
+      "status": "pass"
+    },
+    {
+      "name": "Only local authored package; relevant supporting deliverables exist",
+      "status": "pass"
+    }
+  ],
+  "raw_file_sha256": {
+    "index.html": "31e5bcb1d62ffe316aec626cca8121a4bbd2f1a5f18101054f22657b5fddffe6",
+    "app.js": "b33a7033930ab85ece77a19fc8a65fa4aa62824f484f2fbdd6896344498bba84",
+    "style.css": "d5bd7786f3b0709b0ba6fc4cb121f7720a307998289d6b5e83bfa800d3d6297a",
+    "parameters.json": "71ed417fdc7cbd5997939fac2267aa9086d97a7c7553a3cc531f671418323ce2",
+    "sources.json": "10ca3ad307de0359a25fb194293e2ab5c678920dfb160abc1cd056dc03097a10"
+  }
+}

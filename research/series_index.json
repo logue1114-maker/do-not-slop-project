@@ -435,10 +435,30 @@
     {
       "id": "game_ui_playground_v1",
       "path": "research/game_ui_playground_v1/README.md",
-      "core_slices": ["minimap", "inventory", "shop"],
-      "supporting_slices": ["cooldown_pause", "dialogue_reward"],
+      "core_slices": [
+        "minimap",
+        "inventory",
+        "shop"
+      ],
+      "supporting_slices": [
+        "cooldown_pause",
+        "dialogue_reward"
+      ],
       "status": "authored_first_component_bundle",
       "broader_detail_discovery": "future_modules_required",
+      "experiment_status": "not_performed",
+      "design_approval": "not_established"
+    },
+    {
+      "id": "gameplay_details_v1",
+      "path": "research/gameplay_details_v1/README.md",
+      "studies": [
+        "jump_timing",
+        "interaction_intent",
+        "threat_feedback",
+        "death_recovery"
+      ],
+      "status": "authored_educational_demo",
       "experiment_status": "not_performed",
       "design_approval": "not_established"
     },
