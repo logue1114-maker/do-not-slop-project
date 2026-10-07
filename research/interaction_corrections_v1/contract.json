@@ -1,0 +1,366 @@
+{
+  "version": "1.0.0",
+  "artifactType": "authored-demonstrators",
+  "baseCommit": "24e2fd2fcd8a0163b3560239b071a48d1188d7c8",
+  "createdOn": "2026-10-07",
+  "fixture": {
+    "version": "1.0.0",
+    "baseCommit": "24e2fd2fcd8a0163b3560239b071a48d1188d7c8",
+    "delayMs": 700,
+    "stats": {
+      "reed": {
+        "name": "Reed sword",
+        "attack": 10,
+        "guard": 8,
+        "weight": 4
+      },
+      "iron": {
+        "name": "Iron blade",
+        "attack": 16,
+        "guard": 6,
+        "weight": 6
+      },
+      "crafted": {
+        "name": "Field dagger",
+        "attack": 14,
+        "guard": 7,
+        "weight": 3
+      }
+    },
+    "materials": {
+      "ore": 2,
+      "fiber": 2
+    },
+    "recipe": {
+      "ore": 3,
+      "fiber": 2
+    },
+    "coins": 30,
+    "charmPrice": 20,
+    "notices": [
+      {
+        "id": "hazard",
+        "kind": "hazard",
+        "text": "Storm crossing · take shelter",
+        "expires": null
+      },
+      {
+        "id": "quest",
+        "kind": "quest",
+        "text": "Reach the north gate · 180 m",
+        "expires": null
+      },
+      {
+        "id": "r1",
+        "kind": "reward",
+        "text": "Relay repaired · 10 shards",
+        "value": 10,
+        "expires": null
+      },
+      {
+        "id": "r2",
+        "kind": "reward",
+        "text": "Trail mapped · 5 shards",
+        "value": 5,
+        "expires": null
+      },
+      {
+        "id": "r3",
+        "kind": "reward",
+        "text": "Camp supplied · 5 shards",
+        "value": 5,
+        "expires": null
+      },
+      {
+        "id": "c1",
+        "kind": "chat",
+        "text": "Mira: meet at the gate",
+        "expires": 6
+      },
+      {
+        "id": "c2",
+        "kind": "chat",
+        "text": "Sol: bringing rope",
+        "expires": 6
+      },
+      {
+        "id": "c3",
+        "kind": "chat",
+        "text": "Mira: gate crew invitation",
+        "expires": 6,
+        "deadline": 12
+      },
+      {
+        "id": "ambient",
+        "kind": "ambient",
+        "text": "Wind rising in the valley",
+        "expires": 4
+      }
+    ]
+  },
+  "labs": [
+    {
+      "id": "input",
+      "title": "One gesture, one owner",
+      "label": "Input conflicts",
+      "layout": "arena",
+      "input": "Dismiss target: attack or demo purchase. Type “ap” in the radio note.",
+      "procedure": [
+        "Choose Problem. Open the notice and dismiss it; inspect the counters. Repeat with the purchase target.",
+        "Reset, then type ap in the radio note. The problem hotkeys act while you type.",
+        "Choose Corrected and repeat. Open the notice, press Tab / Shift+Tab, then Escape. Focus returns to Open notice.",
+        "Enable Polled-input model, focus the arena and hold A. Open/close the notice while A remains held. Corrected stops polling and requires release plus a fresh press; Problem continues through the notice."
+      ],
+      "output": "Problem: dismiss increments an action; typing ap increments both. Corrected: both counters stay zero until an explicit world action.",
+      "explanation": "A close event and typed characters belong to their current interaction.",
+      "reason": "The faulty dismiss bubbles into its arena handler. The corrected modal owns the gesture and focus; letter shortcuts require focus on the arena, ignore editing/composition/modifiers/repeat, and have explicit buttons.",
+      "reuse": "menu_placement_v1 already owns inventory placement and modal world blocking. This lab isolates event propagation, purchase versus attack consequences, and editable-field shortcuts.",
+      "reusePath": "../menu_placement_v1/AI_INSTRUCTIONS.md",
+      "sources": [
+        "dialog",
+        "shortcuts",
+        "godotEvents",
+        "godotPolling"
+      ],
+      "instruction": "Build [surface] from my actual input map and actions. Assign each pointer/key gesture to one active input owner. While a modal is open, make the underlying world inert, contain Tab, provide Escape/Cancel, and restore its opener. Consume dismissal before any underlying action; clearing an overlay must never replay the dismiss gesture into attack, purchase, or held input. Character shortcuts must be disabled, remappable, or active only on the focused component. Ignore editable targets, composition, modifiers and repeat unless explicitly required. Provide equivalent visible buttons. Test close over every destructive target, typing shortcut letters, Tab boundaries, repeated keys and focus restoration. Report native controller/IME/speech checks separately; do not infer them from synthetic events. In Godot, let GUI consume events and route gameplay through _unhandled_input where appropriate. Input.is_action_pressed reflects global state even after accept_event/set_input_as_handled, so gate polled gameplay with the active context as well. Clear queued actions and require held controls to release before rearming after dismissal; a timed cooldown alone is insufficient. The browser lab’s optional 200 ms polled-input model proves this separate gate using held A, modal open/close and fresh press; it does not verify a game-engine implementation.",
+      "requiredStates": [
+        "modal",
+        "dismiss",
+        "typing",
+        "held-polling",
+        "release-rearm"
+      ]
+    },
+    {
+      "id": "overload",
+      "title": "The next action survives the noise",
+      "label": "Information priority",
+      "layout": "dispatch",
+      "input": "Nine simultaneous notices: one hazard, one quest, three rewards, three chat messages, one ambient cue. Advance the fixture clock by six seconds.",
+      "procedure": [
+        "Choose Problem and Deliver burst. The notices share one stack over the route. Advance 6 seconds: every notice disappears.",
+        "Choose Corrected and Deliver burst. Keep the hazard and route visible; open Rewards or Chat separately.",
+        "Advance 6 seconds. Ambient/chat cues expire from the main view; history retains chat and unclaimed rewards remain. Claim twice and acknowledge the hazard.",
+        "Open Chat history at 6s: the invitation is still available. Advance to 12s: its retained record now says expired and cannot be accepted."
+      ],
+      "output": "Corrected: one hazard, one quest, a 20-shard reward group, chat history; claim grants exactly 20 once. Expiry never removes an unclaimed reward or active quest.",
+      "explanation": "Priority is a task decision, not a competition for brighter banners.",
+      "reason": "Critical shelter information and the next quest action remain persistent. Rewards are grouped and claimable; ordinary chat moves to history after a disclosed simulated expiry. A single polite summary avoids announcing nine low-priority updates.",
+      "reuse": "This extends the separate damage/awareness signals in gameplay_details_v1 with quest/reward/chat ownership and expiry.",
+      "reusePath": "../gameplay_details_v1/README.md",
+      "sources": [
+        "status",
+        "xag"
+      ],
+      "instruction": "Use my notification records and classify urgency, actionability and persistence before layout. Keep immediate danger and the next objective readable without opening a drawer. Group repeated rewards by meaning with exact amounts and an idempotent claim. Keep chat and ambient updates secondary and optionally inspectable. Specify expiry per class: actionable rewards and active objectives cannot disappear silently; move expired chat to accessible history. Never let notices cover the primary task controls. Use one appropriate status summary rather than assertive announcements for every low-priority event. Test a dense burst, expiry, repeat delivery, duplicate claim, dismissal and keyboard focus during an update. Do not invent urgency or change the supplied quest/reward facts. Separate presentation expiry from the actual action deadline. In this fixture chat cues expire at 6 seconds but the crew invitation stays actionable in history until 12 seconds, then remains as an expired record with its action disabled. Retaining history must never imply an expired action is still valid.",
+      "requiredStates": [
+        "burst",
+        "grouped",
+        "cue-expired",
+        "action-expired",
+        "claimed"
+      ]
+    },
+    {
+      "id": "decisions",
+      "title": "See the trade before committing",
+      "label": "Equipment & crafting",
+      "layout": "workbench",
+      "input": "Reed sword 10/8/4; owned Iron blade 16/6/6; recipe needs 3 ore + 2 fiber, owned 2 + 2; 30 demo coins.",
+      "procedure": [
+        "Inspect Iron blade in Problem, then craft with insufficient ore. The fault permits negative materials. The shop also accepts owned or locked items.",
+        "Choose Corrected. Inspect Iron blade: compare attack, guard and weight to equipped Reed sword. Equip, then inspect again.",
+        "Inspect Field dagger, gather one ore, craft once, and inspect the new comparison. Open Shop; review Copper charm, cancel, review again and confirm."
+      ],
+      "output": "Corrected: Iron changes +6 attack / −2 guard / +2 weight. Craft is blocked until one ore is gathered, then consumes 3 ore + 2 fiber once. Shop distinguishes equipped, owned, rank-locked and available; one charm costs 20.",
+      "explanation": "A decision needs the current value, resulting value, and cost together.",
+      "reason": "The comparison follows the currently equipped item. Missing materials are quantities, not a vague lock. Shop state changes the supported action; review identifies the cost and cancel preserves it.",
+      "reuse": "menu_placement_v1 supplies collection/detail placement. game_ui_playground_v1 supplies a first inventory/shop component. This bench adds crafting deficits and consistent owned/equipped/unavailable states.",
+      "reusePath": "../menu_placement_v1/README.md",
+      "sources": [
+        "status",
+        "xag"
+      ],
+      "instruction": "Build [equipment/crafting/shop] with my actual inventory, equipped item, stat formulas, recipe quantities, currency and availability rules. Show current -> resulting stats and signed deltas against the current equipment; do not imply every positive number is better (weight/cost may be worse). Recompute after equip without losing selection. Before crafting, show owned / required and exact missing quantities, with a reachable acquisition explanation. Validate again on commit; never deduct into negative stock or duplicate a unique craft. Derive shop actions from available, owned, equipped and unavailable states with explicit reasons. Review any currency commitment with item, quantity and exact cost; Cancel must preserve data and return focus. Repeated confirmation must be idempotent. Test arithmetic, stale equipment, missing stock, repeat craft, locked/owned items and cancel/confirm. Use only a local purchase simulation until a real transaction contract is supplied. Treat ownership, equipped status and eligibility as separate dimensions. State which direction is favorable per stat. Compare incompatible bonus types as labelled effects rather than fabricating a numeric delta.",
+      "requiredStates": [
+        "owned",
+        "equipped",
+        "recipe-missing",
+        "craftable",
+        "crafted",
+        "rank-locked",
+        "review",
+        "cancel",
+        "purchased"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "title": "Resize the screen, keep the work",
+      "label": "Screen changes",
+      "layout": "editor",
+      "input": "East ridge selected; a dispatch note with a selected text range. Resize portrait / landscape, model keyboard occlusion, expand labels and enlarge text.",
+      "procedure": [
+        "Choose Problem, select East ridge and type a note. Model keyboard or text/label changes: the rebuilt field loses focus and selection; narrow layout clips its controls.",
+        "Choose Corrected, select East ridge and type a note. Select text, then enable the keyboard model, long English label stress and 200% text.",
+        "Resize the actual browser. Route, note and native field remain. Review dispatch, cancel, and continue editing at the same range."
+      ],
+      "output": "Corrected preserves route, value, focus and selection through layout changes and canceled review. Keyboard model is a labelled occlusion fixture, not a real software keyboard test.",
+      "explanation": "Responsive layout should move the frame without replacing the user’s editing state.",
+      "reason": "The correction keeps native nodes and state, lets content wrap, and uses available viewport height. Problem explicitly rebuilds the editor on screen changes. Long English labels approximate translation length; linguistic localization and real keyboards are unrun.",
+      "reuse": "menu_placement_v1 already checks rotated collection/detail selection. This lab adds an active text field, selection range, keyboard occlusion model and text-size stress.",
+      "reusePath": "../menu_placement_v1/AI_INSTRUCTIONS.md",
+      "sources": [
+        "reflow",
+        "viewport",
+        "dialog"
+      ],
+      "instruction": "Adapt [screen] to actual viewport, orientation, visual viewport/keyboard and platform safe-area contracts. Preserve stable field nodes, route/item selection, entered value, selectionStart/End, scroll and focus across layout changes; do not rebuild or reset the task on resize. Reflow content and actions at 320 CSS px and enlarged text; wrap long real translations instead of clipping or shrinking them. Keep focused editing and its completion/cancel actions inside the available viewport or a reachable scroll area. Capture/restore editing range after a canceled review only when the same field still exists; otherwise define a logical fallback. Test live typing plus rotation, long labels, 200% text, keyboard occlusion, review/cancel and Back. Distinguish a reduced-height/English-length model from a physical software keyboard, true browser zoom and actual localized-language checks.",
+      "requiredStates": [
+        "portrait",
+        "landscape",
+        "editing",
+        "selected-range",
+        "keyboard-model",
+        "long-English-labels",
+        "CSS-200%-text",
+        "review",
+        "cancel"
+      ]
+    },
+    {
+      "id": "recovery",
+      "title": "Waiting does not erase a draft",
+      "label": "Waiting & failure",
+      "layout": "notebook",
+      "input": "Search “relay” or “zzz”; a survey note; injected next-response failure; a disconnected local simulation.",
+      "procedure": [
+        "Choose Problem, type a survey note and fail the next save or disconnect. Observe lost work; an empty search gives no explanation.",
+        "Choose Corrected. Search zzz, then relay. Cancel a pending search and retry; double activation stays one request.",
+        "Type a note, fail Save, retry, edit during Save, then disconnect/reconnect with failure and cancellation. Search text, selected result and note remain."
+      ],
+      "output": "Corrected: explicit loading / empty / failure / offline states; cancel ignores late results; failed save keeps draft; saving an earlier snapshot leaves newer edits dirty. Reconnect preserves entered work.",
+      "explanation": "Keep entered work separate from the request that carries it.",
+      "reason": "Request tokens reject stale completion; draft revision identifies edits made while saving. Status and retry sit beside the task. The save is a local acknowledged snapshot, with no backend or cross-device persistence claim.",
+      "reuse": "menu_placement_v1 already models reconnect retaining inventory. This notebook adds empty search, save failure, retained editable drafts and edits during an in-flight save.",
+      "reusePath": "../menu_placement_v1/README.md",
+      "sources": [
+        "status",
+        "dialog"
+      ],
+      "instruction": "Define idle -> pending -> success / empty / failure / canceled / offline for [task] using my service contract. Separate draft value and revision from submitted snapshot and acknowledged revision. Keep search text, selection, entered draft and recovery context on failure/disconnect. Prevent duplicate pending requests, expose Cancel where supported, invalidate canceled/stale completions and allow retry without retyping. An empty result must name the query and a useful next action. Saving an old snapshot must not clear newer edits or announce them saved. Keep error text and status programmatically available without stealing focus; state exactly what is locally retained and what is durably saved. Test delayed response, duplicate press, cancel plus late completion, zero results, failure/retry, edit during save and interrupted reconnect. Never claim server persistence from a local fixture. Expose requestId, submitted revision and acknowledged revision. Test a slow canceled revision N arriving after successful revision N+1: the late response cannot replace the newer draft or acknowledged version. Repeated retry must not create duplicate acknowledgments.",
+      "requiredStates": [
+        "pending",
+        "empty",
+        "failed",
+        "canceled",
+        "offline",
+        "reconnected",
+        "dirty",
+        "old-snapshot-acknowledged",
+        "out-of-order-reply"
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "Press, choose, wait, then confirm",
+      "label": "Interaction feedback",
+      "layout": "calibrator",
+      "input": "A selected beacon channel; one 700 ms simulated calibration; fail-next; motion, opt-in audio and haptic controls.",
+      "procedure": [
+        "Choose Problem. Press Calibrate: it commits on pointer-down, so moving away cannot cancel; the premature “Completed” claim precedes the response.",
+        "Choose Corrected. Choose a channel, hold the button, move away and release: no request. Activate normally or with Enter/Space; wait for success.",
+        "Fail the next calibration, retry, cancel while pending, and repeat with reduced motion. Optional sound/haptic probes report API attempts, not hearing or physical sensation."
+      ],
+      "output": "Corrected: pressed is immediate; selected is persistent; pending blocks duplicates; success/failure follows the result. Cancel suppresses late feedback. Text and shape remain with motion/audio/haptics off.",
+      "explanation": "Different stages of an interaction need different evidence.",
+      "reason": "A press is reversible until release. Selection uses native checked state. Only an acknowledged response produces completion. Reduced motion removes the pulse while text and symbols remain; optional sensory APIs never replace the visible outcome.",
+      "reuse": "gameplay_details_v1 already separates damage from awareness and offers zero-shake cues. This lab deepens press/release cancellation, selection, async completion and optional sensory feedback.",
+      "reusePath": "../gameplay_details_v1/README.md",
+      "sources": [
+        "pointer",
+        "motion",
+        "audio",
+        "vibration",
+        "xag",
+        "inputOptions"
+      ],
+      "instruction": "For [action], specify distinct pressed, selected, pending, success and failure states. Show immediate reversible press feedback; commit on completed activation/release so dragging away or pointer cancellation can abort. Keep selection identifiable by shape/text plus programmatic state, not color alone. Prevent duplicate pending activation. Announce success only after the real acknowledgment and failure with a specific reason and retry. Cancel or leaving the task must invalidate late results and transient feedback. Treat timing constants as product proposals until measured; record actual event timestamps separately. Respect prefers-reduced-motion and an explicit override, preserving essential text/shape feedback. Make audio/haptics opt-in, handle unsupported or rejected APIs, and provide equivalent visible feedback without them. Test hold/release-away, keyboard Enter/Space/repeat, selection, delayed success, failure/retry, cancel, motion-off and API-unavailable paths. Browser API success is not verified hearing, vibration, physical touch or screen-reader output. If a hold-to-confirm mechanic is added, provide a safe ordinary-activation alternative; do not require prolonged holding for every user.",
+      "requiredStates": [
+        "pressed",
+        "selected",
+        "pending",
+        "success",
+        "failure",
+        "canceled",
+        "reduced-motion",
+        "sensory-attempt"
+      ]
+    }
+  ],
+  "runtimeBoundary": "Local in-memory fixture; reload resets all state; no backend, authentication or real transaction.",
+  "tokens": {
+    "colors": {
+      "paper": "#f3f2ed",
+      "surface": "#ffffff",
+      "ink": "#202924",
+      "muted": "#536259",
+      "primary": "#265f4b",
+      "error": "#a42f28"
+    },
+    "minimumButtonCssPx": 44,
+    "spacingCssPx": [
+      6,
+      8,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      40
+    ],
+    "radiusCssPx": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "delayMs": 700,
+    "slowDelayMs": 1600,
+    "pollModelMs": 200
+  },
+  "retention": {
+    "adaptation": [
+      "route ID",
+      "native field",
+      "value",
+      "selection range/direction",
+      "focus"
+    ],
+    "recovery": [
+      "query",
+      "selected survey",
+      "draft value/revision",
+      "acknowledged snapshot/revision",
+      "request ID"
+    ],
+    "decisions": [
+      "selected item ID",
+      "equipped item ID",
+      "stock",
+      "currency"
+    ]
+  },
+  "limits": [
+    "No physical phone, controller, native keyboard, haptic, hearing, screen-reader, IME or speech test",
+    "CSS text enlargement is not true browser zoom",
+    "English label length is not linguistic localization validation",
+    "No Godot engine runtime, source game runtime or human study",
+    "No general effectiveness or design acceptance claim"
+  ]
+}

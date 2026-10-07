@@ -16,6 +16,18 @@ The same copy specimens and document facts, with a revised comparison frame. Cli
 
 The left screen is an authored reconstruction; the right is a post-review guided iteration. This is not an ordinary-versus-guided experiment. The [original actual pair](research/instruction_trial_01/README.md) gave both runs the same styled reference. [V2 source and change record](research/instruction_trial_02/README.md) retain its first pass, repair, and limits.
 
+## Six interaction corrections
+
+Try the [English interactive manual](research/interaction_corrections_v1/README.md): input conflicts, notification priority, equipment/crafting decisions, screen changes, waiting/failure and interaction feedback. Each original authored lab has a deliberately faulty implementation, a working correction and an exact [reusable AI instruction](research/interaction_corrections_v1/AI_INSTRUCTIONS.md). These are demonstrators, not unguided/guided AI experiments.
+
+| Input ownership | Information priority | Equipment & crafting |
+| :---: | :---: | :---: |
+| <a href="research/interaction_corrections_v1/captures/final-2/input-corrected-1165x747.png"><img src="research/interaction_corrections_v1/captures/final-2/input-corrected-1165x747.png" alt="Original encounter with radio input, action counters and held-input model" width="100%"></a> | <a href="research/interaction_corrections_v1/captures/final-2/overload-corrected-1165x747.png"><img src="research/interaction_corrections_v1/captures/final-2/overload-corrected-1165x747.png" alt="Original dispatch with distinct hazard, objective, grouped rewards and chat" width="100%"></a> | <a href="research/interaction_corrections_v1/captures/final-2/decisions-corrected-1165x747.png"><img src="research/interaction_corrections_v1/captures/final-2/decisions-corrected-1165x747.png" alt="Original workbench with stat comparison, missing materials and shop states" width="100%"></a> |
+| Screen changes | Waiting & failure | Interaction feedback |
+| <a href="research/interaction_corrections_v1/captures/final-2/adaptation-corrected-1165x747.png"><img src="research/interaction_corrections_v1/captures/final-2/adaptation-corrected-1165x747.png" alt="Original route editor retaining selection and entered dispatch note" width="100%"></a> | <a href="research/interaction_corrections_v1/captures/final-2/recovery-corrected-1165x747.png"><img src="research/interaction_corrections_v1/captures/final-2/recovery-corrected-1165x747.png" alt="Original notebook with empty search, retained draft and request revision ledger" width="100%"></a> | <a href="research/interaction_corrections_v1/captures/final-2/feedback-corrected-1165x747.png"><img src="research/interaction_corrections_v1/captures/final-2/feedback-corrected-1165x747.png" alt="Original beacon calibration with selection, specific failure and event timeline" width="100%"></a> |
+
+Actual project-browser captures. [73 browser scenarios / 7 package checks and unrun limits](research/interaction_corrections_v1/BROWSER_REPORT.md) · [Phone, narrow and state captures](research/interaction_corrections_v1/captures/README.md) · [Official sources and rights](research/interaction_corrections_v1/sources.json). Physical keyboards/phones, screen readers, hearing/haptics and engine runtime remain unrun.
+
 ## Use with your AI
 
 1. Give your coding AI this repository and ask it to read [AGENTS.md](AGENTS.md)
@@ -41,6 +53,7 @@ Most research manuals are in Korean. The AI entrypoint, CP01 packages, palette e
 
 | Task | Start here | Example or source |
 | :--- | :--- | :--- |
+| Input, state and recovery corrections | [Six English visual labs and exact AI instructions](research/interaction_corrections_v1/README.md) | [Runnable source](research/interaction_corrections_v1/index.html) · [Desktop / phone captures and tests](research/interaction_corrections_v1/BROWSER_REPORT.md) |
 | Explore game UI details | [Live settings and reusable contracts](research/game_ui_playground_v1/README.md) | [First component playground](research/game_ui_playground_v1/index.html) · [Desktop / phone captures](research/game_ui_playground_v1/BROWSER_REPORT.md) |
 | Menu and inventory placement | [English visual manual and AI instructions](research/menu_placement_v1/README.md) | [Interactive flow and layout annotations](research/menu_placement_v1/index.html) · [Actual desktop / mobile captures](research/menu_placement_v1/captures/README.md) |
 | Game controls and HUD | [Controls manual](research/game_controls_corrections_v2.md) · [Fleet commands](research/strategy_controls_oct4/strategy_controls_research.ko.md) | [Five game presets](research/game_interface_presets_v1/README.md) · [Fleet-command demo](research/strategy_controls_oct4/demo/README.md) |

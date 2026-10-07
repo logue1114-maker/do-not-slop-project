@@ -1,0 +1,210 @@
+{
+  "checkedOn": "2026-10-07",
+  "baseCommit": "24e2fd2fcd8a0163b3560239b071a48d1188d7c8",
+  "artifactType": "authored-original-educational-proposals",
+  "sources": [
+    {
+      "id": "dialog",
+      "title": "W3C APG · Modal dialog",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+      "note": "Modal focus/input ownership and return. Our scene and failure are authored.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "Live W3C APG modal pattern",
+      "proposal": [
+        "input",
+        "adaptation",
+        "recovery"
+      ],
+      "limits": "Modal focus/input ownership and return. Our scene and failure are authored."
+    },
+    {
+      "id": "shortcuts",
+      "title": "W3C · Character key shortcuts",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html",
+      "note": "Focus-only, disable or remap options. Native IME/speech are unrun.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "WCAG 2.2 informative Understanding document; not a conformance verdict",
+      "proposal": [
+        "input"
+      ],
+      "limits": "Focus-only, disable or remap options. Native IME/speech are unrun."
+    },
+    {
+      "id": "status",
+      "title": "W3C · Status messages",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+      "note": "Programmatic status without focus theft. Assistive output is unrun.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "WCAG 2.2 informative Understanding document; not a conformance verdict",
+      "proposal": [
+        "overload",
+        "decisions",
+        "recovery"
+      ],
+      "limits": "Programmatic status without focus theft. Assistive output is unrun."
+    },
+    {
+      "id": "reflow",
+      "title": "W3C · Reflow",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "note": "Content reflow guidance. Text stress is separate from true browser zoom.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "WCAG 2.2 informative Understanding document; not a conformance verdict",
+      "proposal": [
+        "adaptation"
+      ],
+      "limits": "Content reflow guidance. Text stress is separate from true browser zoom."
+    },
+    {
+      "id": "viewport",
+      "title": "MDN · VisualViewport",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/VisualViewport",
+      "note": "Visual versus layout viewport. Keyboard occlusion here is a model.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "MDN living API documentation; no page commit pinned",
+      "proposal": [
+        "adaptation"
+      ],
+      "limits": "Visual versus layout viewport. Keyboard occlusion here is a model."
+    },
+    {
+      "id": "pointer",
+      "title": "W3C · Pointer cancellation",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html",
+      "note": "Completed activation and abort. Physical touch is unrun.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "WCAG 2.2 informative Understanding document; not a conformance verdict",
+      "proposal": [
+        "feedback"
+      ],
+      "limits": "Completed activation and abort. Physical touch is unrun."
+    },
+    {
+      "id": "motion",
+      "title": "W3C · Animation from interactions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "note": "Disable nonessential motion; our 700 ms is an authored delay.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "WCAG 2.2 informative Understanding document; not a conformance verdict",
+      "proposal": [
+        "feedback"
+      ],
+      "limits": "Disable nonessential motion; our 700 ms is an authored delay."
+    },
+    {
+      "id": "audio",
+      "title": "MDN · Web Audio best practices",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices",
+      "note": "User activation and user control. Audio API attempt does not prove hearing.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "MDN living API documentation; no page commit pinned",
+      "proposal": [
+        "feedback"
+      ],
+      "limits": "User activation and user control. Audio API attempt does not prove hearing."
+    },
+    {
+      "id": "vibration",
+      "title": "MDN · Navigator.vibrate",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate",
+      "note": "Capability/activation limits. Return value does not prove physical haptics.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "MDN living API documentation; no page commit pinned",
+      "proposal": [
+        "feedback"
+      ],
+      "limits": "Capability/activation limits. Return value does not prove physical haptics."
+    },
+    {
+      "id": "xag",
+      "title": "Microsoft XAG 103 · Additional channels",
+      "url": "https://learn.microsoft.com/en-us/xbox/accessibility/xbox-accessibility-guidelines/103",
+      "note": "Multiple communication channels and labels for missing materials. Full XAG compliance is unasserted.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "Live Xbox accessibility guideline; page state checked on date above",
+      "proposal": [
+        "overload",
+        "decisions",
+        "feedback"
+      ],
+      "limits": "Multiple communication channels and labels for missing materials. Full XAG compliance is unasserted."
+    },
+    {
+      "id": "godotEvents",
+      "title": "Godot · Using InputEvent",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html",
+      "note": "Gameplay can use unhandled input after GUI consumption. No Godot runtime was tested.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "Godot stable alias, no release/build revision pinned",
+      "proposal": [
+        "input"
+      ],
+      "limits": "Gameplay can use unhandled input after GUI consumption. No Godot runtime was tested."
+    },
+    {
+      "id": "godotPolling",
+      "title": "Godot · Global Input state",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_input.html",
+      "note": "Global polling is unaffected by consumed events. Our browser model has an independent context gate.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "Godot stable alias, no release/build revision pinned",
+      "proposal": [
+        "input"
+      ],
+      "limits": "Global polling is unaffected by consumed events. Our browser model has an independent context gate."
+    },
+    {
+      "id": "inputOptions",
+      "title": "Microsoft XAG 115 · Input mechanics",
+      "url": "https://learn.microsoft.com/en-us/xbox/accessibility/xbox-accessibility-guidelines/115",
+      "note": "Options for demanding motor actions. This lab supports ordinary click/Enter/Space; no hold is required.",
+      "checkedOn": "2026-10-07",
+      "method": "Implementer opened original official documentation with web reader; relevant page text inspected.",
+      "versionScope": "Live Xbox accessibility guideline; page state checked on date above",
+      "proposal": [
+        "feedback"
+      ],
+      "limits": "Options for demanding motor actions. This lab supports ordinary click/Enter/Space; no hold is required."
+    }
+  ],
+  "externalScreenshots": [
+    {
+      "publisher": "Microsoft Learn / Obsidian",
+      "title": "Grounded crafting example in XAG103",
+      "pageUrl": "https://learn.microsoft.com/en-us/xbox/accessibility/xbox-accessibility-guidelines/103",
+      "observation": "Official page describes held/required quantities, warning symbol and missing-material labels. Source pixels were not inspected in this implementation session.",
+      "redistributed": false
+    }
+  ],
+  "rights": {
+    "thirdPartyScreenshotsBundled": false,
+    "thirdPartyAssetsBundled": false,
+    "fontsBundled": false,
+    "articleBodiesBundled": false,
+    "originalMedia": "Original CSS / inline SVG geometric terrain and weapon plus unedited browser captures of this project.",
+    "externalMediaPolicy": "Link-only; no redistribution permission asserted.",
+    "reuseLicense": "No new license selected; repository has no blanket downstream reuse license."
+  },
+  "claimsNotMade": [
+    "actual ordinary/guided AI experimental outputs",
+    "causal improvement",
+    "participant usability results",
+    "current source-game runtime behavior",
+    "complete WCAG/XAG conformance",
+    "native sensory verification",
+    "user design acceptance",
+    "publication or deployment"
+  ]
+}

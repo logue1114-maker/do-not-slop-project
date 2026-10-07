@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-10-07T13:12:47.140Z",
+  "runtimeRun": "final-2",
+  "results": [
+    {
+      "name": "six-original-contracts-and-exact-runtime-instructions",
+      "status": "pass"
+    },
+    {
+      "name": "protected-arithmetic-and-deadline-facts",
+      "status": "pass"
+    },
+    {
+      "name": "final-browser-run-and-source-parity",
+      "status": "pass"
+    },
+    {
+      "name": "capture-integrity-and-original-image-policy",
+      "status": "pass"
+    },
+    {
+      "name": "local-document-links-resolve",
+      "status": "fail",
+      "error": "BROWSER_REPORT.md -> checks/package-results.json"
+    },
+    {
+      "name": "bounded-source-rights-and-evidence-labels",
+      "status": "pass"
+    },
+    {
+      "name": "ten-declared-text-role-contrast-pairs",
+      "status": "pass"
+    }
+  ],
+  "contrast": [
+    {
+      "role": "body",
+      "foreground": "#202924",
+      "background": "#ffffff",
+      "ratio": 14.956567694261354
+    },
+    {
+      "role": "body-paper",
+      "foreground": "#202924",
+      "background": "#f3f2ed",
+      "ratio": 13.343163219715146
+    },
+    {
+      "role": "muted",
+      "foreground": "#536259",
+      "background": "#f3f2ed",
+      "ratio": 5.748372521008809
+    },
+    {
+      "role": "action",
+      "foreground": "#ffffff",
+      "background": "#265f4b",
+      "ratio": 7.444439583850922
+    },
+    {
+      "role": "selected",
+      "foreground": "#ffffff",
+      "background": "#202e26",
+      "ratio": 14.187258703995553
+    },
+    {
+      "role": "warning",
+      "foreground": "#754508",
+      "background": "#ffffff",
+      "ratio": 8.042474562632867
+    },
+    {
+      "role": "error",
+      "foreground": "#842a22",
+      "background": "#faece6",
+      "ratio": 7.7955311700975845
+    },
+    {
+      "role": "badge",
+      "foreground": "#284b37",
+      "background": "#f5f7f2",
+      "ratio": 9.047667430799809
+    },
+    {
+      "role": "scene",
+      "foreground": "#f0f5ee",
+      "background": "#23382e",
+      "ratio": 11.332928387998438
+    },
+    {
+      "role": "scene-symbol",
+      "foreground": "#b4cfb2",
+      "background": "#23382e",
+      "ratio": 7.460793562433562
+    }
+  ],
+  "limits": [
+    "Declared text-role pairs only; not every raster pixel/state or full accessibility conformance",
+    "No new browser execution in this structural verifier"
+  ]
+}

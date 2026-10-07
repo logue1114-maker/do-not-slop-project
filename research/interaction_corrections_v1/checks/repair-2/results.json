@@ -1,0 +1,470 @@
+{
+  "runId": "repair-2",
+  "runAt": "2026-10-07T13:01:43.437Z",
+  "baseCommit": "24e2fd2fcd8a0163b3560239b071a48d1188d7c8",
+  "artifactType": "authored-demonstrators",
+  "environment": {
+    "browser": "154.0.8037.98",
+    "platform": "win32",
+    "headless": true,
+    "dpr": 1,
+    "inputs": [
+      "native mouse",
+      "native keyboard",
+      "Playwright native form input",
+      "Chromium emulated touch"
+    ]
+  },
+  "sourceHashes": {
+    "index.html": "4cf19b738299e3cf944a4d2005e5c58844d2d5f7bd6543f7e8fef489abe591ab",
+    "data.js": "df6b932763634a3d6a318f44d767bd02c293d0e18d82e5424c9fd3f30de31789",
+    "app.js": "e85799126ae64a73989ee36c20ca70b165ddb60f4a7a0432c34aa38f1dfff642",
+    "style.css": "455b50a2d9d34b666daf8b6c172e6b844f3e5d3a11767324960bae5f28568a14",
+    "serve.mjs": "2300819eb36f4410ed8b93d7045b315c46008e5e7d04c2da3c188292c464c8c3",
+    "browser-checks.mjs": "591a79c7abdf6356e9c1862fed94117cfd75f4ed8238dd9e01e2e2bf733b1224"
+  },
+  "results": [
+    {
+      "name": "input-problem-dismiss-attack-and-purchase",
+      "status": "pass",
+      "elapsedMs": 481,
+      "note": ""
+    },
+    {
+      "name": "input-problem-typing-and-repeat-reproduce",
+      "status": "pass",
+      "elapsedMs": 85,
+      "note": ""
+    },
+    {
+      "name": "input-corrected-modal-inert-tab-escape-return",
+      "status": "pass",
+      "elapsedMs": 164,
+      "note": ""
+    },
+    {
+      "name": "input-corrected-editing-modifiers-repeat-focus-only",
+      "status": "pass",
+      "elapsedMs": 63,
+      "note": ""
+    },
+    {
+      "name": "input-polled-held-problem-reproduce",
+      "status": "pass",
+      "elapsedMs": 847,
+      "note": ""
+    },
+    {
+      "name": "input-polled-held-corrected-gate-release-rearm",
+      "status": "pass",
+      "elapsedMs": 1657,
+      "note": ""
+    },
+    {
+      "name": "overload-problem-burst-and-loss",
+      "status": "pass",
+      "elapsedMs": 229,
+      "note": ""
+    },
+    {
+      "name": "overload-corrected-group-expiry-repeat-claim",
+      "status": "pass",
+      "elapsedMs": 405,
+      "note": ""
+    },
+    {
+      "name": "overload-cue-expiry-versus-action-deadline",
+      "status": "pass",
+      "elapsedMs": 467,
+      "note": ""
+    },
+    {
+      "name": "decisions-problem-negative-stock-and-owned-buy",
+      "status": "pass",
+      "elapsedMs": 328,
+      "note": ""
+    },
+    {
+      "name": "decisions-corrected-deltas-equip-recompute",
+      "status": "pass",
+      "elapsedMs": 134,
+      "note": ""
+    },
+    {
+      "name": "decisions-corrected-missing-gather-craft-once",
+      "status": "pass",
+      "elapsedMs": 258,
+      "note": ""
+    },
+    {
+      "name": "decisions-shop-states-cancel-confirm-repeat",
+      "status": "pass",
+      "elapsedMs": 322,
+      "note": ""
+    },
+    {
+      "name": "adaptation-problem-rebuild-loss",
+      "status": "pass",
+      "elapsedMs": 328,
+      "note": ""
+    },
+    {
+      "name": "adaptation-stable-route-field-range-rotation",
+      "status": "pass",
+      "elapsedMs": 271,
+      "note": ""
+    },
+    {
+      "name": "adaptation-keyboard-long-200-percent-cancel-range",
+      "status": "pass",
+      "elapsedMs": 328,
+      "note": ""
+    },
+    {
+      "name": "recovery-problem-save-failure-and-disconnect-loss",
+      "status": "pass",
+      "elapsedMs": 1003,
+      "note": ""
+    },
+    {
+      "name": "recovery-loading-empty-query-and-success",
+      "status": "pass",
+      "elapsedMs": 1658,
+      "note": ""
+    },
+    {
+      "name": "recovery-duplicate-pending-key-and-cancel-late",
+      "status": "pass",
+      "elapsedMs": 1616,
+      "note": ""
+    },
+    {
+      "name": "recovery-save-failure-retry-and-edit-in-flight",
+      "status": "pass",
+      "elapsedMs": 2400,
+      "note": ""
+    },
+    {
+      "name": "recovery-out-of-order-old-reply-cannot-roll-back",
+      "status": "pass",
+      "elapsedMs": 1960,
+      "note": ""
+    },
+    {
+      "name": "recovery-disconnect-reconnect-fail-cancel-retain",
+      "status": "pass",
+      "elapsedMs": 3206,
+      "note": ""
+    },
+    {
+      "name": "feedback-problem-down-commits-release-away",
+      "status": "pass",
+      "elapsedMs": 917,
+      "note": ""
+    },
+    {
+      "name": "feedback-corrected-pressed-release-away-aborts",
+      "status": "pass",
+      "elapsedMs": 184,
+      "note": ""
+    },
+    {
+      "name": "feedback-selection-keyboard-pending-success-and-repeat",
+      "status": "pass",
+      "elapsedMs": 1464,
+      "note": ""
+    },
+    {
+      "name": "feedback-failure-retry-cancel-stale-and-motion",
+      "status": "pass",
+      "elapsedMs": 2574,
+      "note": ""
+    },
+    {
+      "name": "feedback-system-reduced-motion-and-sensory-attempts",
+      "status": "pass",
+      "elapsedMs": 930,
+      "note": "API scheduling/unsupported path observed; hearing and physical sensation unverified."
+    },
+    {
+      "name": "mode-lab-switch-invalidates-pending-and-nav-keyboard",
+      "status": "pass",
+      "elapsedMs": 900,
+      "note": ""
+    },
+    {
+      "name": "render-input-1165x747",
+      "status": "pass",
+      "elapsedMs": 296,
+      "note": ""
+    },
+    {
+      "name": "render-overload-1165x747",
+      "status": "pass",
+      "elapsedMs": 354,
+      "note": ""
+    },
+    {
+      "name": "render-decisions-1165x747",
+      "status": "pass",
+      "elapsedMs": 377,
+      "note": ""
+    },
+    {
+      "name": "render-adaptation-1165x747",
+      "status": "pass",
+      "elapsedMs": 371,
+      "note": ""
+    },
+    {
+      "name": "render-recovery-1165x747",
+      "status": "pass",
+      "elapsedMs": 1071,
+      "note": ""
+    },
+    {
+      "name": "render-feedback-1165x747",
+      "status": "pass",
+      "elapsedMs": 1111,
+      "note": ""
+    },
+    {
+      "name": "render-input-768x900",
+      "status": "pass",
+      "elapsedMs": 44,
+      "note": ""
+    },
+    {
+      "name": "render-overload-768x900",
+      "status": "pass",
+      "elapsedMs": 80,
+      "note": ""
+    },
+    {
+      "name": "render-decisions-768x900",
+      "status": "pass",
+      "elapsedMs": 97,
+      "note": ""
+    },
+    {
+      "name": "render-adaptation-768x900",
+      "status": "pass",
+      "elapsedMs": 70,
+      "note": ""
+    },
+    {
+      "name": "render-recovery-768x900",
+      "status": "pass",
+      "elapsedMs": 797,
+      "note": ""
+    },
+    {
+      "name": "render-feedback-768x900",
+      "status": "pass",
+      "elapsedMs": 843,
+      "note": ""
+    },
+    {
+      "name": "render-input-390x844",
+      "status": "pass",
+      "elapsedMs": 273,
+      "note": ""
+    },
+    {
+      "name": "render-overload-390x844",
+      "status": "pass",
+      "elapsedMs": 322,
+      "note": ""
+    },
+    {
+      "name": "render-decisions-390x844",
+      "status": "pass",
+      "elapsedMs": 323,
+      "note": ""
+    },
+    {
+      "name": "render-adaptation-390x844",
+      "status": "pass",
+      "elapsedMs": 312,
+      "note": ""
+    },
+    {
+      "name": "render-recovery-390x844",
+      "status": "pass",
+      "elapsedMs": 1009,
+      "note": ""
+    },
+    {
+      "name": "render-feedback-390x844",
+      "status": "pass",
+      "elapsedMs": 1066,
+      "note": ""
+    },
+    {
+      "name": "render-input-844x390",
+      "status": "pass",
+      "elapsedMs": 154,
+      "note": ""
+    },
+    {
+      "name": "render-overload-844x390",
+      "status": "pass",
+      "elapsedMs": 174,
+      "note": ""
+    },
+    {
+      "name": "render-decisions-844x390",
+      "status": "pass",
+      "elapsedMs": 196,
+      "note": ""
+    },
+    {
+      "name": "render-adaptation-844x390",
+      "status": "pass",
+      "elapsedMs": 179,
+      "note": ""
+    },
+    {
+      "name": "render-recovery-844x390",
+      "status": "pass",
+      "elapsedMs": 897,
+      "note": ""
+    },
+    {
+      "name": "render-feedback-844x390",
+      "status": "pass",
+      "elapsedMs": 892,
+      "note": ""
+    },
+    {
+      "name": "render-input-320x720",
+      "status": "pass",
+      "elapsedMs": 146,
+      "note": ""
+    },
+    {
+      "name": "render-overload-320x720",
+      "status": "pass",
+      "elapsedMs": 154,
+      "note": ""
+    },
+    {
+      "name": "render-decisions-320x720",
+      "status": "pass",
+      "elapsedMs": 220,
+      "note": ""
+    },
+    {
+      "name": "render-adaptation-320x720",
+      "status": "pass",
+      "elapsedMs": 176,
+      "note": ""
+    },
+    {
+      "name": "render-recovery-320x720",
+      "status": "pass",
+      "elapsedMs": 876,
+      "note": ""
+    },
+    {
+      "name": "render-feedback-320x720",
+      "status": "pass",
+      "elapsedMs": 905,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-input-1165",
+      "status": "pass",
+      "elapsedMs": 261,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-overload-1165",
+      "status": "pass",
+      "elapsedMs": 296,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-decisions-1165",
+      "status": "pass",
+      "elapsedMs": 287,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-adaptation-1165",
+      "status": "pass",
+      "elapsedMs": 294,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-recovery-1165",
+      "status": "pass",
+      "elapsedMs": 1027,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-feedback-1165",
+      "status": "pass",
+      "elapsedMs": 1051,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-input-390",
+      "status": "pass",
+      "elapsedMs": 231,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-overload-390",
+      "status": "pass",
+      "elapsedMs": 290,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-decisions-390",
+      "status": "pass",
+      "elapsedMs": 277,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-adaptation-390",
+      "status": "pass",
+      "elapsedMs": 284,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-recovery-390",
+      "status": "pass",
+      "elapsedMs": 990,
+      "note": ""
+    },
+    {
+      "name": "problem-capture-feedback-390",
+      "status": "pass",
+      "elapsedMs": 1049,
+      "note": ""
+    },
+    {
+      "name": "touch-emulation-critical-paths",
+      "status": "pass",
+      "elapsedMs": 1214,
+      "note": "Chromium touch emulation, not a physical phone or haptic test."
+    },
+    {
+      "name": "local-links-source-bytes-and-console",
+      "status": "pass",
+      "elapsedMs": 341,
+      "note": ""
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "No physical phone/touch/controller/haptic or hearing verification",
+    "No native software keyboard, safe-area, IME, speech input or screen-reader run",
+    "No true browser zoom; explicit CSS 200% text model only",
+    "No Godot/Unreal engine runtime",
+    "No real network/backend/purchase/authentication or durable-save service",
+    "No human usability study, causal effect, design acceptance or publication",
+    "No commit/push, plugin install or Site change"
+  ]
+}

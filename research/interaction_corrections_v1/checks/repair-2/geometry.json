@@ -1,0 +1,946 @@
+[
+  {
+    "label": "adaptation-rotated",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 44
+      },
+      {
+        "id": "restore-editor",
+        "height": 44
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "adaptation-200-long-keyboard",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 61.1875
+      },
+      {
+        "id": "restore-editor",
+        "height": 61.1875
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "input-1165",
+    "width": 1165,
+    "height": 747,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 1101
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "attack",
+        "height": 44
+      },
+      {
+        "id": "purchase",
+        "height": 44
+      },
+      {
+        "id": "open-notice",
+        "height": 44
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "overload-1165",
+    "width": 1165,
+    "height": 747,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 1101
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "ack-hazard",
+        "height": 44
+      },
+      {
+        "id": "claim-rewards",
+        "height": 44
+      },
+      {
+        "id": "toggle-chat",
+        "height": 44
+      },
+      {
+        "id": "burst",
+        "height": 44
+      },
+      {
+        "id": "advance-clock",
+        "height": 44
+      }
+    ],
+    "focus": "burst"
+  },
+  {
+    "label": "decisions-1165",
+    "width": 1165,
+    "height": 747,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 1101
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "inspect-reed",
+        "height": 64
+      },
+      {
+        "id": "inspect-iron",
+        "height": 64
+      },
+      {
+        "id": "inspect-crafted",
+        "height": 64
+      },
+      {
+        "id": "craft",
+        "height": 44
+      },
+      {
+        "id": "gather-ore",
+        "height": 44
+      },
+      {
+        "id": "toggle-shop",
+        "height": 44
+      },
+      {
+        "id": "shop-reed",
+        "height": 44
+      },
+      {
+        "id": "shop-iron",
+        "height": 44
+      },
+      {
+        "id": "shop-solar",
+        "height": 44
+      },
+      {
+        "id": "shop-charm",
+        "height": 44
+      }
+    ],
+    "focus": "toggle-shop"
+  },
+  {
+    "label": "adaptation-1165",
+    "width": 1165,
+    "height": 747,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 1101
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 44
+      },
+      {
+        "id": "restore-editor",
+        "height": 44
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "recovery-1165",
+    "width": 1165,
+    "height": 747,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 1101
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "disconnect",
+        "height": 44
+      },
+      {
+        "id": "search",
+        "height": 44
+      },
+      {
+        "id": "save",
+        "height": 44
+      }
+    ],
+    "focus": "survey-draft"
+  },
+  {
+    "label": "feedback-1165",
+    "width": 1165,
+    "height": 747,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 1101
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "calibrate",
+        "height": 58
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "input-768",
+    "width": 768,
+    "height": 900,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 20,
+      "width": 728
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "attack",
+        "height": 44
+      },
+      {
+        "id": "purchase",
+        "height": 44
+      },
+      {
+        "id": "open-notice",
+        "height": 44
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "overload-768",
+    "width": 768,
+    "height": 900,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 20,
+      "width": 728
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "ack-hazard",
+        "height": 44
+      },
+      {
+        "id": "claim-rewards",
+        "height": 44
+      },
+      {
+        "id": "toggle-chat",
+        "height": 44
+      },
+      {
+        "id": "burst",
+        "height": 44
+      },
+      {
+        "id": "advance-clock",
+        "height": 44
+      }
+    ],
+    "focus": "burst"
+  },
+  {
+    "label": "decisions-768",
+    "width": 768,
+    "height": 900,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 20,
+      "width": 728
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "inspect-reed",
+        "height": 64
+      },
+      {
+        "id": "inspect-iron",
+        "height": 64
+      },
+      {
+        "id": "inspect-crafted",
+        "height": 64
+      },
+      {
+        "id": "craft",
+        "height": 44
+      },
+      {
+        "id": "gather-ore",
+        "height": 44
+      },
+      {
+        "id": "toggle-shop",
+        "height": 44
+      },
+      {
+        "id": "shop-reed",
+        "height": 44
+      },
+      {
+        "id": "shop-iron",
+        "height": 44
+      },
+      {
+        "id": "shop-solar",
+        "height": 44
+      },
+      {
+        "id": "shop-charm",
+        "height": 44
+      }
+    ],
+    "focus": "toggle-shop"
+  },
+  {
+    "label": "adaptation-768",
+    "width": 768,
+    "height": 900,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 20,
+      "width": 728
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 44
+      },
+      {
+        "id": "restore-editor",
+        "height": 44
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "recovery-768",
+    "width": 768,
+    "height": 900,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 20,
+      "width": 728
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "disconnect",
+        "height": 44
+      },
+      {
+        "id": "search",
+        "height": 44
+      },
+      {
+        "id": "save",
+        "height": 44
+      }
+    ],
+    "focus": "survey-draft"
+  },
+  {
+    "label": "feedback-768",
+    "width": 768,
+    "height": 900,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 20,
+      "width": 728
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "calibrate",
+        "height": 58
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "input-390",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "attack",
+        "height": 44
+      },
+      {
+        "id": "purchase",
+        "height": 44
+      },
+      {
+        "id": "open-notice",
+        "height": 44
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "overload-390",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "ack-hazard",
+        "height": 44
+      },
+      {
+        "id": "claim-rewards",
+        "height": 44
+      },
+      {
+        "id": "toggle-chat",
+        "height": 44
+      },
+      {
+        "id": "burst",
+        "height": 44
+      },
+      {
+        "id": "advance-clock",
+        "height": 44
+      }
+    ],
+    "focus": "burst"
+  },
+  {
+    "label": "decisions-390",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "inspect-reed",
+        "height": 60
+      },
+      {
+        "id": "inspect-iron",
+        "height": 60
+      },
+      {
+        "id": "inspect-crafted",
+        "height": 60
+      },
+      {
+        "id": "craft",
+        "height": 44
+      },
+      {
+        "id": "gather-ore",
+        "height": 44
+      },
+      {
+        "id": "toggle-shop",
+        "height": 61.1875
+      },
+      {
+        "id": "shop-reed",
+        "height": 44
+      },
+      {
+        "id": "shop-iron",
+        "height": 44
+      },
+      {
+        "id": "shop-solar",
+        "height": 44
+      },
+      {
+        "id": "shop-charm",
+        "height": 44
+      }
+    ],
+    "focus": "toggle-shop"
+  },
+  {
+    "label": "adaptation-390",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 44
+      },
+      {
+        "id": "restore-editor",
+        "height": 44
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "recovery-390",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "disconnect",
+        "height": 44
+      },
+      {
+        "id": "search",
+        "height": 44
+      },
+      {
+        "id": "save",
+        "height": 44
+      }
+    ],
+    "focus": "survey-draft"
+  },
+  {
+    "label": "feedback-390",
+    "width": 390,
+    "height": 844,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 362
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "calibrate",
+        "height": 58
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "input-844",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "attack",
+        "height": 44
+      },
+      {
+        "id": "purchase",
+        "height": 44
+      },
+      {
+        "id": "open-notice",
+        "height": 44
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "overload-844",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "ack-hazard",
+        "height": 44
+      },
+      {
+        "id": "claim-rewards",
+        "height": 44
+      },
+      {
+        "id": "toggle-chat",
+        "height": 44
+      },
+      {
+        "id": "burst",
+        "height": 44
+      },
+      {
+        "id": "advance-clock",
+        "height": 44
+      }
+    ],
+    "focus": "burst"
+  },
+  {
+    "label": "decisions-844",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "inspect-reed",
+        "height": 64
+      },
+      {
+        "id": "inspect-iron",
+        "height": 64
+      },
+      {
+        "id": "inspect-crafted",
+        "height": 64
+      },
+      {
+        "id": "craft",
+        "height": 44
+      },
+      {
+        "id": "gather-ore",
+        "height": 44
+      },
+      {
+        "id": "toggle-shop",
+        "height": 44
+      },
+      {
+        "id": "shop-reed",
+        "height": 44
+      },
+      {
+        "id": "shop-iron",
+        "height": 44
+      },
+      {
+        "id": "shop-solar",
+        "height": 44
+      },
+      {
+        "id": "shop-charm",
+        "height": 44
+      }
+    ],
+    "focus": "toggle-shop"
+  },
+  {
+    "label": "adaptation-844",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 44
+      },
+      {
+        "id": "restore-editor",
+        "height": 44
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "recovery-844",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "disconnect",
+        "height": 44
+      },
+      {
+        "id": "search",
+        "height": 44
+      },
+      {
+        "id": "save",
+        "height": 44
+      }
+    ],
+    "focus": "survey-draft"
+  },
+  {
+    "label": "feedback-844",
+    "width": 844,
+    "height": 390,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 32,
+      "width": 780
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "calibrate",
+        "height": 58
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "input-320",
+    "width": 320,
+    "height": 720,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 292
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "attack",
+        "height": 44
+      },
+      {
+        "id": "purchase",
+        "height": 44
+      },
+      {
+        "id": "open-notice",
+        "height": 44
+      }
+    ],
+    "focus": ""
+  },
+  {
+    "label": "overload-320",
+    "width": 320,
+    "height": 720,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 292
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "ack-hazard",
+        "height": 44
+      },
+      {
+        "id": "claim-rewards",
+        "height": 44
+      },
+      {
+        "id": "toggle-chat",
+        "height": 44
+      },
+      {
+        "id": "burst",
+        "height": 44
+      },
+      {
+        "id": "advance-clock",
+        "height": 44
+      }
+    ],
+    "focus": "burst"
+  },
+  {
+    "label": "decisions-320",
+    "width": 320,
+    "height": 720,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 292
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "inspect-reed",
+        "height": 60
+      },
+      {
+        "id": "inspect-iron",
+        "height": 60
+      },
+      {
+        "id": "inspect-crafted",
+        "height": 60
+      },
+      {
+        "id": "craft",
+        "height": 44
+      },
+      {
+        "id": "gather-ore",
+        "height": 44
+      },
+      {
+        "id": "toggle-shop",
+        "height": 61.1875
+      },
+      {
+        "id": "shop-reed",
+        "height": 44
+      },
+      {
+        "id": "shop-iron",
+        "height": 44
+      },
+      {
+        "id": "shop-solar",
+        "height": 54.6875
+      },
+      {
+        "id": "shop-charm",
+        "height": 54.6875
+      }
+    ],
+    "focus": "toggle-shop"
+  },
+  {
+    "label": "adaptation-320",
+    "width": 320,
+    "height": 720,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 292
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "review-dispatch",
+        "height": 44
+      },
+      {
+        "id": "restore-editor",
+        "height": 44
+      }
+    ],
+    "focus": "dispatch-note"
+  },
+  {
+    "label": "recovery-320",
+    "width": 320,
+    "height": 720,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 292
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "disconnect",
+        "height": 44
+      },
+      {
+        "id": "search",
+        "height": 44
+      },
+      {
+        "id": "save",
+        "height": 44
+      }
+    ],
+    "focus": "survey-draft"
+  },
+  {
+    "label": "feedback-320",
+    "width": 320,
+    "height": 720,
+    "pageOverflow": 0,
+    "specimen": {
+      "x": 14,
+      "width": 292
+    },
+    "outside": [],
+    "targets": [
+      {
+        "id": "calibrate",
+        "height": 58
+      }
+    ],
+    "focus": ""
+  }
+]

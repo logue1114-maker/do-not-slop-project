@@ -1,0 +1,17 @@
+{
+  "status": "interrupted-harness-error",
+  "completeVerdict": false,
+  "reason": "Hash-only page.goto navigation reused previous lab and mode. Subsequent missing-element and stale-state checks were invalid; run interrupted through stdin Ctrl+C.",
+  "preserved": "Original source snapshot and actual failure screenshots remain in this directory and captures/initial.",
+  "knownObservedErrors": [
+    "Corrected modal test was still in previous Problem implementation",
+    "Radio note held apap instead of fresh ap",
+    "Subsequent lab selectors missing because lab was not reloaded"
+  ],
+  "counts": {
+    "passed": null,
+    "failed": null,
+    "unrun": null
+  },
+  "limits": "No complete results/trace/capture manifest was emitted before interruption. Do not infer execution or success for remaining tests."
+}

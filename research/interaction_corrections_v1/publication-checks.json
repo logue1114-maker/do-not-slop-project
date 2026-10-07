@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-07T13:28:04.090Z",
+  "integrationBase": "24e2fd2fcd8a0163b3560239b071a48d1188d7c8",
+  "scope": "Additive original package plus README.md/docs/RESEARCH_INDEX.md navigation",
+  "results": [
+    {
+      "name": "changed-tracked-scope-only-package-and-two-navigation-files",
+      "status": "pass"
+    },
+    {
+      "name": "new-readme-gallery-and-index-links-resolve",
+      "status": "pass"
+    },
+    {
+      "name": "runtime-bytes-still-equal-73-scenario-authority",
+      "status": "pass"
+    },
+    {
+      "name": "bounded-secret-machine-path-and-conversation-id-scan",
+      "status": "pass"
+    },
+    {
+      "name": "no-new-runtime-external-media-or-font-fetch",
+      "status": "pass"
+    }
+  ],
+  "navigation": {
+    "README.md": {
+      "workspaceSha256": "09848fc754272ee113ff16ea50b2c7a684ef34b8f02b35b03cc715cfef5f2f07",
+      "canonicalLfSha256": "2c6597135af00a079911496021f2690e02c69156cc6afaa398d3076046f7fbd1"
+    },
+    "docs/RESEARCH_INDEX.md": {
+      "workspaceSha256": "a03af1eeb2d813a9539b016d6b7b1a2c352ae9902bf4de2f9d50946c43be3b2c",
+      "canonicalLfSha256": "b5ae46e3abb844b6b1bbdad57cf5265b59fc3db716aab027eaff64a8195a80c6"
+    }
+  },
+  "unrun": [
+    "Remote Git/HTTP receipt occurs separately after push",
+    "No native/sensory/engine/user-study check is implied by these package tests"
+  ],
+  "scanLimits": "Bounded patterns and runtime asset references only; not a legal/privacy certification."
+}

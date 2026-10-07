@@ -1,0 +1,6460 @@
+[
+  {
+    "file": "captures/repair-2/input-problem-dismiss.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "9963a7a0e12e47c9b17f5e68c3a63cf4f280f799dcfd0ab94f90f7e3baae612f",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "problem",
+      "state": {
+        "attack": 1,
+        "purchases": 1,
+        "dismissTarget": "purchases",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "bubbled dismiss",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "open-notice",
+      "modal": false,
+      "trace": [
+        {
+          "at": 34,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 212,
+          "lab": "input",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 242,
+          "lab": "input",
+          "mode": "problem",
+          "action": "activate",
+          "id": "open-notice"
+        },
+        {
+          "at": 310,
+          "lab": "input",
+          "mode": "problem",
+          "action": "status",
+          "text": "Attack recorded · bubbled dismiss."
+        },
+        {
+          "at": 310,
+          "lab": "input",
+          "mode": "problem",
+          "action": "world-action",
+          "which": "attack",
+          "cause": "bubbled dismiss",
+          "attack": 1,
+          "purchases": 0
+        },
+        {
+          "at": 310,
+          "lab": "input",
+          "mode": "problem",
+          "action": "activate",
+          "id": "fault-dismiss"
+        },
+        {
+          "at": 354,
+          "lab": "input",
+          "mode": "problem",
+          "action": "activate",
+          "id": "open-notice"
+        },
+        {
+          "at": 391,
+          "lab": "input",
+          "mode": "problem",
+          "action": "status",
+          "text": "Demo purchase recorded · bubbled dismiss."
+        },
+        {
+          "at": 391,
+          "lab": "input",
+          "mode": "problem",
+          "action": "world-action",
+          "which": "purchases",
+          "cause": "bubbled dismiss",
+          "attack": 1,
+          "purchases": 1
+        },
+        {
+          "at": 391,
+          "lab": "input",
+          "mode": "problem",
+          "action": "activate",
+          "id": "fault-dismiss"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-rearmed.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "e3fb08c155afb23493758ef2eb6de237ee4feea42ff12f0d164da00045546dda",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 2,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "polled held A",
+        "polling": true,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 2
+      },
+      "focus": "arena",
+      "modal": false,
+      "trace": [
+        {
+          "at": 19,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 221,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Attack recorded · polled held A."
+        },
+        {
+          "at": 221,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "world-action",
+          "which": "attack",
+          "cause": "polled held A",
+          "attack": 1,
+          "purchases": 0
+        },
+        {
+          "at": 348,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "open-notice"
+        },
+        {
+          "at": 350,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "modal-open",
+          "title": "Trail notice",
+          "focus": "modal-dismiss"
+        },
+        {
+          "at": 819,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "modal-close",
+          "canceled": true,
+          "focus": "open-notice"
+        },
+        {
+          "at": 1427,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Attack recorded · polled held A."
+        },
+        {
+          "at": 1427,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "world-action",
+          "which": "attack",
+          "cause": "polled held A",
+          "attack": 2,
+          "purchases": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-problem-burst.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c31c168c7f7c6e92df73a28616ed8dbad181971c8c17e115e05129f1e040318b",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "problem",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 92,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 92,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-expired.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "52578bdaf7341fd2e177472feaeb8ebd688f263f1028f3fb9903b4110429be57",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 6,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "chat",
+        "inviteJoined": false
+      },
+      "focus": "advance-clock",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        },
+        {
+          "at": 97,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 97,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        },
+        {
+          "at": 132,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-chat"
+        },
+        {
+          "at": 167,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "advance-clock"
+        },
+        {
+          "at": 167,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Ambient cue expired; chat in history; quest and rewards retained."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-deadline.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "e4ee55fc906b2e14662fd56db00e457da75761568af4f4a533d6cc062da25a73",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 12,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "chat",
+        "inviteJoined": false
+      },
+      "focus": "advance-clock",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        },
+        {
+          "at": 92,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-chat"
+        },
+        {
+          "at": 124,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "advance-clock"
+        },
+        {
+          "at": 124,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Ambient cue expired; chat in history; quest and rewards retained."
+        },
+        {
+          "at": 161,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "advance-clock"
+        },
+        {
+          "at": 161,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Ambient cue expired; chat in history; quest and rewards retained."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-problem-negative.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "ce6d3e61affa1daed296e1e8f4e2980214cb34d6201d4af80dbe6f3598f2e22d",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "problem",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": -1,
+        "fiber": 0,
+        "crafted": true,
+        "coins": 30,
+        "charm": false,
+        "shop": false
+      },
+      "focus": "equip",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 58,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 95,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 96,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 125,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "activate",
+          "id": "craft"
+        },
+        {
+          "at": 125,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem crafted despite missing ore; stock is negative."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-crafted.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "1050097e4a9850d947595b2d7663bba01ff6f412e2b95f0620182cdb0d9bbbab",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "crafted",
+        "ore": 0,
+        "fiber": 0,
+        "crafted": true,
+        "coins": 30,
+        "charm": false,
+        "shop": false
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 63,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 63,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 102,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "gather-ore"
+        },
+        {
+          "at": 102,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Gathered 1 ore · recipe materials now available."
+        },
+        {
+          "at": 129,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "craft"
+        },
+        {
+          "at": 130,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "✓ Crafted once · 3 ore and 2 fiber consumed."
+        },
+        {
+          "at": 165,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "equip"
+        },
+        {
+          "at": 166,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "✓ Equipped Field dagger; comparison recomputed."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-review.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c0484e583cc16cecc84f7199ece888b4941a904d9353b513dca5c66153a7424d",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "iron",
+        "equipped": "iron",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "modal-cancel",
+      "modal": true,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 54,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        },
+        {
+          "at": 87,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "shop-iron"
+        },
+        {
+          "at": 88,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "✓ Owned item equipped; no currency spent."
+        },
+        {
+          "at": 120,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "shop-charm"
+        },
+        {
+          "at": 122,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "modal-open",
+          "title": "Review demo purchase",
+          "focus": "modal-cancel"
+        },
+        {
+          "at": 125,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "modal-close",
+          "canceled": true,
+          "focus": "shop-charm"
+        },
+        {
+          "at": 153,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "shop-charm"
+        },
+        {
+          "at": 154,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "modal-open",
+          "title": "Review demo purchase",
+          "focus": "modal-cancel"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-problem-clipped.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "5ff76355e0b93a4e5c9f3c348705782e582ab23ffd5eb79bce0e4f1b6988f4b9",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "problem",
+      "state": {
+        "route": "east",
+        "note": "Meet at the north relay.",
+        "keyboard": true,
+        "long": false,
+        "scale": 1,
+        "editing": {
+          "start": 0,
+          "end": 0,
+          "direction": "forward"
+        },
+        "focusLost": 2,
+        "reviews": 0
+      },
+      "focus": "keyboard-model",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 134,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 216,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        },
+        {
+          "at": 217,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-landscape.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "fd7c50c91337a60187639fd4634768a741f1d9167dfed6524e8ab32444d2e0d0",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "west",
+        "note": "Meet at the north relay.",
+        "keyboard": false,
+        "long": false,
+        "scale": 1,
+        "editing": {
+          "start": 0,
+          "end": 24,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-text-keyboard.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "916a68216d24de82160b7bd3259d89a070fc0c6d9490922ec9b60d9f4328e98f",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "west",
+        "note": "Meet at the north relay.",
+        "keyboard": true,
+        "long": true,
+        "scale": 2,
+        "editing": {
+          "start": 0,
+          "end": 24,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-problem-lost.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "472ae993cdf6d9af0e9fb3abfc5a610f26969908a95137094b86d174e9ce8f15",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "problem",
+      "state": {
+        "query": "",
+        "draft": "",
+        "revision": 2,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "idle",
+        "saveStatus": "error",
+        "online": false,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 155,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "activate",
+          "id": "save"
+        },
+        {
+          "at": 155,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Saved! (premature claim in this fault)"
+        },
+        {
+          "at": 155,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-start",
+          "id": 1,
+          "kind": "save",
+          "revision": 1,
+          "draft": "Keep this work.",
+          "query": "",
+          "fail": true,
+          "delay": 700
+        },
+        {
+          "at": 856,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "save failed · draft cleared by the fault."
+        },
+        {
+          "at": 856,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "save",
+          "fail": true,
+          "ackRevision": 0,
+          "draftRevision": 1
+        },
+        {
+          "at": 905,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "activate",
+          "id": "disconnect"
+        },
+        {
+          "at": 906,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Disconnected · problem cleared entered work."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-loading.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "8593ed42bbf6d6b99a48d0d2699a4b4e0a3dcd93a8dd6f683e459cd6ad7eb279",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "",
+        "revision": 0,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "pending",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": {
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 71,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 71,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 71,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-empty.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "a48b918ad40df647e4c03a750d1ca7c6b3d6d051b63030c0da8bbdd6574f9a21",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "",
+        "revision": 0,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 71,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 71,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 71,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 776,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 776,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-failed-save.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "89572c5164d07a0040a9fdb7e3e1305d2140b57d7754096820d3ee88a9f99ea3",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "",
+        "draft": "Revision one.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "idle",
+        "saveStatus": "error",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 93,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "save"
+        },
+        {
+          "at": 93,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Saving revision 1 · request 1."
+        },
+        {
+          "at": 93,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "save",
+          "revision": 1,
+          "draft": "Revision one.",
+          "query": "",
+          "fail": true,
+          "delay": 700
+        },
+        {
+          "at": 803,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "save failed · entered work retained; retry when ready."
+        },
+        {
+          "at": 803,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "save",
+          "fail": true,
+          "ackRevision": 0,
+          "draftRevision": 1
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-out-of-order.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "47c9aa6745be1ff6f625f80967ac93ec6cb4784547eb1df620f069ef6718e9ef",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "",
+        "draft": "Newer draft.",
+        "revision": 2,
+        "ackRevision": 2,
+        "ackDraft": "Newer draft.",
+        "selected": null,
+        "results": [],
+        "searchStatus": "idle",
+        "saveStatus": "success",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 2,
+        "pending": null,
+        "requests": 2,
+        "ignored": 1,
+        "ackRequest": 2
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 111,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "save"
+        },
+        {
+          "at": 111,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Saving revision 1 · request 1."
+        },
+        {
+          "at": 111,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "save",
+          "revision": 1,
+          "draft": "Older draft.",
+          "query": "",
+          "fail": false,
+          "delay": 1600
+        },
+        {
+          "at": 147,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "cancel-request"
+        },
+        {
+          "at": 147,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Canceled request 1; entered work retained. Late completion is ignored."
+        },
+        {
+          "at": 147,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-cancel",
+          "id": 1
+        },
+        {
+          "at": 178,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "save"
+        },
+        {
+          "at": 178,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Saving revision 2 · request 2."
+        },
+        {
+          "at": 178,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 2,
+          "kind": "save",
+          "revision": 2,
+          "draft": "Newer draft.",
+          "query": "",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 878,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "✓ Local snapshot acknowledged · revision 2."
+        },
+        {
+          "at": 878,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 2,
+          "kind": "save",
+          "fail": false,
+          "ackRevision": 2,
+          "draftRevision": 2
+        },
+        {
+          "at": 1715,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "late-response-ignored",
+          "id": 1,
+          "revision": 1
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-problem-premature.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "c185fdacc08940b4a7a1c5a2a1eb993f368ad5a0aac144ac9ccd2bcb590c6353",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "problem",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 1,
+        "failures": 0,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 112
+          },
+          {
+            "name": "Activation accepted",
+            "at": 113,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Pointer released",
+            "at": 130
+          },
+          {
+            "name": "Success acknowledged",
+            "at": 823,
+            "id": 1,
+            "elapsed": 711
+          }
+        ],
+        "outcome": "success",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "calibrate",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 62,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 112,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 113,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 113,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "✓ Completed! (before a result exists)"
+        },
+        {
+          "at": 130,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer released"
+        },
+        {
+          "at": 823,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Success acknowledged",
+          "id": 1,
+          "elapsed": 711
+        },
+        {
+          "at": 824,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "✓ Beacon calibrated · amber channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-pressed.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "1c1835e266bc3322ce492d40515d839e6eaf0b66ebfcb7cffb152222d2beaf1c",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 0,
+        "requests": 0,
+        "successes": 0,
+        "failures": 0,
+        "pressed": true,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 77
+          }
+        ],
+        "outcome": "idle",
+        "sensory": "Audio and haptics off. Text and symbols always remain."
+      },
+      "focus": "calibrate",
+      "modal": false,
+      "trace": [
+        {
+          "at": 14,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 77,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-failure.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "64d123c238492d53bf30540a8480998fad21eaf0e9e2d34d640c00ee4684aaa5",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 99
+          },
+          {
+            "name": "Pointer released",
+            "at": 100
+          },
+          {
+            "name": "Activation accepted",
+            "at": 100,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 802,
+            "id": 1,
+            "elapsed": 701
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 99,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 802,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 701
+        },
+        {
+          "at": 802,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-reduced.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "026ee34f64a67598e27f4b517c553f80db5f9e5713f8236cba30151c13e49332",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 3,
+        "requests": 3,
+        "successes": 1,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": true,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Activation accepted",
+            "at": 931,
+            "id": 2,
+            "channel": "amber"
+          },
+          {
+            "name": "Canceled",
+            "at": 933,
+            "id": 2
+          },
+          {
+            "name": "Late response ignored",
+            "at": 1635,
+            "id": 2
+          },
+          {
+            "name": "Pointer pressed",
+            "at": 1748
+          },
+          {
+            "name": "Pointer released",
+            "at": 1749
+          },
+          {
+            "name": "Activation accepted",
+            "at": 1749,
+            "id": 3,
+            "channel": "amber"
+          },
+          {
+            "name": "Success acknowledged",
+            "at": 2461,
+            "id": 3,
+            "elapsed": 712
+          }
+        ],
+        "outcome": "success",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 99,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 100,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 802,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 701
+        },
+        {
+          "at": 802,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        },
+        {
+          "at": 930,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 931,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 931,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 931,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 2,
+          "channel": "amber"
+        },
+        {
+          "at": 931,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 933,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "cancel-calibrate"
+        },
+        {
+          "at": 933,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Canceled",
+          "id": 2
+        },
+        {
+          "at": 933,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Canceled; selected channel retained; late response ignored."
+        },
+        {
+          "at": 1635,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Late response ignored",
+          "id": 2
+        },
+        {
+          "at": 1748,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 1749,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 1749,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 1749,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 3,
+          "channel": "amber"
+        },
+        {
+          "at": 1749,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 2461,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Success acknowledged",
+          "id": 3,
+          "elapsed": 712
+        },
+        {
+          "at": 2461,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "✓ Beacon calibrated · amber channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "b75b512dfa0e03358616eb3588e99e6c10b2560b780f624569ba96cad1428046",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "58a518292b68d05ae7f6cfd67e1ab08e904c55792d70912002c615b9b6d46143",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-viewport-1165x747.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "955e91685558a0fc2fe3d0b1386dab7e340a7502a7bd3b6e269bd4ecc0aa1eb2",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "642379613c9e560d12303b04d0249ee705a4e412213a2037a766d069b8a56aab",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "a7b67811dfdf0bca29e7f149be83dcca027ef6014ee488923e2a40acd8af9de2",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-viewport-1165x747.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "54ce562c7c759d12dd32ac39da98168ae1bb4ba13225d0607994686b66c89610",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 64,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "d40147365424f7f44854321800697d637cede38650427e82dc76ba9f60b5f17b",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 63,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 64,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 93,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "7b825e00f6f16462f8aa187b295383bdfdb3215930c90bab7bbe255448c40ed7",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 63,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 64,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 93,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-viewport-1165x747.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "1d2a0aebc1903530508ea0c016c439318d58842bbee16de1f256178a33ed1cfb",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 63,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 64,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 93,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "250542df11ab26ee50f5e4ff3f230c310e8466003bf59fbfe0e86e6fb371916b",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "8de13aafa29aa3161d980832ce496b40a940e99c25452628ecd16e9611d6c8f8",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-viewport-1165x747.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "5d7545fe5c0b5e2908b97c538effb9a4edb6b6d3c791c98370a908b0dedad710",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "8c3d5bec5905e0209a277fd4b07146daa3dc059c72722d47dd8aa1e253c3a61f",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 767,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 767,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "0aa1ce6455edf8980985c9389f3d08bbbaa497e28f8eb3eed8eefc71ffa8fa82",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 767,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 767,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-viewport-1165x747.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "754f4450ea2b834ebbb2d4025f8c1d41ed5a209592b021af4aaffdda40971364",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 65,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 767,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 767,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "3e9fa0244f551fe85cf7ccb4d999f07fdd0d2b41fc66d99d19e9a6012cdc17d1",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 107
+          },
+          {
+            "name": "Pointer released",
+            "at": 108
+          },
+          {
+            "name": "Activation accepted",
+            "at": 108,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 812,
+            "id": 1,
+            "elapsed": 703
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 107,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 812,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 703
+        },
+        {
+          "at": 812,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "07bf7df1adeedd5a4eaf74c394ec88fe6c16c8a538cd69a9b63dbc8c3a4b1978",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 107
+          },
+          {
+            "name": "Pointer released",
+            "at": 108
+          },
+          {
+            "name": "Activation accepted",
+            "at": 108,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 812,
+            "id": 1,
+            "elapsed": 703
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 107,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 812,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 703
+        },
+        {
+          "at": 812,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-viewport-1165x747.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "9d1f80c342f698d5cabac5d7bbd01d7db32e515cc0c79793eb3f3476cd2a5edd",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 107
+          },
+          {
+            "name": "Pointer released",
+            "at": 108
+          },
+          {
+            "name": "Activation accepted",
+            "at": 108,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 812,
+            "id": 1,
+            "elapsed": 703
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 107,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 108,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 812,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 703
+        },
+        {
+          "at": 812,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "5ef57128ad2d31e8301a77f0d299c0155d6ae28875c04a5e5db8a1332a35dc83",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "95aac39868e80913ff775774709c7f74c89bca1154f0daa27092c5d032d425b5",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-viewport-390x844.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "54bed85b2430242d4a1ee9d0608a06ede944d1cd4b1e100077e1c4279b5ceecf",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "bd7a9de2d78959103c14951dbd29cd3f2bd95d5e0153b07de7787a9d3be2ffbc",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "64a961566465b36fd5260e80a83463723e8ff230f80e3a5c773233e67dd39f02",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-viewport-390x844.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "7e32de46b192942f73cd39eba131379927ad728c229287584fa7272c4c4623cf",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "037c82561f78221784257ff143467e45e97e9b6d30846f895e11a34e5f7f0a90",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 20,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 78,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 78,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "99b12110db836f44df52fbb71964472663f370d1d777bd2e28d7a5c862080fc6",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 20,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 78,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 78,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-viewport-390x844.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "0146ab213fdd38a1d92ca17248c9501391ea22ffc191f50746d75fd51bc0b7aa",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 20,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 78,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 78,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "eb4fd46660194f13690da07dd424788dd5bed74b3d263bfb0fcdc1b3e9952547",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "9c42d0bd86961d3ae4e58577e3094f4336eb617fe95cff213fda4355f58680d0",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-viewport-390x844.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "a2040c7c781c95449cbd3d60b5cbb151b05b1d72b238ee7f67d99d100b5446dd",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "88c1ac51bfb8d0c9f2f5cc82e2be4f5da87a8b57ced5a85c84aee069d87007aa",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "4bdeb6bb7be845f83362f52fea1524f020c83a25d599ec022d1a51ef513d52cc",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-viewport-390x844.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "a9503a14dedcb4097aabb75b0d07ec355552606baefeb9b0445cc706b7e736e5",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 73,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "99336470dbc251190141e4344eb883fde01f208fdf9ed680800f2ab1237b6533",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 95
+          },
+          {
+            "name": "Pointer released",
+            "at": 96
+          },
+          {
+            "name": "Activation accepted",
+            "at": 96,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 801,
+            "id": 1,
+            "elapsed": 705
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 95,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 801,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 705
+        },
+        {
+          "at": 801,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "a81a99ee48d92b91afb247c18c0681acc915ccdfe0d6c827b6bac06683783419",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 95
+          },
+          {
+            "name": "Pointer released",
+            "at": 96
+          },
+          {
+            "name": "Activation accepted",
+            "at": 96,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 801,
+            "id": 1,
+            "elapsed": 705
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 95,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 801,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 705
+        },
+        {
+          "at": 801,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-viewport-390x844.png",
+    "kind": "viewport",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "f44c3ef95fb5bb03974a5e7c16c659fb6eb9456fc77c515619731ef433f2fec3",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 95
+          },
+          {
+            "name": "Pointer released",
+            "at": 96
+          },
+          {
+            "name": "Activation accepted",
+            "at": 96,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 801,
+            "id": 1,
+            "elapsed": 705
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 95,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 801,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 705
+        },
+        {
+          "at": 801,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-844x390.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "b94c30f068eada270e14bca347ba600941057d74890f4c1471335c56fa700fae",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 19,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-844x390.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "9be8855c8a1864bfe0fbc45a947c8e05b6c5608852297cbd68b69bb6bd1ee86e",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 73,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 73,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-844x390.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "250f7aba13b58f01c09ae8d070b553853f411808dde10d1db0c2b50393430c54",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 68,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 68,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 101,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-844x390.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "cd45a9affb78aa7803d5d622e2e8879b951c6cfa7a1d1c3e634ef6acf1d779b5",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 14,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-844x390.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "31ae1586bff4950e5807e21abb5e2a2205b8c0dd91e3ab917d6cd8d8132e883d",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 74,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 74,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 74,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 785,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 785,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-844x390.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "sha256": "4b5b705c0c7c65440260d0184162e15e9de039a03f3f7faf9922ce3928836dfa",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 96
+          },
+          {
+            "name": "Pointer released",
+            "at": 96
+          },
+          {
+            "name": "Activation accepted",
+            "at": 96,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 809,
+            "id": 1,
+            "elapsed": 713
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 17,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 96,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 809,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 713
+        },
+        {
+          "at": 810,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-corrected-320x720.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "sha256": "45943884256c680c400fff347875f172041aa6a128f1c67963df103a2d67346a",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "corrected",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-corrected-320x720.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "sha256": "6d7b479228fe221c225ff0c1d59d944483ef6094d40bcc22a0642153a35b24bc",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "corrected",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 60,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-corrected-320x720.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "sha256": "ff33cdfa590a0983464b247aa8f71aa48864618d80ab351172360f07f4367ca7",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "corrected",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": true
+      },
+      "focus": "toggle-shop",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 72,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 73,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "toggle-shop"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-corrected-320x720.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "sha256": "8629cd4d31aafe5f12daf8c258470d916a8b7af8cf802bfcc8d23fdcca779232",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "corrected",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 0,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-corrected-320x720.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "sha256": "c21dd7fecb7812dfad6a9358c87f3b060534730ef376b9c1f9d349e8062a5eb0",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "corrected",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 76,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 76,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 76,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "status",
+          "text": "No results for “zzz”. Try relay."
+        },
+        {
+          "at": 781,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-corrected-320x720.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 320,
+      "height": 720
+    },
+    "sha256": "2b08723fdcbb6d5590ee221e4e3508461cdbc817062018df112f9b0f5d0122d7",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "corrected",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 97
+          },
+          {
+            "name": "Pointer released",
+            "at": 98
+          },
+          {
+            "name": "Activation accepted",
+            "at": 98,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 808,
+            "id": 1,
+            "elapsed": 710
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 18,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 97,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 98,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Pointer released"
+        },
+        {
+          "at": 98,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 98,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 98,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "Calibrating amber channel…"
+        },
+        {
+          "at": 808,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 710
+        },
+        {
+          "at": 808,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "status",
+          "text": "! Calibration failed: relay did not answer. Retry keeps your channel."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-problem-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "60864bb2efa74255dccf2ef2e0eba0ccd969cc5ecddf17cc43590dae12378ec2",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "problem",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "problem",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 75,
+          "lab": "input",
+          "mode": "problem",
+          "action": "fixture-reset"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-problem-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "7245175b56e49d7faa9510b9e40b4fdf1ac80cd75ee49f125e14a99db530a3b1",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "problem",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "problem",
+      "modal": false,
+      "trace": [
+        {
+          "at": 13,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 75,
+          "lab": "input",
+          "mode": "problem",
+          "action": "fixture-reset"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-problem-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c31c168c7f7c6e92df73a28616ed8dbad181971c8c17e115e05129f1e040318b",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "problem",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 98,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 99,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-problem-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c837a635130626fc4fc75212849c8dd5908daf2cb66170405ca9641e04f9ed43",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "problem",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 98,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 99,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-problem-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "0730ad9a162f0edc32c1c407625735f8d1613fc014a01f288366388cef759695",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "problem",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": false
+      },
+      "focus": "inspect-crafted",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 69,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 103,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 103,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-problem-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "012fa851ace2eb9fc2dcd0b2cc289fe808c021e2a20b274004e27e7ffc2b3929",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "problem",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": false
+      },
+      "focus": "inspect-crafted",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 69,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 103,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 103,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-problem-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c536eb28e777be816400ff5105ad30213abddfca878311fc08ece75abba5be9f",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "problem",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 1,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 14,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 67,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 98,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-problem-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "0de6c026edd02b7797c4ea929d4916c95121fc87f8c32cee04f997dbe01badb9",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "problem",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 0,
+          "end": 0,
+          "direction": "forward"
+        },
+        "focusLost": 3,
+        "reviews": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 14,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 67,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 98,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        },
+        {
+          "at": 212,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-problem-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "8a8f148131c0773f175d421c921bf769ddd8e9ec4217bc795ceaa7e2606092e9",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "problem",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 58,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 88,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 88,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 88,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 801,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Search finished."
+        },
+        {
+          "at": 801,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-problem-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c19c03dc2350fe39b0847836e0cfd215eff9f726281b35050bafc51b644a973b",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "problem",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 11,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 58,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 88,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 88,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 88,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 801,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Search finished."
+        },
+        {
+          "at": 801,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-problem-1165x747.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "c0ed6db6183b3ad8401e0bb748d8256f2b83eef38b48d7c741e84a762164f76d",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "problem",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 147
+          },
+          {
+            "name": "Activation accepted",
+            "at": 147,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Pointer released",
+            "at": 148
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 847,
+            "id": 1,
+            "elapsed": 701
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "calibrate",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 80,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 147,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 147,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 147,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "✓ Completed! (before a result exists)"
+        },
+        {
+          "at": 148,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer released"
+        },
+        {
+          "at": 847,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 701
+        },
+        {
+          "at": 848,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "Something happened."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-problem-full-1165x747.png",
+    "kind": "full",
+    "viewport": {
+      "width": 1165,
+      "height": 747
+    },
+    "sha256": "addb4ebc3ce69a2efcc229561a10eee9913b586754c6b0a208db159361f59ad2",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "problem",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 147
+          },
+          {
+            "name": "Activation accepted",
+            "at": 147,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Pointer released",
+            "at": 148
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 847,
+            "id": 1,
+            "elapsed": 701
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "calibrate",
+      "modal": false,
+      "trace": [
+        {
+          "at": 16,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 80,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 147,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 147,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 147,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "✓ Completed! (before a result exists)"
+        },
+        {
+          "at": 148,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer released"
+        },
+        {
+          "at": 847,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 701
+        },
+        {
+          "at": 848,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "Something happened."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-problem-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "bf32c5e7129375051480f981da6aa93892a717f5e553cb36defee8d647873d84",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "problem",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "problem",
+      "modal": false,
+      "trace": [
+        {
+          "at": 20,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 76,
+          "lab": "input",
+          "mode": "problem",
+          "action": "fixture-reset"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/input-problem-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "5865364db4fa36ee13d937e9ece74bd97973e05d04d1a8da73528aa4c2234966",
+    "state": {
+      "version": "1.0.0",
+      "lab": "input",
+      "mode": "problem",
+      "state": {
+        "attack": 0,
+        "purchases": 0,
+        "dismissTarget": "attack",
+        "modal": false,
+        "note": "",
+        "owner": "arena",
+        "last": "No input yet",
+        "polling": false,
+        "physicalA": false,
+        "armed": true,
+        "polledFrames": 0
+      },
+      "focus": "problem",
+      "modal": false,
+      "trace": [
+        {
+          "at": 20,
+          "lab": "input",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 76,
+          "lab": "input",
+          "mode": "problem",
+          "action": "fixture-reset"
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-problem-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "0e9f5aef9412c2319a0f10d604557f07972d5d4fe0a1935417dd48f4c4d8370d",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "problem",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 68,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 116,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 116,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/overload-problem-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "3e048265dce2d2522e2fe3fd77a080748339988f326afe7f2d0394a2e0aaae0e",
+    "state": {
+      "version": "1.0.0",
+      "lab": "overload",
+      "mode": "problem",
+      "state": {
+        "delivered": true,
+        "clock": 0,
+        "claimed": false,
+        "shards": 0,
+        "ack": false,
+        "drawer": "",
+        "inviteJoined": false
+      },
+      "focus": "burst",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "overload",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 68,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 116,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "activate",
+          "id": "burst"
+        },
+        {
+          "at": 116,
+          "lab": "overload",
+          "mode": "problem",
+          "action": "status",
+          "text": "Nine notices delivered once · 1 hazard, 1 quest, 3 rewards, 3 chat, 1 ambient cue."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-problem-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "b9558ac58b0bf7b04d2b9e4f27d936ee7c3eff31bb332272bd9cc9b018c05550",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "problem",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": false
+      },
+      "focus": "inspect-crafted",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 72,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/decisions-problem-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "c8869adbaf70c87d056532fe8eaeb2e600a6d6e0165b567e3552d4e04a53d448",
+    "state": {
+      "version": "1.0.0",
+      "lab": "decisions",
+      "mode": "problem",
+      "state": {
+        "selected": "crafted",
+        "equipped": "reed",
+        "ore": 2,
+        "fiber": 2,
+        "crafted": false,
+        "coins": 30,
+        "charm": false,
+        "shop": false
+      },
+      "focus": "inspect-crafted",
+      "modal": false,
+      "trace": [
+        {
+          "at": 15,
+          "lab": "decisions",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 72,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "activate",
+          "id": "inspect-crafted"
+        },
+        {
+          "at": 105,
+          "lab": "decisions",
+          "mode": "problem",
+          "action": "status",
+          "text": "Inspecting Field dagger."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-problem-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "878f739b281ffe7b0d439d2fa56318a46e8fd08731bf9a48232ab10439ecbcaa",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "problem",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 25,
+          "end": 25,
+          "direction": "forward"
+        },
+        "focusLost": 1,
+        "reviews": 0
+      },
+      "focus": "dispatch-note",
+      "modal": false,
+      "trace": [
+        {
+          "at": 14,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 96,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/adaptation-problem-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "5a39681f8a6f9350a21b0003455ed5d8633f7958315c3618806c7160c35af2ff",
+    "state": {
+      "version": "1.0.0",
+      "lab": "adaptation",
+      "mode": "problem",
+      "state": {
+        "route": "east",
+        "note": "A retained dispatch note.",
+        "keyboard": false,
+        "long": true,
+        "scale": 1,
+        "editing": {
+          "start": 0,
+          "end": 0,
+          "direction": "forward"
+        },
+        "focusLost": 3,
+        "reviews": 0
+      },
+      "focus": "",
+      "modal": false,
+      "trace": [
+        {
+          "at": 14,
+          "lab": "adaptation",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 65,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 96,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        },
+        {
+          "at": 225,
+          "lab": "adaptation",
+          "mode": "problem",
+          "action": "status",
+          "text": "Problem rebuilt the editor: route resets; native focus and text selection are lost."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-problem-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "72a66c32f4b57dc816ab65391af0f5ccf15bd64e35f8c5cdd7874dbefd1a097c",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "problem",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 96,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 96,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 96,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 797,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Search finished."
+        },
+        {
+          "at": 797,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/recovery-problem-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "97c14c56181e23eb1a4a8c7329c22f6e597693eeda0af7773c987dcdc7da805d",
+    "state": {
+      "version": "1.0.0",
+      "lab": "recovery",
+      "mode": "problem",
+      "state": {
+        "query": "zzz",
+        "draft": "The entered work stays here.",
+        "revision": 1,
+        "ackRevision": 0,
+        "ackDraft": "",
+        "selected": null,
+        "results": [],
+        "searchStatus": "empty",
+        "saveStatus": "idle",
+        "online": true,
+        "failNext": false,
+        "slowNext": false,
+        "nextId": 1,
+        "pending": null,
+        "requests": 1,
+        "ignored": 0,
+        "ackRequest": null
+      },
+      "focus": "survey-draft",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "recovery",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 64,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 96,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "activate",
+          "id": "search"
+        },
+        {
+          "at": 96,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Searching · request 1."
+        },
+        {
+          "at": 96,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-start",
+          "id": 1,
+          "kind": "search",
+          "revision": 0,
+          "draft": "",
+          "query": "zzz",
+          "fail": false,
+          "delay": 700
+        },
+        {
+          "at": 797,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "status",
+          "text": "Search finished."
+        },
+        {
+          "at": 797,
+          "lab": "recovery",
+          "mode": "problem",
+          "action": "request-resolved",
+          "id": 1,
+          "kind": "search",
+          "fail": false,
+          "ackRevision": 0,
+          "draftRevision": 0
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-problem-390x844.png",
+    "kind": "specimen",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "b6d5e7ed50e613591392fb84c3dddd521d1d5f67b446db4efb529a674860bcdc",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "problem",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 136
+          },
+          {
+            "name": "Activation accepted",
+            "at": 136,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Pointer released",
+            "at": 137
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 847,
+            "id": 1,
+            "elapsed": 711
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "calibrate",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 67,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 136,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 136,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 136,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "✓ Completed! (before a result exists)"
+        },
+        {
+          "at": 137,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer released"
+        },
+        {
+          "at": 137,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 847,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 711
+        },
+        {
+          "at": 847,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "Something happened."
+        }
+      ]
+    }
+  },
+  {
+    "file": "captures/repair-2/feedback-problem-full-390x844.png",
+    "kind": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sha256": "bcc4216060abd81528a44843bd5c4f50da2dd7698ac3410e4d85ab5cf8d82559",
+    "state": {
+      "version": "1.0.0",
+      "lab": "feedback",
+      "mode": "problem",
+      "state": {
+        "channel": "amber",
+        "pending": null,
+        "nextId": 1,
+        "requests": 1,
+        "successes": 0,
+        "failures": 1,
+        "pressed": false,
+        "failNext": false,
+        "reduced": false,
+        "sound": false,
+        "haptic": false,
+        "events": [
+          {
+            "name": "Pointer pressed",
+            "at": 136
+          },
+          {
+            "name": "Activation accepted",
+            "at": 136,
+            "id": 1,
+            "channel": "amber"
+          },
+          {
+            "name": "Pointer released",
+            "at": 137
+          },
+          {
+            "name": "Failure acknowledged",
+            "at": 847,
+            "id": 1,
+            "elapsed": 711
+          }
+        ],
+        "outcome": "failure",
+        "sensory": "Audio off. Haptics off."
+      },
+      "focus": "calibrate",
+      "modal": false,
+      "trace": [
+        {
+          "at": 12,
+          "lab": "feedback",
+          "mode": "corrected",
+          "action": "loaded"
+        },
+        {
+          "at": 67,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "fixture-reset"
+        },
+        {
+          "at": 136,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer pressed"
+        },
+        {
+          "at": 136,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Activation accepted",
+          "id": 1,
+          "channel": "amber"
+        },
+        {
+          "at": 136,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "✓ Completed! (before a result exists)"
+        },
+        {
+          "at": 137,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Pointer released"
+        },
+        {
+          "at": 137,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "activate",
+          "id": "calibrate"
+        },
+        {
+          "at": 847,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "Failure acknowledged",
+          "id": 1,
+          "elapsed": 711
+        },
+        {
+          "at": 847,
+          "lab": "feedback",
+          "mode": "problem",
+          "action": "status",
+          "text": "Something happened."
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Interaction corrections — Do Not Slop</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a href="../../README.md">Do Not Slop</a><span>Interaction corrections / v1.0</span><a href="README.md">Evidence &amp; limits</a></header>
+  <main>
+    <div class="intro"><p class="eyebrow">Six authored interaction labs</p><h1>Keep the user's intent intact.</h1><p>Try a deliberately faulty implementation, then the corrected contract. These are original demonstrators, not unguided AI experiments.</p></div>
+    <nav id="labs" aria-label="Interaction labs"></nav>
+    <section aria-labelledby="lab-title">
+      <div class="lesson-heading"><div><p id="lab-number" class="eyebrow"></p><h2 id="lab-title"></h2></div><div class="mode" aria-label="Implementation"><button id="problem" aria-pressed="false">Problem</button><button id="corrected" aria-pressed="true">Corrected</button><button id="reset">Reset lab</button></div></div>
+      <p id="short-explanation"></p><p class="boundary">All data and outcomes are local fixtures. Switching implementation or lab resets its fixture. No accounts or real purchases.</p>
+      <div id="specimen"></div>
+      <div class="reading"><section><h3>Try this exact sequence</h3><ol id="procedure"></ol><p><strong>Input:</strong> <span id="input"></span></p><p><strong>Expected output:</strong> <span id="output"></span></p></section><section><h3>What the correction owns</h3><p id="reason"></p><p id="reuse"></p><details><summary>Exact reusable AI instruction</summary><pre id="instruction"></pre><button id="copy">Copy instruction</button><p id="copy-status" role="status"></p></details><details><summary>Official sources and proposal boundaries</summary><div id="source-links"></div></details></section></div>
+    </section>
+    <footer>Authored proposal · design acceptance pending · <a href="BROWSER_REPORT.md">Browser report</a> · <a href="AI_INSTRUCTIONS.md">All six instructions</a> · <a href="sources.json">Source / rights record</a></footer>
+  </main>
+  <dialog id="modal" aria-labelledby="modal-title"><h2 id="modal-title"></h2><div id="modal-body"></div><div id="modal-actions" class="actions"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,814 @@
+[
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "open-notice"
+  },
+  {
+    "input": "click",
+    "id": "fault-dismiss"
+  },
+  {
+    "input": "click",
+    "id": "open-notice"
+  },
+  {
+    "input": "click",
+    "id": "fault-dismiss"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "open-notice"
+  },
+  {
+    "input": "key",
+    "value": "Shift+Tab"
+  },
+  {
+    "input": "key",
+    "value": "Tab"
+  },
+  {
+    "input": "key",
+    "value": "Escape"
+  },
+  {
+    "input": "click",
+    "id": "open-notice"
+  },
+  {
+    "input": "click",
+    "id": "modal-dismiss"
+  },
+  {
+    "input": "key",
+    "value": "Control+a"
+  },
+  {
+    "input": "key",
+    "value": "p"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "key",
+    "value": "Space"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "open-notice"
+  },
+  {
+    "input": "key",
+    "value": "Escape"
+  },
+  {
+    "input": "click",
+    "id": "open-notice"
+  },
+  {
+    "input": "key",
+    "value": "Escape"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "advance-clock"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "toggle-chat"
+  },
+  {
+    "input": "click",
+    "id": "advance-clock"
+  },
+  {
+    "input": "click",
+    "id": "claim-rewards"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "ack-hazard"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "toggle-chat"
+  },
+  {
+    "input": "click",
+    "id": "advance-clock"
+  },
+  {
+    "input": "click",
+    "id": "advance-clock"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "toggle-chat"
+  },
+  {
+    "input": "click",
+    "id": "advance-clock"
+  },
+  {
+    "input": "click",
+    "id": "join-invite"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "craft"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "click",
+    "id": "shop-iron"
+  },
+  {
+    "input": "click",
+    "id": "shop-solar"
+  },
+  {
+    "input": "click",
+    "id": "equip"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "click",
+    "id": "inspect-reed"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "gather-ore"
+  },
+  {
+    "input": "click",
+    "id": "craft"
+  },
+  {
+    "input": "click",
+    "id": "equip"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "click",
+    "id": "shop-iron"
+  },
+  {
+    "input": "click",
+    "id": "shop-charm"
+  },
+  {
+    "input": "key",
+    "value": "Escape"
+  },
+  {
+    "input": "click",
+    "id": "shop-charm"
+  },
+  {
+    "input": "click",
+    "id": "confirm-charm"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "Meet at the north relay."
+  },
+  {
+    "input": "key",
+    "value": "Control+a"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "Meet at the north relay."
+  },
+  {
+    "input": "key",
+    "value": "Control+a"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "Meet at the north relay."
+  },
+  {
+    "input": "key",
+    "value": "Control+a"
+  },
+  {
+    "input": "click",
+    "id": "review-dispatch"
+  },
+  {
+    "input": "key",
+    "value": "Escape"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Keep this work."
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "New draft."
+  },
+  {
+    "input": "click",
+    "id": "disconnect"
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "relay"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "click",
+    "id": "result-1"
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "relay"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "click",
+    "id": "cancel-request"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Revision one."
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Revision two, entered during saving."
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Older draft."
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "click",
+    "id": "cancel-request"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Newer draft."
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "relay"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "click",
+    "id": "result-1"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Draft retained offline."
+  },
+  {
+    "input": "click",
+    "id": "disconnect"
+  },
+  {
+    "input": "click",
+    "id": "reconnect"
+  },
+  {
+    "input": "click",
+    "id": "reconnect"
+  },
+  {
+    "input": "click",
+    "id": "cancel-request"
+  },
+  {
+    "input": "click",
+    "id": "reconnect"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "key",
+    "value": "Space"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "key",
+    "value": "Enter"
+  },
+  {
+    "input": "key",
+    "value": "Space"
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "key",
+    "value": "Escape"
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "Pending draft"
+  },
+  {
+    "input": "click",
+    "id": "save"
+  },
+  {
+    "input": "click",
+    "id": "lab-input"
+  },
+  {
+    "input": "key",
+    "value": "ArrowRight"
+  },
+  {
+    "input": "key",
+    "value": "End"
+  },
+  {
+    "input": "key",
+    "value": "Home"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "toggle-shop"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "burst"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "inspect-crafted"
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "fill",
+    "id": "dispatch-note",
+    "text": "A retained dispatch note."
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "fill",
+    "id": "search-query",
+    "text": "zzz"
+  },
+  {
+    "input": "click",
+    "id": "search"
+  },
+  {
+    "input": "fill",
+    "id": "survey-draft",
+    "text": "The entered work stays here."
+  },
+  {
+    "input": "click",
+    "id": "problem"
+  },
+  {
+    "input": "click",
+    "id": "calibrate"
+  },
+  {
+    "input": "click",
+    "id": "lab-input"
+  },
+  {
+    "input": "click",
+    "id": "lab-overload"
+  },
+  {
+    "input": "click",
+    "id": "lab-decisions"
+  },
+  {
+    "input": "click",
+    "id": "lab-adaptation"
+  },
+  {
+    "input": "click",
+    "id": "lab-recovery"
+  },
+  {
+    "input": "click",
+    "id": "lab-feedback"
+  }
+]

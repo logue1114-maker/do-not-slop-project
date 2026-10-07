@@ -15,6 +15,15 @@ Use the [main README](../README.md) to choose a guide and begin a task. This ind
 
 The series architecture includes planned case families. Its entries do not mean that each family has a completed runnable gallery. Follow the actual files and package status.
 
+## Six interaction correction labs
+
+The [English visual manual](../research/interaction_corrections_v1/README.md) adds six original authored fault/correction examples: input ownership, information priority, equipment/crafting decisions, adaptive editing, waiting/failure and interaction feedback. Distinct encounter, dispatch, workbench, editor, notebook and calibration layouts use synthetic local fixtures. They are not actual unguided/guided AI experimental outputs or measured usability results.
+
+- [Runnable source](../research/interaction_corrections_v1/index.html), [six exact AI instructions](../research/interaction_corrections_v1/AI_INSTRUCTIONS.md), [input/procedure/output contract](../research/interaction_corrections_v1/contract.json) and [official source/rights record](../research/interaction_corrections_v1/sources.json)
+- [73 passing browser scenarios / 7 package gates and unrun limits](../research/interaction_corrections_v1/BROWSER_REPORT.md), [92 final original captures](../research/interaction_corrections_v1/captures/README.md), [pixel inspection and repaired visibility defect](../research/interaction_corrections_v1/VISUAL_REVIEW.md) and [retained version/failure history](../research/interaction_corrections_v1/CHANGELOG.md)
+
+The labs deepen the existing [menu-placement](../research/menu_placement_v1/README.md) and [gameplay-details](../research/gameplay_details_v1/README.md) contracts. Physical phones/keyboards/controllers, screen readers, native IME/speech, true zoom, actual localization, hearing/haptics and game-engine runtime remain unrun. External screenshots stay link-only; no new reuse license is selected.
+
 ## CP01 shared-reference pair
 
 The [original trial package](../research/instruction_trial_01/README.md) preserves two actual first-pass redesign outputs. Both received the same authored English reconstruction as a styled HTML starter, the same fixture, and the same quality-redesign request. The guided run also received the exact archived v1 instructions and CP01 guide. The archived “ordinary request” label belongs to this shared-reference setting, not a no-reference from-scratch baseline.
@@ -115,6 +124,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | Game UI playground: first component bundle | http://127.0.0.1:8765/research/game_ui_playground_v1/ |
 | Four gameplay detail studies | http://127.0.0.1:8765/research/gameplay_details_v1/ |
 | Menu and inventory placement | http://127.0.0.1:8765/research/menu_placement_v1/ |
+| Six interaction correction labs | http://127.0.0.1:8765/research/interaction_corrections_v1/ |
 | Fleet command | http://127.0.0.1:8765/research/strategy_controls_oct4/demo/ |
 | Booking change | http://127.0.0.1:8765/research/booking_flows_oct4/demo/ |
 | Learning layout | http://127.0.0.1:8765/research/comparison_assets/learning_layout/same_fixture_learning.html |
