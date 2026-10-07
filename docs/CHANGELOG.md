@@ -1,5 +1,12 @@
 # Source changes
 
+## 2026-10-07: Party Race motion presentation case
+
+- Add source-backed distinctions between fixed-step physics, local prediction/reconciliation and remote snapshot interpolation.
+- Publish the authored display-only module, ten portable tests, early clock-repair history and sanitized normal two-participant local observations.
+- Keep low observed FPS, unmatched geometry candidate, incomplete capture surface, school and production gates explicit. No game deployment or reuse-license change is included.
+- Preserve unrelated research and prior inputs; publish only this case and its discovery/verification records.
+
 ## 2026-10-06: Four gameplay detail studies
 
 Additive public integration against main `22bb7bb972c95bd4e42a71266bbf1942b360e44e`, preserving the first game UI playground and all earlier runtime/fixture/evidence bytes.

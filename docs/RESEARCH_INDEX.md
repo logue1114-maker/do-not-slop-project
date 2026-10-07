@@ -4,6 +4,8 @@ Use the [main README](../README.md) to choose a guide and begin a task. This ind
 
 ## Guides and source observations
 
+- Multiplayer motion: [Party Race implementation case](../research/party_race_sync_20261007/README.md), [developer references](../research/party_race_sync_20261007/sources.json), [display-only module](../research/party_race_sync_20261007/motion-presentation.js), [portable tests](../research/party_race_sync_20261007/motion-presentation.test.mjs) and [bounded local observations](../research/party_race_sync_20261007/observations.json). This local correction is not game-deployed; FPS gain and school performance remain unestablished.
+
 - [Research overview](../research/antislop_research.md), [series architecture](../research/series_architecture.md), [series index](../research/series_index.json), [structured rules](../research/rules_catalog.json), and [measurement checklist](../research/measurement_checklist.json)
 - Games: [controls and HUD manual](../research/game_controls_corrections_v2.md), [RPG/card research](../research/games_rpg_card_research.md), [source-coverage boundaries](../research/games_rpg_card_sourcecoverage.md), and [fleet-command research](../research/strategy_controls_oct4/strategy_controls_research.ko.md)
 - Web: [layout manual](../research/web_app_corrections_v2.md), [shopping/information/learning observations](../research/web_shopping_information_learning.md), [booking manual](../research/booking_flows_oct4/booking_manual_ko.md), and [booking same-fixture contract](../research/booking_flows_oct4/same_fixture_spec_ko.md)

@@ -1,0 +1,12 @@
+{
+  "case": "Party Race display interpolation",
+  "checked_date": "2026-10-07",
+  "use": "Developer-source comparison; not a controlled outcome study",
+  "sources": [
+    {"title": "Snapshot Interpolation", "author": "Glenn Fiedler", "url": "https://www.gafferongames.com/post/snapshot_interpolation/", "used_for": "Timestamped snapshot buffers, arrival jitter, interpolation delay and extrapolation limits", "access": "Original article fetched successfully"},
+    {"title": "Fix Your Timestep", "author": "Glenn Fiedler", "url": "https://www.gafferongames.com/post/fix_your_timestep/", "used_for": "Fixed-step simulation versus variable render cadence; previous/current pose interpolation", "access": "Original article fetched successfully"},
+    {"title": "Client Prediction & Reconciliation", "author": "Colyseus documentation", "url": "https://docs.colyseus.io/netcode/client-prediction", "used_for": "Local prediction/reconciliation versus remote snapshot interpolation; damped following versus time interpolation", "access": "Official documentation fetched successfully"}
+  ],
+  "excluded": [{"source": "Valve networking reference", "reason": "Fetch returned a bot-check page, so it was not used as technical evidence"}],
+  "boundary": "References support algorithm distinctions, not these case-specific parameter values or an FPS/school performance claim. External article bodies and media are not included."
+}

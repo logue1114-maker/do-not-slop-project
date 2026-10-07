@@ -1,5 +1,9 @@
 # Rights, provenance and scope
 
+## Party Race motion presentation case
+
+The [motion case](../research/party_race_sync_20261007/README.md) contains an authored display-only JavaScript helper and tests, developer-source links with bounded paraphrases, and sanitized aggregate local observations. The owner explicitly requested Git publication of these results. Full game assets, runtime identities, room codes, account records, internal conversation data and machine locations are omitted. No screenshot or third-party media is added. [Case provenance](../research/party_race_sync_20261007/provenance.json) records source hashes. Publication does not establish causal performance gains or game deployment and does not select a new reuse license.
+
 ## Game UI playground publication
 
 The first [component bundle](../research/game_ui_playground_v1/README.md) contains original synthetic game scenes, vector icons, working local flows and22 project-owned PNGs:19 final browser captures, two labeled contact sheets and one retained overlap-failure capture. Their exact hashes are registered separately under `game_ui_playground_v1` in [provenance](PROVENANCE.json). Publication of this local source and its own captures was explicitly authorized. Public report copies remove machine paths; the untouched local records remain outside this public tree. Archival first-pass HTML navigation was relocated; its application/CSS/fixture bytes are retained.

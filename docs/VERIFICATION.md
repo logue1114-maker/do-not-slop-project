@@ -1,5 +1,9 @@
 # Verification and limits
 
+## Party Race: local motion correction, not an FPS claim
+
+[The case](../research/party_race_sync_20261007/README.md) includes ten executable helper tests and repair history. Its combined game regression run passed 24 tests; fourteen game integration helpers remain outside this public tree. Normal two-participant local browser create/join/start and native movement/jump/landing were observed, without forced game state. [Aggregates](../research/party_race_sync_20261007/observations.json) show interpolation running and approximately 67 ms median frame intervals still present. No matched before/after, school performance, long session, complete course or game-production deployment is claimed. Mobile DOM/control bounds and click were checked, but a mismatched capture surface leaves complete mobile visual acceptance unverified. Repository release checks verify public files and preserved prior bytes, not those unrun runtime gates.
+
 ## Game UI playground: local checks and public integration
 
 The [first component bundle](../research/game_ui_playground_v1/README.md) retains **136 pre-publication local browser/input/geometry checks** and **55 pre-publication source/contract checks**. Their [bounded report](../research/game_ui_playground_v1/BROWSER_REPORT.md) covers standalone Chrome at1440×1000,1165×747,844×390,390×844 and320×568 CSS pixels, live configuration, gear comparison/equip/back, shop cancel/duplicate-confirm/funds/stock, cooldown/pause and one-time quest reward. Two event-duplication probes use the actual rendered button; other flows use native clicks/keys/settings input. These counts apply to that retained local run, not the entire repository or a user/physical-device test.

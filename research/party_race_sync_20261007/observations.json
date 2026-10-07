@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-07",
+  "status": "local_candidate_not_game_deployed",
+  "environment": "Isolated local standalone game server; two actual browser participants; not production DO or school traffic",
+  "input": "Normal nickname/create/join/start; native Space and W keys; no forced state or injected progress",
+  "map": "piston_lane",
+  "render_frames_observed": 90,
+  "host_authoritative_first": {"y": 0.274, "vy": 8.2333, "z": 0.25, "grounded": false},
+  "host_authoritative_last": {"y": 0, "z": 1.5, "grounded": true, "impact_kind": "land"},
+  "guest_authoritative_after_native_input": {"x": 1, "y": 1.594, "z": 0.75, "vy": 1.333},
+  "remote": {"interpolated_counter_first": 211, "interpolated_counter_last": 300, "players": 2, "samples_total": 64, "delay_ms": 150},
+  "performance": {
+    "measurement": "Game diagnostic rolling summaries, not an isolated 90-frame distribution or controlled A/B",
+    "frame_median_ms_first": 66.8, "frame_median_ms_last": 66.9,
+    "frame_p95_ms_first": 93.8, "frame_p95_ms_last": 93.7,
+    "pixel_ratio": 0.75,
+    "input_first_motion_p95_ms": 92.3,
+    "input_ack_p95_ms_first": 115.2, "input_ack_p95_ms_last": 117.7,
+    "preview_additional_candidate": "Indexed geometry batching; no independent FPS improvement established"
+  },
+  "mobile": {"emulated_width": 390, "emulated_height": 844, "scroll_width": 390, "control_bounds_fit": true, "native_jump_click_accepted": true, "capture_width": 390, "capture_height": 219, "full_visual_acceptance": "unverified_due_to_capture_surface_mismatch"},
+  "desktop_capture": {"width": 1280, "height": 720, "configured_height": 900, "complete_layout_acceptance": false},
+  "logs": {"sampled_application_errors": 0, "existing_threejs_deprecation_warnings": 2, "exhaustive_console_or_network_audit": false},
+  "not_established": ["FPS gain", "school-device improvement", "school-WAN improvement", "large multiplayer performance", "long-session performance", "full course completion", "grab/knockback or moving-platform integration", "production correction", "complete mobile visual acceptance"],
+  "privacy": "Aggregate values only; runtime participant IDs, nicknames, room codes, account data and machine locations omitted"
+}

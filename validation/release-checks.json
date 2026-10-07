@@ -1,12 +1,12 @@
 {
   "project": "Do Not Slop Project",
-  "validated_at_utc": "2026-10-06T15:40:13.867392+00:00",
+  "validated_at_utc": "2026-10-07T00:38:22.024635+00:00",
   "status": "passed_public_tree_checks",
   "scope": "Local bytes, declared preserved inputs, authored board and synthetic capture allowlists, JSON, local Markdown/HTML links and bounded secret/path/contact scan",
   "network_requests": 0,
   "counts": {
-    "files": 513,
-    "checks": 441,
+    "files": 519,
+    "checks": 444,
     "failed_checks": 0
   },
   "checks": [
@@ -517,6 +517,21 @@
     },
     {
       "name": "json:research/mobile_app_corrections_v1.cases.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/party_race_sync_20261007/observations.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/party_race_sync_20261007/provenance.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "json:research/party_race_sync_20261007/sources.json",
       "passed": true,
       "detail": null
     },

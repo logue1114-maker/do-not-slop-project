@@ -1,0 +1,42 @@
+{
+  "case": "party_race_sync_20261007",
+  "authored_date": "2026-10-07",
+  "publication_authorization": "Owner explicitly requested publication of these results to the existing Do Not Slop research repository",
+  "authorship": "New GomGom Party Race display-only helper and regression tests authored for this correction; source comparison and bounded observations summarized for this case",
+  "included": [
+    {
+      "path": "motion-presentation.js",
+      "sha256": "f337d1e4282015b1efce86db9fd60cd123f9a6ee2b39de436d677dd387ede263",
+      "bytes": 4897
+    },
+    {
+      "path": "motion-presentation.test.mjs",
+      "sha256": "b2e6079623dc619b8623b792e15b726b56d9bf4e901a4f2627752ca428d02433",
+      "bytes": 4556
+    },
+    {
+      "path": "observations.json",
+      "sha256": "57d98d45e976e325a3acad1a7886ef4b8ba062232ecfc1c7bd331de5253e90ed",
+      "bytes": 2208
+    },
+    {
+      "path": "README.md",
+      "sha256": "7cf3e78944739830fac5a4a9d1c49e8aaa7028361aa42d018013c7c44a3ef7c6",
+      "bytes": 7275
+    },
+    {
+      "path": "sources.json",
+      "sha256": "554458f791644eeb2b0374dae2dfb87647a36c6ac61ea3ab9cb34f95dd0ff8f7",
+      "bytes": 1418
+    }
+  ],
+  "excluded": [
+    "Full game and game media",
+    "Runtime identities and room codes",
+    "Account data, machine locations and internal conversation records",
+    "Local screenshots and raw runtime logs",
+    "Third-party article bodies and media"
+  ],
+  "license_choice": "pending_user_decision",
+  "evidence_boundary": "Local implementation and observations, not controlled FPS evidence, school performance or production game deployment"
+}

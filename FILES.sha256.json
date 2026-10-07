@@ -1,6 +1,6 @@
 {
   "project": "Do Not Slop Project",
-  "created_at_utc": "2026-10-06T15:43:20.073196+00:00",
+  "created_at_utc": "2026-10-07T00:38:35.782660+00:00",
   "hash_algorithm": "sha256",
   "self_hash": "not included to avoid recursive self-reference",
   "license_choice": "pending_user_decision",
@@ -17,8 +17,8 @@
     },
     {
       "path": "docs/CHANGELOG.md",
-      "bytes": 12731,
-      "sha256": "f307f29f1fba5c96ed0fcbaea4236e1cf6b2ca0a59b15d9ae22a16058e7ca00f"
+      "bytes": 13348,
+      "sha256": "1927d09f2ce927e665893d4fdb8ceb55613f46bdf8a1acfc70075be1019f7391"
     },
     {
       "path": "docs/HONEST_COMPARISONS.md",
@@ -37,18 +37,18 @@
     },
     {
       "path": "docs/RESEARCH_INDEX.md",
-      "bytes": 18016,
-      "sha256": "875a231e1b8e61568a7dd2f29f10d89a082a678a55fd676c13a86b7c2390b0f9"
+      "bytes": 18552,
+      "sha256": "be43fe4da4cfd0d8cdf45e247934e9f444aa786464c451bed77e98f6bffad37b"
     },
     {
       "path": "docs/RIGHTS_AND_SCOPE.md",
-      "bytes": 8592,
-      "sha256": "0f456a0395b93a61762ac9f3da2790c0b797548461cdbb17c81c0b90ee3fd776"
+      "bytes": 9305,
+      "sha256": "d5b9398d59934ac0bb2b97d3f4d36787631f3ce11aa066d8d8b8cb692d934fa1"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 18386,
-      "sha256": "f96bb8e9352b5167566f83f71b7c75bffd14413d1a52ab3cc5c6ee05a09ec208"
+      "bytes": 19323,
+      "sha256": "1747021e5cb2cd55f53d1d1fae25bbb716bc446ac14f4f8a78ead943067e4e99"
     },
     {
       "path": "guides/cp01-task-first-v2.md",
@@ -232,8 +232,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6891,
-      "sha256": "480ab3f9a1def8fe43188828d8c923f1add966229f38682851a30e6415268135"
+      "bytes": 7187,
+      "sha256": "ddb84fcb7b499f03e5c0152e06cedd254ac68474e5f18d80d368a6dfed165803"
     },
     {
       "path": "research/antislop_research.json",
@@ -1771,6 +1771,36 @@
       "sha256": "624a88cfaf90275324504a5dbcf19c1bbb20f05d632925ee3aa0bb4fb7734a0a"
     },
     {
+      "path": "research/party_race_sync_20261007/motion-presentation.js",
+      "bytes": 4897,
+      "sha256": "f337d1e4282015b1efce86db9fd60cd123f9a6ee2b39de436d677dd387ede263"
+    },
+    {
+      "path": "research/party_race_sync_20261007/motion-presentation.test.mjs",
+      "bytes": 4556,
+      "sha256": "b2e6079623dc619b8623b792e15b726b56d9bf4e901a4f2627752ca428d02433"
+    },
+    {
+      "path": "research/party_race_sync_20261007/observations.json",
+      "bytes": 2208,
+      "sha256": "57d98d45e976e325a3acad1a7886ef4b8ba062232ecfc1c7bd331de5253e90ed"
+    },
+    {
+      "path": "research/party_race_sync_20261007/provenance.json",
+      "bytes": 1619,
+      "sha256": "61f9aa1c8ee620ec2ceab5cb445fded458031b5d9b0e7f7fb1f74a7b1d643396"
+    },
+    {
+      "path": "research/party_race_sync_20261007/README.md",
+      "bytes": 7275,
+      "sha256": "7cf3e78944739830fac5a4a9d1c49e8aaa7028361aa42d018013c7c44a3ef7c6"
+    },
+    {
+      "path": "research/party_race_sync_20261007/sources.json",
+      "bytes": 1418,
+      "sha256": "554458f791644eeb2b0374dae2dfb87647a36c6ac61ea3ab9cb34f95dd0ff8f7"
+    },
+    {
       "path": "research/rules_catalog.json",
       "bytes": 98111,
       "sha256": "01311c0609707bbe0a94e756e5608616e87d034da7a65d6e768732dcd2b98d52"
@@ -2547,8 +2577,8 @@
     },
     {
       "path": "validation/release-checks.json",
-      "bytes": 67247,
-      "sha256": "7d80dd3300c2b2e72ae5dcd58ba91bb61b138f46b77bf46c3427943a70cecfd0"
+      "bytes": 69876,
+      "sha256": "b018728891bd5d9a653b7848ba99dc85f1835acddb5ccd029f1f85ea4b3078aa"
     },
     {
       "path": "validation/relocation-summary.json",
