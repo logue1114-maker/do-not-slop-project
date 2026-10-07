@@ -1,0 +1,1256 @@
+[
+  {
+    "file": "captures/repair-1/desktop-connection-loading.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "connect",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "176539c9b588a1e62ee813c8fe3b6289424ad779db8ff49c5d7e4025c8ee2d87"
+  },
+  {
+    "file": "captures/repair-1/desktop-connection-failure.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "connect",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "4cd23a010e56a5d8e58a501ff022ffc7862a9b3c8f1b3ef926be2c1d4ba0d2ab"
+  },
+  {
+    "file": "captures/repair-1/desktop-lobby-unready.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "lobby",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "6c90aef927687c1c0157c0633a997ba0652819586f71798f2f5a9f616094682e"
+  },
+  {
+    "file": "captures/repair-1/desktop-main.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "ad3b73677722e45f54971ae6d7b0b71e5a23ab2692c05757081d97e3771106be"
+  },
+  {
+    "file": "captures/repair-1/desktop-inventory-used.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "flask",
+    "sha256": "fa8aa086a86487a0746945dac9f81884d1f769fbc7ed258eb342a76ae9dd28d9"
+  },
+  {
+    "file": "captures/repair-1/desktop-disconnect-retry-failed.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "disconnect",
+    "selected": "flask",
+    "sha256": "d5651de8e6ae99913ec70f5fb1d83ecd3411dab2ee576cfa7197a64b64387517"
+  },
+  {
+    "file": "captures/repair-1/desktop-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "flask",
+    "sha256": "b7ff9555bc4475df13bf31d30200e5e378fa6d5efa24cecc3e0b7014bfb65d14"
+  },
+  {
+    "file": "captures/repair-1/controller-inventory-annotated.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "flask",
+    "sha256": "7a270cb5c2b733b5a8fae087ad452496b41dc70cce840e6b62152e9bb5b8d512"
+  },
+  {
+    "file": "captures/repair-1/FAIL-alternate-same-fixture-read-only-measurements-export.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "8cea160f8c0628d06b8de6585e1a3b082c256b0cb862ecb5746139ce7d01cd2c"
+  },
+  {
+    "file": "captures/repair-1/desktop-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 2272
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "08d5a727198802c14cc2f9e31231becc39256dbd9a0bf0ac5e078f997c975502"
+  },
+  {
+    "file": "captures/repair-1/desktop-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "c0a288d59a0b37da5f351a205b79c6aa1486a80da353197465da575993c95c8a"
+  },
+  {
+    "file": "captures/repair-1/desktop-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "69e005dafee4bee6fb6f0e03249c787d71d5800bbbc8582c341f5f3e9dffa402"
+  },
+  {
+    "file": "captures/repair-1/desktop-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "ae25331b095bf2aade6807206600ba933219378ba8486cba5c899c92f4252f5e"
+  },
+  {
+    "file": "captures/repair-1/desktop-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "bde21d0f80e11475d4d2cc2ca1049bc0363f8cbb2730624362b9852a45f2059f"
+  },
+  {
+    "file": "captures/repair-1/desktop-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 2272
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "651fabcdf6f700cfc49219581f3717405dd6296f7c7845d05eb76ba07467368e"
+  },
+  {
+    "file": "captures/repair-1/desktop-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "e6cf9dfed9587f6432f496a8a05e61eb56cf7758cfafc56a3bfe6d6de2135c33"
+  },
+  {
+    "file": "captures/repair-1/desktop-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "d95a1c24db53da40aa6b22c61ff984936db66f5e1f3187e39199ebac71650d2a"
+  },
+  {
+    "file": "captures/repair-1/desktop-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "915e071a5ca74ae4ba812861f7df4f361272ae29bc6f41656804986afd39ecef"
+  },
+  {
+    "file": "captures/repair-1/desktop-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "4d6a6eff71b019f6960b35b718cf999151fc123a6136d0f634e79173fe5f15ab"
+  },
+  {
+    "file": "captures/repair-1/controller-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 2208
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "922a5e3d9b178036fc5b712154908d90e6702b0b0ba0ed8c93d503a8a00dc48c"
+  },
+  {
+    "file": "captures/repair-1/controller-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "f81f95ad9b1831b8c82a5e2f8fcd6665301ae3a736e9de7f83f04ab677c1f706"
+  },
+  {
+    "file": "captures/repair-1/controller-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "14abb19d30e7b5a91609eca663a442e39a85e8e21bf8c6c64c0cfc17d9edab51"
+  },
+  {
+    "file": "captures/repair-1/controller-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "98cc9b71777b07474e0e326929ef6c47429afcd199df5d80f232cf0de6a53b5a"
+  },
+  {
+    "file": "captures/repair-1/controller-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "3d547a671567a8cb538a037356d79032e4adf6ef12b851386e937e40cb1675bf"
+  },
+  {
+    "file": "captures/repair-1/controller-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 2208
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "d603f4d053862971964800eb3699383fbc050cf984378126017408d8fc2994e3"
+  },
+  {
+    "file": "captures/repair-1/controller-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "2abff804263836216abf1c4d76bf9a707785087bde5ca9972c841308528637bd"
+  },
+  {
+    "file": "captures/repair-1/controller-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "0fea7dcfff945b088c0962cc12a01dc048e6ec66512125ecbc515c90802b36cb"
+  },
+  {
+    "file": "captures/repair-1/controller-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "f7cd3036ac9b4af8efa6c54c480b784a0cd23217f328bf358a03f3e839f0b38d"
+  },
+  {
+    "file": "captures/repair-1/controller-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "4cce24a394d450210be2b61002ab47c5286c134f9ad41f9e38025fafc2ca3db7"
+  },
+  {
+    "file": "captures/repair-1/portrait-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 4491
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "a104a1bcfbd32942e84d5f8c61eebcf246ff316d10e0ea601c306b7c5b0ca653"
+  },
+  {
+    "file": "captures/repair-1/portrait-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "1045569b950f0d990f50ac4ff4311cfeb49f257966b6d7b16b7a36c966bb27c8"
+  },
+  {
+    "file": "captures/repair-1/portrait-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "131a6b5e361975d19b3ed522cb1b778afedf6fc5f5e3535e8f8dcd20cd501c3e"
+  },
+  {
+    "file": "captures/repair-1/portrait-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "cfa56495fb6bf3a9cd3a60158cb6658dc19f19396c99f8f1709659d5d86b697f"
+  },
+  {
+    "file": "captures/repair-1/portrait-a-detail.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "boots",
+    "sha256": "7058f03dc4ab7d23875cdff8039a0eb4d77ea950d189c4793ebf6aa70bdeca99"
+  },
+  {
+    "file": "captures/repair-1/portrait-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "37042ec8f1ee2bdddd15528c8f8078f1cbc38fc05932dc36103d9c8f12cf11f4"
+  },
+  {
+    "file": "captures/repair-1/portrait-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 4491
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "133f85e213314a0bc84b54aa49d7eb18604a94f508c9ee1cabac7254d90fcc17"
+  },
+  {
+    "file": "captures/repair-1/portrait-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "7837132ed953c283507d694aebfe061afd1cd53058168ed0bff9d7e06fb480fe"
+  },
+  {
+    "file": "captures/repair-1/portrait-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "5b0f2e93d1629ca88a8f3b1cb2b056881110e784d7669cfe239f5e8491261140"
+  },
+  {
+    "file": "captures/repair-1/portrait-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "5c9b21ecf7691a79b94f5790c7216f036d787b823b82e3eef69c6239b3b6da7e"
+  },
+  {
+    "file": "captures/repair-1/portrait-b-detail.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "boots",
+    "sha256": "7058f03dc4ab7d23875cdff8039a0eb4d77ea950d189c4793ebf6aa70bdeca99"
+  },
+  {
+    "file": "captures/repair-1/portrait-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "1bb22680c69a148c026eac638a10333187574fc15838f0f7dbfffa0adb36735a"
+  },
+  {
+    "file": "captures/repair-1/landscape-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 2528
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "de018cb2ac44f771ba1d4288f6038cdbae5938175537ed73242a63c2b32fb007"
+  },
+  {
+    "file": "captures/repair-1/landscape-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "b308da65045b0484bf0165d9f55e4fe5b04f619b6e362fdce49b4795905d04e6"
+  },
+  {
+    "file": "captures/repair-1/landscape-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "e663fea1a38bdd76dbc8ed7025891c9aac9b2a4f2aad930d512a9ca999d72152"
+  },
+  {
+    "file": "captures/repair-1/landscape-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "75046d168c6abf2c5fe080ee8dc79edf80dc8928008d62e61fd1b78f601d3be9"
+  },
+  {
+    "file": "captures/repair-1/landscape-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "005f89efdfd5e98042325f1309f87ba0d485a9c159d64eaaffe7a44f169559ab"
+  },
+  {
+    "file": "captures/repair-1/landscape-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 2528
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "2e721aee9adf89470f60c345d98b96b14ec73c16def3d447264bc621f84c96a1"
+  },
+  {
+    "file": "captures/repair-1/landscape-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "2a50c1e8349e10c548b6f07fe335c3cf9b2910af55a2ec1e97a0d08be73cd3a8"
+  },
+  {
+    "file": "captures/repair-1/landscape-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "10d5c238e23cffa414c3079f8e4dead931367b447c28b4911fe7ebcaa28d776f"
+  },
+  {
+    "file": "captures/repair-1/landscape-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "83c48fd884ada36a1d923b8c37f960f97369fef2d8923278662762481e8ada06"
+  },
+  {
+    "file": "captures/repair-1/landscape-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "4a504c46734563ddbce27b8a089d0bc629bdc6b5bda6a1590ae9da3084bdf85d"
+  },
+  {
+    "file": "captures/repair-1/portrait-empty-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 390,
+      "height": 640
+    },
+    "image_px": {
+      "width": 362,
+      "height": 741
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "journal",
+    "sha256": "f4927c184efc06d1ecf14e6bdb7e05eab5be4470af9938e6d4761f5b6c10377f"
+  },
+  {
+    "file": "captures/repair-1/landscape-rotated-selection.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 796,
+      "height": 391
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "journal",
+    "sha256": "590c47f8160416110c9155c0ea8ab0de85643b3b1cc2431624ec5817a3dabcda"
+  },
+  {
+    "file": "captures/repair-1/landscape-deep-inset-long-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "5e20c526370b2314be5cc668cfcedf3152a16ac2ec110565d604d163225bba05"
+  },
+  {
+    "file": "captures/repair-1/landscape-deep-inset-scaled-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "f58609d86d00d6b22d181a4a7976f87c9419ba989087277998a2f5b6cf0fe74b"
+  },
+  {
+    "file": "captures/repair-1/portrait-320-scaled-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 320,
+      "height": 740
+    },
+    "image_px": {
+      "width": 320,
+      "height": 4885
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "42eefd34d7271140f6bd0df7235b1553c6db929e305bcf8618b4efbdfe319a88"
+  },
+  {
+    "file": "captures/repair-1/touch-emulated-portrait-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "boots",
+    "sha256": "3e5215850012ad600cf5911bad1085162bf9c28ac33c4f477b7a61691e6b531c"
+  }
+]

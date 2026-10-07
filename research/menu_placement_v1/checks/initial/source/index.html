@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Menu placement lab · Do Not Slop Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#stage-a">Skip to working example</a>
+  <div id="workshop">
+    <header class="masthead">
+      <a href="README.md" class="brand">Do Not Slop Project <span>/ menu placement v1</span></a>
+      <span class="tag">Original authored proposals · local simulation</span>
+    </header>
+    <main>
+      <div class="intro"><div><p class="eyebrow">Visual manual 03</p><h1>Place the next action.</h1><p>Entry, hub, inventory, and the way back. Try the flow; inspect its geometry.</p></div><a href="AI_INSTRUCTIONS.md" class="text-link">Reusable AI instructions ↗</a></div>
+      <div class="toolbar" aria-label="Example settings">
+        <label>Input & orientation<select id="profile"><option value="desktop">Desktop · pointer + keyboard</option><option value="controller">Controller · focus navigation</option><option value="portrait">Mobile · portrait touch</option><option value="landscape">Mobile · landscape touch</option></select></label>
+        <label>Active layout<select id="layout"><option value="a">A · anchored actions / split bag</option><option value="b">B · central actions / wide bag</option></select></label>
+        <label>Safe-area scenario<select id="safe"><option value="0">Flat display · 0 px</option><option value="24">Inset display · 24 px</option><option value="44">Deep inset · 44 px</option></select></label>
+        <label class="check"><input id="annotate" type="checkbox" checked> Show measurements</label>
+        <label class="check"><input id="compare" type="checkbox"> Compare A / B</label>
+        <button id="play-view">Play view</button><button id="reset">Reset fixture</button>
+      </div>
+      <nav class="flow" aria-label="Inspect a proposed state">
+        <span>Inspect</span><button data-inspect="title">01 Title</button><button data-inspect="connect">02 Connection</button><button data-inspect="lobby">03 Lobby</button><button data-inspect="main">04 Main menu</button><button data-inspect="play">05 Play</button><button data-inspect="inventory">06 Inventory</button><button data-inspect="return">07 Return</button>
+      </nav>
+      <div class="lab">
+        <section class="examples" aria-label="Original interactive examples">
+          <div class="stage-label"><h2 id="active-caption">A · Title</h2><span id="dimensions"></span></div>
+          <div id="stage-a" class="stage" tabindex="-1" aria-label="Working game example"></div>
+          <section id="alternate" hidden aria-label="Alternate layout comparison"><div class="stage-label"><h2 id="alternate-caption">B · same fixture</h2><span>Read-only · same state and content</span></div><div id="stage-b" class="stage comparison" inert></div></section>
+        </section>
+        <aside class="inspector">
+          <p class="eyebrow">Live geometry · CSS pixels</p><h2 id="rule-title">Entry actions</h2><p id="rule-summary"></p>
+          <p class="proposal">All dimensions are proposals. Table values measure this render, never the source games.</p>
+          <div class="table-scroll"><table><caption class="sr-only">Measured positions relative to the game frame</caption><thead><tr><th>Target</th><th>x / y</th><th>w × h</th></tr></thead><tbody id="geometry"></tbody></table></div>
+          <dl class="facts"><div><dt>Anchor</dt><dd id="anchor-note"></dd></div><div><dt>Input</dt><dd id="input-note"></dd></div><div><dt>Back / Close</dt><dd id="back-note"></dd></div><div><dt>HUD policy</dt><dd id="hud-note"></dd></div><div><dt>A ↔ B tradeoff</dt><dd id="tradeoff-note"></dd></div></dl>
+          <p id="collision-note" class="geometry-status"></p>
+          <button id="export">Export current contract</button><a href="placement-contract.json" class="text-link">Complete placement model ↗</a>
+        </aside>
+      </div>
+      <div class="test-controls"><strong>Recovery scenarios</strong><label class="check"><input id="fail-next" type="checkbox"> Fail next connection</label><button id="disconnect">Simulate disconnect</button><button id="empty">Empty / restore bag</button><label class="check"><input id="long-labels" type="checkbox"> Long labels</label><label>Text scale<select id="text-scale"><option value="1">100%</option><option value="1.25">125%</option><option value="1.5">150%</option></select></label></div>
+      <p id="status" role="status" aria-live="polite" aria-atomic="true">Start with Enter station. No network, account, or save service is connected.</p>
+      <details class="trace"><summary>Transition record <span id="trace-count">0 events</span></summary><ol id="trace"></ol></details>
+      <section class="references"><div class="section-line"><h2>Famous-game references, bounded.</h2><a href="sources.json">Source & rights record ↗</a></div><p class="reference-limit">Official documentation observations. Original diagrams below; no game screenshots or measured game geometry.</p>
+        <div class="reference-grid">
+          <article><div class="diagram entry-diagram" aria-label="Original conceptual entry flow"><span>Data center</span><b>→</b><span>Character</span><b>→</b><span>World</span></div><h3>FINAL FANTASY XIV · entry choices</h3><p>Its manual separates data-center, character, and world topics. Our connection view keeps route selection before readiness.</p><a href="https://na.finalfantasyxiv.com/game_manual/start/" target="_blank" rel="noreferrer">Square Enix manual ↗</a></article>
+          <article><div class="diagram hud-diagram" aria-label="Original conceptual HUD diagram"><span class="fake-map">Map</span><span class="fake-world">World view</span><span class="fake-menu">Character · Duty · System</span></div><h3>FINAL FANTASY XIV · HUD & menus</h3><p>The manual describes a top-right minimap, inventory access, and HUD layout adjustment. Our hub and play HUD are separate scenes.</p><a href="https://na.finalfantasyxiv.com/game_manual/view/" target="_blank" rel="noreferrer">Square Enix HUD manual ↗</a></article>
+          <article><div class="diagram bag-diagram" aria-label="Original conceptual inventory regions"><span>Technology<br>▧ ▧ ▧</span><span>Cargo<br>▧ ▧ ▧ ▧</span></div><h3>No Man’s Sky · inventory regions</h3><p>Waypoint 4.0 describes technology and cargo together, scrolling, and item-type filtering. Our portrait example instead separates collection and detail.</p><a href="https://www.nomanssky.com/waypoint-update/" target="_blank" rel="noreferrer">Hello Games · historical 4.0 notes ↗</a></article>
+          <article><div class="diagram lobby-diagram" aria-label="Original conceptual lower-left lobby actions"><span class="fake-world">Lobby context</span><span class="lobby-context">Mode · party<br><b>Play</b></span><span class="lobby-nav">PLAY tab → lobby</span></div><h3>Fortnite · documented 2023 lobby</h3><p>The November 2023 official image puts Play lower-left below mode and party choices. The top PLAY tab opens the lobby. Context precedes activation.</p><a href="https://dev.epicgames.com/documentation/en-us/fortnite/lets-play-in-fortnite-creative" target="_blank" rel="noreferrer">Epic · version-specific example ↗</a></article>
+          <article><div class="diagram phone-diagram" aria-label="Original conceptual portrait menu regions"><span class="phone-settings">Settings</span><span class="phone-items">Features · Items</span><span class="phone-close">Close</span></div><h3>Pokémon GO · portrait hub</h3><p>The official Plus + walkthrough shows a bottom-center opener and Close, with Items lower-right. Build/date unspecified. Our touch layouts compare different anchors.</p><a href="https://www.pokemongoplusplus.com/en/go/" target="_blank" rel="noreferrer">Official Plus + walkthrough ↗</a></article>
+          <article><div class="diagram nav-diagram" aria-label="Original conceptual spatial and linear navigation"><span>Grid<br>← ↑ →<br>↓</span><span>Action list<br>↑<br>↓</span></div><h3>Forza examples · navigation</h3><p>Microsoft XAG 112 illustrates tile navigation and a linear settings list. Our item grid uses spatial arrows; the action rail uses a linear order.</p><a href="https://learn.microsoft.com/en-us/xbox/accessibility/xbox-accessibility-guidelines/112" target="_blank" rel="noreferrer">Microsoft · XAG 112 ↗</a></article>
+        </div>
+      </section>
+      <footer>Authored alternatives, not AI A/B experiments or measured usability results. <a href="BROWSER_REPORT.md">Checks and limits</a> · <a href="CHANGELOG.md">Version record</a> · <a href="HANDOFF.md">Review handoff</a></footer>
+    </main>
+  </div>
+  <button id="exit-play" hidden>Exit play view</button>
+</body>
+</html>

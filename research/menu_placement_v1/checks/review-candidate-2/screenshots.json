@@ -1,0 +1,1278 @@
+[
+  {
+    "file": "captures/review-candidate-2/desktop-connection-loading.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "connect",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "176539c9b588a1e62ee813c8fe3b6289424ad779db8ff49c5d7e4025c8ee2d87"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-connection-failure.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "connect",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "4cd23a010e56a5d8e58a501ff022ffc7862a9b3c8f1b3ef926be2c1d4ba0d2ab"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-lobby-unready.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "lobby",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "6c90aef927687c1c0157c0633a997ba0652819586f71798f2f5a9f616094682e"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-main.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "ad3b73677722e45f54971ae6d7b0b71e5a23ab2692c05757081d97e3771106be"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-inventory-used.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "flask",
+    "sha256": "696674a150020322bda629e9227bf449169c0d598b535f4ed404d36c8a0881d7"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-disconnect-retry-failed.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "disconnect",
+    "selected": "flask",
+    "sha256": "dd0709d86b0f530483707569d976210fb55ea85717b6bbb13342c3b38f56e7bf"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "flask",
+    "sha256": "b7ff9555bc4475df13bf31d30200e5e378fa6d5efa24cecc3e0b7014bfb65d14"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-inventory-annotated.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "flask",
+    "sha256": "8ec83bc71ebe4af477909aa7777074dbf50562369ff97615e1f83ea2f0ab2748"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-alternative-comparison.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 2873
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "main",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "59d6eb92d589544ac132d9479e4ced0e3c0067c0770e29f965b6c6f61a2c6878"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 2538
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "cbb92c47746090d7008caaa9d733f61a992c06a12906422c4cdc68d6592e1848"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "c0a288d59a0b37da5f351a205b79c6aa1486a80da353197465da575993c95c8a"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "34390ad005ad6365e9f29cbcaa73b0d71fc3fa009ff27bbb760ecad1ac1888e4"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "7a1564f119d159c2cdad8ff13eb9d772038093c3b084644d654e10d957738c4a"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "bde21d0f80e11475d4d2cc2ca1049bc0363f8cbb2730624362b9852a45f2059f"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 2538
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "e7bc26b70a9ccb41546d6017fa6b0b2afb79913dd3ffbaeba8cf80e9a66fda5f"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "b89afab78f4978b0b738ee5abbc25d5c6f25199f1dfe7d049a15f0e87d976918"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "60910c7ff4e4b255df18d5066e08e3565cc2bdc60b9cf3666922337d449aade9"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "a2f8d5d5ccf52fd74b0c386210e1362b6c878700102005eccab73d6217f12359"
+  },
+  {
+    "file": "captures/review-candidate-2/desktop-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "f36692887396abd950f551c4b639d741262308b59d2c8317da3e9d21580fa39d"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 2492
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "786c8622ab3dcf1bb2a127a51553d71150b9dc3f2d53bebb353042bfe3b95419"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "f81f95ad9b1831b8c82a5e2f8fcd6665301ae3a736e9de7f83f04ab677c1f706"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "4b8b42d171304022953ab35d862584a772ae4bb919b3e018232b80d73ffb2444"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "0d59e8aa6719985a5e2d15b3f96cde0c514fe0627cc3aa7a12b892587743e288"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "3d547a671567a8cb538a037356d79032e4adf6ef12b851386e937e40cb1675bf"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 2492
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "c0e90bb841e6fdb21463ed491d0d841d88576a895b279fa32cd07d22ca8b2f27"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "38cc17c1fd6db1e6b159c44b2070c9770e407aad744471ced1f2398d5f5ca0dd"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "8d2fa2f769fc261d88fe0f8d096c6aeaa2a1a82d1fa58b2346d387619dae7bf3"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "f34cd563159da8f6a28a8d01fa75aaef9f4084b4c35d83dbf48760de4f9eda58"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "2b2d59c4f2182e230306f21b275237ebda8b835f3708fd0be2fda1bfb7ea2657"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 4732
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "d84e6df6c507ed67ac1a3be50c310645d898d2c21862e2a314a4e8f522b03502"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "aafa840e9849b98a9507b7bfbb6fda249a134c1899c91e685fd061a4cb2bfb9f"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "0db12687cc13adf058cddc443d82f25cc6cc9023912a14fd46200878f9ddb08a"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "cfa56495fb6bf3a9cd3a60158cb6658dc19f19396c99f8f1709659d5d86b697f"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-a-detail.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "boots",
+    "sha256": "7058f03dc4ab7d23875cdff8039a0eb4d77ea950d189c4793ebf6aa70bdeca99"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "535a5cba7380c8eec34686686fb53855723aad4469bc25edf22153d6f45f971e"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 4732
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "ebe9b8341476da322dd2e653981567b0e73ed1978ed0e2ae7940e37cbed22646"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "7837132ed953c283507d694aebfe061afd1cd53058168ed0bff9d7e06fb480fe"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "7f085311fa31854967583110309838f2f9a1600d9900625d59437621eecc280b"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "5c9b21ecf7691a79b94f5790c7216f036d787b823b82e3eef69c6239b3b6da7e"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-b-detail.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "boots",
+    "sha256": "7058f03dc4ab7d23875cdff8039a0eb4d77ea950d189c4793ebf6aa70bdeca99"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "1bb22680c69a148c026eac638a10333187574fc15838f0f7dbfffa0adb36735a"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 2822
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "22d4502fcd30f897d86161ce624e363569dac159da7482547459ea369814036f"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "6c2f49e483a0566025caa48f04e357fa9a8bc4974f67e576a14497f02c579357"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "af3e96a7346d6904e3c77df9ad4cfd87187eae445e63e78c781f4461ef770198"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-a-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "eb831a803c447ece6a82840ff291d168e51628eeea021c5d2c0cea4ede0acbc2"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-a-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "005f89efdfd5e98042325f1309f87ba0d485a9c159d64eaaffe7a44f169559ab"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 2822
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "22901c3c6df2bf75e010efc11b01fb30d75f652fc291b7cc33252df0efc332f0"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "86a0bcf56946d12faa8a0637bf349385639f2004f1df03eb3c432ff23d1b7ab7"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "a6659c665edaf478eb415ce4db7e8bda930610e98e2f364ce04c057c84bd9997"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-b-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "586156ab36e457849fe23c734c99705dba5ef60909bf22198befdaf2a2df6b15"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-b-return.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "main",
+    "modal": "return",
+    "selected": "boots",
+    "sha256": "5e99e8df82f91c81b0e6f296333dd836c3a27da8b76f8b014ca203d68363fc6b"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-empty-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 390,
+      "height": 640
+    },
+    "image_px": {
+      "width": 362,
+      "height": 741
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "journal",
+    "sha256": "50f72b8dbe68b88ecbadc538eead5245051a4473d343946933028e0a73dfec00"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-rotated-selection.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 796,
+      "height": 391
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "journal",
+    "sha256": "8a6c726ec7c262629bc2d956ff65614763df5606e549e37b8b35e7440650d3a6"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-deep-inset-long-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "e902e3cfb9965d044eeb9e9753bf1c7f46701d9f997efb0b430f32a57b7b404d"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-deep-inset-scaled-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "81da202061af6fee8fc0a99f96b4e6f60faf75cdd56f823638c9a2bf9e87dc6d"
+  },
+  {
+    "file": "captures/review-candidate-2/portrait-320-scaled-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 320,
+      "height": 740
+    },
+    "image_px": {
+      "width": 320,
+      "height": 5167
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "8a4e5e099482bbc4f851382f9269982b13dc86bccb6a61704a296e2fbf312178"
+  },
+  {
+    "file": "captures/review-candidate-2/controller-use-focus.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "flask",
+    "sha256": "92d084d888e6ccee3ba5638d472224c11f90975ec5daae2fe5ae0f2731b6e147"
+  },
+  {
+    "file": "captures/review-candidate-2/touch-emulated-portrait-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "boots",
+    "sha256": "0ff09595e1f01771661f8cb5087fe79d15bc53148b90208a5718f039cc5e0f79"
+  }
+]

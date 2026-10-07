@@ -75,6 +75,14 @@ Try shared-input jump grace/buffering, exact versus nearby target selection, ind
 
 All graphics are original. Timing constants, target priority, effect intensities and recovery fixtures are our proposals. Physical touch, screen-reader, full zoom/accessibility matrices, current original-game behavior and measured learning benefits remain unestablished.
 
+## Menu and inventory placement
+
+The [English visual manual](../research/menu_placement_v1/README.md) provides original title, connection, lobby, main-menu, play, inventory and return flows across desktop, controller, portrait and landscape profiles. [Interactive placement annotations](../research/menu_placement_v1/index.html), [reusable AI instructions](../research/menu_placement_v1/AI_INSTRUCTIONS.md) and the [JSON contract](../research/menu_placement_v1/placement-contract.json) describe proposed positions, targets, spacing, safe-area scenarios, input ownership, focus restoration and recovery.
+
+- [58 current original captures and three contact sheets](../research/menu_placement_v1/captures/README.md), [25 browser scenarios and bounded checks](../research/menu_placement_v1/BROWSER_REPORT.md), and [official game observations with rights/limits](../research/menu_placement_v1/sources.json)
+
+The two placements are authored alternatives, not an empirical ordinary/instructed-AI experiment. Game media remain link-only; game dimensions are unmeasured. Physical devices/controllers, screen readers and user design approval remain unrun. [Package publication scope and preservation checks](../research/menu_placement_v1/PUBLIC_INTEGRATION.md) accompany the evidence.
+
 ## Five game interface presets
 
 The [English gallery](../research/game_interface_presets_v1/README.md) contains five distinct functional slices: RPG inventory/equipment, card selection/play/end turn, crate puzzle move/undo/retry, strategy select/preview/confirm/cancel and action movement HUD/pause/cooldown/retry. [Presets](../research/game_interface_presets_v1/presets.json) contain design/flow instructions; [functional requirements and data](../research/game_interface_presets_v1/functional-fixtures.json) exclude specific design direction for possible later matched requests.
@@ -106,6 +114,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 | Five game interface presets | http://127.0.0.1:8765/research/game_interface_presets_v1/ |
 | Game UI playground: first component bundle | http://127.0.0.1:8765/research/game_ui_playground_v1/ |
 | Four gameplay detail studies | http://127.0.0.1:8765/research/gameplay_details_v1/ |
+| Menu and inventory placement | http://127.0.0.1:8765/research/menu_placement_v1/ |
 | Fleet command | http://127.0.0.1:8765/research/strategy_controls_oct4/demo/ |
 | Booking change | http://127.0.0.1:8765/research/booking_flows_oct4/demo/ |
 | Learning layout | http://127.0.0.1:8765/research/comparison_assets/learning_layout/same_fixture_learning.html |

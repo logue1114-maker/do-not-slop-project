@@ -1,0 +1,102 @@
+[
+  {
+    "file": "captures/final-2/desktop-flow-contact-sheet.png",
+    "kind": "labeled-contact-sheet",
+    "source_files": [
+      {
+        "file": "captures/final-2/desktop-a-title.png",
+        "sha256": "c0a288d59a0b37da5f351a205b79c6aa1486a80da353197465da575993c95c8a"
+      },
+      {
+        "file": "captures/final-2/desktop-connection-failure.png",
+        "sha256": "4cd23a010e56a5d8e58a501ff022ffc7862a9b3c8f1b3ef926be2c1d4ba0d2ab"
+      },
+      {
+        "file": "captures/final-2/desktop-main.png",
+        "sha256": "ad3b73677722e45f54971ae6d7b0b71e5a23ab2692c05757081d97e3771106be"
+      },
+      {
+        "file": "captures/final-2/controller-inventory-annotated.png",
+        "sha256": "4cf0dfde349b478fad2e6430518cdea58a14240d1d4e81184c2ce3660c0c57d8"
+      },
+      {
+        "file": "captures/final-2/desktop-inventory-used.png",
+        "sha256": "fa8aa086a86487a0746945dac9f81884d1f769fbc7ed258eb342a76ae9dd28d9"
+      },
+      {
+        "file": "captures/final-2/desktop-return.png",
+        "sha256": "b7ff9555bc4475df13bf31d30200e5e378fa6d5efa24cecc3e0b7014bfb65d14"
+      }
+    ],
+    "image_px": {
+      "width": 1600,
+      "height": 1802
+    },
+    "bytes": 907520,
+    "sha256": "9c6782545fe9303da4dc8ec234cd8e7b605ce798e7c70c4fe4d26ff62cf85e11"
+  },
+  {
+    "file": "captures/final-2/mobile-flow-contact-sheet.png",
+    "kind": "labeled-contact-sheet",
+    "source_files": [
+      {
+        "file": "captures/final-2/portrait-a-title.png",
+        "sha256": "aafa840e9849b98a9507b7bfbb6fda249a134c1899c91e685fd061a4cb2bfb9f"
+      },
+      {
+        "file": "captures/final-2/portrait-a-play.png",
+        "sha256": "131a6b5e361975d19b3ed522cb1b778afedf6fc5f5e3535e8f8dcd20cd501c3e"
+      },
+      {
+        "file": "captures/final-2/portrait-a-bag.png",
+        "sha256": "cfa56495fb6bf3a9cd3a60158cb6658dc19f19396c99f8f1709659d5d86b697f"
+      },
+      {
+        "file": "captures/final-2/portrait-b-bag.png",
+        "sha256": "5c9b21ecf7691a79b94f5790c7216f036d787b823b82e3eef69c6239b3b6da7e"
+      },
+      {
+        "file": "captures/final-2/portrait-a-detail.png",
+        "sha256": "7058f03dc4ab7d23875cdff8039a0eb4d77ea950d189c4793ebf6aa70bdeca99"
+      },
+      {
+        "file": "captures/final-2/portrait-a-return.png",
+        "sha256": "535a5cba7380c8eec34686686fb53855723aad4469bc25edf22153d6f45f971e"
+      }
+    ],
+    "image_px": {
+      "width": 1050,
+      "height": 2136
+    },
+    "bytes": 511779,
+    "sha256": "1f131f459f8438a188b17beea2ba443cf21fa03365eb48a558f4de969ae2f4e9"
+  },
+  {
+    "file": "captures/final-2/landscape-flow-contact-sheet.png",
+    "kind": "labeled-contact-sheet",
+    "source_files": [
+      {
+        "file": "captures/final-2/landscape-a-play.png",
+        "sha256": "e663fea1a38bdd76dbc8ed7025891c9aac9b2a4f2aad930d512a9ca999d72152"
+      },
+      {
+        "file": "captures/final-2/landscape-a-bag.png",
+        "sha256": "75046d168c6abf2c5fe080ee8dc79edf80dc8928008d62e61fd1b78f601d3be9"
+      },
+      {
+        "file": "captures/final-2/landscape-b-bag.png",
+        "sha256": "83c48fd884ada36a1d923b8c37f960f97369fef2d8923278662762481e8ada06"
+      },
+      {
+        "file": "captures/final-2/landscape-a-return.png",
+        "sha256": "005f89efdfd5e98042325f1309f87ba0d485a9c159d64eaaffe7a44f169559ab"
+      }
+    ],
+    "image_px": {
+      "width": 1680,
+      "height": 1136
+    },
+    "bytes": 612485,
+    "sha256": "16a170c16a3ec59e9d4b6a538996e43b6d250761c80aefe940fde6282e04939c"
+  }
+]

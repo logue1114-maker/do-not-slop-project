@@ -1,0 +1,1014 @@
+[
+  {
+    "file": "captures/initial/desktop-connection-loading.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "943556c01d4ad92702b0a4dfc4eeed8cc5b62b1252d2bb7c729ce523ec12226b"
+  },
+  {
+    "file": "captures/initial/FAIL-entry-validation-loading-duplicate-cancel.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "943556c01d4ad92702b0a4dfc4eeed8cc5b62b1252d2bb7c729ce523ec12226b"
+  },
+  {
+    "file": "captures/initial/FAIL-entry-failure-retry-readiness-main-flow.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "eddc354fed3ff12c1de43d41a90122961942f9cec76571ac80305b24384a5791"
+  },
+  {
+    "file": "captures/initial/FAIL-inventory-equip-once-use-once-close-focus.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "eddc354fed3ff12c1de43d41a90122961942f9cec76571ac80305b24384a5791"
+  },
+  {
+    "file": "captures/initial/FAIL-inventory-modal-world-blocked-focus-trap.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "eddc354fed3ff12c1de43d41a90122961942f9cec76571ac80305b24384a5791"
+  },
+  {
+    "file": "captures/initial/FAIL-disconnect-retry-fail-cancel-retain.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "eddc354fed3ff12c1de43d41a90122961942f9cec76571ac80305b24384a5791"
+  },
+  {
+    "file": "captures/initial/FAIL-return-cancel-confirm-repeated.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "eddc354fed3ff12c1de43d41a90122961942f9cec76571ac80305b24384a5791"
+  },
+  {
+    "file": "captures/initial/FAIL-controller-spatial-grid-linear-actions-back.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "2b7a8d35150c3eb78cca176d444cfd3dab704f95fe42e9b46798296cf49bb9c1"
+  },
+  {
+    "file": "captures/initial/desktop-alternative-comparison.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 2300
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "main",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "0c4a8f2e09f4439f031f1a0f019374d621cf36ce9ac55f043536cfbb4c4f18fe"
+  },
+  {
+    "file": "captures/initial/desktop-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 1966
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "c18e090f873bb44e256bc0544919866d4a441ca786cda842164e9e3288a273a6"
+  },
+  {
+    "file": "captures/initial/desktop-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "33cb95e5201ceb98bc0422ee7866a00fe3a8e929dc316f7b9cdf88ec22eede4a"
+  },
+  {
+    "file": "captures/initial/desktop-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "69e005dafee4bee6fb6f0e03249c787d71d5800bbbc8582c341f5f3e9dffa402"
+  },
+  {
+    "file": "captures/initial/FAIL-desktop-a-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "8c805495f1bc6cdfc6ebfa4ef15bc4dbdb959d7d0afb96b82809ddd673e390fd"
+  },
+  {
+    "file": "captures/initial/desktop-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 1966
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "a2452cd70dc8407e66017515b8eea4558037a1eac593baa5140eb678586cd450"
+  },
+  {
+    "file": "captures/initial/desktop-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "1092baae7c00c808d3d974003bc74fd47720701908b9ff8e36c9cd8b063a36e2"
+  },
+  {
+    "file": "captures/initial/desktop-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "d95a1c24db53da40aa6b22c61ff984936db66f5e1f3187e39199ebac71650d2a"
+  },
+  {
+    "file": "captures/initial/FAIL-desktop-b-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1165,
+      "height": 747
+    },
+    "image_px": {
+      "width": 1165,
+      "height": 747
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "71cf48d33b60f89c66b4e0dd53a1f3292e67b7f0f0859f5c8cdef4870b6c8922"
+  },
+  {
+    "file": "captures/initial/controller-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 1902
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "b8cac0771ee51bb47940f1ceffb823ee237cbc74f0daaaec15ac629ab4f33940"
+  },
+  {
+    "file": "captures/initial/controller-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "6ac2726beebcf61d557872138436d2b2bd184f7e0484286fae6dfa06dba2e2db"
+  },
+  {
+    "file": "captures/initial/controller-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "14abb19d30e7b5a91609eca663a442e39a85e8e21bf8c6c64c0cfc17d9edab51"
+  },
+  {
+    "file": "captures/initial/FAIL-controller-a-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "28e39dae00468e1172f862aed3cd174a0fc6a811699cfd5ea5a3614d04aa8f2d"
+  },
+  {
+    "file": "captures/initial/controller-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 1902
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "62094e28da2b5a9f893bfb8e86539fbacb5931a03d3708649ec6ce01a7374a73"
+  },
+  {
+    "file": "captures/initial/controller-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "47a58044d855643260917ef98a79d6e5e11813bbdd94a2ed822325ba241b758a"
+  },
+  {
+    "file": "captures/initial/controller-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "0fea7dcfff945b088c0962cc12a01dc048e6ec66512125ecbc515c90802b36cb"
+  },
+  {
+    "file": "captures/initial/FAIL-controller-b-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 900
+    },
+    "image_px": {
+      "width": 1440,
+      "height": 900
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "controller",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "88900da84acd981a5bb0f62bb5a21719ecae1f391d6cffdeef538695cf517cc1"
+  },
+  {
+    "file": "captures/initial/portrait-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 3658
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "1bae97ef7df1e630a4f4149b7d263e53eac2642add590eb90acac832d9a8826f"
+  },
+  {
+    "file": "captures/initial/portrait-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "cba39c55591979047c8380149efb8f01fa9ffbbfb1effc98b9de1fac12c51e1a"
+  },
+  {
+    "file": "captures/initial/portrait-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "131a6b5e361975d19b3ed522cb1b778afedf6fc5f5e3535e8f8dcd20cd501c3e"
+  },
+  {
+    "file": "captures/initial/FAIL-portrait-a-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "bc47f600ee7d4d126ffa80a8f082b4afce5e41e058306052f0a1a884cc86e7c2"
+  },
+  {
+    "file": "captures/initial/portrait-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 3658
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "027a500889980c8e12f97bba91d80a2d820e3cb57e9dd1d18a8d1e4a476912d2"
+  },
+  {
+    "file": "captures/initial/portrait-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "3e33a6be6c28868f6ab9e36d96af407380dbbcfb88b19224f2622df30a20f12a"
+  },
+  {
+    "file": "captures/initial/portrait-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "5b0f2e93d1629ca88a8f3b1cb2b056881110e784d7669cfe239f5e8491261140"
+  },
+  {
+    "file": "captures/initial/FAIL-portrait-b-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 390,
+      "height": 844
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "83071c7692f77fbf21e1857049582505db39c334aca40aab4066948c3d88c9e6"
+  },
+  {
+    "file": "captures/initial/landscape-a-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 2212
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "d34803d1a246e4c4ac98ece923c2b33c8714acfccf92088bf48b18e5ccec5cc4"
+  },
+  {
+    "file": "captures/initial/landscape-a-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "e109d5ca28cd8ae5f6af887652420a43ebe15f1ee20b4dcfb77ddca2f0b29b4b"
+  },
+  {
+    "file": "captures/initial/landscape-a-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "e663fea1a38bdd76dbc8ed7025891c9aac9b2a4f2aad930d512a9ca999d72152"
+  },
+  {
+    "file": "captures/initial/FAIL-landscape-a-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "4aa09dd7fdc313e5e4c65e0f6c91828caeddc222154fd848e4a9abffaff90f1f"
+  },
+  {
+    "file": "captures/initial/landscape-b-workshop.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 2212
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "b3295972c70ab1ef90e40c4f8d3a5ebb8d47673ddf8ef125af35dccff76d67c5"
+  },
+  {
+    "file": "captures/initial/landscape-b-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "78b71117a94adfca000e698b85afff1dca0329d3a2bd35eb60601d57bfc0656e"
+  },
+  {
+    "file": "captures/initial/landscape-b-play.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "10d5c238e23cffa414c3079f8e4dead931367b447c28b4911fe7ebcaa28d776f"
+  },
+  {
+    "file": "captures/initial/FAIL-landscape-b-full-flow-real-frame.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "575bf8abbfd12d6e067e72d93ea7b161fff2478962c4c1abe43558a797acf1c9"
+  },
+  {
+    "file": "captures/initial/FAIL-portrait-scroll-restoration-empty-rotate.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 390,
+      "height": 844
+    },
+    "image_px": {
+      "width": 362,
+      "height": 741
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "a",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "journal",
+    "sha256": "67d3a0a584809f0ed4a5f58a19c4d8779a798a3147ee65010809cdf9530fe36a"
+  },
+  {
+    "file": "captures/initial/landscape-deep-inset-long-title.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "frame",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "5e20c526370b2314be5cc668cfcedf3152a16ac2ec110565d604d163225bba05"
+  },
+  {
+    "file": "captures/initial/FAIL-deep-inset-long-labels-text-scale-short-height.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 844,
+      "height": 390
+    },
+    "image_px": {
+      "width": 844,
+      "height": 390
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "landscape",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "f58609d86d00d6b22d181a4a7976f87c9419ba989087277998a2f5b6cf0fe74b"
+  },
+  {
+    "file": "captures/initial/portrait-320-scaled-bag.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "full",
+    "viewport_css": {
+      "width": 320,
+      "height": 740
+    },
+    "image_px": {
+      "width": 320,
+      "height": 4885
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "portrait",
+    "layout": "b",
+    "scene": "play",
+    "modal": "inventory",
+    "selected": "compass",
+    "sha256": "ada51c83e9e71ff3663546f2f9d2d80331b4f49ae313d548ecd0d6efd8c567ce"
+  },
+  {
+    "file": "captures/initial/FAIL-browser-console-clean.png",
+    "kind": "synthetic_visual",
+    "observed_scope": "original_local_fixture",
+    "capture_mode": "stage",
+    "viewport_css": {
+      "width": 1440,
+      "height": 1000
+    },
+    "image_px": {
+      "width": 1055,
+      "height": 595
+    },
+    "device_scale_factor": 1,
+    "zoom_percent": 100,
+    "profile": "desktop",
+    "layout": "a",
+    "scene": "title",
+    "modal": null,
+    "selected": "compass",
+    "sha256": "d2499e50bdfd1cecbba5bbc887223fb16fe351c1bdee49ddd7b4bf8d4e879282"
+  }
+]

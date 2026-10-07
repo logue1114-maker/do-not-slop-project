@@ -1,0 +1,14 @@
+{
+  "created_at":"2026-10-07",
+  "version":"1.0.0-public-source",
+  "base":{"repository":"https://github.com/logue1114-maker/do-not-slop-project","branch":"main","commit":"6f3944309604ed2e10784cd62119b2d429c9a7e2","checkout":"Fresh clone inspected before additive implementation."},
+  "publication_base_commit":"cad72abf335c4acf825ce840074834297c18d524",
+  "authorized_scope":"Add research/menu_placement_v1 and minimal README.md/docs/RESEARCH_INDEX.md navigation. Public Git commit/push explicitly authorized on 2026-10-07. Preserve all preexisting research and concurrent main work. No Site edit or plugin installation.",
+  "task":"Extend English-first visual manuals for entry/connection menus, main-menu button placement and inventory placement/navigation, with original interactive examples, famous-game source comparisons, orientation/input-specific behavior, proposed geometry annotations, recovery, focus restoration, actual browser captures and honest test limits.",
+  "authoring":"Codex authored implementation, fictional fixture, CSS/SVG art, conceptual diagrams and reusable AI instructions under the project guide. A separate researcher supplied bounded official-reference observations. Implementer checked official page text and source links.",
+  "method":"Guided original educational development, followed by functional/browser checks and repairs. No unguided model arm, frozen matched-pair prompt, human participant sample, treatment-effect estimate or empirical winner.",
+  "model_metadata":{"agent":"Codex","exact_backend_revision":"unknown","sampling_seed":"unknown","stochastic_reproduction_guaranteed":false,"duration_or_token_budget_controlled":false},
+  "records":{"runtime_versions":"checks/*/source/ and source-hashes.json; initial run has an explicit end-snapshot limitation","tests":"checks/*/results.json, summary.json and interaction-trace.json","captured_original_screens":"captures/*/*.png and checks/*/screenshots.json","repair_record":"CHANGELOG.md","source_rights":"sources.json","current_restart_point":"HANDOFF.md"},
+  "approval":{"user_design":"pending","public_git_publication":"explicitly authorized on 2026-10-07; distinct from design acceptance","plugin_installation":"not performed","site_edit":"not performed"},
+  "license":"No new reuse license selected. Third-party game assets remain link-only; only original local interface captures are bundled."
+}

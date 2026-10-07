@@ -1,0 +1,18 @@
+[
+  {
+    "file": "index.html",
+    "sha256": "56f96638d43992d16a6b56747135ca20cb096f2238f8e1ab0146fb2f29506841"
+  },
+  {
+    "file": "app.js",
+    "sha256": "ca7df7151aa7ea6970aba98e6c491530346f073535246539d83e2db77b4247ec"
+  },
+  {
+    "file": "style.css",
+    "sha256": "c98c37ff350c894a46f305a9944ebc9b41093d1407ce088a98ed11d1f65b8d59"
+  },
+  {
+    "file": "browser-checks.mjs",
+    "sha256": "394dc4a7db4a638acbb51eab00a478dee693d8f28a3c095a4ccc5035eb6060e5"
+  }
+]

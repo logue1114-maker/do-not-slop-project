@@ -1,0 +1,102 @@
+[
+  {
+    "file": "captures/review-candidate-2/desktop-flow-contact-sheet.png",
+    "kind": "labeled-contact-sheet",
+    "source_files": [
+      {
+        "file": "captures/review-candidate-2/desktop-a-title.png",
+        "sha256": "c0a288d59a0b37da5f351a205b79c6aa1486a80da353197465da575993c95c8a"
+      },
+      {
+        "file": "captures/review-candidate-2/desktop-connection-failure.png",
+        "sha256": "4cd23a010e56a5d8e58a501ff022ffc7862a9b3c8f1b3ef926be2c1d4ba0d2ab"
+      },
+      {
+        "file": "captures/review-candidate-2/desktop-main.png",
+        "sha256": "ad3b73677722e45f54971ae6d7b0b71e5a23ab2692c05757081d97e3771106be"
+      },
+      {
+        "file": "captures/review-candidate-2/controller-inventory-annotated.png",
+        "sha256": "8ec83bc71ebe4af477909aa7777074dbf50562369ff97615e1f83ea2f0ab2748"
+      },
+      {
+        "file": "captures/review-candidate-2/desktop-inventory-used.png",
+        "sha256": "696674a150020322bda629e9227bf449169c0d598b535f4ed404d36c8a0881d7"
+      },
+      {
+        "file": "captures/review-candidate-2/desktop-return.png",
+        "sha256": "b7ff9555bc4475df13bf31d30200e5e378fa6d5efa24cecc3e0b7014bfb65d14"
+      }
+    ],
+    "image_px": {
+      "width": 1600,
+      "height": 1802
+    },
+    "bytes": 906996,
+    "sha256": "817f6538715d713baa6fac122d7d8761730eeff69ae69ab82e4f108b6a314f48"
+  },
+  {
+    "file": "captures/review-candidate-2/mobile-flow-contact-sheet.png",
+    "kind": "labeled-contact-sheet",
+    "source_files": [
+      {
+        "file": "captures/review-candidate-2/portrait-a-title.png",
+        "sha256": "aafa840e9849b98a9507b7bfbb6fda249a134c1899c91e685fd061a4cb2bfb9f"
+      },
+      {
+        "file": "captures/review-candidate-2/portrait-a-play.png",
+        "sha256": "0db12687cc13adf058cddc443d82f25cc6cc9023912a14fd46200878f9ddb08a"
+      },
+      {
+        "file": "captures/review-candidate-2/portrait-a-bag.png",
+        "sha256": "cfa56495fb6bf3a9cd3a60158cb6658dc19f19396c99f8f1709659d5d86b697f"
+      },
+      {
+        "file": "captures/review-candidate-2/portrait-b-bag.png",
+        "sha256": "5c9b21ecf7691a79b94f5790c7216f036d787b823b82e3eef69c6239b3b6da7e"
+      },
+      {
+        "file": "captures/review-candidate-2/portrait-a-detail.png",
+        "sha256": "7058f03dc4ab7d23875cdff8039a0eb4d77ea950d189c4793ebf6aa70bdeca99"
+      },
+      {
+        "file": "captures/review-candidate-2/portrait-a-return.png",
+        "sha256": "535a5cba7380c8eec34686686fb53855723aad4469bc25edf22153d6f45f971e"
+      }
+    ],
+    "image_px": {
+      "width": 1050,
+      "height": 2136
+    },
+    "bytes": 511253,
+    "sha256": "d5c00f7ab8963e67b3b84c1457844e316dc7131ce9ad8bdf5e2935198f501949"
+  },
+  {
+    "file": "captures/review-candidate-2/landscape-flow-contact-sheet.png",
+    "kind": "labeled-contact-sheet",
+    "source_files": [
+      {
+        "file": "captures/review-candidate-2/landscape-a-play.png",
+        "sha256": "af3e96a7346d6904e3c77df9ad4cfd87187eae445e63e78c781f4461ef770198"
+      },
+      {
+        "file": "captures/review-candidate-2/landscape-a-bag.png",
+        "sha256": "eb831a803c447ece6a82840ff291d168e51628eeea021c5d2c0cea4ede0acbc2"
+      },
+      {
+        "file": "captures/review-candidate-2/landscape-b-bag.png",
+        "sha256": "586156ab36e457849fe23c734c99705dba5ef60909bf22198befdaf2a2df6b15"
+      },
+      {
+        "file": "captures/review-candidate-2/landscape-a-return.png",
+        "sha256": "005f89efdfd5e98042325f1309f87ba0d485a9c159d64eaaffe7a44f169559ab"
+      }
+    ],
+    "image_px": {
+      "width": 1680,
+      "height": 1136
+    },
+    "bytes": 612888,
+    "sha256": "47f885fd2d169872e39dc8a38580d290577156301b013db7b58651a3779a1a30"
+  }
+]

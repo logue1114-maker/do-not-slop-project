@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-07T01:04:40.031Z",
+  "scope": "bounded public source integration; not browser interaction, comprehensive secret detection, hardware validation or design acceptance",
+  "publication_base_commit": "cad72abf335c4acf825ce840074834297c18d524",
+  "current_browser_run": "review-candidate-2",
+  "results": [
+    {
+      "name": "only additive package and minimal navigation changed",
+      "status": "pass"
+    },
+    {
+      "name": "both prior research packages and concurrent Party Race work unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "current tested runtime and harness match frozen bytes",
+      "status": "pass"
+    },
+    {
+      "name": "root navigation and package documentation resolve locally",
+      "status": "pass"
+    },
+    {
+      "name": "original assets and explicit rights/approval boundaries",
+      "status": "pass"
+    },
+    {
+      "name": "no external runtime assets or service calls",
+      "status": "pass"
+    },
+    {
+      "name": "public text has no workstation paths, private identifiers or credential-shaped strings",
+      "status": "pass"
+    },
+    {
+      "name": "all package files match exact byte manifest",
+      "status": "pass"
+    }
+  ]
+}

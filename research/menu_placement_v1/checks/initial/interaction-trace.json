@@ -1,0 +1,410 @@
+[
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connection-back"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "a-survey"
+  },
+  {
+    "action": "click",
+    "target": "a-hub"
+  },
+  {
+    "action": "key",
+    "value": "ArrowDown"
+  },
+  {
+    "action": "key",
+    "value": "ArrowUp"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "Space"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "ArrowDown"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "i"
+  },
+  {
+    "action": "key",
+    "value": "ArrowRight"
+  },
+  {
+    "action": "key",
+    "value": "ArrowDown"
+  },
+  {
+    "action": "click",
+    "target": "export"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "a-detail-back"
+  },
+  {
+    "action": "click",
+    "target": "play-view"
+  },
+  {
+    "action": "click",
+    "target": "a-enter"
+  },
+  {
+    "action": "click",
+    "target": "a-connect"
+  },
+  {
+    "action": "click",
+    "target": "a-ready"
+  },
+  {
+    "action": "click",
+    "target": "a-join"
+  },
+  {
+    "action": "click",
+    "target": "a-resume"
+  },
+  {
+    "action": "click",
+    "target": "a-bag"
+  },
+  {
+    "action": "click",
+    "target": "a-item-boots"
+  },
+  {
+    "action": "click",
+    "target": "a-detail-back"
+  },
+  {
+    "action": "click",
+    "target": "a-close-bag"
+  },
+  {
+    "action": "key",
+    "value": "Space"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "ArrowDown"
+  },
+  {
+    "action": "key",
+    "value": "Space"
+  },
+  {
+    "action": "key",
+    "value": "Enter"
+  },
+  {
+    "action": "key",
+    "value": "i"
+  }
+]

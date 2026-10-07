@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "artifactType": "authored-proposal",
+  "empiricalExperiment": false,
+  "sourceGameMeasurements": false,
+  "settings": {
+    "profile": "desktop",
+    "layout": "b",
+    "safe": 0,
+    "annotate": true,
+    "compare": true,
+    "long": false,
+    "scale": 1
+  },
+  "state": {
+    "scene": "main",
+    "modal": null,
+    "connected": true,
+    "ready": false,
+    "loading": false,
+    "error": null,
+    "name": "Rowan",
+    "region": "Coast relay",
+    "attempts": 0,
+    "selected": "compass",
+    "filter": "All",
+    "detail": false,
+    "bagScroll": 0,
+    "empty": false,
+    "equipped": "compass",
+    "usedFlask": false,
+    "hp": 92,
+    "surveys": 0,
+    "moves": 0,
+    "returnOrigin": "play",
+    "resumeScene": "play",
+    "restoreId": null,
+    "failNext": false,
+    "volume": 70
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "dpr": 1
+  },
+  "renderedFrame": {
+    "width": 1053,
+    "height": 591
+  },
+  "geometryCssPx": [
+    {
+      "target": "01 Main action rail",
+      "x": 343,
+      "y": 232,
+      "width": 370,
+      "height": 272,
+      "scrollContent": false
+    },
+    {
+      "target": "02 Primary",
+      "x": 343,
+      "y": 298,
+      "width": 370,
+      "height": 44,
+      "scrollContent": false
+    },
+    {
+      "target": "03 Exit",
+      "x": 343,
+      "y": 460,
+      "width": 370,
+      "height": 44,
+      "scrollContent": false
+    }
+  ],
+  "parameters": {
+    "version": "1.0.0",
+    "proposal": true,
+    "connectionDelayMs": 900,
+    "desktopTarget": 44,
+    "controllerTarget": 60,
+    "touchTarget": 48,
+    "desktopGap": 10,
+    "controllerGap": 12,
+    "portraitGap": 12,
+    "landscapeGap": 8
+  },
+  "limits": [
+    "physical devices unrun",
+    "physical controller unrun",
+    "screen reader unrun",
+    "user approval pending"
+  ]
+}

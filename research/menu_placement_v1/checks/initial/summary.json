@@ -1,0 +1,37 @@
+{
+  "runId": "initial",
+  "finished_at": "2026-10-07T00:36:05.668Z",
+  "browser": "148.0.7778.96",
+  "platform": "win32",
+  "node": "v24.15.0",
+  "passed": 4,
+  "failed": 18,
+  "total": 22,
+  "errors": [
+    {
+      "type": "console",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "unrun": [
+    "physical touchscreen and safe areas",
+    "real software keyboard",
+    "physical controller",
+    "screen readers",
+    "Firefox / WebKit",
+    "200% browser zoom and native text settings",
+    "human usability participants",
+    "external visual review",
+    "original game hands-on current-build tests",
+    "user design approval"
+  ],
+  "claims": {
+    "authored": true,
+    "empiricalExperiment": false,
+    "publication": false,
+    "commit": false,
+    "push": false,
+    "siteEdit": false,
+    "pluginInstallation": false
+  }
+}

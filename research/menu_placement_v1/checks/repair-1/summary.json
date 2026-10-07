@@ -1,0 +1,32 @@
+{
+  "runId": "repair-1",
+  "finished_at": "2026-10-07T00:39:37.739Z",
+  "browser": "148.0.7778.96",
+  "platform": "win32",
+  "node": "v24.15.0",
+  "passed": 23,
+  "failed": 1,
+  "total": 24,
+  "errors": [],
+  "unrun": [
+    "physical touchscreen and safe areas",
+    "real software keyboard",
+    "physical controller",
+    "screen readers",
+    "Firefox / WebKit",
+    "200% browser zoom and native text settings",
+    "human usability participants",
+    "external visual review",
+    "original game hands-on current-build tests",
+    "user design approval"
+  ],
+  "claims": {
+    "authored": true,
+    "empiricalExperiment": false,
+    "publication": false,
+    "commit": false,
+    "push": false,
+    "siteEdit": false,
+    "pluginInstallation": false
+  }
+}

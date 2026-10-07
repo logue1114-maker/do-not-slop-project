@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-07T01:04:02.227Z",
+  "scope": "package structure, source records, bounded token contrast, preserved preexisting files outside authorized navigation, capture integrity; not browser behavior or full accessibility",
+  "results": [
+    {
+      "name": "changed scope syntax",
+      "status": "pass"
+    },
+    {
+      "name": "parameter contract matches runtime",
+      "status": "pass"
+    },
+    {
+      "name": "official source records and rights",
+      "status": "pass"
+    },
+    {
+      "name": "no remote runtime media or libraries",
+      "status": "pass"
+    },
+    {
+      "name": "local document destinations exist",
+      "status": "pass"
+    },
+    {
+      "name": "fixed token contrast pairs",
+      "status": "pass"
+    },
+    {
+      "name": "preexisting bytes preserved outside authorized navigation",
+      "status": "pass"
+    },
+    {
+      "name": "browser evidence manifests have matching image hashes",
+      "status": "pass"
+    }
+  ]
+}

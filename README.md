@@ -42,6 +42,7 @@ Most research manuals are in Korean. The AI entrypoint, CP01 packages, palette e
 | Task | Start here | Example or source |
 | :--- | :--- | :--- |
 | Explore game UI details | [Live settings and reusable contracts](research/game_ui_playground_v1/README.md) | [First component playground](research/game_ui_playground_v1/index.html) · [Desktop / phone captures](research/game_ui_playground_v1/BROWSER_REPORT.md) |
+| Menu and inventory placement | [English visual manual and AI instructions](research/menu_placement_v1/README.md) | [Interactive flow and layout annotations](research/menu_placement_v1/index.html) · [Actual desktop / mobile captures](research/menu_placement_v1/captures/README.md) |
 | Game controls and HUD | [Controls manual](research/game_controls_corrections_v2.md) · [Fleet commands](research/strategy_controls_oct4/strategy_controls_research.ko.md) | [Five game presets](research/game_interface_presets_v1/README.md) · [Fleet-command demo](research/strategy_controls_oct4/demo/README.md) |
 | Gameplay timing, intent and recovery | [Sources and proposal boundaries](research/gameplay_details_v1/sources.json) | [Four interactive studies](research/gameplay_details_v1/README.md) · [Captures](research/gameplay_details_v1/captures/README.md) |
 | Multiplayer motion presentation | [Party Race implementation case and limits](research/party_race_sync_20261007/README.md) | [Display-only module](research/party_race_sync_20261007/motion-presentation.js) · [10 portable tests](research/party_race_sync_20261007/motion-presentation.test.mjs) |

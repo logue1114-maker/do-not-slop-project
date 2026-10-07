@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "artifact_type": "authored-educational-proposal",
+  "empirical_experiment": false,
+  "source_game_measurements": false,
+  "units": "CSS px of original browser render",
+  "parameters": {"version":"1.0.0","proposal":true,"connectionDelayMs":900,"desktopTarget":44,"controllerTarget":60,"touchTarget":48,"desktopGap":10,"controllerGap":12,"portraitGap":12,"landscapeGap":8},
+  "safe_area_scenarios": {"values_px":[0,24,44],"desktop_controller_portrait":"top/bottom simulated inset; side 0","landscape":"same simulated inset on all four sides","physical_tested":false,"native_insets":"Preview is a simulation. Production adapters must merge actual platform insets and virtual-keyboard bounds; native adapter unrun."},
+  "fixture": {"game":"North Marsh","player":"Rowan","routes":["Coast relay","Inland relay"],"items":12,"initial_hp":92,"survey_limit":3,"water_hp":8,"persistence":"tab session only; reload resets","server":"none"},
+  "profiles": {
+    "desktop":{"input":["pointer","Tab","Enter","Space","arrows","I","Q/E","Escape"],"menu_a":"left action rail","menu_b":"central vertical stack","inventory_a":"right split panel, 3 columns","inventory_b":"wide split panel, 4 columns"},
+    "controller":{"input":["keyboard stand-ins","standard Gamepad API adapter"],"menu_a":"central stack","menu_b":"left stack","inventory_a":"wide grid, 3 columns","inventory_b":"right panel, 3 columns","hardware_status":"not_run"},
+    "portrait":{"input":["touch emulation","native buttons"],"menu_a":"lower safe rectangle","menu_b":"upper-middle stack","inventory_a":"full sheet, 3 columns -> detail","inventory_b":"full sheet, 2 wider columns -> detail","hardware_status":"not_run"},
+    "landscape":{"input":["touch emulation","native buttons"],"menu_a":"left rail; compact connection panel","menu_b":"central rail","inventory_a":"right split panel, 3 columns","inventory_b":"wide split panel, 4 columns","hud":"movement bottom left; survey bottom right; bag separate from minimap and movement","hardware_status":"not_run"}
+  },
+  "screens": [
+    {"id":"title","primary":"Enter station","initial_focus":"Enter station after Return; Reset retains its workshop reset control; normal initial document entry uses Tab","back":"no-op","secondary":["Settings","About"]},
+    {"id":"connect","primary":"Connect as guest / Retry","states":["idle","validation error","pending","failure","success"],"back":"Cancel pending and return to title; retain form values","guard":"one pending request; generation token invalidates cancelled completion"},
+    {"id":"lobby","primary":"Enter hub","gate":"ready is true","back":"connection; retain name/route","network":"solo local fixture, no remote users"},
+    {"id":"main","primary":"Resume survey","secondary":["Inventory","Settings","Return to title"],"back":"return confirmation","pause":"local survey paused"},
+    {"id":"play","primary":"Survey point","states":["0/3","1/3","2/3","3/3 complete"],"back":"hub","guard":"no survey action when a modal owns input"},
+    {"id":"inventory","type":"modal","pause":"local survey paused; no multiplayer inference","initial_focus":"selected item; Close if empty","retained":["selected item","category","scroll","equipment","consumption"],"back":"portrait detail -> selected item; otherwise close -> exact opener","world_input":"inert and scrim; keyboard/gamepad routed by active layer"},
+    {"id":"return","type":"modal","initial_focus":"Keep playing","cancel":"same origin + exit opener focus","confirm":"title; disconnect; progress retained in this tab"},
+    {"id":"disconnect","type":"modal","initial_focus":"Retry","states":["interrupted","retry pending","retry failed","cancelled retry","reconnected","return to title"],"retained":["survey","equipment","selection","category","HP"],"back":"cancel pending retry; otherwise remain and require explicit recovery choice"}
+  ],
+  "focus_rules": {"menu":"linear arrows + Tab","grid":"spatial arrows, clamp row edges; Enter selects; Equip/Use explicit; controller X performs selected action","play":"spatial arrow navigation among HUD controls","categories":"Q/E or shoulder adapter; controller returns to valid selected item","modal":"native Tab trap; Escape follows active layer; held Back cannot dismiss multiple layers","rotation":"retain selection and drop portrait detail-only state when wide","comparison":"inert alternate; same fixture/state, changed geometry only"},
+  "evidence": {"visual":"actual browser captures of original interface","behavior":"native browser input traces and read-only snapshots","measurement":"DOM rectangles; no external-game geometry measured","not_claimed":["measured thumb reach","empirical AI treatment effect","user approval","commercial readiness","current native-game behavior"]}
+}
