@@ -15,6 +15,10 @@ The first test command needs only Node's built-in modules. Browser tests reuse a
 
 For a targeted browser regression, set `QA_CASE` to an exact check name from the report and `QA_REPORT_NAME` to a simple lowercase/hyphen filename stem. Clear `QA_CASE` for the full suite. Run `node research/human_maintainability_v1/tests/publication.mjs` for scoped Git-preservation, link/JSON and bounded public-safe checks. It requires the Git checkout; the old global release receipt has a separate historical scope.
 
+This package's `.gitattributes` disables checkout line-ending conversion so retained specimens and source hashes stay byte-exact on Windows too. It does not change Git settings or older packages. The repository file inventory describes committed Git blobs; a checkout with different line endings outside this package can have different local byte hashes.
+
+The historical `validation/build_inventory.py` hashes working-tree bytes, so its output alone cannot certify committed bytes after checkout conversion. For a release inventory, stage the intended files, obtain the tree with `git write-tree`, read each `tree:path` through `git cat-file --batch`, and hash/count those raw blob bytes; exclude `FILES.sha256.json` itself and verify every record against that same tree before committing. Do not regenerate committed-byte metadata from a converted archive or checkout.
+
 ## Module and dependency map
 
 Static imports point downward in this map. Runtime callbacks carry actions upward without giving input code ownership of the reducer.

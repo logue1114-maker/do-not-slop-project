@@ -26,7 +26,7 @@
     "tests/browser.mjs": "641f10cc3db7fe1886c2e4d6d300afc69b11d8eadf63435ef2f0b2c1a2b2e1c3",
     "tests/contracts.test.mjs": "37ad20c84d88c0bd4ffa89f708657eab91ce32c195f34a4b8840d7eae7f607ab",
     "tests/dependencies.mjs": "bf135415aa19ce154a066968d25171683003345f1a57591d388ab36f7af7fc21",
-    "tests/publication.mjs": "f5d2390a0a70a62e763c02d0fd7e6c7c331b53f6b47ab3d50d9af549b8f07026",
+    "tests/publication.mjs": "46ac8cebdaf255620bed721100773f3dfb5ac5cdc760fb6fd69fb234eaed2238",
     "tests/run.mjs": "5d9d9b6a5e5f2721ba4d3a37b3e4d133533e0fcdbf297cfb7d31dd24b64c6107"
   },
   "checks": [

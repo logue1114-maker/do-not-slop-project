@@ -1,0 +1,3 @@
+# Retained specimens and source-hash receipts must survive checkout byte-exactly.
+# Limit this policy to the new research package; older project files are untouched.
+* -text

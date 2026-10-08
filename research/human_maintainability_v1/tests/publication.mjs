@@ -54,7 +54,7 @@ const patterns = [
 ];
 for (const file of files) {
   const rel = path.relative(repo, file).split(path.sep).join('/');
-  if (!['.md', '.mjs', '.json', '.html', '.css', '.patch'].includes(path.extname(file))) unsupported.push(rel);
+  if (path.basename(file) !== '.gitattributes' && !['.md', '.mjs', '.json', '.html', '.css', '.patch'].includes(path.extname(file))) unsupported.push(rel);
   const text = await readFile(file, 'utf8');
   if (/\/(?:before|after|tests|change-example)\//.test(rel) && !rel.endsWith('.md')) runtimeHashes[rel.slice(prefix.length)] = createHash('sha256').update(await readFile(file)).digest('hex');
   if (patterns.some(pattern => pattern.test(text))) sensitive.push(rel);
