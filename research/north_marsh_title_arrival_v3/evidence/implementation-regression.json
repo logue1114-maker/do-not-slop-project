@@ -1,0 +1,36 @@
+{
+  "phase": "before authorized publication",
+  "record": {
+    "runId": "north-marsh-title-v3-delivery-20261008",
+    "finished_at": "2026-10-08T04:39:36.020Z",
+    "browser": "149.0.7827.55",
+    "platform": "win32",
+    "node": "v24.15.0",
+    "passed": 25,
+    "failed": 0,
+    "total": 25,
+    "errors": [],
+    "unrun": [
+      "physical touchscreen and safe areas",
+      "real software keyboard",
+      "physical controller",
+      "screen readers",
+      "Firefox / WebKit",
+      "200% browser zoom and native text settings",
+      "human usability participants",
+      "external visual review",
+      "original game hands-on current-build tests",
+      "user design approval"
+    ],
+    "claims": {
+      "authored": true,
+      "empiricalExperiment": false,
+      "publication": false,
+      "commit": false,
+      "push": false,
+      "siteEdit": false,
+      "pluginInstallation": false
+    }
+  },
+  "limit": "Functional results do not prove aesthetic acceptance; positive feedback/publication authorization arrived later."
+}

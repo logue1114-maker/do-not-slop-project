@@ -397,5 +397,18 @@
     "user_design_approval": "pending",
     "reuse_license": "pending_user_decision",
     "excluded": "Internal handoff, machine paths, authentication, contact data, internal conversations, delivery archives and third-party media"
+  },
+  "north_marsh_title_arrival_v3": {
+    "scope": "bounded original title source/art and project-owned synthetic captures; text-only copy proposal",
+    "allowlist": "../research/north_marsh_title_arrival_v3/provenance.json",
+    "public_publication_authorized": true,
+    "earlier_candidate_status": "rejected history",
+    "feedback_scope": "latest title only",
+    "external_screenshots_bundled": false,
+    "private_site_assets_bundled": false,
+    "private_delivery_metadata_bundled": false,
+    "finished_aaa_quality_established": false,
+    "native_200_percent_text_established": false,
+    "github_clone_copy_implementation_tested": false
   }
 }

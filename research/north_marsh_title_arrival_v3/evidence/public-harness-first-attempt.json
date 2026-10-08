@@ -1,0 +1,8 @@
+{
+  "status": "failed before scenario execution",
+  "cases_executed": 0,
+  "cause": "Portable test server treated the dotted rejected-v2.0.4 history directory as a file extension and did not resolve its index page.",
+  "correction": "Explicitly resolve index.html when the remaining URL path is empty.",
+  "product_runtime_changed": false,
+  "followup": "Fresh public native-title checks rerun after this harness correction."
+}

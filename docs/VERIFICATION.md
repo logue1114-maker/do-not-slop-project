@@ -1,5 +1,10 @@
 # Verification and limits
 
+## North Marsh title v3 publication
+
+[Case browser report](../research/north_marsh_title_arrival_v3/BROWSER_REPORT.md) separates retained implementation verification from fresh public-copy checks. Functional input results and same-state captures do not establish aesthetics or usability. The 200% authored text model has an unresolved composition concern; native OS text scaling, physical devices/controllers, screen-reader speech and finished AAA quality remain unestablished. The separate [clone-helper copy proposal](../research/github_clone_copy_20261008/README.md) has no clipboard implementation or tested-success claim. Earlier reports below are unchanged.
+
+
 ## Party Race: local motion correction, not an FPS claim
 
 [The case](../research/party_race_sync_20261007/README.md) includes ten executable helper tests and repair history. Its combined game regression run passed 24 tests; fourteen game integration helpers remain outside this public tree. Normal two-participant local browser create/join/start and native movement/jump/landing were observed, without forced game state. [Aggregates](../research/party_race_sync_20261007/observations.json) show interpolation running and approximately 67 ms median frame intervals still present. No matched before/after, school performance, long session, complete course or game-production deployment is claimed. Mobile DOM/control bounds and click were checked, but a mismatched capture surface leaves complete mobile visual acceptance unverified. Repository release checks verify public files and preserved prior bytes, not those unrun runtime gates.

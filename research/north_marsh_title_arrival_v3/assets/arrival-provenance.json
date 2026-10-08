@@ -1,0 +1,17 @@
+{
+  "asset": "arrival-desktop.png",
+  "kind": "original generated environment illustration",
+  "tool": "image_gen.imagegen",
+  "date_utc": "2026-10-08",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "94463bcaae7ae8cd33ff1610215171487cec3f293fe219b250f6bbf290a87961",
+  "references_supplied_to_generation": [],
+  "brief": "Original remote tidal survey station, slate timber hut, observation lantern, raised platform, exterior stairs, wet boardwalk, foreground reeds, iron blue dusk and warm window light; low detail left region; no text or interface",
+  "product_use": "Decorative title arrival scene only. Portrait composition uses CSS reframing. Gameplay coordinates and terrain remain unchanged.",
+  "external_reference_pixels_in_product": false,
+  "approval_at_generation": "user visual review pending",
+  "latest_feedback_scope": "positive visual feedback on this title; no complete AAA-quality or other-case approval"
+}

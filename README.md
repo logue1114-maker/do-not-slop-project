@@ -4,6 +4,16 @@ Practical guides and runnable examples for AI-built game, web, and app interface
 
 [Use with your AI](#use-with-your-ai) · [Guides and examples](#guides-and-examples) · [Research records](docs/RESEARCH_INDEX.md)
 
+## Latest: North Marsh station arrival
+
+One bounded title revision with original station art, coherent type/glyphs and actual button-state captures. The left panel is **rejected v2.0.4 history**; the right is the latest v3 candidate with positive visual feedback. Same initial data and viewport; this is an authored revision, not an experiment or a claim of finished AAA quality.
+
+<a href="research/north_marsh_title_arrival_v3/captures/desktop-before-after.png"><img src="research/north_marsh_title_arrival_v3/captures/desktop-before-after.png" alt="Large honest North Marsh comparison: rejected earlier title and latest station-arrival revision" width="100%"></a>
+
+[Case and runnable instructions](research/north_marsh_title_arrival_v3/README.md) · [Full desktop after](research/north_marsh_title_arrival_v3/captures/desktop-after.png) · [Portrait comparison](research/north_marsh_title_arrival_v3/captures/portrait-before-after.png) · [Portrait after](research/north_marsh_title_arrival_v3/captures/portrait-after.png) · [Tests and unresolved 200% composition](research/north_marsh_title_arrival_v3/BROWSER_REPORT.md)
+
+[Concise source-first craft guide](guides/source-first-ui-craft.md) separates inspected GoW/Cyberpunk pixels from blocked Forza/board inspection. [GitHub clone-helper copy case](research/github_clone_copy_20261008/README.md) is a separate text-only proposal based on official documentation and a retirement notice; it is not a live-UI audit or a tested clipboard implementation. Other contributors' examples and limits below remain unchanged.
+
 <a id="latest-screens-cp01-guided-iteration-with-guide-v2"></a>
 
 ## A worked example

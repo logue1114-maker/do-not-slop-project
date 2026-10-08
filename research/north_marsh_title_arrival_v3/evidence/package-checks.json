@@ -1,0 +1,29 @@
+{
+  "scope": "portable package syntax, canonical data, local assets/links, original-only provenance and publication sanitization; not aesthetics/usability",
+  "results": [
+    {
+      "name": "source syntax",
+      "status": "pass"
+    },
+    {
+      "name": "canonical placement data preserved",
+      "status": "pass"
+    },
+    {
+      "name": "local documents and runtime assets",
+      "status": "pass"
+    },
+    {
+      "name": "scoped stylesheet and original asset",
+      "status": "pass"
+    },
+    {
+      "name": "sanitized public text and rights boundaries",
+      "status": "pass"
+    },
+    {
+      "name": "declared provenance and native image dimensions",
+      "status": "pass"
+    }
+  ]
+}

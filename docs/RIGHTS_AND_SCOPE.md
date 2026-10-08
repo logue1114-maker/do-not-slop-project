@@ -1,5 +1,12 @@
 # Rights, provenance and scope
 
+## North Marsh title v3 and clone-helper copy proposal
+
+The owner authorized public publication of this bounded title candidate, original generated illustration, code and project-owned synthetic captures. [Case provenance](../research/north_marsh_title_arrival_v3/provenance.json) allowlists exact files. Rejected v2.0.4 menu source/captures are explicitly history, not success examples. Positive visual feedback applies only to the latest title; AAA craft and other examples are not approved by it. No third-party game screenshot/font, private user screenshot, restricted Site asset, transfer/token, private delivery identifier or machine path is included. GoW/Cyberpunk source pixels were inspected; Forza and an additional reference board were unavailable. Their media is not redistributed.
+
+The [clone-helper proposal](../research/github_clone_copy_20261008/README.md) publishes only original explanatory text, a short observed helper quotation and official source links. The illustration date is unknown; live UI, AI authorship and successful clipboard behavior are not claimed. Publication does not select a new reuse license.
+
+
 ## Party Race motion presentation case
 
 The [motion case](../research/party_race_sync_20261007/README.md) contains an authored display-only JavaScript helper and tests, developer-source links with bounded paraphrases, and sanitized aggregate local observations. The owner explicitly requested Git publication of these results. Full game assets, runtime identities, room codes, account records, internal conversation data and machine locations are omitted. No screenshot or third-party media is added. [Case provenance](../research/party_race_sync_20261007/provenance.json) records source hashes. Publication does not establish causal performance gains or game deployment and does not select a new reuse license.

@@ -1,0 +1,94 @@
+/* Arrival proposal v3.0.0. Scoped to the authored left-title alternative.
+   Original illustration; world coordinates/state logic are untouched. */
+.stage.arrival-v3{background:#08131b;color:#f1eee4;--arrival-left:clamp(32px,7cqw,112px);--arrival-width:300px;--arrival-top:clamp(48px,15cqw,170px);font-family:"Bahnschrift","Segoe UI",sans-serif}
+.arrival-v3 .arrival-art{position:absolute;inset:0;z-index:-3;background:url("assets/arrival-desktop.png") center center/cover no-repeat}
+.arrival-v3 .arrival-shade{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#05101888,transparent 56%),linear-gradient(0deg,#06111bbf,transparent 24%)}
+.stage.arrival-v3 .scene-identity{left:calc(var(--sl) + var(--arrival-left));top:calc(var(--st) + var(--arrival-top));width:var(--arrival-width);max-width:none;text-align:left;transform:none;right:auto}
+.arrival-v3 .arrival-mark{width:44px;height:44px;display:block;margin-bottom:20px;fill:none;stroke:#c8b98f;stroke-width:1.2;filter:drop-shadow(0 1px 2px #030c12)}
+.arrival-v3 .arrival-mark .needle{fill:#c8b98f;stroke:none}
+.stage.arrival-v3 .scene-identity .kicker{display:block;color:#bebeb4;font:500 calc(11px * var(--unit))/18px "Bahnschrift","Segoe UI",sans-serif;letter-spacing:2.4px}
+.stage.arrival-v3 .scene-identity .game-name{position:relative;display:inline-block;font-family:"Bahnschrift","Arial Narrow",sans-serif;font-weight:600;font-stretch:condensed;font-size:clamp(58px,6.7cqw,96px);line-height:.91;letter-spacing:1px;color:#f1eee4;margin:16px 0 20px;text-shadow:0 2px 16px #040c124d}
+.arrival-v3 .title-rule{display:block;width:42px;height:2px;margin-top:24px;background:#c8b98f;box-shadow:0 1px 0 #030c1280}
+.stage.arrival-v3 .scene-identity p{font:400 calc(14px * var(--unit))/21px "Segoe UI",sans-serif;color:#b7c1c5;max-width:250px;margin:0}
+.stage.arrival-v3 .menu-panel{left:calc(var(--sl) + var(--arrival-left));top:calc(var(--st) + var(--arrival-top) + 370px);width:var(--arrival-width);max-height:calc(100% - var(--st) - var(--sb) - var(--arrival-top) - 422px);overflow:auto;scrollbar-width:thin;scrollbar-color:#72848a #10202a;padding:6px; margin-left:-6px;transform:none;bottom:auto}
+.stage.arrival-v3 .menu-actions{gap:12px}
+.stage.arrival-v3 .menu-actions button{font-family:"Bahnschrift","Segoe UI",sans-serif;font-size:calc(16px * var(--unit));line-height:22px;letter-spacing:.15px;border-radius:3px}
+.stage.arrival-v3 .menu-actions button.primary{width:100%;min-height:max(60px,var(--tap));padding:16px 20px;background:transparent;box-shadow:0 3px 0 #060e15,0 5px 14px #02091066;color:#f1eee4;font-weight:500}
+.stage.arrival-v3 .menu-actions button.primary::before{clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px));background:linear-gradient(180deg,#9ba9a7 0 1px,#455662 1px,#354450 42%,#293844 calc(100% - 2px),#17222d calc(100% - 2px));box-shadow:inset 0 0 0 1px #96a2a44d}
+.stage.arrival-v3 .menu-actions button.primary:hover::before{background:linear-gradient(180deg,#c1c4b4 0 1px,#526672 1px,#425563 45%,#354755 calc(100% - 2px),#1c2a35 calc(100% - 2px))}
+.arrival-v3 .arrival-caption{flex:1;min-width:0}
+.arrival-v3 .arrival-enter-meta{display:flex;align-items:center;gap:12px;flex-shrink:0;color:#c8b98f}
+.arrival-v3 .arrival-arrow{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linejoin:round;stroke-linecap:square}
+.stage.arrival-v3 .hint{font:400 10px/16px "Segoe UI",sans-serif;letter-spacing:.2px;color:#c4ced0;border-left:1px solid #82909780;padding-left:12px}
+.stage.arrival-v3 .menu-actions button:not(.primary){width:100%;min-width:0;min-height:var(--tap);padding:10px 20px;box-shadow:none;font-weight:400;color:#c4cbd0;background:transparent}
+.stage.arrival-v3 .menu-actions button:not(.primary):hover{background:transparent}
+.stage.arrival-v3 .menu-actions button:not(.primary)::before{clip-path:none;background:transparent;box-shadow:none}
+.stage.arrival-v3 .menu-actions button:not(.primary):hover::before{background:#a1b4b20d;box-shadow:inset 2px 0 0 #c8b98f}
+.stage.arrival-v3 .menu-actions button:active:not(:disabled){box-shadow:0 1px 0 #060e15}
+.stage.arrival-v3 .menu-actions button:active:not(:disabled)::before{transform:translateY(1px);background:linear-gradient(180deg,#20323e 0 2px,#30414d 2px,#253642 calc(100% - 1px),#17222d calc(100% - 1px))}
+.stage.arrival-v3 .menu-actions button:active:not(:disabled)>.control-label{transform:translateY(1px)}
+.stage.arrival-v3 .menu-actions button:not(.primary):active::before{background:#a1b4b21a;box-shadow:none}
+/* Native drag-off cancels the pressed face immediately; release keeps the native click guard. */
+.stage.arrival-v3 .menu-actions button.primary:active:not(:hover):not(:focus-visible){box-shadow:0 3px 0 #060e15,0 5px 14px #02091066}
+.stage.arrival-v3 .menu-actions button.primary:active:not(:hover):not(:focus-visible)::before{transform:none;background:linear-gradient(180deg,#9ba9a7 0 1px,#455662 1px,#354450 42%,#293844 calc(100% - 2px),#17222d calc(100% - 2px));box-shadow:inset 0 0 0 1px #96a2a44d}
+.stage.arrival-v3 .menu-actions button:active:not(:hover):not(:focus-visible)>.control-label{transform:none}
+.stage.arrival-v3 .menu-actions button:not(.primary):active:not(:hover):not(:focus-visible)::before{transform:none;background:transparent}
+.stage.arrival-v3 .world-note{right:calc(var(--sr) + 36px);bottom:calc(var(--sb) + 62px);max-width:210px;color:#bac4c8;text-shadow:0 1px 4px #000;line-height:18px}
+.stage.arrival-v3 .world-note strong{color:#e7e2d3;font-family:"Bahnschrift","Segoe UI",sans-serif;font-weight:500;letter-spacing:.4px}
+.stage.arrival-v3 .screen-foot{left:calc(var(--sl) + 32px);right:calc(var(--sr) + 32px);bottom:calc(var(--sb) + 16px);font:400 11px/16px "Segoe UI",sans-serif;color:#9baab3}
+.stage.arrival-v3 .simple-dialog{background:linear-gradient(145deg,#273641,#182733);border-color:#71868b;color:#f1eee4;box-shadow:0 12px 60px #0009}
+.stage.arrival-v3 .simple-dialog h2{font-family:"Bahnschrift","Segoe UI",sans-serif}
+.stage.arrival-v3 .overlay{background:#06111ba8;backdrop-filter:blur(3px)}
+.stage.arrival-v3 .simple-dialog p{color:#bcc6ca}
+/* Portrait: the station is framed as an upper scene, the quiet water carries the rail. */
+.stage.arrival-v3.portrait{--arrival-left:28px;--arrival-width:calc(100% - 56px);--arrival-top:calc(100% - var(--st) - var(--sb) - 430px)}
+.arrival-v3.portrait .arrival-art{bottom:auto;height:58%;background-size:auto 100%;background-position:91% top}
+.arrival-v3.portrait .arrival-shade{background:linear-gradient(0deg,#08131b 0%,#08131b 39%,#08131b00 68%),linear-gradient(90deg,#08131b44,transparent 70%)}
+.stage.arrival-v3.portrait .scene-identity{top:calc(var(--st) + var(--arrival-top));width:var(--arrival-width);left:28px;right:auto}
+.arrival-v3.portrait .arrival-mark{width:26px;height:26px;position:absolute;right:0;top:0;margin:0;stroke-width:1.4}
+.stage.arrival-v3.portrait .scene-identity .kicker{font-size:10px;letter-spacing:1.8px;line-height:16px}
+.stage.arrival-v3.portrait .scene-identity .game-name{font-size:54px;line-height:.92;margin:12px 0 12px;letter-spacing:.8px}
+.arrival-v3.portrait .title-rule{width:32px;height:1px;margin-top:16px}
+.stage.arrival-v3.portrait .scene-identity p{font-size:12px;line-height:18px;max-width:none}
+.stage.arrival-v3.portrait .menu-panel{left:28px;right:auto;top:auto;bottom:calc(var(--sb) + 58px);width:var(--arrival-width);max-height:calc(100% - var(--st) - var(--sb) - 250px);padding:6px;margin-left:-6px}
+.stage.arrival-v3.portrait .menu-actions{gap:8px}
+.stage.arrival-v3.portrait .menu-actions button.primary{min-height:56px;padding:14px 18px}
+.stage.arrival-v3.portrait .menu-actions button:not(.primary){padding:10px 18px}
+.stage.arrival-v3.portrait .world-note{display:block;top:calc(var(--st) + 14px);left:28px;right:auto;bottom:auto;text-align:left;max-width:175px;font-size:10px;line-height:15px}
+.stage.arrival-v3.portrait .world-note strong{font-size:11px;line-height:16px;margin-bottom:3px}
+.stage.arrival-v3.portrait .screen-foot{left:28px;right:28px;bottom:calc(var(--sb) + 18px);font-size:10px;line-height:14px}
+/* Short height: retain usable targets and scroll the action rail when labels grow. */
+.stage.arrival-v3.landscape{--arrival-left:32px;--arrival-width:260px;--arrival-top:18px}
+.arrival-v3.landscape .arrival-art{background-position:50% 46%}
+.arrival-v3.landscape .arrival-mark{width:24px;height:24px;margin-bottom:8px}
+.stage.arrival-v3.landscape .scene-identity .kicker{font-size:9px;line-height:14px;letter-spacing:1.6px}
+.stage.arrival-v3.landscape .scene-identity .game-name{font-size:44px;line-height:.9;margin:8px 0 8px}
+.arrival-v3.landscape .title-rule{display:none}
+.stage.arrival-v3.landscape .scene-identity p{display:none}
+.stage.arrival-v3.landscape .menu-panel{top:calc(var(--st) + 158px);max-height:calc(100% - var(--st) - var(--sb) - 196px)}
+.stage.arrival-v3.landscape .menu-actions{gap:8px}
+.stage.arrival-v3.landscape .menu-actions button.primary{min-height:52px;padding:12px 16px}
+.stage.arrival-v3.landscape .menu-actions button:not(.primary){padding:8px 16px}
+.stage.arrival-v3.landscape .world-note{bottom:calc(var(--sb) + 38px);right:calc(var(--sr) + 24px)}
+@media(max-width:1200px) and (min-width:600px){.stage.arrival-v3.desktop{--arrival-top:48px}.stage.arrival-v3.desktop .scene-identity .game-name{font-size:66px}.stage.arrival-v3.desktop .menu-panel{top:calc(var(--st) + 365px);max-height:calc(100% - var(--st) - var(--sb) - 409px)}}
+/* A flow rail keeps the identity and action spacing authored at every fixture size. */
+.stage.arrival-v3 .arrival-rail{position:absolute;left:calc(var(--sl) + var(--arrival-left) - 6px);top:calc(var(--st) + (100% - var(--st) - var(--sb))/2);transform:translateY(-50%);width:calc(var(--arrival-width) + 12px);max-height:calc(100% - var(--st) - var(--sb) - 76px);padding:6px;overflow:auto;scrollbar-width:thin;scrollbar-color:#72848a #10202a}
+.stage.arrival-v3 .scene-identity{position:relative;top:auto;left:auto;right:auto;width:100%}
+.stage.arrival-v3 .arrival-rail > .menu-panel{position:relative;left:auto;right:auto;top:auto;bottom:auto;transform:none;width:100%;max-height:none;overflow:visible;padding:0;margin:32px 0 0}
+.stage.arrival-v3 .menu-actions button{line-height:1.375}
+.stage.arrival-v3 .scene-identity .kicker{line-height:1.64}
+.stage.arrival-v3 .scene-identity p{line-height:1.5}
+.stage.arrival-v3.portrait .arrival-rail{left:22px;top:auto;bottom:calc(var(--sb) + 52px);transform:none;max-height:calc(100% - var(--st) - var(--sb) - 140px)}
+.stage.arrival-v3.portrait .scene-identity{position:relative;left:auto;top:auto;width:100%}
+.stage.arrival-v3.portrait .arrival-rail > .menu-panel{left:auto;right:auto;top:auto;bottom:auto;width:100%;margin:24px 0 0;padding:0;max-height:none}
+.stage.arrival-v3.landscape .arrival-rail{left:calc(var(--sl) + 26px);top:calc(var(--st) + 12px);transform:none;max-height:calc(100% - var(--st) - var(--sb) - 50px)}
+.stage.arrival-v3.landscape .arrival-rail > .menu-panel{margin-top:16px}
+.stage.arrival-v3.landscape .arrival-mark{position:absolute;width:24px;height:24px;top:0;left:0;margin:0}
+.stage.arrival-v3.landscape .scene-identity .kicker{height:24px;line-height:24px;padding-left:32px}
+.stage.arrival-v3.landscape .scene-identity .game-name{font-size:32px;line-height:.92;letter-spacing:.5px;margin:8px 0}
+.stage.arrival-v3.landscape .game-name br{display:none}
+.stage.arrival-v3.landscape .marsh-word::before{content:" ";white-space:pre}
+.stage.arrival-v3.landscape .arrival-rail > .menu-panel{margin-top:8px}
+.stage.arrival-v3.landscape .menu-actions{gap:6px}
+.stage.arrival-v3.landscape .arrival-rail .menu-actions button.primary{width:100%}
+@media(prefers-reduced-motion:reduce){.stage.arrival-v3 *{transition:none;animation:none}}

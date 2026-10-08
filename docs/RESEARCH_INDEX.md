@@ -2,6 +2,12 @@
 
 Use the [main README](../README.md) to choose a guide and begin a task. This index keeps the detailed source routes, archived runs, screenshots, and checks in one place. Existing research and evidence files are unchanged.
 
+## Latest bounded title and text-only copy research
+
+- [North Marsh title v3](../research/north_marsh_title_arrival_v3/README.md): large honest comparisons, original artwork/code, native crops, rejected history and unresolved 200% composition.
+- [Source-first craft guide](../guides/source-first-ui-craft.md): two inspected AAA sources; other pixel inspection blocked.
+- [GitHub clone-helper copy proposal](../research/github_clone_copy_20261008/README.md): undated official illustration, Subversion retirement, payload-specific labels and acknowledgement rules; no screenshot or tested clipboard success.
+
 ## Guides and source observations
 
 - Multiplayer motion: [Party Race implementation case](../research/party_race_sync_20261007/README.md), [developer references](../research/party_race_sync_20261007/sources.json), [display-only module](../research/party_race_sync_20261007/motion-presentation.js), [portable tests](../research/party_race_sync_20261007/motion-presentation.test.mjs) and [bounded local observations](../research/party_race_sync_20261007/observations.json). This local correction is not game-deployed; FPS gain and school performance remain unestablished.

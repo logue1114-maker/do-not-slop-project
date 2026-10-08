@@ -1,0 +1,6 @@
+{
+  "status": "harness false positive",
+  "runtime_changed": false,
+  "cause": "Sanitizer matched a literal search-pattern name in its own source. Match actual identifier/value forms instead.",
+  "followup": "Public package sanitization rerun; original private machine-path failure detail omitted."
+}

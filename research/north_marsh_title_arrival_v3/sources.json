@@ -1,0 +1,33 @@
+{
+  "scope": "source-first research; no bundled third-party media",
+  "sources": [
+    {
+      "id": "GOW-ARMOR",
+      "url": "https://zachgamedev.com/god-of-war-ragnarok/",
+      "status": "SOURCE_VISIBLE",
+      "observed": "Actual Armor Menu pixels inspected before implementation; large subject, quiet value regions, aligned information and thin boundaries. Earlier Map Menu download was corrected, not counted as Armor evidence.",
+      "limit": "Still pixels only; no source interaction, transition, current-build or usability proof."
+    },
+    {
+      "id": "CP2077-2.2",
+      "url": "https://press.cdprojektred.com/en/224/760",
+      "status": "SOURCE_VISIBLE",
+      "observed": "Actual Character Customization pixels inspected before implementation; downloaded image 3840x2160, inspection preview scaled. Large subject and consistent narrow controls/glyphs.",
+      "limit": "No source hover/press/motion or user-testing claim."
+    },
+    {
+      "id": "FORZA-CREATOR",
+      "url": "https://williamemery.artstation.com/projects/lD1oL5",
+      "status": "LINK_ONLY_PIXEL_INSPECTION_BLOCKED",
+      "observed": null,
+      "limit": "Public page returned HTTP403; no alternate route. Not evidence of a third inspected game."
+    }
+  ],
+  "additional_reference_board": {
+    "status": "inspection blocked",
+    "pixels_inspected": false,
+    "identifiers_included": false
+  },
+  "third_party_screenshots_bundled": false,
+  "third_party_fonts_bundled": false
+}

@@ -1,0 +1,118 @@
+{
+  "version": "3.0.0-bounded-publication",
+  "finishedAt": "2026-10-08T08:43:32.903Z",
+  "browser": "149.0.7827.55",
+  "checks": [
+    {
+      "name": "title native actions, modal ownership and exact return focus",
+      "status": "pass"
+    },
+    {
+      "name": "actual pointer down, drag-off face restore, canceled release, accepted release",
+      "status": "pass"
+    },
+    {
+      "name": "desktop inset 0: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "desktop inset 24: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "desktop inset 44: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "portrait inset 0: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "portrait inset 24: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "portrait inset 44: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "landscape inset 0: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "landscape inset 24: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "landscape inset 44: targets, scroll reach and retained entry",
+      "status": "pass"
+    },
+    {
+      "name": "portrait long labels with 200% authored text model",
+      "status": "pass"
+    },
+    {
+      "name": "landscape long labels with 200% authored text model",
+      "status": "pass"
+    },
+    {
+      "name": "portrait browser emulated touch keeps three actions and opener restoration",
+      "status": "pass"
+    },
+    {
+      "name": "left-title correction leaves centered title and play-world pixels unchanged",
+      "status": "pass"
+    }
+  ],
+  "sameDataPairs": [
+    {
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "before": "rejected 2.0.4",
+      "after": "unapproved 3.0.0",
+      "dataEqual": true
+    },
+    {
+      "profile": "portrait",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "before": "rejected 2.0.4",
+      "after": "unapproved 3.0.0",
+      "dataEqual": true
+    },
+    {
+      "profile": "landscape",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "before": "rejected 2.0.4",
+      "after": "unapproved 3.0.0",
+      "dataEqual": true
+    }
+  ],
+  "errors": [],
+  "unrun": [
+    "physical controller",
+    "physical phone and software keyboard",
+    "screen reader speech",
+    "native OS 200% text settings",
+    "Firefox/WebKit",
+    "human usability",
+    "formal aesthetic assessment and AAA quality"
+  ],
+  "sourcePixels": [
+    "God of War Armor Menu",
+    "Cyberpunk Update 2.2 Character Customization"
+  ],
+  "blockedSources": [
+    "AAA board Library HTTP403",
+    "Forza page HTTP403"
+  ],
+  "scope": "one left-title alternative; other cases inherited unchanged from rejected 2.0.4"
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "text-only copy proposal",
+  "source_capture_date": "unknown",
+  "live_ui_audited": false,
+  "ai_authorship_claim": false,
+  "clipboard_implementation_tested": false,
+  "third_party_images_bundled": false,
+  "sources": [
+    "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository",
+    "https://github.blog/changelog/2024-01-07-subversion-has-been-sunset/",
+    "https://primer.style/product/components/tooltip/guidelines/",
+    "https://developer.apple.com/design/human-interface-guidelines/menus"
+  ]
+}
