@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "scope": "Full retry after lifecycle repair, before foreground/bounded observation change",
+  "completed_groups": 22,
+  "passed_groups": 20,
+  "failed_groups": [
+    {"name": "native flows and computed geometry at 320 CSS pixels", "message": "Array buffer allocation failed"},
+    {"name": "isolated requested theme patch changes only tokens and rendered accent; domain unchanged", "message": "page.goto: net::ERR_INSUFFICIENT_RESOURCES"}
+  ],
+  "observation": "After 17 completed passing groups, the process stopped producing output for an extended period, then completed naturally with these two resource failures",
+  "stop_action": "No process was stopped: the stop request was withheld because the previously inspected PID no longer matched the task process",
+  "repair": "The verifier now brings each observed page to foreground and bounds its two-frame wait. A full subsequent retry passed all 22 groups",
+  "causal_limit": "The exact cause of the allocation/resource failure was not isolated; this record does not attribute it to the application or prove that tab scheduling caused it"
+}

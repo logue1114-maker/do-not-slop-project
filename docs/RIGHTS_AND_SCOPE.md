@@ -1,5 +1,9 @@
 # Rights, provenance and scope
 
+## Human-maintainability case
+
+The [Fleet refactoring package](../research/human_maintainability_v1/README.md) retains seven byte-exact files from the existing authored public demo and adds original refactoring modules, English technical instructions, focused tests and an isolated theme patch. [Provenance](../research/human_maintainability_v1/provenance.json) records the baseline commit and hashes; [primary sources](../research/human_maintainability_v1/SOURCES_AND_RIGHTS.md) are links with bounded original summaries. Publication of this scoped addition is authorized. No third-party code/media, private data, deployment, plugin installation or new reuse license is included. Existing visual research and user reviews remain unchanged.
+
 ## North Marsh title v3 and clone-helper copy proposal
 
 The owner authorized public publication of this bounded title candidate, original generated illustration, code and project-owned synthetic captures. [Case provenance](../research/north_marsh_title_arrival_v3/provenance.json) allowlists exact files. Rejected v2.0.4 menu source/captures are explicitly history, not success examples. Positive visual feedback applies only to the latest title; AAA craft and other examples are not approved by it. No third-party game screenshot/font, private user screenshot, restricted Site asset, transfer/token, private delivery identifier or machine path is included. GoW/Cyberpunk source pixels were inspected; Forza and an additional reference board were unavailable. Their media is not redistributed.

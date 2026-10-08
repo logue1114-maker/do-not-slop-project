@@ -1,5 +1,12 @@
 # Source changes
 
+## 2026-10-08: Human-maintainability guide and Fleet refactoring
+
+- Add reusable English AI instructions, an ownership/dependency/change map with contracts, and a concrete production/review checklist.
+- Preserve the actual authored Fleet demo in an exact baseline copy; refactor only the new research copy's intertwined entry script. Existing domain/focus/fixture files remain exact.
+- Add focused original/refactored checks for public behavior, failures/repeated input, dependency directions, lifecycle cleanup and an isolated visual-token patch; retain first-check failures and repairs with bounded outcomes.
+- Add concise README/AI routing and provenance/verification links while preserving earlier research, original runtimes and user reviews. No measured maintenance gain, new dependency, deployment, plugin installation or reuse-license change is claimed.
+
 ## 2026-10-07: Party Race motion presentation case
 
 - Add source-backed distinctions between fixed-step physics, local prediction/reconciliation and remote snapshot interpolation.

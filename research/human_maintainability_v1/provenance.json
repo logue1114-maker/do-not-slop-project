@@ -1,0 +1,50 @@
+{
+  "baseline_commit": "43a966e44f61d9c42aa4c17603a4982efa200ca5",
+  "authorship": "Existing project-authored synthetic fleet demo; new refactoring and teaching material authored for this project",
+  "license": "No reuse license selected; publication does not grant a new license",
+  "external_material": "Links and original bounded summaries only; no third-party code or media copied",
+  "baseline_files": [
+    {
+      "source": "research/strategy_controls_oct4/demo/app.mjs",
+      "copy": "before/app.mjs",
+      "sha256": "722d32ab3f6705c83cb26c14bfb78620b787d64ac964308ee53ba774179d7731",
+      "bytes": 14704
+    },
+    {
+      "source": "research/strategy_controls_oct4/demo/state.mjs",
+      "copy": "before/state.mjs",
+      "sha256": "ad6c7d3f56bfe69ecde85c6b758a3547568fd9dbb997eff5d81f9344c12f46cc",
+      "bytes": 7120
+    },
+    {
+      "source": "research/strategy_controls_oct4/demo/focus.mjs",
+      "copy": "before/focus.mjs",
+      "sha256": "53ebf52e7528f87d58130fc60134f95aedf0a07bb85e9ad4503224208dd233a9",
+      "bytes": 438
+    },
+    {
+      "source": "research/strategy_controls_oct4/demo/fixture.json",
+      "copy": "before/fixture.json",
+      "sha256": "3aa1c37dea285cf1a1e88302366b2d737cf70d1dfaae178f30002db14a3d6fbe",
+      "bytes": 1422
+    },
+    {
+      "source": "research/strategy_controls_oct4/demo/style.css",
+      "copy": "before/style.css",
+      "sha256": "b2aa63123e8100813e0b0f19ec65b131176d3a715e6c8dcf38f1a7468ac6be3c",
+      "bytes": 13991
+    },
+    {
+      "source": "research/strategy_controls_oct4/demo/index.html",
+      "copy": "before/index.html",
+      "sha256": "8116a3c44cce22bd6d738a2eddaa1c358a331db48bb6b3fb5a5c29b29c7bd760",
+      "bytes": 2555
+    },
+    {
+      "source": "research/strategy_controls_oct4/demo/tests.mjs",
+      "copy": "before/tests.mjs",
+      "sha256": "2ad6905b6baa4e5d17c28b9ee9333637a21430864f93c7be5f699959278a1f60",
+      "bytes": 12016
+    }
+  ]
+}

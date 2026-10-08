@@ -1,0 +1,151 @@
+{
+  "scope": "New package local links/JSON/retained Git blobs/bounded sensitive-pattern scan; scoped insertion-only navigation and unchanged prior Git files",
+  "baseline_commit": "43a966e44f61d9c42aa4c17603a4982efa200ca5",
+  "prior_files_preserved_except_declared_navigation_and_inventory": true,
+  "runtime_sha256": {
+    "after/app.mjs": "4932269f6e845c5db87a6e07730c41e0d1413a460ead2cdccedaf6ee73947db1",
+    "after/application.mjs": "c6e0286b9fb9992e4b4550e250f3cc2ed8c927f936715fe1ce7adca25e4eee84",
+    "after/assets.mjs": "0512e6f9e266b707a3846cbfa4adf816c8a15432cf38228a51830dc685584e53",
+    "after/controllers.mjs": "18241d2e19ed10babf5069d9487f98186e56b28bdf83fd23d4e7d89b212edc3f",
+    "after/fixture.json": "3aa1c37dea285cf1a1e88302366b2d737cf70d1dfaae178f30002db14a3d6fbe",
+    "after/focus.mjs": "53ebf52e7528f87d58130fc60134f95aedf0a07bb85e9ad4503224208dd233a9",
+    "after/index.html": "53871416a0c3e7a3705dcddb2453fff456acfbca85e45d08ae10275cf126c25d",
+    "after/platform.mjs": "572e6c7cd86a227d55d8eb95debd643dea5a387369958693a907feb2119d6a69",
+    "after/state.mjs": "ad6c7d3f56bfe69ecde85c6b758a3547568fd9dbb997eff5d81f9344c12f46cc",
+    "after/style.css": "416e6bd506f554925e992bac9798a0a49ee5a3d9f7155f2b3597cd5b0a9e3ac7",
+    "after/tokens.css": "8bdd68511c148c9cb1bd18ebae60cd89c1b0ea2f74bf783fa56f2af76316ec98",
+    "after/view.mjs": "7cb994572208c9dcdf2d671577f7cf901a22ff009a40ad76c1bf44036844452e",
+    "before/app.mjs": "722d32ab3f6705c83cb26c14bfb78620b787d64ac964308ee53ba774179d7731",
+    "before/fixture.json": "3aa1c37dea285cf1a1e88302366b2d737cf70d1dfaae178f30002db14a3d6fbe",
+    "before/focus.mjs": "53ebf52e7528f87d58130fc60134f95aedf0a07bb85e9ad4503224208dd233a9",
+    "before/index.html": "8116a3c44cce22bd6d738a2eddaa1c358a331db48bb6b3fb5a5c29b29c7bd760",
+    "before/state.mjs": "ad6c7d3f56bfe69ecde85c6b758a3547568fd9dbb997eff5d81f9344c12f46cc",
+    "before/style.css": "b2aa63123e8100813e0b0f19ec65b131176d3a715e6c8dcf38f1a7468ac6be3c",
+    "before/tests.mjs": "2ad6905b6baa4e5d17c28b9ee9333637a21430864f93c7be5f699959278a1f60",
+    "change-example/theme.patch": "81b489d3fdcdf969ac5a06d2f2e67b7b37da4db22439593f9390e8454c6953d3",
+    "tests/browser.mjs": "641f10cc3db7fe1886c2e4d6d300afc69b11d8eadf63435ef2f0b2c1a2b2e1c3",
+    "tests/contracts.test.mjs": "37ad20c84d88c0bd4ffa89f708657eab91ce32c195f34a4b8840d7eae7f607ab",
+    "tests/dependencies.mjs": "bf135415aa19ce154a066968d25171683003345f1a57591d388ab36f7af7fc21",
+    "tests/publication.mjs": "f5d2390a0a70a62e763c02d0fd7e6c7c331b53f6b47ab3d50d9af549b8f07026",
+    "tests/run.mjs": "5d9d9b6a5e5f2721ba4d3a37b3e4d133533e0fcdbf297cfb7d31dd24b64c6107"
+  },
+  "checks": [
+    {
+      "name": "only additive package, scoped navigation and inventory change",
+      "status": "pass"
+    },
+    {
+      "name": "prior navigation/doc lines retained: README.md",
+      "status": "pass"
+    },
+    {
+      "name": "prior navigation/doc lines retained: AGENTS.md",
+      "status": "pass"
+    },
+    {
+      "name": "prior navigation/doc lines retained: docs/CHANGELOG.md",
+      "status": "pass"
+    },
+    {
+      "name": "prior navigation/doc lines retained: docs/RIGHTS_AND_SCOPE.md",
+      "status": "pass"
+    },
+    {
+      "name": "prior navigation/doc lines retained: docs/VERIFICATION.md",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/app.mjs",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/state.mjs",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/focus.mjs",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/fixture.json",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/style.css",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/index.html",
+      "status": "pass"
+    },
+    {
+      "name": "retained copy equals original Git blob: before/tests.mjs",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/after/fixture.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/before/fixture.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/browser-results.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/first-browser-results.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/pre-review-browser-results.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/publication-results.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/repair-browser-results.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/resource-failed-browser-run.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/review-lifecycle-after-fix.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/review-lifecycle-before-fix.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/checks/unit-results.json",
+      "status": "pass"
+    },
+    {
+      "name": "valid JSON: research/human_maintainability_v1/provenance.json",
+      "status": "pass"
+    },
+    {
+      "name": "package and new navigation links resolve",
+      "status": "pass"
+    },
+    {
+      "name": "bounded credential/private-path/signed-link scan",
+      "status": "pass"
+    },
+    {
+      "name": "only public code/docs/data and test patch; no new media/dependency payload",
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "Bounded scan, not a legal/security certification",
+    "External URL liveness is separate",
+    "Does not certify earlier packages or global historical release receipts"
+  ]
+}

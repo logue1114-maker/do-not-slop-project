@@ -1,0 +1,123 @@
+{
+  "scope": "Actual local headless Chrome, native click/key flows, bounded injected failures, refactored lifecycle, and isolated theme patch",
+  "selected_case": "all",
+  "browser": "154.0.8037.98",
+  "checks": [
+    {
+      "name": "initial full DOM, public hooks, computed styles and bounds",
+      "status": "pass"
+    },
+    {
+      "name": "desktop same-state pixel capture",
+      "status": "pass"
+    },
+    {
+      "name": "selection, Shift toggle and cross-frame shared state",
+      "status": "pass"
+    },
+    {
+      "name": "hover/focus are shared without selecting or arming",
+      "status": "pass"
+    },
+    {
+      "name": "native Move, relay preview, Confirm and local focus recovery",
+      "status": "pass"
+    },
+    {
+      "name": "repeated disabled Confirm clicks cannot dispatch a second order",
+      "status": "pass"
+    },
+    {
+      "name": "invalid friendly attack preserves prior order, then hostile target recovers",
+      "status": "pass"
+    },
+    {
+      "name": "Stop repeats create separate orders, matching actual baseline semantics",
+      "status": "pass"
+    },
+    {
+      "name": "empty selection repeated shortcuts fail without orders",
+      "status": "pass"
+    },
+    {
+      "name": "Cancel clears error and keeps selected ships and committed records",
+      "status": "pass"
+    },
+    {
+      "name": "Enter and Space retain native button action, scoped M/A/S/Escape",
+      "status": "pass"
+    },
+    {
+      "name": "pointer map coordinates use bounds and fixture world dimensions",
+      "status": "pass"
+    },
+    {
+      "name": "modifiers, repeat, and shortcuts outside a scene are ignored",
+      "status": "pass"
+    },
+    {
+      "name": "all authored presets and repeated reset match",
+      "status": "pass"
+    },
+    {
+      "name": "public hook clones cannot mutate live fixture/state",
+      "status": "pass"
+    },
+    {
+      "name": "frame configuration stays presentational and matches",
+      "status": "pass"
+    },
+    {
+      "name": "native flows and computed geometry at 390 CSS pixels",
+      "status": "pass"
+    },
+    {
+      "name": "native flows and computed geometry at 320 CSS pixels",
+      "status": "pass"
+    },
+    {
+      "name": "HTTP, network and invalid JSON loading fail before mounting, same as baseline",
+      "status": "pass"
+    },
+    {
+      "name": "refactored dispose stops detached/global input and supports fresh remount",
+      "status": "pass"
+    },
+    {
+      "name": "isolated requested theme patch changes only tokens and rendered accent; domain unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "normal-flow browser page errors absent",
+      "status": "pass"
+    }
+  ],
+  "captures": [
+    {
+      "name": "desktop-initial",
+      "before_sha256": "fb10b77af7480f619b58f4428b9513d54b8cd856635f235df82e1be1b7c8e796",
+      "after_sha256": "fb10b77af7480f619b58f4428b9513d54b8cd856635f235df82e1be1b7c8e796",
+      "identical": true
+    },
+    {
+      "name": "narrow-390-attack",
+      "before_sha256": "732bd15ee45163420714b3b2467634867d590246c35152b637cdad38a6c3b04a",
+      "after_sha256": "732bd15ee45163420714b3b2467634867d590246c35152b637cdad38a6c3b04a",
+      "identical": true
+    },
+    {
+      "name": "narrow-320-attack",
+      "before_sha256": "4d675d35af744d406cd2afee2b9832e3b0ed59e3780be3fc58327c77802fcbd7",
+      "after_sha256": "4d675d35af744d406cd2afee2b9832e3b0ed59e3780be3fc58327c77802fcbd7",
+      "identical": true
+    }
+  ],
+  "unrun": [
+    "Physical devices/controllers",
+    "Screen readers and full accessibility",
+    "Independent human maintenance task/time measurement",
+    "Visual design approval",
+    "Exhaustive action space",
+    "Malformed fixture schema recovery (baseline has none)"
+  ]
+}

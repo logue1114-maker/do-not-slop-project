@@ -1,0 +1,12 @@
+diff --git a/after/tokens.css b/after/tokens.css
+--- a/after/tokens.css
++++ b/after/tokens.css
+@@ -5,7 +5,7 @@
+   --muted:#98abb4;
+   --line:#334650;
+   --cyan:#8ec9d9;
+-  --amber:#f1cd75;
++  --amber:#d6e9ff;
+   --red:#ed8e72;
+   font-family:Inter,Arial,sans-serif;
+   background:#10191f;

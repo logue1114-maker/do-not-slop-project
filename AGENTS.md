@@ -12,6 +12,8 @@ These are public project instructions for making and reviewing interfaces, guide
 
 ### Repository routes (when the full public repository is present)
 
+- For human-maintainable code/refactoring, use `research/human_maintainability_v1/AI_INSTRUCTIONS.md`, `MAINTAINER_QUICKSTART.md` and `ACCEPTANCE_CHECKLIST.md`; preserve actual behavior/baseline, define real role ownership and run the focused parity/dependency checks. This authored case does not establish measured human maintenance gains or require new layers in every project
+
 - Use `research/series_index.json` and `research/rules_catalog.json` to locate the relevant case family rather than loading every manual
 - For copy work, use `research/do_not_slop_copy/rules.json`, `manual_ko.md`, and `sources.json`; the historical authored UI is `research/do_not_slop_copy/copy_examples.html`
 - For white-surface button/color combinations, read `research/white_surface_palettes_v1/README.md`, `palettes.json` and `ai-implementation-rules.md`; choose the purpose before a role set and keep its fixed fixture/state when comparing schemes. These six proposals are independent examples, not copied brand rules or a universal green ban. Run `node research/white_surface_palettes_v1/verify-local.mjs` for changed source/model scope; rendered evidence has its own recorded limits

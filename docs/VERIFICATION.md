@@ -1,5 +1,9 @@
 # Verification and limits
 
+## Human-maintainability case
+
+The [bounded Fleet refactoring record](../research/human_maintainability_v1/VERIFICATION.md) distinguishes baseline/unit, native browser parity, failure/repeated-input, dependency-direction, lifecycle and isolated-theme checks. Same-state pixel equality is evidence of preservation, not a visual-design approval or human usability/maintenance study. The original public example and all prior visual research/reviews are retained; no global production refactoring is included.
+
 ## North Marsh title v3 publication
 
 [Case browser report](../research/north_marsh_title_arrival_v3/BROWSER_REPORT.md) separates retained implementation verification from fresh public-copy checks. Functional input results and same-state captures do not establish aesthetics or usability. The 200% authored text model has an unresolved composition concern; native OS text scaling, physical devices/controllers, screen-reader speech and finished AAA quality remain unestablished. The separate [clone-helper copy proposal](../research/github_clone_copy_20261008/README.md) has no clipboard implementation or tested-success claim. Earlier reports below are unchanged.

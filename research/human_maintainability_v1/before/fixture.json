@@ -1,0 +1,16 @@
+{
+  "id": "synthetic-fleet-01",
+  "title": "Outer relay / Fleet A1",
+  "world": {"width": 960, "height": 680, "label": "Outer relay fleet command map"},
+  "initialSelection": ["kestrel"],
+  "group": "A1",
+  "units": [
+    {"id": "kestrel", "name": "Kestrel", "role": "Command cruiser", "team": "friendly", "x": 270, "y": 246, "hull": 92, "movement": "Holding formation", "firing": "Not firing", "shape": "cruiser"},
+    {"id": "arrow", "name": "Arrow", "role": "Escort frigate", "team": "friendly", "x": 392, "y": 352, "hull": 74, "movement": "Escorting Kestrel", "firing": "Firing at Fang", "shape": "frigate"},
+    {"id": "willow", "name": "Willow", "role": "Support tender", "team": "friendly", "x": 203, "y": 412, "hull": 100, "movement": "Holding position", "firing": "Not firing", "shape": "tender"},
+    {"id": "fang", "name": "Fang", "role": "Hostile frigate", "team": "hostile", "x": 647, "y": 269, "hull": 63, "movement": "Approaching relay", "firing": "Firing at Arrow", "shape": "frigate"}
+  ],
+  "waypoints": [{"id": "relay", "name": "Relay approach", "x": 569, "y": 453}],
+  "stars": [[73,91,1],[176,125,1.4],[241,75,1],[388,113,1.7],[513,64,1],[680,91,1.3],[797,134,1],[882,62,1.5],[98,266,1.2],[512,232,1],[808,273,1.5],[896,359,1],[44,415,1.3],[330,494,1],[692,567,1.4],[868,592,1],[145,603,1.4],[458,613,1],[748,424,1.2],[43,587,1]],
+  "presets": ["normal", "selection", "preview", "invalid", "empty"]
+}

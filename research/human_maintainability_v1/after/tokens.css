@@ -1,0 +1,12 @@
+:root{
+  color-scheme:dark;
+  --ink:#e9f1f3;
+  --muted:#98abb4;
+  --line:#334650;
+  --cyan:#8ec9d9;
+  --amber:#f1cd75;
+  --red:#ed8e72;
+  font-family:Inter,Arial,sans-serif;
+  background:#10191f;
+  color:var(--ink)
+}

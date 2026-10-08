@@ -1,0 +1,8 @@
+{
+  "scope": "Preserved baseline tests and new contract/parity/dependency tests",
+  "node": "v24.15.0",
+  "tests": 43,
+  "passed": 43,
+  "failed": 0,
+  "status": "pass"
+}

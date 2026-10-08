@@ -1,0 +1,124 @@
+{
+  "scope": "Actual local headless Chrome, native click/key flows, bounded injected failures, refactored lifecycle, and isolated theme patch",
+  "browser": "154.0.8037.98",
+  "checks": [
+    {
+      "name": "initial full DOM, public hooks, computed styles and bounds",
+      "status": "pass"
+    },
+    {
+      "name": "desktop same-state pixel capture",
+      "status": "pass"
+    },
+    {
+      "name": "selection, Shift toggle and cross-frame shared state",
+      "status": "pass"
+    },
+    {
+      "name": "hover/focus are shared without selecting or arming",
+      "status": "pass"
+    },
+    {
+      "name": "native Move, relay preview, Confirm and local focus recovery",
+      "status": "pass"
+    },
+    {
+      "name": "repeated disabled Confirm clicks cannot dispatch a second order",
+      "status": "pass"
+    },
+    {
+      "name": "invalid friendly attack preserves prior order, then hostile target recovers",
+      "status": "pass"
+    },
+    {
+      "name": "Stop repeats create separate orders, matching actual baseline semantics",
+      "status": "pass"
+    },
+    {
+      "name": "empty selection repeated shortcuts fail without orders",
+      "status": "fail",
+      "message": "Expected values to be strictly deep-equal:\n+ actual - expected\n... Skipped lines\n\n  {\n    fixture: {\n      group: 'A1',\n      id: 'synthetic-fleet-01',\n      initialSelection: [\n...\n    },\n+   focus: 'clear',\n-   focus: 'BODY',\n    geometry: [\n      {\n        background: 'rgb(36, 52, 61)',\n        border: 'rgb(97, 114, 125)',\n        color: 'rgb(152, 171, 180)',\n...\n      '  <div class=\"scenario-bar\"><span>Shared state</span><div class=\"scenario-controls\" aria-label=\"State examples\"><button type=\"button\" data-preset=\"normal\">Normal</button><button type=\"button\" data-preset=\"selection\">Selection</button><button type=\"button\" data-preset=\"preview\">Order preview</button><button type=\"button\" data-preset=\"invalid\">Invalid target</button><button type=\"button\" data-preset=\"empty\">Empty</button><button type=\"button\" id=\"reset\">Reset</button></div><span id=\"fixture-label\">One scene · one state</span></div>\\n' +\n+     '  <div id=\"comparison\" class=\"comparison\" data-frame=\"wide\"><section class=\"comparison-panel variant-a\" aria-label=\"High-footprint baseline\" data-variant=\"a\" data-shared-state=\"{&quot;fixtureId&quot;:&quot;synthetic-fleet-01&quot;,&quot;selectedIds&quot;:[],&quot;hoverId&quot;:null,&quot;focusKey&quot;:&quot;clear&quot;,&quot;command&quot;:null,&quot;target&quot;:null,&quot;preview&quot;:null,&quot;committedOrders&quot;:[],&quot;error&quot;:null}\"><header class=\"panel-header\"><h2><span class=\"variant-letter\">A</span>High-footprint baseline</h2><span>Authored starting point</span></header>\\n' +\n-     '  <div id=\"comparison\" class=\"comparison\" data-frame=\"wide\"><section class=\"comparison-panel variant-a\" aria-label=\"High-footprint baseline\" data-variant=\"a\" data-shared-state=\"{&quot;fixtureId&quot;:&quot;synthetic-fleet-01&quot;,&quot;selectedIds&quot;:[],&quot;hoverId&quot;:null,&quot;focusKey&quot;:null,&quot;command&quot;:null,&quot;target&quot;:null,&quot;preview&quot;:null,&quot;committedOrders&quot;:[],&quot;error&quot;:null}\"><header class=\"panel-header\"><h2><span class=\"variant-letter\">A</span>High-footprint baseline</h2><span>Authored starting point</span></header>\\n' +\n      '    <div class=\"scene\" data-scene=\"a\"><div class=\"battlefield\">\\n' +\n      '      <svg class=\"world\" viewBox=\"0 0 960 680\" preserveAspectRatio=\"none\" aria-hidden=\"true\">\\n' +\n      '    <defs><radialGradient id=\"a-nebula\"><stop stop-color=\"#295169\" stop-opacity=\".33\"></stop><stop offset=\"1\" stop-color=\"#0c1821\" stop-opacity=\"0\"></stop></radialGradient><pattern id=\"a-grid\" width=\"120\" height=\"85\" patternUnits=\"userSpaceOnUse\"><path d=\"M120 0H0V85\" fill=\"none\" stroke=\"#536574\" stroke-opacity=\".13\"></path></pattern></defs>\\n' +\n      '    <rect width=\"960\" height=\"680\" fill=\"#08141d\"></rect><ellipse cx=\"474\" cy=\"354\" rx=\"550\" ry=\"348\" fill=\"url(#a-nebula)\"></ellipse><rect width=\"960\" height=\"680\" fill=\"url(#a-grid)\"></rect>\\n' +\n      '    <g fill=\"#bdd0d9\" opacity=\".6\"><circle cx=\"73\" cy=\"91\" r=\"1\"></circle><circle cx=\"176\" cy=\"125\" r=\"1.4\"></circle><circle cx=\"241\" cy=\"75\" r=\"1\"></circle><circle cx=\"388\" cy=\"113\" r=\"1.7\"></circle><circle cx=\"513\" cy=\"64\" r=\"1\"></circle><circle cx=\"680\" cy=\"91\" r=\"1.3\"></circle><circle cx=\"797\" cy=\"134\" r=\"1\"></circle><circle cx=\"882\" cy=\"62\" r=\"1.5\"></circle><circle cx=\"98\" cy=\"266\" r=\"1.2\"></circle><circle cx=\"512\" cy=\"232\" r=\"1\"></circle><circle cx=\"808\" cy=\"273\" r=\"1.5\"></circle><circle cx=\"896\" cy=\"359\" r=\"1\"></circle><circle cx=\"44\" cy=\"415\" r=\"1.3\"></circle><circle cx=\"330\" cy=\"494\" r=\"1\"></circle><circle cx=\"692\" cy=\"567\" r=\"1.4\"></circle><circle cx=\"868\" cy=\"592\" r=\"1\"></circle><circle cx=\"145\" cy=\"603\" r=\"1.4\"></circle><circle cx=\"458\" cy=\"613\" r=\"1\"></circle><circle cx=\"748\" cy=\"424\" r=\"1.2\"></circle><circle cx=\"43\" cy=\"587\" r=\"1\"></circle></g>\\n' +\n...\n      '    </div>\\n' +\n+     '    <div class=\"hud\" aria-label=\"Fleet selection and orders\"><section class=\"selection-panel\"><div class=\"hud-title\"><h3>Selected fleet</h3><span class=\"group-id\">—</span></div><div class=\"selection-summary\">Nothing selected</div><div class=\"selected-list\" style=\"--selected-count: 1;\"><div class=\"empty-selection\">Select a friendly ship on the map.</div></div><button type=\"button\" class=\"clear-selection shared-focus\" data-action=\"clear\" data-focus=\"clear\" disabled=\"\">Clear selection</button></section>\\n' +\n-     '    <div class=\"hud\" aria-label=\"Fleet selection and orders\"><section class=\"selection-panel\"><div class=\"hud-title\"><h3>Selected fleet</h3><span class=\"group-id\">—</span></div><div class=\"selection-summary\">Nothing selected</div><div class=\"selected-list\" style=\"--selected-count: 1;\"><div class=\"empty-selection\">Select a friendly ship on the map.</div></div><button type=\"button\" class=\"clear-selection\" data-action=\"clear\" data-focus=\"clear\" disabled=\"\">Clear selection</button></section>\\n' +\n      '      <section class=\"command-panel\"><div class=\"hud-title\"><h3>Orders</h3><span class=\"armed-state\">READY</span></div><div class=\"command-buttons\"><button type=\"button\" data-command=\"move\" data-focus=\"move\" aria-pressed=\"false\" class=\"\">Move <kbd>M</kbd></button><button type=\"button\" data-command=\"attack\" data-focus=\"attack\" aria-pressed=\"false\" class=\"\">Attack <kbd>A</kbd></button><button type=\"button\" data-action=\"stop\" data-focus=\"stop\" class=\"\">Stop <kbd>S</kbd></button></div><div class=\"target-summary\">Target: None</div><div class=\"confirm-buttons\"><button type=\"button\" class=\"confirm\" data-action=\"commit\" data-focus=\"confirm\" disabled=\"\">Confirm order</button><button type=\"button\" data-action=\"cancel\" data-focus=\"cancel\" disabled=\"\">Cancel <kbd>Esc</kbd></button></div></section>\\n' +\n      '      <div class=\"feedback-panel\"><p class=\"state-notice\">Nothing selected. Select a friendly ship.</p><p class=\"state-error\"></p><p class=\"last-order\">No orders sent</p></div>\\n' +\n      '    </div></div>\\n' +\n+     '    <footer class=\"panel-footer\"><span class=\"selection-foot\">Selection: 0 · group None</span><span class=\"order-foot\">Preview: none · sent: 0</span></footer></section><section class=\"comparison-panel variant-b\" aria-label=\"Compact contextual proposal\" data-variant=\"b\" data-shared-state=\"{&quot;fixtureId&quot;:&quot;synthetic-fleet-01&quot;,&quot;selectedIds&quot;:[],&quot;hoverId&quot;:null,&quot;focusKey&quot;:&quot;clear&quot;,&quot;command&quot;:null,&quot;target&quot;:null,&quot;preview&quot;:null,&quot;committedOrders&quot;:[],&quot;error&quot;:null}\"><header class=\"panel-header\"><h2><span class=\"variant-letter\">B</span>Compact contextual proposal</h2><span>Authored redesign</span></header>\\n' +\n-     '    <footer class=\"panel-footer\"><span class=\"selection-foot\">Selection: 0 · group None</span><span class=\"order-foot\">Preview: none · sent: 0</span></footer></section><section class=\"comparison-panel variant-b\" aria-label=\"Compact contextual proposal\" data-variant=\"b\" data-shared-state=\"{&quot;fixtureId&quot;:&quot;synthetic-fleet-01&quot;,&quot;selectedIds&quot;:[],&quot;hoverId&quot;:null,&quot;focusKey&quot;:null,&quot;command&quot;:null,&quot;target&quot;:null,&quot;preview&quot;:null,&quot;committedOrders&quot;:[],&quot;error&quot;:null}\"><header class=\"panel-header\"><h2><span class=\"variant-letter\">B</span>Compact contextual proposal</h2><span>Authored redesign</span></header>\\n' +\n      '    <div class=\"scene\" data-scene=\"b\"><div class=\"battlefield\">\\n' +\n      '      <svg class=\"world\" viewBox=\"0 0 960 680\" preserveAspectRatio=\"none\" aria-hidden=\"true\">\\n' +\n      '    <defs><radialGradient id=\"b-nebula\"><stop stop-color=\"#295169\" stop-opacity=\".33\"></stop><stop offset=\"1\" stop-color=\"#0c1821\" stop-opacity=\"0\"></stop></radialGradient><pattern id=\"b-grid\" width=\"120\" height=\"85\" patternUnits=\"userSpaceOnUse\"><path d=\"M120 0H0V85\" fill=\"none\" stroke=\"#536574\" stroke-opacity=\".13\"></path></pattern></defs>\\n' +\n      '    <rect width=\"960\" height=\"680\" fill=\"#08141d\"></rect><ellipse cx=\"474\" cy=\"354\" rx=\"550\" ry=\"348\" fill=\"url(#b-nebula)\"></ellipse><rect width=\"960\" height=\"680\" fill=\"url(#b-grid)\"></rect>\\n' +\n+     '    <g fill=\"#bdd0d9\" opacity=\".6\"><circle cx=\"73\" cy=\"91\" r=\"1\"></circle><circle cx=\"176\" cy=\"125\" r=\"1.4\"></circle><circle cx=\"241\" cy=\"75\" r=\"1\"></circle><circle cx=\"388\" cy=\"113\" r=\"1.7\"></circle><circle cx=\"513\" cy=\"64\" r=\"1\"></circle><circle cx=\"680\" cy=\"91\" r=\"1.3\"></circle><circle cx=\"797\" cy=\"134\" r=\"1\"></circle><circle cx=\"882\" cy=\"62\" r=\"1.5\"></circle><circle cx=\"98\" cy=\"266\" r=\"1.2\"></circle><circle cx=\"512\" cy=\"232\" r=\"1\"></circle><c'... 7006 more characters,\n-     '    <g fill=\"#bdd0d9\" opacity=\".6\"><circle cx=\"73\" cy=\"91\" r=\"1\"></circle><circle cx=\"176\" cy=\"125\" r=\"1.4\"></circle><circle cx=\"241\" cy=\"75\" r=\"1\"></circle><circle cx=\"388\" cy=\"113\" r=\"1.7\"></circle><circle cx=\"513\" cy=\"64\" r=\"1\"></circle><circle cx=\"680\" cy=\"91\" r=\"1.3\"></circle><circle cx=\"797\" cy=\"134\" r=\"1\"></circle><circle cx=\"882\" cy=\"62\" r=\"1.5\"></circle><circle cx=\"98\" cy=\"266\" r=\"1.2\"></circle><circle cx=\"512\" cy=\"232\" r=\"1\"></circle><circle cx=\"808\" cy=\"273\" r=\"1.5\"></circl'... 6954 more characters,\n    models: [\n      {\n        canCancel: false,\n        canConfirm: false,\n        command: null,\n...\n        fixtureId: 'synthetic-fleet-01',\n+       focusKey: 'clear',\n-       focusKey: null,\n        group: 'None',\n        hoverId: null,\n        lastOrder: null,\n        notice: 'Nothing selected. Select a friendly ship.',\n        preview: null,\n...\n        fixtureId: 'synthetic-fleet-01',\n+       focusKey: 'clear',\n-       focusKey: null,\n        group: 'None',\n        hoverId: null,\n        lastOrder: null,\n        notice: 'Nothing selected. Select a friendly ship.',\n        preview: null,\n...\n      fixtureId: 'synthetic-fleet-01',\n+     focusKey: 'clear',\n-     focusKey: null,\n      hoverId: null,\n      nextOrder: 1,\n      notice: 'Nothing selected. Select a friendly ship.',\n      preview: null,\n      selectedIds: [],\n"
+    },
+    {
+      "name": "Cancel clears error and keeps selected ships and committed records",
+      "status": "pass"
+    },
+    {
+      "name": "Enter and Space retain native button action, scoped M/A/S/Escape",
+      "status": "pass"
+    },
+    {
+      "name": "pointer map coordinates use bounds and fixture world dimensions",
+      "status": "pass"
+    },
+    {
+      "name": "modifiers, repeat, and shortcuts outside a scene are ignored",
+      "status": "pass"
+    },
+    {
+      "name": "all authored presets and repeated reset match",
+      "status": "pass"
+    },
+    {
+      "name": "public hook clones cannot mutate live fixture/state",
+      "status": "pass"
+    },
+    {
+      "name": "frame configuration stays presentational and matches",
+      "status": "pass"
+    },
+    {
+      "name": "native flows and computed geometry at 390 CSS pixels",
+      "status": "pass"
+    },
+    {
+      "name": "native flows and computed geometry at 320 CSS pixels",
+      "status": "pass"
+    },
+    {
+      "name": "HTTP, network and invalid JSON loading fail before mounting, same as baseline",
+      "status": "pass"
+    },
+    {
+      "name": "refactored dispose stops detached/global input and supports fresh remount",
+      "status": "pass"
+    },
+    {
+      "name": "isolated requested theme patch changes only tokens and rendered accent; domain unchanged",
+      "status": "fail",
+      "message": "locator.evaluate: Error: strict mode violation: locator('[data-frame=\"wide\"]') resolved to 2 elements:\n    1) <button type=\"button\" data-frame=\"wide\" aria-pressed=\"true\">Desktop frame</button> aka getByRole('button', { name: 'Desktop frame' })\n    2) <div id=\"comparison\" data-frame=\"wide\" class=\"comparison\">…</div> aka locator('#comparison')\n\nCall log:\n\u001b[2m  - waiting for locator('[data-frame=\"wide\"]')\u001b[22m\n"
+    },
+    {
+      "name": "normal-flow browser page errors absent",
+      "status": "pass"
+    }
+  ],
+  "captures": [
+    {
+      "name": "desktop-initial",
+      "before_sha256": "fb10b77af7480f619b58f4428b9513d54b8cd856635f235df82e1be1b7c8e796",
+      "after_sha256": "fb10b77af7480f619b58f4428b9513d54b8cd856635f235df82e1be1b7c8e796",
+      "identical": true
+    },
+    {
+      "name": "narrow-390-attack",
+      "before_sha256": "732bd15ee45163420714b3b2467634867d590246c35152b637cdad38a6c3b04a",
+      "after_sha256": "732bd15ee45163420714b3b2467634867d590246c35152b637cdad38a6c3b04a",
+      "identical": true
+    },
+    {
+      "name": "narrow-320-attack",
+      "before_sha256": "4d675d35af744d406cd2afee2b9832e3b0ed59e3780be3fc58327c77802fcbd7",
+      "after_sha256": "4d675d35af744d406cd2afee2b9832e3b0ed59e3780be3fc58327c77802fcbd7",
+      "identical": true
+    }
+  ],
+  "unrun": [
+    "Physical devices/controllers",
+    "Screen readers and full accessibility",
+    "Independent human maintenance task/time measurement",
+    "Visual design approval",
+    "Exhaustive action space",
+    "Malformed fixture schema recovery (baseline has none)"
+  ]
+}

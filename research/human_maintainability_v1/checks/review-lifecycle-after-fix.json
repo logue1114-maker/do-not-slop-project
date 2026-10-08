@@ -1,0 +1,20 @@
+{
+  "scope": "Actual local headless Chrome, native click/key flows, bounded injected failures, refactored lifecycle, and isolated theme patch",
+  "selected_case": "refactored dispose stops detached/global input and supports fresh remount",
+  "browser": "154.0.8037.98",
+  "checks": [
+    {
+      "name": "refactored dispose stops detached/global input and supports fresh remount",
+      "status": "pass"
+    }
+  ],
+  "captures": [],
+  "unrun": [
+    "Physical devices/controllers",
+    "Screen readers and full accessibility",
+    "Independent human maintenance task/time measurement",
+    "Visual design approval",
+    "Exhaustive action space",
+    "Malformed fixture schema recovery (baseline has none)"
+  ]
+}

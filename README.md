@@ -38,6 +38,19 @@ Try the [English interactive manual](research/interaction_corrections_v1/README.
 
 Actual project-browser captures. [73 browser scenarios / 7 package checks and unrun limits](research/interaction_corrections_v1/BROWSER_REPORT.md) · [Phone, narrow and state captures](research/interaction_corrections_v1/captures/README.md) · [Official sources and rights](research/interaction_corrections_v1/sources.json). Physical keyboards/phones, screen readers, hearing/haptics and engine runtime remain unrun.
 
+## Human-maintainable code
+
+The [worked Fleet refactoring](research/human_maintainability_v1/README.md) keeps its actual authored baseline exact and separates a copy's presentation/assets, input, rules/state and browser loading. One concrete code change:
+
+```js
+// Before: the entry script also renders, loads data and owns state.
+button.addEventListener('click', () => dispatch({ type: 'PRESET', name: button.dataset.preset }));
+// After: the state-owning application delegates input binding and cleanup.
+const unbind = bindControls({ document, scenes, comparison: view.comparison, fixture, dispatch });
+```
+
+[Run before](research/human_maintainability_v1/before/index.html) · [Run after](research/human_maintainability_v1/after/index.html) · [AI instructions](research/human_maintainability_v1/AI_INSTRUCTIONS.md) · [Maintainer quickstart and change map](research/human_maintainability_v1/MAINTAINER_QUICKSTART.md) · [Acceptance checklist](research/human_maintainability_v1/ACCEPTANCE_CHECKLIST.md). [Executed checks and limits](research/human_maintainability_v1/VERIFICATION.md) include an isolated theme patch. This is an authored refactoring case, not measured human-effort improvement; existing visual research and reviews remain unchanged.
+
 ## Use with your AI
 
 1. Give your coding AI this repository and ask it to read [AGENTS.md](AGENTS.md)
@@ -63,6 +76,7 @@ Most research manuals are in Korean. The AI entrypoint, CP01 packages, palette e
 
 | Task | Start here | Example or source |
 | :--- | :--- | :--- |
+| Human-maintainable code | [Reusable AI instructions and review checklist](research/human_maintainability_v1/README.md) | [Behavior-preserving Fleet refactoring and isolated theme change](research/human_maintainability_v1/MAINTAINER_QUICKSTART.md) |
 | Input, state and recovery corrections | [Six English visual labs and exact AI instructions](research/interaction_corrections_v1/README.md) | [Runnable source](research/interaction_corrections_v1/index.html) · [Desktop / phone captures and tests](research/interaction_corrections_v1/BROWSER_REPORT.md) |
 | Explore game UI details | [Live settings and reusable contracts](research/game_ui_playground_v1/README.md) | [First component playground](research/game_ui_playground_v1/index.html) · [Desktop / phone captures](research/game_ui_playground_v1/BROWSER_REPORT.md) |
 | Menu and inventory placement | [English visual manual and AI instructions](research/menu_placement_v1/README.md) | [Interactive flow and layout annotations](research/menu_placement_v1/index.html) · [Actual desktop / mobile captures](research/menu_placement_v1/captures/README.md) |
