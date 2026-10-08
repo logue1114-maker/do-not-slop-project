@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-08T13:07:20.538Z",
+  "command": "node tests/verify.mjs",
+  "runtime": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "architecture": "x64"
+  },
+  "scope": "Focused source inspection, Node syntax, pure reducer, tab-key helper test doubles, template strings and actual module execution against explicit DOM-shaped doubles/fake timers. No browser/DOM implementation.",
+  "status": "passed",
+  "summary": {
+    "passed": 22,
+    "failed": 0
+  },
+  "evidence_boundaries": {
+    "source_review": "run",
+    "node_behavior": "run",
+    "template_structure": "Node VM evaluates only existing template declarations; regex tag/attribute inspection is not DOM parsing or accessibility-tree validation",
+    "browser_render_and_input": {
+      "status": "blocked",
+      "reason": "Recorded preview attempts: installed Playwright has no downloaded browser executable; sandboxed Chromium fails a permitted socket; supported cloud browser localhost returns ERR_BLOCKED_BY_CLIENT. This suite did not retry or bypass those routes."
+    },
+    "geometry_and_computed_cascade": {
+      "status": "not_run",
+      "reason": "No available permitted browser runtime; authored CSS is not measured rendering"
+    },
+    "screenshots": {
+      "status": "not_run",
+      "reason": "No rendered capture produced by this suite"
+    },
+    "physical_touch_or_controller": {
+      "status": "not_run",
+      "reason": "No physical input device used"
+    },
+    "assistive_technology": {
+      "status": "not_run",
+      "reason": "No screen reader or accessibility tree inspected"
+    },
+    "human_review": {
+      "status": "not_run",
+      "reason": "These checks are automated/source-only"
+    },
+    "production_integration": {
+      "status": "not_run",
+      "reason": "Local authored fixture only; no external service connection"
+    },
+    "publication": {
+      "status": "not_run",
+      "reason": "No publication performed"
+    }
+  },
+  "checks": [
+    {
+      "id": "module-syntax",
+      "category": "node_syntax",
+      "description": "Node parses every specimen .mjs without executing its browser bootstrap",
+      "status": "passed"
+    },
+    {
+      "id": "node-reducer-keyboard-suite",
+      "category": "node_behavior",
+      "description": "Pure reducer and explicit tab-key test-double behavior",
+      "status": "passed",
+      "detail": {
+        "tests": 19,
+        "passed": 19,
+        "failed": 0
+      }
+    },
+    {
+      "id": "html-csp-no-network",
+      "category": "source",
+      "description": "Every specimen HTML declares network-disabled, self-only script policy",
+      "status": "passed"
+    },
+    {
+      "id": "specimen-source-no-network-primitives",
+      "category": "source",
+      "description": "Specimen code/assets contain no remote URLs or network-commit primitives",
+      "status": "passed",
+      "detail": {
+        "scanned": [
+          "specimens/components/actions.mjs",
+          "specimens/components/selection.mjs",
+          "specimens/contexts.css",
+          "specimens/families.css",
+          "specimens/golf.css",
+          "specimens/golf.html",
+          "specimens/golf.mjs",
+          "specimens/index.html",
+          "specimens/render.mjs",
+          "specimens/semantics.mjs",
+          "specimens/tokens.css"
+        ]
+      }
+    },
+    {
+      "id": "local-html-assets-and-links",
+      "category": "source",
+      "description": "Declared local specimen assets and document links exist on disk",
+      "status": "passed"
+    },
+    {
+      "id": "local-module-import-boundaries",
+      "category": "source",
+      "description": "Every authored specimen module imports existing local package code only",
+      "status": "passed"
+    },
+    {
+      "id": "emitted-native-roles",
+      "category": "node_template_structure",
+      "description": "Generated template strings use buttons for commands, links for navigation, native radio choices and noninteractive meters",
+      "status": "passed"
+    },
+    {
+      "id": "emitted-aria-reference-integrity",
+      "category": "node_template_structure",
+      "description": "All generated IDREF attributes target emitted elements in tested local states",
+      "status": "passed"
+    },
+    {
+      "id": "emitted-tabs-selection-panel-wiring",
+      "category": "node_template_structure",
+      "description": "Each tab is selected/focusable exactly once and refers to its consistently present panel",
+      "status": "passed"
+    },
+    {
+      "id": "emitted-stable-toggle-identity",
+      "category": "node_template_structure",
+      "description": "Toggle identity labels remain stable while aria-pressed changes",
+      "status": "passed"
+    },
+    {
+      "id": "emitted-local-pending-and-unavailable",
+      "category": "node_template_structure",
+      "description": "Busy/exhausted/removed states preserve commands and reference readable local reasons",
+      "status": "passed"
+    },
+    {
+      "id": "before-after-protected-markup-parity",
+      "category": "node_template_structure",
+      "description": "Treatments generate exactly the same content/roles at matching fixture states",
+      "status": "passed"
+    },
+    {
+      "id": "source-pending-epoch-guards",
+      "category": "source",
+      "description": "Async callback is epoch-gated and context/reset clear and invalidate the timer",
+      "status": "passed",
+      "detail": "Source guard inspected; no real browser timer or native double-activation was exercised"
+    },
+    {
+      "id": "source-input-boundaries",
+      "category": "source",
+      "description": "Handlers resolve containing controls and keep native command keys independent of custom tab keys",
+      "status": "passed"
+    },
+    {
+      "id": "render-bootstrap-dom-shaped-doubles",
+      "category": "node_dom_shaped_fixture",
+      "description": "Actual render module initializes each context/treatment against explicit document doubles",
+      "status": "passed"
+    },
+    {
+      "id": "render-local-save-reset-remove-doubles",
+      "category": "node_dom_shaped_fixture",
+      "description": "Actual local handlers suppress duplicate start and reject replaced callbacks with fake timers",
+      "status": "passed"
+    },
+    {
+      "id": "render-selection-disclosure-resource-doubles",
+      "category": "node_dom_shaped_fixture",
+      "description": "Actual selection, disclosure/Escape, toggle and resource handlers update local emitted strings",
+      "status": "passed"
+    },
+    {
+      "id": "golf-isolated-static-role-anatomy",
+      "category": "source",
+      "description": "Isolated golf source preserves labels/native roles, IDREFs and scoped candidate inner-face anatomy",
+      "status": "passed",
+      "detail": "Source anatomy only; the final cascade, Korean font pixels, motion and geometry are not measured"
+    },
+    {
+      "id": "golf-explicit-state-dom-shaped-doubles",
+      "category": "node_dom_shaped_fixture",
+      "description": "Actual isolated golf module toggles explicitly simulated local states and activation messages against doubles",
+      "status": "passed",
+      "detail": "Explicit callback/state-property checks only; native disabled input suppression is not modeled or claimed"
+    },
+    {
+      "id": "source-scoped-tactile-press",
+      "category": "source",
+      "description": "Game tactile translation is authored on the inner face and scoped away from other families",
+      "status": "passed",
+      "detail": "Selector declarations inspected only; target/sibling bounds and final computed cascade remain unmeasured"
+    },
+    {
+      "id": "source-focus-selection-reduced-motion",
+      "category": "source",
+      "description": "Authored focus, selected, pending and reduced-motion rules remain distinct",
+      "status": "passed"
+    },
+    {
+      "id": "role-contract-coverage",
+      "category": "source_contract",
+      "description": "Machine-readable contract covers all documented control-role decisions",
+      "status": "passed",
+      "detail": {
+        "role_count": 12,
+        "role_ids": [
+          "primary_action",
+          "secondary_action",
+          "tertiary_action",
+          "icon_action",
+          "destructive_action",
+          "toggle",
+          "segmented_selection",
+          "tab",
+          "navigation",
+          "menu_trigger",
+          "menu_row",
+          "game_hud_action"
+        ],
+        "guide_role_decisions": 11,
+        "note": "Primary/secondary/tertiary, presentation, hazard and context are separate decisions, not exclusive widget types"
+      }
+    }
+  ],
+  "node_test_process": {
+    "description": "Exact Node test process output",
+    "status": "passed",
+    "command": "node --test --test-reporter=tap tests/semantics.test.mjs",
+    "exit_code": 0,
+    "output": "TAP version 13\n# Subtest: initialState returns independent, complete local fixture states\nok 1 - initialState returns independent, complete local fixture states\n  ---\n  duration_ms: 6.014618\n  type: 'test'\n  ...\n# Subtest: changing context resets local task state and preserves treatment\nok 2 - changing context resets local task state and preserves treatment\n  ---\n  duration_ms: 2.086322\n  type: 'test'\n  ...\n# Subtest: changing treatment preserves the same local content and task state\nok 3 - changing treatment preserves the same local content and task state\n  ---\n  duration_ms: 0.328256\n  type: 'test'\n  ...\n# Subtest: reset restores resources and local task state while preserving context/treatment\nok 4 - reset restores resources and local task state while preserving context/treatment\n  ---\n  duration_ms: 0.163208\n  type: 'test'\n  ...\n# Subtest: web/app tab transitions update their own selection field\nok 5 - web/app tab transitions update their own selection field\n  ---\n  duration_ms: 0.470285\n  type: 'test'\n  ...\n# Subtest: format and route transitions preserve independent fixture state\nok 6 - format and route transitions preserve independent fixture state\n  ---\n  duration_ms: 0.307296\n  type: 'test'\n  ...\n# Subtest: toggle state reverses without modifying other fixture fields\nok 7 - toggle state reverses without modifying other fixture fields\n  ---\n  duration_ms: 0.256588\n  type: 'test'\n  ...\n# Subtest: duplicate pending start is suppressed and does not mutate the fixture\nok 8 - duplicate pending start is suppressed and does not mutate the fixture\n  ---\n  duration_ms: 0.245491\n  type: 'test'\n  ...\n# Subtest: one pending completion settles once; repeat completion is ignored\nok 9 - one pending completion settles once; repeat completion is ignored\n  ---\n  duration_ms: 0.242512\n  type: 'test'\n  ...\n# Subtest: completion while no operation is pending has no effect\nok 10 - completion while no operation is pending has no effect\n  ---\n  duration_ms: 5.911637\n  type: 'test'\n  ...\n# Subtest: stale completion after reset/context replacement is ignored while idle\nok 11 - stale completion after reset/context replacement is ignored while idle\n  ---\n  duration_ms: 1.075608\n  type: 'test'\n  ...\n# Subtest: old completion cannot settle a newer operation after reset or context replacement\nok 12 - old completion cannot settle a newer operation after reset or context replacement\n  ---\n  duration_ms: 0.355194\n  type: 'test'\n  ...\n# Subtest: removal invalidates pending work and stale completion cannot restore it\nok 13 - removal invalidates pending work and stale completion cannot restore it\n  ---\n  duration_ms: 0.209642\n  type: 'test'\n  ...\n# Subtest: local removal blocks new save starts and reset provides recovery\nok 14 - local removal blocks new save starts and reset provides recovery\n  ---\n  duration_ms: 0.141132\n  type: 'test'\n  ...\n# Subtest: signal consumes exactly one local beacon and exhausted activation is safe\nok 15 - signal consumes exactly one local beacon and exhausted activation is safe\n  ---\n  duration_ms: 0.226722\n  type: 'test'\n  ...\n# Subtest: disclosure state opens and closes; unknown events are ignored\nok 16 - disclosure state opens and closes; unknown events are ignored\n  ---\n  duration_ms: 0.203407\n  type: 'test'\n  ...\n# Subtest: tab-key helper doubles: horizontal arrows wrap and automatically select/focus\nok 17 - tab-key helper doubles: horizontal arrows wrap and automatically select/focus\n  ---\n  duration_ms: 0.894205\n  type: 'test'\n  ...\n# Subtest: tab-key helper doubles: Home/End select endpoints\nok 18 - tab-key helper doubles: Home/End select endpoints\n  ---\n  duration_ms: 0.427313\n  type: 'test'\n  ...\n# Subtest: tab-key helper doubles: unrelated keys/targets are ignored and listener can detach\nok 19 - tab-key helper doubles: unrelated keys/targets are ignored and listener can detach\n  ---\n  duration_ms: 2.148469\n  type: 'test'\n  ...\n1..19\n# tests 19\n# suites 0\n# pass 19\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1480.405823\n"
+  },
+  "artifacts": [
+    {
+      "path": "specimens/components/actions.mjs",
+      "bytes": 867,
+      "sha256": "efd79c9709a5583dd3dd03a255d3c6c803fac59abac7cad418e0a81392f71dc5"
+    },
+    {
+      "path": "specimens/components/selection.mjs",
+      "bytes": 387,
+      "sha256": "6d3ff21d26d83fb0bb5500429bb8c6317dda8ce9269b716139ffe424e836babe"
+    },
+    {
+      "path": "specimens/contexts.css",
+      "bytes": 14434,
+      "sha256": "0d8da0f89c1a3270cbd99c831cbbba9b102757c2794bc85d864cc833fa34fd3a"
+    },
+    {
+      "path": "specimens/families.css",
+      "bytes": 6182,
+      "sha256": "44e3b731deadbdae5d43708d87a05e59548584a8efce286fbeb45b1e569df40b"
+    },
+    {
+      "path": "specimens/golf.css",
+      "bytes": 5926,
+      "sha256": "a8fe2faee43e3743359894f1b1ff524330f7e5ade27bbbe1cf1a1d074f13af2f"
+    },
+    {
+      "path": "specimens/golf.html",
+      "bytes": 3344,
+      "sha256": "492632af45a813759f049d27bb13e36a26bad9e719770c3c869afc8d9ffc938a"
+    },
+    {
+      "path": "specimens/golf.mjs",
+      "bytes": 1238,
+      "sha256": "4f611bb22b417df9d16cd7f9fba8e1798b30a7a4d47f1be756564a545a38bbb6"
+    },
+    {
+      "path": "specimens/index.html",
+      "bytes": 2188,
+      "sha256": "d7887196f7f49cde749f75a2c491bfbe5873271f9f5c7a3d1bb20f871e2cfc18"
+    },
+    {
+      "path": "specimens/render.mjs",
+      "bytes": 10335,
+      "sha256": "5d28be925fdae30e64de2ddf1a129759eb7990549b2dd559fbd770bb58ab3854"
+    },
+    {
+      "path": "specimens/semantics.mjs",
+      "bytes": 2072,
+      "sha256": "20bcd169e0b7928b03a98a134231d96d6368dd5e7806ba29b46225dfa17e329c"
+    },
+    {
+      "path": "specimens/tokens.css",
+      "bytes": 2323,
+      "sha256": "7fee3d6d3eef4c636fb567841602a7afd8ef333aa88e2e89606af2953522ea93"
+    },
+    {
+      "path": "GUIDE.md",
+      "bytes": 36556,
+      "sha256": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585"
+    },
+    {
+      "path": "AI_INSTRUCTIONS.md",
+      "bytes": 5316,
+      "sha256": "3d4c35294fd837b7f62a628f2a13590ddadea943f2d09486b7613d99ca291f67"
+    },
+    {
+      "path": "MAINTAINER_QUICKSTART.md",
+      "bytes": 9762,
+      "sha256": "f38aa0f2282385f5badfde580fe9db44bfa81a43889fc60f2b6b82e21660c855"
+    },
+    {
+      "path": "role-contracts.json",
+      "bytes": 30063,
+      "sha256": "6445d88e4069b385dc14cdfb2190b303b7fea0922fa5f578bdf939f481fec803"
+    },
+    {
+      "path": "tests/semantics.test.mjs",
+      "bytes": 9998,
+      "sha256": "e44ce99068ca8fb717e900dc4e71fe72281d67ef49f55b46090cc19b791628d1"
+    },
+    {
+      "path": "tests/verify.mjs",
+      "bytes": 36412,
+      "sha256": "c7164ff4df7d29cd4e2ce6985d81c434dd068efe74b244b5519c743fc5a7b3e7"
+    }
+  ]
+}

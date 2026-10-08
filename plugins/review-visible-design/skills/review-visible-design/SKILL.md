@@ -36,6 +36,12 @@ description: Diagnose specific visible design defects and propose precise, same-
 
 선택한 단일 파일과 [references/evidence-contract.json](references/evidence-contract.json)만 먼저 로드한다. Markdown #anchor는 파일 내용 로드를 제한하지 못하므로 분기별 파일을 물리적으로 분리했다. game-corrections.md/web-corrections.md는 호환용 링크 색인이며 라우팅 본문이 아니다. 형제 분기 본문/전체 연구 원고를 읽지 않는다. 필요한 출처 ID만 [references/sources.json](references/sources.json)에서 추출한다. Source registry의 원문 접근/관찰 기록은 선행 연구자의 기록이며 이번 실행의 직접 관찰이 아니다. 해당 자료가 현재 제품 사실이나 공식 표준 수치를 결정한다면 원문을 새로 확인하고 날짜/범위를 기록한다.
 
+## 범용 버튼 구조 교정의 필수 선행 계약
+
+게임·웹·앱의 버튼 구조를 만들거나 고치는 요청이면 [범용 버튼 지시문](../../../../research/universal_button_system/AI_INSTRUCTIONS.md)과 해당 역할의 [구조 가이드](../../../../research/universal_button_system/GUIDE.md)를 먼저 읽는다. 기존 normalized purpose 라우팅은 바꾸지 않는다. 이 가이드는 역할·외곽·face/body/edge 또는 의도적으로 평평한 surface·글자/아이콘·내부 배치·상태를 구체화하는 선행 계약이다.
+
+요청이 명명한 구조 축에는 before → intent → actually rendered 표와 같은 전체 맥락/컴포넌트/실제 상태 확대가 필요하다. 색·배경·font만 바꿨으면 face/body/layout/geometry 교정 요청을 완료했다고 쓰지 않는다. 의도적인 flat/text-only/no-icon은 유효하며 장식 수를 점수로 쓰지 않는다. 범용 guide의 source candidate는 렌더 검증이 blocked 상태다. 본문 작성/정적 검사만으로 시각 통과를 주장하지 않는다.
+
 ## 한 번의 교정 절차
 
 1. 전체 화면에서 핵심 객체, 결정에 필요한 정보, 주행동/보조행동, 기존 조형 가족을 확인한다. 잘 작동하는 부분은 이유와 함께 유지한다
@@ -78,3 +84,4 @@ evidence.kind의 허용값은 screenshot / interface_capture / synthetic_visual 
     python scripts/review_contract.py check-report --input report.json
 
 route 통과는 분기 선택 검사이고, compare 통과는 데이터/환경 메타데이터 검사다. check-report는 주장/근거 필드의 일관성 검사일 뿐 실제 화면이나 성공률 검증이 아니다. 보고서 파일을 생성할 때만 사용자가 허용한 작업 공간에 저장한다.
+

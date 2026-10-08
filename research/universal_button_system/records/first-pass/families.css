@@ -1,0 +1,48 @@
+/* A competent neutral starting family. Function/content/scene are shared. */
+[data-revision=before] .control{border-radius:8px;background:#fff;color:#193b34;border:1px solid #a6b9b2;box-shadow:none}
+[data-revision=before] .control--primary{background:#185448;color:#fff;border-color:#185448}
+[data-revision=before] .control--tertiary,[data-revision=before] .control--icon{background:transparent;border-color:transparent}
+[data-revision=before] .control--destructive{background:#fff;color:#a32935;border-color:#c4868c}
+[data-revision=before] .control:hover:not(:disabled){filter:brightness(.96)}
+[data-revision=before] .control:active:not(:disabled){box-shadow:inset 0 1px 3px #0002}
+[data-revision=before] .control[aria-pressed=true]{background:#e1eee9;border-color:#185448}
+[data-revision=before][data-context=game] .control{background:#f1eee2;color:#243b38;border-color:#b4c0b2}
+[data-revision=before][data-context=game] .control--primary{background:#f0d999;color:#223732;border-color:#f0d999}
+/* White web: firm filled execution, quiet outline alternative, flat utilities. */
+[data-revision=after][data-context=web] .control--primary{background:#185448;color:#fff;box-shadow:none;border-color:#185448;border-radius:4px;padding-inline:20px}
+[data-revision=after][data-context=web] .control--primary:hover:not(:disabled){background:#103e35;border-color:#103e35}
+[data-revision=after][data-context=web] .control--secondary{background:#fff;border-color:#789d90;color:#185448;border-radius:4px}
+[data-revision=after][data-context=web] .control--secondary:hover:not(:disabled){background:#edf5f1;border-color:#185448}
+[data-revision=after] .control--tertiary,[data-revision=after] .control--icon{background:transparent;color:var(--accent);border-color:transparent}
+[data-revision=after] .control--tertiary:hover:not(:disabled),[data-revision=after] .control--icon:hover:not(:disabled){background:#e4eeea}
+[data-revision=after] .control--destructive{color:var(--danger);background:transparent;border-color:#bb737c;border-radius:4px}
+[data-revision=after] .control--destructive:hover:not(:disabled){background:#fff0f1;border-color:var(--danger)}
+[data-revision=after][data-context=web] .control:active:not(:disabled){box-shadow:inset 0 2px 0 #0002}
+/* Compact app: subtle lift belongs to the footer action, not every row. */
+[data-context=app]{--accent:#36539b;--focus:#9b5720;--control-height:44px;--radius:8px}
+[data-revision=after][data-context=app] .control--primary{color:#fff;background:#36539b;border-color:#28457e;box-shadow:0 2px 0 #244278,0 3px 7px #1c376622;padding-inline:20px}
+[data-revision=after][data-context=app] .control--primary:hover:not(:disabled){background:#2a468f;border-color:#173574;box-shadow:0 2px 0 #173574,0 3px 8px #1c376633}
+[data-revision=after][data-context=app] .control--primary:active:not(:disabled){box-shadow:inset 0 2px 2px #0003}
+[data-revision=after][data-context=app] .control--secondary{color:#36539b;background:#eaf0fc;border-color:transparent}
+[data-revision=after][data-context=app] .control--secondary:hover:not(:disabled){background:#dfe8fc}
+[data-revision=after][data-context=app] .control[aria-pressed=true]{color:#29427c;background:#e2eafd;border-color:#7895cc}
+/* Game station: fixed shell + translating face, scoped only to execution. */
+[data-context=game]{--accent:#f4dfab;--focus:#fdf1c3;--ink:#edf0e5;--muted:#b4c5b8;--line:#718478;--control-height:48px;--radius:3px}
+[data-revision=after][data-context=game] .control--primary{background:#937139;border:1px solid #c0a667;color:#1d3932;border-radius:3px;min-height:60px;padding:0 0 4px;box-shadow:0 3px 8px #0005;overflow:visible}
+[data-revision=after][data-context=game] .control--primary .control-face{min-height:54px;padding:12px 18px;justify-content:space-between;background:#eddaa4;border:1px solid #fff1c0;border-radius:2px;box-shadow:inset 0 1px 0 #fff8;transition:transform .1s,background-color .1s,box-shadow .1s}
+[data-revision=after][data-context=game] .control--primary .control-label{flex:1;text-align:left;font-size:17px;line-height:24px;letter-spacing:.02em}
+[data-revision=after][data-context=game] .control--primary:hover:not(:disabled) .control-face{background:#f6e5b8;border-color:#fffbdc;box-shadow:inset 0 2px 0 #fff9}
+[data-revision=after][data-context=game] .control--primary:active:not(:disabled) .control-face{transform:translateY(3px);box-shadow:inset 0 1px 2px #5845194d}
+[data-revision=after][data-context=game] .control--secondary{background:#2d4a3f;color:#f2e6c6;border-color:#93a48c;border-radius:3px}
+[data-revision=after][data-context=game] .control--secondary:hover:not(:disabled){background:#3a5c4c;border-color:#d9dcc7}
+[data-revision=after][data-context=game] .control--tertiary,[data-revision=after][data-context=game] .control--icon{color:#e4ddc6;background:transparent;border-color:transparent}
+[data-revision=after][data-context=game] .control--tertiary:hover:not(:disabled),[data-revision=after][data-context=game] .control--icon:hover:not(:disabled){background:#e6ecd417}
+[data-revision=after][data-context=game] .control--hud{background:#253f35;color:#f5ead0;border:1px solid #a2b599;border-radius:3px;min-height:48px}
+[data-revision=after][data-context=game] .control--hud:hover:not(:disabled){background:#385848;border-color:#ebedca}
+[data-revision=after][data-context=game] .control--hud:active:not(:disabled){box-shadow:inset 0 2px 4px #0005}
+/* Unavailable / busy override each family by explicit semantic selector. */
+.control.control:disabled{background:#e5e9e7;color:#65716b;border-color:#b2bfba;box-shadow:none}
+[data-context=game] .control.control:disabled{background:#263d34;color:#b7c7ba;border-color:#65796b;box-shadow:none}
+[data-context=game] .control.control:disabled .control-face{background:#334e40;color:#c7d3c9;border-color:#748773;box-shadow:none;transform:none}
+.control.control[aria-busy=true]{background:#e3eeeb;color:#193b34;border-color:#849d94;box-shadow:none}
+[data-context=game] .control.control[aria-busy=true] .control-face{background:#d9d7b8;color:#263c33;border-color:#f0e8cc;transform:none}

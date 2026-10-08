@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "id": "UBS:ROLE_CONTRACTS:V1",
+  "title": "Role and construction contracts for contextual buttons",
+  "updated_utc": "2026-10-08",
+  "status": "authored_review_contract; rendered_and_input_results_recorded_separately",
+  "scope": {
+    "purpose": "Choose and verify context-appropriate control anatomy without changing protected task meaning.",
+    "specimens": "Original authored baseline/treatment fixtures with shared local content/state/handlers.",
+    "execution": "Network-disabled local simulation; no production requests or mutations.",
+    "golf": "Isolated authored proposal informed by an observed entry-control audit; no production handler, room server or course parity claim.",
+    "not_evidence_of": [
+      "controlled model-output comparison",
+      "measured usability gains",
+      "user approval",
+      "physical-device accessibility coverage",
+      "production parity"
+    ],
+    "universal_style_required": false,
+    "universal_icon_required": false,
+    "universal_body_or_bevel_required": false,
+    "change_every_anatomy_axis_required": false
+  },
+  "decision_order": [
+    "inventory rendered target and task",
+    "classify command/navigation/value/panel/menu/information meaning",
+    "assign local rank, hazard, presentation and context separately",
+    "name required change and preserved axes",
+    "choose coherent context family",
+    "construct and measure anatomy",
+    "implement only supported states and input",
+    "fill before to intent to rendered ledger",
+    "verify and report scoped evidence"
+  ],
+  "contexts": [
+    {
+      "id": "web",
+      "specimen": "specimens/index.html?context=web",
+      "family_mix": [
+        "filled",
+        "outline",
+        "flat"
+      ],
+      "preserve": "same web fixture/content/handler for before and after"
+    },
+    {
+      "id": "app",
+      "specimen": "specimens/index.html?context=app",
+      "family_mix": [
+        "soft_raised",
+        "flat",
+        "outline"
+      ],
+      "selection": "native radio-backed segments",
+      "preserve": "same app fixture/content/handler for before and after"
+    },
+    {
+      "id": "game",
+      "specimen": "specimens/index.html?context=game",
+      "family_mix": [
+        "tactile",
+        "game_native",
+        "flat",
+        "outline"
+      ],
+      "hud": "lower-relief commands; read-only meters distinct",
+      "preserve": "same original local scene/content/handler for before and after"
+    },
+    {
+      "id": "golf_isolated",
+      "specimen": "specimens/golf.html",
+      "family_mix": [
+        "tactile",
+        "game_native",
+        "outline",
+        "flat"
+      ],
+      "preserve": "room-creation label/meaning in isolated proposal; no production behavior claimed"
+    }
+  ],
+  "roles": [
+    {
+      "id": "primary_action",
+      "meaning": "The supported next commitment in a local task group",
+      "semantic_contract": [
+        "native button for command; link when the action is navigation",
+        "rank is scoped to the task group, not the whole product"
+      ],
+      "visual_contract": [
+        "strongest appropriate surface, placement or scale in its group",
+        "no compulsory icon, body or bevel"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "when direct activation supports it",
+        "pending": "only for a real or explicitly simulated operation",
+        "disabled": "only for an actual unavailable condition",
+        "selected": "not applicable unless the control is also a genuine toggle/selection"
+      },
+      "protected": [
+        "action meaning",
+        "exact consequential label",
+        "conditions/costs",
+        "commit timing",
+        "focus destination"
+      ]
+    },
+    {
+      "id": "secondary_action",
+      "meaning": "A meaningful alternative, back, cancel or supporting command",
+      "semantic_contract": [
+        "native button for command; link for navigation",
+        "cancel does not imply destructive consequence"
+      ],
+      "visual_contract": [
+        "quieter but discoverable member of the context family",
+        "readable target/label and independent focus"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "when activation supports it",
+        "pending": "only if its actual action waits",
+        "disabled": "only if actually unavailable",
+        "selected": "normally not applicable"
+      },
+      "protected": [
+        "alternative/cancel/back meaning",
+        "safe return path",
+        "availability during pending workflow"
+      ]
+    },
+    {
+      "id": "tertiary_action",
+      "meaning": "Low-priority help, inspect or lightweight utility command",
+      "semantic_contract": [
+        "native button for command; link for location change"
+      ],
+      "visual_contract": [
+        "flat or text-only is valid",
+        "do not hide essential label or reduce readability to establish rank"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "optional feedback when pointer input supported",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "when activation supports it",
+        "selected": "only if also a genuine toggle",
+        "disabled": "only if actually unavailable"
+      },
+      "protected": [
+        "utility action",
+        "accessible name",
+        "supported target area"
+      ]
+    },
+    {
+      "id": "icon_action",
+      "meaning": "An action presented primarily as a glyph",
+      "semantic_contract": [
+        "named button/link according to meaning",
+        "decorative glyphs do not add redundant naming"
+      ],
+      "visual_contract": [
+        "optical glyph mass and corner/stroke grammar fit the family",
+        "visible art may be smaller than fixed target",
+        "visible label/context when recognition is insufficient"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported; tooltip is supplementary",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "when activation supports it",
+        "selected": "only if also a genuine toggle/choice",
+        "pending": "only if actual action waits",
+        "disabled": "only if actually unavailable"
+      },
+      "protected": [
+        "accessible identity",
+        "meaningful glyph/context",
+        "nonoverlapping adjacent targets"
+      ]
+    },
+    {
+      "id": "destructive_action",
+      "meaning": "An action removing or consequentially changing specified state",
+      "semantic_contract": [
+        "hazard is independent of primary/secondary/tertiary rank",
+        "preserve existing confirmation and recovery policy"
+      ],
+      "visual_contract": [
+        "precise consequential verb/object plus appropriate hazard treatment",
+        "reuse family grammar; no compulsory modal/icon/hold/red cancel"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "when activation supports it",
+        "pending": "only if removal waits",
+        "disabled": "only if actually unavailable",
+        "selected": "not a removal result"
+      },
+      "protected": [
+        "object/consequence",
+        "confirmation steps",
+        "recoverability",
+        "no duplicate commitment"
+      ]
+    },
+    {
+      "id": "toggle",
+      "meaning": "A reversible persistent on/off value",
+      "semantic_contract": [
+        "native checkbox/switch or toggle button according to modeled setting",
+        "aria-pressed toggle label retains its identity across values",
+        "changing action labels require an explicitly different command model"
+      ],
+      "visual_contract": [
+        "static on/off mark or text distinct from focus/press",
+        "shared target/silhouette across values unless a bounded reason is recorded"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "momentary input feedback only",
+        "selected": "required as persistent on/off value",
+        "pending": "only if persistence actually waits",
+        "disabled": "only if actually unavailable"
+      },
+      "protected": [
+        "value",
+        "stable identity",
+        "reversible effect",
+        "announced state"
+      ]
+    },
+    {
+      "id": "segmented_selection",
+      "meaning": "One value selected from a small exclusive set",
+      "semantic_contract": [
+        "prefer native radio inputs for exclusive choice",
+        "group has a name and each option has a label",
+        "preserve documented arrow/selection behavior; toolbar radio is a distinct case"
+      ],
+      "visual_contract": [
+        "aligned shared group grammar",
+        "checked mark/face distinct from focused option",
+        "not a row of competing primary commands"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required for supported keyboard/controller input",
+        "pressed": "optional momentary feedback",
+        "selected": "required as checked value",
+        "disabled": "only for actual unavailable option",
+        "pending": "normally not applicable unless selection persistence waits"
+      },
+      "protected": [
+        "group meaning",
+        "option set/order",
+        "exclusivity",
+        "chosen value",
+        "keyboard contract"
+      ]
+    },
+    {
+      "id": "tab",
+      "meaning": "A control revealing an associated local content panel",
+      "semantic_contract": [
+        "tablist/tab/tabpanel links and selected state agree",
+        "preserve documented automatic or manual activation policy",
+        "roving focus follows the selected supported pattern"
+      ],
+      "visual_contract": [
+        "active rail/lip or panel relationship",
+        "independent focus mark",
+        "quiet surface can remain flat"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required",
+        "pressed": "optional momentary feedback",
+        "selected": "required as active tab",
+        "disabled": "only if tab actually unavailable",
+        "pending": "only if actual panel operation waits"
+      },
+      "protected": [
+        "panel association",
+        "content",
+        "active panel",
+        "focus versus activation policy"
+      ]
+    },
+    {
+      "id": "navigation",
+      "meaning": "A link changing URL, route or meaningful location",
+      "semantic_contract": [
+        "native anchor with actual destination",
+        "aria-current when appropriate; no generic aria-selected on route links"
+      ],
+      "visual_contract": [
+        "link/navigation grammar may be flat",
+        "persistent current marker differs from focus and hover",
+        "stronger fill allowed when navigation is the next task step"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required",
+        "pressed": "optional input feedback",
+        "selected": "use current-location meaning instead",
+        "pending": "only if actual route workflow exposes it",
+        "disabled": "requires an explicit unavailable navigation contract"
+      },
+      "protected": [
+        "destination",
+        "current location",
+        "history/back behavior",
+        "link activation semantics"
+      ]
+    },
+    {
+      "id": "menu_trigger",
+      "meaning": "A control opening a compact disclosure or true command menu",
+      "semantic_contract": [
+        "button exposes expansion and relation to revealed content",
+        "aria-haspopup menu only for a real menu pattern",
+        "preserve Escape/close/focus return as applicable"
+      ],
+      "visual_contract": [
+        "recognizable named trigger",
+        "chevron/more glyph only when it communicates the actual behavior"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required",
+        "pressed": "when activation supports it",
+        "selected": "use expanded meaning for disclosure",
+        "disabled": "only if actually unavailable"
+      },
+      "protected": [
+        "expanded state",
+        "controlled content",
+        "close behavior",
+        "focus destination"
+      ]
+    },
+    {
+      "id": "menu_row",
+      "meaning": "A compact command, option, submenu trigger or navigation item",
+      "semantic_contract": [
+        "choose button/link/selection semantics by row meaning",
+        "menu roles require complete menu keyboard contract",
+        "ordinary navigation lists and disclosures are not automatically ARIA menus"
+      ],
+      "visual_contract": [
+        "quiet aligned row with label and optional glyph/check/shortcut columns",
+        "trailing chevron/check has real meaning",
+        "no primary extrusion for every row"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "when pointer input supported",
+        "focus": "required",
+        "pressed": "if activation supports it",
+        "selected": "only for actual checked/current option",
+        "disabled": "only if actually unavailable",
+        "pending": "only if row action waits"
+      },
+      "protected": [
+        "command/destination/value",
+        "shortcut accuracy",
+        "row boundary",
+        "selection or submenu relation"
+      ]
+    },
+    {
+      "id": "game_hud_action",
+      "meaning": "A command coexisting with gameplay, resources, status or binding prompts",
+      "semantic_contract": [
+        "separate actionable commands from read-only meters/status",
+        "binding glyph/hold threshold reflect actual supported input",
+        "HUD context does not grant every item button semantics"
+      ],
+      "visual_contract": [
+        "family fits actual game art/equipment/material",
+        "main command can be tactile while HUD/menu stays low relief",
+        "cost/cooldown/condition remains readable"
+      ],
+      "state_applicability": {
+        "rest": "required",
+        "hover": "only for pointer-supported HUD",
+        "focus": "for actual keyboard/controller focusable path",
+        "pressed": "for supported activation/hold",
+        "selected": "only for actual persistent choice",
+        "pending": "only for real or explicitly simulated unfinished action",
+        "disabled": "only for real resource/cooldown/lock condition"
+      },
+      "protected": [
+        "game command",
+        "resources/costs",
+        "hold or activation timing",
+        "binding",
+        "scene/input assumptions"
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "flat",
+      "contexts": [
+        "web",
+        "app",
+        "game"
+      ],
+      "anatomy": [
+        "plain label/glyph area",
+        "optional calm backing or state rail",
+        "no body/extrusion required"
+      ],
+      "typical_roles": [
+        "tertiary_action",
+        "navigation",
+        "tab",
+        "menu_row",
+        "icon_action"
+      ],
+      "exception": "A primary may be flat when task/context makes it sufficiently identifiable.",
+      "trial_recipe": {
+        "units": "CSS px",
+        "origin": "authored trial, not universal or source measured",
+        "min_target_height": 40,
+        "label_size": 16,
+        "label_line_height": 22,
+        "side_inset": 12,
+        "body_allowance": 0
+      }
+    },
+    {
+      "id": "outline",
+      "contexts": [
+        "web",
+        "app",
+        "game"
+      ],
+      "anatomy": [
+        "stable perimeter",
+        "plain readable face",
+        "no body/extrusion required"
+      ],
+      "typical_roles": [
+        "secondary_action",
+        "destructive_action",
+        "icon_action"
+      ],
+      "exception": "An outline can be primary in a suitable hierarchy.",
+      "trial_recipe": {
+        "units": "CSS px",
+        "origin": "authored trial, not universal or source measured",
+        "min_target_height": 44,
+        "label_size": 16,
+        "label_line_height": 22,
+        "side_inset": 16,
+        "corner": 6,
+        "body_allowance": 0
+      }
+    },
+    {
+      "id": "filled",
+      "contexts": [
+        "web",
+        "app",
+        "game"
+      ],
+      "anatomy": [
+        "plain opaque face",
+        "legible label",
+        "role-scoped fill"
+      ],
+      "typical_roles": [
+        "primary_action",
+        "segmented_selection"
+      ],
+      "exception": "Fill conveys emphasis, not automatically pending/selected/destructive semantics.",
+      "trial_recipe": {
+        "units": "CSS px",
+        "origin": "authored trial, not universal or source measured",
+        "min_target_height": 44,
+        "label_size": 16,
+        "label_line_height": 22,
+        "side_inset": 16,
+        "corner": 8,
+        "body_allowance": 0
+      }
+    },
+    {
+      "id": "soft_raised",
+      "contexts": [
+        "app",
+        "web"
+      ],
+      "anatomy": [
+        "subtle rim/highlight",
+        "quiet contact shadow",
+        "little or no body projection"
+      ],
+      "typical_roles": [
+        "primary_action",
+        "secondary_action"
+      ],
+      "exception": "Keep dense data/menu rows quiet unless their role needs elevation.",
+      "trial_recipe": {
+        "units": "CSS px",
+        "origin": "authored trial, not universal or source measured",
+        "min_target_height": 42,
+        "label_size_range": [
+          15,
+          16
+        ],
+        "label_line_height_range": [
+          20,
+          22
+        ],
+        "side_inset": 14,
+        "corner": 6,
+        "rim": 1,
+        "contact_shadow_range": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "tactile",
+      "contexts": [
+        "game",
+        "material_led_app"
+      ],
+      "anatomy": [
+        "fixed target/shell",
+        "separate readable face",
+        "consistent lower body/edge",
+        "coherent light direction"
+      ],
+      "typical_roles": [
+        "primary_action",
+        "game_hud_action"
+      ],
+      "exception": "Not required for all game controls; utilities and meters can remain low relief.",
+      "trial_recipe": {
+        "units": "CSS px",
+        "origin": "authored trial, not universal or source measured",
+        "total_min_height_range": [
+          56,
+          64
+        ],
+        "body_allowance_range": [
+          3,
+          4
+        ],
+        "label_size_range": [
+          18,
+          20
+        ],
+        "label_line_height": 24,
+        "side_inset_range": [
+          16,
+          20
+        ],
+        "inner_gap_range": [
+          10,
+          12
+        ],
+        "inner_press_travel_range": [
+          2,
+          3
+        ],
+        "outer_target_travel": 0
+      }
+    },
+    {
+      "id": "game_native",
+      "contexts": [
+        "game"
+      ],
+      "anatomy": [
+        "context-derived material and shape grammar",
+        "role-specific command/status/navigation distinction",
+        "shared scalable parts where needed"
+      ],
+      "typical_roles": [
+        "primary_action",
+        "secondary_action",
+        "game_hud_action",
+        "menu_row",
+        "tab"
+      ],
+      "exception": "No universal polygon, hologram, paper, icon, bevel, font or color; do not copy branded source artwork.",
+      "trial_recipe": {
+        "origin": "derive from actual scene/art and bounded brief; no universal measurements"
+      }
+    }
+  ],
+  "anatomy_contract": {
+    "bounds": [
+      "actual_target",
+      "visible_silhouette",
+      "usable_face",
+      "actual_label_and_glyph_ink"
+    ],
+    "axes": [
+      "target_length_height",
+      "silhouette_corner_cap",
+      "surface_rim_body_or_intentional_flatness",
+      "typography_baseline_wrapping",
+      "optional_glyph_system_optical_weight",
+      "internal_slots_insets_gaps",
+      "role_hierarchy_context",
+      "supported_states_behavior"
+    ],
+    "rules": [
+      "content determines usable face room",
+      "body/rim/padding allowances are explicit",
+      "longest supported label and mixed scripts fit without hiding essential meaning",
+      "icon canvas is distinct from visible glyph bounds",
+      "tactile press leaves outer target/focus shell and sibling layout stationary",
+      "loaded font and actual glyphs are verified beyond computed weight",
+      "full width, equal width and icons require contextual reasons"
+    ],
+    "units": {
+      "allowed_origins": [
+        "source_art_measurement",
+        "authored_trial",
+        "authored_css_or_engine_value",
+        "runtime_measured_value"
+      ],
+      "required_unit_label": [
+        "CSS px",
+        "engine_units",
+        "device_px",
+        "source_art_px",
+        "em",
+        "rem",
+        "other_explicit_unit"
+      ],
+      "rule": "Record origin and units for each value; do not treat artwork pixels, device pixels and CSS pixels as interchangeable."
+    }
+  },
+  "state_contract": {
+    "state_names": [
+      "rest",
+      "hover",
+      "focus",
+      "pressed",
+      "selected_on_current",
+      "expanded",
+      "pending",
+      "disabled_unavailable",
+      "completed",
+      "error"
+    ],
+    "applicability": "Use only states supported by actual role/model or explicitly identified simulation. No state-sheet completion mandate.",
+    "meanings": {
+      "hover": "transient eligible pointer presence",
+      "focus": "current supported keyboard/controller input location",
+      "pressed": "momentary held activation feedback, not persistent selection",
+      "selected_on_current": "persistent choice/value/location appropriate to semantic role",
+      "expanded": "actual disclosure/menu open state",
+      "pending": "operation has begun and not settled",
+      "disabled_unavailable": "action cannot run for a real documented condition",
+      "completed": "actual result, distinct from selection",
+      "error": "actual failure with supported recovery"
+    },
+    "composition": [
+      "actual model gates activation before visual classes",
+      "persistent selection/current marker remains identifiable",
+      "hover/press do not erase persistent meaning",
+      "focus is independent and remains visible",
+      "pending suppresses duplicate commitment and settles truthfully"
+    ],
+    "native_disabled": "Normally removed from keyboard Tab sequence and suppresses activation; reason must be reachable elsewhere.",
+    "aria_disabled": "Expresses unavailability but requires actual activation guards when kept focusable.",
+    "reduced_motion": "Remove interpolation/travel animation while retaining static state, text and focus feedback.",
+    "input_checks": [
+      "pointer activation",
+      "release away",
+      "pointer/input cancellation",
+      "Tab and Shift+Tab",
+      "Enter/Space native command activation without duplicates",
+      "appropriate radio/tab keyboard behavior",
+      "Escape/Back/Close focus return when modeled",
+      "repeated activation",
+      "reset/context change while local operation pending"
+    ],
+    "not_assumed_tested": [
+      "physical touch",
+      "screen reader",
+      "controller",
+      "game engine input",
+      "production network behavior"
+    ]
+  },
+  "change_ledger_contract": {
+    "required": true,
+    "required_axes_are_brief_specific": true,
+    "row_fields": [
+      "target_id",
+      "axis",
+      "required_change",
+      "before_observation",
+      "intended_change_or_preservation",
+      "actual_rendered_result",
+      "evidence_status",
+      "evidence_refs",
+      "revision",
+      "state",
+      "unit_origin_when_measured"
+    ],
+    "matching_capture_fields": [
+      "fixture_id_or_hash",
+      "protected_labels_data",
+      "context",
+      "milestone",
+      "viewport_css",
+      "dpr",
+      "zoom_percent",
+      "locale",
+      "input_mode",
+      "background_scene_art_revision"
+    ],
+    "statuses": [
+      "passed",
+      "failed",
+      "blocked",
+      "not_run",
+      "not_applicable"
+    ],
+    "structural_failure_rule": "Color/background/font-only work fails when the brief names unimplemented silhouette, face/body, glyph or internal-layout changes.",
+    "flat_exception": "Intentional flat/no-body/text-only construction can pass when the role and brief justify it and the rendered/behavior contract passes.",
+    "not_rendered_evidence": [
+      "CSS declarations alone",
+      "forced state class alone",
+      "surrounding page redesign",
+      "unmatched scene/state/capture",
+      "invented runtime values"
+    ],
+    "preservation": "Record deliberate unchanged axes and authorized copy/layout/behavior changes separately; do not require every axis to change."
+  },
+  "evidence_contract": {
+    "stages": [
+      "source_inspection",
+      "structural_check",
+      "browser_render",
+      "browser_input",
+      "physical_device",
+      "assistive_technology",
+      "controller",
+      "human_review",
+      "production_integration"
+    ],
+    "record_fields": [
+      "check_id",
+      "revision",
+      "stage",
+      "result",
+      "configuration",
+      "evidence_refs",
+      "limitations"
+    ],
+    "minimum_for_visual_change": [
+      "matching contextual screen and component crops",
+      "actual runtime values where cascade/geometry matters",
+      "actual supported state input evidence",
+      "protected task/handler checks",
+      "scope/limitations"
+    ],
+    "separation_rules": [
+      "authored recipes do not report runtime measurements",
+      "structural pass is not browser input pass",
+      "desktop narrow viewport is not physical phone testing",
+      "local simulator pass is not production parity",
+      "screenshot review is not user approval or measured usability gain",
+      "authored baseline/treatment is not generated experimental output"
+    ],
+    "production_action_rule": "Do not call live services, create public rooms, upload, publish or spend resources to collect evidence for these fixtures."
+  },
+  "maintenance_contract": {
+    "tokens": "specimens/tokens.css owns shared token meanings and basic shell defaults.",
+    "families": "specimens/families.css scopes context/treatment visual grammar and state appearance.",
+    "semantics": "specimens/semantics.mjs owns local model/selection keyboard behavior.",
+    "render": "specimens/render.mjs imports shared action/selection components and owns context composition, labels and local action binding.",
+    "golf": "specimens/golf.html and specimens/golf.css remain isolated from global web/app families.",
+    "regression": "Follow actual dependencies: shared tokens across inheriting families, shared handler across importing roles, local family across affected context/states.",
+    "restriction": "No installation, deployment, publication or production mutation is authorized by this contract.",
+    "actions": "specimens/components/actions.mjs owns shared action markup and original decorative glyphs.",
+    "selection": "specimens/components/selection.mjs owns shared tab markup and panel-link attributes.",
+    "change_ledger": "records/change-ledger.json records the actual required-change rows and evidence status.",
+    "browser_report": "BROWSER_REPORT.md separates executed checks from blockers and unverified rendering."
+  },
+  "references": [
+    {
+      "id": "UBS:DOC:GUIDE",
+      "path": "GUIDE.md",
+      "kind": "authored guide"
+    },
+    {
+      "id": "UBS:DOC:AI",
+      "path": "AI_INSTRUCTIONS.md",
+      "kind": "implementation contract"
+    },
+    {
+      "id": "UBS:DOC:MAINTAINER",
+      "path": "MAINTAINER_QUICKSTART.md",
+      "kind": "maintenance route"
+    },
+    {
+      "id": "GCTRL2:DOC",
+      "path": "../game_controls_corrections_v2.md",
+      "kind": "existing creator/observation/proposal research; historical states not assumed shipping"
+    },
+    {
+      "id": "W3C:BUTTON",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "kind": "primary semantic guidance",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "W3C:TABS",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "kind": "primary semantic guidance",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "W3C:RADIO",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+      "kind": "primary semantic guidance",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "W3C:TARGET",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "kind": "target minimum and exceptions, not ideal/universal specimen dimension",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "W3C:NON_TEXT_CONTRAST",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "kind": "primary contrast guidance",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "MDN:DISABLED",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/disabled",
+      "kind": "browser platform attribute guidance",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "W3C:TEXT_CONTRAST",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "kind": "primary text contrast guidance with exceptions; recipe sizes remain authored trials",
+      "checked_utc": "2026-10-08"
+    },
+    {
+      "id": "MDN:FONT",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font",
+      "kind": "font shorthand and constituent-property behavior",
+      "checked_utc": "2026-10-08"
+    }
+  ]
+}

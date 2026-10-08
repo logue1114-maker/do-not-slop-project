@@ -4,6 +4,12 @@ Practical guides and runnable examples for AI-built game, web, and app interface
 
 [Use with your AI](#use-with-your-ai) · [Guides and examples](#guides-and-examples) · [Research records](docs/RESEARCH_INDEX.md)
 
+## General button construction · source candidate
+
+[The general game/web/app button system](research/universal_button_system/README.md) chooses action rank, selection/navigation semantics and context-specific flat, outline, filled, soft-raised or tactile construction. It includes three original runnable contexts and an isolated observed-golf anatomy case, a short [AI instruction](research/universal_button_system/AI_INSTRUCTIONS.md), role-owned modules and a mandatory before → intent → rendered ledger.
+
+Browser preview was blocked in the current runtime, so this addition is explicitly an unrendered candidate. Source/Node checks do not pass its visual gate. [Coverage and blocker](research/universal_button_system/BROWSER_REPORT.md) · [Deep construction guide](research/universal_button_system/GUIDE.md) · [Sources/rights](research/universal_button_system/SOURCES_AND_RIGHTS.md). Deliberately flat controls remain valid; a color-only change does not complete a requested structural change.
+
 ## Latest: North Marsh station arrival
 
 One bounded title revision with original station art, coherent type/glyphs and actual button-state captures. The left panel is **rejected v2.0.4 history**; the right is the latest v3 candidate with positive visual feedback. Same initial data and viewport; this is an authored revision, not an experiment or a claim of finished AAA quality.
@@ -76,6 +82,7 @@ Most research manuals are in Korean. The AI entrypoint, CP01 packages, palette e
 
 | Task | Start here | Example or source |
 | :--- | :--- | :--- |
+| Button construction and correction | [General role/family/anatomy guide](research/universal_button_system/README.md) | [Runnable source candidate](research/universal_button_system/specimens/index.html) · [Rendered gate and tests](research/universal_button_system/BROWSER_REPORT.md) |
 | Human-maintainable code | [Reusable AI instructions and review checklist](research/human_maintainability_v1/README.md) | [Behavior-preserving Fleet refactoring and isolated theme change](research/human_maintainability_v1/MAINTAINER_QUICKSTART.md) |
 | Input, state and recovery corrections | [Six English visual labs and exact AI instructions](research/interaction_corrections_v1/README.md) | [Runnable source](research/interaction_corrections_v1/index.html) · [Desktop / phone captures and tests](research/interaction_corrections_v1/BROWSER_REPORT.md) |
 | Explore game UI details | [Live settings and reusable contracts](research/game_ui_playground_v1/README.md) | [First component playground](research/game_ui_playground_v1/index.html) · [Desktop / phone captures](research/game_ui_playground_v1/BROWSER_REPORT.md) |
@@ -123,3 +130,4 @@ If the project helped, a [GitHub star](https://github.com/logue1114-maker/do-not
 Source checks and bounded browser observations are recorded; full accessibility, measured usability, and user approval remain unestablished. The [review helper](plugins/review-visible-design/README.md) is a draft, uninstalled plugin. No reuse license has been selected.
 
 [Verification](docs/VERIFICATION.md) · [Rights and scope](docs/RIGHTS_AND_SCOPE.md) · [Changelog](docs/CHANGELOG.md) · [File inventory](FILES.sha256.json)
+

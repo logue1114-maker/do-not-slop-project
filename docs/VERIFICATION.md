@@ -1,5 +1,9 @@
 # Verification and limits
 
+## General button source candidate
+
+[The button report](../research/universal_button_system/BROWSER_REPORT.md) records focused source/Node checks and a blocked localhost preview. No actual candidate rendering, computed geometry, pointer/keyboard UI, responsive crops or visual acceptance is claimed. These limits do not replace earlier reports.
+
 ## Human-maintainability case
 
 The [bounded Fleet refactoring record](../research/human_maintainability_v1/VERIFICATION.md) distinguishes baseline/unit, native browser parity, failure/repeated-input, dependency-direction, lifecycle and isolated-theme checks. Same-state pixel equality is evidence of preservation, not a visual-design approval or human usability/maintenance study. The original public example and all prior visual research/reviews are retained; no global production refactoring is included.
@@ -112,3 +116,4 @@ The [browser report](../research/web_interface_presets_v1/BROWSER_REPORT.md) and
 The [new package](../research/gameplay_details_v1/README.md) retains the original local runtime and directly checked source/proposal boundaries. [Bounded native-browser verification](../research/gameplay_details_v1/BROWSER_REPORT.md) passed 46 grouped checks with 308 recorded actions and zero app/console/request errors. Five source/package gates passed separately. Inputs include native mouse/keyboard and Chromium touch emulation; all four studies were checked at 1165×747, 768×900, 390×844, 844×390 and 320×720 CSS px. The [manifest](../research/gameplay_details_v1/checks/final/capture-manifest.json) declares 36 final full-page/frame PNGs; first visual defects and contrast repairs remain separately preserved.
 
 Public integration preserves exact runtime/parameter/capture hashes, excludes internal handoff material, adds navigation/provenance and keeps existing protected game/web/research files unchanged. The release-tree validator covers original-image allowlists, protected bytes, local links, inventory and a bounded secret/path/contact scan. It does not replace browser execution. Physical touch/safe areas, controllers, screen-reader, full zoom/accessibility, current original-game testing, human usability and user design approval remain unestablished. No Site deployment, plugin installation or license selection is performed.
+

@@ -1,3 +1,5 @@
+> Button-anatomy implementation entry: read [the general button contract](../../../../../research/universal_button_system/AI_INSTRUCTIONS.md) and [role/family guide](../../../../../research/universal_button_system/GUIDE.md) before a requested control reconstruction. Existing game semantics below remain intact. Require named structural axes and matched actual renders; flat controls remain valid. The new runnable source candidate has a blocked visual gate.
+
 # 고정 대상 능력·행동 조작 · G04
 
 범위: 현재 장면에서 능력/행동 버튼을 고르고 기존 실행 경로로 고정 대상 또는 자신에게 적용하는 action bar와 일시정지/복귀 조작. 정규 purpose는 game.action_controls다. 손패/덱/카드 대상 선택, 장비 비교, 퍼즐 보드, 전투 경제·전체 HUD/카메라 재설계는 이 분기가 아니다. 직사각형 버튼이나 카드형 배치만으로 card-execution을 선택하지 않는다. 제품이 즉시 실행이면 즉시 실행을 보존하고, 선택 후 실행이면 그 계약을 보존한다.
@@ -36,3 +38,4 @@ game_controls_same_fixture.html은 이 purpose의 예시다. 파일은 패키지
 ## 선행 연구의 좁은 근거
 
 AS:V01–V04는 자체 교정 제안이며 효능 실험이 아니다. GCTRL2:S01의 2018 WIP sheet는 공유 widget/state 가족, S02는 객체 곁 조작과 표준 위치의 긴장, S03은 Factorio 1.1 확인/취소 의미 분리를 다룬다. S03의 E/Esc를 이 fixture에 옮기지 않는다. GCTRL2:S04/S05는 SF shape library와 서사에 따른 terminal 재료, S06은 Battlefield의 공통 building blocks, S07은 만화와 종이/잉크 정체성, S08은 강한 gradient/extrusion 가족, S09는 장식/데이터/결정 버튼 위계의 역사적 배경이다. 특정 재료가 보편적으로 우수하다는 증거가 아니다. 이 요약은 기존 조사 기록을 활용하며 이번 실행의 새 브라우저 관찰/현행 제품 검증이 아니다. AS:S23은 입력/정보 대안 배경이다. 필요한 ID만 sources.json에서 찾아 확인한다.
+

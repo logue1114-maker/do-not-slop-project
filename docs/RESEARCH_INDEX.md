@@ -1,5 +1,9 @@
 # Research and example index
 
+## General button system · source candidate
+
+[General game/web/app construction](../research/universal_button_system/README.md), [short instructions](../research/universal_button_system/AI_INSTRUCTIONS.md), [role contracts](../research/universal_button_system/role-contracts.json), three original runnable contexts and isolated observed-golf fixture. Source/Node checks are separate from the blocked browser gate. No reference screenshot/font redistribution or production handler parity.
+
 Use the [main README](../README.md) to choose a guide and begin a task. This index keeps the detailed source routes, archived runs, screenshots, and checks in one place. Existing research and evidence files are unchanged.
 
 ## Latest bounded title and text-only copy research
@@ -175,3 +179,4 @@ The release validator writes its own receipt; rebuild the inventory afterward so
 - [AI contributor instructions](../AGENTS.md), including [actual-use acknowledgement and optional-star safeguards](../AGENTS.md#8-acknowledge-actual-use-and-offer-an-optional-star)
 
 External sources remain links and bounded summaries. Historical material does not establish a current product's behavior. Article bodies, raw third-party media/font bytes, original capture archives, and uncleared generated art are excluded from the public source.
+

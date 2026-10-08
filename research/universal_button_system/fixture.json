@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "labels_and_data": {
+    "web": {
+      "title": "The green path home",
+      "words": 47,
+      "actions": [
+        "Save draft",
+        "Preview",
+        "Remove local draft",
+        "View local activity",
+        "Star note"
+      ],
+      "tabs": [
+        "Draft",
+        "Details"
+      ]
+    },
+    "app": {
+      "routes": [
+        {
+          "name": "River loop",
+          "km": 4.2,
+          "min": 52
+        },
+        {
+          "name": "Orchard path",
+          "km": 3.1,
+          "min": 38
+        }
+      ],
+      "formats": [
+        "audio",
+        "map"
+      ],
+      "actions": [
+        "Download audio",
+        "Download map",
+        "Save for later",
+        "More options"
+      ]
+    },
+    "game": {
+      "beacons": 3,
+      "routes": [
+        {
+          "name": "Ridge path",
+          "km": 4.2
+        },
+        {
+          "name": "Shore path",
+          "km": 3.1
+        }
+      ],
+      "actions": [
+        "Send beacon",
+        "Route details",
+        "Inspect station",
+        "View map"
+      ]
+    },
+    "golf": {
+      "actions": [
+        "방 만들기",
+        "참가",
+        "새로고침"
+      ],
+      "scope": "isolated observed-control subset; local message handlers only"
+    }
+  },
+  "operation": "900 ms local simulation; no network, external save, file download or game room",
+  "font": "system fallbacks only; no bundled fonts",
+  "before_after_invariants": "context content, scene, role, handlers and initial local state"
+}

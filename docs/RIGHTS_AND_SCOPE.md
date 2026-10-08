@@ -1,5 +1,9 @@
 # Rights, provenance and scope
 
+## General button source continuation
+
+[The general button package](../research/universal_button_system/README.md) adds original text/code/local fixtures and bounded source links. Its isolated golf fixture reproduces observed control anatomy with system fonts and local-only message handlers, not a production snapshot. Third-party reference screenshots/fonts/assets, private user files, identities and production scripts are excluded. No reuse license, software install, Site update or game deployment is included. Source publication does not establish visual acceptance.
+
 ## Human-maintainability case
 
 The [Fleet refactoring package](../research/human_maintainability_v1/README.md) retains seven byte-exact files from the existing authored public demo and adds original refactoring modules, English technical instructions, focused tests and an isolated theme patch. [Provenance](../research/human_maintainability_v1/provenance.json) records the baseline commit and hashes; [primary sources](../research/human_maintainability_v1/SOURCES_AND_RIGHTS.md) are links with bounded original summaries. Publication of this scoped addition is authorized. No third-party code/media, private data, deployment, plugin installation or new reuse license is included. Existing visual research and user reviews remain unchanged.
@@ -67,3 +71,4 @@ First-completed HTML/data files remain exact. Development harnesses use configur
 The source, synthetic fixtures, CSS/SVG art and 62 PNGs in `research/gameplay_details_v1/` are project-authored. Public Git inclusion of the original source and own captures was explicitly requested. The exact allowlist in `PROVENANCE.json` covers 36 final captures, 18 first-observation captures and eight retained pre-contrast feedback views. No third-party game art, trademark graphic, article body, font binary, private handoff or user/account data is redistributed. Official/developer references remain original links and bounded summaries.
 
 These are authored educational micro-demos, not actual ordinary/instructed-AI experimental arms, released games, a current-edition guarantee, universal rules or measured learning benefits. Proposed constants and algorithms remain labeled separately. Earlier source/media rights and undecided reuse licensing remain unchanged.
+

@@ -1,5 +1,9 @@
 # Source changes
 
+## 2026-10-08 · General button construction source candidate
+
+Added role/family/anatomy/state decisions, a mandatory before → intent → rendered structural gate, three original runnable game/web/app contexts, a reduced observed-golf control proposal, role-owned modules, focused tests and source/right records. Browser preview was blocked, so candidate captures and visual gates remain incomplete. Root and review-helper entrypoints route to the new guide; previous cases and bytes are retained.
+
 ## 2026-10-08: Human-maintainability guide and Fleet refactoring
 
 - Add reusable English AI instructions, an ownership/dependency/change map with contracts, and a concrete production/review checklist.
@@ -130,3 +134,4 @@ Prepared as an additive follow-up to public commit `54ca5160c59769ad3fd63ade26ef
 - Regenerate release inventory and checks after the additive source change
 
 Earlier runtime, fixture, reference, test, plugin, and research bytes are preserved. No live Site edit, plugin installation, license selection, participant study, measured usability result, or general-effectiveness claim is part of this change. Add a sanitized blinded-review summary frozen before mapping reveal; user approval remains pending. No fixed time budget was enforced; run duration and full runtime parity were not controlled.
+

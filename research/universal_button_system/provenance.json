@@ -1,0 +1,227 @@
+{
+  "version": "1.0.0-candidate",
+  "date_utc": "2026-10-08",
+  "source_repository": "https://github.com/logue1114-maker/do-not-slop-project",
+  "base_commit": "5e653e9be4cb4be1ff88ba519a46d07807a8a7f7",
+  "classification": "Original authored runnable source candidate. Visual acceptance blocked.",
+  "source_boundary": "Context content/scene and control families authored; golf control subset grounded in read-only observed CSS/DOM, system-font reproduction. No full snapshot/handler/normal-course parity.",
+  "publication_scope": "General source/guide/evidence records and exact nav/document changes only; no deployment or license choice",
+  "excluded": [
+    "third-party game screenshots and fonts",
+    "private live audit screenshots",
+    "production scripts and handlers",
+    "user identity/room codes/account records",
+    "credentials/tokens/private delivery identifiers",
+    "unrelated repository changes"
+  ],
+  "browser_gate": "blocked",
+  "files": [
+    {
+      "path": "research/universal_button_system/AI_INSTRUCTIONS.md",
+      "bytes": 5316,
+      "sha256": "3d4c35294fd837b7f62a628f2a13590ddadea943f2d09486b7613d99ca291f67"
+    },
+    {
+      "path": "research/universal_button_system/BROWSER_REPORT.md",
+      "bytes": 2837,
+      "sha256": "9bfffa25a1f215a1e679fec1b47d798a2d489f51df6737dec12ba4aeb50cf66c"
+    },
+    {
+      "path": "research/universal_button_system/CHANGELOG.md",
+      "bytes": 2208,
+      "sha256": "e0e5ebb6e2339b98eaea6cb8121aa9247d172c797f69c8236d7d2c8382023a7a"
+    },
+    {
+      "path": "research/universal_button_system/GUIDE.md",
+      "bytes": 36556,
+      "sha256": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585"
+    },
+    {
+      "path": "research/universal_button_system/MAINTAINER_QUICKSTART.md",
+      "bytes": 9762,
+      "sha256": "f38aa0f2282385f5badfde580fe9db44bfa81a43889fc60f2b6b82e21660c855"
+    },
+    {
+      "path": "research/universal_button_system/README.md",
+      "bytes": 4580,
+      "sha256": "edbaf4af5c192b3746acfee97110ba92bce77b07942612864878973633f060a3"
+    },
+    {
+      "path": "research/universal_button_system/SOURCES_AND_RIGHTS.md",
+      "bytes": 13304,
+      "sha256": "e116cfe933599132b6c1dd38489fe09a1597c26882f9f1ba9017632d9e54a210"
+    },
+    {
+      "path": "research/universal_button_system/captures/README.md",
+      "bytes": 1823,
+      "sha256": "dc43a2c732646c0833897524d140e58c2fbb78c6f7a656240dbfb4105cb9aea9"
+    },
+    {
+      "path": "research/universal_button_system/delivery/Button-lab-source-candidate.html",
+      "bytes": 38591,
+      "sha256": "37bb055dfcb7f3486555f56c5bd8b5fa31abb1fcfe5caaf3a329cda72affd451"
+    },
+    {
+      "path": "research/universal_button_system/fixture.json",
+      "bytes": 1530,
+      "sha256": "03e65661e7c4cf1d00d30866b64fc686798853412a5b15d703a2264eeedd6b04"
+    },
+    {
+      "path": "research/universal_button_system/records/change-ledger.json",
+      "bytes": 11792,
+      "sha256": "84ecc8dd5133db14fb3cf02407b74737e834ab366c3610bfe58f5d3bc1ee4212"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/README.md",
+      "bytes": 572,
+      "sha256": "224a91d089ceeea473ef1d86c9803244f31c5e537623f9a806d46ee0cd0456c5"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/contexts.css",
+      "bytes": 14434,
+      "sha256": "0d8da0f89c1a3270cbd99c831cbbba9b102757c2794bc85d864cc833fa34fd3a"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/families.css",
+      "bytes": 6072,
+      "sha256": "5aff0d1f188c193efc4cd6b4e691263d0e4887e833212857002252bc75e06556"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/golf.css",
+      "bytes": 5926,
+      "sha256": "a8fe2faee43e3743359894f1b1ff524330f7e5ade27bbbe1cf1a1d074f13af2f"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/golf.html",
+      "bytes": 3344,
+      "sha256": "492632af45a813759f049d27bb13e36a26bad9e719770c3c869afc8d9ffc938a"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/golf.mjs",
+      "bytes": 1238,
+      "sha256": "4f611bb22b417df9d16cd7f9fba8e1798b30a7a4d47f1be756564a545a38bbb6"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/index.html",
+      "bytes": 2188,
+      "sha256": "d7887196f7f49cde749f75a2c491bfbe5873271f9f5c7a3d1bb20f871e2cfc18"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/render.mjs",
+      "bytes": 10849,
+      "sha256": "3915674610935a542b1946bc728043fc0b0af086fb40d4ca5ec577e6fa584112"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/semantics.mjs",
+      "bytes": 1899,
+      "sha256": "d4fc2fe14dd8f1cd743d915b91c5c9af6bb2f8d3623654fa7ad24b7592405ed1"
+    },
+    {
+      "path": "research/universal_button_system/records/first-pass/tokens.css",
+      "bytes": 2323,
+      "sha256": "7fee3d6d3eef4c636fb567841602a7afd8ef333aa88e2e89606af2953522ea93"
+    },
+    {
+      "path": "research/universal_button_system/records/source-test-results.json",
+      "bytes": 15640,
+      "sha256": "a050d05cb77debb8acb40ee72d26bff670c28e5fbec343d4cab469d831a04b09"
+    },
+    {
+      "path": "research/universal_button_system/reference-guidance/README.md",
+      "bytes": 3462,
+      "sha256": "4dbbd15e78e073ebfd4d214bb6cb16ec9a26dd960b29faa7299d22a1da5b13dd"
+    },
+    {
+      "path": "research/universal_button_system/role-contracts.json",
+      "bytes": 30063,
+      "sha256": "6445d88e4069b385dc14cdfb2190b303b7fea0922fa5f578bdf939f481fec803"
+    },
+    {
+      "path": "research/universal_button_system/sources.json",
+      "bytes": 32870,
+      "sha256": "3f9bdde392dfba7194c1eaba76631d2eb1dd7bbb8231015c746d94dc0bd9350d"
+    },
+    {
+      "path": "research/universal_button_system/specimens/components/actions.mjs",
+      "bytes": 867,
+      "sha256": "efd79c9709a5583dd3dd03a255d3c6c803fac59abac7cad418e0a81392f71dc5"
+    },
+    {
+      "path": "research/universal_button_system/specimens/components/selection.mjs",
+      "bytes": 387,
+      "sha256": "6d3ff21d26d83fb0bb5500429bb8c6317dda8ce9269b716139ffe424e836babe"
+    },
+    {
+      "path": "research/universal_button_system/specimens/contexts.css",
+      "bytes": 14434,
+      "sha256": "0d8da0f89c1a3270cbd99c831cbbba9b102757c2794bc85d864cc833fa34fd3a"
+    },
+    {
+      "path": "research/universal_button_system/specimens/families.css",
+      "bytes": 6182,
+      "sha256": "44e3b731deadbdae5d43708d87a05e59548584a8efce286fbeb45b1e569df40b"
+    },
+    {
+      "path": "research/universal_button_system/specimens/golf.css",
+      "bytes": 5926,
+      "sha256": "a8fe2faee43e3743359894f1b1ff524330f7e5ade27bbbe1cf1a1d074f13af2f"
+    },
+    {
+      "path": "research/universal_button_system/specimens/golf.html",
+      "bytes": 3344,
+      "sha256": "492632af45a813759f049d27bb13e36a26bad9e719770c3c869afc8d9ffc938a"
+    },
+    {
+      "path": "research/universal_button_system/specimens/golf.mjs",
+      "bytes": 1238,
+      "sha256": "4f611bb22b417df9d16cd7f9fba8e1798b30a7a4d47f1be756564a545a38bbb6"
+    },
+    {
+      "path": "research/universal_button_system/specimens/index.html",
+      "bytes": 2188,
+      "sha256": "d7887196f7f49cde749f75a2c491bfbe5873271f9f5c7a3d1bb20f871e2cfc18"
+    },
+    {
+      "path": "research/universal_button_system/specimens/render.mjs",
+      "bytes": 10335,
+      "sha256": "5d28be925fdae30e64de2ddf1a129759eb7990549b2dd559fbd770bb58ab3854"
+    },
+    {
+      "path": "research/universal_button_system/specimens/semantics.mjs",
+      "bytes": 2072,
+      "sha256": "20bcd169e0b7928b03a98a134231d96d6368dd5e7806ba29b46225dfa17e329c"
+    },
+    {
+      "path": "research/universal_button_system/specimens/tokens.css",
+      "bytes": 2323,
+      "sha256": "7fee3d6d3eef4c636fb567841602a7afd8ef333aa88e2e89606af2953522ea93"
+    },
+    {
+      "path": "research/universal_button_system/tests/build-standalone.py",
+      "bytes": 1883,
+      "sha256": "fd1b80d1406e1420e2f85c2a06da3e27118df85cd86bf5c6db899e4f498c78e6"
+    },
+    {
+      "path": "research/universal_button_system/tests/semantics.test.mjs",
+      "bytes": 9998,
+      "sha256": "e44ce99068ca8fb717e900dc4e71fe72281d67ef49f55b46090cc19b791628d1"
+    },
+    {
+      "path": "research/universal_button_system/tests/verify.mjs",
+      "bytes": 36412,
+      "sha256": "c7164ff4df7d29cd4e2ce6985d81c434dd068efe74b244b5519c743fc5a7b3e7"
+    }
+  ],
+  "entrypoint_changes": [
+    "README.md",
+    "AGENTS.md",
+    "docs/RESEARCH_INDEX.md",
+    "docs/CHANGELOG.md",
+    "docs/RIGHTS_AND_SCOPE.md",
+    "docs/VERIFICATION.md",
+    "plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+    "plugins/review-visible-design/skills/review-visible-design/references/game-action-controls.md"
+  ],
+  "inventory": "This scoped package provenance; self hash omitted to avoid recursion",
+  "global_inventory": "FILES.sha256.json preserved unchanged from base commit; not updated or uploaded by this addition"
+}

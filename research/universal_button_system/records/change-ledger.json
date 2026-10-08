@@ -1,0 +1,311 @@
+{
+  "version": "1.0.0-candidate",
+  "date_utc": "2026-10-08",
+  "scope": "General game/web/app control construction; isolated observed golf anatomy case",
+  "classification": "authored source candidate, not an ordinary/guided experiment",
+  "rendered_gate": "blocked",
+  "capture_contract": "captures/README.md",
+  "runtime_blockers": [
+    "Cloud browser localhost net::ERR_BLOCKED_BY_CLIENT",
+    "Installed command Chromium permitted socket operation failed",
+    "Playwright downloaded executable absent; no install attempted"
+  ],
+  "invariants": [
+    "same content labels, tasks, scene and handlers between original before and after treatments",
+    "All effects local; CSP connect-src none",
+    "No production handler parity or external room action"
+  ],
+  "cases": [
+    {
+      "context": "web",
+      "before_kind": "competent original authored starting family",
+      "source": "specimens/families.css",
+      "required_axes": [
+        "silhouette",
+        "rank",
+        "states"
+      ],
+      "rows": [
+        {
+          "axis": "silhouette",
+          "before": "8 px authored radius",
+          "intent": "4 px authored radius; label-fit padded width; deliberately no body",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "rank",
+          "before": "filled primary, outline secondary, transparent tertiary/icon",
+          "intent": "same ranks, firmer outlined alternative and flat utility restraint",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "states",
+          "before": "scoped source hover/inset/focus/selected",
+          "intent": "scoped source hover/inset, stable toggle label, persistent tab relationships; native behavior untested",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        }
+      ]
+    },
+    {
+      "context": "app",
+      "before_kind": "competent original authored starting family",
+      "source": "specimens/families.css",
+      "required_axes": [
+        "surface/body",
+        "selection",
+        "inner geometry"
+      ],
+      "rows": [
+        {
+          "axis": "surface/body",
+          "before": "neutral filled action, no shadow",
+          "intent": "soft 2 px source lower edge only on footer execution; flat navigation rows/tabs retained",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "selection",
+          "before": "native radio segment / toggle",
+          "intent": "same native exclusive radio model; stable label/check selected marker",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "inner geometry",
+          "before": "shared centered face",
+          "intent": "20 px source glyph alongside download label; 44 px authored min hit height, not measured",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        }
+      ]
+    },
+    {
+      "context": "game",
+      "before_kind": "competent original authored starting family",
+      "source": "specimens/families.css",
+      "required_axes": [
+        "surface/body",
+        "inner layout/type",
+        "press",
+        "role hierarchy"
+      ],
+      "rows": [
+        {
+          "axis": "surface/body",
+          "before": "neutral ordinary action with same existing scene/task",
+          "intent": "fixed 60 px authored shell; 54 px source inner face + 4 px lower edge",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "inner layout/type",
+          "before": "centered shared face; 15 px source label",
+          "intent": "left-aligned 17 px/24 label with distinct glyph/arrow region",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "press",
+          "before": "ordinary source inset; fixed button layout",
+          "intent": "3 px inner-face source translation; outer shell stationary by construction; runtime bounds unverified",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "role hierarchy",
+          "before": "primary / utility / HUD / route selection",
+          "intent": "tactility scoped to execution; quieter low-relief HUD/secondary and selected radio marker",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        }
+      ]
+    },
+    {
+      "context": "golf",
+      "before_kind": "observed control subset/system-font reproduction",
+      "source": "specimens/golf.css",
+      "required_axes": [
+        "silhouette",
+        "surface/body",
+        "type/layout",
+        "hover",
+        "focus",
+        "press",
+        "secondary"
+      ],
+      "rows": [
+        {
+          "axis": "silhouette",
+          "before": "Observed live 426 × 56 CSS px, 10 px radius; reproduction declared 56 px min",
+          "intent": "64 px candidate minimum height and 6 px corner; full-width within fixed 426 px authored panel",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "surface/body",
+          "before": "Observed live flat same-color border; no shadow/inner structure",
+          "intent": "stationary shell + separate face; cream inset keyline, upper highlight, darker 4 px lower edge, quiet contact shadow",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "type/layout",
+          "before": "Observed live Korean label 20 px/400 centered, no glyph; system-fallback reproduction",
+          "intent": "20 px/600/24 explicit label + original 24 px flag glyph / flexible label / 20 px arrow grid; 12 px source gaps; font parity unverified",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "hover",
+          "before": "Live :hover true; background/border/shadow/filter/transform unchanged due later ID cascade",
+          "intent": "Scoped actual-target source hover changes inner highlight and border; not yet runtime-triggered",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "focus",
+          "before": "Live 3 px ochre outline with 3 px offset worked",
+          "intent": "Preserved source focus on fixed outer shell; candidate keyboard rendering unverified",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "press",
+          "before": "Live press not run to avoid production action; declaration only",
+          "intent": "Inner-face source moves 3 px; local handler message only; geometry/release-away not yet run",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        },
+        {
+          "axis": "secondary",
+          "before": "Observed live Join 96 × 52 CSS px; radius10 and label16/400",
+          "intent": "quiet cream outlined 52 px min Join, radius6, label16/600/20; no primary extrusion stack",
+          "authored_source_status": "implemented",
+          "actually_rendered": {
+            "status": "blocked",
+            "value": null,
+            "full_context_capture": null,
+            "native_component_crop": null,
+            "reason": "No supported render route completed"
+          },
+          "acceptance": "incomplete"
+        }
+      ]
+    }
+  ]
+}

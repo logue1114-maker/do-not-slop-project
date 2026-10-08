@@ -1,0 +1,740 @@
+{
+  "schema_version": "1.0",
+  "title": "Universal button system source and rights ledger",
+  "compiled_date": "2026-10-08",
+  "observation_policy": "The six branded visual families consolidate retained public-safe observations dated 2026-10-08, not new live inspections. Gomgom is a separately supplied read-only live lobby audit. Behavior documents were checked as primary text on the compiled date.",
+  "claim_types": [
+    "retained_visual_observation",
+    "authored_transfer_proposal",
+    "normative_requirement",
+    "informative_authoring_guidance",
+    "implementation_reference",
+    "executed_check",
+    "not_run_or_blocked_check"
+  ],
+  "rights": {
+    "repository_general_reuse_license": "not_selected; unchanged by this package",
+    "authorship": "Original summaries, guidance and authored demonstrators; no extracted official UI code or art.",
+    "third_party_image_bytes_included": false,
+    "third_party_fonts_included": false,
+    "private_screenshots_or_boards_included": false,
+    "source_licenses_do_not_license_repository": true,
+    "public_availability_is_not_reuse_permission": true
+  },
+  "sources": [
+    {
+      "id": "TOTK-GUIDE",
+      "title": "The Legend of Zelda Tears of the Kingdom beginning guide",
+      "author_or_publisher": "Nintendo",
+      "url": "https://www.nintendo.com/jp/zelda/totk/guide/en/index.html",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Nintendo Switch System/Basic Controls and material quick picker",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "image_links": [
+        "https://www.nintendo.com/jp/zelda/totk/guide/en/img/guide_point01_image01.jpg",
+        "https://www.nintendo.com/jp/zelda/totk/guide/en/img/guide_point12_image01.jpg"
+      ],
+      "date_or_version_note": "Guide publication date, capture build and display mode unknown; not a Switch 2 Edition assessment."
+    },
+    {
+      "id": "TOTK-TIPS",
+      "title": "More tips for your Tears of the Kingdom adventures",
+      "author_or_publisher": "Nintendo",
+      "url": "https://www.nintendo.com/en-gb/News/2023/July/More-tips-for-your-The-Legend-of-Zelda-Tears-of-the-Kingdom-adventures--2411783.html",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Supplemental inventory, Adventure Log and map visual reference",
+      "published_date": "2023-07-05",
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      }
+    },
+    {
+      "id": "GTA-PC-SETTINGS",
+      "title": "Tailoring your settings and controls in Grand Theft Auto V for PC",
+      "author_or_publisher": "Rockstar Games",
+      "url": "https://www.rockstargames.com/newswire/article/51974aa3a724o2/rockstar-game-tips-tailoring-your-settings-and-controls-in",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Historical PC pause/settings screen",
+      "published_date": "2015-05-01",
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "image_links": [
+        "https://media.rockstargames.com/rockstargames/img/global/news/upload/actual_1429368404.jpg"
+      ],
+      "date_or_version_note": "Capture build unknown. No HUD, phone, weapon wheel, full map or 2026 Enhanced interface established."
+    },
+    {
+      "id": "ACNH-PRODUCT",
+      "title": "Animal Crossing New Horizons product page",
+      "author_or_publisher": "Nintendo",
+      "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html?pp=1",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Nintendo Switch legacy DIY detail and supplemental shipping-card reference",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "image_links": [
+        "https://www.nintendo.com/eu/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_animalcrossingnewhorizons/NSwitch_AnimalCrossingNewHorizons_Islandlife_DIY_Slider_Scr01.jpg"
+      ],
+      "date_or_version_note": "Legacy DIY capture date/build unknown; later Ver.3.0 page material does not date the legacy frame. Supplemental shipping frame build also unknown."
+    },
+    {
+      "id": "ACNH-NOOKPHONE",
+      "title": "Start deserted island life right with these Animal Crossing New Horizons tips",
+      "author_or_publisher": "Nintendo Australia",
+      "url": "https://www.nintendo.com/au/news-and-articles/start-deserted-island-life-right-with-these-animal-crossing-new-horizons-tips/",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "NookPhone home/app grid",
+      "published_date": "2021-07-21",
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "image_links": [
+        "https://assets.nintendo.com.au/image/upload/f_auto/q_auto/v1626422414/NAL/Articles/Animal%20Crossing%3A%20New%20Horizons%20tips%21/Check_Nook_Phone"
+      ],
+      "date_or_version_note": "Capture hardware/build unknown. No clearly selected app tile established."
+    },
+    {
+      "id": "HEARTHSTONE-PHONE",
+      "title": "Hearthstone smartphone launch reference",
+      "author_or_publisher": "Blizzard Entertainment",
+      "url": "https://hearthstone.blizzard.com/en-us/news/18648148",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Historical smartphone gameplay image for iOS/Android phone launch",
+      "published_date": "2015-04-14",
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "image_links": [
+        "https://bnetcmsus-a.akamaihd.net/cms/gallery/G2OKRU48VRL71428959630793.jpg"
+      ],
+      "date_or_version_note": "Exact handset, OS and build unknown; landscape phone reference, not current-client or tablet validation."
+    },
+    {
+      "id": "GENSHIN-IPHONE",
+      "title": "Genshin Impact developer App Store listing",
+      "author_or_publisher": "HoYoverse developer artwork hosted by Apple",
+      "url": "https://apps.apple.com/us/app/genshin-impact/id1517783697",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Landscape iPhone gameplay HUD artwork; iPad separately labeled in retained research",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "image_links": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/97/ad/d797adeb-e0fe-bf1d-1df8-5fd26b5ee384/EN-1.jpg/2688x1242bb.png"
+      ],
+      "date_or_version_note": "Artwork publication date, matching app build, hardware, OS and native render dimensions unknown. No mobile inventory/equipment screen established."
+    },
+    {
+      "id": "DUO-STORE",
+      "title": "Duolingo Language Lessons developer App Store listing",
+      "author_or_publisher": "Duolingo developer artwork hosted by Apple",
+      "url": "https://apps.apple.com/us/app/duolingo-language-lessons/id570060128",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Separately labeled iPhone and iPad store artwork",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "date_or_version_note": "Artwork publication date and matching app build unknown. Promotional captions are not established live controls; landscape behavior unobserved."
+    },
+    {
+      "id": "DUO-TABS",
+      "title": "Duolingo core tabs redesign",
+      "author_or_publisher": "Duolingo",
+      "url": "https://blog.duolingo.com/core-tabs-redesign/",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Published path and core-tab visuals",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "date_or_version_note": "Prior research recorded 2026-02-04, but exact publication timestamp was not reverified in retained text extraction. iOS at publication; later Android rollout unverified."
+    },
+    {
+      "id": "DUO-FEEDBACK",
+      "title": "Explain My Answer is now free",
+      "author_or_publisher": "Duolingo",
+      "url": "https://blog.duolingo.com/explain-my-answer-now-free/",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Published correct/incorrect answer feedback visuals",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "date_or_version_note": "Prior research recorded 2026-01-01, but exact publication timestamp was not reverified in retained text extraction."
+    },
+    {
+      "id": "DUO-SHAPE",
+      "title": "Shape language in Duolingo art style",
+      "author_or_publisher": "Duolingo",
+      "url": "https://blog.duolingo.com/shape-language-duolingos-art-style/",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Historical creator rationale for illustration shape language",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "date_or_version_note": "Historical rationale; not current product font/color specification or runtime validation."
+    },
+    {
+      "id": "DUO-CHARACTER",
+      "title": "Building character",
+      "author_or_publisher": "Duolingo",
+      "url": "https://blog.duolingo.com/building-character/",
+      "category": "official_visual_reference",
+      "evidence_basis": "retained_public_safe_observations",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Historical creator rationale for character integration and animation intent",
+      "published_date": null,
+      "screenshot_build": null,
+      "rights": {
+        "included_content": "original_summary_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "redistribution_permission": "not_established"
+      },
+      "date_or_version_note": "Animation intent is not evidence of present build animation, easing, haptics or timing."
+    },
+    {
+      "id": "APG-BUTTON",
+      "title": "ARIA APG Button Pattern",
+      "author_or_publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "category": "informative_authoring_guidance",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Action semantics, Enter/Space, toggle aria-pressed and stable toggle name; focus after an action.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "APG-LINK",
+      "title": "ARIA APG Link Pattern",
+      "author_or_publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/link/",
+      "category": "informative_authoring_guidance",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Resource navigation, native href links, Enter activation; role alone supplies no link behavior.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "APG-TABS",
+      "title": "ARIA APG Tabs Pattern",
+      "author_or_publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "category": "informative_authoring_guidance",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Tablist/tab/tabpanel relationships, aria-selected, one tab stop, arrow navigation, manual/automatic activation.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "WCAG22",
+      "title": "Web Content Accessibility Guidelines 2.2",
+      "author_or_publisher": "W3C",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "category": "normative_accessibility_standard",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Relevant success criteria and levels are indexed in criteria below; no conformance claim is made.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      },
+      "published_date": "2024-12-12",
+      "latest_version_url": "https://www.w3.org/TR/WCAG22/",
+      "dated_version_url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/",
+      "access_note": "Requirements verified in latest-version text, which identifies the December 12 2024 Recommendation. Direct retrieval of the dated-version URL returned HTTP 503; no alternative route was used."
+    },
+    {
+      "id": "MDN-BUTTON",
+      "title": "HTML button element",
+      "author_or_publisher": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button",
+      "category": "implementation_reference",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Native button, explicit non-submit type, accessible icon name and actual interactive area.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "MDN-ANCHOR",
+      "title": "HTML anchor element",
+      "author_or_publisher": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a",
+      "category": "implementation_reference",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Native href resource navigation and Enter activation.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "MDN-FOCUS",
+      "title": "CSS focus-visible pseudo-class",
+      "author_or_publisher": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible",
+      "category": "implementation_reference",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Browser focus-indicator heuristic and styling; retain visible keyboard focus.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "MDN-MOTION",
+      "title": "CSS prefers-reduced-motion media feature",
+      "author_or_publisher": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion",
+      "category": "implementation_reference",
+      "evidence_basis": "primary_document_text_verified",
+      "verified_date": "2026-10-08",
+      "scope": "Device reduced-motion preference detection; reduce nonessential motion while retaining feedback.",
+      "rights": {
+        "included_content": "original_summary_and_link_only",
+        "source_code_copied": false,
+        "source_text_quoted": false,
+        "repository_license_grant": false
+      }
+    },
+    {
+      "id": "GOMGOM-LOBBY",
+      "title": "Gomgom Golf public lobby",
+      "author_or_publisher": "Gomgom Golf public site",
+      "url": "https://play.gomgomapps.com/gomgom-golf/",
+      "category": "read_only_live_audit",
+      "evidence_basis": "supplied_verified_public_lobby_dom_css_and_state_audit",
+      "observed_date": "2026-10-08",
+      "reinspected_in_this_consolidation": false,
+      "scope": "Entry lobby only; observed DOM/CSS reproduction with system-font fallback",
+      "stylesheet_urls": [
+        "https://play.gomgomapps.com/gomgom-golf/style.css",
+        "https://play.gomgomapps.com/gomgom-golf/entry.css?v=20261008-entry1"
+      ],
+      "rights": {
+        "included_content": "original_text_and_public_links_only",
+        "source_image_bytes_included": false,
+        "source_fonts_included": false,
+        "source_snapshot_included": false,
+        "reuse_license": "not_established"
+      }
+    }
+  ],
+  "contextual_families": [
+    {
+      "id": "zelda_instrument",
+      "reference": "The Legend of Zelda Tears of the Kingdom",
+      "context": "Dark adventure menus, item quick picking and map instruments",
+      "observed_date": "2026-10-08",
+      "observations": [
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Dark broad menu rows keep a clear text center with quiet end ornament and a warm selected rim; near-square material cells use a turquoise ring. Map callouts use blue/cyan planes.",
+          "source_ids": [
+            "TOTK-GUIDE",
+            "TOTK-TIPS"
+          ]
+        },
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Pale solid glyphs, separated menu groups and a distinct footer support the selected control. Different screen families use different accents and materials.",
+          "source_ids": [
+            "TOTK-GUIDE",
+            "TOTK-TIPS"
+          ]
+        }
+      ],
+      "proposals": [
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Use an original restrained edge vocabulary, clear label field and separate menu/picker/map families; choose accents by surface role.",
+          "validation_status": "requires_product_specific_testing"
+        }
+      ],
+      "limits": [
+        "Static stills establish pictured selection, not hover, pressed, animation, controller behavior or hitboxes.",
+        "Source-raster envelopes are not universal control dimensions."
+      ]
+    },
+    {
+      "id": "animal_crossing_soft",
+      "reference": "Animal Crossing New Horizons",
+      "context": "Friendly crafting confirmation and app-grid navigation",
+      "observed_date": "2026-10-08",
+      "observations": [
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Cream rounded panels, a turquoise striped craft capsule, pale rims and broad filled pictograms form a soft family. Dotted guides align material names with quantities.",
+          "source_ids": [
+            "ACNH-PRODUCT"
+          ]
+        },
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "NookPhone has a rounded 3 by 2 app grid with optically similar icon mass. App colors distinguish families; the supplemental shipping frame has a different emphasized color role.",
+          "source_ids": [
+            "ACNH-NOOKPHONE",
+            "ACNH-PRODUCT"
+          ]
+        }
+      ],
+      "proposals": [
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Draw new rounded surfaces and glyphs; keep material quantities legible and the confirmed action distinct. Preserve app-grid navigation versus crafting execution.",
+          "validation_status": "requires_product_specific_testing"
+        }
+      ],
+      "limits": [
+        "An illustrated cursor in a still is not hover evidence.",
+        "No selected NookPhone app or universal turquoise state is established."
+      ]
+    },
+    {
+      "id": "gta_dense",
+      "reference": "Grand Theft Auto V PC",
+      "context": "Dense two-column pause/settings instrument",
+      "observed_date": "2026-10-08",
+      "observations": [
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Square, shallow rows sit on dark translucent planes; pale selected rows invert text luminance. A narrow mint top mark distinguishes the selected tab.",
+          "source_ids": [
+            "GTA-PC-SETTINGS"
+          ]
+        },
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Small left-aligned labels, right-aligned values, hairline separators and aligned slider ends carry hierarchy without independent rounded cards.",
+          "source_ids": [
+            "GTA-PC-SETTINGS"
+          ]
+        }
+      ],
+      "proposals": [
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Use a new sharp grid and local luminance contrast for a dense settings task. Increase text and hit areas for the actual device instead of reproducing tiny raster text.",
+          "validation_status": "requires_product_specific_testing"
+        }
+      ],
+      "limits": [
+        "One historical PC screen is not current Enhanced-client or general GTA HUD evidence.",
+        "Exact typeface, live behavior and source engine units are unknown."
+      ]
+    },
+    {
+      "id": "hearthstone_tactile",
+      "reference": "Hearthstone MOBILE",
+      "context": "Phone tabletop combat and explicit turn commitment",
+      "observed_date": "2026-10-08",
+      "observations": [
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "A convex yellow End Turn plaque occupies a nested gray socket. Parchment, sculpted perimeter bands and separate cost/attack/health badges produce tabletop depth.",
+          "source_ids": [
+            "HEARTHSTONE-PHONE"
+          ]
+        },
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Large outlined numerals and arched or oval illustration windows differ from the partly clipped hand fan. Yellow turn commitment, blue cost and red health have distinct local roles.",
+          "source_ids": [
+            "HEARTHSTONE-PHONE"
+          ]
+        }
+      ],
+      "proposals": [
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Author new layered card frames and separated badges; reserve the heavier socket for turn commitment. Keep selection/inspection separate from explicit submission.",
+          "validation_status": "requires_product_specific_testing"
+        }
+      ],
+      "limits": [
+        "The fan proves overlap, not usable overlapping text/targets or drag cancellation.",
+        "No collection/deck editor/store/expanded-card, touch reach, animation or current-client test established."
+      ]
+    },
+    {
+      "id": "genshin_scene_hud",
+      "reference": "Genshin Impact iPhone",
+      "context": "Scene-preserving touch gameplay HUD",
+      "observed_date": "2026-10-08",
+      "observations": [
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Unequal lower-right action silhouettes surround a dominant sword. Smoky translucent circular/faceted grounds and broad white glyphs leave most of the scene center open.",
+          "source_ids": [
+            "GENSHIN-IPHONE"
+          ]
+        },
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Map and global functions occupy peripheral clusters. Health/latency and map direction have separate color roles; world blue is not an inventory palette specification.",
+          "source_ids": [
+            "GENSHIN-IPHONE"
+          ]
+        }
+      ],
+      "proposals": [
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Draw a coherent new glyph family with one dominant action and quieter companions. Test contrast across the scene; design inventory comparison as its own readable task surface.",
+          "validation_status": "requires_product_specific_testing"
+        }
+      ],
+      "limits": [
+        "No movement joystick, cooldown, party-selector behavior or mobile equipment screen established.",
+        "Artwork extents are not CSS targets, 44pt/48dp, native resolution or ergonomic findings."
+      ]
+    },
+    {
+      "id": "duolingo_learning",
+      "reference": "Duolingo",
+      "context": "Learning choice, submitted-answer review and stable next action",
+      "observed_date": "2026-10-08",
+      "observations": [
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Rounded answer faces have thin borders and a short flat lower rim. Selected pale blue differs from explicit green success and red error feedback.",
+          "source_ids": [
+            "DUO-STORE",
+            "DUO-FEEDBACK"
+          ]
+        },
+        {
+          "claim_type": "retained_visual_observation",
+          "text": "Submitted answers remain visible while explanatory feedback grows above a stable primary-action region. Tablet artwork centers the grid with wider margins; path, answer and character shapes have different jobs.",
+          "source_ids": [
+            "DUO-STORE",
+            "DUO-FEEDBACK",
+            "DUO-TABS"
+          ]
+        }
+      ],
+      "proposals": [
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Use original lower-rim controls where tactility helps learning. Keep selection separate from judgment; preserve ink and a stable next action in pen-first layouts.",
+          "validation_status": "requires_product_specific_testing"
+        },
+        {
+          "claim_type": "authored_transfer_proposal",
+          "text": "Keep drawing grids and writing canvas flat. Place an optional guide away from the response area and reward actual practice without importing mandatory streak pressure.",
+          "validation_status": "requires_product_specific_testing"
+        }
+      ],
+      "limits": [
+        "No account opened or exercise submitted; keyboard, screen-reader order, haptics, recognition, palm rejection and recovery remain unverified.",
+        "Landscape tablet behavior, runtime fonts and current brand color specifications are not established."
+      ]
+    }
+  ],
+  "criteria": [
+    {
+      "id": "2.1.1",
+      "name": "Keyboard",
+      "level": "A",
+      "url": "https://www.w3.org/TR/WCAG22/#keyboard"
+    },
+    {
+      "id": "2.1.2",
+      "name": "No Keyboard Trap",
+      "level": "A",
+      "url": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap"
+    },
+    {
+      "id": "2.4.7",
+      "name": "Focus Visible",
+      "level": "AA",
+      "url": "https://www.w3.org/TR/WCAG22/#focus-visible"
+    },
+    {
+      "id": "2.4.11",
+      "name": "Focus Not Obscured Minimum",
+      "level": "AA",
+      "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"
+    },
+    {
+      "id": "2.5.8",
+      "name": "Target Size Minimum",
+      "level": "AA",
+      "url": "https://www.w3.org/TR/WCAG22/#target-size-minimum"
+    },
+    {
+      "id": "2.5.5",
+      "name": "Target Size Enhanced",
+      "level": "AAA",
+      "url": "https://www.w3.org/TR/WCAG22/#target-size-enhanced"
+    },
+    {
+      "id": "2.3.3",
+      "name": "Animation from Interactions",
+      "level": "AAA",
+      "url": "https://www.w3.org/TR/WCAG22/#animation-from-interactions"
+    }
+  ],
+  "verification_boundary": {
+    "source_document_verification": "Reference text checked; not a runtime or accessibility conformance test.",
+    "source_visual_observations": "Retained static observations; do not establish live interaction.",
+    "authored_examples": "Implementation and visual treatments are proposals until separately exercised and recorded.",
+    "test_reporting": "Only an executed check with revision, environment, procedure and actual result can be reported as passed. Structural checks do not establish usability, physical-device performance or full conformance."
+  },
+  "gomgom_audit": {
+    "scope": "read_only_public_lobby_dom_css_and_state_audit",
+    "audit_date": "2026-10-08",
+    "url": "https://play.gomgomapps.com/gomgom-golf/",
+    "limits": [
+      "WebGL disabled; no course-experience verdict.",
+      "A denied .mjs request was not fetched through an alternate route.",
+      "No create, join or production deployment performed."
+    ],
+    "authorization_extension": false,
+    "source_id": "GOMGOM-LOBBY",
+    "observations": [
+      {
+        "claim_type": "supplied_live_audit_observation",
+        "control": "Create",
+        "scope": "recorded entry lobby revision only",
+        "visible_box_css_px": [
+          426,
+          56
+        ],
+        "border_radius_css_px": 10,
+        "font_size_css_px": 20,
+        "font_weight": 400,
+        "surface": "flat with no internal face/rim structure"
+      },
+      {
+        "claim_type": "supplied_live_audit_observation",
+        "state": "hover",
+        "matched": true,
+        "visible_or_computed_change_recorded": false,
+        "audit_explanation": "A later ID rule overrides the lower selector."
+      },
+      {
+        "claim_type": "supplied_live_audit_observation",
+        "state": "keyboard_focus",
+        "indicator": "3px ochre outline, 3px offset",
+        "result": "Visible focus recorded as working in the supplied audit."
+      }
+    ],
+    "reproduction_boundary": "Original observed DOM/CSS reproduction using a system-font fallback; not a complete source snapshot or handler-parity verification."
+  }
+}
