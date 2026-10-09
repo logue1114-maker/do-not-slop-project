@@ -1,0 +1,9 @@
+--- r048/src/client/GameClient.client.luau
++++ candidate/src/client/GameClient.client.luau
+@@ Notice creation
+-        activeMenuNotice=text(target,"Notice",toast.Text,UDim2.new(1,-8,0,0),palette.Gold)
++        activeMenuNotice=text(target,"Notice",toast.Text,UDim2.new(1,-8,0,24),palette.Gold)
+@@ Notice contrast
+-    activeMenuNotice.TextStrokeTransparency=if onLining then .45 else .2
++    -- The opaque lining already provides contrast; a heavy stroke fills Korean glyph counters.
++    activeMenuNotice.TextStrokeTransparency=1

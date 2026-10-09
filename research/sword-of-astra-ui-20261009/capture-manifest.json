@@ -1,0 +1,16 @@
+[
+  {
+    "after": null,
+    "kind": "actual_runtime_before",
+    "bytes": 343634,
+    "sha256": "440798e2787ebe1736f8813e336d995f3f6be961c35c7d3bf4c3f04aafa325ee",
+    "file": "bag-before.jpg"
+  },
+  {
+    "after": null,
+    "kind": "actual_runtime_before",
+    "bytes": 317735,
+    "sha256": "529bfd2a70933ca1ea13f3ee8fbb9aa90ef8a346ed22d6227553d960f92fc50d",
+    "file": "craft-result-before.jpg"
+  }
+]
