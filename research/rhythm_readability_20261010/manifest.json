@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-10",
+  "scope": "Actual public native anonymous6track lobby/stage1 pause/natural no-input result. Ad/rank neutral masks. No claimed experiment, physical device approval or license assignment",
+  "beforeVersion": "21185ce9-6205-4c69-8181-e9938b728c61",
+  "afterVersion": "6f1b3d99-f164-481e-9670-132d8b2a6316",
+  "DPR": 1,
+  "files": [
+    {
+      "path": "captures/before-lobby-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 51228,
+      "sha256": "d0ecaa339a2e252a585eaa018a2569caab359d63c85b30cfdc813cf2ec71d0b1"
+    },
+    {
+      "path": "captures/after-lobby-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 53778,
+      "sha256": "c23bfa55f8539208d9377f8d408499ce7897da8a89c2d3366cf5aacf3aef8688"
+    },
+    {
+      "path": "captures/before-pause-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 24612,
+      "sha256": "ff094e86218121ee7e41d1f8c207daccec9037aa11a848b324d2e844e057c6a5"
+    },
+    {
+      "path": "captures/after-pause-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 23280,
+      "sha256": "66793c190093f706fcf4c275c9ca59950170f065658d237d66bda16466936538"
+    },
+    {
+      "path": "captures/before-lobby-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 70222,
+      "sha256": "9ee226dfe5230e64e15f172020b08e15f04c0a5587bfb411e78c219acd0e35d4"
+    },
+    {
+      "path": "captures/after-lobby-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 72101,
+      "sha256": "9bb521c6ae53b4c1e5a91021aca2e884dbb0a2df4135c7711f3b512be2d0e741"
+    },
+    {
+      "path": "captures/before-pause-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 29145,
+      "sha256": "75494ecc6c51862bec2f6b2e300c354fba1bdffd059fd1e354f78075c2ac9774"
+    },
+    {
+      "path": "captures/after-pause-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 31805,
+      "sha256": "9ca0261f23a60370374ef5cdf1359053af2ed2970b6c782a99cdf6d9f38ca41a"
+    },
+    {
+      "path": "captures/before-lobby-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 27760,
+      "sha256": "af77ee78436fd418ffeac4e9580a57a3f6c0f1087591a2dde006fbe0ff6d5b65"
+    },
+    {
+      "path": "captures/after-lobby-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 28020,
+      "sha256": "0f98ffc82752ca407afe705586696e93a80d2fd56ef34766e2cf6064720123c2"
+    },
+    {
+      "path": "captures/before-pause-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 19266,
+      "sha256": "b4cb89053fbd4201d244034c09abc7c12eadd672b361d14f9c2f2f1f1a1ae693"
+    },
+    {
+      "path": "captures/after-pause-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 20742,
+      "sha256": "cec90602fc1442e160d8a2999548f788b62a36fe823b3f52ba9caf91a56043ac"
+    },
+    {
+      "path": "captures/before-result-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 23052,
+      "sha256": "345d16fd98b67a54cd601dd59b232833091485ce7f44635c82983c318c5ee555"
+    },
+    {
+      "path": "captures/after-result-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 27626,
+      "sha256": "b975b450418386d58453725bae2bfb5d558cf5e0556898c95dc9408134e9259a"
+    },
+    {
+      "path": "captures/after-held-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 21608,
+      "sha256": "3554bc1a7ef146000b57785ea8a922977025ed45105611c29ff6cb6b0dadcbaa"
+    }
+  ]
+}
