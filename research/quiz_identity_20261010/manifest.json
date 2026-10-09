@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-10",
+  "scope": "Actual native anonymous public home/mode/empty solo/join identity screens. Same viewport/DPR/named form state; ordinary animation/font/asset decode settled. Room-directory pixels neutral masked only, requests not blocked. No profile/room POST, OAuth/save/physical-device/load/external-review or causal guide-effect claim.",
+  "beforeVersion": "e6b1e2eb-d57f-466b-8974-6f3e2b709c62",
+  "afterVersion": "25756701-0a45-4583-abfa-038588211e51",
+  "DPR": 1,
+  "files": [
+    {
+      "path": "captures/before-home-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 141292,
+      "sha256": "cccdbff08b7a670feb42425489030afa3fa53ddd059d2bfe03ac56cdf2a07eef"
+    },
+    {
+      "path": "captures/after-home-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 144460,
+      "sha256": "62a10fcf4b0c072fc802a6441d346e6b8203d4011234e378a4f7d1f5c83b8f33"
+    },
+    {
+      "path": "captures/before-solo-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 82486,
+      "sha256": "3c7025ea2c58db6502b9521ac2b0e19badeb39ae4b1ac52188de0ba8e0f122a7"
+    },
+    {
+      "path": "captures/after-solo-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 66742,
+      "sha256": "a626d9e916f9dfde790d88017845b1c2887db48a4c720582b9f9267657ecc7a4"
+    },
+    {
+      "path": "captures/before-join-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 79115,
+      "sha256": "05e642b26ce479ad133ced3d988d88fae434427c839dc3e442fcbb052605955a"
+    },
+    {
+      "path": "captures/after-join-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 68119,
+      "sha256": "1060cc5b9ac9dd89125297edc0dd43080001ba2e4ec39ccb3318790d15e27d9f"
+    },
+    {
+      "path": "captures/before-home-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 283193,
+      "sha256": "d8b357302a4b0bdbd9915e7a083c2ea04bff0b4dd8386221bb66f6ad9e2a607e"
+    },
+    {
+      "path": "captures/after-home-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 279499,
+      "sha256": "c63205a6aa8ebe9b319adfc2421ee13d7bfe377ed1a819f7e4f02207f6330956"
+    },
+    {
+      "path": "captures/before-solo-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 138197,
+      "sha256": "c38d096326c234868c5d1f28eda3c47891034b48b46a2a67c7f9591f7a505f86"
+    },
+    {
+      "path": "captures/after-solo-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 131773,
+      "sha256": "487887ec6c83297db316714aafa2ce9f0e8c9515214a97a90d41074abd9d060a"
+    },
+    {
+      "path": "captures/before-join-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 137265,
+      "sha256": "efe54445853d61ee4f57778a373e0f342fe429a379c11eab51b4442b2621fa7b"
+    },
+    {
+      "path": "captures/after-join-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 133049,
+      "sha256": "3078d3a2b7c796f3474f22deb651e305f0d2d4cc6112bf5afbfa69fa20e55b84"
+    },
+    {
+      "path": "captures/before-home-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 203363,
+      "sha256": "6c1aa780b92111a55caae2fa3332d87e156644a7bb5b9b2a4160d544445b99dc"
+    },
+    {
+      "path": "captures/after-home-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 202842,
+      "sha256": "1dec091d649399edfa21fb55b8276da223420743e34aa737ad142bda65ed4317"
+    },
+    {
+      "path": "captures/before-solo-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 83216,
+      "sha256": "4369c88b28fbf997c86dd9310f5465605f4ae06987ab92eff73f4591405ab063"
+    },
+    {
+      "path": "captures/after-solo-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 72800,
+      "sha256": "77d2a6b5aa257d03bcf4d62195fee2c03c9ec8f0a05ad5515a43cc809080327e"
+    },
+    {
+      "path": "captures/before-join-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 81145,
+      "sha256": "35cd407f437d3d40c9353d73948e6aa144236df9fb5eab71948ec3badb64bb49"
+    },
+    {
+      "path": "captures/after-join-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 74905,
+      "sha256": "2e5153939ac65535ef4e73bf3b541dd2b5dad8a76ef4d6ddcdd56db9d7be7e73"
+    },
+    {
+      "path": "captures/before-mode-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 126379,
+      "sha256": "04adf4247225980a1c0a3cf435e4ff2106c0659151ee29c436903fda9d118648"
+    },
+    {
+      "path": "captures/after-mode-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 88237,
+      "sha256": "bef67f3eec4db5a31e1922c8eec04426ad85686b83c01ea399333809ea8b5e9d"
+    }
+  ]
+}
