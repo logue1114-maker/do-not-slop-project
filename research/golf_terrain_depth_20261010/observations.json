@@ -1,0 +1,324 @@
+{
+  "publicEntry": {
+    "status": "PASS",
+    "rows": [
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "buildings",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "valley",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "jungle",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "desert",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "volcano",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "typhoon",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "flood",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "map": "ice",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 1280,
+            "height": 720
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "buildings",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "valley",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "jungle",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "desert",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "volcano",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "typhoon",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "flood",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      },
+      {
+        "width": 390,
+        "height": 700,
+        "map": "ice",
+        "geometry": {
+          "overflow": false,
+          "canvas": {
+            "width": 390,
+            "height": 700
+          },
+          "phase": "home",
+          "error": ""
+        }
+      }
+    ],
+    "errors": 0,
+    "failed": 0
+  },
+  "nativeFlow": [
+    {
+      "state": "intro",
+      "observation": {
+        "near": 2.752764339032879,
+        "far": 2751.243409617919,
+        "ball": {
+          "x": 593.0196913581456,
+          "y": -69.59583947909262,
+          "z": 0.9967276194458775
+        },
+        "overflow": false
+      }
+    },
+    {
+      "state": "follow",
+      "observation": {
+        "near": 0.1,
+        "far": 2751.243409617919,
+        "ball": {
+          "x": 639.9999999999962,
+          "y": 451.26977709379963,
+          "z": 0.9843645764148691
+        },
+        "overflow": false
+      }
+    },
+    {
+      "state": "overview",
+      "observation": {
+        "near": 8.09565037218437,
+        "far": 2751.243409617919,
+        "ball": {
+          "x": 623.4255992178898,
+          "y": 213.82712188728868,
+          "z": 0.9974712946138747
+        },
+        "overflow": false
+      }
+    },
+    {
+      "state": "native-two-stage-shot",
+      "strokes": "1타",
+      "observation": {
+        "near": 0.1,
+        "far": 2751.243409617919,
+        "ball": {
+          "x": 639.9973422883161,
+          "y": 451.26977731780164,
+          "z": 0.984364576375135
+        },
+        "overflow": false
+      }
+    },
+    {
+      "state": "mobile-overview",
+      "observation": {
+        "near": 14.756793559980121,
+        "far": 4083.6892000084003,
+        "ball": {
+          "x": 184.87311941226733,
+          "y": 272.0942347023165,
+          "z": 0.9981001727034776
+        },
+        "overflow": false
+      }
+    }
+  ],
+  "flowErrors": 0,
+  "flowFailedRequests": 0,
+  "parity": {
+    "status": "PASS",
+    "scope": "Auxiliary source parity/numeric checks, not runtime or physical device evidence",
+    "viewOnlyNearAndWaterImport": true,
+    "waterOnlyFootprintFiltering": true,
+    "deliveries": 4,
+    "closeNear": 0.1,
+    "overview1600Near": 8,
+    "closeRipplePreserved": true,
+    "unresolvedRippleSuppressed": true
+  },
+  "firstFailures": [
+    "Baseline and local networkidle timeout from continuously polling rooms: no frames claimed; native-ready wait substituted.",
+    "First flow observer hooked a prototype method but the renderer owns its instance method: null observation retained; read-only view observation substituted."
+  ],
+  "limits": [
+    "No state setters or forced win; camera/ball getter instrumentation in native flow is identified.",
+    "Mobile entry panel covers preview; mobile terrain is inspected in actual game overview, not assumed from entry screenshots.",
+    "Review candidate/noindex remains; no full campaign, physical device, human multiplayer/balance, external review, performance or causal experiment claim.",
+    "Ads blocked; public room-directory masked; no private account or room identifiers."
+  ]
+}
