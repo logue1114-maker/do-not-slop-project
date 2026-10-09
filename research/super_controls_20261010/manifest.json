@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-09T22:10:33.698Z",
+  "beforeVersion": "218199b6-9107-4a84-a484-d5e317a4a89f",
+  "afterVersion": "386cc7c4-2511-4876-9491-47a538a2efcb",
+  "DPR": 1,
+  "scope": "Actual native anonymous title START, unchanged guide and initial World1-1 play. Same844x390, first course, small bear,7lives/0coins/416time/0score. Animated timing differs incidentally; no state/save injection, private account, room code or clock manipulation. Not an ordinary/guided experiment or causal effectiveness result.",
+  "files": [
+    {
+      "path": "captures/before-title.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 555265,
+      "sha256": "65c83034b5f93705831d8dd7f9f778d099856e63a0e7eb15745d43e6467e5d6e"
+    },
+    {
+      "path": "captures/after-title.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 555449,
+      "sha256": "18fa12851be4a72cde9b7565bf0b25197fd2b2b5137b7b2f895c283113b7e3b4"
+    },
+    {
+      "path": "captures/before-guide.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 89966,
+      "sha256": "831477d99b2c989d562abd73badcbc64cdbd42796acc2b6ec86c3fd0ab7d3c5c"
+    },
+    {
+      "path": "captures/after-guide.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 99996,
+      "sha256": "6fd4f394e473c733ca8e8997a13e28e5d1bbc0a62e01c8f3fd5085bf10753248"
+    },
+    {
+      "path": "captures/before-play.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 235189,
+      "sha256": "4879d077d9c8c2af20812169e77dbb83a1c901983f0b8258b4ec5fb8d0120f7b"
+    },
+    {
+      "path": "captures/after-play.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 233303,
+      "sha256": "03487b650eb0aecb4dec4f8bcbfcb8a4d617fef0c5a75a2a500f745cd59f1d5e"
+    }
+  ]
+}
