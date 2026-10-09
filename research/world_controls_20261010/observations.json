@@ -1,0 +1,1385 @@
+{
+  "at": "2026-10-09T22:36:49.744Z",
+  "guidance": {
+    "deployment": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "recipes": [
+      "DNS-04",
+      "DNS-01",
+      "DNS-07"
+    ],
+    "implementationSHA": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb",
+    "rolesSHA": "50b4fe1dfcbe05a2073b2e301169b87b459b8f1ec95d9e50b23be1d150ce894c",
+    "buttonGuideSHA": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585"
+  },
+  "native": {
+    "localPair": {
+      "at": "2026-10-09T22:26:34.567Z",
+      "mode": "local",
+      "scope": "One normal two-human room; anonymous native create/code join/start/roll/chat. No game-state injection or mocked API. Local before/after use the same real session/room/version via normal reload; invite-code screenshot mask only.",
+      "api": [
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/rooms",
+          "status": 201
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/join",
+          "status": 201
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3,
+          "action": "start_match",
+          "expectedVersion": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "buy",
+          "version": 4,
+          "action": "roll",
+          "expectedVersion": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "buy",
+          "version": 5,
+          "action": "chat",
+          "expectedVersion": 4
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "buy",
+          "version": 6,
+          "action": "chat",
+          "expectedVersion": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 6
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 6
+        }
+      ],
+      "captures": [
+        {
+          "kind": "before",
+          "state": "title",
+          "file": "before-1280x720-title.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "title",
+          "file": "before-844x390-title.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "title",
+          "file": "before-390x844-title.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-1280x720-title.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-844x390-title.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-390x844-title.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "lobby",
+          "file": "before-1280x720-lobby.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "lobby",
+          "file": "before-844x390-lobby.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "lobby",
+          "file": "before-390x844-lobby.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-1280x720-lobby.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-844x390-lobby.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-390x844-lobby.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "play",
+          "file": "before-1280x720-play.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "play",
+          "file": "before-844x390-play.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "before",
+          "state": "play",
+          "file": "before-390x844-play.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-1280x720-play.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-844x390-play.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-390x844-play.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-1280x720-decision.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 238,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-844x390-decision.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 238,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-390x844-decision.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 238,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "enteringScroll": 0,
+      "quickTargets": [
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        }
+      ],
+      "pass": true
+    },
+    "finalWithCollector": {
+      "at": "2026-10-09T22:30:05.248Z",
+      "mode": "local",
+      "scope": "One normal two-human room; anonymous native create/code join/start/roll/chat. No game-state injection or mocked API. Local before/after use the same real session/room/version via normal reload; invite-code screenshot mask only.",
+      "api": [
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/rooms",
+          "status": 201
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/join",
+          "status": 201
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3,
+          "action": "start_match",
+          "expectedVersion": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "buy",
+          "version": 4,
+          "action": "roll",
+          "expectedVersion": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "buy",
+          "version": 5,
+          "action": "chat",
+          "expectedVersion": 4
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "buy",
+          "version": 6,
+          "action": "chat",
+          "expectedVersion": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "buy",
+          "version": 6
+        }
+      ],
+      "captures": [
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-1280x720-title.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-844x390-title.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-390x844-title.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-1280x720-lobby.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-844x390-lobby.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-390x844-lobby.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-1280x720-play.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-844x390-play.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-390x844-play.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-1280x720-decision.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 238,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-844x390-decision.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 238,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-390x844-decision.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 238,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "enteringScroll": 0,
+      "quickTargets": [
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        }
+      ],
+      "pass": true
+    },
+    "publicFlow": {
+      "at": "2026-10-09T22:36:16.757Z",
+      "mode": "public",
+      "scope": "One normal two-human room; anonymous native create/code join/start/roll/chat. No game-state injection or mocked API. Local before/after use the same real session/room/version via normal reload; invite-code screenshot mask only.",
+      "api": [
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/rooms",
+          "status": 201
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 1
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/join",
+          "status": 201
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "lobby",
+          "version": 2
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3,
+          "action": "start_match",
+          "expectedVersion": 2
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "await_roll",
+          "version": 3
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "trade",
+          "version": 4,
+          "action": "roll",
+          "expectedVersion": 3
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 4
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 4
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "trade",
+          "version": 5,
+          "action": "chat",
+          "expectedVersion": 4
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 5
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/action",
+          "status": 200,
+          "phase": "trade",
+          "version": 6,
+          "action": "chat",
+          "expectedVersion": 5
+        },
+        {
+          "who": "guest",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 6
+        },
+        {
+          "who": "host",
+          "path": "/api/classroom-games/ggworld/state",
+          "status": 200,
+          "phase": "trade",
+          "version": 6
+        }
+      ],
+      "captures": [
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-1280x720-title.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-844x390-title.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "title",
+          "file": "after-390x844-title.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-1280x720-lobby.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-844x390-lobby.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "lobby",
+          "file": "after-390x844-lobby.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-1280x720-play.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-844x390-play.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "play",
+          "file": "after-390x844-play.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 0,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-1280x720-decision.png",
+          "width": 1280,
+          "height": 720,
+          "scrollY": 238,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-844x390-decision.png",
+          "width": 844,
+          "height": 390,
+          "scrollY": 238,
+          "overflow": false
+        },
+        {
+          "kind": "after",
+          "state": "decision",
+          "file": "after-390x844-decision.png",
+          "width": 390,
+          "height": 844,
+          "scrollY": 238,
+          "overflow": false
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "http": [],
+      "enteringScroll": 0,
+      "quickTargets": [
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        },
+        {
+          "height": 44,
+          "font": 14,
+          "inside": true
+        }
+      ],
+      "pass": true
+    }
+  },
+  "limits": [
+    "first Before1 normal starts were dropped three times during polling, retained separately",
+    "Local1 last rapid chat429 and Before2/Local2 five-minute room creation429 are genuine existing limits, not suppressed",
+    "first release1 wrapper rejected missing existing collector; immutable failed snapshot preserved",
+    "local paired images, not public same-room images: final public client bytes matched and separate normal public two-peer flow passed",
+    "native phone/touch, exhaustive modes/campaign, authenticated storage, school load, full accessibility/human usability/external visual acceptance not established",
+    "no research experiment, causal effectiveness, license change, third-party/private Site media or font/game binary redistribution"
+  ]
+}
