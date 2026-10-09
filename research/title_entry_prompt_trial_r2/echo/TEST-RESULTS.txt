@@ -1,0 +1,25 @@
+PASS Initial menu: no expedition, Standard selected, volume 70, motion off
+PASS Unavailable Continue cannot start an expedition
+PASS Setup Back creates no save
+PASS Every fresh setup initially selects Standard
+PASS Invalid difficulty values are rejected
+PASS Starting Story creates a survey session
+PASS Repeated Start is guarded after entry
+PASS Recorded signal and difficulty resume in the same expedition
+PASS Canceling another setup leaves the existing expedition intact
+PASS Settings survive menu, credits, setup and survey routes
+PASS Volume clamps safely and rejects nonnumeric input
+PASS New page session is independent
+PASS DOM initial render hides secondary views and disables Continue
+PASS New expedition focuses Standard; Back returns focus with no save
+PASS Settings input and Escape retain volume and Reduce motion
+PASS Credits Close and Escape return to their invoking command
+PASS DOM Story start shows the selected difficulty and objective
+PASS Return enables Continue; scan result resumes without losing settings
+PASS Survey Escape holds the same expedition
+PASS Canceling fresh setup preserves the existing Story save
+PASS Keyboard menu navigation wraps and marks its active command
+PASS Escape on main does not start or discard the expedition
+PASS Source has no external services, audio, or persistent storage calls
+
+23 checks passed. Event tests use a DOM double; native browser and visual behavior remain unrun.

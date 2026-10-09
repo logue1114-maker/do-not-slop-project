@@ -1,0 +1,27 @@
+{
+  "frozen_at_utc": "2026-10-09T03:11:21.289326+00:00",
+  "inputs": {
+    "PROTOCOL.md": "bcc863f2c8ea66731e92086a4e28a5e6cca5c1620979d450bd4b8f178c216c70",
+    "shared/brief.txt": "7d0c02e415981db188557abe44bc06ca2580ab2fcba7c71f6138d033f3da76d3",
+    "shared/tideline-background.png": "98f933520590eee9c87ea3f3add36104b75c9d021f63bc5a224cc08bdf6d0469",
+    "references/whole-title-injection-packet.txt": "92c5bf0be620e192c3238b1886f47ebf28a12bb6b222ab56ed066ce7e49441e6",
+    "references/nightreign-main-menu-network-test-feb2025.png": "889f4cb943f8954e8ae89f2d15cf6d31b26a983f4a6afd59817939ae157366b6",
+    "references/halo-mcc-main-menu-july2023.png": "c5d155961967d8fb5f75273ff2d8f593bc213ebdead24a29e0c1deb6a74b56c2",
+    "shared/fonts/OpenSans-Regular.ttf": "e64e508b2aa2880f907e470c4550980ec4c0694d103a43f36150ac3f93189bee",
+    "shared/fonts/OpenSans-CondBold.ttf": "a859a438018739aee16c306586d91a453c208ee500c827d9e9aa063155c8a6e8",
+    "shared/fonts/OpenSans-Semibold.ttf": "aa3b0ef53db12e3d45094030cac0e69d384e44cc5978643dd4390041cad546e2",
+    "shared/fonts/COPYRIGHT.txt": "94d4b78643f99d7cfa872145b38da578299f401405ca5cba66a5c95bf13933b0",
+    "shared/fonts/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "xhigh",
+  "fork_turns": "none",
+  "minutes_upper_bound": 15,
+  "delta": "ordinary brief only",
+  "echo": "same brief plus whole-title packet and its two inspected private reference images",
+  "presentation": {
+    "A": "delta",
+    "B": "echo"
+  },
+  "presentation_assignment": "Random bit drawn before either worker started"
+}

@@ -4,6 +4,16 @@ Practical guides and runnable examples for AI-built game, web, and app interface
 
 [Use with your AI](#use-with-your-ai) · [Guides and examples](#guides-and-examples) · [Research records](docs/RESEARCH_INDEX.md)
 
+## R2: actual main/title-screen prompt experiment
+
+[The retained TIDELINE pair](research/title_entry_prompt_trial_r2/README.md) compares an ordinary-quality request (A) with the same request plus whole-screen guidance and two private historical references (B). Both originals remain unchanged. B improves portrait composition/readability; A keeps the stronger desktop title, filled Start and radio-looking choices. This is a partial improvement, with remaining design issues and no user aesthetic approval or general-effectiveness claim.
+
+| A: actual ordinary output | B: actual guide-and-reference output |
+| :---: | :---: |
+| <a href="research/title_entry_prompt_trial_r2/captures/A-desktop-initial.jpg"><img src="research/title_entry_prompt_trial_r2/captures/A-desktop-initial.jpg" alt="Actual ordinary-request TIDELINE desktop title screen" width="100%"></a> | <a href="research/title_entry_prompt_trial_r2/captures/B-desktop-initial.jpg"><img src="research/title_entry_prompt_trial_r2/captures/B-desktop-initial.jpg" alt="Actual guide-and-reference TIDELINE desktop title screen" width="100%"></a> |
+
+[Portrait A](research/title_entry_prompt_trial_r2/captures/A-portrait-initial.jpg) · [Portrait B](research/title_entry_prompt_trial_r2/captures/B-portrait-initial.jpg) · [Comparison/source](research/title_entry_prompt_trial_r2/index.html) · [Input guide](research/title_entry_prompt_trial_r2/guidance.txt) · [Actual QA and limits](research/title_entry_prompt_trial_r2/RESULTS.md) · [Sources/rights](research/title_entry_prompt_trial_r2/SOURCES_AND_RIGHTS.md)
+
 ## General button construction · source candidate
 
 [The general game/web/app button system](research/universal_button_system/README.md) chooses action rank, selection/navigation semantics and context-specific flat, outline, filled, soft-raised or tactile construction. It includes three original runnable contexts and an isolated observed-golf anatomy case, a short [AI instruction](research/universal_button_system/AI_INSTRUCTIONS.md), role-owned modules and a mandatory before → intent → rendered ledger.

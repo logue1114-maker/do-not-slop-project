@@ -1,0 +1,18 @@
+Build a beautiful, polished main/title screen and entry flow for TIDELINE, a fictional atmospheric coastal science-fiction exploration game. Make it feel like a finished game, with an appealing overall composition, artwork, typography, menus and controls. Use English. The subject is the first screen a player sees and the path into play, not an inventory or a marketing website.
+
+Required behavior for both implementations:
+- Initial view: the game's main menu. Offer New expedition, Continue, Settings and Credits. There is no saved expedition initially, so Continue is visibly unavailable with a concise reason.
+- New expedition opens a setup view with Story and Standard difficulty options. Standard is initially selected. Start expedition enters a local survey scene; Back returns to the main menu without creating a save.
+- The survey scene shows the selected difficulty, a small local objective and a Return to menu control. A successful start creates page-session progress. Returning to the menu enables Continue, which returns to the same survey session and selected difficulty. No backend, account, payment, download or actual online match is needed.
+- Settings offers master volume, initially 70%, and a Reduce motion checkbox, initially off. Returning to the main menu preserves both during this page session. Do not play unsolicited audio; the volume setting is a local interface state only.
+- Credits is a local view or dialog that can be closed. Credits may identify the fictional project and the original supplied art, without inventing real developers.
+- Close/Back/Escape behavior must not accidentally start a game or lose the stated session settings. All controls should work by pointer and keyboard with visible focus.
+- Address desktop 1365x768, phone landscape 844x390 and phone portrait 390x844. The portrait menu must remain usable rather than blocking entry behind a rotate instruction.
+
+Shared inputs available to both implementations:
+../shared/tideline-background.png is original background art. Both receive the exact same bytes. Use it if useful. Optional local Open Sans regular/semibold/condensed-bold fonts with copyright and Apache-2.0 license are in ../shared/fonts/. No external or additional image generation is needed.
+
+Implementation constraints for both:
+Create standalone index.html, styles.css and app.js in your assigned output directory. Original simple UI SVG geometry/icons are permitted. No outside services, software installation, public deployment, user computer, sibling outputs or earlier experiments. Only read this brief, explicitly supplied guidance (if any), shared assets, relevant installed tool documentation, and your own output. Work independently in a fresh task. You have at most 15 minutes from task start. Self-corrections during that limit are allowed; freeze the first complete delivered implementation and do not edit it afterwards.
+
+Check JavaScript syntax and any safe local source/state tests. Local Chromium cannot launch here; do not attempt to disable sandbox or work around it. Parent will inspect the exact unmodified output in its supported cloud browser after private staging. Record actual tests and unrun checks in REPORT.txt; do not claim visual QA you did not perform.

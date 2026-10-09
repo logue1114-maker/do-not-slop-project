@@ -1,0 +1,58 @@
+TIDELINE / DELTA
+Completed local-only implementation. Frozen on delivery; do not modify before matched QA.
+
+ENTRY POINT AND FILES
+- index.html: standalone semantic interface
+- styles.css: cinematic background, typography, game menus, native control styling, responsive layouts
+- app.js: page-session navigation, settings, expedition and survey progress
+- state-tests.js: repeatable safe Node VM state tests (minimal mocked DOM)
+- REPORT.txt: this report
+- SHA256SUMS: delivery fingerprints
+
+Run with any static server rooted at title-experiment-oct9 and open /delta/index.html. Keep the supplied shared directory alongside delta: background and fonts use ../shared/ paths. No build step or dependency installation is needed.
+
+IMPLEMENTED
+- Initial main menu: New expedition, unavailable Continue with reason, Settings and Credits
+- Expedition setup: native Story/Standard radio options; Standard selected on entry; Start and Back
+- Survey: difficulty badge, local objective, Record signal interaction and Return to menu
+- Starting an expedition creates in-memory session progress; Continue resumes the same difficulty and objective state
+- Starting a later new expedition replaces survey progress; cancelling setup preserves an existing session
+- Master volume initially 70%; Reduce motion initially off; both preserved across views during the page session
+- Motion respects both the local checkbox and the operating-system reduced-motion preference
+- Credits are a closable local view with supplied art/font attribution and no invented developer credits
+- Escape closes setup/settings/credits and returns the survey to the menu without losing settings/progress
+- Native buttons, range, checkbox and radios; focus-visible styles, labels, focus restoration and live status announcements
+- Desktop composition and separate portrait/short-landscape styles; no rotation block
+- Original supplied background pixels were inspected. No additional imagery, audio, online service, account or backend
+- Refresh/navigation away resets in-memory session state
+
+ACTUAL TESTS
+PASS: node --check app.js
+PASS: node --check state-tests.js
+PASS: node state-tests.js (12 state scenarios)
+  1. Initial menu, disabled Continue, 70% volume, motion off, Standard selected
+  2. Disabled Continue cannot enter survey
+  3. Setup Back creates no save and restores focus
+  4. Setup Escape creates no save; subsequent setup defaults to Standard
+  5. Settings changes persist across Back, Credits and Escape
+  6. Credits Escape closes without creating progress
+  7. Story start shows survey difficulty and objective
+  8. Return enables Continue; Continue resumes Story
+  9. Recorded signal persists through Escape and Continue; repeat scan is inert
+  10. Cancelling a new expedition preserves existing survey
+  11. New Standard start resets expedition only; repeated Start outside setup is inert
+  12. Escape on main menu does not navigate
+PASS: Python HTML/source audit: unique IDs; referenced labels/descriptions exist; 14 native controls; scripts/styles/shared image/shared fonts resolve to readable local files
+PASS: background readable at 1672 x 941 RGB; each supplied font used is readable
+PASS: CSS source checks: balanced braces, required responsive breakpoints, system reduced-motion rule
+PASS: source audit found no audio calls, network requests, localStorage or sessionStorage
+
+UNRUN / LIMITS
+- No browser was launched. No browser visual, layout, pointer, actual keyboard, contrast, or accessibility-tree QA is claimed
+- Desktop 1365x768, landscape 844x390 and portrait 390x844 were addressed in CSS but require the parent's matched browser QA
+- The Node VM tests exercise application state with a small mocked DOM; they do not validate native browser event behavior or rendering
+- CSS parser package was unavailable; full CSS grammar/browser parsing was not tested. No package was installed
+- Modern-browser CSS includes svh, :has(), appearance and backdrop-filter; parent should verify the target browser
+- Shared art/fonts must retain their sibling shared directory when staged
+
+No publication, user-computer access, installation, Chromium launch, sandbox bypass or sibling/reference inspection was performed.

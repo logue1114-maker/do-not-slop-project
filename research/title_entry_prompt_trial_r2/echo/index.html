@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071118">
+  <title>TIDELINE</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-view="main">
+  <main class="app" aria-label="TIDELINE game">
+    <div class="world" aria-hidden="true"></div>
+    <div class="contrast" aria-hidden="true"></div>
+    <header class="brand" aria-label="TIDELINE — Beyond the last signal">
+      <h1 class="wordmark">TIDELINE</h1>
+      <div class="brand-under"><span class="horizon-mark" aria-hidden="true"></span><p>BEYOND THE LAST SIGNAL</p></div>
+    </header>
+
+    <section id="main-view" class="view main-view" aria-label="Main menu">
+      <nav id="main-menu" class="command-list" aria-label="Main menu">
+        <button id="new-expedition" class="command is-selected" type="button" data-command="new">
+          <span class="command-label">New expedition</span><span class="command-arrow" aria-hidden="true">↗</span>
+        </button>
+        <button id="continue-expedition" class="command continue-command" type="button" data-command="continue" disabled aria-describedby="continue-reason">
+          <span class="command-label">Continue</span><span id="continue-reason" class="command-note">No saved expedition</span><span class="command-arrow" aria-hidden="true">↗</span>
+        </button>
+        <button id="open-settings" class="command" type="button" data-command="settings"><span class="command-label">Settings</span><span class="command-arrow" aria-hidden="true">↗</span></button>
+        <button id="open-credits" class="command" type="button" data-command="credits"><span class="command-label">Credits</span><span class="command-arrow" aria-hidden="true">↗</span></button>
+      </nav>
+    </section>
+
+    <section id="setup-view" class="view setup-view" aria-labelledby="setup-heading" hidden>
+      <h2 id="setup-heading" class="view-heading" tabindex="-1">New expedition</h2>
+      <p class="view-intro">Choose how you meet the unknown</p>
+      <fieldset class="difficulty-group">
+        <legend>DIFFICULTY</legend>
+        <div class="difficulty-options">
+          <div class="difficulty-option">
+            <input id="difficulty-story" type="radio" name="difficulty" value="story">
+            <label for="difficulty-story"><span class="choice-mark" aria-hidden="true"></span><span><strong>Story</strong><span class="choice-description">An unhurried journey along the coast</span></span></label>
+          </div>
+          <div class="difficulty-option">
+            <input id="difficulty-standard" type="radio" name="difficulty" value="standard" checked>
+            <label for="difficulty-standard"><span class="choice-mark" aria-hidden="true"></span><span><strong>Standard</strong><span class="choice-description">Discovery with a little more challenge</span></span></label>
+          </div>
+        </div>
+      </fieldset>
+      <div class="view-actions">
+        <button id="start-expedition" class="action-primary" type="button">Start expedition<span aria-hidden="true">↗</span></button>
+        <button id="setup-back" class="back-control" type="button"><span aria-hidden="true">←</span> Back</button>
+      </div>
+    </section>
+
+    <section id="settings-view" class="view settings-view" aria-labelledby="settings-heading" hidden>
+      <h2 id="settings-heading" class="view-heading" tabindex="-1">Settings</h2>
+      <div class="settings-controls">
+        <div class="volume-setting">
+          <div class="setting-label"><label for="master-volume">Master volume</label><output id="volume-value" for="master-volume">70%</output></div>
+          <input id="master-volume" type="range" min="0" max="100" step="1" value="70" aria-valuetext="70 percent" style="--volume:70%">
+          <p class="setting-note">Interface setting only. No audio is playing.</p>
+        </div>
+        <div class="motion-setting">
+          <input id="reduce-motion" type="checkbox">
+          <label for="reduce-motion"><span class="choice-mark" aria-hidden="true"></span><span><strong>Reduce motion</strong><span class="choice-description">Keep screen transitions still</span></span></label>
+        </div>
+      </div>
+      <button id="settings-back" class="back-control" type="button"><span aria-hidden="true">←</span> Back</button>
+    </section>
+
+    <section id="credits-view" class="view credits-view" aria-labelledby="credits-heading" hidden>
+      <h2 id="credits-heading" class="view-heading" tabindex="-1">Credits</h2>
+      <div class="credit-copy">
+        <p class="credit-label">THE PROJECT</p>
+        <p>TIDELINE is a fictional coastal science-fiction exploration game.</p>
+        <p class="credit-label">THE WORLD</p>
+        <p>Original coastal artwork supplied for this project. Typography: Open Sans, licensed under Apache 2.0.</p>
+        <p class="credit-footnote">Your expedition and settings stay here while this page is open.</p>
+      </div>
+      <button id="credits-close" class="back-control" type="button"><span aria-hidden="true">←</span> Close</button>
+    </section>
+
+    <section id="survey-view" class="view survey-view" aria-labelledby="survey-heading" hidden>
+      <div class="survey-header">
+        <p class="survey-kicker">LISTENING STATION</p>
+        <h2 id="survey-heading" tabindex="-1">Coastal survey</h2>
+      </div>
+      <p class="survey-difficulty"><span>DIFFICULTY</span><strong id="survey-difficulty">Standard</strong></p>
+      <div class="objective">
+        <p class="objective-label">OBJECTIVE</p>
+        <h3 id="objective-title">Scan the station signal</h3>
+        <p id="objective-detail">Find what the coast has been trying to say.</p>
+      </div>
+      <button id="scan-signal" class="survey-target" type="button" aria-label="Scan the listening station signal">
+        <svg class="target-mark" width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="13"/><path class="target-lines" d="M22 1v9M22 34v9M1 22h9M34 22h9"/><path class="target-check" d="m15 22 5 5 10-11"/></svg>
+        <span id="scan-label">Scan signal <span aria-hidden="true">↗</span></span>
+      </button>
+      <div class="survey-bottom"><button id="return-menu" class="back-control" type="button"><span aria-hidden="true">←</span> Return to menu</button><p>Local expedition · Progress held for this page</p></div>
+    </section>
+
+    <footer class="input-hints" aria-label="Keyboard controls"><span><span class="key">↑</span><span class="key">↓</span> Select</span><span><span class="key wide-key">Enter</span> Confirm</span><span id="back-hint" hidden><span class="key wide-key">Esc</span> Back</span></footer>
+    <p id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+  </main>
+</body>
+</html>

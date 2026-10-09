@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111d26">
+  <title>TIDELINE — Coastal expedition</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="world" aria-hidden="true"><div class="world-image"></div><div class="world-shade"></div><div class="world-grain"></div></div>
+  <div class="app" id="app" data-view="menu">
+    <header class="topbar">
+      <div class="authority">
+        <svg class="authority-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="13"/><path d="M3 16h26M16 3v26M6 22l10-11 10 11M9 25l7-8 7 8"/></svg>
+        <span>PELAGIC<br><span class="authority-sub">SURVEY AUTHORITY</span></span>
+      </div>
+      <div class="system-status"><span class="signal-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>FIELD SYSTEM <span class="status-detail">/ LOCAL</span></span></div>
+    </header>
+    <main id="main">
+      <section id="menu-view" class="view menu-view" aria-labelledby="game-title">
+        <div class="main-copy">
+          <div class="title-eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> AN EXPEDITION INTO THE UNKNOWN</div>
+          <h1 id="game-title" class="game-title">TIDELINE</h1>
+          <p class="tagline">THE SHORE REMEMBERS</p>
+          <nav class="menu" aria-label="Main menu">
+            <button class="menu-item primary-menu" id="new-expedition"><span class="menu-number" aria-hidden="true">01</span><span>New expedition</span><svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+            <button class="menu-item continue-menu" id="continue-expedition" disabled aria-describedby="continue-reason"><span class="menu-number" aria-hidden="true">02</span><span class="continue-text"><span>Continue</span><small id="continue-reason">No expedition in this session</small></span><svg class="lock" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="5" y="9" width="10" height="8" rx="1"/><path d="M7 9V6a3 3 0 0 1 6 0v3"/></svg></button>
+            <button class="menu-item secondary-menu" id="open-settings"><span class="menu-number" aria-hidden="true">03</span><span>Settings</span><svg class="menu-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14"/><circle cx="7" cy="5" r="2"/><circle cx="13" cy="10" r="2"/><circle cx="8" cy="15" r="2"/></svg></button>
+            <button class="menu-item secondary-menu" id="open-credits"><span class="menu-number" aria-hidden="true">04</span><span>Credits</span><svg class="menu-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="M10 9v5m0-9v1"/></svg></button>
+          </nav>
+        </div>
+        <aside class="location-caption" aria-hidden="true"><span class="location-line"></span><span>RELAY 07</span><small>THE OUTER COAST</small></aside>
+      </section>
+      <section id="setup-view" class="view panel-view" aria-labelledby="setup-title" hidden>
+        <div class="panel setup-panel">
+          <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> EXPEDITION SETUP</p>
+          <h2 id="setup-title" tabindex="-1">Beyond the breakwater</h2>
+          <p class="panel-intro">The last relay is still transmitting.<br>Choose how you’ll meet the unknown.</p>
+          <fieldset class="difficulty-group">
+            <legend>Choose your difficulty</legend>
+            <label class="difficulty-card"><input type="radio" name="difficulty" value="story"><span class="difficulty-content"><span class="difficulty-top"><span class="difficulty-symbol" aria-hidden="true">◌</span><strong>Story</strong><span class="radio-indicator" aria-hidden="true"></span></span><span class="difficulty-description">A gentler journey.<br>Focus on discovery and the story.</span></span></label>
+            <label class="difficulty-card"><input type="radio" name="difficulty" value="standard" checked><span class="difficulty-content"><span class="difficulty-top"><span class="difficulty-symbol" aria-hidden="true">◇</span><strong>Standard</strong><span class="radio-indicator" aria-hidden="true"></span></span><span class="difficulty-description">The intended expedition.<br>Exploration with a little more edge.</span></span></label>
+          </fieldset>
+          <p class="setup-note">A fresh survey begins here. Progress lasts for this page session.</p>
+          <div class="panel-actions"><button id="start-expedition" class="solid-button">Start expedition<svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button><button id="setup-back" class="back-button"><span aria-hidden="true">←</span> Back</button></div>
+        </div>
+      </section>
+      <section id="settings-view" class="view panel-view" aria-labelledby="settings-title" hidden>
+        <div class="panel settings-panel">
+          <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> FIELD PREFERENCES</p>
+          <h2 id="settings-title" tabindex="-1">Settings</h2>
+          <p class="panel-intro">Make yourself at home on the coast.</p>
+          <div class="setting volume-setting"><div class="setting-label"><label for="master-volume">Master volume</label><output id="volume-value" for="master-volume">70%</output></div><input id="master-volume" type="range" min="0" max="100" value="70" aria-describedby="volume-note"><div class="range-scale" aria-hidden="true"><span>0</span><span>100</span></div><p id="volume-note" class="setting-note">Local setting only. This experience doesn’t play audio.</p></div>
+          <label class="setting motion-setting" for="reduce-motion"><span><span class="setting-name">Reduce motion</span><small>Keep the interface still and transitions immediate.</small></span><input id="reduce-motion" type="checkbox"><span class="checkbox-visual" aria-hidden="true"><svg viewBox="0 0 20 20" fill="none"><path d="m4 10 4 4 8-8"/></svg></span></label>
+          <div class="panel-actions"><button id="settings-back" class="back-button"><span aria-hidden="true">←</span> Back to menu</button><span class="autosave-note"><span class="status-dot" aria-hidden="true"></span> Changes kept for this session</span></div>
+        </div>
+      </section>
+      <section id="credits-view" class="view panel-view" aria-labelledby="credits-title" hidden>
+        <div class="panel credits-panel">
+          <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> BEHIND THE SIGNAL</p>
+          <h2 id="credits-title" tabindex="-1">Credits</h2>
+          <p class="panel-intro">A fictional world at the edge of the known.</p>
+          <dl class="credits-list"><div><dt>PROJECT</dt><dd>TIDELINE<small>Atmospheric coastal science-fiction exploration</small></dd></div><div><dt>WORLD ART</dt><dd>Original supplied coastal relay artwork<small>Shared background for this title-screen experience</small></dd></div><div><dt>TYPE</dt><dd>Open Sans<small>Supplied local fonts · Apache License 2.0</small></dd></div></dl>
+          <p class="credits-end">For every signal lost to the sea.</p>
+          <button id="credits-close" class="back-button"><span aria-hidden="true">←</span> Close credits</button>
+        </div>
+      </section>
+      <section id="survey-view" class="view survey-view" aria-labelledby="survey-title" hidden>
+        <div class="survey-header"><div><p class="eyebrow">EXPEDITION 01 / LOCAL SURVEY</p><h2 id="survey-title" tabindex="-1">The outer coast</h2></div><div class="difficulty-badge"><span class="status-dot" aria-hidden="true"></span><span id="survey-difficulty">Standard</span></div></div>
+        <div class="compass" aria-hidden="true"><span>W</span><i></i><span>285</span><i></i><strong>NW</strong><i></i><span>315</span><i></i><span>N</span><span class="compass-needle"></span></div>
+        <div class="survey-target" aria-hidden="true"><svg viewBox="0 0 90 90" fill="none"><path d="M5 29V5h24m32 0h24v24m0 32v24H61m-32 0H5V61"/><circle cx="45" cy="45" r="17"/><path d="M45 20v12m0 26v12M20 45h12m26 0h12"/></svg><span>RELAY 07</span><small id="target-status">SIGNAL DETECTED</small></div>
+        <div class="survey-bottom"><div class="objective-panel"><div class="objective-eyebrow"><span class="objective-marker" aria-hidden="true">◇</span> FIELD OBJECTIVE <span id="objective-count">01 / 01</span></div><h3 id="objective-title">Listen to the coast</h3><p id="objective-description">Record the signal from Relay 07.</p><button id="record-signal" class="scan-button"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7"/><circle cx="10" cy="10" r="3"/><path d="M10 3v7l5 5"/></svg><span id="record-label">Record signal</span><span class="scan-arrow" aria-hidden="true">↗</span></button></div><button id="return-menu" class="return-button"><span aria-hidden="true">←</span> Return to menu <kbd>Esc</kbd></button></div>
+      </section>
+    </main>
+    <footer class="footer"><span class="coordinates"><span class="footer-cross" aria-hidden="true">+</span> 56° 08′ N <span class="coordinate-divider">/</span> 04° 12′ W</span><span class="footer-note" id="footer-note">SOMEWHERE, A SIGNAL IS WAITING.</span><span class="version">TIDELINE <span class="version-dot">·</span> 0.1</span></footer>
+  </div>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

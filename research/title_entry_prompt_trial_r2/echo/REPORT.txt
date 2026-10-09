@@ -1,0 +1,47 @@
+TIDELINE — ECHO
+First completed implementation, frozen at delivery.
+
+ENTRY POINT
+index.html
+Required implementation files: index.html, styles.css, app.js
+Serve the experiment directory so ../shared/ remains available.
+No build, packages, account, network service, audio, or backend is required.
+
+IMPLEMENTED
+- Main menu: New expedition, unavailable Continue with an upfront reason, Settings, Credits.
+- Setup: Story / Standard radio options; Standard initially selected on each fresh setup. Start creates the local expedition; Back / Escape create no save.
+- Survey: selected difficulty, local signal-scan objective, an optional working Scan signal action, and Return to menu.
+- Continue: resumes the same expedition, difficulty, and recorded-signal progress after returning to the menu.
+- Settings: 70% initial master volume and initially unchecked Reduce motion; settings are preserved between views in this page session. No audio plays.
+- Credits: original supplied art and fictional project attribution; Close / Escape return to Credits' invoking menu control.
+- Predictable view focus and return focus; native keyboard controls, menu Up/Down/Home/End navigation, visible focus treatments, and Escape handling.
+- Explicit desktop, phone-landscape, and phone-portrait CSS. Portrait uses a station-focused scene-above / command-below arrangement and does not require rotation.
+- Reduced-motion setting and OS prefers-reduced-motion suppress view animations and transitions.
+
+DESIGN INPUTS ACTUALLY INSPECTED
+- Original shared tideline-background.png (1672 x 941).
+- nightreign-main-menu-network-test-feb2025.png.
+- halo-mcc-main-menu-july2023.png.
+- whole-title-injection-packet.txt and shared brief.txt.
+Reference mechanisms transferred: identity/menu scale separation, generous environmental space, a quiet left command axis, narrow leading selection marker, fading square-ended support, and related entry-flow states.
+No reference screenshot pixels, logos, or external images are embedded.
+Local supplied Open Sans regular, semibold, and condensed-bold fonts are used.
+
+ACTUAL CHECKS
+PASS: node --check app.js.
+PASS: 23 checks in test-state.js, covering pure page-session state and event-handler wiring through an explicitly minimal DOM test double. Full output is in TEST-RESULTS.txt.
+PASS: HTML source check found 32 unique IDs with all label / ARIA references resolving.
+PASS: all six local CSS / JavaScript / background / font references resolve.
+PASS: CSS braces are balanced; responsive media rules are present.
+PASS: source check found no external service URLs, audio elements / playback calls, fetch, or persistent storage calls.
+
+UNRUN / LIMITS
+No browser was launched. No browser visual QA, screenshots, layout measurements, native touch / keyboard testing, or browser accessibility-tree inspection was performed here.
+The DOM double checks handler logic; it does not implement native focus, radio-key, slider, animation, or layout behavior.
+Desktop 1365x768, landscape 844x390, and portrait 390x844 are implementation targets; actual matched viewport QA remains for the parent's supported browser against this exact frozen output.
+Expedition progress and settings live only in memory while this page remains open; a reload starts fresh.
+The survey is a local interactive scene, not a 3D game or an online match.
+
+FREEZE
+Do not edit this delivered implementation. SHA256SUMS records the exact index.html, styles.css, app.js, and test-state.js bytes.
+No publication, installation, user-computer work, or browser-security workarounds occurred.

@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "image_gen_calls": 1,
+  "prompt": "Use case: stylized-concept\nAsset type: One standalone landscape environmental background image for a fictional science-fiction exploration game title screen, not an interface mockup\nPrimary request: Original atmospheric coastal science-fiction scene for the fictional game TIDELINE. A lone distant surveyor at a storm-damaged coastal listening station, an enormous ocean horizon, and concrete antenna structures\nStyle/medium: Cinematic, restrained environmental concept art with believable scale and tactile weathered surfaces\nComposition/framing: Wide 16:9 landscape. Quiet dark negative space across the LEFT third, with low-contrast dark coastal ground and open sea or sky, suitable for a menu to be overlaid later. Place the focal listening station, weathered concrete antenna structures, and tiny distant lone surveyor on the RIGHT. Keep the ocean horizon enormous and expansive\nLighting/mood: Cold clear twilight, muted coral light along the horizon, contemplative and atmospheric\nColor palette: Cold blue-gray, charcoal, concrete gray, very restrained muted coral\nMaterials/textures: Salt-weathered concrete, storm damage, damp coastal surfaces\nConstraints: The output is only the environmental background image. No interface, no screen layout, no menu, no text of any kind including the game name, no logo, no UI, no borders, no buttons, no prompt symbols, no watermark, no branded character",
+  "postprocessing": "None. Original file copied byte-for-byte.",
+  "inspection": "Visually inspected generated pixels. No text, logo, UI, border, buttons, prompt symbols, or branded character. Lone surveyor and antenna station on right; darker, relatively quiet left third. Twilight includes substantial cloud cover rather than entirely clear sky.",
+  "generation_date_utc": "2026-10-09",
+  "dimensions_pixels": [
+    1672,
+    941
+  ],
+  "sha256": "98f933520590eee9c87ea3f3add36104b75c9d021f63bc5a224cc08bdf6d0469",
+  "aspect_ratio_note": "Approximately 16:9 (1672:941); original pixels preserved without crop or resize.",
+  "public_asset_path": "shared/tideline-background.png",
+  "public_record_note": "Public copy omits execution-local source and destination paths; prompt, tool, generation date, dimensions and unchanged original-art hash are retained."
+}
