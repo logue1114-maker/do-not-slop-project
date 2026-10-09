@@ -1,0 +1,189 @@
+{
+  "kind": "Existing product repair; not an instruction-effect experiment",
+  "release": {
+    "at": "2026-10-09T16:58:58.104Z",
+    "version": "41be966b-91e9-44e2-be94-b5afa0fb9f62",
+    "rollback": "8abdd60f-dc3c-4bf1-974d-25391cd9bdf5"
+  },
+  "guide": {
+    "deployment": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "git": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0",
+    "selected": [
+      "DNS-18"
+    ],
+    "implementation": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb",
+    "buttonConstruction": "Public research universal_button_system/AI_INSTRUCTIONS.md and GUIDE.md at prior research head3266be6; separate from Sites material47"
+  },
+  "deliveries": [
+    {
+      "name": "sky/game.js",
+      "sha256": "5f3fc15fe8bcd60a184ee24e4c6a42015a7fadbb43a1ab5b74c50bfa127a6bd3",
+      "before": "4eaffb3b60af8ddc83b17a5c6743d631d3117e40afd4e53ea845a9a67a236a7a",
+      "bytes": 43761
+    },
+    {
+      "name": "sky/index.html",
+      "sha256": "a95be53922354e89d1875846f0dc7ae26cf8b4267ba756ac78717ab3649048d2",
+      "before": "0e528c40299e849ed9f5c55e0d995b1f970fbea9de4137a9abff43432bac8509",
+      "bytes": 6112
+    },
+    {
+      "name": "sky/presentation.css",
+      "sha256": "d88dafb61d63f75e1593a9f7acb825b4de0b98da4c60f75bd7518eb5eb4a3817",
+      "before": null,
+      "bytes": 2658
+    }
+  ],
+  "observationsSHA256": "171ffdfcfd6fd18532befaa09c2aa6acedba8ddc9439b210f24a442199fc74f0",
+  "captures": [
+    {
+      "name": "before-ready-390.png",
+      "bytes": 68002,
+      "sha256": "efd7b50305b5a6e55e8c0cf8d09c69f0ca2bd086adf66380d081b5f5347304d8",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "after-ready-390.png",
+      "bytes": 73617,
+      "sha256": "36eec490119f616fa7dc99cf1b73c004183a3272bfd7dda03396316ff4cf2bf7",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "before-start-component.png",
+      "bytes": 1741,
+      "sha256": "cf96c9af74b322f07469141da18045a73de663aaa9c41ee1376db3da2cc6adb1",
+      "width": 110,
+      "height": 49
+    },
+    {
+      "name": "after-start-component.png",
+      "bytes": 1826,
+      "sha256": "76eff10aa341e168ab55fc3cd8519fdeb470b8384d55485ca3da157df25b9e16",
+      "width": 100,
+      "height": 45
+    },
+    {
+      "name": "hover-start-component.png",
+      "bytes": 1806,
+      "sha256": "a18160f40f37a1f2da6f82efad0081eafee6e7732008be3fd11c6d53499b7404",
+      "width": 100,
+      "height": 45
+    },
+    {
+      "name": "pressed-start-component.png",
+      "bytes": 1871,
+      "sha256": "0ff1d2f9ab4e83adc4f8a6fd01bee62aee057cfc1d1411d687862acac726d3e9",
+      "width": 100,
+      "height": 45
+    },
+    {
+      "name": "focus-start-component.png",
+      "bytes": 1887,
+      "sha256": "ee875c0a1b8a0429e4df0dd530c4e1fb5239306f129ae8065ecb5083cd9c5fa2",
+      "width": 100,
+      "height": 45
+    },
+    {
+      "name": "matched-sheet.png",
+      "bytes": 264816,
+      "sha256": "44c784d50367d4683ec836c36225c84dd7d6e6cbd6eba5c45999f428fec2aa42",
+      "width": 1872,
+      "height": 1352
+    },
+    {
+      "name": "baseline-initial-390.png",
+      "bytes": 32435,
+      "sha256": "efbed6d6342e004e199adb4b63180d8d11724388ba735485ae58d0b0d5b1fc9e",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "retained-clipped-844.png",
+      "bytes": 149518,
+      "sha256": "87920c256af796126d108d5a2521db78a12b24e117221fd28dbfa3048c0a89f0",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "retained-clipped-1280.png",
+      "bytes": 347866,
+      "sha256": "a4a6bd838b10ae5cf027a4c1b48d55b9dd69925ca18efa241f4ac34eddb8c2a8",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "diagnostic-pending6-390.png",
+      "bytes": 35776,
+      "sha256": "36e51864ba5c3d753cc5db2b977f88be146e109a9fef84ff8d63198bf54633d5",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "diagnostic-failure-390.png",
+      "bytes": 35990,
+      "sha256": "09fec634ac6623566b6b1b4e1b58433466b6c3343b7cb7e161cc660ba0c0f6f9",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "diagnostic-recovered-390.png",
+      "bytes": 170029,
+      "sha256": "2d9b2ebb4982417cd13b0eede8ccc2ac7aba7b6e027b0ef48c409e81d8986c02",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-ready-390.png",
+      "bytes": 73617,
+      "sha256": "36eec490119f616fa7dc99cf1b73c004183a3272bfd7dda03396316ff4cf2bf7",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-playing-390.png",
+      "bytes": 154102,
+      "sha256": "96a56a879d883022246b4eabd7d7672f55126dfd5f92c1d8bcef16a52f72d237",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-result-390.png",
+      "bytes": 46466,
+      "sha256": "056735b8f3126e423b07fd7caaf45ea81810b0ad1577a0db369ff29d348adb0e",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-retry-390.png",
+      "bytes": 170179,
+      "sha256": "661a5837f9eee6376748aa09088f32fa9f8aaa1b6361b5ca25957ac936c05811",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-result-844.png",
+      "bytes": 23013,
+      "sha256": "33fe78d1d9d4bbf5d7413ee9c30e13532109431b40c4e08f9cbec39699836876",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-playing-844.png",
+      "bytes": 191160,
+      "sha256": "eb94d4fd19c34fb7a73910040858cb4c8acbda699246af293547f8b659aa0b34",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-playing-1280.png",
+      "bytes": 464960,
+      "sha256": "114f3be8e446f7394c8092ef4c4d4eca1abe2a0fd4980ac7f4b43b546f514106",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "rights": "User-authorized project-owned captures. Record areas masked neutral grey; no user identifiers, source fonts, third-party media, server code or new reuse license."
+}

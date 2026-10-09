@@ -1,0 +1,5742 @@
+{
+  "baseline": {
+    "scope": "Actual public Sky entry, native Start and arrow input; no gameplay state injection",
+    "errors": [],
+    "failed": [],
+    "initial": {
+      "stats": {
+        "playing": false,
+        "stage": 1,
+        "stageName": "구름 협곡",
+        "campaignStages": 5,
+        "stagePhase": "wave",
+        "bossesCleared": 0,
+        "lives": 5,
+        "score": 0,
+        "kills": 0,
+        "eliteKills": 0,
+        "weaponLevel": 1,
+        "bombs": 3,
+        "map": "구름 협곡",
+        "playerHull": "곰곰 애로우",
+        "bossType": "스카이 캐리어",
+        "bossActive": false,
+        "bossX": null,
+        "bossHp": null,
+        "enemyShots": 0,
+        "enemyTypes": [],
+        "elites": 0,
+        "normalEnemies": 0,
+        "backgroundObjects": 34,
+        "assetsReady": false,
+        "assetsFailed": false,
+        "assetMode": "fallback",
+        "spriteAtlas": "v2-wide-gutters"
+      },
+      "status": "생성형 기체와 전장 불러오는 중",
+      "button": "게임 시작",
+      "disabled": true
+    },
+    "ready": {
+      "stats": {
+        "playing": false,
+        "stage": 1,
+        "stageName": "구름 협곡",
+        "campaignStages": 5,
+        "stagePhase": "wave",
+        "bossesCleared": 0,
+        "lives": 5,
+        "score": 0,
+        "kills": 0,
+        "eliteKills": 0,
+        "weaponLevel": 1,
+        "bombs": 3,
+        "map": "구름 협곡",
+        "playerHull": "곰곰 애로우",
+        "bossType": "스카이 캐리어",
+        "bossActive": false,
+        "bossX": null,
+        "bossHp": null,
+        "enemyShots": 0,
+        "enemyTypes": [],
+        "elites": 0,
+        "normalEnemies": 0,
+        "backgroundObjects": 34,
+        "assetsReady": true,
+        "assetsFailed": false,
+        "assetMode": "generated",
+        "spriteAtlas": "v2-wide-gutters"
+      },
+      "status": "생성형 기체와 전장 준비 완료"
+    },
+    "playing": {
+      "playing": true,
+      "stage": 1,
+      "stageName": "구름 협곡",
+      "campaignStages": 5,
+      "stagePhase": "wave",
+      "bossesCleared": 0,
+      "lives": 5,
+      "score": 0,
+      "kills": 0,
+      "eliteKills": 0,
+      "weaponLevel": 1,
+      "bombs": 3,
+      "map": "구름 협곡",
+      "playerHull": "곰곰 윙",
+      "bossType": "스카이 캐리어",
+      "bossActive": false,
+      "bossX": null,
+      "bossHp": null,
+      "enemyShots": 0,
+      "enemyTypes": [],
+      "elites": 0,
+      "normalEnemies": 0,
+      "backgroundObjects": 34,
+      "assetsReady": true,
+      "assetsFailed": false,
+      "assetMode": "generated",
+      "spriteAtlas": "v2-wide-gutters"
+    },
+    "status": "PASS"
+  },
+  "public": {
+    "scope": "Fresh public native game flow",
+    "rows": [
+      {
+        "viewport": {
+          "width": 390,
+          "height": 700
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 105.4375,
+              "y": 424.515625,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 468.515625
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 204.546875,
+              "y": 424.015625,
+              "width": 80,
+              "height": 44,
+              "bottom": 468.015625
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        },
+        "controlStates": {
+          "rest": {
+            "x": 105.4375,
+            "y": 424.515625,
+            "width": 99.109375,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "750",
+            "lineHeight": "18px",
+            "radius": "10px",
+            "background": "rgb(36, 95, 135)",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "shadow": "rgb(29, 73, 102) 0px -2px 0px 0px inset",
+            "text": "게임 시작"
+          },
+          "hover": {
+            "x": 105.4375,
+            "y": 424.515625,
+            "width": 99.109375,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "750",
+            "lineHeight": "18px",
+            "radius": "10px",
+            "background": "rgb(29, 73, 102)",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "shadow": "rgb(29, 73, 102) 0px -2px 0px 0px inset",
+            "text": "게임 시작"
+          },
+          "pressed": {
+            "x": 105.4375,
+            "y": 424.515625,
+            "width": 99.109375,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "750",
+            "lineHeight": "18px",
+            "radius": "10px",
+            "background": "rgb(23, 61, 85)",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "shadow": "rgb(16, 46, 67) 0px 2px 0px 0px inset",
+            "text": "게임 시작"
+          },
+          "focus": {
+            "x": 105.4375,
+            "y": 424.515625,
+            "width": 99.109375,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "750",
+            "lineHeight": "18px",
+            "radius": "10px",
+            "background": "rgb(36, 95, 135)",
+            "outline": "rgb(24, 61, 80) solid 3px",
+            "shadow": "rgb(29, 73, 102) 0px -2px 0px 0px inset",
+            "text": "게임 시작"
+          },
+          "nativeReleaseAwayDidNotStart": true
+        },
+        "playing": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 스피어",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": false,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        },
+        "nativeInputBomb": true,
+        "result": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "boss",
+            "bossesCleared": 0,
+            "lives": 0,
+            "score": 100,
+            "kills": 1,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 스피어",
+            "bossType": "스카이 캐리어",
+            "bossActive": true,
+            "bossX": 299.99400000000077,
+            "bossHp": 14,
+            "enemyShots": 19,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 647.390625,
+              "width": 77,
+              "height": 44,
+              "bottom": 691.390625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 647.390625,
+              "width": 77,
+              "height": 44,
+              "bottom": 691.390625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 647.390625,
+              "width": 77,
+              "height": 44,
+              "bottom": 691.390625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 647.390625,
+              "width": 77,
+              "height": 44,
+              "bottom": 691.390625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": true,
+              "x": 29,
+              "y": 699.390625,
+              "width": 332,
+              "height": 44,
+              "bottom": 743.390625
+            },
+            {
+              "id": "retryGame",
+              "text": "다시 하기",
+              "disabled": false,
+              "x": 54,
+              "y": 559.984375,
+              "width": 282,
+              "height": 44,
+              "bottom": 603.984375
+            }
+          ]
+        },
+        "nativeResultRetry": true,
+        "retry": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 스피어",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": false,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        }
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 105.4375,
+              "y": 424.515625,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 468.515625
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 204.546875,
+              "y": 424.015625,
+              "width": 80,
+              "height": 44,
+              "bottom": 468.015625
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        },
+        "playing": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": false,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        },
+        "nativeInputBomb": true
+      },
+      {
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "ready": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 294.4375,
+              "y": 459.71875,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 503.71875
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 393.546875,
+              "y": 459.21875,
+              "width": 80,
+              "height": 44,
+              "bottom": 503.21875
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 233.96875,
+              "y": 679.15625,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 287.8125,
+              "y": 679.15625,
+              "width": 49,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 344.8125,
+              "y": 679.15625,
+              "width": 49,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 401.8125,
+              "y": 679.15625,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 455.65625,
+              "y": 679.15625,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 723.15625
+            }
+          ]
+        },
+        "playing": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 233.96875,
+              "y": 679.15625,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 287.8125,
+              "y": 679.15625,
+              "width": 49,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 344.8125,
+              "y": 679.15625,
+              "width": 49,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 401.8125,
+              "y": 679.15625,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 723.15625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": false,
+              "x": 455.65625,
+              "y": 679.15625,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 723.15625
+            }
+          ]
+        },
+        "nativeInputBomb": true
+      },
+      {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "ready": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 332.4375,
+              "y": 169.734375,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 213.734375
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 431.546875,
+              "y": 169.234375,
+              "width": 80,
+              "height": 44,
+              "bottom": 213.234375
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 271.96875,
+              "y": 301.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 325.8125,
+              "y": 301.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 382.8125,
+              "y": 301.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 439.8125,
+              "y": 301.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 493.65625,
+              "y": 301.984375,
+              "width": 78.375,
+              "height": 47,
+              "bottom": 348.984375
+            }
+          ]
+        },
+        "playing": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 271.96875,
+              "y": 301.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 325.8125,
+              "y": 301.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 382.8125,
+              "y": 301.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 439.8125,
+              "y": 301.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": false,
+              "x": 493.65625,
+              "y": 301.984375,
+              "width": 78.375,
+              "height": 47,
+              "bottom": 348.984375
+            }
+          ]
+        },
+        "nativeInputBomb": true,
+        "result": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "boss",
+            "bossesCleared": 0,
+            "lives": 0,
+            "score": 100,
+            "kills": 1,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": true,
+            "bossX": 300.9959999999975,
+            "bossHp": 12,
+            "enemyShots": 19,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 271.96875,
+              "y": 376,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 423
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 325.8125,
+              "y": 376,
+              "width": 49,
+              "height": 47,
+              "bottom": 423
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 382.8125,
+              "y": 376,
+              "width": 49,
+              "height": 47,
+              "bottom": 423
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 439.8125,
+              "y": 376,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 423
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": true,
+              "x": 493.65625,
+              "y": 376,
+              "width": 78.375,
+              "height": 47,
+              "bottom": 423
+            },
+            {
+              "id": "retryGame",
+              "text": "다시 하기",
+              "disabled": false,
+              "x": 227,
+              "y": 306.59375,
+              "width": 390,
+              "height": 44,
+              "bottom": 350.59375
+            }
+          ]
+        },
+        "nativeResultRetry": true,
+        "retry": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 스피어",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 271.96875,
+              "y": 301.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 325.8125,
+              "y": 301.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 382.8125,
+              "y": 301.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 439.8125,
+              "y": 301.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 348.984375
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": false,
+              "x": 493.65625,
+              "y": 301.984375,
+              "width": 78.375,
+              "height": 47,
+              "bottom": 348.984375
+            }
+          ]
+        }
+      },
+      {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "ready": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 550.4375,
+              "y": 453.921875,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 497.921875
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 649.546875,
+              "y": 453.421875,
+              "width": 80,
+              "height": 44,
+              "bottom": 497.421875
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 489.96875,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 543.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 600.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 657.8125,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 711.65625,
+              "y": 666.171875,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 710.171875
+            }
+          ]
+        },
+        "playing": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 489.96875,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 543.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 600.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 657.8125,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": false,
+              "x": 711.65625,
+              "y": 666.171875,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 710.171875
+            }
+          ]
+        },
+        "nativeInputBomb": true,
+        "result": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "boss",
+            "bossesCleared": 0,
+            "lives": 0,
+            "score": 100,
+            "kills": 1,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 2,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": true,
+            "bossX": 300.98399999999685,
+            "bossHp": 12,
+            "enemyShots": 19,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 489.96875,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 543.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 600.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 657.8125,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 2",
+              "disabled": true,
+              "x": 711.65625,
+              "y": 666.171875,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "retryGame",
+              "text": "다시 하기",
+              "disabled": false,
+              "x": 445,
+              "y": 536.46875,
+              "width": 390,
+              "height": 44,
+              "bottom": 580.46875
+            }
+          ]
+        },
+        "nativeResultRetry": true,
+        "retry": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "stats": {
+            "playing": true,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 윙",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 489.96875,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 543.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 600.8125,
+              "y": 666.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 657.8125,
+              "y": 666.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 710.171875
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": false,
+              "x": 711.65625,
+              "y": 666.171875,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 710.171875
+            }
+          ]
+        }
+      }
+    ],
+    "diagnostics": [],
+    "pairs": [
+      {
+        "scope": "Same actual ready canvas/tab, CSS-only, DPR1/zoom100; identical repaired loader, no clock/state setter",
+        "before": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 108.265625,
+              "y": 415.96875,
+              "width": 109.453125,
+              "height": 48,
+              "bottom": 463.96875
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 217.71875,
+              "y": 429.96875,
+              "width": 64,
+              "height": 20,
+              "bottom": 449.96875
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 530.34375,
+              "width": 77,
+              "height": 48,
+              "bottom": 578.34375
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 530.34375,
+              "width": 77,
+              "height": 48,
+              "bottom": 578.34375
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 530.34375,
+              "width": 77,
+              "height": 48,
+              "bottom": 578.34375
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 530.34375,
+              "width": 77,
+              "height": 48,
+              "bottom": 578.34375
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 29,
+              "y": 586.34375,
+              "width": 332,
+              "height": 48,
+              "bottom": 634.34375
+            }
+          ]
+        },
+        "after": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 105.4375,
+              "y": 424.515625,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 468.515625
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 204.546875,
+              "y": 424.015625,
+              "width": 80,
+              "height": 44,
+              "bottom": 468.015625
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "status": "PASS"
+  },
+  "local": [
+    {
+      "pass": "local1",
+      "scope": "Three-resource projection; real backend and original assets",
+      "rows": [
+        {
+          "viewport": {
+            "width": 390,
+            "height": 700
+          },
+          "ready": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 105.4375,
+                "y": 424.515625,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 468.515625
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 424.015625,
+                "width": 80,
+                "height": 44,
+                "bottom": 468.015625
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "nativeInputBomb": true,
+          "result": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "boss",
+              "bossesCleared": 0,
+              "lives": 0,
+              "score": 100,
+              "kills": 1,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": true,
+              "bossX": 299.9939999999999,
+              "bossHp": 14,
+              "enemyShots": 19,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 647.390625,
+                "width": 60,
+                "height": 76,
+                "bottom": 723.390625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 647.390625,
+                "width": 60,
+                "height": 76,
+                "bottom": 723.390625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 647.390625,
+                "width": 60,
+                "height": 76,
+                "bottom": 723.390625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 647.390625,
+                "width": 60,
+                "height": 76,
+                "bottom": 723.390625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": true,
+                "x": 301,
+                "y": 647.390625,
+                "width": 60,
+                "height": 76,
+                "bottom": 723.390625
+              },
+              {
+                "id": "retryGame",
+                "text": "다시 하기",
+                "disabled": false,
+                "x": 54,
+                "y": 559.984375,
+                "width": 282,
+                "height": 44,
+                "bottom": 603.984375
+              }
+            ]
+          },
+          "nativeResultRetry": true,
+          "retry": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 윙",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": false,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          }
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "ready": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 105.4375,
+                "y": 424.515625,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 468.515625
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 424.015625,
+                "width": 80,
+                "height": 44,
+                "bottom": 468.015625
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "nativeInputBomb": true
+        },
+        {
+          "viewport": {
+            "width": 768,
+            "height": 900
+          },
+          "ready": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "scrollWidth": 768,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 294.4375,
+                "y": 459.71875,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 503.71875
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 393.546875,
+                "y": 459.21875,
+                "width": 80,
+                "height": 44,
+                "bottom": 503.21875
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 233.96875,
+                "y": 679.15625,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 287.8125,
+                "y": 679.15625,
+                "width": 49,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 344.8125,
+                "y": 679.15625,
+                "width": 49,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 401.8125,
+                "y": 679.15625,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 455.65625,
+                "y": 679.15625,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 723.15625
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "scrollWidth": 768,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 윙",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 233.96875,
+                "y": 679.15625,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 287.8125,
+                "y": 679.15625,
+                "width": 49,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 344.8125,
+                "y": 679.15625,
+                "width": 49,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 401.8125,
+                "y": 679.15625,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 723.15625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 455.65625,
+                "y": 679.15625,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 723.15625
+              }
+            ]
+          },
+          "nativeInputBomb": true
+        }
+      ],
+      "diagnostics": [],
+      "pairs": [
+        {
+          "scope": "Same actual ready canvas/tab, CSS-only, DPR1/zoom100; identical repaired loader, no clock/state setter",
+          "before": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 108.265625,
+                "y": 415.96875,
+                "width": 109.453125,
+                "height": 48,
+                "bottom": 463.96875
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 217.71875,
+                "y": 429.96875,
+                "width": 64,
+                "height": 20,
+                "bottom": 449.96875
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 114,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 199,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 284,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 29,
+                "y": 586.34375,
+                "width": 332,
+                "height": 48,
+                "bottom": 634.34375
+              }
+            ]
+          },
+          "after": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 105.4375,
+                "y": 424.515625,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 468.515625
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 424.015625,
+                "width": 80,
+                "height": 44,
+                "bottom": 468.015625
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          }
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "activeRow": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "ready": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 332.4375,
+              "y": 202.734375,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 246.734375
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 431.546875,
+              "y": 202.234375,
+              "width": 80,
+              "height": 44,
+              "bottom": 246.234375
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 271.96875,
+              "y": 367.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 414.984375
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 325.8125,
+              "y": 367.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 414.984375
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 382.8125,
+              "y": 367.984375,
+              "width": 49,
+              "height": 47,
+              "bottom": 414.984375
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 439.8125,
+              "y": 367.984375,
+              "width": 45.84375,
+              "height": 47,
+              "bottom": 414.984375
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 493.65625,
+              "y": 367.984375,
+              "width": 78.375,
+              "height": 47,
+              "bottom": 414.984375
+            }
+          ]
+        }
+      },
+      "status": "FAIL",
+      "failure": "AssertionError [ERR_ASSERTION]: leftButton below viewport"
+    },
+    {
+      "pass": "local2-remaining",
+      "scope": "Three-resource projection; real backend and original assets",
+      "rows": [
+        {
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "ready": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "scrollWidth": 844,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 332.4375,
+                "y": 169.734375,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 213.734375
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 431.546875,
+                "y": 169.234375,
+                "width": 80,
+                "height": 44,
+                "bottom": 213.234375
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 271.96875,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 325.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 382.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 439.8125,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 493.65625,
+                "y": 301.984375,
+                "width": 78.375,
+                "height": 47,
+                "bottom": 348.984375
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "scrollWidth": 844,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 271.96875,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 325.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 382.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 439.8125,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 493.65625,
+                "y": 301.984375,
+                "width": 78.375,
+                "height": 47,
+                "bottom": 348.984375
+              }
+            ]
+          },
+          "nativeInputBomb": true
+        }
+      ],
+      "diagnostics": [],
+      "pairs": [],
+      "errors": [],
+      "failed": [],
+      "activeRow": {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "ready": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 550.4375,
+              "y": 486.921875,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 530.921875
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 649.546875,
+              "y": 486.421875,
+              "width": 80,
+              "height": 44,
+              "bottom": 530.421875
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 489.96875,
+              "y": 732.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 776.171875
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 543.8125,
+              "y": 732.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 776.171875
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 600.8125,
+              "y": 732.171875,
+              "width": 49,
+              "height": 44,
+              "bottom": 776.171875
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 657.8125,
+              "y": 732.171875,
+              "width": 45.84375,
+              "height": 44,
+              "bottom": 776.171875
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 711.65625,
+              "y": 732.171875,
+              "width": 78.375,
+              "height": 44,
+              "bottom": 776.171875
+            }
+          ]
+        }
+      },
+      "status": "FAIL",
+      "failure": "AssertionError [ERR_ASSERTION]: leftButton below viewport"
+    },
+    {
+      "pass": "local3-desktop",
+      "scope": "Three-resource projection; real backend and original assets",
+      "rows": [
+        {
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ready": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "scrollWidth": 1280,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 550.4375,
+                "y": 453.921875,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 497.921875
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 649.546875,
+                "y": 453.421875,
+                "width": 80,
+                "height": 44,
+                "bottom": 497.421875
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 489.96875,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 543.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 600.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 657.8125,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 711.65625,
+                "y": 666.171875,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 710.171875
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "scrollWidth": 1280,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 489.96875,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 543.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 600.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 657.8125,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 711.65625,
+                "y": 666.171875,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 710.171875
+              }
+            ]
+          },
+          "nativeInputBomb": true
+        }
+      ],
+      "diagnostics": [],
+      "pairs": [],
+      "errors": [],
+      "failed": [],
+      "status": "FAIL",
+      "failure": "page.goto: Timeout 30000ms exceeded."
+    },
+    {
+      "pass": "local4-diagnostics",
+      "scope": "Three-resource projection; real backend and original assets",
+      "rows": [],
+      "diagnostics": [
+        {
+          "kind": "One real image request deliberately delayed, not organic speed measurement",
+          "pending": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": false,
+              "assetsFailed": false,
+              "assetMode": "fallback",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": true,
+                "x": 105.4375,
+                "y": 449.3125,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 493.3125
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 448.8125,
+                "width": 80,
+                "height": 44,
+                "bottom": 492.8125
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "ready": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 105.4375,
+                "y": 424.515625,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 468.515625
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 424.015625,
+                "width": 80,
+                "height": 44,
+                "bottom": 468.015625
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          }
+        },
+        {
+          "kind": "Deliberately failed real image request; native retry with real assets/backend, not organic outage",
+          "failure": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": false,
+              "assetsFailed": true,
+              "assetMode": "fallback",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "retryAssets",
+                "text": "다시 불러오기",
+                "disabled": false,
+                "x": 42,
+                "y": 427.984375,
+                "width": 306,
+                "height": 44,
+                "bottom": 471.984375
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 155,
+                "y": 471.984375,
+                "width": 80,
+                "height": 44,
+                "bottom": 515.984375
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "recovered": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": false,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "expectedFailedRequests": [
+            {
+              "path": "/sky/assets/boss-solar-titan.png",
+              "error": "net::ERR_FAILED"
+            },
+            {
+              "path": "/sky/assets/sky-sprites-v2.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-cloud-canyon.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-golden-islands.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-storm-front.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-aurora-stratosphere.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-volcanic-fortress.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/g.js",
+              "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+            }
+          ]
+        }
+      ],
+      "pairs": [],
+      "errors": [],
+      "failed": [],
+      "status": "PASS"
+    },
+    {
+      "pass": "local5-result",
+      "scope": "Three-resource projection; real backend and original assets",
+      "rows": [
+        {
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "ready": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "scrollWidth": 844,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 332.4375,
+                "y": 169.734375,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 213.734375
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 431.546875,
+                "y": 169.234375,
+                "width": 80,
+                "height": 44,
+                "bottom": 213.234375
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 271.96875,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 325.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 382.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 439.8125,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 493.65625,
+                "y": 301.984375,
+                "width": 78.375,
+                "height": 47,
+                "bottom": 348.984375
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "scrollWidth": 844,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 271.96875,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 325.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 382.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 439.8125,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 493.65625,
+                "y": 301.984375,
+                "width": 78.375,
+                "height": 47,
+                "bottom": 348.984375
+              }
+            ]
+          },
+          "nativeInputBomb": true,
+          "result": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "scrollWidth": 844,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "boss",
+              "bossesCleared": 0,
+              "lives": 0,
+              "score": 100,
+              "kills": 1,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": true,
+              "bossX": 299.9939999999975,
+              "bossHp": 14,
+              "enemyShots": 19,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 271.96875,
+                "y": 376,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 423
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 325.8125,
+                "y": 376,
+                "width": 49,
+                "height": 47,
+                "bottom": 423
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 382.8125,
+                "y": 376,
+                "width": 49,
+                "height": 47,
+                "bottom": 423
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 439.8125,
+                "y": 376,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 423
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": true,
+                "x": 493.65625,
+                "y": 376,
+                "width": 78.375,
+                "height": 47,
+                "bottom": 423
+              },
+              {
+                "id": "retryGame",
+                "text": "다시 하기",
+                "disabled": false,
+                "x": 227,
+                "y": 306.59375,
+                "width": 390,
+                "height": 44,
+                "bottom": 350.59375
+              }
+            ]
+          },
+          "nativeResultRetry": true,
+          "retry": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "scrollWidth": 844,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 271.96875,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 325.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 382.8125,
+                "y": 301.984375,
+                "width": 49,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 439.8125,
+                "y": 301.984375,
+                "width": 45.84375,
+                "height": 47,
+                "bottom": 348.984375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": false,
+                "x": 493.65625,
+                "y": 301.984375,
+                "width": 78.375,
+                "height": 47,
+                "bottom": 348.984375
+              }
+            ]
+          }
+        },
+        {
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ready": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "scrollWidth": 1280,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 550.4375,
+                "y": 453.921875,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 497.921875
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 649.546875,
+                "y": 453.421875,
+                "width": 80,
+                "height": 44,
+                "bottom": 497.421875
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 489.96875,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 543.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 600.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 657.8125,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 711.65625,
+                "y": 666.171875,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 710.171875
+              }
+            ]
+          },
+          "playing": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "scrollWidth": 1280,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 윙",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 489.96875,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 543.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 600.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 657.8125,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": false,
+                "x": 711.65625,
+                "y": 666.171875,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 710.171875
+              }
+            ]
+          },
+          "nativeInputBomb": true,
+          "result": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "scrollWidth": 1280,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "boss",
+              "bossesCleared": 0,
+              "lives": 0,
+              "score": 200,
+              "kills": 2,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 2,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 윙",
+              "bossType": "스카이 캐리어",
+              "bossActive": true,
+              "bossX": 300.98999999999774,
+              "bossHp": 10,
+              "enemyShots": 19,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 489.96875,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 543.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 600.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 657.8125,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 2",
+                "disabled": true,
+                "x": 711.65625,
+                "y": 666.171875,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "retryGame",
+                "text": "다시 하기",
+                "disabled": false,
+                "x": 445,
+                "y": 536.46875,
+                "width": 390,
+                "height": 44,
+                "bottom": 580.46875
+              }
+            ]
+          },
+          "nativeResultRetry": true,
+          "retry": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "scrollWidth": 1280,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 489.96875,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 543.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 600.8125,
+                "y": 666.171875,
+                "width": 49,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 657.8125,
+                "y": 666.171875,
+                "width": 45.84375,
+                "height": 44,
+                "bottom": 710.171875
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": false,
+                "x": 711.65625,
+                "y": 666.171875,
+                "width": 78.375,
+                "height": 44,
+                "bottom": 710.171875
+              }
+            ]
+          }
+        }
+      ],
+      "diagnostics": [
+        {
+          "kind": "One real image request deliberately delayed, not organic speed measurement",
+          "pending": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": false,
+              "assetsFailed": false,
+              "assetMode": "fallback",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": true,
+                "x": 105.4375,
+                "y": 449.3125,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 493.3125
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 448.8125,
+                "width": 80,
+                "height": 44,
+                "bottom": 492.8125
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "ready": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 105.4375,
+                "y": 424.515625,
+                "width": 99.109375,
+                "height": 44,
+                "bottom": 468.515625
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 204.546875,
+                "y": 424.015625,
+                "width": 80,
+                "height": 44,
+                "bottom": 468.015625
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          }
+        },
+        {
+          "kind": "Deliberately failed real image request; native retry with real assets/backend, not organic outage",
+          "failure": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": false,
+              "assetsFailed": true,
+              "assetMode": "fallback",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "retryAssets",
+                "text": "다시 불러오기",
+                "disabled": false,
+                "x": 42,
+                "y": 427.984375,
+                "width": 306,
+                "height": 44,
+                "bottom": 471.984375
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 155,
+                "y": 471.984375,
+                "width": 80,
+                "height": 44,
+                "bottom": 515.984375
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "recovered": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": true,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 스피어",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 97,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 165,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 233,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": false,
+                "x": 301,
+                "y": 542.140625,
+                "width": 60,
+                "height": 76,
+                "bottom": 618.140625
+              }
+            ]
+          },
+          "expectedFailedRequests": [
+            {
+              "path": "/sky/assets/boss-solar-titan.png",
+              "error": "net::ERR_FAILED"
+            },
+            {
+              "path": "/sky/assets/sky-sprites-v2.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-cloud-canyon.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-golden-islands.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-storm-front.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-aurora-stratosphere.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/sky/assets/background-volcanic-fortress.png",
+              "error": "net::ERR_ABORTED"
+            },
+            {
+              "path": "/g.js",
+              "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+            }
+          ]
+        }
+      ],
+      "pairs": [],
+      "errors": [],
+      "failed": [],
+      "status": "PASS"
+    },
+    {
+      "pass": "public1",
+      "scope": "Fresh public native game flow",
+      "rows": [],
+      "diagnostics": [],
+      "pairs": [
+        {
+          "scope": "Same actual ready canvas/tab, CSS-only, DPR1/zoom100; identical repaired loader, no clock/state setter",
+          "before": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 108.265625,
+                "y": 415.96875,
+                "width": 109.453125,
+                "height": 48,
+                "bottom": 463.96875
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 217.71875,
+                "y": 429.96875,
+                "width": 64,
+                "height": 20,
+                "bottom": 449.96875
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 114,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 199,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 284,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 29,
+                "y": 586.34375,
+                "width": 332,
+                "height": 48,
+                "bottom": 634.34375
+              }
+            ]
+          },
+          "after": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "scrollWidth": 390,
+            "stats": {
+              "playing": false,
+              "stage": 1,
+              "stageName": "구름 협곡",
+              "campaignStages": 5,
+              "stagePhase": "wave",
+              "bossesCleared": 0,
+              "lives": 5,
+              "score": 0,
+              "kills": 0,
+              "eliteKills": 0,
+              "weaponLevel": 1,
+              "bombs": 3,
+              "map": "구름 협곡",
+              "playerHull": "곰곰 애로우",
+              "bossType": "스카이 캐리어",
+              "bossActive": false,
+              "bossX": null,
+              "bossHp": null,
+              "enemyShots": 0,
+              "enemyTypes": [],
+              "elites": 0,
+              "normalEnemies": 0,
+              "backgroundObjects": 34,
+              "assetsReady": true,
+              "assetsFailed": false,
+              "assetMode": "generated",
+              "spriteAtlas": "v2-wide-gutters"
+            },
+            "controls": [
+              {
+                "id": "startGame",
+                "text": "게임 시작",
+                "disabled": false,
+                "x": 108.265625,
+                "y": 415.96875,
+                "width": 109.453125,
+                "height": 48,
+                "bottom": 463.96875
+              },
+              {
+                "id": "assetReturnLink",
+                "text": "목록으로",
+                "x": 217.71875,
+                "y": 429.96875,
+                "width": 64,
+                "height": 20,
+                "bottom": 449.96875
+              },
+              {
+                "id": "leftButton",
+                "text": "←",
+                "disabled": false,
+                "x": 29,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "upButton",
+                "text": "↑",
+                "disabled": false,
+                "x": 114,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "downButton",
+                "text": "↓",
+                "disabled": false,
+                "x": 199,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "rightButton",
+                "text": "→",
+                "disabled": false,
+                "x": 284,
+                "y": 530.34375,
+                "width": 77,
+                "height": 48,
+                "bottom": 578.34375
+              },
+              {
+                "id": "bombButton",
+                "text": "폭탄 3",
+                "disabled": true,
+                "x": 29,
+                "y": 586.34375,
+                "width": 332,
+                "height": 48,
+                "bottom": 634.34375
+              }
+            ]
+          }
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "activeRow": {
+        "viewport": {
+          "width": 390,
+          "height": 700
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "stats": {
+            "playing": false,
+            "stage": 1,
+            "stageName": "구름 협곡",
+            "campaignStages": 5,
+            "stagePhase": "wave",
+            "bossesCleared": 0,
+            "lives": 5,
+            "score": 0,
+            "kills": 0,
+            "eliteKills": 0,
+            "weaponLevel": 1,
+            "bombs": 3,
+            "map": "구름 협곡",
+            "playerHull": "곰곰 애로우",
+            "bossType": "스카이 캐리어",
+            "bossActive": false,
+            "bossX": null,
+            "bossHp": null,
+            "enemyShots": 0,
+            "enemyTypes": [],
+            "elites": 0,
+            "normalEnemies": 0,
+            "backgroundObjects": 34,
+            "assetsReady": true,
+            "assetsFailed": false,
+            "assetMode": "generated",
+            "spriteAtlas": "v2-wide-gutters"
+          },
+          "controls": [
+            {
+              "id": "startGame",
+              "text": "게임 시작",
+              "disabled": false,
+              "x": 105.4375,
+              "y": 424.515625,
+              "width": 99.109375,
+              "height": 44,
+              "bottom": 468.515625
+            },
+            {
+              "id": "assetReturnLink",
+              "text": "목록으로",
+              "x": 204.546875,
+              "y": 424.015625,
+              "width": 80,
+              "height": 44,
+              "bottom": 468.015625
+            },
+            {
+              "id": "leftButton",
+              "text": "←",
+              "disabled": false,
+              "x": 29,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "upButton",
+              "text": "↑",
+              "disabled": false,
+              "x": 114,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "downButton",
+              "text": "↓",
+              "disabled": false,
+              "x": 199,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "rightButton",
+              "text": "→",
+              "disabled": false,
+              "x": 284,
+              "y": 542.140625,
+              "width": 77,
+              "height": 44,
+              "bottom": 586.140625
+            },
+            {
+              "id": "bombButton",
+              "text": "폭탄 3",
+              "disabled": true,
+              "x": 29,
+              "y": 594.140625,
+              "width": 332,
+              "height": 44,
+              "bottom": 638.140625
+            }
+          ]
+        }
+      },
+      "status": "FAIL",
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:"
+    }
+  ],
+  "tests": {
+    "count": 4,
+    "scope": "VM/image/timer fixtures only; not physical-device or organic outage proof"
+  }
+}
