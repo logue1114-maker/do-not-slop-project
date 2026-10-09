@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-09T14:14:09.657Z",
+  "classification": "authored existing-product revision; not a controlled experiment",
+  "publication": "owner approved research Git screenshot publication",
+  "materialSHA256": "3235c0320115fc911717825de1bd163a5e5617cef9c1cc4c0eecbe701dd58511",
+  "finalCSS_SHA256": "8032954072cfd50ff3930af9ff045e2bd6c6ddae6173c856c1f06600d8ce7351",
+  "captures": [
+    {
+      "path": "captures/final-start-after-focus.png",
+      "bytes": 1570,
+      "sha256": "dc4218d5e69567144abf484c1aa0e998248790b0eb266360b02644d0ea07264a"
+    },
+    {
+      "path": "captures/final-start-after-hover.png",
+      "bytes": 1540,
+      "sha256": "ef5e49864a07f0b07c696d7f7e1e1772a64a3be50c9e6907a005db8e4d04f3fb"
+    },
+    {
+      "path": "captures/final-start-after-pressed.png",
+      "bytes": 1540,
+      "sha256": "ef5e49864a07f0b07c696d7f7e1e1772a64a3be50c9e6907a005db8e4d04f3fb"
+    },
+    {
+      "path": "captures/final-start-after-rest.png",
+      "bytes": 1547,
+      "sha256": "1f3c878ae37c3ce2f24b1456080d474c8ead001c33d840af3d7c8fc5ff3ac1b8"
+    },
+    {
+      "path": "captures/final-start-before-rest.png",
+      "bytes": 1018,
+      "sha256": "1b8fb6c39ffb5243938e53ff7f8294001faa9790aaf12caf105319a4b2af415b"
+    },
+    {
+      "path": "captures/final-tetris-after-1280x900-ready.png",
+      "bytes": 57399,
+      "sha256": "6e98a139b387bf347d3cbf03463f1df9c1266d5ec40a29922c5acde6c3d01023"
+    },
+    {
+      "path": "captures/final-tetris-before-1280x900-ready.png",
+      "bytes": 49603,
+      "sha256": "cb6ba024839c2b19c08aabc2283f7f1c51b639e3c1fbb25cc2f0adb15f5b83c5"
+    },
+    {
+      "path": "captures/final-tetris-fresh-1280x720-playing.png",
+      "bytes": 48066,
+      "sha256": "8f02659d268e6df19ace7b5896f92955c5d8c39d92695eae8a653b690dafd89f"
+    },
+    {
+      "path": "captures/final-tetris-fresh-1280x720-ready.png",
+      "bytes": 44529,
+      "sha256": "4e6418f2f479cd14bcf4105c6dd2f0b7228ed38bcca75dbc4a97a91f9b867063"
+    },
+    {
+      "path": "captures/final-tetris-fresh-1280x900-playing.png",
+      "bytes": 50661,
+      "sha256": "fb68c91e8ac5ce8ef5c3c94cd1e0661776cd70235a44a21b5ca47efd55fe6b97"
+    },
+    {
+      "path": "captures/final-tetris-fresh-1280x900-ready.png",
+      "bytes": 55130,
+      "sha256": "cae0b56f0d1c6e691d1d79563ee0a32015746eff1d7023250db60f7cd461fe50"
+    },
+    {
+      "path": "captures/final-tetris-fresh-390x700-playing.png",
+      "bytes": 33073,
+      "sha256": "8d8b6a96d082f4fce730c5070c9eee091a7cece7e26599d8031b158fe6bcef32"
+    },
+    {
+      "path": "captures/final-tetris-fresh-390x700-ready.png",
+      "bytes": 29966,
+      "sha256": "6bdf64f209f21db46e31c2ef8299c6582389204e0ad30c606bf417bf01d28a1b"
+    },
+    {
+      "path": "captures/final-tetris-fresh-844x390-playing.png",
+      "bytes": 22371,
+      "sha256": "bf85672f3769d717ea1f12efe8697722e9c640f81dfed99ddc354177b6d72737"
+    },
+    {
+      "path": "captures/final-tetris-fresh-844x390-ready.png",
+      "bytes": 18248,
+      "sha256": "4ff8b380dca0441c16b427b9e3dbd59f1b0bad9da3de2b1527547f9aaf8bbb2f"
+    },
+    {
+      "path": "captures/final-tetris-natural-result-1280x900.png",
+      "bytes": 73628,
+      "sha256": "db9d76c346ff63abade7767c456078714a99308d603d3efb77f5c488c0ac5203"
+    },
+    {
+      "path": "captures/first-pass-390x700-playing.png",
+      "bytes": 29805,
+      "sha256": "4be8019c1f53f3a77dc52db584b799d3c10c2f6244f3bcf9872e36e4f6934b44"
+    },
+    {
+      "path": "captures/second-pass-390x700-playing.png",
+      "bytes": 35297,
+      "sha256": "3b16efdb374aa364f769ce8d90d0e1d946637633b6396c5c2d592a3f1106d9de"
+    }
+  ]
+}
