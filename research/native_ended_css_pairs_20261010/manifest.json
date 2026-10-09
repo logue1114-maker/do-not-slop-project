@@ -1,0 +1,630 @@
+{
+  "at": "2026-10-09T23:20:11.594Z",
+  "captureAt": "2026-10-09T23:13:18.708Z",
+  "classification": "Same actual naturally ended native game instance. Presentation-only CSS off/on; current engine, added metadata and canvas ink remain identical. NOT complete old-client execution or historical deployment captures.",
+  "DPR": 1,
+  "reducedMotion": "reduce: ordinary accessibility preference, same in both arms; no clock/RAF/state overrides",
+  "sources": [
+    {
+      "game": "dodge",
+      "priorHTMLSHA256": "19106db3dfb6b46027c2d86cafdb6bf5c5ff398b0fd1359055368424eec93782",
+      "priorPresentationLinkAbsent": true,
+      "comparison": "Only added presentation CSS is removed in Before; current engine and DOM remain in both arms.",
+      "currentCSSSHA256": "e29bc1761825f47f79713bb2b393bd09896bdafae2c77fa409b6da4e263503e3",
+      "unchangedEngineSources": [
+        {
+          "path": "/dodge/game.js",
+          "sha256": "ee0496c49330bf473caa915405dcb9da34ba0e5d761af5187947a4073b4a9432"
+        }
+      ]
+    },
+    {
+      "game": "fishing",
+      "priorHTMLSHA256": "aaa437a2b34887e3450451dcde6c5a44ce87cc9d01e6fc4d33ade77042ef67fc",
+      "priorPresentationLinkAbsent": true,
+      "comparison": "Only added presentation CSS is removed in Before; current engine and DOM remain in both arms.",
+      "currentCSSSHA256": "52037320eeabe2d67b9a4ba4f371fa652893a69586ec6394e97e7553d15f7c1f",
+      "unchangedEngineSources": [
+        {
+          "path": "/fishing/game.js",
+          "sha256": "3e7d683a4ff7ca6b89e15d8419d335b1f9b5eb576dc18e3d39bb80280c628d3a"
+        }
+      ]
+    },
+    {
+      "game": "tower",
+      "priorHTMLSHA256": "e27ca2207ca065a316d71449592e177e2c44ca71aff9a7d584e720d8662cb4ba",
+      "priorPresentationLinkAbsent": true,
+      "comparison": "Only added presentation CSS is removed in Before; current engine and DOM remain in both arms.",
+      "currentCSSSHA256": "e200f782379e5110507f05b72e714348a44a770872ef281afe07500f925b4529",
+      "unchangedEngineSources": [
+        {
+          "path": "/tower/game.js",
+          "sha256": "72d9c741781d3633e31cc26f7a50135fd87b692072d697eae6c19e6e0b4fe6c7"
+        }
+      ]
+    },
+    {
+      "game": "puyo",
+      "priorHTMLSHA256": "c00f5c11898cfe8345786a8ba593edb039e3f2e3387c4f8148be10c1c3ae396f",
+      "priorPresentationLinkAbsent": true,
+      "comparison": "Only added presentation CSS is removed in Before; current engine and DOM remain in both arms.",
+      "currentCSSSHA256": "873f646c04e974b2fdfe683acac7826659dafb1f62dcbf15563406b9b1d0cc87",
+      "unchangedEngineSources": [
+        {
+          "path": "/gomgom-puyo/game.js",
+          "sha256": "ec9d5b42a41b69f780f84bad15d90499c9a24578cdcf92ec27663cfad98b11f3"
+        }
+      ]
+    },
+    {
+      "game": "rhythm",
+      "priorHTMLSHA256": "6b2ae664494bf84bcaa8d1cdd62733439956335e079d2a6ef88d312944a66d84",
+      "priorPresentationLinkAbsent": true,
+      "comparison": "Only added presentation CSS is removed in Before; current engine and DOM remain in both arms.",
+      "currentCSSSHA256": "a3893f0a5a89370b45c259462aeef28481e0fa33edc969737f3ea5ebc4910bc3",
+      "unchangedEngineSources": [
+        {
+          "path": "/rhythm-world/app.mjs",
+          "sha256": "c2c8595234332a9424ded6f8b0c0b1090b34781c8089acb7a835fbab3ea029f1"
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "key": "dodge",
+      "url": "https://play.gomgomapps.com/dodge/",
+      "width": 844,
+      "height": 390,
+      "steps": [
+        "Normal Start via Enter",
+        "Normal no-movement collision; no force/end API"
+      ],
+      "cssSHA256": "e29bc1761825f47f79713bb2b393bd09896bdafae2c77fa409b6da4e263503e3",
+      "unchangedEngineSources": [
+        {
+          "path": "/dodge/game.js",
+          "sha256": "ee0496c49330bf473caa915405dcb9da34ba0e5d761af5187947a4073b4a9432"
+        }
+      ],
+      "protectedState": {
+        "stats": {
+          "level": 2,
+          "pattern": "FAN",
+          "bullets": 18,
+          "obstacles": 18,
+          "dodged": 49,
+          "hitRadius": 7,
+          "x": 480,
+          "y": 460,
+          "elapsedMs": 14328.09999999106
+        },
+        "content": [
+          [
+            ".arcade-hud",
+            [
+              "1,368점수14.3초시간2단계"
+            ]
+          ],
+          [
+            "#finalScore",
+            [
+              "1,368점"
+            ]
+          ],
+          [
+            "#finalSummary",
+            [
+              "14.3초 · 49회 회피"
+            ]
+          ],
+          [
+            "#nickname",
+            [
+              ""
+            ]
+          ]
+        ],
+        "canvases": [
+          {
+            "id": "gameCanvas",
+            "width": 960,
+            "height": 540,
+            "pixels": "0d9c05916789394104af42b1d2804f4807f108794369d038f0c540cd42da3bca",
+            "unreadable": null
+          }
+        ],
+        "viewport": [
+          844,
+          390
+        ],
+        "DPR": 1,
+        "fonts": "loaded"
+      },
+      "photos": [
+        {
+          "arm": "before",
+          "sha256": "49a8bd5dd3294c72076fcf9c8af85905d30c8f13130ddfe3266fa58623bdee65",
+          "bytes": 25395,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "b6ed51a8e38b0e9a464223a1d090aeb3aca9d0675f7fe35ee00cb948878e71d8",
+          "overflow": false,
+          "path": "captures/before-dodge-844x390-ended.png"
+        },
+        {
+          "arm": "after",
+          "sha256": "cadb57691ff08292714f5d2b3a37d3f2463c5569f273c43bd9a0735f498b2d43",
+          "bytes": 29450,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "b6ed51a8e38b0e9a464223a1d090aeb3aca9d0675f7fe35ee00cb948878e71d8",
+          "overflow": false,
+          "path": "captures/after-dodge-844x390-ended.png"
+        }
+      ]
+    },
+    {
+      "key": "fishing",
+      "url": "https://play.gomgomapps.com/fishing/",
+      "width": 844,
+      "height": 390,
+      "steps": [
+        "Normal Start via Enter",
+        "Native cast once; wait normal60s round end"
+      ],
+      "cssSHA256": "52037320eeabe2d67b9a4ba4f371fa652893a69586ec6394e97e7553d15f7c1f",
+      "unchangedEngineSources": [
+        {
+          "path": "/fishing/game.js",
+          "sha256": "3e7d683a4ff7ca6b89e15d8419d335b1f9b5eb576dc18e3d39bb80280c628d3a"
+        }
+      ],
+      "protectedState": {
+        "stats": {
+          "ringRadius": 141.19231843575432,
+          "targetRadius": 46,
+          "beatDuration": 1432,
+          "catches": 1,
+          "combo": 0,
+          "backgroundReady": true,
+          "fish": "황금 붕어"
+        },
+        "content": [
+          [
+            ".arcade-hud",
+            [
+              "500점수0초남은 시간1잡은 수0연속 낚시"
+            ]
+          ],
+          [
+            "#finalScore",
+            [
+              "500점"
+            ]
+          ],
+          [
+            "#finalSummary",
+            [
+              "1마리 · 최대 1콤보"
+            ]
+          ],
+          [
+            "#nickname",
+            [
+              ""
+            ]
+          ]
+        ],
+        "canvases": [
+          {
+            "id": "gameCanvas",
+            "width": 960,
+            "height": 540,
+            "pixels": "bf6acf3fc61b0e0208009581f8fdda430ae3aab0ea6ec2270832f8a5123050f1",
+            "unreadable": null
+          }
+        ],
+        "viewport": [
+          844,
+          390
+        ],
+        "DPR": 1,
+        "fonts": "loaded"
+      },
+      "photos": [
+        {
+          "arm": "before",
+          "sha256": "14e6096678dd24334513b0f2acaf71465996b4b6c38ad0d090358ebc4ce01ae7",
+          "bytes": 69632,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "9a161b3a9b0951a2f36ddf5e12e72ef7e6505dc559de8588fbbf7211a90cf36c",
+          "overflow": false,
+          "path": "captures/before-fishing-844x390-ended.png"
+        },
+        {
+          "arm": "after",
+          "sha256": "e16173e453dd59751801eebd2c0edbca1fec35797ca91f7d80234799a3558645",
+          "bytes": 40819,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "9a161b3a9b0951a2f36ddf5e12e72ef7e6505dc559de8588fbbf7211a90cf36c",
+          "overflow": false,
+          "path": "captures/after-fishing-844x390-ended.png"
+        }
+      ]
+    },
+    {
+      "key": "tower",
+      "url": "https://play.gomgomapps.com/tower/",
+      "width": 844,
+      "height": 390,
+      "steps": [
+        "Normal Start via Enter",
+        "Native pointer/Space placements: two floors, then ordinary missed placement"
+      ],
+      "cssSHA256": "e200f782379e5110507f05b72e714348a44a770872ef281afe07500f925b4529",
+      "unchangedEngineSources": [
+        {
+          "path": "/tower/game.js",
+          "sha256": "72d9c741781d3633e31cc26f7a50135fd87b692072d697eae6c19e6e0b4fe6c7"
+        }
+      ],
+      "protectedState": {
+        "stats": {
+          "floors": 2,
+          "combo": 0,
+          "pattern": "STEADY",
+          "speed": 167.34041111508105,
+          "targetSpeed": 257.44678633089393,
+          "movingAge": 0,
+          "width": 189.411430590149
+        },
+        "content": [
+          [
+            ".arcade-hud",
+            [
+              "200점수2층0콤보"
+            ]
+          ],
+          [
+            "#finalScore",
+            [
+              "200점"
+            ]
+          ],
+          [
+            "#finalSummary",
+            [
+              "2층 · 최대 0콤보"
+            ]
+          ],
+          [
+            "#nickname",
+            [
+              ""
+            ]
+          ]
+        ],
+        "canvases": [
+          {
+            "id": "gameCanvas",
+            "width": 960,
+            "height": 540,
+            "pixels": "2b30358b70c7612596b682fa789a91bfb06ab2834a509deb5ae4b8c093ad2fb7",
+            "unreadable": null
+          }
+        ],
+        "viewport": [
+          844,
+          390
+        ],
+        "DPR": 1,
+        "fonts": "loaded"
+      },
+      "photos": [
+        {
+          "arm": "before",
+          "sha256": "9f51b15e5d5db66ebac0d89ee3eb7943eea818bfa9895ede8cb45eb0ed35b7cf",
+          "bytes": 26253,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "8158043f1ce2644e88cb0c62d0089884fc6ca330c45d74c61799fe39c1615c86",
+          "overflow": false,
+          "path": "captures/before-tower-844x390-ended.png"
+        },
+        {
+          "arm": "after",
+          "sha256": "05513584aac3d51f6808af1891ade785ff9564fdd91245d495939d2edbcbe6c7",
+          "bytes": 27337,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "8158043f1ce2644e88cb0c62d0089884fc6ca330c45d74c61799fe39c1615c86",
+          "overflow": false,
+          "path": "captures/after-tower-844x390-ended.png"
+        }
+      ]
+    },
+    {
+      "key": "puyo",
+      "url": "https://play.gomgomapps.com/gomgom-puyo/",
+      "width": 390,
+      "height": 844,
+      "steps": [
+        "Normal solo Start and repeated native Space drops until actual game end"
+      ],
+      "cssSHA256": "873f646c04e974b2fdfe683acac7826659dafb1f62dcbf15563406b9b1d0cc87",
+      "unchangedEngineSources": [
+        {
+          "path": "/gomgom-puyo/game.js",
+          "sha256": "ec9d5b42a41b69f780f84bad15d90499c9a24578cdcf92ec27663cfad98b11f3"
+        }
+      ],
+      "protectedState": {
+        "stats": null,
+        "content": [
+          [
+            "#chainLabel",
+            [
+              "점수 0 · 최고 연쇄 0"
+            ]
+          ],
+          [
+            "#status",
+            [
+              "게임 종료"
+            ]
+          ],
+          [
+            "#selfName",
+            [
+              "곰곰이"
+            ]
+          ],
+          [
+            "#name",
+            [
+              "곰곰이"
+            ]
+          ]
+        ],
+        "canvases": [
+          {
+            "id": "board",
+            "width": 240,
+            "height": 480,
+            "pixels": "9812f125575834f7668b10d13da9dfd3c9f9811a0e69df57ae7e1128ca94a875",
+            "unreadable": null
+          },
+          {
+            "id": "next",
+            "width": 96,
+            "height": 128,
+            "pixels": "f32c987dddd011fb48ea4be60423706c6c51a9d7e830fcfa02c5547441ab7601",
+            "unreadable": null
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ],
+        "DPR": 1,
+        "fonts": "loaded"
+      },
+      "photos": [
+        {
+          "arm": "before",
+          "sha256": "c9f2d1ab8ded5a19a7ec2ccfe9b9d625e6954d43da1e9090cd450ff35b5a9674",
+          "bytes": 154628,
+          "width": 390,
+          "height": 844,
+          "stateSHA256": "850b0a01fdb6b0dfa6226a2ff97ec3cc7a696a937e42f3dc30e2d75ce32bcbf4",
+          "overflow": false,
+          "path": "captures/before-puyo-390x844-ended.png"
+        },
+        {
+          "arm": "after",
+          "sha256": "f5a40dd3bbde7aa781a1d0b9a1563c218917603bf6a2b9cc730afa1bf0384804",
+          "bytes": 78855,
+          "width": 390,
+          "height": 844,
+          "stateSHA256": "850b0a01fdb6b0dfa6226a2ff97ec3cc7a696a937e42f3dc30e2d75ce32bcbf4",
+          "overflow": false,
+          "path": "captures/after-puyo-390x844-ended.png"
+        }
+      ]
+    },
+    {
+      "key": "rhythm",
+      "url": "https://play.gomgomapps.com/rhythm-world/",
+      "width": 844,
+      "height": 390,
+      "steps": [
+        "Normal first track Start; actual no-input chart end"
+      ],
+      "cssSHA256": "a3893f0a5a89370b45c259462aeef28481e0fa33edc969737f3ea5ebc4910bc3",
+      "unchangedEngineSources": [
+        {
+          "path": "/rhythm-world/app.mjs",
+          "sha256": "c2c8595234332a9424ded6f8b0c0b1090b34781c8089acb7a835fbab3ea029f1"
+        }
+      ],
+      "protectedState": {
+        "stats": null,
+        "content": [
+          [
+            ".hud",
+            [
+              "점수0콤보0기기 최고0"
+            ]
+          ],
+          [
+            "#resultTitle",
+            [
+              "연주 결과"
+            ]
+          ],
+          [
+            "#grade",
+            [
+              "D"
+            ]
+          ],
+          [
+            "#finalScore",
+            [
+              "0점"
+            ]
+          ],
+          [
+            "#judgements",
+            [
+              "PERFECT 0 · GOOD 0 · OK 0 · MISS 13"
+            ]
+          ]
+        ],
+        "canvases": [
+          {
+            "id": "canvas",
+            "width": 960,
+            "height": 460,
+            "pixels": "e117173f88d80c2f43ed22b5e14701f54994b51184ff45240b04022b5fcef8cf",
+            "unreadable": null
+          }
+        ],
+        "viewport": [
+          844,
+          390
+        ],
+        "DPR": 1,
+        "fonts": "loaded"
+      },
+      "photos": [
+        {
+          "arm": "before",
+          "sha256": "fc5b1f226e645ada8b48b59c736faf82927f68d004a62848908427cf4d9d23e5",
+          "bytes": 23766,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "1553174db5b7f1a408a1e1e89a559ac748d9642a92e13a26c5e6377d168fc44a",
+          "overflow": false,
+          "path": "captures/before-rhythm-844x390-ended.png"
+        },
+        {
+          "arm": "after",
+          "sha256": "d32758867a9f5e5725855345d6869eb48c9260ff15e2cfcf57a1809882b93582",
+          "bytes": 29470,
+          "width": 844,
+          "height": 390,
+          "stateSHA256": "1553174db5b7f1a408a1e1e89a559ac748d9642a92e13a26c5e6377d168fc44a",
+          "overflow": false,
+          "path": "captures/after-rhythm-844x390-ended.png"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "arm": "before",
+      "sha256": "49a8bd5dd3294c72076fcf9c8af85905d30c8f13130ddfe3266fa58623bdee65",
+      "bytes": 25395,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "b6ed51a8e38b0e9a464223a1d090aeb3aca9d0675f7fe35ee00cb948878e71d8",
+      "overflow": false,
+      "path": "captures/before-dodge-844x390-ended.png"
+    },
+    {
+      "arm": "after",
+      "sha256": "cadb57691ff08292714f5d2b3a37d3f2463c5569f273c43bd9a0735f498b2d43",
+      "bytes": 29450,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "b6ed51a8e38b0e9a464223a1d090aeb3aca9d0675f7fe35ee00cb948878e71d8",
+      "overflow": false,
+      "path": "captures/after-dodge-844x390-ended.png"
+    },
+    {
+      "arm": "before",
+      "sha256": "14e6096678dd24334513b0f2acaf71465996b4b6c38ad0d090358ebc4ce01ae7",
+      "bytes": 69632,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "9a161b3a9b0951a2f36ddf5e12e72ef7e6505dc559de8588fbbf7211a90cf36c",
+      "overflow": false,
+      "path": "captures/before-fishing-844x390-ended.png"
+    },
+    {
+      "arm": "after",
+      "sha256": "e16173e453dd59751801eebd2c0edbca1fec35797ca91f7d80234799a3558645",
+      "bytes": 40819,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "9a161b3a9b0951a2f36ddf5e12e72ef7e6505dc559de8588fbbf7211a90cf36c",
+      "overflow": false,
+      "path": "captures/after-fishing-844x390-ended.png"
+    },
+    {
+      "arm": "before",
+      "sha256": "9f51b15e5d5db66ebac0d89ee3eb7943eea818bfa9895ede8cb45eb0ed35b7cf",
+      "bytes": 26253,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "8158043f1ce2644e88cb0c62d0089884fc6ca330c45d74c61799fe39c1615c86",
+      "overflow": false,
+      "path": "captures/before-tower-844x390-ended.png"
+    },
+    {
+      "arm": "after",
+      "sha256": "05513584aac3d51f6808af1891ade785ff9564fdd91245d495939d2edbcbe6c7",
+      "bytes": 27337,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "8158043f1ce2644e88cb0c62d0089884fc6ca330c45d74c61799fe39c1615c86",
+      "overflow": false,
+      "path": "captures/after-tower-844x390-ended.png"
+    },
+    {
+      "arm": "before",
+      "sha256": "c9f2d1ab8ded5a19a7ec2ccfe9b9d625e6954d43da1e9090cd450ff35b5a9674",
+      "bytes": 154628,
+      "width": 390,
+      "height": 844,
+      "stateSHA256": "850b0a01fdb6b0dfa6226a2ff97ec3cc7a696a937e42f3dc30e2d75ce32bcbf4",
+      "overflow": false,
+      "path": "captures/before-puyo-390x844-ended.png"
+    },
+    {
+      "arm": "after",
+      "sha256": "f5a40dd3bbde7aa781a1d0b9a1563c218917603bf6a2b9cc730afa1bf0384804",
+      "bytes": 78855,
+      "width": 390,
+      "height": 844,
+      "stateSHA256": "850b0a01fdb6b0dfa6226a2ff97ec3cc7a696a937e42f3dc30e2d75ce32bcbf4",
+      "overflow": false,
+      "path": "captures/after-puyo-390x844-ended.png"
+    },
+    {
+      "arm": "before",
+      "sha256": "fc5b1f226e645ada8b48b59c736faf82927f68d004a62848908427cf4d9d23e5",
+      "bytes": 23766,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "1553174db5b7f1a408a1e1e89a559ac748d9642a92e13a26c5e6377d168fc44a",
+      "overflow": false,
+      "path": "captures/before-rhythm-844x390-ended.png"
+    },
+    {
+      "arm": "after",
+      "sha256": "d32758867a9f5e5725855345d6869eb48c9260ff15e2cfcf57a1809882b93582",
+      "bytes": 29470,
+      "width": 844,
+      "height": 390,
+      "stateSHA256": "1553174db5b7f1a408a1e1e89a559ac748d9642a92e13a26c5e6377d168fc44a",
+      "overflow": false,
+      "path": "captures/after-rhythm-844x390-ended.png"
+    }
+  ]
+}
