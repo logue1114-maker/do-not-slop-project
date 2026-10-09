@@ -1,0 +1,854 @@
+{
+  "at": "2026-10-09T23:06:32.443Z",
+  "comparison": "Present-day CSS projection on the same actually loaded live DOM and native input state, not historical deployment screenshots or an ordinary-versus-guided model experiment.",
+  "capture": {
+    "DPR": 1,
+    "zoom": "100%",
+    "fullViewport": true,
+    "widths": [
+      390,
+      1280
+    ],
+    "scroll": "Same actual target; layout-dependent offsets are recorded per image"
+  },
+  "sources": [
+    {
+      "key": "edu-1280x900",
+      "file": "edu/study/portal.css",
+      "beforeSHA256": "e4d8bbcf5a2bd3857988c3250aff56ea37d283297100c27c766533c71a48eba6",
+      "originalOct8AfterSHA256": "7d28ab92971896becc4541bb60f5a105948288a5eea88c5bf7c30fa06377689b",
+      "currentAfterSHA256": "7d28ab92971896becc4541bb60f5a105948288a5eea88c5bf7c30fa06377689b",
+      "bytes": 12941,
+      "currentCSSMatchesOriginal": true
+    },
+    {
+      "key": "edu-390x844",
+      "file": "edu/study/portal.css",
+      "beforeSHA256": "e4d8bbcf5a2bd3857988c3250aff56ea37d283297100c27c766533c71a48eba6",
+      "originalOct8AfterSHA256": "7d28ab92971896becc4541bb60f5a105948288a5eea88c5bf7c30fa06377689b",
+      "currentAfterSHA256": "7d28ab92971896becc4541bb60f5a105948288a5eea88c5bf7c30fa06377689b",
+      "bytes": 12941,
+      "currentCSSMatchesOriginal": true
+    },
+    {
+      "key": "play-1280x900",
+      "file": "play.css",
+      "beforeSHA256": "7277c09bf9b9edf5009ce8d37f901abb9ff430d97524ae01f65cf2e91c7717d5",
+      "originalOct8AfterSHA256": "5a55c66ab34a96c8b05ed3a9a13384f418bb73e6cb0b28edc2d812b33df6c590",
+      "currentAfterSHA256": "5924605a8db36b29d09ca69fbba474ba1554d77c90b0ffa842b8796c2f57de83",
+      "bytes": 15921,
+      "currentCSSMatchesOriginal": false
+    },
+    {
+      "key": "play-390x844",
+      "file": "play.css",
+      "beforeSHA256": "7277c09bf9b9edf5009ce8d37f901abb9ff430d97524ae01f65cf2e91c7717d5",
+      "originalOct8AfterSHA256": "5a55c66ab34a96c8b05ed3a9a13384f418bb73e6cb0b28edc2d812b33df6c590",
+      "currentAfterSHA256": "5924605a8db36b29d09ca69fbba474ba1554d77c90b0ffa842b8796c2f57de83",
+      "bytes": 15921,
+      "currentCSSMatchesOriginal": false
+    },
+    {
+      "key": "mafia-390x844",
+      "file": "mafia/assets/mafia.css",
+      "beforeSHA256": "a14f271fc22c7f37a6653b9cfabc1185c66a09d74892be7a21b8f3391aa0fa77",
+      "originalOct8AfterSHA256": "3716573be93ce951759e12e8a56f44589db9cf0063581c6b38db06b528541376",
+      "currentAfterSHA256": "3716573be93ce951759e12e8a56f44589db9cf0063581c6b38db06b528541376",
+      "bytes": 40876,
+      "currentCSSMatchesOriginal": true
+    },
+    {
+      "key": "rider-390x844",
+      "file": "multiplayer-room-directory.css",
+      "beforeSHA256": "6517238a60b0e8d0519853a1f337acf56964dc3cbc4d5dc2cfd98c1ab06b70dc",
+      "originalOct8AfterSHA256": "712b57724faceb130079b901d49a1df418a0715ab163ee00f366b003cb236384",
+      "currentAfterSHA256": "712b57724faceb130079b901d49a1df418a0715ab163ee00f366b003cb236384",
+      "bytes": 11945,
+      "currentCSSMatchesOriginal": true
+    },
+    {
+      "key": "eat-1280x900",
+      "file": "eat.css",
+      "beforeSHA256": "8caa1d682108c8185343a9e001df2e3b95cb27974ac7b8479eeb0cb25d55c79c",
+      "originalOct8AfterSHA256": "2f36041a73da5ac17faba9132f5e99f12176febc9a765790b716407914c29699",
+      "currentAfterSHA256": "2f36041a73da5ac17faba9132f5e99f12176febc9a765790b716407914c29699",
+      "bytes": 26541,
+      "currentCSSMatchesOriginal": true
+    },
+    {
+      "key": "eat-390x844",
+      "file": "eat.css",
+      "beforeSHA256": "8caa1d682108c8185343a9e001df2e3b95cb27974ac7b8479eeb0cb25d55c79c",
+      "originalOct8AfterSHA256": "2f36041a73da5ac17faba9132f5e99f12176febc9a765790b716407914c29699",
+      "currentAfterSHA256": "2f36041a73da5ac17faba9132f5e99f12176febc9a765790b716407914c29699",
+      "bytes": 26541,
+      "currentCSSMatchesOriginal": true
+    }
+  ],
+  "pairs": [
+    {
+      "key": "edu-1280x900",
+      "state": "daily-exam-hub",
+      "url": "https://edu.gomgomapps.com/edu/study/",
+      "width": 1280,
+      "height": 900,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 1280,
+          "height": 900,
+          "bytes": 313717,
+          "sha256": "f1c4d19a8220139178d4d0784f3e8c927712b2c436082d7e90b4cd5fd60ff372",
+          "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-edu-1280x900-daily-exam-hub.png"
+        },
+        {
+          "arm": "after",
+          "width": 1280,
+          "height": 900,
+          "bytes": 232404,
+          "sha256": "9224ce3c314d016f89aff492ff4ed0240efaf689b707bbcac52613ceca06f1ea",
+          "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-edu-1280x900-daily-exam-hub.png"
+        }
+      ],
+      "sourceRun": "run1",
+      "semanticFingerprint": "innerText + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "edu-390x844",
+      "state": "daily-exam-hub",
+      "url": "https://edu.gomgomapps.com/edu/study/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 131157,
+          "sha256": "f98136410ca8a7e5732f5809b7052951a759a8e5e7bda85b956984606475c783",
+          "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-edu-390x844-daily-exam-hub.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 105837,
+          "sha256": "dfaae8a99a115c4696c52778911eb9e3dbf21843d3b1db0b243d750c93c4adaa",
+          "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-edu-390x844-daily-exam-hub.png"
+        }
+      ],
+      "sourceRun": "run1",
+      "semanticFingerprint": "innerText + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "play-1280x900",
+      "state": "catalog",
+      "url": "https://play.gomgomapps.com/",
+      "width": 1280,
+      "height": 900,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "Same actual control brought into view; layout-dependent scroll offsets recorded",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 1280,
+          "height": 900,
+          "bytes": 602166,
+          "sha256": "3f9febfe79a2a48ca797b9e5d8dc1782b0ada621fcbb88d2fb34ff3076781e93",
+          "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-play-1280x900-catalog.png"
+        },
+        {
+          "arm": "after",
+          "width": 1280,
+          "height": 900,
+          "bytes": 567646,
+          "sha256": "0d0648ed02cbbbc4d9cc09a5e50e9d0ab698b21454995056e373dde08da85c85",
+          "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-play-1280x900-catalog.png"
+        }
+      ],
+      "sourceRun": "run1",
+      "semanticFingerprint": "innerText + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "play-390x844",
+      "state": "catalog",
+      "url": "https://play.gomgomapps.com/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "Same actual control brought into view; layout-dependent scroll offsets recorded",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 218947,
+          "sha256": "e3212d6c5520de04117b7118b9c44c17db9ddc61252a2fb176e1d7e96449ce48",
+          "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-play-390x844-catalog.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 186294,
+          "sha256": "8c28b24f1521afc200ad8e13de2bdf9dd8dbe5dd2cdf9062af1fc254c0ca96e5",
+          "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-play-390x844-catalog.png"
+        }
+      ],
+      "sourceRun": "run1",
+      "semanticFingerprint": "innerText + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "mafia-390x844",
+      "state": "create-settings",
+      "url": "https://play.gomgomapps.com/mafia/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [
+        "#room-list"
+      ],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 106359,
+          "sha256": "599dc00296333c5b3b3c0913bb604417bdaaddd5989b425dd8b3a4247bc7572a",
+          "stateSHA256": "39ce6477ed0bb309343071f08a6c2d71758d9869a26e42f265969d4839920d61",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-mafia-390x844-create-settings.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 106863,
+          "sha256": "d8f9ebb886d79cc4107e113a67b6505f0be1c7edcf648117cdbd5747123e4e54",
+          "stateSHA256": "39ce6477ed0bb309343071f08a6c2d71758d9869a26e42f265969d4839920d61",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-mafia-390x844-create-settings.png"
+        }
+      ],
+      "sourceRun": "run1",
+      "semanticFingerprint": "innerText + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "mafia-390x844",
+      "state": "join-directory",
+      "url": "https://play.gomgomapps.com/mafia/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [
+        "#room-list"
+      ],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 147656,
+          "sha256": "48f8bd875267b1aa7f28d8498065757f74b00ec7d7d1bfe022614286102f9220",
+          "stateSHA256": "4d475452368d929da97ea24850602aab247d629aa3391ec68a8c1f8b1f085d47",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-mafia-390x844-join-directory.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 132757,
+          "sha256": "4f95fdbdd329924b811db5c2cec0012242a4f4036d52c32156af3383e2a49f50",
+          "stateSHA256": "4d475452368d929da97ea24850602aab247d629aa3391ec68a8c1f8b1f085d47",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-mafia-390x844-join-directory.png"
+        }
+      ],
+      "sourceRun": "run1",
+      "semanticFingerprint": "innerText + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "rider-390x844",
+      "state": "room-directory",
+      "url": "https://play.gomgomapps.com/rider/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [
+        ".gg-room-directory__list"
+      ],
+      "scrollPolicy": "Same actual control brought into view; layout-dependent scroll offsets recorded",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 94617,
+          "sha256": "85f5124c75d611a5291f73a0d27fd4336ee899f70095306f00b96378be64c6f0",
+          "stateSHA256": "0a85755dbe98968720d7577a6ce67a6524c5b927092457fbf9d0cefbb74f6577",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-rider-390x844-room-directory.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 97561,
+          "sha256": "b68e070ff4f0a0b41388f292bce9b5cb93aed887d64ab97ec9f238a6b5381414",
+          "stateSHA256": "0a85755dbe98968720d7577a6ce67a6524c5b927092457fbf9d0cefbb74f6577",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-rider-390x844-room-directory.png"
+        }
+      ],
+      "sourceRun": "repair3",
+      "semanticFingerprint": "semantic text nodes + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "edu-390x844",
+      "state": "exam-hub",
+      "url": "https://edu.gomgomapps.com/edu/study/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "Same actual control brought into view; layout-dependent scroll offsets recorded",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 39088,
+          "sha256": "c89ca9043979536966dffe1abd89a2775481f751ec8a14b6cc57683fe668a431",
+          "stateSHA256": "03042f0d70b748df6393d21300bcc90dc67d8754a8229b183581e31749f1ccd1",
+          "scrollY": 656,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-edu-390x844-exam-hub.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 43908,
+          "sha256": "276fb2dbe62fed25a41cc3c256064a8e667a1e6ed5bcf4ad91513a0ee301758a",
+          "stateSHA256": "03042f0d70b748df6393d21300bcc90dc67d8754a8229b183581e31749f1ccd1",
+          "scrollY": 381,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-edu-390x844-exam-hub.png"
+        }
+      ],
+      "sourceRun": "missing5",
+      "semanticFingerprint": "semantic text nodes + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "eat-1280x900",
+      "state": "map-list",
+      "url": "https://eat.gomgomapps.com/",
+      "width": 1280,
+      "height": 900,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 1280,
+          "height": 900,
+          "bytes": 75305,
+          "sha256": "3f509a6b40a292776c235b978b9c5ea6c22f8b7f475429f7cee4efbd30f062fc",
+          "stateSHA256": "c5b8a80bb106833b8fc143b4374b6c0be53897a3d09d215ec259f543874a3d42",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-eat-1280x900-map-list.png"
+        },
+        {
+          "arm": "after",
+          "width": 1280,
+          "height": 900,
+          "bytes": 79189,
+          "sha256": "a84bcccd88bbbe49189601cc5ede305b498b1b2f12d5c9c11f89af9359df6657",
+          "stateSHA256": "c5b8a80bb106833b8fc143b4374b6c0be53897a3d09d215ec259f543874a3d42",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-eat-1280x900-map-list.png"
+        }
+      ],
+      "sourceRun": "public8",
+      "semanticFingerprint": "semantic text nodes + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "eat-1280x900",
+      "state": "search-detail",
+      "url": "https://eat.gomgomapps.com/",
+      "width": 1280,
+      "height": 900,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 1280,
+          "height": 900,
+          "bytes": 67445,
+          "sha256": "45ff8fd08f807783945dac0d40333d396656ebc834027cfa8178d2227881ace4",
+          "stateSHA256": "5b8a9fb58d6d8a9ce4868c9e818c95b64864e854043e05b4e1cbf8e0f8b0443d",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-eat-1280x900-search-detail.png"
+        },
+        {
+          "arm": "after",
+          "width": 1280,
+          "height": 900,
+          "bytes": 69516,
+          "sha256": "d6713b65981f59b19f4be46e602931e93984f5ecb17254a71b52609b8c4bf4da",
+          "stateSHA256": "5b8a9fb58d6d8a9ce4868c9e818c95b64864e854043e05b4e1cbf8e0f8b0443d",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-eat-1280x900-search-detail.png"
+        }
+      ],
+      "sourceRun": "public8",
+      "semanticFingerprint": "semantic text nodes + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "eat-390x844",
+      "state": "map-list",
+      "url": "https://eat.gomgomapps.com/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 43859,
+          "sha256": "fadaf45a8852ea2bc3704340b77f1806e4d2072d3fbdc08ea8630b23119a9496",
+          "stateSHA256": "bbefb6e1f2b273c25979a490031a1a2a791a06a3f867ba75a6471e65df4b7a1d",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-eat-390x844-map-list.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 48275,
+          "sha256": "80abd29e7da9e9f7bf995a7c1187af15fd6f2ca5918fdd38d6ddf2fbcda01ae3",
+          "stateSHA256": "bbefb6e1f2b273c25979a490031a1a2a791a06a3f867ba75a6471e65df4b7a1d",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-eat-390x844-map-list.png"
+        }
+      ],
+      "sourceRun": "public8",
+      "semanticFingerprint": "semantic text nodes + inputs + links + canvas dimensions"
+    },
+    {
+      "key": "eat-390x844",
+      "state": "search-detail",
+      "url": "https://eat.gomgomapps.com/",
+      "width": 390,
+      "height": 844,
+      "DPR": 1,
+      "zoom": "100%",
+      "masks": [],
+      "scrollPolicy": "document top",
+      "photos": [
+        {
+          "arm": "before",
+          "width": 390,
+          "height": 844,
+          "bytes": 56897,
+          "sha256": "b56df11dfd613d9b4766ce796cbff32da606fc48314b7d687dbe95e8c6a99580",
+          "stateSHA256": "2226bd7b90ed79a5985f05d1f16eacd205fd104b8351d0627719e94bf56c0fa0",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/before-eat-390x844-search-detail.png"
+        },
+        {
+          "arm": "after",
+          "width": 390,
+          "height": 844,
+          "bytes": 58868,
+          "sha256": "60f0a5bc3c0f7018b2d11afe14950ea91c49e70aa99c57b2909d58585e3e14bb",
+          "stateSHA256": "2226bd7b90ed79a5985f05d1f16eacd205fd104b8351d0627719e94bf56c0fa0",
+          "scrollY": 0,
+          "overflow": false,
+          "fonts": "loaded",
+          "path": "captures/after-eat-390x844-search-detail.png"
+        }
+      ],
+      "sourceRun": "public8",
+      "semanticFingerprint": "semantic text nodes + inputs + links + canvas dimensions"
+    }
+  ],
+  "files": [
+    {
+      "arm": "before",
+      "width": 1280,
+      "height": 900,
+      "bytes": 313717,
+      "sha256": "f1c4d19a8220139178d4d0784f3e8c927712b2c436082d7e90b4cd5fd60ff372",
+      "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-edu-1280x900-daily-exam-hub.png"
+    },
+    {
+      "arm": "after",
+      "width": 1280,
+      "height": 900,
+      "bytes": 232404,
+      "sha256": "9224ce3c314d016f89aff492ff4ed0240efaf689b707bbcac52613ceca06f1ea",
+      "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-edu-1280x900-daily-exam-hub.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 131157,
+      "sha256": "f98136410ca8a7e5732f5809b7052951a759a8e5e7bda85b956984606475c783",
+      "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-edu-390x844-daily-exam-hub.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 105837,
+      "sha256": "dfaae8a99a115c4696c52778911eb9e3dbf21843d3b1db0b243d750c93c4adaa",
+      "stateSHA256": "2f84e0eac6e5642812a49e95692ec8d4cf68fd585fe19ffe4620f774771e5017",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-edu-390x844-daily-exam-hub.png"
+    },
+    {
+      "arm": "before",
+      "width": 1280,
+      "height": 900,
+      "bytes": 602166,
+      "sha256": "3f9febfe79a2a48ca797b9e5d8dc1782b0ada621fcbb88d2fb34ff3076781e93",
+      "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-play-1280x900-catalog.png"
+    },
+    {
+      "arm": "after",
+      "width": 1280,
+      "height": 900,
+      "bytes": 567646,
+      "sha256": "0d0648ed02cbbbc4d9cc09a5e50e9d0ab698b21454995056e373dde08da85c85",
+      "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-play-1280x900-catalog.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 218947,
+      "sha256": "e3212d6c5520de04117b7118b9c44c17db9ddc61252a2fb176e1d7e96449ce48",
+      "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-play-390x844-catalog.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 186294,
+      "sha256": "8c28b24f1521afc200ad8e13de2bdf9dd8dbe5dd2cdf9062af1fc254c0ca96e5",
+      "stateSHA256": "2bbf032e0f7d1d86848ba996d7f2967e41394dfc243b40566b1df163a6bd27e1",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-play-390x844-catalog.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 106359,
+      "sha256": "599dc00296333c5b3b3c0913bb604417bdaaddd5989b425dd8b3a4247bc7572a",
+      "stateSHA256": "39ce6477ed0bb309343071f08a6c2d71758d9869a26e42f265969d4839920d61",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-mafia-390x844-create-settings.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 106863,
+      "sha256": "d8f9ebb886d79cc4107e113a67b6505f0be1c7edcf648117cdbd5747123e4e54",
+      "stateSHA256": "39ce6477ed0bb309343071f08a6c2d71758d9869a26e42f265969d4839920d61",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-mafia-390x844-create-settings.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 147656,
+      "sha256": "48f8bd875267b1aa7f28d8498065757f74b00ec7d7d1bfe022614286102f9220",
+      "stateSHA256": "4d475452368d929da97ea24850602aab247d629aa3391ec68a8c1f8b1f085d47",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-mafia-390x844-join-directory.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 132757,
+      "sha256": "4f95fdbdd329924b811db5c2cec0012242a4f4036d52c32156af3383e2a49f50",
+      "stateSHA256": "4d475452368d929da97ea24850602aab247d629aa3391ec68a8c1f8b1f085d47",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-mafia-390x844-join-directory.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 94617,
+      "sha256": "85f5124c75d611a5291f73a0d27fd4336ee899f70095306f00b96378be64c6f0",
+      "stateSHA256": "0a85755dbe98968720d7577a6ce67a6524c5b927092457fbf9d0cefbb74f6577",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-rider-390x844-room-directory.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 97561,
+      "sha256": "b68e070ff4f0a0b41388f292bce9b5cb93aed887d64ab97ec9f238a6b5381414",
+      "stateSHA256": "0a85755dbe98968720d7577a6ce67a6524c5b927092457fbf9d0cefbb74f6577",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-rider-390x844-room-directory.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 39088,
+      "sha256": "c89ca9043979536966dffe1abd89a2775481f751ec8a14b6cc57683fe668a431",
+      "stateSHA256": "03042f0d70b748df6393d21300bcc90dc67d8754a8229b183581e31749f1ccd1",
+      "scrollY": 656,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-edu-390x844-exam-hub.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 43908,
+      "sha256": "276fb2dbe62fed25a41cc3c256064a8e667a1e6ed5bcf4ad91513a0ee301758a",
+      "stateSHA256": "03042f0d70b748df6393d21300bcc90dc67d8754a8229b183581e31749f1ccd1",
+      "scrollY": 381,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-edu-390x844-exam-hub.png"
+    },
+    {
+      "arm": "before",
+      "width": 1280,
+      "height": 900,
+      "bytes": 75305,
+      "sha256": "3f509a6b40a292776c235b978b9c5ea6c22f8b7f475429f7cee4efbd30f062fc",
+      "stateSHA256": "c5b8a80bb106833b8fc143b4374b6c0be53897a3d09d215ec259f543874a3d42",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-eat-1280x900-map-list.png"
+    },
+    {
+      "arm": "after",
+      "width": 1280,
+      "height": 900,
+      "bytes": 79189,
+      "sha256": "a84bcccd88bbbe49189601cc5ede305b498b1b2f12d5c9c11f89af9359df6657",
+      "stateSHA256": "c5b8a80bb106833b8fc143b4374b6c0be53897a3d09d215ec259f543874a3d42",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-eat-1280x900-map-list.png"
+    },
+    {
+      "arm": "before",
+      "width": 1280,
+      "height": 900,
+      "bytes": 67445,
+      "sha256": "45ff8fd08f807783945dac0d40333d396656ebc834027cfa8178d2227881ace4",
+      "stateSHA256": "5b8a9fb58d6d8a9ce4868c9e818c95b64864e854043e05b4e1cbf8e0f8b0443d",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-eat-1280x900-search-detail.png"
+    },
+    {
+      "arm": "after",
+      "width": 1280,
+      "height": 900,
+      "bytes": 69516,
+      "sha256": "d6713b65981f59b19f4be46e602931e93984f5ecb17254a71b52609b8c4bf4da",
+      "stateSHA256": "5b8a9fb58d6d8a9ce4868c9e818c95b64864e854043e05b4e1cbf8e0f8b0443d",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-eat-1280x900-search-detail.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 43859,
+      "sha256": "fadaf45a8852ea2bc3704340b77f1806e4d2072d3fbdc08ea8630b23119a9496",
+      "stateSHA256": "bbefb6e1f2b273c25979a490031a1a2a791a06a3f867ba75a6471e65df4b7a1d",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-eat-390x844-map-list.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 48275,
+      "sha256": "80abd29e7da9e9f7bf995a7c1187af15fd6f2ca5918fdd38d6ddf2fbcda01ae3",
+      "stateSHA256": "bbefb6e1f2b273c25979a490031a1a2a791a06a3f867ba75a6471e65df4b7a1d",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-eat-390x844-map-list.png"
+    },
+    {
+      "arm": "before",
+      "width": 390,
+      "height": 844,
+      "bytes": 56897,
+      "sha256": "b56df11dfd613d9b4766ce796cbff32da606fc48314b7d687dbe95e8c6a99580",
+      "stateSHA256": "2226bd7b90ed79a5985f05d1f16eacd205fd104b8351d0627719e94bf56c0fa0",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/before-eat-390x844-search-detail.png"
+    },
+    {
+      "arm": "after",
+      "width": 390,
+      "height": 844,
+      "bytes": 58868,
+      "sha256": "60f0a5bc3c0f7018b2d11afe14950ea91c49e70aa99c57b2909d58585e3e14bb",
+      "stateSHA256": "2226bd7b90ed79a5985f05d1f16eacd205fd104b8351d0627719e94bf56c0fa0",
+      "scrollY": 0,
+      "overflow": false,
+      "fonts": "loaded",
+      "path": "captures/after-eat-390x844-search-detail.png"
+    }
+  ]
+}

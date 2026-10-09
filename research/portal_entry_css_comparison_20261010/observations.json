@@ -1,0 +1,153 @@
+{
+  "at": "2026-10-09T23:06:32.444Z",
+  "guidance": {
+    "deployment": 48,
+    "materialSHA256": "6bb523382c2693995ddfbe656aaaeff447ffef64cd2c63f5a14c9fb15176aaa0",
+    "deploymentSHA256": "3278529682c17f6a44462b96fbad7dd7b8b7974132cdd3da51ad06c122988499",
+    "supplementalGit": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0",
+    "recipe": "DNS-18",
+    "documents": [
+      {
+        "path": "research/release/AI_INSTRUCTIONS.md",
+        "sha256": "c70854cd205ec14947ce28b5d01ce12819cc2f3ddf47b09db7e25efb068be042"
+      },
+      {
+        "path": "research/game-details/original/research/game_ui_playground_v1/IMPLEMENTATION.md",
+        "sha256": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb"
+      },
+      {
+        "path": "research/release/IMPLEMENTATION_ROLES.md",
+        "sha256": "50b4fe1dfcbe05a2073b2e301169b87b459b8f1ec95d9e50b23be1d150ce894c"
+      }
+    ],
+    "application": "Protect task/content/state and native actions; disclose reconstruction, rights masks, partial/failed runs and moving-background limits. Do not turn draft examples into product contracts."
+  },
+  "runSummary": [
+    {
+      "run": "run1",
+      "wholeRunStatus": "FAIL",
+      "selectedPairs": 6,
+      "wholeRunPassNotClaimed": true,
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "backgroundPostPaths": [
+        "/api/site-analytics/collect",
+        "/cdn-cgi/rum",
+        "/_store",
+        "/log/page-impression",
+        "/log/widget-view",
+        "/log/widget-ready",
+        "/log/items-impression",
+        "/log/impression"
+      ]
+    },
+    {
+      "run": "repair3",
+      "wholeRunStatus": "FAIL",
+      "selectedPairs": 1,
+      "wholeRunPassNotClaimed": true,
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "backgroundPostPaths": [
+        "/api/site-analytics/collect",
+        "/_store",
+        "/log/page-impression",
+        "/log/widget-view",
+        "/log/widget-ready",
+        "/log/items-impression",
+        "/log/impression"
+      ]
+    },
+    {
+      "run": "missing5",
+      "wholeRunStatus": "PASS",
+      "selectedPairs": 1,
+      "wholeRunPassNotClaimed": false,
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "backgroundPostPaths": [
+        "/api/site-analytics/collect",
+        "/cdn-cgi/rum",
+        "/_store",
+        "/log/page-impression",
+        "/log/widget-ready"
+      ]
+    },
+    {
+      "run": "public8",
+      "wholeRunStatus": "PASS",
+      "selectedPairs": 4,
+      "wholeRunPassNotClaimed": false,
+      "pageErrors": [],
+      "requestFailures": [],
+      "httpErrors": [],
+      "backgroundPostPaths": [
+        "/_store",
+        "/log/page-impression",
+        "/log/widget-view",
+        "/log/widget-ready",
+        "/log/items-impression",
+        "/log/impression"
+      ]
+    }
+  ],
+  "observed": [
+    {
+      "surface": "EDU",
+      "decision": "Retained daily/exam split and routes; compare more compact post-it cards and readable labels, including native scroll to exam section."
+    },
+    {
+      "surface": "Play",
+      "decision": "Retained real catalog/order/search and common navigation; record current header CSS rather than falsely claiming exact Oct8 After."
+    },
+    {
+      "surface": "Mafia",
+      "decision": "Same native create settings (nickname, room title, capacity12), then Back and Join directory; contrasting readable cream form surface on preserved dark game art. No actual room creation."
+    },
+    {
+      "surface": "Rider",
+      "decision": "Same native anonymous room-directory task/nickname; only directory list privacy mask. Scene continues animating: not identical camera/pixel/frame or latency proof."
+    },
+    {
+      "surface": "EAT",
+      "decision": "Native public browse, search an actually visible restaurant and select its detail. Same actual content per pair. Equal paint exclusion removes third-party basemap/ad images but retains our detail/list/markers; no map/cartography correctness claim."
+    }
+  ],
+  "excluded": [
+    {
+      "run": "run1",
+      "reason": "Rider full-canvas mask also covered UI; excluded from publication. Whole run later failed on obsolete EAT selector."
+    },
+    {
+      "run": "eat2",
+      "reason": "Later mobile semantic mismatch; retained locally, not promoted to whole-run PASS."
+    },
+    {
+      "run": "repair3",
+      "reason": "Selected valid Rider pair only; later EAT wait watched stale hidden status text and failed."
+    },
+    {
+      "run": "eat4",
+      "reason": "Three pairs valid, but mobile Jeju result absent in normal current viewport; no fabricated map/data override."
+    },
+    {
+      "run": "public6",
+      "reason": "Map rectangle mask covered detail-card descendants; excluded."
+    },
+    {
+      "run": "public7",
+      "reason": "Tile rectangle masks extended outside clipped map and hid unrelated UI; excluded."
+    }
+  ],
+  "limits": [
+    "CSS-only projection proves bounded presentation, not earlier functional JS behavior or historical public deployment.",
+    "Same semantic fingerprint is not a proof of identical animated canvas pixels, all API state or causal usability gains.",
+    "Unmasked original EAT captures remain local. No private Site screenshots, raw user IDs, tokens, room codes, fonts, game binaries or production CSS are redistributed.",
+    "Normal site analytics, Cloudflare RUM and provider impression POSTs occur; do not claim zero POSTs. No game record submission, room creation, auth substitution or data reset was performed.",
+    "Native-phone, signed-in workflows, all campaigns/modes, external visual approval, school concurrency and measured performance remain unproved by this packet.",
+    "No production redeploy/restart/commit or research PR auto-merge is part of this addition."
+  ]
+}
