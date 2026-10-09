@@ -1,0 +1,1253 @@
+{
+  "at": "2026-10-09T14:55:28.060Z",
+  "mode": "local candidate projection",
+  "rows": [
+    {
+      "paired": true,
+      "limits": "CSS-only same native started/prelaunch instance; no clock pause or state/seed setter; initial-stage change checked separately.",
+      "before": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 312.59375,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 517.34375
+        },
+        "hud": {
+          "x": 25,
+          "y": 320.59375,
+          "width": 340,
+          "height": 41,
+          "bottom": 361.59375
+        },
+        "touch": {
+          "x": 13,
+          "y": 517.34375,
+          "width": 364,
+          "height": 73,
+          "bottom": 590.34375
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "after": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "ready": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 173.796875,
+          "y": 285.1875,
+          "width": 932.40625,
+          "height": 524.46875,
+          "bottom": 809.65625
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 809.65625,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 874.65625
+        },
+        "stats": {
+          "stage": 1,
+          "balls": 0,
+          "powerups": 0,
+          "paddleWidth": 0,
+          "bricksLeft": 0,
+          "strongBricks": 0
+        },
+        "paddleLeft": null,
+        "paddleRight": null,
+        "canvasHash": "12b1565514bf4c086d3c164aefe6cbd79a2da396d7f3998c85c6d5efadf7eb23"
+      },
+      "start": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 173.796875,
+          "y": 285.1875,
+          "width": 932.40625,
+          "height": 524.46875,
+          "bottom": 809.65625
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 809.65625,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 874.65625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 173.796875,
+          "y": 285.1875,
+          "width": 932.40625,
+          "height": 524.46875,
+          "bottom": 809.65625
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 809.65625,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 874.65625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "e13b630b1d803f4b6b6ba189ab0dfdf4f1cd914fb2b9ca0de7f4371c3e182f80"
+      },
+      "pressed": {
+        "rect": {
+          "x": 446,
+          "y": 818.65625,
+          "width": 96,
+          "height": 48,
+          "top": 818.65625,
+          "right": 542,
+          "bottom": 866.65625,
+          "left": 446
+        },
+        "transform": "none",
+        "shadow": "rgba(24, 46, 60, 0.627) 0px 3px 0px 0px inset"
+      },
+      "recovery": {
+        "nativeLoss": true,
+        "lives": [
+          2,
+          1,
+          0
+        ],
+        "result": {
+          "stage": 1,
+          "lives": 0,
+          "score": 330,
+          "combo": 0,
+          "balls": 0,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 45,
+          "strongBricks": 0
+        },
+        "retry": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "ready": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 231.109375,
+          "y": 285.1875,
+          "width": 817.765625,
+          "height": 459.984375,
+          "bottom": 745.171875
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 745.171875,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 810.171875
+        },
+        "stats": {
+          "stage": 1,
+          "balls": 0,
+          "powerups": 0,
+          "paddleWidth": 0,
+          "bricksLeft": 0,
+          "strongBricks": 0
+        },
+        "paddleLeft": null,
+        "paddleRight": null,
+        "canvasHash": "12b1565514bf4c086d3c164aefe6cbd79a2da396d7f3998c85c6d5efadf7eb23"
+      },
+      "start": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 231.109375,
+          "y": 285.1875,
+          "width": 817.765625,
+          "height": 459.984375,
+          "bottom": 745.171875
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 745.171875,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 810.171875
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 231.109375,
+          "y": -132.8125,
+          "width": 817.765625,
+          "height": 459.984375,
+          "bottom": 327.171875
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": -192.8125,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": -132.8125
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 327.171875,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 392.171875
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "9db2bd76d031be80859058c747c515b7c57cabba25fdf911981defd1b8044faa"
+      },
+      "pressed": {
+        "rect": {
+          "x": 446,
+          "y": 336.171875,
+          "width": 96,
+          "height": 48,
+          "top": 336.171875,
+          "right": 542,
+          "bottom": 384.171875,
+          "left": 446
+        },
+        "transform": "none",
+        "shadow": "rgba(24, 46, 60, 0.627) 0px 3px 0px 0px inset"
+      },
+      "recovery": {
+        "nativeLoss": true,
+        "lives": [
+          2,
+          1,
+          0
+        ],
+        "result": {
+          "stage": 1,
+          "lives": 0,
+          "score": 330,
+          "combo": 0,
+          "balls": 0,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 45,
+          "strongBricks": 0
+        },
+        "retry": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "ready": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 768,
+        "canvas": {
+          "x": 21,
+          "y": 276.390625,
+          "width": 726,
+          "height": 408.375,
+          "bottom": 684.765625
+        },
+        "hud": {
+          "x": 21,
+          "y": 216.390625,
+          "width": 726,
+          "height": 60,
+          "bottom": 276.390625
+        },
+        "touch": {
+          "x": 21,
+          "y": 684.765625,
+          "width": 726,
+          "height": 65,
+          "bottom": 749.765625
+        },
+        "stats": {
+          "stage": 1,
+          "balls": 0,
+          "powerups": 0,
+          "paddleWidth": 0,
+          "bricksLeft": 0,
+          "strongBricks": 0
+        },
+        "paddleLeft": null,
+        "paddleRight": null,
+        "canvasHash": "12b1565514bf4c086d3c164aefe6cbd79a2da396d7f3998c85c6d5efadf7eb23"
+      },
+      "start": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 768,
+        "canvas": {
+          "x": 21,
+          "y": 276.390625,
+          "width": 726,
+          "height": 408.375,
+          "bottom": 684.765625
+        },
+        "hud": {
+          "x": 21,
+          "y": 216.390625,
+          "width": 726,
+          "height": 60,
+          "bottom": 276.390625
+        },
+        "touch": {
+          "x": 21,
+          "y": 684.765625,
+          "width": 726,
+          "height": 65,
+          "bottom": 749.765625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "playing": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 768,
+        "canvas": {
+          "x": 21,
+          "y": 276.390625,
+          "width": 726,
+          "height": 408.375,
+          "bottom": 684.765625
+        },
+        "hud": {
+          "x": 21,
+          "y": 216.390625,
+          "width": 726,
+          "height": 60,
+          "bottom": 276.390625
+        },
+        "touch": {
+          "x": 21,
+          "y": 684.765625,
+          "width": 726,
+          "height": 65,
+          "bottom": 749.765625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "pressed": {
+        "rect": {
+          "x": 190,
+          "y": 693.765625,
+          "width": 96,
+          "height": 48,
+          "top": 693.765625,
+          "right": 286,
+          "bottom": 741.765625,
+          "left": 190
+        },
+        "transform": "none",
+        "shadow": "rgba(24, 46, 60, 0.627) 0px 3px 0px 0px inset"
+      },
+      "recovery": null,
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "ready": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "stats": {
+          "stage": 1,
+          "balls": 0,
+          "powerups": 0,
+          "paddleWidth": 0,
+          "bricksLeft": 0,
+          "strongBricks": 0
+        },
+        "paddleLeft": null,
+        "paddleRight": null,
+        "canvasHash": "12b1565514bf4c086d3c164aefe6cbd79a2da396d7f3998c85c6d5efadf7eb23"
+      },
+      "start": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "playing": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "fa99ca77f2791aa5d820f93c739ac54775e21d918a670d8ef995a165adc0dc56"
+      },
+      "pressed": {
+        "rect": {
+          "x": 25,
+          "y": 564.140625,
+          "width": 81.5,
+          "height": 48,
+          "top": 564.140625,
+          "right": 106.5,
+          "bottom": 612.140625,
+          "left": 25
+        },
+        "transform": "none",
+        "shadow": "rgba(24, 46, 60, 0.627) 0px 3px 0px 0px inset"
+      },
+      "recovery": {
+        "nativeLoss": true,
+        "lives": [
+          2,
+          1,
+          0
+        ],
+        "result": {
+          "stage": 1,
+          "lives": 0,
+          "score": 330,
+          "combo": 0,
+          "balls": 0,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 45,
+          "strongBricks": 0
+        },
+        "retry": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "ready": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scroll": 844,
+        "canvas": {
+          "x": 190.890625,
+          "y": 117,
+          "width": 462.21875,
+          "height": 259.984375,
+          "bottom": 376.984375
+        },
+        "hud": {
+          "x": 9,
+          "y": 57,
+          "width": 826,
+          "height": 60,
+          "bottom": 117
+        },
+        "touch": {
+          "x": 9,
+          "y": 376.984375,
+          "width": 826,
+          "height": 65,
+          "bottom": 441.984375
+        },
+        "stats": {
+          "stage": 1,
+          "balls": 0,
+          "powerups": 0,
+          "paddleWidth": 0,
+          "bricksLeft": 0,
+          "strongBricks": 0
+        },
+        "paddleLeft": null,
+        "paddleRight": null,
+        "canvasHash": "12b1565514bf4c086d3c164aefe6cbd79a2da396d7f3998c85c6d5efadf7eb23"
+      },
+      "start": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scroll": 844,
+        "canvas": {
+          "x": 190.890625,
+          "y": 117,
+          "width": 462.21875,
+          "height": 259.984375,
+          "bottom": 376.984375
+        },
+        "hud": {
+          "x": 9,
+          "y": 57,
+          "width": 826,
+          "height": 60,
+          "bottom": 117
+        },
+        "touch": {
+          "x": 9,
+          "y": 376.984375,
+          "width": 826,
+          "height": 65,
+          "bottom": 441.984375
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 408,
+        "paddleRight": 551,
+        "canvasHash": "916f6282026bdbbc491f75bec6e8ae6e3780e08ce8b390e47c88d08b366e7cdb"
+      },
+      "playing": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scroll": 844,
+        "canvas": {
+          "x": 190.890625,
+          "y": 73,
+          "width": 462.21875,
+          "height": 259.984375,
+          "bottom": 332.984375
+        },
+        "hud": {
+          "x": 9,
+          "y": 13,
+          "width": 826,
+          "height": 60,
+          "bottom": 73
+        },
+        "touch": {
+          "x": 9,
+          "y": 332.984375,
+          "width": 826,
+          "height": 65,
+          "bottom": 397.984375
+        },
+        "stats": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "paddleLeft": 418,
+        "paddleRight": 560,
+        "canvasHash": "426775f6f69debb7c4727ab8dd21302599d5c59fa10a3d24f004d97e33ece704"
+      },
+      "pressed": {
+        "rect": {
+          "x": 228,
+          "y": 341.984375,
+          "width": 96,
+          "height": 48,
+          "top": 341.984375,
+          "right": 324,
+          "bottom": 389.984375,
+          "left": 228
+        },
+        "transform": "none",
+        "shadow": "rgba(24, 46, 60, 0.627) 0px 3px 0px 0px inset"
+      },
+      "recovery": {
+        "nativeLoss": true,
+        "lives": [
+          2,
+          1,
+          0
+        ],
+        "result": {
+          "stage": 1,
+          "lives": 0,
+          "score": 330,
+          "combo": 0,
+          "balls": 0,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 45,
+          "strongBricks": 0
+        },
+        "retry": {
+          "stage": 1,
+          "lives": 3,
+          "score": 0,
+          "combo": 0,
+          "balls": 1,
+          "powerups": 0,
+          "shield": false,
+          "paddleWidth": 144,
+          "bricksLeft": 48,
+          "strongBricks": 0
+        },
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "after-390-playing.png",
+      "bytes": 26917,
+      "sha256": "36e7eb76a70967b4bbe7f1a9637072e8bbd1cbb5e6e74d8f4eacac7483fe352b"
+    },
+    {
+      "name": "before-390-playing.png",
+      "bytes": 31722,
+      "sha256": "bdd19ccda77b70555da88ab11918f7524c87ab2048a6e5aef8570302bf37e4e3"
+    },
+    {
+      "name": "before-ready-390.png",
+      "bytes": 30195,
+      "sha256": "56e1727b9ada14ca9226b266f551fe5ebdb3ca63aae2a99a4b4e68a7357ffb5f"
+    },
+    {
+      "name": "natural-result-1280x720.png",
+      "bytes": 33960,
+      "sha256": "3c9865866c45ebdc574af6e7b818af9a89236467626a20eccdf037096909522f"
+    },
+    {
+      "name": "natural-result-1280x900.png",
+      "bytes": 55708,
+      "sha256": "73d33ffb8eec4dada08ab2a618d5b269cd1b756aa1ad0d70d52d585a114ff2f5"
+    },
+    {
+      "name": "natural-result-390x700.png",
+      "bytes": 38347,
+      "sha256": "28caf9c9e8851ace9f7b5380ab280a92229673c44c7d79b7c35d9c4fc74eec58"
+    },
+    {
+      "name": "natural-result-844x390.png",
+      "bytes": 24874,
+      "sha256": "b8a0fa286f176c66f2415bd7cbcc5d5ecde63bee002f491571aa17229d0afaa8"
+    },
+    {
+      "name": "playing-1280x720.png",
+      "bytes": 23384,
+      "sha256": "2981b6ec522a19a28adc728e535674dcb035ad6397d045f7e58fa2b18daca0fd"
+    },
+    {
+      "name": "playing-1280x900.png",
+      "bytes": 42646,
+      "sha256": "ac9e6f43f33e475ad3ed894169c14f40fdc69ab0fb9b911d42a78dfe0ac0ed59"
+    },
+    {
+      "name": "playing-390x700.png",
+      "bytes": 27361,
+      "sha256": "ca92240f6d557088174d1090d7ac89a7c7b3d259768d73610010001ee9fed646"
+    },
+    {
+      "name": "playing-768x900.png",
+      "bytes": 38504,
+      "sha256": "da0fc45493c74111a0cce5161bdb92df5d3eda59e2ffbaf7b7af66516cb5e547"
+    },
+    {
+      "name": "playing-844x390.png",
+      "bytes": 11114,
+      "sha256": "e4374c5a19d4cd7462b51dfa6f379352a6640d460fd83aa401cc5fbb2f11be7c"
+    },
+    {
+      "name": "ready-1280x720.png",
+      "bytes": 35220,
+      "sha256": "d0c9eed87f27cf861e97a8a08e1ab1c289d50aed63be998dcb28f763780f2fe2"
+    },
+    {
+      "name": "ready-1280x900.png",
+      "bytes": 39537,
+      "sha256": "57d6c53722278bcd809456c97c2c2042182f4a1f37298d56f9071a0e28f8ad03"
+    },
+    {
+      "name": "ready-390x700.png",
+      "bytes": 30998,
+      "sha256": "51d2d9b3217f847ec7e753e086ce7283a7dbe0b34cb6aa3131914c49e09c907e"
+    },
+    {
+      "name": "ready-768x900.png",
+      "bytes": 37015,
+      "sha256": "af885c0117eb9a32811802f80fa0850bf338ff61f09ebaf764b3539ab819fe09"
+    },
+    {
+      "name": "ready-844x390.png",
+      "bytes": 14706,
+      "sha256": "14637c9cbbbbb7863e43e924309991fb645434cff4a0e5b6358bc0632170d28f"
+    },
+    {
+      "name": "released-1280x720.png",
+      "bytes": 23384,
+      "sha256": "2981b6ec522a19a28adc728e535674dcb035ad6397d045f7e58fa2b18daca0fd"
+    },
+    {
+      "name": "released-1280x900.png",
+      "bytes": 42646,
+      "sha256": "ac9e6f43f33e475ad3ed894169c14f40fdc69ab0fb9b911d42a78dfe0ac0ed59"
+    },
+    {
+      "name": "released-390x700.png",
+      "bytes": 27361,
+      "sha256": "ca92240f6d557088174d1090d7ac89a7c7b3d259768d73610010001ee9fed646"
+    },
+    {
+      "name": "released-768x900.png",
+      "bytes": 38548,
+      "sha256": "5699ada512795ee27ea01cf872bd855a19e439abb51fd3ff2c99b4647e333ccd"
+    },
+    {
+      "name": "released-844x390.png",
+      "bytes": 11114,
+      "sha256": "e4374c5a19d4cd7462b51dfa6f379352a6640d460fd83aa401cc5fbb2f11be7c"
+    },
+    {
+      "name": "right-1280x720.png",
+      "bytes": 35042,
+      "sha256": "e7050d0501899436b90bcd17837373fb6ceaee988fff1ef8c333a3e811cf5b74"
+    },
+    {
+      "name": "right-1280x900.png",
+      "bytes": 41096,
+      "sha256": "a980df2522641827b451635252c34d45d386ded9936a9e8e1c8fe175c3a456a1"
+    },
+    {
+      "name": "right-390x700.png",
+      "bytes": 27120,
+      "sha256": "e57ace85af5c72844ebc6de7a66c142c3952c9b28cbb6551f79985a7f7aa3dcb"
+    },
+    {
+      "name": "right-768x900.png",
+      "bytes": 38278,
+      "sha256": "565824f2d68a1a130ef39a7e08e74c14f88a823e71600f5e232bbba997491c61"
+    },
+    {
+      "name": "right-844x390.png",
+      "bytes": 12893,
+      "sha256": "810f073da0cf20ca05a0028d50400a8630972ec13adfea9e4c115a73d675ef9a"
+    },
+    {
+      "name": "start-1280x720.png",
+      "bytes": 35047,
+      "sha256": "ea36eb0deb94d30d05e6f92818fa3c65c4942978970ddfbc9b7420748b312298"
+    },
+    {
+      "name": "start-1280x900.png",
+      "bytes": 41113,
+      "sha256": "9cefcb321fa703434d746cf2f22b83166379f73cd2406b65f15b1d8e7ad1cec3"
+    },
+    {
+      "name": "start-390x700.png",
+      "bytes": 26918,
+      "sha256": "48f515e2f9659dce7b8925fbab2bc44528ee30f083dc522ea4a5a60b1055c34b"
+    },
+    {
+      "name": "start-768x900.png",
+      "bytes": 38263,
+      "sha256": "d6c835ee3e3a76c8a191af56721ba4ddc1a0e2511f29c1b5dc02532295a3d8cc"
+    },
+    {
+      "name": "start-844x390.png",
+      "bytes": 12884,
+      "sha256": "df83b8388a64ac6bc65ca69a542fdec1c684b8435bcf8174c927ee61f3100775"
+    }
+  ],
+  "limits": [
+    "Third-party ads blocked only in validation contexts.",
+    "Native controlled miss/loss; no game-state setter, forced end, power helper or score submission.",
+    "Local POST405 fallback distinct from public API start; authenticated storage, natural clear, balance, physical devices and school performance unrun."
+  ]
+}
