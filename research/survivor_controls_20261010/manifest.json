@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-09T21:45:01.814Z",
+  "beforeVersion": "25756701-0a45-4583-abfa-038588211e51",
+  "afterVersion": "218199b6-9107-4a84-a484-d5e317a4a89f",
+  "DPR": 1,
+  "scope": "Four actual ordinary anonymous menu states, same viewport, character/unlocks, selected settings and initial mode. No private account, room code, state injection, clock manipulation or experimental guide-effect claim. Animated illustration timing is incidental.",
+  "files": [
+    {
+      "path": "captures/before-title.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 957006,
+      "sha256": "8ef318a1f16d9ac0d5001adc1e2f9d96cd0a21a87c0be386187c7f312f4cb915"
+    },
+    {
+      "path": "captures/after-title.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 956860,
+      "sha256": "b09e085332baafc9c867dcc104b8b85a9b1324763f2327af8fff31eab2dea5c2"
+    },
+    {
+      "path": "captures/before-options.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 331882,
+      "sha256": "042431d1d1766db7c51313812debce4ff31d121732438a44d88597afc0aba6ec"
+    },
+    {
+      "path": "captures/after-options.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 329608,
+      "sha256": "8feb9d2462e3be592601a7644c2c61fb124f02e10b20a9d128b266b8095f76d1"
+    },
+    {
+      "path": "captures/before-character.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 272695,
+      "sha256": "ea958c157135bcab7189f482e01ceeac1643506f0a601d6a0546458a3639cdf6"
+    },
+    {
+      "path": "captures/after-character.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 272638,
+      "sha256": "cb5a3db2d2e8fb94cf4db76c6c7b5a62267660605ffc2467e0ceb6ffffbadb9a"
+    },
+    {
+      "path": "captures/before-mode.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 187118,
+      "sha256": "443ef9b0dbd0857cc48e50078e1cdef420bd7c37a46c38e1288b44e01849f9d4"
+    },
+    {
+      "path": "captures/after-mode.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 186841,
+      "sha256": "e3c20c5fc92f8d04e02cc3317069dd386088ef6cef926ec23fecc56438fad55a"
+    }
+  ]
+}
