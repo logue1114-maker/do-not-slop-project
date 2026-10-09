@@ -1,0 +1,50 @@
+{
+  "scope": "Actual product delivery, not a design experiment",
+  "siteVersion": 47,
+  "materialHash": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+  "publicVersion": "584da390-7513-47d5-9c92-44668fa5c042",
+  "captures": [
+    {
+      "name": "acquired-trait.png",
+      "bytes": 315170,
+      "width": 1280,
+      "height": 720,
+      "sha256": "863af005144c37932152c174b9f717dd12f056a548b73bdd3c84beb811f3c79f"
+    },
+    {
+      "name": "after-title.png",
+      "bytes": 957048,
+      "width": 1280,
+      "height": 720,
+      "sha256": "c8ac8136b3c452ef552ca79824379772b4679747955d80e092ff5f982fdee424"
+    },
+    {
+      "name": "before-title.png",
+      "bytes": 956981,
+      "width": 1280,
+      "height": 720,
+      "sha256": "652fed0e6ec5edbb6c43aa166deeebf400bfa5e1d6f068423741aa53f10949b2"
+    },
+    {
+      "name": "equipment-reward.png",
+      "bytes": 335342,
+      "width": 1280,
+      "height": 720,
+      "sha256": "756b10e6df2b526bffa890151c13166b5decfec91910947e6bded5244d4408e8"
+    },
+    {
+      "name": "pause-stats.png",
+      "bytes": 319777,
+      "width": 1280,
+      "height": 720,
+      "sha256": "bcb5cbc7347c8d1914cfe2fb117c6b5900e8d38d6442aea69b31cff750109b79"
+    },
+    {
+      "name": "result.png",
+      "bytes": 660731,
+      "width": 1280,
+      "height": 720,
+      "sha256": "bea3eb774270390a30a3fcbf66ffac5416d489beecb57df9733e998bba0ef7d3"
+    }
+  ]
+}
