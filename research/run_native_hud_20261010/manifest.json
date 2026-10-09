@@ -175,8 +175,34 @@
       "sha256": "9ea700696651d00af55ff6408addc963360156735cb0f4667ff3a9c947247252",
       "width": 1280,
       "height": 720
+    },
+    {
+      "name": "loaded-before-ready-390.png",
+      "bytes": 31192,
+      "sha256": "3e60bc399a0968c810ba21c0f1051a077011663754d10b4572a9892f6ef0f1e1",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "loaded-after-ready-390.png",
+      "bytes": 37255,
+      "sha256": "925a718a94b9f7ff13a5d3dd778709994688d82b50bbf23d6af347c51b46cf22",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "matched-loaded-sheet.png",
+      "bytes": 90405,
+      "sha256": "79f0e490f6d782f6d596a7a4028905088599ea69ff1c3b86c1b64292bfe84068",
+      "width": 1872,
+      "height": 724
     }
   ],
   "observationsSHA256": "25c3471831861bd378782b7727e7e713e742b97588b06a8ef7a7c8b144465356",
-  "rights": "User-authorized own-project captures; record/podium areas masked neutral grey. No private IDs, source fonts, third-party media, server code, machine paths or new reuse license."
+  "rights": "User-authorized own-project captures; record/podium areas masked neutral grey. No private IDs, source fonts, third-party media, server code, machine paths or new reuse license.",
+  "supplement": {
+    "scope": "Archived exact pre-release HTML/JS projection versus current public after, real unchanged backend; normal unplayed ready states/loaded records/fonts, no state setter",
+    "observationsSHA256": "fd7c693e8be3ba909adee31a35ba25d603af7e76811a82b283c750d0a42da64d",
+    "originalPairLimit": "Original live before capture had still-loading world record0, after loaded3576; original pair retained, loaded-record pair added without overwriting evidence."
+  }
 }

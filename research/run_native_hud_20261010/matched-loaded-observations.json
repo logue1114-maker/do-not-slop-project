@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "scope": "Archived exact pre-release HTML/JS projection versus current public after, real unchanged backend; normal unplayed ready states/loaded records/fonts, no state setter",
+  "rows": [
+    {
+      "stats": {
+        "tick": 0,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 0,
+        "jumpCount": 0,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "ready"
+      },
+      "records": [
+        {
+          "id": "worldBest",
+          "text": "03576m"
+        },
+        {
+          "id": "todayBest",
+          "text": "00000m"
+        },
+        {
+          "id": "hudScore",
+          "text": "00000m"
+        },
+        {
+          "id": "myBest",
+          "text": "00000m"
+        },
+        {
+          "id": "currentScore",
+          "text": "00000m"
+        }
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 700,
+        "dpr": 1
+      },
+      "arm": "before"
+    },
+    {
+      "stats": {
+        "tick": 0,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 0,
+        "jumpCount": 0,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "ready"
+      },
+      "records": [
+        {
+          "id": "worldBest",
+          "text": "03576m"
+        },
+        {
+          "id": "todayBest",
+          "text": "00000m"
+        },
+        {
+          "id": "hudScore",
+          "text": "00000m"
+        },
+        {
+          "id": "myBest",
+          "text": "00000m"
+        },
+        {
+          "id": "currentScore",
+          "text": "00000m"
+        }
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 700,
+        "dpr": 1
+      },
+      "arm": "after"
+    }
+  ]
+}

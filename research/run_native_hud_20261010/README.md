@@ -5,6 +5,16 @@ ordinary/guided model experiment or proof of a guide's causal effect.
 
 ## Same viewport / actual state
 
+![Ready with matching loaded record labels](captures/matched-loaded-sheet.png)
+
+Final matched ready pair:390×700/DPR1/zoom100, same actual ready statistics AND
+loaded world/today/personal/current labels/fonts. Before is an exact archived
+pre-release HTML/JS projection using the real unchanged backend, not a newly
+captured live old deployment. After is current public. No state setter/clock pause.
+The original live-before pair below is retained: its world record was still0
+while loading versus3576 after loading. That difference was not a record reset
+or a UI change; it limits the original pair's full-data equivalence.
+
 ![Actual ready state before and after](captures/matched-sheet.png)
 
 Both native ready captures are390×700 CSSpx/DPR1/zoom100, separate real contexts,
@@ -69,5 +79,5 @@ Owner-authorized project-owned screenshots and sanitized observations only.
 Record/podium areas use neutral grey privacy masks, not product color. No account
 names/raw IDs/tokens/machine paths/font binaries/third-party media/server code
 are published. Original local results stay outside this research tree. Public
-visibility does not select a new downstream reuse license. Exact20PNG hashes,
+visibility does not select a new downstream reuse license. Exact23PNG hashes,
 viewport/state scope and release identity are in [manifest](manifest.json).
