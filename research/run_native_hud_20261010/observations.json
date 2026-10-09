@@ -1,0 +1,5263 @@
+{
+  "baseline": {
+    "scope": "Actual public Run, native canvas Start/double jump/natural loss; no injected state",
+    "rows": [
+      {
+        "viewport": {
+          "width": 390,
+          "height": 700
+        },
+        "ready": {
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 390,
+          "canvas": {
+            "x": 21,
+            "y": 320.59375,
+            "width": 348,
+            "height": 145
+          },
+          "result": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "bottom": 0
+          }
+        },
+        "jumping": {
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "canvas": {
+            "x": 21,
+            "y": 320.59375,
+            "width": 348,
+            "height": 145
+          },
+          "result": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "bottom": 0
+          }
+        },
+        "result": {
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 38,
+                "height": 64,
+                "kind": 0,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 390,
+          "canvas": {
+            "x": 21,
+            "y": 320.59375,
+            "width": 348,
+            "height": 145
+          },
+          "result": {
+            "x": 29,
+            "y": 259.09375,
+            "width": 332,
+            "height": 268,
+            "bottom": 527.09375
+          }
+        }
+      },
+      {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "ready": {
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 844,
+          "canvas": {
+            "x": 64.40625,
+            "y": 65,
+            "width": 715.1875,
+            "height": 297.984375
+          },
+          "result": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "bottom": 0
+          }
+        },
+        "jumping": {
+          "stats": {
+            "tick": 4,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 44.64,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 844,
+          "canvas": {
+            "x": 64.40625,
+            "y": 65,
+            "width": 715.1875,
+            "height": 297.984375
+          },
+          "result": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "bottom": 0
+          }
+        },
+        "result": {
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 36,
+                "height": 58,
+                "kind": 0,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 844,
+          "canvas": {
+            "x": 64.40625,
+            "y": 65,
+            "width": 715.1875,
+            "height": 297.984375
+          },
+          "result": {
+            "x": 192,
+            "y": 79.984375,
+            "width": 460,
+            "height": 268,
+            "bottom": 347.984375
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "status": "PASS"
+  },
+  "baselineObservationFailure": {
+    "scope": "Actual public Run, native canvas Start/double jump/natural loss; no injected state",
+    "rows": [],
+    "errors": [],
+    "failed": [],
+    "status": "FAIL",
+    "failure": "page.waitForFunction: Timeout 30000ms exceeded."
+  },
+  "public": {
+    "scope": "Fresh public native Run flow",
+    "rows": [
+      {
+        "viewport": {
+          "width": 390,
+          "height": 700
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerReady",
+              "x": 75.46875,
+              "y": 481.09375,
+              "width": 239.046875,
+              "height": 46,
+              "bottom": 527.09375,
+              "text": "스페이스바 또는 화면을 눌러 출발"
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            }
+          ]
+        },
+        "jump": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 4,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 44.64,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            }
+          ]
+        },
+        "pattern": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 79,
+            "level": 1,
+            "speed": 9,
+            "score": 13,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 927,
+                "width": 49,
+                "height": 48,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "단독 장애물",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": "단독 장애물"
+            }
+          ]
+        },
+        "result": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 49,
+                "height": 48,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 483.09375,
+              "width": 348,
+              "height": 145,
+              "bottom": 628.09375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 29,
+              "y": 439.59375,
+              "width": 332,
+              "height": 232,
+              "bottom": 671.59375,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 249.234375,
+              "y": 528.59375,
+              "width": 94.765625,
+              "height": 44,
+              "bottom": 572.59375,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "bottom": 654.59375,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "pairBefore": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 49,
+                "height": 48,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "16px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "16px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "16px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 340.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 485.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 13,
+              "y": 312.59375,
+              "width": 121.984375,
+              "height": 20,
+              "bottom": 332.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 140.4375,
+              "y": 312.59375,
+              "width": 64.515625,
+              "height": 20,
+              "bottom": 332.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 204.953125,
+              "y": 312.59375,
+              "width": 0,
+              "height": 20,
+              "bottom": 332.59375,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 29,
+              "y": 279.09375,
+              "width": 332,
+              "height": 268,
+              "bottom": 547.09375,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 228.546875,
+              "y": 394.09375,
+              "width": 105.453125,
+              "height": 44,
+              "bottom": 438.09375,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 56,
+              "y": 476.09375,
+              "width": 278,
+              "height": 44,
+              "bottom": 520.09375,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "pairAfter": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 49,
+                "height": 48,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 483.09375,
+              "width": 348,
+              "height": 145,
+              "bottom": 628.09375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 29,
+              "y": 439.59375,
+              "width": 332,
+              "height": 232,
+              "bottom": 671.59375,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 249.234375,
+              "y": 528.59375,
+              "width": 94.765625,
+              "height": 44,
+              "bottom": 572.59375,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "bottom": 654.59375,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "pairScope": "Same actual natural loss/tab/DPR1/zoom100; CSS-only, native HUD exists in both arms. Full public baseline separately recorded; no state setter/clock pause.",
+        "controls": {
+          "rest": {
+            "x": 46,
+            "y": 610.59375,
+            "width": 298,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "800",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "shadow": "none",
+            "bg": "rgb(48, 53, 47)"
+          },
+          "hover": {
+            "x": 46,
+            "y": 610.59375,
+            "width": 298,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "800",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+            "bg": "rgb(48, 53, 47)"
+          },
+          "pressed": {
+            "x": 46,
+            "y": 610.59375,
+            "width": 298,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "800",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "shadow": "rgba(65, 68, 63, 0.925) 0px 0px 0px 0.925175px inset",
+            "bg": "rgb(66, 73, 64)"
+          },
+          "focus": {
+            "x": 46,
+            "y": 610.59375,
+            "width": 298,
+            "height": 44,
+            "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "800",
+            "outline": "rgb(23, 107, 73) solid 3px",
+            "shadow": "rgba(4, 5, 4, 0.18) 0px 1.53562px 2.30344px 0.0119881px inset",
+            "bg": "rgb(56, 61, 54)"
+          },
+          "releaseAwayDidNotRetry": true
+        },
+        "retry": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            }
+          ]
+        },
+        "nativeRetry": true
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerReady",
+              "x": 75.46875,
+              "y": 481.09375,
+              "width": 239.046875,
+              "height": 46,
+              "bottom": 527.09375,
+              "text": "스페이스바 또는 화면을 눌러 출발"
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            }
+          ]
+        },
+        "jump": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            }
+          ]
+        },
+        "pattern": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 77,
+            "level": 1,
+            "speed": 9,
+            "score": 12,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 945,
+                "width": 63,
+                "height": 56,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "단독 장애물",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": "단독 장애물"
+            }
+          ]
+        },
+        "result": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 63,
+                "height": 56,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 483.09375,
+              "width": 348,
+              "height": 145,
+              "bottom": 628.09375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 29,
+              "y": 439.59375,
+              "width": 332,
+              "height": 232,
+              "bottom": 671.59375,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 249.234375,
+              "y": 528.59375,
+              "width": 94.765625,
+              "height": 44,
+              "bottom": 572.59375,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "bottom": 654.59375,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "retry": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 390,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 21,
+              "y": 431.59375,
+              "width": 348,
+              "height": 145,
+              "bottom": 576.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 29,
+              "y": 322.59375,
+              "width": 259.546875,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 304.546875,
+              "y": 322.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 342.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 29,
+              "y": 346.59375,
+              "width": 332,
+              "height": 20,
+              "bottom": 366.59375,
+              "text": ""
+            }
+          ]
+        },
+        "nativeRetry": true
+      },
+      {
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "ready": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 768,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 29,
+              "y": 363.59375,
+              "width": 710,
+              "height": 295.828125,
+              "bottom": 659.421875,
+              "text": null
+            },
+            {
+              "id": "runnerReady",
+              "x": 264.46875,
+              "y": 488.5,
+              "width": 239.046875,
+              "height": 46,
+              "bottom": 534.5,
+              "text": "스페이스바 또는 화면을 눌러 출발"
+            },
+            {
+              "id": "runnerTempo",
+              "x": 37,
+              "y": 254.59375,
+              "width": 621.546875,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 674.546875,
+              "y": 254.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 37,
+              "y": 278.59375,
+              "width": 694,
+              "height": 20,
+              "bottom": 298.59375,
+              "text": ""
+            }
+          ]
+        },
+        "jump": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 4,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 44.64,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 768,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 29,
+              "y": 363.59375,
+              "width": 710,
+              "height": 295.828125,
+              "bottom": 659.421875,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 37,
+              "y": 254.59375,
+              "width": 621.546875,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 674.546875,
+              "y": 254.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 37,
+              "y": 278.59375,
+              "width": 694,
+              "height": 20,
+              "bottom": 298.59375,
+              "text": ""
+            }
+          ]
+        },
+        "pattern": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 79,
+            "level": 1,
+            "speed": 9,
+            "score": 13,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "연속 허들",
+            "obstacles": [
+              {
+                "x": 927,
+                "width": 61,
+                "height": 47,
+                "kind": 1,
+                "pattern": 1
+              },
+              {
+                "x": 1105.56,
+                "width": 48,
+                "height": 44,
+                "kind": 1,
+                "pattern": 1
+              }
+            ],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 768,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "연속 허들",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 29,
+              "y": 363.59375,
+              "width": 710,
+              "height": 295.828125,
+              "bottom": 659.421875,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 37,
+              "y": 254.59375,
+              "width": 621.546875,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 674.546875,
+              "y": 254.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 37,
+              "y": 278.59375,
+              "width": 694,
+              "height": 20,
+              "bottom": 298.59375,
+              "text": "연속 허들"
+            }
+          ]
+        },
+        "result": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "연속 허들",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 61,
+                "height": 47,
+                "kind": 1,
+                "pattern": 1
+              },
+              {
+                "x": 322.55999999999995,
+                "width": 48,
+                "height": 44,
+                "kind": 1,
+                "pattern": 1
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 768,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 29,
+              "y": 363.59375,
+              "width": 710,
+              "height": 295.828125,
+              "bottom": 659.421875,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 37,
+              "y": 254.59375,
+              "width": 621.546875,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 674.546875,
+              "y": 254.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 37,
+              "y": 278.59375,
+              "width": 694,
+              "height": 20,
+              "bottom": 298.59375,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 164,
+              "y": 395.5,
+              "width": 440,
+              "height": 232,
+              "bottom": 627.5,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 492.234375,
+              "y": 484.5,
+              "width": 94.765625,
+              "height": 44,
+              "bottom": 528.5,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 181,
+              "y": 566.5,
+              "width": 406,
+              "height": 44,
+              "bottom": 610.5,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "retry": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 768,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 29,
+              "y": 363.59375,
+              "width": 710,
+              "height": 295.828125,
+              "bottom": 659.421875,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 37,
+              "y": 254.59375,
+              "width": 621.546875,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 674.546875,
+              "y": 254.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 274.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 37,
+              "y": 278.59375,
+              "width": 694,
+              "height": 20,
+              "bottom": 298.59375,
+              "text": ""
+            }
+          ]
+        },
+        "nativeRetry": true
+      },
+      {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "ready": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 844,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 34,
+              "y": 118,
+              "width": 576,
+              "height": 240,
+              "bottom": 358,
+              "text": null
+            },
+            {
+              "id": "runnerReady",
+              "x": 202.46875,
+              "y": 215,
+              "width": 239.046875,
+              "height": 46,
+              "bottom": 261,
+              "text": "스페이스바 또는 화면을 눌러 출발"
+            },
+            {
+              "id": "runnerTempo",
+              "x": 21,
+              "y": 63,
+              "width": 529.546875,
+              "height": 20,
+              "bottom": 83,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 566.546875,
+              "y": 63,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 83,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 21,
+              "y": 87,
+              "width": 602,
+              "height": 20,
+              "bottom": 107,
+              "text": ""
+            }
+          ]
+        },
+        "jump": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 4,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 44.64,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 844,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 34,
+              "y": 118,
+              "width": 576,
+              "height": 240,
+              "bottom": 358,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 21,
+              "y": 63,
+              "width": 529.546875,
+              "height": 20,
+              "bottom": 83,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 566.546875,
+              "y": 63,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 83,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 21,
+              "y": 87,
+              "width": 602,
+              "height": 20,
+              "bottom": 107,
+              "text": ""
+            }
+          ]
+        },
+        "pattern": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 78,
+            "level": 1,
+            "speed": 9,
+            "score": 13,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 936,
+                "width": 40,
+                "height": 58,
+                "kind": 0,
+                "pattern": 0
+              }
+            ],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 844,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "단독 장애물",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 34,
+              "y": 118,
+              "width": 576,
+              "height": 240,
+              "bottom": 358,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 21,
+              "y": 63,
+              "width": 529.546875,
+              "height": 20,
+              "bottom": 83,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 566.546875,
+              "y": 63,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 83,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 21,
+              "y": 87,
+              "width": 602,
+              "height": 20,
+              "bottom": 107,
+              "text": "단독 장애물"
+            }
+          ]
+        },
+        "result": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 40,
+                "height": 58,
+                "kind": 0,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 844,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 34,
+              "y": 118,
+              "width": 576,
+              "height": 240,
+              "bottom": 358,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 21,
+              "y": 63,
+              "width": 529.546875,
+              "height": 20,
+              "bottom": 83,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 566.546875,
+              "y": 63,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 83,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 21,
+              "y": 87,
+              "width": 602,
+              "height": 20,
+              "bottom": 107,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 102,
+              "y": 133,
+              "width": 440,
+              "height": 210,
+              "bottom": 343,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 436.234375,
+              "y": 206,
+              "width": 94.765625,
+              "height": 44,
+              "bottom": 250,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 113,
+              "y": 288,
+              "width": 418,
+              "height": 44,
+              "bottom": 332,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "retry": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 4,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 44.64,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 844,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 34,
+              "y": 118,
+              "width": 576,
+              "height": 240,
+              "bottom": 358,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 21,
+              "y": 63,
+              "width": 529.546875,
+              "height": 20,
+              "bottom": 83,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 566.546875,
+              "y": 63,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 83,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 21,
+              "y": 87,
+              "width": 602,
+              "height": 20,
+              "bottom": 107,
+              "text": ""
+            }
+          ]
+        },
+        "nativeRetry": true
+      },
+      {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "ready": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 1280,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 352,
+              "y": 374.59375,
+              "width": 576,
+              "height": 240,
+              "bottom": 614.59375,
+              "text": null
+            },
+            {
+              "id": "runnerReady",
+              "x": 520.46875,
+              "y": 471.59375,
+              "width": 239.046875,
+              "height": 46,
+              "bottom": 517.59375,
+              "text": "스페이스바 또는 화면을 눌러 출발"
+            },
+            {
+              "id": "runnerTempo",
+              "x": 189.796875,
+              "y": 265.59375,
+              "width": 827.953125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 1033.75,
+              "y": 265.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 189.796875,
+              "y": 289.59375,
+              "width": 900.40625,
+              "height": 20,
+              "bottom": 309.59375,
+              "text": ""
+            }
+          ]
+        },
+        "jump": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 1280,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 352,
+              "y": 374.59375,
+              "width": 576,
+              "height": 240,
+              "bottom": 614.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 189.796875,
+              "y": 265.59375,
+              "width": 827.953125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 1033.75,
+              "y": 265.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 189.796875,
+              "y": 289.59375,
+              "width": 900.40625,
+              "height": 20,
+              "bottom": 309.59375,
+              "text": ""
+            }
+          ]
+        },
+        "pattern": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 78,
+            "level": 1,
+            "speed": 9,
+            "score": 13,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 936,
+                "width": 55,
+                "height": 50,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 1280,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "단독 장애물",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 352,
+              "y": 374.59375,
+              "width": 576,
+              "height": 240,
+              "bottom": 614.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 189.796875,
+              "y": 265.59375,
+              "width": 827.953125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 1033.75,
+              "y": 265.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 189.796875,
+              "y": 289.59375,
+              "width": 900.40625,
+              "height": 20,
+              "bottom": 309.59375,
+              "text": "단독 장애물"
+            }
+          ]
+        },
+        "result": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 166,
+            "level": 1,
+            "speed": 9,
+            "score": 27,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [
+              {
+                "x": 144,
+                "width": 55,
+                "height": 50,
+                "kind": 1,
+                "pattern": 0
+              }
+            ],
+            "gameOver": true,
+            "phase": "over"
+          },
+          "scrollWidth": 1280,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 352,
+              "y": 378.59375,
+              "width": 576,
+              "height": 240,
+              "bottom": 618.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 189.796875,
+              "y": 265.59375,
+              "width": 827.953125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 1033.75,
+              "y": 265.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 189.796875,
+              "y": 289.59375,
+              "width": 900.40625,
+              "height": 20,
+              "bottom": 309.59375,
+              "text": ""
+            },
+            {
+              "id": "gameOverPanel",
+              "x": 420,
+              "y": 382.59375,
+              "width": 440,
+              "height": 232,
+              "bottom": 614.59375,
+              "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+            },
+            {
+              "id": "submitScore",
+              "x": 748.234375,
+              "y": 471.59375,
+              "width": 94.765625,
+              "height": 44,
+              "bottom": 515.59375,
+              "text": "기록 등록"
+            },
+            {
+              "id": "retryButton",
+              "x": 437,
+              "y": 553.59375,
+              "width": 406,
+              "height": 44,
+              "bottom": 597.59375,
+              "text": "다시 달리기"
+            }
+          ]
+        },
+        "retry": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 5,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 53.879999999999995,
+            "jumpCount": 2,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "running"
+          },
+          "scrollWidth": 1280,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 2/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 352,
+              "y": 374.59375,
+              "width": 576,
+              "height": 240,
+              "bottom": 614.59375,
+              "text": null
+            },
+            {
+              "id": "runnerTempo",
+              "x": 189.796875,
+              "y": 265.59375,
+              "width": 827.953125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 1033.75,
+              "y": 265.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "점프 2/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 189.796875,
+              "y": 289.59375,
+              "width": 900.40625,
+              "height": 20,
+              "bottom": 309.59375,
+              "text": ""
+            }
+          ]
+        },
+        "nativeRetry": true
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "status": "PASS"
+  },
+  "local": [
+    {
+      "pass": "local1",
+      "scope": "Three-resource projection; real backend/original assets, no state injection",
+      "rows": [
+        {
+          "viewport": {
+            "width": 390,
+            "height": 700
+          },
+          "ready": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 0,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "ready"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerReady",
+                "x": 75.46875,
+                "y": 481.09375,
+                "width": 239.046875,
+                "height": 46,
+                "bottom": 527.09375,
+                "text": "스페이스바 또는 화면을 눌러 출발"
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              }
+            ]
+          },
+          "jump": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 4,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 44.64,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              }
+            ]
+          },
+          "pattern": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 78,
+              "level": 1,
+              "speed": 9,
+              "score": 13,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 936,
+                  "width": 42,
+                  "height": 62,
+                  "kind": 0,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "단독 장애물",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": "단독 장애물"
+              }
+            ]
+          },
+          "result": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 42,
+                  "height": 62,
+                  "kind": 0,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 483.09375,
+                "width": 348,
+                "height": 145,
+                "bottom": 628.09375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 29,
+                "y": 439.59375,
+                "width": 332,
+                "height": 232,
+                "bottom": 671.59375,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 249.234375,
+                "y": 528.59375,
+                "width": 94.765625,
+                "height": 44,
+                "bottom": 572.59375,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 46,
+                "y": 610.59375,
+                "width": 298,
+                "height": 44,
+                "bottom": 654.59375,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "pairBefore": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 42,
+                  "height": 62,
+                  "kind": 0,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "16px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "16px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "16px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 340.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 485.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 13,
+                "y": 312.59375,
+                "width": 121.984375,
+                "height": 20,
+                "bottom": 332.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 140.4375,
+                "y": 312.59375,
+                "width": 64.515625,
+                "height": 20,
+                "bottom": 332.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 204.953125,
+                "y": 312.59375,
+                "width": 0,
+                "height": 20,
+                "bottom": 332.59375,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 29,
+                "y": 279.09375,
+                "width": 332,
+                "height": 268,
+                "bottom": 547.09375,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 228.546875,
+                "y": 394.09375,
+                "width": 105.453125,
+                "height": 44,
+                "bottom": 438.09375,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 56,
+                "y": 476.09375,
+                "width": 278,
+                "height": 44,
+                "bottom": 520.09375,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "pairAfter": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 42,
+                  "height": 62,
+                  "kind": 0,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 483.09375,
+                "width": 348,
+                "height": 145,
+                "bottom": 628.09375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 29,
+                "y": 439.59375,
+                "width": 332,
+                "height": 232,
+                "bottom": 671.59375,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 249.234375,
+                "y": 528.59375,
+                "width": 94.765625,
+                "height": 44,
+                "bottom": 572.59375,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 46,
+                "y": 610.59375,
+                "width": 298,
+                "height": 44,
+                "bottom": 654.59375,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "pairScope": "Same actual natural loss/tab/DPR1/zoom100; CSS-only, native HUD exists in both arms. Full public baseline separately recorded; no state setter/clock pause.",
+          "controls": {
+            "rest": {
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "800",
+              "outline": "rgb(255, 255, 255) none 3px",
+              "shadow": "none",
+              "bg": "rgb(48, 53, 47)"
+            },
+            "hover": {
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "800",
+              "outline": "rgb(255, 255, 255) none 3px",
+              "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+              "bg": "rgb(48, 53, 47)"
+            },
+            "pressed": {
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "800",
+              "outline": "rgb(255, 255, 255) none 3px",
+              "shadow": "rgba(65, 68, 63, 0.984) 0px 0px 0px 0.983471px inset",
+              "bg": "rgb(66, 73, 64)"
+            },
+            "focus": {
+              "x": 46,
+              "y": 610.59375,
+              "width": 298,
+              "height": 44,
+              "font": "GomgomKkalkkeum, \"Noto Sans KR\", system-ui, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "800",
+              "outline": "rgb(23, 107, 73) solid 3px",
+              "shadow": "rgba(5, 5, 4, 0.18) 0px 1.53562px 2.30344px 0.0127434px inset",
+              "bg": "rgb(56, 62, 54)"
+            },
+            "releaseAwayDidNotRetry": true
+          },
+          "retry": {
+            "viewport": {
+              "width": 390,
+              "height": 700,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 4,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 44.64,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              }
+            ]
+          },
+          "nativeRetry": true
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "ready": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 0,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "ready"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerReady",
+                "x": 75.46875,
+                "y": 481.09375,
+                "width": 239.046875,
+                "height": 46,
+                "bottom": 527.09375,
+                "text": "스페이스바 또는 화면을 눌러 출발"
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              }
+            ]
+          },
+          "jump": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 4,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 44.64,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              }
+            ]
+          },
+          "pattern": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 78,
+              "level": 1,
+              "speed": 9,
+              "score": 13,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "연속 허들",
+              "obstacles": [
+                {
+                  "x": 936,
+                  "width": 55,
+                  "height": 45,
+                  "kind": 1,
+                  "pattern": 1
+                },
+                {
+                  "x": 1101.6,
+                  "width": 36,
+                  "height": 56,
+                  "kind": 0,
+                  "pattern": 1
+                }
+              ],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "연속 허들",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": "연속 허들"
+              }
+            ]
+          },
+          "result": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "연속 허들",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 55,
+                  "height": 45,
+                  "kind": 1,
+                  "pattern": 1
+                },
+                {
+                  "x": 309.5999999999999,
+                  "width": 36,
+                  "height": 56,
+                  "kind": 0,
+                  "pattern": 1
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 483.09375,
+                "width": 348,
+                "height": 145,
+                "bottom": 628.09375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 29,
+                "y": 439.59375,
+                "width": 332,
+                "height": 232,
+                "bottom": 671.59375,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 249.234375,
+                "y": 528.59375,
+                "width": 94.765625,
+                "height": 44,
+                "bottom": 572.59375,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 46,
+                "y": 610.59375,
+                "width": 298,
+                "height": 44,
+                "bottom": 654.59375,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "retry": {
+            "viewport": {
+              "width": 390,
+              "height": 844,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 5,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 53.879999999999995,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 390,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 21,
+                "y": 431.59375,
+                "width": 348,
+                "height": 145,
+                "bottom": 576.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 29,
+                "y": 322.59375,
+                "width": 259.546875,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 304.546875,
+                "y": 322.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 342.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 29,
+                "y": 346.59375,
+                "width": 332,
+                "height": 20,
+                "bottom": 366.59375,
+                "text": ""
+              }
+            ]
+          },
+          "nativeRetry": true
+        },
+        {
+          "viewport": {
+            "width": 768,
+            "height": 900
+          },
+          "ready": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 0,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "ready"
+            },
+            "scrollWidth": 768,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 29,
+                "y": 363.59375,
+                "width": 710,
+                "height": 295.828125,
+                "bottom": 659.421875,
+                "text": null
+              },
+              {
+                "id": "runnerReady",
+                "x": 264.46875,
+                "y": 488.5,
+                "width": 239.046875,
+                "height": 46,
+                "bottom": 534.5,
+                "text": "스페이스바 또는 화면을 눌러 출발"
+              },
+              {
+                "id": "runnerTempo",
+                "x": 37,
+                "y": 254.59375,
+                "width": 621.546875,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 674.546875,
+                "y": 254.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 37,
+                "y": 278.59375,
+                "width": 694,
+                "height": 20,
+                "bottom": 298.59375,
+                "text": ""
+              }
+            ]
+          },
+          "jump": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 5,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 53.879999999999995,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 768,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 29,
+                "y": 363.59375,
+                "width": 710,
+                "height": 295.828125,
+                "bottom": 659.421875,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 37,
+                "y": 254.59375,
+                "width": 621.546875,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 674.546875,
+                "y": 254.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 37,
+                "y": 278.59375,
+                "width": 694,
+                "height": 20,
+                "bottom": 298.59375,
+                "text": ""
+              }
+            ]
+          },
+          "pattern": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 77,
+              "level": 1,
+              "speed": 9,
+              "score": 12,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "연속 허들",
+              "obstacles": [
+                {
+                  "x": 945,
+                  "width": 40,
+                  "height": 63,
+                  "kind": 0,
+                  "pattern": 1
+                },
+                {
+                  "x": 1110.6,
+                  "width": 33,
+                  "height": 58,
+                  "kind": 0,
+                  "pattern": 1
+                }
+              ],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 768,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "연속 허들",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 29,
+                "y": 363.59375,
+                "width": 710,
+                "height": 295.828125,
+                "bottom": 659.421875,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 37,
+                "y": 254.59375,
+                "width": 621.546875,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 674.546875,
+                "y": 254.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 37,
+                "y": 278.59375,
+                "width": 694,
+                "height": 20,
+                "bottom": 298.59375,
+                "text": "연속 허들"
+              }
+            ]
+          },
+          "result": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "연속 허들",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 40,
+                  "height": 63,
+                  "kind": 0,
+                  "pattern": 1
+                },
+                {
+                  "x": 309.5999999999999,
+                  "width": 33,
+                  "height": 58,
+                  "kind": 0,
+                  "pattern": 1
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 768,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 29,
+                "y": 363.59375,
+                "width": 710,
+                "height": 295.828125,
+                "bottom": 659.421875,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 37,
+                "y": 254.59375,
+                "width": 621.546875,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 674.546875,
+                "y": 254.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 37,
+                "y": 278.59375,
+                "width": 694,
+                "height": 20,
+                "bottom": 298.59375,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 164,
+                "y": 395.5,
+                "width": 440,
+                "height": 232,
+                "bottom": 627.5,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 492.234375,
+                "y": 484.5,
+                "width": 94.765625,
+                "height": 44,
+                "bottom": 528.5,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 181,
+                "y": 566.5,
+                "width": 406,
+                "height": 44,
+                "bottom": 610.5,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "retry": {
+            "viewport": {
+              "width": 768,
+              "height": 900,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 4,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 44.64,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 768,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 29,
+                "y": 363.59375,
+                "width": 710,
+                "height": 295.828125,
+                "bottom": 659.421875,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 37,
+                "y": 254.59375,
+                "width": 621.546875,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 674.546875,
+                "y": 254.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 274.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 37,
+                "y": 278.59375,
+                "width": 694,
+                "height": 20,
+                "bottom": 298.59375,
+                "text": ""
+              }
+            ]
+          },
+          "nativeRetry": true
+        },
+        {
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "ready": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 0,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "ready"
+            },
+            "scrollWidth": 844,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 34,
+                "y": 118,
+                "width": 576,
+                "height": 240,
+                "bottom": 358,
+                "text": null
+              },
+              {
+                "id": "runnerReady",
+                "x": 202.46875,
+                "y": 215,
+                "width": 239.046875,
+                "height": 46,
+                "bottom": 261,
+                "text": "스페이스바 또는 화면을 눌러 출발"
+              },
+              {
+                "id": "runnerTempo",
+                "x": 21,
+                "y": 63,
+                "width": 529.546875,
+                "height": 20,
+                "bottom": 83,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 566.546875,
+                "y": 63,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 83,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 21,
+                "y": 87,
+                "width": 602,
+                "height": 20,
+                "bottom": 107,
+                "text": ""
+              }
+            ]
+          },
+          "jump": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 4,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 44.64,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 844,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 34,
+                "y": 118,
+                "width": 576,
+                "height": 240,
+                "bottom": 358,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 21,
+                "y": 63,
+                "width": 529.546875,
+                "height": 20,
+                "bottom": 83,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 566.546875,
+                "y": 63,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 83,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 21,
+                "y": 87,
+                "width": 602,
+                "height": 20,
+                "bottom": 107,
+                "text": ""
+              }
+            ]
+          },
+          "pattern": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 76,
+              "level": 1,
+              "speed": 9,
+              "score": 12,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 954,
+                  "width": 40,
+                  "height": 56,
+                  "kind": 0,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 844,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "단독 장애물",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 34,
+                "y": 118,
+                "width": 576,
+                "height": 240,
+                "bottom": 358,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 21,
+                "y": 63,
+                "width": 529.546875,
+                "height": 20,
+                "bottom": 83,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 566.546875,
+                "y": 63,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 83,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 21,
+                "y": 87,
+                "width": 602,
+                "height": 20,
+                "bottom": 107,
+                "text": "단독 장애물"
+              }
+            ]
+          },
+          "result": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 40,
+                  "height": 56,
+                  "kind": 0,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 844,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 34,
+                "y": 118,
+                "width": 576,
+                "height": 240,
+                "bottom": 358,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 21,
+                "y": 63,
+                "width": 529.546875,
+                "height": 20,
+                "bottom": 83,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 566.546875,
+                "y": 63,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 83,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 21,
+                "y": 87,
+                "width": 602,
+                "height": 20,
+                "bottom": 107,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 102,
+                "y": 133,
+                "width": 440,
+                "height": 210,
+                "bottom": 343,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 436.234375,
+                "y": 206,
+                "width": 94.765625,
+                "height": 44,
+                "bottom": 250,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 113,
+                "y": 288,
+                "width": 418,
+                "height": 44,
+                "bottom": 332,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "retry": {
+            "viewport": {
+              "width": 844,
+              "height": 390,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 5,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 56.519999999999996,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 844,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 34,
+                "y": 118,
+                "width": 576,
+                "height": 240,
+                "bottom": 358,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 21,
+                "y": 63,
+                "width": 529.546875,
+                "height": 20,
+                "bottom": 83,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 566.546875,
+                "y": 63,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 83,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 21,
+                "y": 87,
+                "width": 602,
+                "height": 20,
+                "bottom": 107,
+                "text": ""
+              }
+            ]
+          },
+          "nativeRetry": true
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "activeRow": {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "ready": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "stats": {
+            "tick": 0,
+            "level": 1,
+            "speed": 9,
+            "score": 0,
+            "bearZ": 0,
+            "jumpCount": 0,
+            "patternName": "단독 장애물",
+            "obstacles": [],
+            "gameOver": false,
+            "phase": "ready"
+          },
+          "scrollWidth": 1280,
+          "labels": [
+            {
+              "id": "runnerTempo",
+              "text": "속도 9.0 / 1단계",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerJumps",
+              "text": "점프 0/2",
+              "fontSize": "14px"
+            },
+            {
+              "id": "runnerPattern",
+              "text": "",
+              "fontSize": "14px"
+            }
+          ],
+          "bounds": [
+            {
+              "id": "runnerCanvas",
+              "x": 220,
+              "y": 374.59375,
+              "width": 840,
+              "height": 350,
+              "bottom": 724.59375,
+              "text": null
+            },
+            {
+              "id": "runnerReady",
+              "x": 520.46875,
+              "y": 526.59375,
+              "width": 239.046875,
+              "height": 46,
+              "bottom": 572.59375,
+              "text": "스페이스바 또는 화면을 눌러 출발"
+            },
+            {
+              "id": "runnerTempo",
+              "x": 189.796875,
+              "y": 265.59375,
+              "width": 827.953125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "속도 9.0 / 1단계"
+            },
+            {
+              "id": "runnerJumps",
+              "x": 1033.75,
+              "y": 265.59375,
+              "width": 56.453125,
+              "height": 20,
+              "bottom": 285.59375,
+              "text": "점프 0/2"
+            },
+            {
+              "id": "runnerPattern",
+              "x": 189.796875,
+              "y": 289.59375,
+              "width": 900.40625,
+              "height": 20,
+              "bottom": 309.59375,
+              "text": ""
+            }
+          ]
+        }
+      },
+      "status": "FAIL",
+      "failure": "AssertionError [ERR_ASSERTION]: Ready runnerCanvas clipped"
+    },
+    {
+      "pass": "local2-desktop",
+      "scope": "Three-resource projection; real backend/original assets, no state injection",
+      "rows": [
+        {
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "ready": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 0,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "ready"
+            },
+            "scrollWidth": 1280,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 352,
+                "y": 374.59375,
+                "width": 576,
+                "height": 240,
+                "bottom": 614.59375,
+                "text": null
+              },
+              {
+                "id": "runnerReady",
+                "x": 520.46875,
+                "y": 471.59375,
+                "width": 239.046875,
+                "height": 46,
+                "bottom": 517.59375,
+                "text": "스페이스바 또는 화면을 눌러 출발"
+              },
+              {
+                "id": "runnerTempo",
+                "x": 189.796875,
+                "y": 265.59375,
+                "width": 827.953125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 1033.75,
+                "y": 265.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 189.796875,
+                "y": 289.59375,
+                "width": 900.40625,
+                "height": 20,
+                "bottom": 309.59375,
+                "text": ""
+              }
+            ]
+          },
+          "jump": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 7,
+              "level": 1,
+              "speed": 9,
+              "score": 1,
+              "bearZ": 74.27999999999999,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 1280,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 352,
+                "y": 374.59375,
+                "width": 576,
+                "height": 240,
+                "bottom": 614.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 189.796875,
+                "y": 265.59375,
+                "width": 827.953125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 1033.75,
+                "y": 265.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 189.796875,
+                "y": 289.59375,
+                "width": 900.40625,
+                "height": 20,
+                "bottom": 309.59375,
+                "text": ""
+              }
+            ]
+          },
+          "pattern": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 79,
+              "level": 1,
+              "speed": 9,
+              "score": 13,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 927,
+                  "width": 55,
+                  "height": 52,
+                  "kind": 1,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 1280,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "단독 장애물",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 352,
+                "y": 374.59375,
+                "width": 576,
+                "height": 240,
+                "bottom": 614.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 189.796875,
+                "y": 265.59375,
+                "width": 827.953125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 1033.75,
+                "y": 265.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 189.796875,
+                "y": 289.59375,
+                "width": 900.40625,
+                "height": 20,
+                "bottom": 309.59375,
+                "text": "단독 장애물"
+              }
+            ]
+          },
+          "result": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 166,
+              "level": 1,
+              "speed": 9,
+              "score": 27,
+              "bearZ": 0,
+              "jumpCount": 0,
+              "patternName": "단독 장애물",
+              "obstacles": [
+                {
+                  "x": 144,
+                  "width": 55,
+                  "height": 52,
+                  "kind": 1,
+                  "pattern": 0
+                }
+              ],
+              "gameOver": true,
+              "phase": "over"
+            },
+            "scrollWidth": 1280,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 0/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 352,
+                "y": 378.59375,
+                "width": 576,
+                "height": 240,
+                "bottom": 618.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 189.796875,
+                "y": 265.59375,
+                "width": 827.953125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 1033.75,
+                "y": 265.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "점프 0/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 189.796875,
+                "y": 289.59375,
+                "width": 900.40625,
+                "height": 20,
+                "bottom": 309.59375,
+                "text": ""
+              },
+              {
+                "id": "gameOverPanel",
+                "x": 420,
+                "y": 382.59375,
+                "width": 440,
+                "height": 232,
+                "bottom": 614.59375,
+                "text": "\n          달리기 종료\n          27m\n          \n            닉네임\n            \n            기록 등록\n          \n          \n          다시 달리기\n        "
+              },
+              {
+                "id": "submitScore",
+                "x": 748.234375,
+                "y": 471.59375,
+                "width": 94.765625,
+                "height": 44,
+                "bottom": 515.59375,
+                "text": "기록 등록"
+              },
+              {
+                "id": "retryButton",
+                "x": 437,
+                "y": 553.59375,
+                "width": 406,
+                "height": 44,
+                "bottom": 597.59375,
+                "text": "다시 달리기"
+              }
+            ]
+          },
+          "retry": {
+            "viewport": {
+              "width": 1280,
+              "height": 720,
+              "dpr": 1
+            },
+            "stats": {
+              "tick": 5,
+              "level": 1,
+              "speed": 9,
+              "score": 0,
+              "bearZ": 53.879999999999995,
+              "jumpCount": 2,
+              "patternName": "단독 장애물",
+              "obstacles": [],
+              "gameOver": false,
+              "phase": "running"
+            },
+            "scrollWidth": 1280,
+            "labels": [
+              {
+                "id": "runnerTempo",
+                "text": "속도 9.0 / 1단계",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerJumps",
+                "text": "점프 2/2",
+                "fontSize": "14px"
+              },
+              {
+                "id": "runnerPattern",
+                "text": "",
+                "fontSize": "14px"
+              }
+            ],
+            "bounds": [
+              {
+                "id": "runnerCanvas",
+                "x": 352,
+                "y": 374.59375,
+                "width": 576,
+                "height": 240,
+                "bottom": 614.59375,
+                "text": null
+              },
+              {
+                "id": "runnerTempo",
+                "x": 189.796875,
+                "y": 265.59375,
+                "width": 827.953125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "속도 9.0 / 1단계"
+              },
+              {
+                "id": "runnerJumps",
+                "x": 1033.75,
+                "y": 265.59375,
+                "width": 56.453125,
+                "height": 20,
+                "bottom": 285.59375,
+                "text": "점프 2/2"
+              },
+              {
+                "id": "runnerPattern",
+                "x": 189.796875,
+                "y": 289.59375,
+                "width": 900.40625,
+                "height": 20,
+                "bottom": 309.59375,
+                "text": ""
+              }
+            ]
+          },
+          "nativeRetry": true
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "status": "PASS"
+    }
+  ],
+  "auxiliary": {
+    "fixtures": 3,
+    "boundary": "VM native-HUD helper only; not physical/device/load/authenticated-storage proof"
+  }
+}
