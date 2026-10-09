@@ -1,0 +1,120 @@
+{
+  "kind": "Authorized existing-product correction, not causal guide experiment",
+  "headerRelease": {
+    "at": "2026-10-09T17:39:59.127Z",
+    "version": "2c027af0-a361-431d-9c09-5c4a11e56d98",
+    "rollback": "560d8c6a-64c9-4faa-8c87-0f8d7575f6e2"
+  },
+  "release": {
+    "at": "2026-10-09T17:45:53.063Z",
+    "version": "c9304036-342c-4910-a760-7ee98d08270a",
+    "rollback": "2c027af0-a361-431d-9c09-5c4a11e56d98"
+  },
+  "guides": {
+    "siteVersion": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "implementation": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb",
+    "git": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0"
+  },
+  "deliveries": [
+    {
+      "name": "play-auth.js",
+      "sha256": "f6de37c520cdee67b929b0860b6c268a324492e532cf5dcbe69c4a5009a1d0ee",
+      "before": "ba9c05e643576d5e0e8161ed2466704fe8cbfd0308573b4f1003addbeef5be4d",
+      "bytes": 11847
+    },
+    {
+      "name": "portal-nav.css",
+      "sha256": "f5519460a867a03309575c3a439255c82924d3391e58352d944d5b1f5f6542cd",
+      "before": "bd402ac40b1284652aaccbd304928199ecd4d3b8bc7ec9927b0d249a02142c7b",
+      "bytes": 3946
+    },
+    {
+      "name": "run/index.html",
+      "sha256": "3e2a33aa7c6b2c616eac93643d400ebce08c92203667b1f3ba6f42fa05bdd16c",
+      "before": "d47c890f83f01055a3fd8a3b90c4dacacca7d6c61b97ba3a655d9bb344f88fab",
+      "bytes": 9031
+    }
+  ],
+  "captures": [
+    {
+      "name": "before-run-390.png",
+      "bytes": 37257,
+      "width": 390,
+      "height": 700,
+      "sha256": "9db7c639759367e98a68aeb591f74344fe0fe0c42bc43b128508593b57fa4c2b"
+    },
+    {
+      "name": "after-run-390.png",
+      "bytes": 37333,
+      "width": 390,
+      "height": 700,
+      "sha256": "316c10478916b48448aa2cfb5e3c3705c1cfe8f321047a9bddd600bc124cd3c9"
+    },
+    {
+      "name": "after-dialog-390.png",
+      "bytes": 47417,
+      "width": 390,
+      "height": 700,
+      "sha256": "d4219188fbed022a01493af47f620527aafd59593f0aefb53e8c7b158e192110"
+    },
+    {
+      "name": "after-run-320.png",
+      "bytes": 36095,
+      "width": 320,
+      "height": 700,
+      "sha256": "107bd4e430375304f78ba0dde4251b24e6429e9b75e2f354c3059781c986a81e"
+    },
+    {
+      "name": "after-sky-768.png",
+      "bytes": 53295,
+      "width": 768,
+      "height": 900,
+      "sha256": "9969a173525497e5837b236f3ffff78b47c1f19175884f6ffc5d13d20cfe50c8"
+    },
+    {
+      "name": "after-angry-844.png",
+      "bytes": 28581,
+      "width": 844,
+      "height": 390,
+      "sha256": "97058be9b86a448f53fa0731229e4e6248a511bafdaf60ccd1edf7daf7af455c"
+    },
+    {
+      "name": "after-run-1280.png",
+      "bytes": 45113,
+      "width": 1280,
+      "height": 720,
+      "sha256": "682a710f2800c5c69d15c68db6cadbafeb60fa7ed210ba164f93362b8be48c1d"
+    },
+    {
+      "name": "retained-centered-utility-390.png",
+      "bytes": 37374,
+      "width": 390,
+      "height": 700,
+      "sha256": "e1d53e222af24a72c5061090c0bf47cbf0df948e8e93d7c8468744360e184bba"
+    },
+    {
+      "name": "matched-sheet.png",
+      "bytes": 55974,
+      "width": 852,
+      "height": 904,
+      "sha256": "22b969eb01b39701ebca95072d4b966f52ac6def29f81fb307f1e15afa13008e"
+    },
+    {
+      "name": "retained-focus-space-reopens-dialog.png",
+      "bytes": 46909,
+      "width": 390,
+      "height": 700,
+      "sha256": "1c24791369d26791d08365fa3392b42d59de6979e8b0ed83c2da2d93dfcf1835"
+    },
+    {
+      "name": "projected-focus-guard-double-jump.png",
+      "bytes": 33884,
+      "width": 390,
+      "height": 700,
+      "sha256": "4e936b86dc3ea4442637dddd27a8b6727a3d4925959c5ee380e6fb03d98dc2b3"
+    }
+  ],
+  "observationsSHA256": "d6caba71ab591986ae53c2c258e77256e2710c68fb1530f3dcb61c144fe8c02e",
+  "rights": "Own product screenshots/anonymous state, record/podium masks; no private identities, code/keys, fonts, third-party assets or new license"
+}
