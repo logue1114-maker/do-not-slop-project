@@ -1,0 +1,628 @@
+{
+  "kind": "Existing-product CSS correction; not a model trial",
+  "baseline": [
+    {
+      "url": "https://play.gomgomapps.com/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 257,
+          "y": 4,
+          "width": 62.21875,
+          "height": 40,
+          "right": 319.21875,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 173,
+          "right": 390,
+          "bottom": 173
+        },
+        "primary": {
+          "x": 107.625,
+          "y": 46,
+          "width": 174.75,
+          "height": 32,
+          "right": 282.375,
+          "bottom": 78
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 19,
+        "y": 193.46875,
+        "right": 371,
+        "bottom": 506.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/run/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 312.625,
+          "y": 44,
+          "width": 65.375,
+          "height": 44,
+          "right": 378,
+          "bottom": 88
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 89,
+          "right": 390,
+          "bottom": 89
+        },
+        "primary": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 44,
+          "right": 390,
+          "bottom": 44
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 19,
+        "y": 193.46875,
+        "right": 371,
+        "bottom": 506.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    }
+  ],
+  "public": [
+    {
+      "url": "https://play.gomgomapps.com/",
+      "width": 320,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 242.78125,
+          "y": 4,
+          "width": 62.21875,
+          "height": 40,
+          "right": 305,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 173,
+          "right": 320,
+          "bottom": 173
+        },
+        "primary": {
+          "x": 72.625,
+          "y": 46,
+          "width": 174.75,
+          "height": 32,
+          "right": 247.375,
+          "bottom": 78
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 19,
+        "y": 193.46875,
+        "right": 301,
+        "bottom": 506.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 312.78125,
+          "y": 4,
+          "width": 62.21875,
+          "height": 40,
+          "right": 375,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 173,
+          "right": 390,
+          "bottom": 173
+        },
+        "primary": {
+          "x": 107.625,
+          "y": 46,
+          "width": 174.75,
+          "height": 32,
+          "right": 282.375,
+          "bottom": 78
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 19,
+        "y": 193.46875,
+        "right": 371,
+        "bottom": 506.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/run/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 312.625,
+          "y": 0,
+          "width": 65.375,
+          "height": 44,
+          "right": 378,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 89,
+          "right": 390,
+          "bottom": 89
+        },
+        "primary": {
+          "x": 0,
+          "y": 44,
+          "width": 390,
+          "height": 44,
+          "right": 390,
+          "bottom": 88
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 19,
+        "y": 193.46875,
+        "right": 371,
+        "bottom": 506.515625,
+        "providers": 3
+      },
+      "nativeModal": true,
+      "actualDoubleJumpAfterDialog": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/run/",
+      "width": 320,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 242.625,
+          "y": 0,
+          "width": 65.375,
+          "height": 44,
+          "right": 308,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 89,
+          "right": 320,
+          "bottom": 89
+        },
+        "primary": {
+          "x": 0,
+          "y": 44,
+          "width": 320,
+          "height": 44,
+          "right": 320,
+          "bottom": 88
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 19,
+        "y": 193.46875,
+        "right": 301,
+        "bottom": 506.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/sky/",
+      "width": 768,
+      "height": 900,
+      "header": {
+        "button": {
+          "x": 684.625,
+          "y": 0,
+          "width": 71.375,
+          "height": 44,
+          "right": 756,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 89,
+          "right": 768,
+          "bottom": 89
+        },
+        "primary": {
+          "x": 0,
+          "y": 44,
+          "width": 768,
+          "height": 44,
+          "right": 768,
+          "bottom": 88
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 174,
+        "y": 289.46875,
+        "right": 594,
+        "bottom": 610.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/angry-gomgom/",
+      "width": 844,
+      "height": 390,
+      "header": {
+        "button": {
+          "x": 760.625,
+          "y": 0,
+          "width": 71.375,
+          "height": 44,
+          "right": 832,
+          "bottom": 44
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 89,
+          "right": 844,
+          "bottom": 89
+        },
+        "primary": {
+          "x": 0,
+          "y": 44,
+          "width": 844,
+          "height": 44,
+          "right": 844,
+          "bottom": 88
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 212,
+        "y": 45.46875,
+        "right": 632,
+        "bottom": 344.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/run/",
+      "width": 1280,
+      "height": 720,
+      "header": {
+        "button": {
+          "x": 1193.625,
+          "y": 1.5,
+          "width": 71.375,
+          "height": 44,
+          "right": 1265,
+          "bottom": 45.5
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 48,
+          "right": 1280,
+          "bottom": 48
+        },
+        "primary": {
+          "x": 533.90625,
+          "y": 1.5,
+          "width": 212.1875,
+          "height": 44,
+          "right": 746.09375,
+          "bottom": 45.5
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 430,
+        "y": 199.46875,
+        "right": 850,
+        "bottom": 520.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://play.gomgomapps.com/",
+      "width": 1280,
+      "height": 720,
+      "header": {
+        "button": {
+          "x": 1160.59375,
+          "y": 9,
+          "width": 68.21875,
+          "height": 42,
+          "right": 1228.8125,
+          "bottom": 51
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 113,
+          "right": 1280,
+          "bottom": 113
+        },
+        "primary": {
+          "x": 536.625,
+          "y": 9,
+          "width": 206.75,
+          "height": 38,
+          "right": 743.375,
+          "bottom": 47
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": true
+      },
+      "dialog": {
+        "x": 430,
+        "y": 199.46875,
+        "right": 850,
+        "bottom": 520.515625,
+        "providers": 3
+      },
+      "nativeModal": true
+    },
+    {
+      "url": "https://gomgomapps.com/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 315,
+          "y": 10,
+          "width": 60,
+          "height": 38,
+          "right": 375,
+          "bottom": 48
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 99,
+          "right": 390,
+          "bottom": 99
+        },
+        "primary": {
+          "x": 15,
+          "y": 49,
+          "width": 360,
+          "height": 40,
+          "right": 375,
+          "bottom": 89
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": false
+      },
+      "bridgeSessionHTTP": 200,
+      "loginDestination": "https://play.gomgomapps.com/account/?siteReturn=https%3A%2F%2Fgomgomapps.com%2F"
+    },
+    {
+      "url": "https://edu.gomgomapps.com/edu/study/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 316,
+          "y": 8,
+          "width": 60,
+          "height": 38,
+          "right": 376,
+          "bottom": 46
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 143.796875,
+          "right": 390,
+          "bottom": 143.796875
+        },
+        "primary": {
+          "x": 14,
+          "y": 53,
+          "width": 362,
+          "height": 40,
+          "right": 376,
+          "bottom": 93
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": false
+      },
+      "bridgeSessionHTTP": 200,
+      "loginDestination": "https://play.gomgomapps.com/account/?siteReturn=https%3A%2F%2Fedu.gomgomapps.com%2Fedu%2Fstudy%2F"
+    },
+    {
+      "url": "https://apps.gomgomapps.com/software/",
+      "width": 390,
+      "height": 700,
+      "header": {
+        "button": {
+          "x": 315,
+          "y": 14,
+          "width": 60,
+          "height": 38,
+          "right": 375,
+          "bottom": 52
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 149.796875,
+          "right": 390,
+          "bottom": 149.796875
+        },
+        "primary": {
+          "x": 15,
+          "y": 53,
+          "width": 360,
+          "height": 40,
+          "right": 375,
+          "bottom": 93
+        },
+        "buttons": 1,
+        "overflow": false,
+        "links": [
+          "Home",
+          "Edu",
+          "Play",
+          "Apps"
+        ],
+        "isModal": false
+      },
+      "bridgeSessionHTTP": 200,
+      "loginDestination": "https://play.gomgomapps.com/account/?siteReturn=https%3A%2F%2Fapps.gomgomapps.com%2Fsoftware%2F"
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "firstFailures": [
+    "Desktop Play header has intentional responsive outer padding: first universal20px assertion was wrong; desktop72px bound retained independently of unchanged mobile20px bound.",
+    "First portal QA closed pages while read-only session frames were pending; waiting for real bridge200 prevented aborts.",
+    "Edu /edu/ redirects to /edu/study/ and cancels an old analytics request. Unrelated failure retained; final canonical consumer verified without intercepting its scripts."
+  ],
+  "limits": [
+    "Anonymous natural entry/modal only; full authenticated OAuth/admin/name/physical device/accessibility/load not run.",
+    "Main/Edu/Apps remain unchanged; actual final public mobile placement and bridge session200 observed.",
+    "Only2CSS projected locally; actual public byte readback and native modal/Run doublejump observed after deployment.",
+    "Ads explicitly blocked; records masked in neutral gray; no private identity or forced game state.",
+    "Before/after normal anonymous ready and open modal at390x700/DPR1; not an instruction-effect experiment or measured usability gain."
+  ]
+}

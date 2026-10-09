@@ -1,0 +1,93 @@
+{
+  "release": {
+    "at": "2026-10-09T18:20:07.214Z",
+    "version": "d5d665c1-e1d5-45ef-baab-bf08b469ddb2",
+    "rollback": "f7b0c728-6b59-4b7d-9f6f-45469a26e07b"
+  },
+  "guides": {
+    "site": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "git": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0",
+    "implementation": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb"
+  },
+  "deliveries": [
+    {
+      "name": "play.css",
+      "sha256": "5924605a8db36b29d09ca69fbba474ba1554d77c90b0ffa842b8796c2f57de83",
+      "before": "5a55c66ab34a96c8b05ed3a9a13384f418bb73e6cb0b28edc2d812b33df6c590",
+      "bytes": 15921
+    },
+    {
+      "name": "portal-nav.css",
+      "sha256": "7d3312ab2d8d968336f3c09e34f0f153132ca843dcd6b11a8a8d770ef903b585",
+      "before": "f5519460a867a03309575c3a439255c82924d3391e58352d944d5b1f5f6542cd",
+      "bytes": 4050
+    }
+  ],
+  "captures": [
+    {
+      "name": "before-hub-ready-390.png",
+      "bytes": 96787,
+      "width": 390,
+      "height": 700,
+      "sha256": "232044345784ce18da93a3aeb42e76642f01ea4f0c3d2da58136b125c042499d"
+    },
+    {
+      "name": "after-hub-ready-390.png",
+      "bytes": 160954,
+      "width": 390,
+      "height": 700,
+      "sha256": "032cc1b89c73969beb79f0b47828d581fde241854a7a4aa745be3ad5f935cc80"
+    },
+    {
+      "name": "before-hub-dialog-390.png",
+      "bytes": 47498,
+      "width": 390,
+      "height": 700,
+      "sha256": "2b23144ae1576222044af9de23cb60d9a5bb02b577f6c63311225fe9e9c08f08"
+    },
+    {
+      "name": "after-hub-dialog-390.png",
+      "bytes": 69944,
+      "width": 390,
+      "height": 700,
+      "sha256": "37626f8afafa321f3ab461c014adf76cf26de6672ec642fd2c1fdeb227a2d5d6"
+    },
+    {
+      "name": "before-run-ready-390.png",
+      "bytes": 37333,
+      "width": 390,
+      "height": 700,
+      "sha256": "316c10478916b48448aa2cfb5e3c3705c1cfe8f321047a9bddd600bc124cd3c9"
+    },
+    {
+      "name": "after-run-ready-390.png",
+      "bytes": 37332,
+      "width": 390,
+      "height": 700,
+      "sha256": "04220a49d729cc719bbd9e460355d86949f8d2cdb70c764b44a1f4c0ab59f8d3"
+    },
+    {
+      "name": "before-run-dialog-390.png",
+      "bytes": 47417,
+      "width": 390,
+      "height": 700,
+      "sha256": "d4219188fbed022a01493af47f620527aafd59593f0aefb53e8c7b158e192110"
+    },
+    {
+      "name": "after-run-dialog-390.png",
+      "bytes": 47447,
+      "width": 390,
+      "height": 700,
+      "sha256": "331394c0d6e71015e63b2b239aaffbae072d037411f4b4be286bdb9cb8690a6e"
+    },
+    {
+      "name": "matched-sheet.png",
+      "bytes": 214539,
+      "width": 1872,
+      "height": 1352,
+      "sha256": "0de077f813a73887e9d876cadad726d120c9e49eedc84c592892b924c00c4d4c"
+    }
+  ],
+  "rights": "Owner-authorized own product captures and observations only. No private user data, source/font binaries, third-party reference images or license selection."
+}
