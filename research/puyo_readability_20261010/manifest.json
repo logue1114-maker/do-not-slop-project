@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-10",
+  "scope": "Native public anonymous entry/early solo/AI/real4peer lobby/start, same viewport/DPR and named phase. Slime colors and exact gravity frame randomized, not pixel-identical. Room directory and invite code masked. Held and natural end After-only. No state injection, record submit, physical/school-load/external review claim",
+  "beforeVersion": "6f1b3d99-f164-481e-9670-132d8b2a6316",
+  "afterVersion": "9d1a33dd-fecb-40d7-8e55-576843a1b240",
+  "DPR": 1,
+  "files": [
+    {
+      "path": "captures/before-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 121332,
+      "sha256": "2824ea00e829715351d276862c6e72e4eafb5d0ad2d5ef07f952d4b6f4bba54d"
+    },
+    {
+      "path": "captures/after-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 44594,
+      "sha256": "990d52d74de43a36b89c546a7aa21e0307e092a935dc3578074026662b0c5771"
+    },
+    {
+      "path": "captures/before-solo-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 117653,
+      "sha256": "6a057b1da57a8f251679ddb79163b72ac230fbfd149c2cd90c263358c82ce48c"
+    },
+    {
+      "path": "captures/after-solo-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 39721,
+      "sha256": "3ce425df87dc20791e2a6a739896d504000a595b97d80479a689118a6f265713"
+    },
+    {
+      "path": "captures/before-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 323430,
+      "sha256": "66998e8f2c7553213fcafb291b095edfa84defdcfd18f4c4a21655636efbfb5b"
+    },
+    {
+      "path": "captures/after-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 51059,
+      "sha256": "a7a1caa5e743f667d03535bf148a608f1cef27c97e2fae205e24156cc996a9c8"
+    },
+    {
+      "path": "captures/before-solo-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 345105,
+      "sha256": "b0411d355c8967e9baf182d93580a85eae31f3f6c7aefaba8b61d8f07597872f"
+    },
+    {
+      "path": "captures/after-solo-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 47152,
+      "sha256": "3e10e94b238a8687ab88566afc42acca4b609590a16fe45aacd1fb8cab26e479"
+    },
+    {
+      "path": "captures/before-entry-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 144521,
+      "sha256": "ede45cc584f55ab3611b892d8f76d9cccf9c0372bf3d30a5c804cf0d5ac2ed09"
+    },
+    {
+      "path": "captures/after-entry-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 25343,
+      "sha256": "e67fa369dd8c40fd4e517c6f1177a1f4836daa43ebe791e1bd228fbab0b97c57"
+    },
+    {
+      "path": "captures/before-solo-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 112889,
+      "sha256": "82e8a60c847983c26317d72e290dfb4f20faaa5bfe23fc988f382f4c562ca5f3"
+    },
+    {
+      "path": "captures/after-solo-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 31567,
+      "sha256": "792bbe0053754903500bdbeb1b99b861f809c170ea2dbfec759cc7bcd59da27d"
+    },
+    {
+      "path": "captures/before-ai-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 305983,
+      "sha256": "56595fc2da42a45efde6a56615a4e2bbe337efadab240a4d844d538fe00ef5d4"
+    },
+    {
+      "path": "captures/after-ai-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 46949,
+      "sha256": "b1283035952e3d74b958d141c52a94a21c80a20a8eba128f392e9cbaa6fef448"
+    },
+    {
+      "path": "captures/before-lobby4-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 355896,
+      "sha256": "6546867d8dbe2ce9379d0ed4d1fb27392a0fa7ef529f41aa5cc502b74d509e6c"
+    },
+    {
+      "path": "captures/after-lobby4-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 45777,
+      "sha256": "1e2af7f4123726e69bdb28abce297c725c21381f191f8af7fc075dcc4a276858"
+    },
+    {
+      "path": "captures/before-room4-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 305882,
+      "sha256": "3d3123f18fba7ed85a73a7476197a045f75a45e784c9159faa54a395ab51e4f0"
+    },
+    {
+      "path": "captures/after-room4-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 54312,
+      "sha256": "97df10621a21ebbec18c05b3f2ca9b3fdb8e5f800038be4c6bee7548867679c8"
+    },
+    {
+      "path": "captures/before-ai-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 121737,
+      "sha256": "a127b95fc47a11277670ef4c8d5f0b501af413705145eced7c7e5380f7790fcb"
+    },
+    {
+      "path": "captures/after-ai-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 34716,
+      "sha256": "3e60e4d7ce4cf91ac78cf3ca2e2fd7f21c3a017157f44a9f69584595f2db6df0"
+    },
+    {
+      "path": "captures/before-lobby4-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 145031,
+      "sha256": "8cab0c0975adb986142e49084602025d391531bed5b483c06ae1812c58548e7f"
+    },
+    {
+      "path": "captures/after-lobby4-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 26080,
+      "sha256": "108379df3b54b59ac2fd61c33a83c054d7fb54f42cbeb9cbdcb40a78c3cc9e88"
+    },
+    {
+      "path": "captures/before-room4-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 122653,
+      "sha256": "54a7f966a4064566bc1af0b135503f647320b51dbf4e13cb36dfe8e4656e51e3"
+    },
+    {
+      "path": "captures/after-room4-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 39427,
+      "sha256": "d669e0f0a514ed7e52c6404886e42266e17cd3f5716349d14acfe1fa14e3e87e"
+    },
+    {
+      "path": "captures/after-held-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 40185,
+      "sha256": "46c085c6cf1d7e5190719731a11ba8d04bedd53d5746593dda779e7eea953286"
+    },
+    {
+      "path": "captures/after-ended-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 71212,
+      "sha256": "5a61041ee13081779df6e5d31e626fea46f138b2224781a25b63377181e064d4"
+    }
+  ]
+}
