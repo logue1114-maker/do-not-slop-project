@@ -1,0 +1,92 @@
+{
+  "kind": "authored existing-product revision; CSS-only matched pair plus independent final renderer/native-flow checks",
+  "images": [
+    {
+      "name": "captures/before-390-playing.png",
+      "bytes": 51425,
+      "sha256": "16ca94d74e381a51c9ab5b132a8f1dcb758bb326030faf1941b2c21d3b181a72",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/after-390-playing.png",
+      "bytes": 46789,
+      "sha256": "0a3f31ccc8165b85eced43ca9bedd46026ff0520965a11fba08369dc9514875c",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/paired-sheet.png",
+      "bytes": 163138,
+      "sha256": "0d05c0ee9cdca98f1349b13f09afbba788db8baa852322f8818fa5eda3f4a9cb",
+      "width": 912,
+      "height": 924
+    },
+    {
+      "name": "captures/final-ready-390x700.png",
+      "bytes": 33291,
+      "sha256": "136a279048b8a0cc960e81f67960d6a2749954250dd6e22d5e642f94aaea6a5d",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/final-playing-390x700.png",
+      "bytes": 48101,
+      "sha256": "8051c729b249f58cdc26d3a0e7ee02b97ddc17c872065f3415f7bed5a97dd0ed",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/final-result-390x700.png",
+      "bytes": 43893,
+      "sha256": "5e69803b66359e37a62c0737ca88efe8cae90e702515f3c63de1a54cddac4057",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/final-result-844x390.png",
+      "bytes": 34607,
+      "sha256": "c42d1890419e1cda69edf56d10b449fe28f1f303425b91d72246abe34ff35a80",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "captures/final-stage3-1280x900.png",
+      "bytes": 136095,
+      "sha256": "e02c869a984a4b9b39921258807cfef3ffe95c620989e9a19df5eade2f31d82c",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "name": "captures/final-result-1280x900.png",
+      "bytes": 98668,
+      "sha256": "74dc05d6a6eb9ae9f63b9291c94e29aaf919b6ebce49f999f9d91977b86d5c86",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "name": "captures/failed-pair-before-390.png",
+      "bytes": 51401,
+      "sha256": "334aa86c354464dbd0596787a8130c2e159e2f784c0e403453b71ee3fe6292c2",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/failed-pair-after-390.png",
+      "bytes": 47069,
+      "sha256": "8b89d599b8e125e4b061c9f213eb2027f82ea562a1a819891b0100bffdace3a0",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "captures/retained-obscured-stage3.png",
+      "bytes": 136423,
+      "sha256": "0b3bbe7724e711f264af679780a1e4cba286f4e5680bdbd9cb42c39f109e5eaa",
+      "width": 1280,
+      "height": 900
+    }
+  ],
+  "observationSHA256": "89ee43c6b054ea34312f35a50226b919ca19f3157b924ce0b158fa86372b1446",
+  "finalCSSSHA256": "0f737d32346fe0e9906a1f470aaaafaea0d0d61271daf2a8f2068a6ded4c815f",
+  "rights": "Owner-approved scoped screenshots; no new reuse license; no reference media or full engine"
+}

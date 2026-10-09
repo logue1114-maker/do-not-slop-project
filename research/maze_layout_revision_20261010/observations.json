@@ -1,0 +1,978 @@
+{
+  "at": "2026-10-09T14:38:23.455Z",
+  "mode": "local final-candidate projection",
+  "rows": [
+    {
+      "paired": true,
+      "limits": "CSS-only comparison; original canvas presentation loop quiesced after queued frame. No state/seed setter. Fresh final renderer/input verified independently.",
+      "before": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 312.59375,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 517.34375
+        },
+        "hud": {
+          "x": 25,
+          "y": 320.59375,
+          "width": 340,
+          "height": 41,
+          "bottom": 361.59375
+        },
+        "touch": {
+          "x": 13,
+          "y": 517.34375,
+          "width": 364,
+          "height": 73,
+          "bottom": 590.34375
+        },
+        "steps": "0이동",
+        "time": "1.1초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 12,
+            "y": 2
+          },
+          "solutionSteps": 26,
+          "junctions": 31
+        },
+        "canvasHash": "8d49cea51292d00654e5e1fc341199b6e0e0c33c0b5bb3205a6cd38bd51df1c9"
+      },
+      "after": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "steps": "0이동",
+        "time": "1.1초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 12,
+            "y": 2
+          },
+          "solutionSteps": 26,
+          "junctions": 31
+        },
+        "canvasHash": "8d49cea51292d00654e5e1fc341199b6e0e0c33c0b5bb3205a6cd38bd51df1c9"
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "ready": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 173.796875,
+          "y": 285.1875,
+          "width": 932.40625,
+          "height": 524.46875,
+          "bottom": 809.65625
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 809.65625,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 874.65625
+        },
+        "steps": "0이동",
+        "time": "0.0초시간",
+        "maze": {
+          "stage": null,
+          "exit": null,
+          "solutionSteps": 0,
+          "junctions": 0
+        },
+        "canvasHash": "ee54268fb93915017ce247564a7936dab0f015a995a28a7b699e05d624b894a1"
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 173.796875,
+          "y": 285.1875,
+          "width": 932.40625,
+          "height": 524.46875,
+          "bottom": 809.65625
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 809.65625,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 874.65625
+        },
+        "steps": "2이동",
+        "time": "0.2초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 12,
+            "y": 4
+          },
+          "solutionSteps": 20,
+          "junctions": 35
+        },
+        "canvasHash": "878da3fbf91814a7d4c439b3f1ba9ca6440849411cc097b61f1b2f4800469ec1"
+      },
+      "focus": {
+        "outline": "3px",
+        "bounds": {
+          "x": 491,
+          "y": 546.421875,
+          "width": 298,
+          "height": 48,
+          "top": 546.421875,
+          "right": 789,
+          "bottom": 594.421875,
+          "left": 491
+        }
+      },
+      "recovery": {
+        "stages": [
+          {
+            "stage": 1,
+            "nativeMoves": 20,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 2,
+            "nativeMoves": 30,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 3,
+            "nativeMoves": 46,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          }
+        ],
+        "naturalClear": true,
+        "retryStage": 1,
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/maze/presentation.css",
+          "error": "net::ERR_ABORTED",
+          "adBlock": false
+        },
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "ready": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 231.109375,
+          "y": 285.1875,
+          "width": 817.765625,
+          "height": 459.984375,
+          "bottom": 745.171875
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": 225.1875,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": 285.1875
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 745.171875,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 810.171875
+        },
+        "steps": "0이동",
+        "time": "0.0초시간",
+        "maze": {
+          "stage": null,
+          "exit": null,
+          "solutionSteps": 0,
+          "junctions": 0
+        },
+        "canvasHash": "fe74ae541dd8b887a3ef3670c415c58c735990fa7c3e777d46e2539424133b96"
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scroll": 1280,
+        "canvas": {
+          "x": 231.109375,
+          "y": -132.8125,
+          "width": 817.765625,
+          "height": 459.984375,
+          "bottom": 327.171875
+        },
+        "hud": {
+          "x": 173.796875,
+          "y": -192.8125,
+          "width": 932.40625,
+          "height": 60,
+          "bottom": -132.8125
+        },
+        "touch": {
+          "x": 173.796875,
+          "y": 327.171875,
+          "width": 932.40625,
+          "height": 65,
+          "bottom": 392.171875
+        },
+        "steps": "1이동",
+        "time": "0.3초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 12,
+            "y": 7
+          },
+          "solutionSteps": 23,
+          "junctions": 28
+        },
+        "canvasHash": "7806a10cce34970db80a2871e86b88c2271380c13ac0fed7834fbbd395a0f08e"
+      },
+      "focus": {
+        "outline": "3px",
+        "bounds": {
+          "x": 491,
+          "y": 514.171875,
+          "width": 298,
+          "height": 48,
+          "top": 514.171875,
+          "right": 789,
+          "bottom": 562.171875,
+          "left": 491
+        }
+      },
+      "recovery": {
+        "stages": [
+          {
+            "stage": 1,
+            "nativeMoves": 23,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 2,
+            "nativeMoves": 28,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 3,
+            "nativeMoves": 43,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          }
+        ],
+        "naturalClear": true,
+        "retryStage": 1,
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/maze/presentation.css",
+          "error": "net::ERR_ABORTED",
+          "adBlock": false
+        },
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "ready": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 768,
+        "canvas": {
+          "x": 21,
+          "y": 276.390625,
+          "width": 726,
+          "height": 408.375,
+          "bottom": 684.765625
+        },
+        "hud": {
+          "x": 21,
+          "y": 216.390625,
+          "width": 726,
+          "height": 60,
+          "bottom": 276.390625
+        },
+        "touch": {
+          "x": 21,
+          "y": 684.765625,
+          "width": 726,
+          "height": 65,
+          "bottom": 749.765625
+        },
+        "steps": "0이동",
+        "time": "0.0초시간",
+        "maze": {
+          "stage": null,
+          "exit": null,
+          "solutionSteps": 0,
+          "junctions": 0
+        },
+        "canvasHash": "26f24dac4826d72719bbf6c1d537e092722a90122eaa088f1273d63a990877fd"
+      },
+      "playing": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scroll": 768,
+        "canvas": {
+          "x": 21,
+          "y": 276.390625,
+          "width": 726,
+          "height": 408.375,
+          "bottom": 684.765625
+        },
+        "hud": {
+          "x": 21,
+          "y": 216.390625,
+          "width": 726,
+          "height": 60,
+          "bottom": 276.390625
+        },
+        "touch": {
+          "x": 21,
+          "y": 684.765625,
+          "width": 726,
+          "height": 65,
+          "bottom": 749.765625
+        },
+        "steps": "2이동",
+        "time": "0.3초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 12,
+            "y": 1
+          },
+          "solutionSteps": 21,
+          "junctions": 28
+        },
+        "canvasHash": "4349c4516da5220b4f5dd5de771f063d6346a25ca2cff2dca1d57456e3cfd677"
+      },
+      "focus": {
+        "outline": "3px",
+        "bounds": {
+          "x": 235,
+          "y": 479.578125,
+          "width": 298,
+          "height": 48,
+          "top": 479.578125,
+          "right": 533,
+          "bottom": 527.578125,
+          "left": 235
+        }
+      },
+      "recovery": null,
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/maze/presentation.css",
+          "error": "net::ERR_ABORTED",
+          "adBlock": false
+        },
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "ready": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "steps": "0이동",
+        "time": "0.0초시간",
+        "maze": {
+          "stage": null,
+          "exit": null,
+          "solutionSteps": 0,
+          "junctions": 0
+        },
+        "canvasHash": "8b7e2b5d602b7e4951ea5dbec5d596c8a523d9a30e8eeaef14ac6e77c56920e4"
+      },
+      "playing": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scroll": 390,
+        "canvas": {
+          "x": 13,
+          "y": 350.390625,
+          "width": 364,
+          "height": 204.75,
+          "bottom": 555.140625
+        },
+        "hud": {
+          "x": 13,
+          "y": 290.390625,
+          "width": 364,
+          "height": 60,
+          "bottom": 350.390625
+        },
+        "touch": {
+          "x": 13,
+          "y": 555.140625,
+          "width": 364,
+          "height": 65,
+          "bottom": 620.140625
+        },
+        "steps": "2이동",
+        "time": "0.2초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 12,
+            "y": 1
+          },
+          "solutionSteps": 23,
+          "junctions": 28
+        },
+        "canvasHash": "37175aec8982d677dd03fd7ca0e4586c027c7e519d22eb22f9cb72701fca32f6"
+      },
+      "focus": {
+        "outline": "3px",
+        "bounds": {
+          "x": 40,
+          "y": 448.265625,
+          "width": 310,
+          "height": 48,
+          "top": 448.265625,
+          "right": 350,
+          "bottom": 496.265625,
+          "left": 40
+        }
+      },
+      "recovery": {
+        "stages": [
+          {
+            "stage": 1,
+            "nativeMoves": 23,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 2,
+            "nativeMoves": 28,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 3,
+            "nativeMoves": 42,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          }
+        ],
+        "naturalClear": true,
+        "retryStage": 1,
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/maze/presentation.css",
+          "error": "net::ERR_ABORTED",
+          "adBlock": false
+        },
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "ready": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scroll": 844,
+        "canvas": {
+          "x": 190.890625,
+          "y": 117,
+          "width": 462.21875,
+          "height": 259.984375,
+          "bottom": 376.984375
+        },
+        "hud": {
+          "x": 9,
+          "y": 57,
+          "width": 826,
+          "height": 60,
+          "bottom": 117
+        },
+        "touch": {
+          "x": 9,
+          "y": 376.984375,
+          "width": 826,
+          "height": 65,
+          "bottom": 441.984375
+        },
+        "steps": "0이동",
+        "time": "0.0초시간",
+        "maze": {
+          "stage": null,
+          "exit": null,
+          "solutionSteps": 0,
+          "junctions": 0
+        },
+        "canvasHash": "22a3cbaeeaa16c769d7e5dd15260d46ac2e55aefb6787cdb221af69dc8685a00"
+      },
+      "playing": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scroll": 844,
+        "canvas": {
+          "x": 190.890625,
+          "y": 73,
+          "width": 462.21875,
+          "height": 259.984375,
+          "bottom": 332.984375
+        },
+        "hud": {
+          "x": 9,
+          "y": 13,
+          "width": 826,
+          "height": 60,
+          "bottom": 73
+        },
+        "touch": {
+          "x": 9,
+          "y": 332.984375,
+          "width": 826,
+          "height": 65,
+          "bottom": 397.984375
+        },
+        "steps": "2이동",
+        "time": "0.2초시간",
+        "maze": {
+          "stage": 1,
+          "cols": 13,
+          "rows": 9,
+          "exit": {
+            "x": 11,
+            "y": 7
+          },
+          "solutionSteps": 20,
+          "junctions": 27
+        },
+        "canvasHash": "fa6ec2bc025849d6d7e9b231768bf0ef8ef6ca499979828f15980eed4c2de3a2"
+      },
+      "focus": {
+        "outline": "3px",
+        "bounds": {
+          "x": 273,
+          "y": 245.984375,
+          "width": 298,
+          "height": 48,
+          "top": 245.984375,
+          "right": 571,
+          "bottom": 293.984375,
+          "left": 273
+        }
+      },
+      "recovery": {
+        "stages": [
+          {
+            "stage": 1,
+            "nativeMoves": 20,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 2,
+            "nativeMoves": 33,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          },
+          {
+            "stage": 3,
+            "nativeMoves": 42,
+            "routeSource": "visible canvas wall pixels plus read-only existing exit/stage observation"
+          }
+        ],
+        "naturalClear": true,
+        "retryStage": 1,
+        "storageSubmitted": false
+      },
+      "errors": [],
+      "failedRequests": [
+        {
+          "path": "/maze/presentation.css",
+          "error": "net::ERR_ABORTED",
+          "adBlock": false
+        },
+        {
+          "path": "/g.js",
+          "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "adBlock": true
+        }
+      ],
+      "apiResponses": [
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        },
+        {
+          "method": "GET",
+          "path": "/api/classroom-games/leaderboard",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "path": "/api/classroom-games/run/start",
+          "status": 405
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "after-390-playing.png",
+      "bytes": 46789,
+      "sha256": "0a3f31ccc8165b85eced43ca9bedd46026ff0520965a11fba08369dc9514875c"
+    },
+    {
+      "name": "before-390-playing.png",
+      "bytes": 51425,
+      "sha256": "16ca94d74e381a51c9ab5b132a8f1dcb758bb326030faf1941b2c21d3b181a72"
+    },
+    {
+      "name": "natural-result-1280x720.png",
+      "bytes": 60061,
+      "sha256": "2907927de19dd9ee20298ed7389ec61a127cf15393a2dea73736e7cac38e4593"
+    },
+    {
+      "name": "natural-result-1280x900.png",
+      "bytes": 98668,
+      "sha256": "74dc05d6a6eb9ae9f63b9291c94e29aaf919b6ebce49f999f9d91977b86d5c86"
+    },
+    {
+      "name": "natural-result-390x700.png",
+      "bytes": 43893,
+      "sha256": "5e69803b66359e37a62c0737ca88efe8cae90e702515f3c63de1a54cddac4057"
+    },
+    {
+      "name": "natural-result-844x390.png",
+      "bytes": 34607,
+      "sha256": "c42d1890419e1cda69edf56d10b449fe28f1f303425b91d72246abe34ff35a80"
+    },
+    {
+      "name": "playing-1280x720.png",
+      "bytes": 64972,
+      "sha256": "8ee0cb85a3da069c6d78f607190ee286363a249eac24b086f52e57a29302a8a1"
+    },
+    {
+      "name": "playing-1280x900.png",
+      "bytes": 109664,
+      "sha256": "5a0b420b29cece7ff9edb61501019456818a671e35914b7b81788d9d20ccca77"
+    },
+    {
+      "name": "playing-390x700.png",
+      "bytes": 48101,
+      "sha256": "8051c729b249f58cdc26d3a0e7ee02b97ddc17c872065f3415f7bed5a97dd0ed"
+    },
+    {
+      "name": "playing-768x900.png",
+      "bytes": 87238,
+      "sha256": "b36bf8b81230864da9ff736a78e0a6f7af183d6e6f7651b9597032fb7a392250"
+    },
+    {
+      "name": "playing-844x390.png",
+      "bytes": 38791,
+      "sha256": "2551af4102b1252a3de8ff464b80140caefc88218fe77607391f605c7c55cac4"
+    },
+    {
+      "name": "ready-1280x720.png",
+      "bytes": 47754,
+      "sha256": "8d40c0f937c5d8f58fa3414f5c7db854a7050a67b42913fbb24dbb04071fd211"
+    },
+    {
+      "name": "ready-1280x900.png",
+      "bytes": 53553,
+      "sha256": "a1a307b2a1a470b1b35a016de3f2bdf4158491fa7a150fc67548f6db8faca04b"
+    },
+    {
+      "name": "ready-390x700.png",
+      "bytes": 33291,
+      "sha256": "136a279048b8a0cc960e81f67960d6a2749954250dd6e22d5e642f94aaea6a5d"
+    },
+    {
+      "name": "ready-768x900.png",
+      "bytes": 46257,
+      "sha256": "1b9ceafdef1893dcc4ea287899dab60e5ef441d12ed89773262cabd739b2ad95"
+    },
+    {
+      "name": "ready-844x390.png",
+      "bytes": 20192,
+      "sha256": "a0380f6ac41f2e6cf21247a856715bea0483857942881dce975e6a162b19ac2e"
+    },
+    {
+      "name": "stage-1-1280x720-playing.png",
+      "bytes": 66061,
+      "sha256": "dd4a0f9bff99952f773a9e563c37083be2eceb3dad2ad0d59c16f434005369e5"
+    },
+    {
+      "name": "stage-1-1280x900-playing.png",
+      "bytes": 108328,
+      "sha256": "807ab0950bbbc11ee8a8b8d6668f4ed5031c4b5e361deb44fc57e1a535c9f1e2"
+    },
+    {
+      "name": "stage-1-390x700-playing.png",
+      "bytes": 47987,
+      "sha256": "ee0d1666bc34643519d4c06a2333a21081ea06f6026be73a80c7dc5a8ebb7add"
+    },
+    {
+      "name": "stage-1-844x390-playing.png",
+      "bytes": 38719,
+      "sha256": "e8f3c1a05a56d7c8680b6dc0d244cf244bf697a3c4b09cacf1f3464f01f28961"
+    },
+    {
+      "name": "stage-2-1280x720-playing.png",
+      "bytes": 66935,
+      "sha256": "24d972d7c18260cb648d89a6ca4b4760c75bd066149b0d4078a09cab7ac0b3ad"
+    },
+    {
+      "name": "stage-2-1280x900-playing.png",
+      "bytes": 104920,
+      "sha256": "5f78e95e7e6dc2d8c6921ecbd960a423f014827d3ccd22594e77707736b9337e"
+    },
+    {
+      "name": "stage-2-390x700-playing.png",
+      "bytes": 47042,
+      "sha256": "22afeabad73d40d00a0b1409a4c733d68d96b4409abe348ac31477066072e699"
+    },
+    {
+      "name": "stage-2-844x390-playing.png",
+      "bytes": 37461,
+      "sha256": "0a96501ea98feb09f961024f14dd81abd3cad541e01fcaf469996f147d3ae10f"
+    },
+    {
+      "name": "stage-3-1280x720-playing.png",
+      "bytes": 85214,
+      "sha256": "896e8ce9e3e25e65170d3794cfdfe60c0ff309040e8442d737163a2eadfc4d98"
+    },
+    {
+      "name": "stage-3-1280x900-playing.png",
+      "bytes": 136095,
+      "sha256": "e02c869a984a4b9b39921258807cfef3ffe95c620989e9a19df5eade2f31d82c"
+    },
+    {
+      "name": "stage-3-390x700-playing.png",
+      "bytes": 54387,
+      "sha256": "5fde48907594959202d5b28c0d44cb9c8a9e245f0074027d761aef04482e7c72"
+    },
+    {
+      "name": "stage-3-844x390-playing.png",
+      "bytes": 46903,
+      "sha256": "69cf6ecfcae665255384299854d73776c2192c6aabe90fc7299604359344bbb7"
+    }
+  ],
+  "limits": [
+    "Local POST rejected: fallback seed path, not authenticated/run storage proof.",
+    "Third-party ads blocked in validation contexts only.",
+    "Automated native route through rendered wall pixels, not human balance/playtest or physical-device proof.",
+    "No forced progression, result setter or score submission."
+  ]
+}
