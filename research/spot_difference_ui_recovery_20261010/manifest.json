@@ -1,0 +1,155 @@
+{
+  "kind": "Existing-product repair; not ordinary/guided model experiment",
+  "release": {
+    "at": "2026-10-09T16:36:20.383Z",
+    "version": "8abdd60f-dc3c-4bf1-974d-25391cd9bdf5",
+    "rollback": "f0a09a0d-f5f8-4aad-864c-7d7ad355adf9"
+  },
+  "guide": {
+    "deployment": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "git": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0",
+    "AI_INSTRUCTIONS": "c70854cd205ec14947ce28b5d01ce12819cc2f3ddf47b09db7e25efb068be042",
+    "IMPLEMENTATION_ROLES": "50b4fe1dfcbe05a2073b2e301169b87b459b8f1ec95d9e50b23be1d150ce894c",
+    "selected": [
+      "DNS-14",
+      "DNS-18"
+    ]
+  },
+  "deliveries": [
+    {
+      "name": "spot-the-difference/app.js",
+      "sha256": "4f8b3e2173686782ddc83a5065dc278506d72e5629b829edddf2bb3eca0e6ed4",
+      "before": "fdd0bf0cc649e30821c872a90108e928f23b14b42ee032dc15936052b481415b",
+      "bytes": 24485
+    },
+    {
+      "name": "spot-the-difference/index.html",
+      "sha256": "5d43aad409413e39e479ad13f101cf51a8fe791e1aeb0a5a328e1b469a00c7c8",
+      "before": "9b150645154e3d68311da3ed0321054bb8cd0d75dfef907342f9f405e08212de",
+      "bytes": 10069
+    },
+    {
+      "name": "spot-the-difference/presentation.css",
+      "sha256": "0fbcac1d43e4a3319a19516388412b4176c3b8be04506b626da71261643abf55",
+      "before": null,
+      "bytes": 2625
+    }
+  ],
+  "observationsSHA256": "98a41c3cffa40f835f75c919b8ba69abc38eff0b829ac2a6254b23b4d55e756c",
+  "captures": [
+    {
+      "name": "before-ready-390.png",
+      "bytes": 134116,
+      "sha256": "1134df737d1122deaa13d4ff2faf019d46e9bd7951212c219c4d1ba9dc8a13d3",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "after-ready-390.png",
+      "bytes": 136610,
+      "sha256": "44ad8eb0d714b8dc1fe7ed748ce349585717e8ce8d2b8d473fe38827157eef74",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "before-expired-844.png",
+      "bytes": 52318,
+      "sha256": "96b614883c97269c4888dcf7e62eedb1be24911d8421b39885d970bf2c89e589",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "after-expired-844.png",
+      "bytes": 61883,
+      "sha256": "53b2f85e05b8ed24a7385082b736909e943828ded1751b0fba275885ce9a237f",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "matched-sheet.png",
+      "bytes": 351050,
+      "sha256": "e2a00027aae35204ac48a6cbb25b34c1a4da4b06ec40917b1fc68595c8a8d2ff",
+      "width": 1872,
+      "height": 1352
+    },
+    {
+      "name": "baseline-expired-390.png",
+      "bytes": 73929,
+      "sha256": "ffd9fc25f08bee872d6e8bad08cddf416ff5b345aa6bf8e4f14c3d7409458c63",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "baseline-retry-error-390.png",
+      "bytes": 29173,
+      "sha256": "6771b9ffae080df6bb7412278a1e751b5efa8deced0c05017d66fef7314be689",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-ready-390.png",
+      "bytes": 136638,
+      "sha256": "cd217a31bdc552d9d4c909cbc68dc6ba33f4028fcdef7e1edfdb7dd3fb721024",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-playing-390.png",
+      "bytes": 148854,
+      "sha256": "6895f93dacb8c0d03af21926f8815113c5602589e2fc591218d210a2ee5cd12c",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-expired-390.png",
+      "bytes": 70503,
+      "sha256": "5630444a67c42fc09b218f56d56215aff614bb027ec61789bd0606bb0495ee9f",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-retry-390.png",
+      "bytes": 145391,
+      "sha256": "5c8828198e2bb561f6901635a9a1235a8f5c21f9cb4f8e245f0424a8eb685377",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-playing-844.png",
+      "bytes": 73406,
+      "sha256": "9325e95869bfce935f35fef2d0fdaf51fa3067a79d5be53ffbd3bac88cf1be94",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-expired-844.png",
+      "bytes": 62672,
+      "sha256": "1963e3b7252e1129fb3ec0b636478c05690d7071ae54ee9ba910c2390eae3361",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-playing-1280.png",
+      "bytes": 373381,
+      "sha256": "8d56ba396299977e8f1d4388775d6f20fe5bdd42f9e751607f96d36565b94f51",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "retained-clipped-844.png",
+      "bytes": 109271,
+      "sha256": "bc6ff4153310562cc02e654f8011c19484a0cd59542179413c5458081927fff9",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "retained-clipped-1280.png",
+      "bytes": 358505,
+      "sha256": "f1f1245235adacb786619bc7cc595c9d1905676a7a3ba516728f73e3739a27bc",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "rights": "User-authorized project-owned captures. No account/room identifiers. No new license or reference raster/font/private server source."
+}

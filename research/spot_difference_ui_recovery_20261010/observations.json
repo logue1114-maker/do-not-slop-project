@@ -1,0 +1,3395 @@
+{
+  "baseline": {
+    "scope": "Actual public first-stage expiration and native primary retry; no state or clock injection",
+    "errors": [],
+    "responses": [
+      {
+        "kind": "POST",
+        "status": 201,
+        "index": 1,
+        "outcome": "active"
+      },
+      {
+        "kind": "GET",
+        "status": 200,
+        "index": 1,
+        "outcome": "expired"
+      },
+      {
+        "kind": "POST",
+        "status": 409,
+        "error": "previous stage is not completed"
+      }
+    ],
+    "stage": "1 / 3",
+    "result": "시간 종료",
+    "primary": "다음 스테이지",
+    "retryError": "previous stage is not completed",
+    "reproduced": true
+  },
+  "public": {
+    "status": "PASS",
+    "rows": [
+      {
+        "viewport": {
+          "width": 390,
+          "height": 700
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 14,
+              "y": 261.875,
+              "width": 64,
+              "height": 44,
+              "bottom": 305.875
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "GET",
+            "status": 200,
+            "index": 1,
+            "outcome": "expired"
+          },
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 629.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 673.28125
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 686.0625,
+              "width": 44,
+              "height": 44,
+              "bottom": 730.0625
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 686.0625,
+              "width": 44,
+              "height": 44,
+              "bottom": 730.0625
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 686.0625,
+              "width": 64,
+              "height": 44,
+              "bottom": 730.0625
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 37,
+              "y": 395.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 439.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 200,
+              "y": 395.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 439.9375
+            }
+          ]
+        },
+        "nativeHint": true,
+        "expired": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 사용됨",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 659.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 703.671875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 659.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 703.671875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 659.671875,
+              "width": 64,
+              "height": 44,
+              "bottom": 703.671875
+            },
+            {
+              "id": "nextStageButton",
+              "text": "다시 하기",
+              "x": 37,
+              "y": 431.78125,
+              "width": 316,
+              "height": 44,
+              "bottom": 475.78125
+            }
+          ]
+        },
+        "nativeRetryStageOne": true,
+        "retry": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 629.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 673.28125
+            }
+          ]
+        }
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 14,
+              "y": 261.875,
+              "width": 64,
+              "height": 44,
+              "bottom": 305.875
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 676.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 720.671875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 676.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 720.671875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 676.671875,
+              "width": 64,
+              "height": 44,
+              "bottom": 720.671875
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 733.453125,
+              "width": 44,
+              "height": 44,
+              "bottom": 777.453125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 733.453125,
+              "width": 44,
+              "height": 44,
+              "bottom": 777.453125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 733.453125,
+              "width": 64,
+              "height": 44,
+              "bottom": 777.453125
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 37,
+              "y": 467.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 511.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 200,
+              "y": 467.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 511.9375
+            }
+          ]
+        },
+        "nativeHint": true
+      },
+      {
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "ready": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 569.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 14,
+              "y": 228.5625,
+              "width": 64,
+              "height": 44,
+              "bottom": 272.5625
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 569.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 387,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 387,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 506,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 638,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 690,
+              "y": 788.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 832.28125
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 569.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 387,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 387,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 506,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 638,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 690,
+              "y": 788.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 155.71875,
+              "y": 495.9375,
+              "width": 223.28125,
+              "height": 44,
+              "bottom": 539.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 389,
+              "y": 495.9375,
+              "width": 223.28125,
+              "height": 44,
+              "bottom": 539.9375
+            }
+          ]
+        },
+        "nativeHint": true
+      },
+      {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "ready": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 44,
+              "y": 258.53125,
+              "width": 64,
+              "height": 44,
+              "bottom": 302.53125
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "GET",
+            "status": 200,
+            "index": 1,
+            "outcome": "expired"
+          },
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 537.40625,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 617.515625,
+              "y": 52,
+              "width": 116.484375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 537.40625,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 617.515625,
+              "y": 52,
+              "width": 116.484375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 195,
+              "y": 234.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 278.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 427,
+              "y": 234.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 278.9375
+            }
+          ]
+        },
+        "nativeHint": true,
+        "expired": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 551.78125,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 사용됨",
+              "x": 631.890625,
+              "y": 52,
+              "width": 102.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "nextStageButton",
+              "text": "다시 하기",
+              "x": 195,
+              "y": 268.78125,
+              "width": 454,
+              "height": 44,
+              "bottom": 312.78125
+            }
+          ]
+        },
+        "nativeRetryStageOne": true,
+        "retry": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 537.40625,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 617.515625,
+              "y": 52,
+              "width": 116.484375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            }
+          ]
+        }
+      },
+      {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "ready": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 1081.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 104,
+              "y": 390.53125,
+              "width": 64,
+              "height": 44,
+              "bottom": 434.53125
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 1081.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 877.40625,
+              "y": 113.390625,
+              "width": 84.109375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 969.515625,
+              "y": 113.390625,
+              "width": 128.484375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 1106,
+              "y": 113.390625,
+              "width": 94,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 952,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 1084,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 1136,
+              "y": 665.1875,
+              "width": 64,
+              "height": 44,
+              "bottom": 709.1875
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 1081.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 877.40625,
+              "y": 113.390625,
+              "width": 84.109375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 969.515625,
+              "y": 113.390625,
+              "width": 128.484375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 1106,
+              "y": 113.390625,
+              "width": 94,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 952,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 1084,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 1136,
+              "y": 665.1875,
+              "width": 64,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 413,
+              "y": 405.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 449.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 645,
+              "y": 405.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 449.9375
+            }
+          ]
+        },
+        "nativeHint": true
+      }
+    ],
+    "errors": [],
+    "failed": []
+  },
+  "projectedFirstThree": {
+    "status": "FAIL",
+    "rows": [
+      {
+        "viewport": {
+          "width": 390,
+          "height": 700
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 14,
+              "y": 261.875,
+              "width": 64,
+              "height": 44,
+              "bottom": 305.875
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "GET",
+            "status": 200,
+            "index": 1,
+            "outcome": "expired"
+          },
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 629.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 673.28125
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 686.0625,
+              "width": 44,
+              "height": 44,
+              "bottom": 730.0625
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 686.0625,
+              "width": 44,
+              "height": 44,
+              "bottom": 730.0625
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 686.0625,
+              "width": 64,
+              "height": 44,
+              "bottom": 730.0625
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 37,
+              "y": 395.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 439.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 200,
+              "y": 395.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 439.9375
+            }
+          ]
+        },
+        "nativeHint": true,
+        "expired": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 사용됨",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 659.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 703.671875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 659.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 703.671875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 659.671875,
+              "width": 64,
+              "height": 44,
+              "bottom": 703.671875
+            },
+            {
+              "id": "nextStageButton",
+              "text": "다시 하기",
+              "x": 37,
+              "y": 431.78125,
+              "width": 316,
+              "height": 44,
+              "bottom": 475.78125
+            }
+          ]
+        },
+        "nativeRetryStageOne": true,
+        "retry": {
+          "viewport": {
+            "width": 390,
+            "height": 700,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 629.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 673.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 629.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 673.28125
+            }
+          ]
+        }
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "ready": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 14,
+              "y": 261.875,
+              "width": 64,
+              "height": 44,
+              "bottom": 305.875
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 676.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 720.671875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 676.671875,
+              "width": 44,
+              "height": 44,
+              "bottom": 720.671875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 676.671875,
+              "width": 64,
+              "height": 44,
+              "bottom": 720.671875
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 1
+          },
+          "scrollWidth": 390,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 135.453125,
+              "y": 97.1875,
+              "width": 62.21875,
+              "height": 40,
+              "bottom": 137.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 198,
+              "y": 187.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 231.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 198,
+              "y": 237.484375,
+              "width": 178,
+              "height": 44,
+              "bottom": 281.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 14,
+              "y": 733.453125,
+              "width": 44,
+              "height": 44,
+              "bottom": 777.453125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 146,
+              "y": 733.453125,
+              "width": 44,
+              "height": 44,
+              "bottom": 777.453125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 198,
+              "y": 733.453125,
+              "width": 64,
+              "height": 44,
+              "bottom": 777.453125
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 37,
+              "y": 467.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 511.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 200,
+              "y": 467.9375,
+              "width": 153,
+              "height": 44,
+              "bottom": 511.9375
+            }
+          ]
+        },
+        "nativeHint": true
+      },
+      {
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "ready": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 569.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 14,
+              "y": 228.5625,
+              "width": 64,
+              "height": 44,
+              "bottom": 272.5625
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 569.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 387,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 387,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 506,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 638,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 690,
+              "y": 788.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 832.28125
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 768,
+            "height": 900,
+            "dpr": 1
+          },
+          "scrollWidth": 768,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 569.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 14,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 387,
+              "y": 146.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 190.484375
+            },
+            {
+              "id": "compareToggleButton",
+              "text": "이미지 B 보기",
+              "x": 14,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 387,
+              "y": 196.484375,
+              "width": 367,
+              "height": 44,
+              "bottom": 240.484375
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 506,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 638,
+              "y": 788.28125,
+              "width": 44,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 690,
+              "y": 788.28125,
+              "width": 64,
+              "height": 44,
+              "bottom": 832.28125
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 155.71875,
+              "y": 495.9375,
+              "width": 223.28125,
+              "height": 44,
+              "bottom": 539.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 389,
+              "y": 495.9375,
+              "width": 223.28125,
+              "height": 44,
+              "bottom": 539.9375
+            }
+          ]
+        },
+        "nativeHint": true
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "failure": "AssertionError [ERR_ASSERTION]: zoomOutButton below viewport"
+  },
+  "projectedLandscape": {
+    "status": "FAIL",
+    "rows": [
+      {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "ready": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 44,
+              "y": 258.53125,
+              "width": 64,
+              "height": 44,
+              "bottom": 302.53125
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "wrong"
+          },
+          {
+            "method": "GET",
+            "status": 200,
+            "index": 1,
+            "outcome": "expired"
+          },
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 537.40625,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 617.515625,
+              "y": 52,
+              "width": 116.484375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 537.40625,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 617.515625,
+              "y": 52,
+              "width": 116.484375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 195,
+              "y": 234.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 278.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 427,
+              "y": 234.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 278.9375
+            }
+          ]
+        },
+        "nativeHint": true,
+        "expired": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 551.78125,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 사용됨",
+              "x": 631.890625,
+              "y": 52,
+              "width": 102.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "nextStageButton",
+              "text": "다시 하기",
+              "x": 195,
+              "y": 268.78125,
+              "width": 454,
+              "height": 44,
+              "bottom": 312.78125
+            }
+          ]
+        },
+        "nativeRetryStageOne": true,
+        "retry": {
+          "viewport": {
+            "width": 844,
+            "height": 390,
+            "dpr": 1
+          },
+          "scrollWidth": 844,
+          "buttons": [
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 537.40625,
+              "y": 52,
+              "width": 72.109375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 617.515625,
+              "y": 52,
+              "width": 116.484375,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 742,
+              "y": 52,
+              "width": 82,
+              "height": 44,
+              "bottom": 96
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 576,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 708,
+              "y": 337.796875,
+              "width": 44,
+              "height": 44,
+              "bottom": 381.796875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 760,
+              "y": 337.796875,
+              "width": 64,
+              "height": 44,
+              "bottom": 381.796875
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "failure": "AssertionError [ERR_ASSERTION]: zoomOutButton below viewport"
+  },
+  "finalProjectedDesktop": {
+    "status": "PASS",
+    "rows": [
+      {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "ready": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 1081.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "startButton",
+              "text": "시작",
+              "x": 104,
+              "y": 390.53125,
+              "width": 64,
+              "height": 44,
+              "bottom": 434.53125
+            }
+          ]
+        },
+        "calls": [
+          {
+            "method": "POST",
+            "status": 201,
+            "index": 1,
+            "outcome": "active"
+          },
+          {
+            "method": "POST",
+            "status": 200,
+            "index": 1,
+            "outcome": "hint"
+          }
+        ],
+        "playing": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 1081.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 877.40625,
+              "y": 113.390625,
+              "width": 84.109375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 969.515625,
+              "y": 113.390625,
+              "width": 128.484375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "pauseButton",
+              "text": "일시정지",
+              "x": 1106,
+              "y": 113.390625,
+              "width": 94,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 952,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 1084,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 1136,
+              "y": 665.1875,
+              "width": 64,
+              "height": 44,
+              "bottom": 709.1875
+            }
+          ]
+        },
+        "pause": {
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1
+          },
+          "scrollWidth": 1280,
+          "buttons": [
+            {
+              "id": "",
+              "text": "로그인",
+              "x": 1081.78125,
+              "y": 55.1875,
+              "width": 68.21875,
+              "height": 42,
+              "bottom": 97.1875
+            },
+            {
+              "id": "audioButton",
+              "text": "소리 끔",
+              "x": 877.40625,
+              "y": 113.390625,
+              "width": 84.109375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "hintButton",
+              "text": "힌트 1회 남음",
+              "x": 969.515625,
+              "y": 113.390625,
+              "width": 128.484375,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "pauseButton",
+              "text": "계속하기",
+              "x": 1106,
+              "y": 113.390625,
+              "width": 94,
+              "height": 44,
+              "bottom": 157.390625
+            },
+            {
+              "id": "zoomOutButton",
+              "text": "−",
+              "x": 952,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "zoomInButton",
+              "text": "+",
+              "x": 1084,
+              "y": 665.1875,
+              "width": 44,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "fitButton",
+              "text": "맞춤",
+              "x": 1136,
+              "y": 665.1875,
+              "width": 64,
+              "height": 44,
+              "bottom": 709.1875
+            },
+            {
+              "id": "resumeButton",
+              "text": "계속하기",
+              "x": 413,
+              "y": 405.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 449.9375
+            },
+            {
+              "id": "pauseHomeButton",
+              "text": "목록으로",
+              "x": 645,
+              "y": 405.9375,
+              "width": 222,
+              "height": 44,
+              "bottom": 449.9375
+            }
+          ]
+        },
+        "nativeHint": true
+      }
+    ],
+    "errors": [],
+    "failed": []
+  },
+  "initialFailures": [
+    {
+      "pass": "local1",
+      "status": "FAIL",
+      "rows": [],
+      "errors": [],
+      "failed": [],
+      "failure": "AssertionError [ERR_ASSERTION]"
+    },
+    {
+      "pass": "local2",
+      "status": "FAIL",
+      "rows": [],
+      "errors": [],
+      "failed": [],
+      "failure": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:"
+    }
+  ],
+  "pairs": [
+    {
+      "state": "Same tab actual ready; CSS-only, DPR1/zoom100, no game clock or state setter",
+      "before": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "buttons": [
+          {
+            "id": "",
+            "text": "로그인",
+            "x": 135.453125,
+            "y": 97.1875,
+            "width": 62.21875,
+            "height": 40,
+            "bottom": 137.1875
+          },
+          {
+            "id": "startButton",
+            "text": "시작",
+            "x": 14,
+            "y": 287.484375,
+            "width": 72,
+            "height": 50.390625,
+            "bottom": 337.875
+          }
+        ]
+      },
+      "after": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "buttons": [
+          {
+            "id": "",
+            "text": "로그인",
+            "x": 135.453125,
+            "y": 97.1875,
+            "width": 62.21875,
+            "height": 40,
+            "bottom": 137.1875
+          },
+          {
+            "id": "startButton",
+            "text": "시작",
+            "x": 14,
+            "y": 261.875,
+            "width": 64,
+            "height": 44,
+            "bottom": 305.875
+          }
+        ]
+      }
+    },
+    {
+      "state": "Same actual expired run/time0/modal in same tab, CSS-only; result/retry logic identical, no state or clock setter",
+      "before": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "buttons": [
+          {
+            "id": "audioButton",
+            "text": "소리 끔",
+            "x": 515.09375,
+            "y": 52,
+            "width": 83.453125,
+            "height": 44,
+            "bottom": 96
+          },
+          {
+            "id": "hintButton",
+            "text": "힌트 사용됨",
+            "x": 606.546875,
+            "y": 52,
+            "width": 115.453125,
+            "height": 44,
+            "bottom": 96
+          },
+          {
+            "id": "pauseButton",
+            "text": "일시정지",
+            "x": 730,
+            "y": 52,
+            "width": 94,
+            "height": 44,
+            "bottom": 96
+          },
+          {
+            "id": "zoomOutButton",
+            "text": "−",
+            "x": 586.640625,
+            "y": 373.796875,
+            "width": 39.75,
+            "height": 44,
+            "bottom": 417.796875
+          },
+          {
+            "id": "zoomInButton",
+            "text": "+",
+            "x": 714.390625,
+            "y": 373.796875,
+            "width": 39.609375,
+            "height": 44,
+            "bottom": 417.796875
+          },
+          {
+            "id": "fitButton",
+            "text": "맞춤",
+            "x": 762,
+            "y": 373.796875,
+            "width": 62,
+            "height": 44,
+            "bottom": 417.796875
+          },
+          {
+            "id": "nextStageButton",
+            "text": "다시 하기",
+            "x": 195,
+            "y": 273.59375,
+            "width": 109.453125,
+            "height": 50.390625,
+            "bottom": 323.984375
+          }
+        ]
+      },
+      "after": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "buttons": [
+          {
+            "id": "audioButton",
+            "text": "소리 끔",
+            "x": 551.78125,
+            "y": 52,
+            "width": 72.109375,
+            "height": 44,
+            "bottom": 96
+          },
+          {
+            "id": "hintButton",
+            "text": "힌트 사용됨",
+            "x": 631.890625,
+            "y": 52,
+            "width": 102.109375,
+            "height": 44,
+            "bottom": 96
+          },
+          {
+            "id": "pauseButton",
+            "text": "일시정지",
+            "x": 742,
+            "y": 52,
+            "width": 82,
+            "height": 44,
+            "bottom": 96
+          },
+          {
+            "id": "zoomOutButton",
+            "text": "−",
+            "x": 576,
+            "y": 337.796875,
+            "width": 44,
+            "height": 44,
+            "bottom": 381.796875
+          },
+          {
+            "id": "zoomInButton",
+            "text": "+",
+            "x": 708,
+            "y": 337.796875,
+            "width": 44,
+            "height": 44,
+            "bottom": 381.796875
+          },
+          {
+            "id": "fitButton",
+            "text": "맞춤",
+            "x": 760,
+            "y": 337.796875,
+            "width": 64,
+            "height": 44,
+            "bottom": 381.796875
+          },
+          {
+            "id": "nextStageButton",
+            "text": "다시 하기",
+            "x": 195,
+            "y": 268.78125,
+            "width": 454,
+            "height": 44,
+            "bottom": 312.78125
+          }
+        ]
+      }
+    }
+  ],
+  "tests": {
+    "sourceAndVM": 11,
+    "serverSQLiteFixture": 4,
+    "scope": "Auxiliary checks; no authenticated completion/storage or physical-device proof"
+  }
+}
