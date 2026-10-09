@@ -1,0 +1,161 @@
+{
+  "kind": "Original existing-product UI repair; not controlled model experiment",
+  "release": {
+    "at": "2026-10-09T16:01:04.237Z",
+    "version": "f0a09a0d-f5f8-4aad-864c-7d7ad355adf9",
+    "rollback": "02f4e7ec-754b-4cbf-937a-dfadbf7adec0"
+  },
+  "guide": {
+    "deployment": 46,
+    "material": "f153ff9c3306646fdc60214042797c6714a9bb7eab520ef43cd07f67c8fd4544",
+    "git": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0"
+  },
+  "deliveries": [
+    {
+      "name": "party-race/assets/client.js",
+      "sha256": "2be708f2debd14874bf2e15edad46d8e8507d81889693cc5085420c61646060e",
+      "before": "ab8ab463a1a9aa1df4d19c62a93b66a7d11306b0550cf9bc265be2afa35224bb",
+      "bytes": 34838
+    },
+    {
+      "name": "party-race/assets/mechanism-art.js",
+      "sha256": "18c63ec7790e3678712c135e07916b6a266f5506ec4deb18b6c441daaa28e2ef",
+      "before": "3b6462e6fda2d83a4742bbab770d0b04c870b6269a11172039ab6a8597553200",
+      "bytes": 9441
+    },
+    {
+      "name": "party-race/assets/presentation.css",
+      "sha256": "ce57a53a207b6ee772e858364cbba47bb8d8367944eff9a7cd2a86f28b88bb0e",
+      "before": null,
+      "bytes": 5339
+    },
+    {
+      "name": "party-race/assets/terrain-scene.js",
+      "sha256": "791856470f81e21067f9e77d2e032e405ad55c30c047d59a9022d580f4e3c6dd",
+      "before": "23153ba9ff5d9587ce7a8755ab21c4613d507a7971c2c96e4e1a403e93ae08af",
+      "bytes": 6378
+    },
+    {
+      "name": "party-race/index.html",
+      "sha256": "8ae42ca93456bfd486f53e0185ef48af96a407712df3aa5bc967219330e02d01",
+      "before": "d6b0626925fdfcf73a0c4d3657bba02e6004762757905cfdd86cb2acdaa8a0f0",
+      "bytes": 4821
+    }
+  ],
+  "observationsSHA256": "3208eb7602f4510096cdbb4493f8ab35bb2eac0790d9fd036a00ad364ba5944d",
+  "captures": [
+    {
+      "name": "before-ready-390.png",
+      "bytes": 32253,
+      "sha256": "7c4b1b2b69e609eb9ba050d5773a18c6ad61aaa69759cb952ffa3018d8c20111",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "after-ready-390.png",
+      "bytes": 36008,
+      "sha256": "b99f801e4a4d4030bc24223bdf766365d25dbab5fc9fc9d89d3a452ef05e9e33",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "before-lobby-390.png",
+      "bytes": 31208,
+      "sha256": "7abdefa22ca513851aef93974604bda4515ac9f7ef12f54e42d23f8dbcd46c9b",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "after-lobby-390.png",
+      "bytes": 48229,
+      "sha256": "70127c6287ee0b5aa0f634cbad31312d8b518745011e674341ab60117aa902fe",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "paired-sheet.png",
+      "bytes": 163742,
+      "sha256": "aa8e9194f9211f42bc4475dffe9559525ae9eb080152b289774c436a872f3609",
+      "width": 852,
+      "height": 1632
+    },
+    {
+      "name": "public-entry-390.png",
+      "bytes": 35249,
+      "sha256": "fdf25f67601df2eff0701053c31dd0ec6520b2978020971d2c4b86baa6e34b23",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-lobby-390.png",
+      "bytes": 39234,
+      "sha256": "1312884ab7469cb96d8970c618e26b62c80d9a3fd2e764abbed3836c8b81b640",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-playing-390.png",
+      "bytes": 87865,
+      "sha256": "7c2828efdacfdbd6e784dcb67c44fe701a08f4c8cef981b9bac65d1fdc8d7772",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-idle-warning-390.png",
+      "bytes": 70309,
+      "sha256": "0ed3c97ee10a9ac86c740b829c7c0d45efd33eb3be5f6305d4cfebad8363731b",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-closed-390.png",
+      "bytes": 37798,
+      "sha256": "fe15ff34b32c73e3a20d13f8057b23df43b2bf236cbd1fc209ca1c28b52ccc33",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-recreated-390.png",
+      "bytes": 44914,
+      "sha256": "c8a12c012fa7a0755f4fc77e46cd3344ec7c0b0b9d8b28110df42924bc798dc5",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "public-entry-844.png",
+      "bytes": 45366,
+      "sha256": "865e792975a811a7893508919d44156dae0d1a9037497e81f285ae7eab9b0c5a",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-lobby-844.png",
+      "bytes": 46181,
+      "sha256": "557aefcd4a6d269541b749b3392482d9db9c42f1397ad5f384546bc0206a2eef",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-playing-844.png",
+      "bytes": 161016,
+      "sha256": "3bda27c1c2f4dc17faee25e5a4f3df7a8ebe14960413b13eb895257f0aae5502",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "public-playing-1280.png",
+      "bytes": 347078,
+      "sha256": "bc3adb363754607f2a1b4d8458fd70775d3c0ff4205728ad7be88a5eaeb09c42",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "retained-narrow-lobby-844.png",
+      "bytes": 104956,
+      "sha256": "fb721e65d50b67c8512679ab9ba6f2c2e36ed80f4cc405bd3effe945a78538ca",
+      "width": 844,
+      "height": 390
+    }
+  ],
+  "rights": "User-authorized project-owned captures. Codes and other room cards masked in capture only. No new license; no reference raster/font/engine/private server sources."
+}

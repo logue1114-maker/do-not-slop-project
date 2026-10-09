@@ -1,0 +1,3948 @@
+{
+  "publicNative": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "entry": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 618.96875,
+          "right": 378,
+          "bottom": 686.96875
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 285,
+              "y": 426.375,
+              "width": 72,
+              "height": 54,
+              "right": 357,
+              "bottom": 480.375
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 600,
+          "right": 378,
+          "bottom": 668
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 33,
+              "y": 574.796875,
+              "width": 324,
+              "height": 48,
+              "right": 357,
+              "bottom": 622.796875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 10,
+          "y": 65,
+          "width": 370,
+          "height": 103,
+          "right": 380,
+          "bottom": 168
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 300,
+              "y": 599,
+              "width": 76,
+              "height": 76,
+              "right": 376,
+              "bottom": 675
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 228,
+              "y": 611,
+              "width": 64,
+              "height": 64,
+              "right": 292,
+              "bottom": 675
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": true,
+      "nativeIdleClosed": true,
+      "newRoomAfterClosure": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "entry": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "panel": {
+          "x": 32,
+          "y": 68,
+          "width": 780,
+          "height": 312,
+          "right": 812,
+          "bottom": 380
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 654.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 734.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 744.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 828,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 303.71875,
+              "y": 324.859375,
+              "width": 72,
+              "height": 48.09375,
+              "right": 375.71875,
+              "bottom": 372.953125
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "panel": {
+          "x": 32,
+          "y": 68,
+          "width": 780,
+          "height": 312,
+          "right": 812,
+          "bottom": 380
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 654.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 734.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 744.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 828,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 53,
+              "y": 268.1875,
+              "width": 324.53125,
+              "height": 48,
+              "right": 377.53125,
+              "bottom": 316.1875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 20,
+          "y": 66,
+          "width": 804,
+          "height": 60,
+          "right": 824,
+          "bottom": 126
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 654.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 734.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 744.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 828,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 740,
+              "y": 300,
+              "width": 76,
+              "height": 76,
+              "right": 816,
+              "bottom": 376
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 668,
+              "y": 312,
+              "width": 64,
+              "height": 64,
+              "right": 732,
+              "bottom": 376
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "entry": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 190,
+          "y": 76,
+          "width": 900,
+          "height": 480.265625,
+          "right": 1090,
+          "bottom": 556.265625
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 517.359375,
+              "y": 455.265625,
+              "width": 72,
+              "height": 54,
+              "right": 589.359375,
+              "bottom": 509.265625
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 410,
+          "y": 76,
+          "width": 460,
+          "height": 588.6875,
+          "right": 870,
+          "bottom": 664.6875
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 443,
+              "y": 557.6875,
+              "width": 394,
+              "height": 48,
+              "right": 837,
+              "bottom": 605.6875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 20,
+          "y": 72,
+          "width": 1240,
+          "height": 60,
+          "right": 1260,
+          "bottom": 132
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 1156,
+              "y": 599,
+              "width": 96,
+              "height": 96,
+              "right": 1252,
+              "bottom": 695
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 1062,
+              "y": 615,
+              "width": 80,
+              "height": 80,
+              "right": 1142,
+              "bottom": 695
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    }
+  ],
+  "publicGlobalReportStatus": "FAIL",
+  "publicFailedRequests": [
+    {
+      "path": "/site-analytics.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/play-auth.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/play.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/site-analytics.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/play-auth.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/play-discovery.js",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "path": "/play.js",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "publicGlobalFailure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:",
+  "navigationTrace": {
+    "scope": "Native hub-card navigation only; no request block/injection/forced state",
+    "errors": [],
+    "failed": [
+      {
+        "path": "/site-analytics.js",
+        "initiatedDocument": "/",
+        "failedInDocument": "/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "path": "/play-auth.js",
+        "initiatedDocument": "/",
+        "failedInDocument": "/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "path": "/play-discovery.js",
+        "initiatedDocument": "/",
+        "failedInDocument": "/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "path": "/play.js",
+        "initiatedDocument": "/",
+        "failedInDocument": "/",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "partyReady": true
+  },
+  "earlierFourProjectedNative": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "entry": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 190,
+          "y": 76,
+          "width": 900,
+          "height": 480.265625,
+          "right": 1090,
+          "bottom": 556.265625
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 517.359375,
+              "y": 455.265625,
+              "width": 72,
+              "height": 54,
+              "right": 589.359375,
+              "bottom": 509.265625
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 410,
+          "y": 76,
+          "width": 460,
+          "height": 588.6875,
+          "right": 870,
+          "bottom": 664.6875
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 443,
+              "y": 557.6875,
+              "width": 394,
+              "height": 48,
+              "right": 837,
+              "bottom": 605.6875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 20,
+          "y": 72,
+          "width": 1240,
+          "height": 60,
+          "right": 1260,
+          "bottom": 132
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 1156,
+              "y": 779,
+              "width": 96,
+              "height": 96,
+              "right": 1252,
+              "bottom": 875
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 1062,
+              "y": 795,
+              "width": 80,
+              "height": 80,
+              "right": 1142,
+              "bottom": 875
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "entry": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 190,
+          "y": 76,
+          "width": 900,
+          "height": 480.265625,
+          "right": 1090,
+          "bottom": 556.265625
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 517.359375,
+              "y": 455.265625,
+              "width": 72,
+              "height": 54,
+              "right": 589.359375,
+              "bottom": 509.265625
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 410,
+          "y": 76,
+          "width": 460,
+          "height": 588.6875,
+          "right": 870,
+          "bottom": 664.6875
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 443,
+              "y": 557.6875,
+              "width": 394,
+              "height": 48,
+              "right": 837,
+              "bottom": 605.6875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollWidth": 1280,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 20,
+          "y": 72,
+          "width": 1240,
+          "height": 60,
+          "right": 1260,
+          "bottom": 132
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 1090.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 1170.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 1180.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 1264,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 1156,
+              "y": 599,
+              "width": 96,
+              "height": 96,
+              "right": 1252,
+              "bottom": 695
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 1062,
+              "y": 615,
+              "width": 80,
+              "height": 80,
+              "right": 1142,
+              "bottom": 695
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "entry": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scrollWidth": 768,
+        "panel": {
+          "x": 32,
+          "y": 76,
+          "width": 704,
+          "height": 480.265625,
+          "right": 736,
+          "bottom": 556.265625
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 578.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 658.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 668.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 752,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 270.265625,
+              "y": 455.265625,
+              "width": 72,
+              "height": 54,
+              "right": 342.265625,
+              "bottom": 509.265625
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scrollWidth": 768,
+        "panel": {
+          "x": 154,
+          "y": 76,
+          "width": 460,
+          "height": 588.6875,
+          "right": 614,
+          "bottom": 664.6875
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 578.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 658.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 668.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 752,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 187,
+              "y": 557.6875,
+              "width": 394,
+              "height": 48,
+              "right": 581,
+              "bottom": 605.6875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 768,
+          "height": 900,
+          "dpr": 1
+        },
+        "scrollWidth": 768,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 20,
+          "y": 72,
+          "width": 728,
+          "height": 60,
+          "right": 748,
+          "bottom": 132
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 578.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 658.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 668.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 752,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 664,
+              "y": 799,
+              "width": 76,
+              "height": 76,
+              "right": 740,
+              "bottom": 875
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 592,
+              "y": 811,
+              "width": 64,
+              "height": 64,
+              "right": 656,
+              "bottom": 875
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "entry": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 620,
+          "right": 378,
+          "bottom": 688
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 285,
+              "y": 426.375,
+              "width": 72,
+              "height": 54,
+              "right": 357,
+              "bottom": 480.375
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 600,
+          "right": 378,
+          "bottom": 668
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 33,
+              "y": 574.796875,
+              "width": 324,
+              "height": 48,
+              "right": 357,
+              "bottom": 622.796875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 10,
+          "y": 65,
+          "width": 370,
+          "height": 103,
+          "right": 380,
+          "bottom": 168
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 300,
+              "y": 599,
+              "width": 76,
+              "height": 76,
+              "right": 376,
+              "bottom": 675
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 228,
+              "y": 611,
+              "width": 64,
+              "height": 64,
+              "right": 292,
+              "bottom": 675
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": true,
+      "idleContinue": true,
+      "nativeIdleClosed": true,
+      "newRoomAfterClosure": true
+    }
+  ],
+  "fifthProjectedNative": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "entry": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 618.96875,
+          "right": 378,
+          "bottom": 686.96875
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 285,
+              "y": 426.375,
+              "width": 72,
+              "height": 54,
+              "right": 357,
+              "bottom": 480.375
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 555.796875,
+          "right": 378,
+          "bottom": 623.796875
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 33,
+              "y": 528.796875,
+              "width": 324,
+              "height": 48,
+              "right": 357,
+              "bottom": 576.796875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 10,
+          "y": 65,
+          "width": 370,
+          "height": 103,
+          "right": 380,
+          "bottom": 168
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 300,
+              "y": 743,
+              "width": 76,
+              "height": 76,
+              "right": 376,
+              "bottom": 819
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 228,
+              "y": 755,
+              "width": 64,
+              "height": 64,
+              "right": 292,
+              "bottom": 819
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    }
+  ],
+  "finalLandscapeProjectedNative": [
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "entry": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "panel": {
+          "x": 32,
+          "y": 68,
+          "width": 780,
+          "height": 312,
+          "right": 812,
+          "bottom": 380
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 654.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 734.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 744.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 828,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 303.71875,
+              "y": 324.859375,
+              "width": 72,
+              "height": 48.09375,
+              "right": 375.71875,
+              "bottom": 372.953125
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "lobby": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "panel": {
+          "x": 32,
+          "y": 68,
+          "width": 780,
+          "height": 312,
+          "right": 812,
+          "bottom": 380
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 654.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 734.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 744.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 828,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 53,
+              "y": 268.1875,
+              "width": 324.53125,
+              "height": 48,
+              "right": 377.53125,
+              "bottom": 316.1875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "playing": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "scrollWidth": 844,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": true,
+        "hud": {
+          "x": 20,
+          "y": 66,
+          "width": 804,
+          "height": 60,
+          "right": 824,
+          "bottom": 126
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 654.921875,
+              "y": 10,
+              "width": 79.625,
+              "height": 44,
+              "right": 734.546875,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 744.546875,
+              "y": 10,
+              "width": 83.453125,
+              "height": 44,
+              "right": 828,
+              "bottom": 54
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 740,
+              "y": 300,
+              "width": 76,
+              "height": 76,
+              "right": 816,
+              "bottom": 376
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 668,
+              "y": 312,
+              "width": 64,
+              "height": 64,
+              "right": 732,
+              "bottom": 376
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "nativeRename": true,
+      "nativeCustomizer": true,
+      "nativeReport": true,
+      "peer": false
+    }
+  ],
+  "pairs": [
+    {
+      "state": "Same native unjoined ready state, same tab/viewport/DPR/zoom100; CSS-only. Background presentation time keeps running; no clock/state setter or raster retouch.",
+      "before": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 620,
+          "right": 378,
+          "bottom": 688
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 210.890625,
+              "y": 10,
+              "width": 77.625,
+              "height": 38,
+              "right": 288.515625,
+              "bottom": 48
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 10,
+              "width": 73.484375,
+              "height": 38,
+              "right": 376,
+              "bottom": 48
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 288,
+              "y": 494.578125,
+              "width": 70,
+              "height": 54,
+              "right": 358,
+              "bottom": 548.578125
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "50%",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "50%",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "after": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 620,
+          "right": 378,
+          "bottom": 688
+        },
+        "panelScroll": 0,
+        "entryVisible": true,
+        "lobbyVisible": false,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 285,
+              "y": 426.375,
+              "width": 72,
+              "height": 54,
+              "right": 357,
+              "bottom": 480.375
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      }
+    },
+    {
+      "state": "Same actual own lobby, masked code; CSS + move of existing code/Copy nodes only. Null guard applied to both captures; elapsed background animation differs. No gameplay state setter.",
+      "before": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 620,
+          "right": 378,
+          "bottom": 688
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 210.890625,
+              "y": 10,
+              "width": 77.625,
+              "height": 38,
+              "right": 288.515625,
+              "bottom": 48
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 10,
+              "width": 73.484375,
+              "height": 38,
+              "right": 376,
+              "bottom": 48
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 32,
+              "y": 605.90625,
+              "width": 326,
+              "height": 46,
+              "right": 358,
+              "bottom": 651.90625
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "50%",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "50%",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      },
+      "after": {
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "scrollWidth": 390,
+        "panel": {
+          "x": 12,
+          "y": 68,
+          "width": 366,
+          "height": 555.796875,
+          "right": 378,
+          "bottom": 623.796875
+        },
+        "panelScroll": 0,
+        "entryVisible": false,
+        "lobbyVisible": true,
+        "controlsVisible": false,
+        "hud": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "buttons": [
+          {
+            "id": "sound",
+            "box": {
+              "x": 225.59375,
+              "y": 8,
+              "width": 68.921875,
+              "height": 44,
+              "right": 294.515625,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "ggBugReport",
+            "box": {
+              "x": 302.515625,
+              "y": 8,
+              "width": 75.484375,
+              "height": 44,
+              "right": 378,
+              "bottom": 52
+            },
+            "disabled": false,
+            "radius": "6px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "join",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "start",
+            "box": {
+              "x": 33,
+              "y": 528.796875,
+              "width": 324,
+              "height": 48,
+              "right": 357,
+              "bottom": 576.796875
+            },
+            "disabled": false,
+            "radius": "10px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "jump",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          },
+          {
+            "id": "grab",
+            "box": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "disabled": false,
+            "radius": "12px",
+            "transform": "none",
+            "outline": "3px"
+          }
+        ]
+      }
+    }
+  ],
+  "boundary": {
+    "scope": "Auxiliary actual geometry/module boundary fixture, not native game completion",
+    "result": [
+      {
+        "version": "before",
+        "absentError": "Cannot read properties of null (reading 'players')",
+        "fired": -0.05,
+        "resting": 0.025
+      },
+      {
+        "version": "after",
+        "absentError": null,
+        "fired": -0.05,
+        "resting": 0.025
+      }
+    ]
+  },
+  "failures": [
+    {
+      "pass": "local1",
+      "message": "page.waitForFunction: TypeError: Cannot read properties of null (reading 'disabled')"
+    },
+    {
+      "pass": "local2",
+      "message": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:"
+    },
+    {
+      "pass": "local4",
+      "message": "AssertionError [ERR_ASSERTION]: Native joystick did not move player"
+    },
+    {
+      "pass": "local5",
+      "message": "page.goto: Timeout 20000ms exceeded."
+    },
+    {
+      "pass": "local6-remaining",
+      "message": "page.goto: Timeout 20000ms exceeded."
+    },
+    {
+      "pass": "local7-remaining",
+      "message": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:"
+    },
+    {
+      "pass": "local9-landscape",
+      "message": "locator.click: Timeout 20000ms exceeded."
+    },
+    {
+      "pass": "public1",
+      "message": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:"
+    }
+  ],
+  "partialPass": "local3 interrupted after unbounded wait; not a completed flow"
+}
