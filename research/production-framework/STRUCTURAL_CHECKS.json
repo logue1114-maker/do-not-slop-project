@@ -1,0 +1,102 @@
+{
+  "scope": "browser_free_structural_checks_only",
+  "visual_browser_QA": "not_run_in_this_report",
+  "target_game_render_and_input": "not_run",
+  "integration_links": {
+    "home": "../../",
+    "production_packet": "../release/README.md",
+    "release": "../release/"
+  },
+  "checks": [
+    {
+      "check": "HTML unique IDs",
+      "status": "passed",
+      "detail": "62 named elements"
+    },
+    {
+      "check": "Declared local assets",
+      "status": "passed",
+      "detail": "reader.css, data.js, diagrams.js, reader.js"
+    },
+    {
+      "check": "No external assets/fonts",
+      "status": "passed",
+      "detail": "Only local JS/CSS and system font stacks"
+    },
+    {
+      "check": "DOM IDs used by behavior",
+      "status": "passed",
+      "detail": "Missing: "
+    },
+    {
+      "check": "JavaScript syntax: diagrams.js",
+      "status": "passed",
+      "detail": "Node parse passed"
+    },
+    {
+      "check": "JavaScript syntax: reader.js",
+      "status": "passed",
+      "detail": "Node parse passed"
+    },
+    {
+      "check": "JavaScript syntax: data.js",
+      "status": "passed",
+      "detail": "Node parse passed"
+    },
+    {
+      "check": "All diagram variants execute",
+      "status": "passed",
+      "detail": "Original SVG variants generated without a browser"
+    },
+    {
+      "check": "SVG XML and accessible descriptions",
+      "status": "passed",
+      "detail": "32 variants; all valid"
+    },
+    {
+      "check": "Safe-mask footer geometry regression",
+      "status": "passed",
+      "detail": "Footer bottom=240, safe bottom=244, readable-face bottom=248, row/footer gap=6, safe bottom inset=4; logical geometry only"
+    },
+    {
+      "check": "Conditional route records",
+      "status": "passed",
+      "detail": "12 authored task routes with condition and exception"
+    },
+    {
+      "check": "Public-safe loaded and fallback provenance",
+      "status": "passed",
+      "detail": "78 exposed provenance references match the included public/authored source ledger; omitted case records cannot reappear in fallback"
+    },
+    {
+      "check": "Full maker base exact embedding",
+      "status": "passed",
+      "detail": "display.maker_instructions must match complete AI_INSTRUCTIONS.md bytes"
+    },
+    {
+      "check": "Route-to-production recipe mapping",
+      "status": "passed",
+      "detail": "Unmapped routes: "
+    },
+    {
+      "check": "Release-declared downloads",
+      "status": "passed",
+      "detail": "Missing: "
+    },
+    {
+      "check": "Fallback prohibition fidelity",
+      "status": "passed",
+      "detail": "Bundled original do_not_apply retained as avoid, separate from exception; no raw-research dependency"
+    },
+    {
+      "check": "Explicit fallback status",
+      "status": "passed",
+      "detail": "Visible warning plus pinned research-extract status"
+    },
+    {
+      "check": "Mock-DOM initializer and controls",
+      "status": "passed",
+      "detail": "Loaded/fallback modes, all 12 copy+download packets, exact full base, conditional subsets, source references, layer/mask/search; no browser/render/input acceptance"
+    }
+  ]
+}

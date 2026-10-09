@@ -1,0 +1,1222 @@
+{
+  "version": "1.0.0",
+  "status": "draft_extensions_not_visual_quality_pass",
+  "authority": {
+    "commit": "d82e373828263a7fc227a13eb8f487ae0329cb19",
+    "status": "existing_project_draft_not_installed_not_user_approved",
+    "rules_changed": false
+  },
+  "recipes": [
+    {
+      "id": "DNS-01",
+      "title": "Select the task’s organizing plane",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S1"
+      ],
+      "tags": [
+        "composition",
+        "all-genres"
+      ],
+      "when": "When the screen’s main perceptual task or allocation of scene/decision space is unresolved.",
+      "input": [
+        "current task phase",
+        "time pressure",
+        "critical scene regions",
+        "world continues while panel open",
+        "next action",
+        "return path",
+        "Camera and active play region",
+        "Current player decision",
+        "Actual available canvas/safe region",
+        "Simultaneous layers"
+      ],
+      "process": [
+        "Name entry, spatial live action, board/graph decision, local inspection or result/recovery phase",
+        "Mark avatar/path/threat/aim/board and actual gaze route on a whole-screen reference",
+        "Choose scene-led peripheral groups, a concentrated decision plane, a split subject/detail view or UI-as-game full screen using the task and fit"
+      ],
+      "output": [
+        "SCREEN_PLAN with reading order, protected regions and chosen/rejected topology"
+      ],
+      "test": [
+        "Matched whole-screen entry/live/menu/result captures",
+        "Real camera envelope and named protected regions",
+        "Check full task flow separately from aesthetics",
+        "Full-screen busy/quiet scene inspection",
+        "No important object or prompt covered",
+        "No accidental canvas scrollbar"
+      ],
+      "exception": [
+        "A live tactical game can use a central overlay if it preserves the required world information; a deliberately calm cinematic selector can remain scene-dominant",
+        "For UI-as-game, the decision plane can fill the screen; a protected empty center is not mandatory."
+      ],
+      "avoid": [
+        "One generic menu grid or global bottom bar for every genre",
+        "Inferring paused gameplay or touch form factor from a still image"
+      ],
+      "source_ids": [
+        "VW-S02",
+        "VW-S04"
+      ],
+      "candidate_ids": [
+        "RB-01",
+        "VW-R02"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#1-inventory-the-component-before-choosing-its-appearance",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-02",
+      "title": "Resolve a world-specific visual grammar",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S2"
+      ],
+      "tags": [
+        "art-direction",
+        "material",
+        "silhouette"
+      ],
+      "when": "When controls must belong to actual imagery or an existing coherent design.",
+      "input": [
+        "world material/edge/light grammar",
+        "visual identity",
+        "control role",
+        "motion/attention demand",
+        "readable surface needs",
+        "task",
+        "state",
+        "scene_subject",
+        "camera_background_range",
+        "material_light_grammar",
+        "role_rank",
+        "locale_and_text_scale",
+        "Existing scene/art samples",
+        "Mood/setting constraints",
+        "Actual task and density",
+        "Real language",
+        "Physicality of game art",
+        "Control rank",
+        "Scene visual noise",
+        "Actual reading area"
+      ],
+      "process": [
+        "Hold task, labels, state and background constant in a bounded variant/adaptation sheet",
+        "Resolve surface/edge/corner/light/texture/type/glyph relations, with ornament assigned to specific carriers",
+        "Choose quiet utility/tab/HUD and deliberate commitment families that share grammar without identical anatomy"
+      ],
+      "output": [
+        "ART_TASK_CONTRACT, actual visual tokens, variant decision and named structural axes"
+      ],
+      "test": [
+        "Compare representative commit, utility, choice, status and result in whole context",
+        "Inspect actual edge light, material density and type relationships",
+        "Require a reason for unexplained mixing rather than banning a material",
+        "full_screen_subject_control_proportion",
+        "actual_ink_baseline_and_extent",
+        "material_light_coherence",
+        "long_labels",
+        "supported_state_craft",
+        "requested_structural_axes",
+        "Inspect family beside the actual scene at intended scale",
+        "Confirm command labels and status remain visually distinct",
+        "Full-context and enlarged control renders",
+        "Lighting and material coherence",
+        "Action/status affordance distinction"
+      ],
+      "exception": [
+        "An abstract overlay can intentionally differ from world materials; narrative devices, paper, glass, comic ink, ornate metal and plain surfaces are all valid when specified",
+        "A subjectless dense tool may not need a scene pane",
+        "Flat/dark/rounded materials are valid when coherent and readable",
+        "A brief requiring actual face/body or inner-layout change cannot pass with recoloring",
+        "Preserve an established coherent grammar; do not invent a new art direction for a bounded fix.",
+        "A deliberately loud arcade menu or diegetic terminal may need strong relief/glow; it still requires legible ink and justified hierarchy."
+      ],
+      "avoid": [
+        "Copying world textures onto every label face",
+        "Equating coherent family with identical shapes or material depth"
+      ],
+      "source_ids": [
+        "VW-S01",
+        "VW-S02",
+        "VW-EXAMPLE",
+        "SUP-CRAFT"
+      ],
+      "candidate_ids": [
+        "RB-02",
+        "RS-CRAFT-01",
+        "VW-R01",
+        "VW-R04"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#3-choose-a-coherent-family-for-the-context",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#44-separate-surface-rim-body-and-shadow-only-when-needed",
+        "universal_button_system/GUIDE.md §§1-4,7-9",
+        "guides/source-first-ui-craft.md",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-03",
+      "title": "Compose entry through the first consequence",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S1"
+      ],
+      "tags": [
+        "entry",
+        "main-menu",
+        "flow"
+      ],
+      "when": "When a player enters or resumes an actual session.",
+      "input": [
+        "Actual session prerequisites",
+        "First playable action",
+        "Scene loading and return behavior",
+        "New versus returning player needs"
+      ],
+      "process": [
+        "Storyboard actual entry, real prerequisites/setup, readiness/loading, first controllable frame, first consequence and supported return",
+        "For each transition name retained/replaced layers, focus/input owner and state/reset scope",
+        "Place only necessary first-action instruction by its object; preserve actual mode, room and pause semantics"
+      ],
+      "output": [
+        "FLOW_STORYBOARD and runtime first-input recording requirement"
+      ],
+      "test": [
+        "Record first input through first readable consequence",
+        "Inspect each stage for dead-looking empty states and competing hero panels"
+      ],
+      "exception": [
+        "Some games begin directly in play; do not add a menu or tutorial solely to satisfy the storyboard."
+      ],
+      "avoid": [],
+      "source_ids": [
+        "VW-S04"
+      ],
+      "candidate_ids": [
+        "VW-R03"
+      ],
+      "authority_refs": [
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-04",
+      "title": "Reserve concurrent layer geometry and ownership",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S3"
+      ],
+      "tags": [
+        "HUD",
+        "layers",
+        "announcements"
+      ],
+      "when": "When independent HUD/menu/prompt/chat/announcement layers can coexist.",
+      "input": [
+        "layer_visible_readable_interactive_bounds",
+        "common_coordinate_calibration",
+        "active_task",
+        "time_live_paused_policy",
+        "notice_urgency_actionability",
+        "gesture_input_owner",
+        "reserved_scene_corridor",
+        "allowed_state_combinations",
+        "All layers that can coexist",
+        "Urgency and lifetime",
+        "Current input owner",
+        "State that must persist"
+      ],
+      "process": [
+        "Register visual, readable and hit bounds in one confirmed logical coordinate system",
+        "Give every allowed combination priority, input owner, lifetime, interruption and restoration rules",
+        "Reserve/reflow/compact/queue/replace lower-priority groups; preserve essential live hazards and the active route/subject region"
+      ],
+      "output": [
+        "LAYER_MATRIX, occupancy map, allowed combinations and dismiss/focus restoration contract"
+      ],
+      "test": [
+        "menu_plus_event_burst",
+        "competing_corner_controls",
+        "confirmation_plus_persistent_HUD",
+        "short_height_settings",
+        "world_prompt_plus_screen_UI",
+        "live_hazard_during_menu",
+        "dismiss_without_click_through",
+        "scene_camera_occlusion_separately",
+        "Real worst supported combination",
+        "Important counters/prompts survive",
+        "Restored layer returns to expected state"
+      ],
+      "exception": [
+        "A modal may intentionally conceal nonessential world content",
+        "Online/live danger cannot be hidden under an assumed pause",
+        "Observing occlusion is not proof of input leakage",
+        "Chat, narrative or social information may be the current main task; do not automatically shrink it merely because another panel opened."
+      ],
+      "avoid": [],
+      "source_ids": [
+        "VW-S02",
+        "SUP-LAYERS",
+        "SUP-INPUT"
+      ],
+      "candidate_ids": [
+        "RS-LAYERS-01",
+        "VW-R08"
+      ],
+      "authority_refs": [
+        "menu_placement_v1/AI_INSTRUCTIONS.md §§4,6,7,10",
+        "interaction_corrections_v1/AI_INSTRUCTIONS.md §§1,2",
+        "R-COM-03",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-05",
+      "title": "Give illustrated surfaces a safe ink mask",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S4"
+      ],
+      "tags": [
+        "panel",
+        "ornament",
+        "safe-ink"
+      ],
+      "when": "When art has rims, folds, corners, straps or a nonrectangular readable interior.",
+      "input": [
+        "artwork silhouette",
+        "decorative corner extents",
+        "content rectangle",
+        "scroll mask",
+        "longest text",
+        "loaded/pending asset"
+      ],
+      "process": [
+        "Separate art bounds, visible face and actual glyph/icon ink extents",
+        "Define a content-safe rectangle/mask excluding ornaments and transparent padding",
+        "Anchor title/close/list/footer inside it; clip or scroll before the decorative rim; retain scalable corner ownership"
+      ],
+      "output": [
+        "PANEL_ANATOMY and measured safe ink/list/footer bounds"
+      ],
+      "test": [
+        "Whole panel and native edge/corner crops with longest content and last visible row",
+        "Check ink does not cross ornament, footer or close control",
+        "Compare unloaded and loaded artwork geometry"
+      ],
+      "exception": [
+        "Intentional text-on-object composition is valid if the object provides a real readable text region; full-bleed artwork can work without a framed panel"
+      ],
+      "avoid": [
+        "Treating the bitmap rectangle as all usable text area",
+        "Removing decorative frames solely because plain panels are easier"
+      ],
+      "source_ids": [],
+      "candidate_ids": [
+        "RB-03"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#41-keep-four-bounds-distinct",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#42-derive-length-and-height-from-content-and-role"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-06",
+      "title": "Derive control length and silhouette from content",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S4"
+      ],
+      "tags": [
+        "button",
+        "length",
+        "anatomy",
+        "states"
+      ],
+      "when": "When selecting or correcting command/navigation/selection control geometry.",
+      "input": [
+        "real longest label",
+        "icon optionality",
+        "timer/cost/binding slots",
+        "rim/body allowance",
+        "wrap policy",
+        "actual input target",
+        "semantic_role",
+        "actual_label_cost_condition",
+        "neighbor_rank",
+        "target_bounds",
+        "silhouette_bounds",
+        "face_bounds",
+        "ink_bounds",
+        "actual_glyph_optional",
+        "supported_state_dimensions",
+        "measurement_calibration"
+      ],
+      "process": [
+        "Classify role then measure loaded longest labels, costs, timers and real icon/shortcut slots",
+        "Width = actual ink + present slots + real gaps + horizontal safe insets + chosen rim; height = supported line height + vertical breathing room + chosen rim/body allowance",
+        "For circles fit label/timer within the usable face chord; for comparable choices share width; preserve fixed shell/hit/siblings during internal press"
+      ],
+      "output": [
+        "CONTROL_CONTRACTS with target/silhouette/face/ink, width policy and supported state specimens"
+      ],
+      "test": [
+        "Shortest/longest real labels and every supported timer/cost/state value",
+        "Actual face/ink crop and hit-region trace",
+        "Stable sibling geometry during press/cancel",
+        "long_short_real_labels",
+        "current_selected_plus_focus",
+        "unavailable_reason_readability",
+        "stationary_target_during_press",
+        "actual_release_away",
+        "repeat_activation_guard"
+      ],
+      "exception": [
+        "A short text-only circle or long centered button can be correct; flat/no-body/no-icon controls are valid when the brief allows them",
+        "No icon/body is required unless role/context/brief needs it",
+        "Equal width fits comparable volume values or local binary choice; unrelated utilities need not be equal",
+        "A source rectangle does not establish its actual engine hitbox"
+      ],
+      "avoid": [
+        "Shrinking all labels to preserve a chosen circle",
+        "Counting decorative shadow as target size",
+        "Applying a source-image diameter as an engine minimum"
+      ],
+      "source_ids": [
+        "AUTH-BUTTON",
+        "AUTH-GUIDE"
+      ],
+      "candidate_ids": [
+        "RB-04",
+        "RS-CRAFT-02"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#41-keep-four-bounds-distinct",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#42-derive-length-and-height-from-content-and-role",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#46-match-icon-weight-optically",
+        "universal_button_system/GUIDE.md §§2-5,7-8",
+        "R-COM-01",
+        "R-COM-02",
+        "R-COM-05",
+        "R-LOCALE-01"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-07",
+      "title": "Make local action rank and commitment legible",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S4"
+      ],
+      "tags": [
+        "hierarchy",
+        "choice",
+        "confirmation"
+      ],
+      "when": "When several actions compete within one task region.",
+      "input": [
+        "next local commitment",
+        "supporting inspection",
+        "navigation",
+        "system close/back",
+        "read-only data",
+        "choice availability"
+      ],
+      "process": [
+        "Separate command rank, hazard, persistent selection, navigation and read-only meaning",
+        "Use adjacency, grouping, position, typography, containment and surface contrast together",
+        "Attach cost/probability/condition/consequence to the qualified action; retain quieter discoverable Back/Close"
+      ],
+      "output": [
+        "ROLE_FAMILY_MAP and exact local commitment/recovery contract"
+      ],
+      "test": [
+        "Whole panel reading order and local control crop",
+        "Required information stays readable at the decision",
+        "Input/state meanings tested separately"
+      ],
+      "exception": [
+        "Several independent task groups can each contain a primary; deliberate flat choices can use alignment and current-state markers"
+      ],
+      "avoid": [
+        "One primary across the whole game",
+        "Promoting every inspection/pagination action to the same visual weight",
+        "Adding confirm/cancel steps as styling"
+      ],
+      "source_ids": [
+        "AUTH-BUTTON",
+        "AUTH-GUIDE"
+      ],
+      "candidate_ids": [
+        "RB-05"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#2-classify-meaning-before-visual-rank",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#47-finish-the-internal-grid-and-surrounding-hierarchy"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-08",
+      "title": "Declare material underlays and quiet reading zones",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S2"
+      ],
+      "tags": [
+        "transparency",
+        "material",
+        "contrast"
+      ],
+      "when": "When scene pixels remain visible through or beside a reading/control surface.",
+      "input": [
+        "allowed_background_scene_range",
+        "camera_range",
+        "lighting_range",
+        "panel_alpha_material",
+        "platform_contrast_requirements",
+        "task_scene_region",
+        "type_ink_bounds"
+      ],
+      "process": [
+        "Name allowed bright/dark/busy camera underlays and quiet ink zones",
+        "Render real labels/state pairs against the strongest reached underlays",
+        "Choose local backing, opacity, placement, structure or type adjustment within material intent; keep reflection/texture out of ink"
+      ],
+      "output": [
+        "UNDERLAY_FIXTURES, surface/ink/state pairs and selected material policy"
+      ],
+      "test": [
+        "exact_target_across_underlay_fixtures",
+        "active_selected_focus_pairings",
+        "supported_font_scale",
+        "required_edge_and_state_marks"
+      ],
+      "exception": [
+        "Do not force every transparent UI opaque",
+        "No measured native contrast compliance can be inferred from uncalibrated JPEG stills",
+        "A deliberately light wallet may use a different coherent surface family"
+      ],
+      "avoid": [],
+      "source_ids": [],
+      "candidate_ids": [
+        "RS-CRAFT-03"
+      ],
+      "authority_refs": [
+        "universal_button_system/GUIDE.md §4.4",
+        "guides/source-first-ui-craft.md"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-09",
+      "title": "Place HUD against the real camera envelope",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S3"
+      ],
+      "tags": [
+        "HUD",
+        "camera",
+        "world-space"
+      ],
+      "when": "When fixed live HUD sits over changing scenes/cameras.",
+      "input": [
+        "camera modes",
+        "avatar/target route",
+        "next landing or threat regions",
+        "scene brightness/complexity",
+        "control input reach"
+      ],
+      "process": [
+        "Capture representative avatar/next landing/target/threat/recovery regions at actual camera states",
+        "Build an occlusion/background envelope before choosing anchors",
+        "Verify same boundary/type against sky, light objects, dark objects and busy textures; keep world warnings distinct from screen commands"
+      ],
+      "output": [
+        "HUD_ENVELOPE, protected corridor map and actual fit evidence requirement"
+      ],
+      "test": [
+        "Whole-screen camera/background matrix",
+        "Native control crop in every differing pairing",
+        "Actual task and input reach checks in a later implementation"
+      ],
+      "exception": [
+        "A centered HUD can be correct when that region is not needed for world decisions, or during a deliberate pause/result phase"
+      ],
+      "avoid": [
+        "Universal corner placement or HUD occupancy percentages",
+        "Treating one clear screenshot as proof of all-camera visibility"
+      ],
+      "source_ids": [],
+      "candidate_ids": [
+        "RB-08"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#8-verify-the-actual-component-and-its-task"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-10",
+      "title": "Allocate palette, detail and state channels",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S2"
+      ],
+      "tags": [
+        "color",
+        "texture",
+        "rank",
+        "state"
+      ],
+      "when": "When defining or reviewing palette across scene, HUD and menus.",
+      "input": [
+        "command rank",
+        "semantic state",
+        "hazard/result meaning",
+        "world palette",
+        "actual contrast pairing",
+        "World palette and scene brightness",
+        "Action/status priorities",
+        "Existing faction/resource meanings"
+      ],
+      "process": [
+        "Name surface/ink/command/current/focus/unavailable/feedback/hazard roles from real pairings",
+        "Spend chroma, contrast and detail where the task must notice; use spatial containment when multiple urgent signals coexist",
+        "Provide state meaning through text/check/shape as needed; do not turn a faction/world color into a universal UI reservation"
+      ],
+      "output": [
+        "ROLE_COLOR_TOKENS, ornament carrier map and state pairing specimens"
+      ],
+      "test": [
+        "Real background pairs, color-independent reading and supported state combinations",
+        "Unavailable reason and result remain visible",
+        "No selected glow is reported as actual completion",
+        "Busy and bright scene samples",
+        "Priority remains identifiable without relying on hue alone"
+      ],
+      "exception": [
+        "A restrained monochrome system is valid with shape/text markers; bright or multi-accent games are valid if roles remain legible",
+        "Multiple simultaneous urgent signals may all be strong; containment and spatial relation then carry rank. Never globally reserve a game’s existing faction color for UI commands."
+      ],
+      "avoid": [
+        "Universal green/yellow/red bans",
+        "Assuming the brightest existing button is automatically the required primary"
+      ],
+      "source_ids": [
+        "VW-S02"
+      ],
+      "candidate_ids": [
+        "RB-06",
+        "VW-R06"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#2-classify-meaning-before-visual-rank",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#5-give-states-distinct-meanings",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-11",
+      "title": "Fit typography and glyph mass at actual scale",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S4"
+      ],
+      "tags": [
+        "type",
+        "glyph",
+        "locale"
+      ],
+      "when": "When labels must work on a real material and reading surface.",
+      "input": [
+        "loaded font and mixed scripts",
+        "background variation",
+        "actual glyph scale",
+        "outline/shadow",
+        "role reading order",
+        "Supported language/longest text",
+        "Numeric volatility",
+        "Viewing distance and device scale",
+        "Art-direction type family"
+      ],
+      "process": [
+        "Resolve font/license/fallback, weight/case/size/line-height/wrapping/numerals together",
+        "Inspect loaded real glyphs, counters, baseline and optical icon mass within the actual face",
+        "Use plain ink, bounded outline/shadow or local backing by surface; prefer family-level optical corrections over per-word hacks"
+      ],
+      "output": [
+        "TYPE_SPECIMENS using longest supported strings, mixed scripts, icons and value extremes"
+      ],
+      "test": [
+        "Mixed-script names, numerals, longest supported labels and actual font fallbacks",
+        "Smallest rendered crop against actual dark/light/busy surfaces",
+        "Whole-screen reading order",
+        "Loaded and fallback font renders",
+        "Actual small supported viewport and enlarged text",
+        "Mixed-script labels and changing numbers"
+      ],
+      "exception": [
+        "Outlined text, plain text, decorative display type and no-icon controls are valid in their actual context",
+        "Display type is not forbidden for action labels; it must survive the actual string, language and size."
+      ],
+      "avoid": [
+        "Inferring exact font or engine text size from an encoded image",
+        "Replacing every scene label with a card before testing the existing treatment"
+      ],
+      "source_ids": [
+        "VW-S01",
+        "VW-S04",
+        "AUTH-BUTTON",
+        "AUTH-GUIDE"
+      ],
+      "candidate_ids": [
+        "RB-07",
+        "VW-R07"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#45-make-typography-an-explicit-part-of-the-component",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#46-match-icon-weight-optically",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-12",
+      "title": "Make original art resize without distortion",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S4"
+      ],
+      "tags": [
+        "asset",
+        "9-slice",
+        "scaling"
+      ],
+      "when": "When an art frame must change width/height or locale without losing its structure.",
+      "input": [
+        "Variable label length or responsive width",
+        "Ornamental corners/caps",
+        "Raster versus vector assets",
+        "Target engine"
+      ],
+      "process": [
+        "Mark fixed corners/caps/bolts, stretchable quiet centers and tileable texture zones",
+        "Keep live label/state/focus layers separate from background art",
+        "Implement native slicing or separate caps+center; derive minimum face from ink+insets, then inspect short/long widths"
+      ],
+      "output": [
+        "ASSET_STRETCH_MAP, geometry limits, provenance and render specimens"
+      ],
+      "test": [
+        "Longest real label at several widths",
+        "Corner and texture fidelity",
+        "No rim/body distortion or text clipping"
+      ],
+      "exception": [
+        "Plain geometric controls can remain native/code-drawn; 9-slicing is unnecessary if there is nothing to preserve."
+      ],
+      "avoid": [],
+      "source_ids": [
+        "VW-S01",
+        "VW-S03",
+        "AUTH-BUTTON",
+        "AUTH-GUIDE"
+      ],
+      "candidate_ids": [
+        "VW-R05"
+      ],
+      "authority_refs": [
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-13",
+      "title": "Align repeated decisions and real readiness",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S3"
+      ],
+      "tags": [
+        "progression",
+        "inventory",
+        "strategy",
+        "collection"
+      ],
+      "when": "When destinations/items/resources are compared repeatedly.",
+      "input": [
+        "repeated_candidates",
+        "comparable_attributes",
+        "current_required_values",
+        "ownership_eligibility_readiness",
+        "consequence",
+        "available_space",
+        "scene_importance",
+        "list_return_contract"
+      ],
+      "process": [
+        "Group title -> current/required condition/value -> actual action as one scan unit",
+        "Choose simple segments, rows/table or subject-detail composition from comparison/identity/fit needs",
+        "Keep inspect/select/owned/equipped/unavailable/path-ready/commit distinct; derive available wording from confirmed domain/server predicates"
+      ],
+      "output": [
+        "DECISION_SLOT_CONTRACT, data predicates, scroll/selection retention and boundary fixtures"
+      ],
+      "test": [
+        "zero_exact_stale_resources",
+        "selected_unavailable_candidate",
+        "unsupported_route",
+        "long_names",
+        "scroll_close_return",
+        "authoritative_acknowledgement"
+      ],
+      "exception": [
+        "No table/grid/cards are mandatory by genre",
+        "A green conditional instruction does not prove operational route readiness",
+        "Undiscovered empty model pane can correctly preserve discovery rules"
+      ],
+      "avoid": [],
+      "source_ids": [],
+      "candidate_ids": [
+        "RS-DECISION-01"
+      ],
+      "authority_refs": [
+        "R-RPG-01",
+        "R-RPG-02",
+        "R-RPG-03",
+        "R-SHOP-01",
+        "interaction_corrections_v1/AI_INSTRUCTIONS.md §3"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-14",
+      "title": "Construct motion between actual static states",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S5"
+      ],
+      "tags": [
+        "motion",
+        "press",
+        "state"
+      ],
+      "when": "When motion carries press, arrival, attention, selection, removal or result.",
+      "input": [
+        "Chosen material grammar",
+        "Available input",
+        "State semantics",
+        "Repeated action frequency",
+        "Reduced-motion setting"
+      ],
+      "process": [
+        "Name meaning, moving part, fixed shell/hit region, start/mid/end geometry and neighbor bounds",
+        "Resolve timings/easing as project trials; specify cancellation/rapid repetition/input handoff",
+        "Produce before/mid/settled specimen and runtime trace; reduced motion retains static meaning"
+      ],
+      "output": [
+        "MOTION_CONTRACT, settled/reduced states and runtime recording requirement"
+      ],
+      "test": [
+        "Release-away/cancel/rapid repetition",
+        "No accidental occlusion or hit-target instability",
+        "No animation-only success or selection meaning"
+      ],
+      "exception": [
+        "A hover scale can be valid if overlap and hit behavior are deliberately safe; the Flowlab example does not prove its hit region or timing."
+      ],
+      "avoid": [],
+      "source_ids": [
+        "VW-S03",
+        "VW-EXAMPLE",
+        "AUTH-BUTTON",
+        "AUTH-GUIDE"
+      ],
+      "candidate_ids": [
+        "VW-R09"
+      ],
+      "authority_refs": [
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-15",
+      "title": "Treat asset arrival and failure as real states",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S5"
+      ],
+      "tags": [
+        "loading",
+        "asset",
+        "fallback"
+      ],
+      "when": "When menu skin/item art can arrive after content or fail.",
+      "input": [
+        "essential versus optional asset",
+        "fallback geometry",
+        "loading/error behavior",
+        "required information",
+        "current page/state"
+      ],
+      "process": [
+        "Reserve art and safe ink slots before optional pixels arrive",
+        "Keep identity/cost/count/action readable in deliberate fallback without target jumps",
+        "For essential art expose actual supported loading/failure/recovery; inspect same fixture before/after arrival"
+      ],
+      "output": [
+        "ASSET_LIFECYCLE_CONTRACT and unloaded/loaded/failure fixtures"
+      ],
+      "test": [
+        "Same page/fixture unloaded, loaded and actual supported failure states",
+        "No jump in required label/target geometry",
+        "Whole panel and asset/ink crops"
+      ],
+      "exception": [
+        "An intentional layout change can be valid if it is specified, preserves state and is verified; optional decorative art need not produce an alert"
+      ],
+      "avoid": [
+        "Calling a blank thumbnail a completed asset test",
+        "Inventing an error state absent from the implementation",
+        "Measuring loading time from nonmatched screenshots"
+      ],
+      "source_ids": [],
+      "candidate_ids": [
+        "RB-09"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#5-give-states-distinct-meanings",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#8-verify-the-actual-component-and-its-task"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-16",
+      "title": "Refresh locale across visible and deferred controls",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S5"
+      ],
+      "tags": [
+        "localization",
+        "type",
+        "state"
+      ],
+      "when": "When language changes within a live screen.",
+      "input": [
+        "supported locales",
+        "visible subtree",
+        "deferred/test/settings rows",
+        "language-change event",
+        "longest labels"
+      ],
+      "process": [
+        "Separate semantic state from displayed strings and use one locale owner",
+        "Refresh visible/status and newly revealed subtrees from the same locale state",
+        "Exercise longest real labels; preserve selected values, scroll, gameplay and supported actions across refresh"
+      ],
+      "output": [
+        "LOCALE_FIXTURES, refresh ownership and deferred-row/result inspection sequence"
+      ],
+      "test": [
+        "Change locale with settings open, reveal deferred rows, toggle relevant state, close/reopen and revisit result",
+        "Check no unintended stale-language labels and no clipped required text",
+        "Actual input verification remains separate from static screenshot observation"
+      ],
+      "exception": [
+        "Explicit bilingual content or intentionally untranslated product names are valid; identify them rather than treating all mixed scripts as bugs"
+      ],
+      "avoid": [
+        "Changing game meaning to shorten a label",
+        "Declaring all localization verified because the top-level tabs changed"
+      ],
+      "source_ids": [],
+      "candidate_ids": [
+        "RB-10"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#45-make-typography-an-explicit-part-of-the-component",
+        "R-LOCALE-01"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-17",
+      "title": "Explain actual outcome, recovery and useful copy",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S1"
+      ],
+      "tags": [
+        "result",
+        "recovery",
+        "copy"
+      ],
+      "when": "When presenting end/recovery or deciding what copy is essential.",
+      "input": [
+        "actual result",
+        "practice/test eligibility",
+        "time/score scope",
+        "next supported action",
+        "return path",
+        "Player experience",
+        "Actual first action",
+        "Hidden rules/costs/consequences",
+        "All displayed sentences"
+      ],
+      "process": [
+        "Promote actual outcome and attach practice/record/time eligibility to the qualified metric",
+        "Classify sentences as identity/rule/condition/consequence/recovery/duplicate/filler",
+        "Retain missing meaning and actual Retry/Back loss scope; remove duplicates and their obsolete fixed height"
+      ],
+      "output": [
+        "RESULT_CONTRACT, classified copy and return/reset map"
+      ],
+      "test": [
+        "Result content matches authoritative state/fixture",
+        "Same result in supported locales",
+        "Next action and return verified by actual input when authorized",
+        "First-action comprehension by a novice where applicable",
+        "Pause/end remains explicit",
+        "No necessary cost/rule erased"
+      ],
+      "exception": [
+        "A lightweight nonmodal result can be sufficient; a cinematic result screen is valid if required qualifiers and recovery remain readable",
+        "Explicit pause, end, failure or onboarding text can look obvious to an expert but still prevent a frozen/broken-state misunderstanding."
+      ],
+      "avoid": [
+        "Reporting practice completion as a whole-run record",
+        "Inferring dodge success, attack continuity or persistence from a still"
+      ],
+      "source_ids": [
+        "VW-S04"
+      ],
+      "candidate_ids": [
+        "RB-11",
+        "VW-R10"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#5-give-states-distinct-meanings",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-18",
+      "title": "Require matched craft and behavior evidence",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S6"
+      ],
+      "tags": [
+        "verification",
+        "craft",
+        "acceptance"
+      ],
+      "when": "When delivering or accepting a guided implementation.",
+      "input": [
+        "requested visual axes",
+        "protected facts/handlers",
+        "revision",
+        "fixture/state",
+        "camera/viewport/input calibration",
+        "Implemented target build",
+        "Real scene/state/content",
+        "Supported inputs/viewports",
+        "Known evidence limits",
+        "Accepted grammar",
+        "Named unresolved visual defects",
+        "Scene-context tests"
+      ],
+      "process": [
+        "Freeze requested silhouette/length, face/rim/body, typography/glyph, internal layout, rank/state and scene relationships",
+        "Inspect matched whole screen first, then native control/state crops and motion; preserve before/intent/actually rendered ledger",
+        "Separate structure, parity, visual/input/device checks and user preference; fix missing required axes then recheck affected states"
+      ],
+      "output": [
+        "EVIDENCE_LEDGER, actual pass/fail/not_run/blocked/inconclusive gates and scoped user review"
+      ],
+      "test": [
+        "Every required structural axis has actual matching rendered evidence",
+        "Actual input/state regression plus protected-content check",
+        "Unknown calibration yields inconclusive comparison rather than invented equality",
+        "Clipping, hierarchy, optical baselines, texture/corner fidelity, scene fit",
+        "State combination, long text, aspect changes, reduced motion",
+        "Actual activation and return flow",
+        "All target relationships visible in the actual render",
+        "No new competing accent or texture noise"
+      ],
+      "exception": [
+        "A source-only draft may be useful if its rendered acceptance remains unresolved",
+        "A source-only proposal is allowed but must retain proposal status; a still cannot verify motion or hit behavior.",
+        "A changed art brief or newly discovered scene conflict justifies another iteration; satisfying a checklist does not prove that the user likes the result."
+      ],
+      "avoid": [
+        "A color/font/background-only pass satisfying an explicitly requested face/body/layout change",
+        "Calling screenshot dimensions a phone test",
+        "Calling structural validation user approval"
+      ],
+      "source_ids": [
+        "VW-S03",
+        "VW-S04",
+        "VW-S01",
+        "VW-EXAMPLE"
+      ],
+      "candidate_ids": [
+        "RB-12",
+        "VW-R11",
+        "VW-R12"
+      ],
+      "authority_refs": [
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#7-require-a-before-to-intent-to-rendered-ledger",
+        "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md#8-verify-the-actual-component-and-its-task",
+        "Existing button contract where applicable"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-19",
+      "title": "Map platform units and inputs explicitly",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S0"
+      ],
+      "tags": [
+        "platform",
+        "web",
+        "Roblox",
+        "Unreal",
+        "mobile",
+        "controller"
+      ],
+      "when": "When a core contract enters a specific engine or device.",
+      "input": [
+        "execution_platform",
+        "logical_viewport",
+        "real_insets",
+        "UI_scale_coordinate_mapping",
+        "supported_inputs",
+        "engine_layers",
+        "camera_contract",
+        "server_acknowledgement_contract"
+      ],
+      "process": [
+        "Record logical units, viewport/safe-area/host chrome, input/focus routes and capture calibration separately",
+        "Apply actual platform target/semantic rules in their native units; never transfer screenshot px/CSS px/pt/dp as equal",
+        "Verify engine hierarchy, projection, storage/network acknowledgement and hardware only where actually supported"
+      ],
+      "output": [
+        "PLATFORM_ADAPTER and attributed environment/calibration record"
+      ],
+      "test": [
+        "unit_calibration",
+        "actual_hit_regions",
+        "real_safe_rectangle",
+        "native_bindings",
+        "physical_device_checks_if_supported",
+        "server_or_save_acknowledgement_if_required"
+      ],
+      "exception": [
+        "Encoded screenshot dimensions do not establish logical viewport or mobile support",
+        "A desktop image does not prove touch or controller support",
+        "No CSS/pt/dp numbers or simulated insets become Roblox minima"
+      ],
+      "avoid": [],
+      "source_ids": [
+        "AUTH-CATALOG"
+      ],
+      "candidate_ids": [
+        "RS-ADAPTER-01"
+      ],
+      "authority_refs": [
+        "R-COM-01",
+        "R-COM-02",
+        "menu_placement_v1/placement-contract.json",
+        "universal_button_system/GUIDE.md §6"
+      ],
+      "test_status": "not_run_for_target_application"
+    },
+    {
+      "id": "DNS-20",
+      "title": "Make source ownership and maintenance practical",
+      "status": "draft_extension",
+      "authority_relationship": "Operational synthesis/application of existing conditional contracts; no canonical rule change or automatic route promotion",
+      "stage_ids": [
+        "S5"
+      ],
+      "tags": [
+        "code",
+        "maintainability"
+      ],
+      "when": "When authorized UI source changes or refactoring are required.",
+      "input": [
+        "Concrete change and purpose",
+        "Actual source/entry point",
+        "Protected behavior/data",
+        "Allowed scope and existing checks"
+      ],
+      "process": [
+        "Trace actual entry -> input -> domain validity/state -> view before editing; name To change X edit Y because Y owns Z",
+        "Separate real domain, presentation, tokens/assets, input and persistence/platform reasons to change; preserve good existing boundaries",
+        "Document contracts/dependency direction/lifecycle cleanup; refactor incrementally with characterization, repeated/failure/recovery parity tests"
+      ],
+      "output": [
+        "CHANGE_MAP, dependency/contract/lifecycle map, scoped diff and actual test outcomes"
+      ],
+      "test": [
+        "Protected behavior through real entry point",
+        "Failure/recovery/repeated input",
+        "Lifecycle cleanup after state change",
+        "Dependency guard rejects forbidden edge where a direction contract exists"
+      ],
+      "exception": [
+        "No absent persistence/platform adapter or speculative manager is required",
+        "Do not split a small program merely to increase files/comments/layers",
+        "Refactoring and behavior changes remain separately scoped"
+      ],
+      "avoid": [],
+      "source_ids": [
+        "AUTH-MAINT"
+      ],
+      "candidate_ids": [],
+      "authority_refs": [
+        "research/human_maintainability_v1/AI_INSTRUCTIONS.md at canonical pin"
+      ],
+      "test_status": "not_run_for_target_application"
+    }
+  ]
+}

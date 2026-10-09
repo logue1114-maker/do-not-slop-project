@@ -1,0 +1,582 @@
+{
+  "packet_version": "1.0.0",
+  "readiness": "proposal",
+  "task": {
+    "player_goal": "Complete one fictional local paper-grid puzzle and choose Retry or Back",
+    "current_state": "entry",
+    "next_action": "Start puzzle",
+    "genre_context": [
+      "short puzzle",
+      "UI-as-game",
+      "authored example"
+    ],
+    "time_pressure": "No live pressure in this trial",
+    "allowed_scope": [
+      "Authored planning example only",
+      "No existing game, repository, service or publication changes authorized by this packet"
+    ],
+    "unknowns": [
+      "Actual source entry point and runtime behavior do not exist in this authored trial"
+    ]
+  },
+  "protected_behavior": [
+    "Start creates a ready board; Begin starts control",
+    "Retry resets current puzzle into ready, not auto-play",
+    "Back discards current local run result",
+    "No persistence, purchases, online room or pause contract exists"
+  ],
+  "selected_recipes": [
+    "DNS-01",
+    "DNS-02",
+    "DNS-03",
+    "DNS-06",
+    "DNS-10",
+    "DNS-11",
+    "DNS-14",
+    "DNS-17",
+    "DNS-18",
+    "DNS-19",
+    "DNS-20"
+  ],
+  "screen_flow": [
+    {
+      "state": "entry",
+      "reading_order": [
+        "Paper Trail identity",
+        "One-sentence actual puzzle rule",
+        "Start puzzle",
+        "Help"
+      ],
+      "scene_region": "Original paper-board preview; no third-party imagery",
+      "primary_decision": "Start puzzle creates a fresh local ready board",
+      "secondary_actions": [
+        "Help reveals rule in the same surface"
+      ],
+      "transitions": [
+        {
+          "event": "Start puzzle",
+          "to": "ready",
+          "preserves": [
+            "locale",
+            "help preference"
+          ],
+          "resets": [
+            "board",
+            "run result"
+          ],
+          "input_owner": "ready controls"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "state": "ready",
+      "reading_order": [
+        "Full board",
+        "Move rule beside board",
+        "Begin"
+      ],
+      "scene_region": "Board is the main task plane; fit whole relevant grid",
+      "primary_decision": "Begin enables the declared move input",
+      "secondary_actions": [
+        "Back returns to entry and discards this unstarted board"
+      ],
+      "transitions": [
+        {
+          "event": "Begin",
+          "to": "playing",
+          "preserves": [
+            "board",
+            "locale"
+          ],
+          "resets": [
+            "elapsed local run clock"
+          ],
+          "input_owner": "board input"
+        },
+        {
+          "event": "Back",
+          "to": "entry",
+          "preserves": [
+            "locale"
+          ],
+          "resets": [
+            "unstarted board"
+          ],
+          "input_owner": "entry controls"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "state": "playing",
+      "reading_order": [
+        "Active board",
+        "Move consequence",
+        "Run status"
+      ],
+      "scene_region": "Keep entire relevant board and selected cell visible",
+      "primary_decision": "Select adjacent legal cell; domain owner decides legality",
+      "secondary_actions": [
+        "No pause is part of this authored trial"
+      ],
+      "transitions": [
+        {
+          "event": "Goal reached",
+          "to": "result",
+          "preserves": [
+            "completed board",
+            "locale"
+          ],
+          "resets": [
+            "live move input"
+          ],
+          "input_owner": "result controls"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "state": "result",
+      "reading_order": [
+        "Puzzle complete",
+        "Current-run move count",
+        "Retry",
+        "Back"
+      ],
+      "scene_region": "Completed board remains visible beside result",
+      "primary_decision": "Retry creates a fresh ready board; it does not automatically begin",
+      "secondary_actions": [
+        "Back returns to entry; current-run result is discarded"
+      ],
+      "transitions": [
+        {
+          "event": "Retry",
+          "to": "ready",
+          "preserves": [
+            "locale"
+          ],
+          "resets": [
+            "board",
+            "run result"
+          ],
+          "input_owner": "ready controls"
+        },
+        {
+          "event": "Back",
+          "to": "entry",
+          "preserves": [
+            "locale"
+          ],
+          "resets": [
+            "board",
+            "run result"
+          ],
+          "input_owner": "entry controls"
+        }
+      ],
+      "unknowns": []
+    }
+  ],
+  "visual_grammar": {
+    "art_statement": "Medium-bright paper/ink task surface; board dominates play while shallow tactile commitment controls carry entry/result actions",
+    "silhouette": "10 CSS px rounded corner trial, 3 CSS px ink perimeter; no decorative icon",
+    "material": "Plain warm paper face with shallow lower body; no outside texture",
+    "type": {
+      "family": "system-ui",
+      "license_or_provenance": "Host platform system fallback; confirm actual loaded face in target browser",
+      "fallback": "sans-serif platform fallback",
+      "weight": "700 command;400 body trial",
+      "case": "Normal sentence case",
+      "baseline_policy": "Optically center actual ink within quiet face after real font load",
+      "numeral_policy": "Tabular only if actual loaded font supports it; inspect move-count width extremes"
+    },
+    "color_roles": [
+      {
+        "role": "text",
+        "foreground": "#211B16",
+        "background": "#EBDDBF",
+        "additional_signal": "Plain readable label; no color-only meaning"
+      },
+      {
+        "role": "local commitment",
+        "foreground": "#211B16",
+        "background": "#D6A25E",
+        "additional_signal": "Position and label define next action"
+      },
+      {
+        "role": "keyboard focus",
+        "foreground": "#211B16 outer ring",
+        "background": "Current face unchanged",
+        "additional_signal": "Independent focus perimeter survives pressed state"
+      }
+    ],
+    "spacing": {
+      "strategy": "Content-grown related command group;12 CSS px trial gap,16 inline/12 block insets",
+      "content_fit_condition": "Stack when summed measured command min-widths plus gaps exceeds actual available inline width; never shrink glyphs to retain a decorative arrangement"
+    },
+    "motion": {
+      "purpose": "Physical press feedback only",
+      "moving_parts": "Inner face moves 2 CSS px",
+      "fixed_parts": "Outer target, shell, label content container allocation and sibling layout remain fixed",
+      "timing_trial": "80 ms press,120 ms release; authored values to test",
+      "interrupt_policy": "Release-away cancels; rapid press/release returns to appropriate static state without duplicate commit",
+      "reduced_motion": "Immediate static depressed/rest face preserves meaning"
+    },
+    "values_and_units": [
+      {
+        "name": "control.shell_min_height",
+        "value": 60,
+        "unit": "CSS px",
+        "role": "command shell",
+        "rationale": "24 line + 24 vertical breathing + 6 rim + 3 body = 57; rounded to 60 authored trial"
+      },
+      {
+        "name": "control.inline_inset",
+        "value": 16,
+        "unit": "CSS px",
+        "role": "label inset",
+        "rationale": "Authored trial pending loaded longest-string measurement"
+      },
+      {
+        "name": "control.block_inset",
+        "value": 12,
+        "unit": "CSS px",
+        "role": "label inset",
+        "rationale": "Allows multiline label growth instead of shrinking type"
+      },
+      {
+        "name": "control.perimeter",
+        "value": 3,
+        "unit": "CSS px",
+        "role": "ink perimeter",
+        "rationale": "Paper/ink trial contour, not accessibility minimum"
+      },
+      {
+        "name": "control.body_allowance",
+        "value": 3,
+        "unit": "CSS px",
+        "role": "lower body",
+        "rationale": "Shallow material cue owned by shell"
+      },
+      {
+        "name": "control.corner_radius",
+        "value": 10,
+        "unit": "CSS px",
+        "role": "corner family",
+        "rationale": "Authored silhouette trial"
+      },
+      {
+        "name": "type.label_size",
+        "value": 18,
+        "unit": "CSS px",
+        "role": "command label",
+        "rationale": "Trial pending rendered ink check"
+      },
+      {
+        "name": "type.label_line_height",
+        "value": 24,
+        "unit": "CSS px",
+        "role": "command label",
+        "rationale": "Trial line height used in budget"
+      },
+      {
+        "name": "type.label_weight",
+        "value": 700,
+        "unit": "font weight",
+        "role": "command label",
+        "rationale": "System fallback may yield different actual ink"
+      },
+      {
+        "name": "layout.group_gap",
+        "value": 12,
+        "unit": "CSS px",
+        "role": "related commands",
+        "rationale": "Trial pending actual hit-region check"
+      },
+      {
+        "name": "motion.press_offset",
+        "value": 2,
+        "unit": "CSS px",
+        "role": "inner face",
+        "rationale": "Shell/hit/siblings remain fixed"
+      },
+      {
+        "name": "motion.press_response",
+        "value": 80,
+        "unit": "ms",
+        "role": "press trial",
+        "rationale": "Not extracted from videos"
+      },
+      {
+        "name": "motion.release",
+        "value": 120,
+        "unit": "ms",
+        "role": "release trial",
+        "rationale": "Not extracted from videos"
+      }
+    ],
+    "unresolved_values": [
+      "Loaded longest-label ink widths and exact optical baselines",
+      "Real art underlay and actual viewport/safe insets",
+      "Supported locale strings and actual fallback glyphs"
+    ]
+  },
+  "layer_owners": [
+    {
+      "layer": "scene_board",
+      "owner": "BoardView (proposed)",
+      "states": [
+        "entry",
+        "ready",
+        "playing",
+        "result"
+      ],
+      "anchor_and_bounds": "Content-led main region; full relevant grid in ready/play; exact fit measured in target",
+      "lifetime": "Current state",
+      "priority": 0,
+      "input_owner": "board input only during playing",
+      "collision_policy": "Decision/HUD cannot cover relevant grid; result may occupy deliberate adjacent/replacing region"
+    },
+    {
+      "layer": "task_controls",
+      "owner": "ScreenView (proposed)",
+      "states": [
+        "entry",
+        "ready",
+        "result"
+      ],
+      "anchor_and_bounds": "Adjacent to current identity/decision/result in content flow",
+      "lifetime": "Current state",
+      "priority": 1,
+      "input_owner": "current task native buttons",
+      "collision_policy": "Only actual current-state command group exists; no hidden screen captures input"
+    }
+  ],
+  "control_families": [
+    {
+      "role": "command",
+      "members": [
+        "Start puzzle",
+        "Begin",
+        "Retry"
+      ],
+      "anatomy": {
+        "hit_region": "Fixed native button shell; min-height 60 CSS px trial, content-grown width; actual pointer overlap to be measured",
+        "face": "Quiet #EBDDBF paper face with #D6A25E current local commitment variant",
+        "label_box": "Live real text at 18/24 CSS px, normal case, weight 700; no baked label",
+        "insets": "16 CSS px inline and 12 block, plus chosen perimeter/body budget",
+        "boundary": "3 CSS px #211B16 perimeter",
+        "body": "3 CSS px lower allowance, face may depress internally 2 CSS px",
+        "icon_slot": "None; no fictitious icon gap",
+        "width_policy": "Actual loaded label ink +32 CSS px inline insets +6 CSS px perimeter; grow/wrap at available container rather than glyph scaling",
+        "safe_ink": "Keep glyph extents inside quiet face; ornament absent",
+        "texture_scale": "No bitmap texture; plain original CSS geometry trial"
+      },
+      "state_recipes": [
+        {
+          "state": "rest",
+          "supported": true,
+          "signal": "Raised quiet paper face and readable label",
+          "activation": "Native activation dispatches one command",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "hover",
+          "supported": true,
+          "signal": "Subtle surface change, no scale trial",
+          "activation": "No commitment until supported activation",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "focus",
+          "supported": true,
+          "signal": "Independent dark/orange outline outside face remains visible during press",
+          "activation": "Tab then Enter/Space dispatch once",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "pressed",
+          "supported": true,
+          "signal": "Face moves 2 CSS px internally; body allowance diminishes",
+          "activation": "Release-away cancels pointer activation",
+          "evidence_status": "proposal"
+        }
+      ],
+      "label_stress_cases": [
+        "Start puzzle",
+        "Begin",
+        "Retry this puzzle from the start",
+        "Actual longest translation must be supplied before production"
+      ],
+      "activation_contract": "Native button; one controller dispatch per activation. Domain owner owns legality and reset; disabled/pending states are not invented in this source-free trial."
+    }
+  ],
+  "platform_adapter": {
+    "platform": "Authored browser CSS prototype assumption",
+    "logical_units": "CSS px; separate encoded screenshot pixels/DPR",
+    "viewports": [
+      {
+        "id": "narrow-trial",
+        "width": 360,
+        "height": 640,
+        "unit": "CSS px",
+        "provenance": "Authored available-canvas assumption, not measured device",
+        "device_test_status": "authored_assumption"
+      },
+      {
+        "id": "wide-trial",
+        "width": 1180,
+        "height": 757,
+        "unit": "CSS px",
+        "provenance": "Authored browser-canvas trial, not inherited capture calibration",
+        "device_test_status": "authored_assumption"
+      }
+    ],
+    "supported_inputs": [
+      "pointer",
+      "keyboard"
+    ],
+    "safe_area": "Use actual available container and host obstruction; actual insets unknown",
+    "coordinate_mapping_status": "unknown",
+    "focus_policy": "Native order follows reading order; state transition transfers focus deliberately to task owner",
+    "host_chrome_policy": "Assume available canvas only; do not draw fake browser or platform chrome"
+  },
+  "source_evidence": [
+    {
+      "id": "E-TRIAL",
+      "source_id": "AUTHORED-TRIAL",
+      "evidence_kind": "authored_specification",
+      "inspection_status": "authored_not_rendered",
+      "observation": "Original fictional task, geometry and state specification only; no target output exists",
+      "transfer_condition": "Single short commitment over medium-bright paper/ink imagery in a CSS-pixel browser",
+      "exception": "Dense industrial tool, live aiming or touch-native app resolves another grammar and adapter",
+      "rights": "Original specification included; system font subject to host platform provenance; no outside assets"
+    },
+    {
+      "id": "E-CONTRACT",
+      "source_id": "AUTH-BUTTON",
+      "evidence_kind": "source_text",
+      "inspection_status": "inspected",
+      "observation": "Existing button instructions require real anatomy/state/input and before-intent-rendered verification",
+      "transfer_condition": "Actual roles and requested scope match the existing conditional contract",
+      "exception": "No universal icon, body, bevel or numeric target size is prescribed",
+      "rights": "Pinned link/hash only; source bytes not bundled"
+    }
+  ],
+  "maintainability": {
+    "owners": [
+      {
+        "role": "domain",
+        "owner": "puzzleRules (proposed)",
+        "responsibility": "Legal moves, goal and reset outcome",
+        "must_not_own": "DOM, colors, focus or browser storage"
+      },
+      {
+        "role": "presentation",
+        "owner": "screenView (proposed)",
+        "responsibility": "Render authoritative state and role contracts",
+        "must_not_own": "Move legality or purchase/network actions"
+      },
+      {
+        "role": "tokens",
+        "owner": "visualTokens (proposed)",
+        "responsibility": "Resolved dimensions/palette/type trials",
+        "must_not_own": "Run validity or world-coordinate targeting"
+      },
+      {
+        "role": "input",
+        "owner": "inputController (proposed)",
+        "responsibility": "Translate native activation to one semantic command",
+        "must_not_own": "Decide legality or duplicate state"
+      },
+      {
+        "role": "state lifetime",
+        "owner": "sessionState (proposed)",
+        "responsibility": "Current local board/run state and transitions",
+        "must_not_own": "Invent persistence or unrelated global manager"
+      }
+    ],
+    "entry_point": "No runnable source exists; proposed browser mount reads one session snapshot before rendering",
+    "change_map": [
+      "To alter command silhouette edit visualTokens/ControlFace because they own visual geometry",
+      "To alter Retry loss scope edit domain/session transition only with separate behavior approval",
+      "To alter label/layout edit ScreenView/localized string owner without changing legality"
+    ],
+    "initialization_and_disposal": "Proposed mount owns listeners; transition updates current view; unmount disposes listeners/timers. Test after a meaningful state change.",
+    "dependency_direction": "Input dispatch -> domain/state; view reads state+tokens; domain never imports view/DOM"
+  },
+  "verification": {
+    "visual_states": [
+      "entry",
+      "ready",
+      "playing",
+      "result",
+      "long label",
+      "focus+pressed",
+      "bright/busy underlay trial"
+    ],
+    "input_traces": [
+      "Start -> ready -> Begin -> legal move -> goal -> Retry -> ready",
+      "Tab/Enter/Space and pointer release-away",
+      "Rapid repeated input without double transition"
+    ],
+    "concurrent_layers": [
+      "Board plus current controls only; no independent event layer in this example"
+    ],
+    "source_parity": "No current source; compare future runtime with the exact declared assumptions and mark unimplemented branches",
+    "user_review": "pending",
+    "gates": [
+      {
+        "id": "G-VISUAL",
+        "kind": "visual",
+        "expected": "Whole entry/ready/play/result and control crop craft checked at named revision",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      },
+      {
+        "id": "G-INPUT",
+        "kind": "input",
+        "expected": "Start/Begin/legal move/goal/Retry/Back, keyboard, release-away and repeat tested",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      },
+      {
+        "id": "G-PARITY",
+        "kind": "source_parity",
+        "expected": "Future source matches declared resets and no unapproved game-rule change",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      },
+      {
+        "id": "G-DEVICE",
+        "kind": "device",
+        "expected": "Actual supported display/input checked; browser sizes alone do not establish hardware",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      },
+      {
+        "id": "G-REVIEW",
+        "kind": "user_review",
+        "expected": "User reviews named actual rendered scope",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      }
+    ]
+  },
+  "limitations": [
+    "All visual/code-role outputs authored, not a functioning game",
+    "No actual font, rendering, input, physical device, source parity or user approval established",
+    "Numerical values are this CSS trial only; never universal touch/engine-unit tokens"
+  ]
+}

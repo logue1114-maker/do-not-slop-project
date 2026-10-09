@@ -1,0 +1,28 @@
+{
+  "status": "template_not_an_application_claim",
+  "recipe_id": "REPLACE_WITH_DNS_ID",
+  "canonical_authority": "Read exact pinned rule if applicable; do not invent an ID",
+  "classification": "draft_extension",
+  "observed_state": "REPLACE_WITH_ACTUAL_STATE",
+  "conditions": [
+    {
+      "name": "REPLACE_WITH_RECIPE_TRIGGER_INPUT",
+      "value": "REPLACE_WITH_ACTUAL_VALUE_OR_EXPLICIT_UNKNOWN",
+      "status": "unknown",
+      "evidence_ids": []
+    }
+  ],
+  "checked_exceptions": [
+    {
+      "exception": "REPLACE_WITH_RELEVANT_EXCEPTION",
+      "matched": "unknown",
+      "reason": "REPLACE_WITH_EVIDENCE_OR_UNKNOWN"
+    }
+  ],
+  "applicability": "conditional",
+  "decision": "Proposal only until actual trigger and exceptions resolve",
+  "concrete_change": "Target -> operation -> proposed relationship -> preserved behavior -> required actual test",
+  "rejected_alternative": "REPLACE_WITH_SAME_TASK_ALTERNATIVE_AND_REASON",
+  "required_output": "REPLACE_WITH_EXACT_ARTIFACT",
+  "test_status": "not_run"
+}

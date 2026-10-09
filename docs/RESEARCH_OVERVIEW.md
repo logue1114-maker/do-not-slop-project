@@ -14,6 +14,12 @@ The project turns concrete interface problems into task-specific rules, applies 
 | What failed or remains unresolved? | [Failure and repair routes](#failures-repairs-and-unfinished-gates) |
 | Where are the full manuals, sources and logs? | [Complete research index](RESEARCH_INDEX.md), [verification](VERIFICATION.md), [rights and scope](RIGHTS_AND_SCOPE.md) |
 
+## Whole-screen production framework
+
+[Production packet](../research/release/README.md) connects task-led composition, flow, art grammar, layer ownership, control anatomy, implementation roles and evidence. [Visual atlas](../research/production-framework/index.html) uses original construction diagrams and conditional route exports. These are production guidance, not a newly completed ordinary/guided experiment.
+
+[Source bounds](../research/release/RIGHTS_AND_EVIDENCE.md) retain public construction sources and identify unobserved long-video/Shorts frames. Private source identities, inspection records, screenshots and code are omitted from this public packet. [Browser and structural checks](../research/production-framework/BROWSER_REPORT.md) remain separate from target-game quality and user review.
+
 ## Actual model-output studies
 
 ### TIDELINE R2: title and entry flow

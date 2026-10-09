@@ -1,0 +1,1036 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:do-not-slop:whole-screen-brief:1.0.0",
+  "title": "Whole-screen production brief: draft extension",
+  "description": "Structure only. Technical completeness never establishes visual quality, behavior, authorization or source truth. implementation_ready additionally requires no unresolved values and verified coordinate mapping.",
+  "type": "object",
+  "required": [
+    "packet_version",
+    "readiness",
+    "task",
+    "protected_behavior",
+    "selected_recipes",
+    "screen_flow",
+    "visual_grammar",
+    "layer_owners",
+    "control_families",
+    "platform_adapter",
+    "source_evidence",
+    "maintainability",
+    "verification",
+    "limitations"
+  ],
+  "properties": {
+    "packet_version": {
+      "enum": [
+        "1.0.0"
+      ]
+    },
+    "readiness": {
+      "enum": [
+        "proposal",
+        "implementation_ready"
+      ]
+    },
+    "task": {
+      "type": "object",
+      "required": [
+        "player_goal",
+        "current_state",
+        "next_action",
+        "genre_context",
+        "time_pressure",
+        "allowed_scope",
+        "unknowns"
+      ],
+      "properties": {
+        "player_goal": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "genre_context": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "time_pressure": {
+          "type": "string",
+          "minLength": 1
+        },
+        "allowed_scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "protected_behavior": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "selected_recipes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "screen_flow": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "state",
+          "reading_order",
+          "scene_region",
+          "primary_decision",
+          "secondary_actions",
+          "transitions",
+          "unknowns"
+        ],
+        "properties": {
+          "state": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reading_order": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "scene_region": {
+            "type": "string",
+            "minLength": 1
+          },
+          "primary_decision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "secondary_actions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "transitions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "event",
+                "to",
+                "preserves",
+                "resets",
+                "input_owner"
+              ],
+              "properties": {
+                "event": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "to": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "preserves": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "resets": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "input_owner": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "trigger_kind": {
+                  "enum": [
+                    "user_input",
+                    "internal_event"
+                  ],
+                  "description": "Optional explicit trigger classification; required for states with an explicit input_mode/action_events contract."
+                }
+              },
+              "additionalProperties": false
+            },
+            "minItems": 0
+          },
+          "unknowns": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "input_mode": {
+            "enum": [
+              "interactive",
+              "read_only"
+            ],
+            "description": "Optional explicit input declaration. When supplied, action_events and every transition trigger_kind are checked together."
+          },
+          "action_events": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "description": "Exact user_input transition event names available in this state; read_only requires an empty list and no secondary actions."
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "visual_grammar": {
+      "type": "object",
+      "required": [
+        "art_statement",
+        "silhouette",
+        "material",
+        "type",
+        "color_roles",
+        "spacing",
+        "motion",
+        "values_and_units",
+        "unresolved_values"
+      ],
+      "properties": {
+        "art_statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "silhouette": {
+          "type": "string",
+          "minLength": 1
+        },
+        "material": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "object",
+          "required": [
+            "family",
+            "license_or_provenance",
+            "fallback",
+            "weight",
+            "case",
+            "baseline_policy",
+            "numeral_policy"
+          ],
+          "properties": {
+            "family": {
+              "type": "string",
+              "minLength": 1
+            },
+            "license_or_provenance": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fallback": {
+              "type": "string",
+              "minLength": 1
+            },
+            "weight": {
+              "type": "string",
+              "minLength": 1
+            },
+            "case": {
+              "type": "string",
+              "minLength": 1
+            },
+            "baseline_policy": {
+              "type": "string",
+              "minLength": 1
+            },
+            "numeral_policy": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "color_roles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "role",
+              "foreground",
+              "background",
+              "additional_signal"
+            ],
+            "properties": {
+              "role": {
+                "type": "string",
+                "minLength": 1
+              },
+              "foreground": {
+                "type": "string",
+                "minLength": 1
+              },
+              "background": {
+                "type": "string",
+                "minLength": 1
+              },
+              "additional_signal": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "spacing": {
+          "type": "object",
+          "required": [
+            "strategy",
+            "content_fit_condition"
+          ],
+          "properties": {
+            "strategy": {
+              "type": "string",
+              "minLength": 1
+            },
+            "content_fit_condition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "token_refs": {
+              "type": "object",
+              "required": [
+                "gap",
+                "inline_inset",
+                "block_inset"
+              ],
+              "properties": {
+                "gap": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "inline_inset": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "block_inset": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false,
+              "description": "Optional named values_and_units references. Strategy uses ${token_name} placeholders with no duplicate numeric spacing literals."
+            }
+          },
+          "additionalProperties": false
+        },
+        "motion": {
+          "type": "object",
+          "required": [
+            "purpose",
+            "moving_parts",
+            "fixed_parts",
+            "timing_trial",
+            "interrupt_policy",
+            "reduced_motion"
+          ],
+          "properties": {
+            "purpose": {
+              "type": "string",
+              "minLength": 1
+            },
+            "moving_parts": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fixed_parts": {
+              "type": "string",
+              "minLength": 1
+            },
+            "timing_trial": {
+              "type": "string",
+              "minLength": 1
+            },
+            "interrupt_policy": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reduced_motion": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "values_and_units": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "value",
+              "unit",
+              "role",
+              "rationale"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                ]
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "unresolved_values": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "layer_owners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "layer",
+          "owner",
+          "states",
+          "anchor_and_bounds",
+          "lifetime",
+          "priority",
+          "input_owner",
+          "collision_policy"
+        ],
+        "properties": {
+          "layer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "states": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "anchor_and_bounds": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lifetime": {
+            "type": "string",
+            "minLength": 1
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "input_owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "collision_policy": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "control_families": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "members",
+          "anatomy",
+          "state_recipes",
+          "label_stress_cases",
+          "activation_contract"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "command",
+              "navigation",
+              "toggle",
+              "exclusive_selection",
+              "tab",
+              "value_edit",
+              "read_only",
+              "spatial_target"
+            ]
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "anatomy": {
+            "type": "object",
+            "required": [
+              "hit_region",
+              "face",
+              "label_box",
+              "insets",
+              "boundary",
+              "body",
+              "icon_slot",
+              "width_policy",
+              "safe_ink",
+              "texture_scale"
+            ],
+            "properties": {
+              "hit_region": {
+                "type": "string",
+                "minLength": 1
+              },
+              "face": {
+                "type": "string",
+                "minLength": 1
+              },
+              "label_box": {
+                "type": "string",
+                "minLength": 1
+              },
+              "insets": {
+                "type": "string",
+                "minLength": 1
+              },
+              "boundary": {
+                "type": "string",
+                "minLength": 1
+              },
+              "body": {
+                "type": "string",
+                "minLength": 1
+              },
+              "icon_slot": {
+                "type": "string",
+                "minLength": 1
+              },
+              "width_policy": {
+                "type": "string",
+                "minLength": 1
+              },
+              "safe_ink": {
+                "type": "string",
+                "minLength": 1
+              },
+              "texture_scale": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "state_recipes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "state",
+                "supported",
+                "signal",
+                "activation",
+                "evidence_status"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "rest",
+                    "hover",
+                    "focus",
+                    "pressed",
+                    "selected",
+                    "unavailable",
+                    "pending",
+                    "error",
+                    "result"
+                  ]
+                },
+                "supported": {
+                  "type": "boolean"
+                },
+                "signal": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "activation": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence_status": {
+                  "enum": [
+                    "proposal",
+                    "source_observed",
+                    "target_rendered",
+                    "behavior_tested"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "label_stress_cases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "activation_contract": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "platform_adapter": {
+      "type": "object",
+      "required": [
+        "platform",
+        "logical_units",
+        "viewports",
+        "supported_inputs",
+        "safe_area",
+        "coordinate_mapping_status",
+        "focus_policy",
+        "host_chrome_policy"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "minLength": 1
+        },
+        "logical_units": {
+          "type": "string",
+          "minLength": 1
+        },
+        "viewports": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "width",
+              "height",
+              "unit",
+              "provenance",
+              "device_test_status"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "width": {
+                "type": "number",
+                "minimum": 1
+              },
+              "height": {
+                "type": "number",
+                "minimum": 1
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "provenance": {
+                "type": "string",
+                "minLength": 1
+              },
+              "device_test_status": {
+                "enum": [
+                  "not_run",
+                  "actual_device_tested",
+                  "simulator_only",
+                  "authored_assumption"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "supported_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "safe_area": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coordinate_mapping_status": {
+          "enum": [
+            "verified",
+            "unknown"
+          ]
+        },
+        "focus_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "host_chrome_policy": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_id",
+          "evidence_kind",
+          "inspection_status",
+          "observation",
+          "transfer_condition",
+          "exception",
+          "rights"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_kind": {
+            "enum": [
+              "actual_screen",
+              "video_frame",
+              "transcript",
+              "source_text",
+              "official_standard",
+              "owner_review",
+              "authored_specification"
+            ]
+          },
+          "inspection_status": {
+            "enum": [
+              "inspected",
+              "unavailable",
+              "description_only",
+              "authored_not_rendered"
+            ]
+          },
+          "observation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "transfer_condition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exception": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rights": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "maintainability": {
+      "type": "object",
+      "required": [
+        "owners",
+        "entry_point",
+        "change_map",
+        "initialization_and_disposal",
+        "dependency_direction"
+      ],
+      "properties": {
+        "owners": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "role",
+              "owner",
+              "responsibility",
+              "must_not_own"
+            ],
+            "properties": {
+              "role": {
+                "type": "string",
+                "minLength": 1
+              },
+              "owner": {
+                "type": "string",
+                "minLength": 1
+              },
+              "responsibility": {
+                "type": "string",
+                "minLength": 1
+              },
+              "must_not_own": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "entry_point": {
+          "type": "string",
+          "minLength": 1
+        },
+        "change_map": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "initialization_and_disposal": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dependency_direction": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "visual_states",
+        "input_traces",
+        "concurrent_layers",
+        "source_parity",
+        "user_review",
+        "gates"
+      ],
+      "properties": {
+        "visual_states": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "input_traces": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "concurrent_layers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "source_parity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "user_review": {
+          "enum": [
+            "pending",
+            "approved_for_named_scope",
+            "changes_requested"
+          ]
+        },
+        "gates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "expected",
+              "status",
+              "evidence_ids",
+              "reviewer",
+              "limitation"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "structure",
+                  "source_parity",
+                  "visual",
+                  "input",
+                  "device",
+                  "user_review"
+                ]
+              },
+              "expected": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "pass",
+                  "fail",
+                  "not_run",
+                  "blocked",
+                  "inconclusive"
+                ]
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "reviewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "limitation": {
+                "type": "string"
+              },
+              "state_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true,
+                "description": "Optional exact screen_flow state references for this gate."
+              },
+              "event_names": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true,
+                "description": "Optional exact transition event references for this gate."
+              },
+              "covers_complete_flow": {
+                "type": "boolean",
+                "description": "If true, state_ids must cover all declared screen states; an input gate must also cover all transition event names. This checks declared scope, never actual execution."
+              }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "additionalProperties": false
+}

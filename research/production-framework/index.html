@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15292f">
+  <meta name="description" content="A visual construction reader for whole-screen game interfaces: task, sequence, layers, control anatomy, art grammar, and evidence.">
+  <title>Do Not Slop · Whole-screen construction atlas</title>
+  <link rel="stylesheet" href="reader.css">
+  <script src="data.js" defer></script>
+  <script src="diagrams.js" defer></script>
+  <script src="reader.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to construction atlas</a>
+  <header class="masthead">
+    <a class="wordmark" href="../../">DO NOT SLOP<span>Production framework</span></a>
+    <nav aria-label="Related guides"><a href="../release/README.md">Production packet ↗</a><a href="#handoff">AI handoff ↓</a></nav>
+  </header>
+  <div class="page-layout">
+    <aside class="chapter-rail" aria-label="Reader chapters">
+      <p class="rail-label">CONSTRUCTION ATLAS</p>
+      <nav>
+        <a href="#composition"><span>01</span> Screen & task</a>
+        <a href="#sequence"><span>02</span> Entry → play</a>
+        <a href="#ownership"><span>03</span> Shared layers</a>
+        <a href="#anatomy"><span>04</span> Control anatomy</a>
+        <a href="#grammar"><span>05</span> Art grammar</a>
+        <a href="#safe-mask"><span>06</span> Ornament & ink</a>
+        <a href="#states"><span>07</span> Meaning & states</a>
+        <a href="#handoff"><span>08</span> Build & verify</a>
+      </nav>
+      <div class="rail-bottom"><span class="status-dot"></span> Research-backed draft<p>20 conditional recipes<br>12 task routes</p></div>
+    </aside>
+    <main id="main">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy"><p class="eyebrow">GAME INTERFACE PRODUCTION</p><h1 id="page-title">Game interface construction</h1><p class="hero-lead">Choose a task, specify the screen flow and control family, then export the implementation instructions.</p><div class="hero-links"><a class="solid-link" href="#composition">Choose a construction route <span>↓</span></a><a href="#handoff">Get the maker packet ↗</a></div></div>
+        <figure class="hero-art"><div id="hero-diagram" class="diagram-surface"></div><figcaption>Original construction schematic. No game screenshot or before/after experiment.</figcaption></figure>
+      </section>
+      <div class="scope-strip"><strong>Stable core → conditional recipes → verified adapter<span id="data-status" class="data-status" role="status">Loading current production packet…</span></strong><p>Genre names suggest context. The actual task, camera, content and input choose the layout. Values shown in diagrams are teaching geometry, never platform minima.</p></div>
+
+      <section class="chapter" id="composition" aria-labelledby="composition-title">
+        <div class="chapter-heading"><div><p class="eyebrow">01 / SCREEN & TASK</p><h2 id="composition-title">Screen composition</h2></div><p>A playable world and a decision sheet need different compositions. Start with the region the player must read.</p></div>
+        <div class="recipe-workspace">
+          <nav class="branch-nav" id="branch-nav" aria-label="Conditional construction routes"></nav>
+          <article class="branch-detail">
+            <div class="branch-top"><p class="small-label" id="branch-kind">TASK-LED ROUTE</p><h3 id="branch-title"></h3><p id="branch-condition"></p></div>
+            <figure class="diagram-figure"><div id="composition-diagram" class="diagram-surface" tabindex="0" aria-label="Construction map; horizontally scrollable on small screens"></div><figcaption id="composition-caption"></figcaption></figure>
+            <div class="decision-pair"><div><span class="small-label">BUILD THIS RELATION</span><p id="branch-build"></p></div><div class="exception"><span class="small-label">CHOOSE ANOTHER ROUTE WHEN</span><p id="branch-exception"></p></div></div>
+            <details class="compact-detail"><summary>Exact inputs, output and checks</summary><div id="branch-exact"></div></details>
+          </article>
+        </div>
+        <div class="comparison-heading"><h3>Scene-dominant ↔ decision-dominant</h3><p>Two arrangements, selected by the current task. Neither is a universal better design.</p></div>
+        <figure class="diagram-figure comparison-figure"><div id="planes-diagram" class="diagram-surface" tabindex="0"></div><figcaption>Protect the relevant world region during live navigation. Concentrate identity, comparison, cost and action when the decision is the task. A live tactical overlay may need both.</figcaption></figure>
+      </section>
+
+      <section class="chapter" id="sequence" aria-labelledby="sequence-title">
+        <div class="chapter-heading"><div><p class="eyebrow">02 / ENTRY → PLAY</p><h2 id="sequence-title">Entry, play and return</h2></div><p>Carry identity and state across transitions. Change the composition when the player's job changes.</p></div>
+        <div class="phase-controls" role="group" aria-label="Sequence construction phase"><button type="button" data-phase="entry" aria-pressed="true">1. Entry</button><button type="button" data-phase="setup" aria-pressed="false">2. Setup, if real</button><button type="button" data-phase="play" aria-pressed="false">3. First action</button><button type="button" data-phase="return" aria-pressed="false">4. Result & return</button></div>
+        <figure class="diagram-figure"><div id="sequence-diagram" class="diagram-surface" tabindex="0"></div><figcaption id="sequence-caption"></figcaption></figure>
+        <div class="sequence-note"><strong id="phase-title"></strong><p id="phase-description"></p><p class="boundary-note">Direct-to-play games can skip entry. Do not add Solo / Host / Join, a pause, or an extra confirmation unless the actual lifecycle needs it.</p></div>
+      </section>
+
+      <section class="chapter" id="ownership" aria-labelledby="ownership-title">
+        <div class="chapter-heading"><div><p class="eyebrow">03 / SHARED LAYERS</p><h2 id="ownership-title">Layer space and input ownership</h2></div><p>Menus, HUD, world prompts and announcements occupy the same screen. Drawing each in isolation leaves collisions unresolved.</p></div>
+        <div class="layer-controls"><label><input type="checkbox" id="dialog-layer"> Open decision dialog</label><label><input type="checkbox" id="notice-layer" checked> Add a nonurgent notice</label><span id="input-owner" aria-live="polite">Input owner: world</span></div>
+        <figure class="diagram-figure"><div id="ownership-diagram" class="diagram-surface" tabindex="0"></div><figcaption id="ownership-caption"></figcaption></figure>
+        <div class="ownership-contract"><div><b>GEOMETRY</b><p>Shared coordinates, protected scene bounds, readable ink and actual hit regions</p></div><div><b>INPUT</b><p>One owner for each active gesture; dismissal must not activate the layer beneath</p></div><div><b>LIFETIME</b><p>Persist, replace, compact or queue; record what restores and when</p></div></div>
+        <details class="compact-detail"><summary>Concurrency and interruption contract</summary><p>Register each simultaneous layer with owner, anchor/bounds, priority, lifetime, input ownership and collision policy. Inspect the real worst supported combination. Essential live hazards remain visible unless the actual game state makes them irrelevant. Increasing z-order only decides which thing gets hidden; it does not solve the conflict.</p></details>
+      </section>
+
+      <section class="chapter" id="anatomy" aria-labelledby="anatomy-title">
+        <div class="chapter-heading"><div><p class="eyebrow">04 / CONTROL ANATOMY</p><h2 id="anatomy-title">Target, silhouette, face and ink</h2></div><p>Target is interaction. Silhouette is recognition. Face is the reading surface. Ink is the actual label, icon and state.</p></div>
+        <figure class="diagram-figure anatomy-figure"><div id="anatomy-diagram" class="diagram-surface" tabindex="0"></div><figcaption>Budget real ink and existing slots before freezing a contour. All labeled dimensions are symbolic; resolve them in the target runtime.</figcaption></figure>
+        <div class="equation-strip"><span>FACE WIDTH</span><p>left inset + optional icon + present gaps + measured label + optional status + right inset</p><span>HEIGHT</span><p>real line height + breathing room + selected rim/body allowance</p></div>
+        <div class="two-note"><p><strong>Keep the target steady.</strong> A justified press can move the inner face while the target and neighboring layout stay fixed.</p><p><strong>Allow an honest flat control.</strong> Body, rim, icon and equal width are choices with conditions, not mandatory polish.</p></div>
+      </section>
+
+      <section class="chapter" id="grammar" aria-labelledby="grammar-title">
+        <div class="chapter-heading"><div><p class="eyebrow">05 / ART GRAMMAR</p><h2 id="grammar-title">Material, type and color families</h2></div><p>Contour, material, type, texture and color must have a named relation to the real scene and the action's rank.</p></div>
+        <div class="grammar-controls"><div class="segmented" role="group" aria-label="Illustrative material grammar"><button type="button" data-material="ink" aria-pressed="true">Graphic ink</button><button type="button" data-material="metal" aria-pressed="false">Cut metal</button><button type="button" data-material="paper" aria-pressed="false">Paper & seal</button></div><label><input type="checkbox" id="busy-underlay"> Inspect a busy underlay</label></div>
+        <figure class="diagram-figure"><div id="grammar-diagram" class="diagram-surface" tabindex="0"></div><figcaption id="grammar-caption"></figcaption></figure>
+        <dl class="grammar-ledger" id="grammar-ledger"></dl>
+        <p class="boundary-note">These are original teaching specimens. Choose and measure the actual project's grammar; the framework does not prescribe these palettes, fonts or materials.</p>
+      </section>
+
+      <section class="chapter" id="safe-mask" aria-labelledby="mask-title">
+        <div class="chapter-heading"><div><p class="eyebrow">06 / ORNAMENT & INK</p><h2 id="mask-title">Ornament-safe content</h2></div><p>An ornamental border has a different job from a readable face. Draw their contract before placing text.</p></div>
+        <div class="mask-controls"><label><input type="checkbox" id="show-mask" checked> Show content-safe mask</label><span>Fixed corners / scalable center / independent type</span></div>
+        <figure class="diagram-figure"><div id="mask-diagram" class="diagram-surface" tabindex="0"></div><figcaption>Safe ink excludes folds, straps, cutouts, rims and transparent padding. Preserve detailed caps with a native slice map or separate pieces; do not stretch the complete artwork.</figcaption></figure>
+        <div class="two-note"><p><strong>Clip content before the rim.</strong> Reserve the header, list viewport and footer inside the declared face. Keep close/back targets discoverable.</p><p><strong>Scale only what may scale.</strong> Plain geometric controls can stay native/code-drawn. Detailed artwork needs fixed edges, a stretch/tile center and a minimum text-safe size.</p></div>
+      </section>
+
+      <section class="chapter" id="states" aria-labelledby="states-title">
+        <div class="chapter-heading"><div><p class="eyebrow">07 / MEANING & STATES</p><h2 id="states-title">Selection, focus and feedback</h2></div><p>Commands, navigation, toggles, values and read-only status need distinct semantics. State must survive without motion or hue alone.</p></div>
+        <div id="state-rail" class="state-rail" role="list" aria-label="Authored component state specimens"></div>
+        <figure class="diagram-figure"><div id="state-diagram" class="diagram-surface" tabindex="0"></div><figcaption id="state-caption"></figcaption></figure>
+        <details class="compact-detail"><summary>State and input checks</summary><p>Inspect rest, hover only where supported, keyboard/controller focus, press, persistent selection, unavailable reason, pending and error. Check a selected control while focused, release-away, cancel, rapid repeat, long labels, fallback fonts and reduced motion. A still does not establish a hit region or successful activation.</p></details>
+      </section>
+
+      <section class="chapter" id="handoff" aria-labelledby="handoff-title">
+        <div class="chapter-heading"><div><p class="eyebrow">08 / BUILD & VERIFY</p><h2 id="handoff-title">AI implementation packet</h2></div><p>Give the maker the whole task, visual contract, source owners and evidence plan together. Preserve game behavior while changing presentation.</p></div>
+        <ol class="packet-chain"><li><span>01</span><b>Screen plan</b><small>states · transitions · attention</small></li><li><span>02</span><b>Resolved grammar</b><small>values · units · assets · type</small></li><li><span>03</span><b>Component contract</b><small>anatomy · inputs · states</small></li><li><span>04</span><b>Change map</b><small>real owners · protected behavior</small></li><li><span>05</span><b>Render evidence</b><small>whole scenes · crops · traces</small></li></ol>
+        <div class="download-band"><div><strong>Maker documents & structured data</strong><p>Exact instructions, conditional recipes and evidence records</p></div><div id="download-links"></div></div>
+        <p id="handoff-status" class="boundary-note" role="status">Loading the full common maker instructions…</p>
+        <div class="handoff-actions"><button type="button" id="copy-handoff">Copy selected-route handoff</button><button type="button" id="download-handoff">Download selected-route packet</button><span id="copy-status" role="status"></span></div>
+        <details class="compact-detail"><summary>Read the selected-route AI instructions</summary><pre id="ai-handoff"></pre></details>
+        <details class="compact-detail"><summary>Production stages: exact input → process → output → test</summary><div id="stage-records" class="record-stack"></div></details>
+        <details class="compact-detail"><summary>All reusable recipes, conditions and exceptions</summary><div class="filter-field"><label for="recipe-filter">Find a recipe</label><input id="recipe-filter" type="search" placeholder="Try type, layer, material, result…"></div><p id="recipe-count" class="small-label" aria-live="polite"></p><div id="recipe-records" class="record-stack"></div></details>
+        <div class="verification-strip"><div><span class="small-label">INSPECT IN THIS ORDER</span><h3>Whole scene → control crop → actual input</h3><p>Check long content, busy scenes, concurrent layers and return flow. Source integrity is a separate result.</p></div><div><span class="small-label">EVIDENCE LIMIT</span><p id="evidence-limit">A framework draft is not a validated game build. Teaching diagrams are not render evidence.</p><a href="../release/README.md">Open the reusable production packet ↗</a></div></div>
+        <details class="compact-detail"><summary>Source provenance and unobserved evidence</summary><div id="source-records"></div><ul id="evidence-limits"></ul></details>
+      </section>
+      <footer class="page-footer"><p>DO NOT SLOP <span>Whole-screen construction atlas · 9 Oct 2026</span></p><p>Original SVG/code diagrams. Linked sources retain their own rights. Research extensions remain proposals until tested and reviewed.</p></footer>
+    </main>
+  </div>
+  <noscript><p class="noscript">This visual reader needs JavaScript for construction diagrams. <a href="../release/PRODUCTION_FRAMEWORK.md">Read the complete production framework</a> or <a href="../release/README.md">read the reusable packet</a>.</p></noscript>
+</body>
+</html>

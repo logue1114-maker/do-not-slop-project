@@ -24,6 +24,7 @@ Read [AGENTS.md](../AGENTS.md) first. Pick the smallest pack that matches the pe
 
 | Task | Start here | Example or source |
 | :--- | :--- | :--- |
+| Complete game interface | [Whole-screen production framework](../research/release/README.md) · [Exact AI packet](../research/release/AI_INSTRUCTIONS.md) | [Construction atlas source](../research/production-framework/index.html) · [Checks and limits](../research/production-framework/BROWSER_REPORT.md) |
 | Button construction and correction | [General role/family/anatomy guide](../research/universal_button_system/README.md) | [Runnable source candidate](../research/universal_button_system/specimens/index.html) · [Rendered gate and tests](../research/universal_button_system/BROWSER_REPORT.md) |
 | Human-maintainable code | [Reusable AI instructions and review checklist](../research/human_maintainability_v1/README.md) | [Behavior-preserving Fleet refactoring and isolated theme change](../research/human_maintainability_v1/MAINTAINER_QUICKSTART.md) |
 | Input, state and recovery corrections | [Six English visual labs and exact AI instructions](../research/interaction_corrections_v1/README.md) | [Runnable source](../research/interaction_corrections_v1/index.html) · [Desktop / phone captures and tests](../research/interaction_corrections_v1/BROWSER_REPORT.md) |

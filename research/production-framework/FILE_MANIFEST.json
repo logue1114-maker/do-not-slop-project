@@ -1,0 +1,65 @@
+{
+  "scope": "authored reader and original browser captures; separately redacted public data/navigation variant; fresh structural/export evidence",
+  "files": [
+    {
+      "path": "BROWSER_REPORT.md",
+      "sha256": "b8196977118aef10e0423ad8b9c92968563312b922373500b2e9c7dc2b471717",
+      "bytes": 5796
+    },
+    {
+      "path": "README.md",
+      "sha256": "af584fbdbe481bad44dad90f2075ce7069aae2dee47225ddd5c160e0e22e4a6d",
+      "bytes": 4757
+    },
+    {
+      "path": "STRUCTURAL_CHECKS.json",
+      "sha256": "3b646bbc440d4fcc2642f28bdcf4f0a30d42fc348e8d52fbdc8a9f3083644d97",
+      "bytes": 3139
+    },
+    {
+      "path": "captures/atlas.jpg",
+      "sha256": "38384337ee9cf0556ddd7623145ac92397db194aa61680156dac8f23c820b909",
+      "bytes": 75221
+    },
+    {
+      "path": "captures/safe-mask.jpg",
+      "sha256": "49730a60ff283426b46534c330a095ae57b4d69fce3e94e8e0422882e09041cd",
+      "bytes": 90361
+    },
+    {
+      "path": "check-reader.py",
+      "sha256": "a388058184a961acc9913fae9d2167790caae831e6fc74bedb1d4dd4357be608",
+      "bytes": 8506
+    },
+    {
+      "path": "check-runtime.cjs",
+      "sha256": "866b86551c9b570e5cbf5ee6098a2c7eca7df5a71bf34c0ca05ee772cc95f61f",
+      "bytes": 5036
+    },
+    {
+      "path": "data.js",
+      "sha256": "c9c3f1487393765fdab27ee414ee0c44357fa6fdfbd85a2d0b840132ceb73ccc",
+      "bytes": 63801
+    },
+    {
+      "path": "diagrams.js",
+      "sha256": "0e5b55b40f45f8c72dd769133030169d680987a6f8937a671e7f3f772ca433ad",
+      "bytes": 24906
+    },
+    {
+      "path": "index.html",
+      "sha256": "70060a6619f5e4a39822e0b4ddbee2933884e413dec262969f6047b9347009e4",
+      "bytes": 15880
+    },
+    {
+      "path": "reader.css",
+      "sha256": "87cef2b576b7cd15c8374682aca021bdb102a3d3858e8dcab547827fffdd997e",
+      "bytes": 18654
+    },
+    {
+      "path": "reader.js",
+      "sha256": "a9eeeb5378450775b636ffdf99f40e012f038204a9219ac43784143a8f462d1f",
+      "bytes": 16737
+    }
+  ]
+}

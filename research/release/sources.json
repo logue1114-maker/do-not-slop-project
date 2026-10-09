@@ -1,0 +1,333 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "VW-S01",
+      "title": "How to design a UI button for Video Games",
+      "creator": "Sprung Studios",
+      "url": "https://www.sprungstudios.com/how-to-design-a-ui-button-for-video-games/",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "firsthand_studio_construction_article",
+      "observed": "The studio describes a moodboard→variants→feedback→polish process. It resolves setting, color, texture, silhouette and type before detailed rendering. Its restart example builds a 2D industrial surface with coherent light, bolts and reflection; final art was inspected against a concrete backdrop. It plans localization and interaction-state mockups before finishing. The studio explicitly calls the result a training exercise, not a client-ready deliverable.",
+      "limit": "No numerical geometry prescription; No usability outcome or causal improvement; No production-state behavior or animation verified",
+      "inspection": {
+        "text_read": true,
+        "source_images_viewed": true,
+        "video_frames_viewed": false,
+        "matching_transcript_read": false,
+        "method": "Public web article plus direct original WIP and final-image inspection in own cloud browser tab",
+        "source_image_urls": [
+          "https://www.sprungstudios.com/wp-content/uploads/2021/02/WIP-3.png",
+          "https://www.sprungstudios.com/wp-content/uploads/2021/02/Final-Button-1024x576.png"
+        ],
+        "timestamp_claims": []
+      },
+      "rights": {
+        "status": "all_rights_reserved_notice_observed",
+        "license": null,
+        "notice": "© 2026 Sprung Studios. All rights reserved",
+        "included": "Original paraphrase and verified links only; no source artwork, font or asset bytes bundled"
+      }
+    },
+    {
+      "id": "VW-S02",
+      "title": "Rend",
+      "creator": "Sprung Studios / Frostkeep",
+      "url": "https://www.sprungstudios.com/rend/",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "firsthand_production_case",
+      "observed": "The production account combines Norse/Celtic ornament with simpler rectangular interactive frames. It separates crafting and talent structures by flow direction, makes bright stats legible using strong borders, and shrinks chat during other tasks. The inspected concept retains scene context around a large dark talent panel, puts details beside the graph, and leaves compact status/action groups at the lower edges. Placeholder copy makes this a concept, not current runtime evidence.",
+      "limit": "No arbitrary panel-occupancy percentage; No universal ornament or HUD-corner rule; No contemporary runtime or input verified",
+      "inspection": {
+        "text_read": true,
+        "source_images_viewed": true,
+        "video_frames_viewed": false,
+        "matching_transcript_read": false,
+        "method": "Public article and complete original talent-screen concept image viewed in own cloud browser",
+        "source_image_urls": [
+          "https://www.sprungstudios.com/wp-content/uploads/2020/12/UI_FK_Concept__Talents_04-OP.png"
+        ],
+        "timestamp_claims": []
+      },
+      "rights": {
+        "status": "all_rights_reserved_notice_observed_on_same_studio_site",
+        "license": null,
+        "included": "Original paraphrase and links only; no source image bytes bundled"
+      }
+    },
+    {
+      "id": "VW-S03",
+      "title": "UMG Styling",
+      "creator": "Epic Games",
+      "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/umg-styling-in-unreal-engine",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "official_engine_documentation",
+      "observed": "The documentation separates widget states, per-state image/material choices, tint, margins and padding. Box rendering stretches a 3×3 image while preserving margin-defined edges; Border tiles edges with an empty center; Image ignores margins. Render transforms alter a visual relative to layout and may extend beyond parent clipping. These implementation mechanics require runtime inspection, not source-only approval.",
+      "limit": "Not portable API names for all engines; No motion timings prescribed; No current-engine execution performed",
+      "inspection": {
+        "text_read": true,
+        "source_images_viewed": false,
+        "video_frames_viewed": false,
+        "matching_transcript_read": false,
+        "method": "Official documentation text opened with public web tool",
+        "timestamp_claims": []
+      },
+      "rights": {
+        "status": "not_established",
+        "license": null,
+        "included": "Original paraphrase and official link only; no source code or images bundled"
+      }
+    },
+    {
+      "id": "VW-S04",
+      "title": "Playables design best practices",
+      "creator": "Google / YouTube Playables",
+      "url": "https://developers.google.com/youtube/gaming/playables/certification/best_practices_design",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "official_platform_design_guidance",
+      "observed": "The platform guidance separates host actions, game canvas and menus. It recommends aspect-aware resizing or letterboxing, clear scaled text/assets, minimal/contextual onboarding, distinct button states and explicit pause/end messages. Its touch recommendation is 48×48 dp with 8 dp spacing, separating visible icon from touch area. Those units and values belong to this platform guidance, not a universal CSS-pixel recipe.",
+      "limit": "No user-testing result for this framework; No universal game HUD geometry; No evidence that dp, CSS px and engine units are interchangeable",
+      "inspection": {
+        "text_read": true,
+        "source_images_viewed": false,
+        "video_frames_viewed": false,
+        "matching_transcript_read": false,
+        "method": "Official full page text opened with public web tool",
+        "timestamp_claims": []
+      },
+      "rights": {
+        "status": "explicit_license_read",
+        "license": "CC BY 4.0 for page content except otherwise noted; Apache 2.0 for code samples",
+        "notice_url": "https://developers.google.com/terms/site-policies",
+        "included": "Original paraphrase and link only; no code or images bundled"
+      }
+    },
+    {
+      "id": "VW-V01",
+      "title": "Art Direction for AAA UI",
+      "creator": "GDC Festival of Gaming; speaker Omer Younas, DICE LA",
+      "url": "https://www.youtube.com/watch?v=kjbxxbmJCh0",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "long_video_metadata_only",
+      "observed": "The verified publisher description identifies a DICE LA art-direction talk covering consistent game UI art. Chapter labels mention layout, type/localization, shape/iconography and color/accessibility. The video and transcript did not load, so no frame-specific craft findings, watched-content claims or exact evidence timestamps are supplied.",
+      "limit": "No video frame viewed; No matching transcript read; Chapter and commenter timestamps are navigation leads, not inspected evidence",
+      "inspection": {
+        "page_verified": true,
+        "description_read": true,
+        "video_frames_viewed": false,
+        "matching_transcript_read": false,
+        "method": "Actual YouTube page, expanded description, chapter labels and loading player inspected in own cloud browser. Supported content.exportYouTubeTranscript returned no transcript available.",
+        "timestamp_claims": [],
+        "status": "metadata_and_description_verified_content_unobserved"
+      },
+      "rights": {
+        "status": "not_established",
+        "license": null,
+        "included": "Metadata, original description paraphrase and verified link only; no video/audio/transcript bytes bundled"
+      }
+    },
+    {
+      "id": "VW-V02",
+      "title": "Creating Satisfying Buttons with Flowlab 🌟 #nocode #gamedev #cozyvibes #design #cozygaming",
+      "creator": "flowlabIO; linked example by Samuel Tome",
+      "url": "https://www.youtube.com/shorts/wUwCI3Klu7w",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "short_video_metadata_plus_linked_example",
+      "observed": "The actual Short page verifies the title, channel, date and 22-second duration; it has no added description. The creator-linked example separately shows PLAY/SHOP/EXIT as rounded thick-ink controls with bright faces, lower bodies and heavy outlined white type over a pixel scene. One later render with the pointer over PLAY shows a larger visible control; its hit region, timing and behavior graph remain unmeasured. This is an authored effect example, not evidence that every menu should use equal dominant buttons.",
+      "limit": "No Short frame viewed; No exact hover/press timing; No stable-hitbox assertion; No measured user benefit or real menu transition",
+      "inspection": {
+        "page_verified": true,
+        "description_read": true,
+        "video_frames_viewed": false,
+        "matching_transcript_read": false,
+        "linked_example_render_viewed": true,
+        "linked_example_editor_opened_read_only": true,
+        "method": "Actual Shorts page and expanded watch-page date inspected in own cloud tab; player stalled. Creator-linked example rendered separately and its read-only editor label was verified.",
+        "timestamp_claims": [],
+        "status": "short_content_unobserved_linked_example_observed"
+      },
+      "rights": {
+        "status": "not_established",
+        "license": null,
+        "included": "Original paraphrase and links only; no game, source code, asset or video bytes bundled"
+      }
+    },
+    {
+      "id": "VW-EXAMPLE",
+      "title": "Flowlab creator-linked button effect example",
+      "creator": "Samuel Tome / flowlabIO",
+      "url": "https://flowlab.io/game/play/2435797",
+      "access": "public_reference_no_asset_reuse_permission",
+      "kind": "actual_linked_example",
+      "observed": "Separately rendered PLAY/SHOP/EXIT thick-ink bright controls and lower bodies over a pixel scene; pointer-over render larger. Read-only editor opened.",
+      "limit": "Not a watched Short. Hitbox, timing and actual transition behavior unmeasured; equal action rank is exercise styling.",
+      "inspection": {
+        "actual_example_viewed": true,
+        "behavior_tested": false
+      },
+      "rights": {
+        "license": null,
+        "included": "Original paraphrase and links only"
+      }
+    },
+    {
+      "id": "AUTH-CATALOG",
+      "title": "Existing condition-based rule catalog",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/rules_catalog.json",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "pinned_project_authority",
+      "observed": "Exact source file remains unchanged in the canonical application package; pin and raw-byte identity retained.",
+      "limit": "Review draft, not installed and not user-approved; referenced text retains original conditions/exceptions and language.",
+      "inspection": {
+        "commit": "d82e373828263a7fc227a13eb8f487ae0329cb19",
+        "hash": "01311c0609707bbe0a94e756e5608616e87d034da7a65d6e768732dcd2b98d52"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned reference/hash only; source file bytes not bundled"
+      }
+    },
+    {
+      "id": "AUTH-BUTTON",
+      "title": "Existing universal button instructions",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/AI_INSTRUCTIONS.md",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "pinned_project_authority",
+      "observed": "Exact source file remains unchanged in the canonical application package; pin and raw-byte identity retained.",
+      "limit": "Review draft, not installed and not user-approved; referenced text retains original conditions/exceptions and language.",
+      "inspection": {
+        "commit": "d82e373828263a7fc227a13eb8f487ae0329cb19",
+        "hash": "3d4c35294fd837b7f62a628f2a13590ddadea943f2d09486b7613d99ca291f67"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned reference/hash only; source file bytes not bundled"
+      }
+    },
+    {
+      "id": "AUTH-GUIDE",
+      "title": "Existing universal button construction guide",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "pinned_project_authority",
+      "observed": "Exact source file remains unchanged in the canonical application package; pin and raw-byte identity retained.",
+      "limit": "Review draft, not installed and not user-approved; referenced text retains original conditions/exceptions and language.",
+      "inspection": {
+        "commit": "d82e373828263a7fc227a13eb8f487ae0329cb19",
+        "hash": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned reference/hash only; source file bytes not bundled"
+      }
+    },
+    {
+      "id": "AUTH-MAINT",
+      "title": "Existing human-maintainability instructions",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/human_maintainability_v1/AI_INSTRUCTIONS.md",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "pinned_project_authority",
+      "observed": "Exact source file remains unchanged in the canonical application package; pin and raw-byte identity retained.",
+      "limit": "Review draft, not installed and not user-approved; referenced text retains original conditions/exceptions and language.",
+      "inspection": {
+        "commit": "d82e373828263a7fc227a13eb8f487ae0329cb19",
+        "hash": "3ad065975294418ed6bb69467b482838ba5649cf062a2c484a02516f831415f3"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned reference/hash only; source file bytes not bundled"
+      }
+    },
+    {
+      "id": "SUP-LAYERS",
+      "title": "Additional menu placement instructions",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/7d25ff6d29662e2faca7b34754ac78312e2bfa60/research/menu_placement_v1/AI_INSTRUCTIONS.md",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "supplementary_observed_project_source",
+      "observed": "Read during supplementary source research.",
+      "limit": "Observed main snapshot 7d25ff6..., not a replacement for canonical d82e373... pin or its supported routes.",
+      "inspection": {
+        "commit": "7d25ff6d29662e2faca7b34754ac78312e2bfa60"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned link only"
+      }
+    },
+    {
+      "id": "SUP-INPUT",
+      "title": "Additional interaction correction instructions",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/7d25ff6d29662e2faca7b34754ac78312e2bfa60/research/interaction_corrections_v1/AI_INSTRUCTIONS.md",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "supplementary_observed_project_source",
+      "observed": "Read during supplementary source research.",
+      "limit": "Observed main snapshot 7d25ff6..., not a replacement for canonical d82e373... pin or its supported routes.",
+      "inspection": {
+        "commit": "7d25ff6d29662e2faca7b34754ac78312e2bfa60"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned link only"
+      }
+    },
+    {
+      "id": "SUP-CRAFT",
+      "title": "Additional source-first UI craft guidance",
+      "creator": "Do Not Slop project",
+      "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/7d25ff6d29662e2faca7b34754ac78312e2bfa60/guides/source-first-ui-craft.md",
+      "access": "existing_project_reference_access_may_require_account",
+      "kind": "supplementary_observed_project_source",
+      "observed": "Read during supplementary source research.",
+      "limit": "Observed main snapshot 7d25ff6..., not a replacement for canonical d82e373... pin or its supported routes.",
+      "inspection": {
+        "commit": "7d25ff6d29662e2faca7b34754ac78312e2bfa60"
+      },
+      "rights": {
+        "license": null,
+        "included": "Pinned link only"
+      }
+    },
+    {
+      "id": "AUTHORED-TRIAL",
+      "title": "Original painted-entry specification",
+      "creator": "This framework package",
+      "url": "../release/examples/painted-entry.brief.json",
+      "access": "included_original_authored_specification",
+      "kind": "authored_not_rendered",
+      "observed": "Concrete CSS-pixel paper/ink geometry and type trial for a declared fictional task.",
+      "limit": "Not built, rendered, visually accepted or transferred to touch/engine units.",
+      "inspection": {
+        "authored": true,
+        "target_rendered": false
+      },
+      "rights": {
+        "included": "Original specification; no third-party art"
+      }
+    },
+    {
+      "id": "AUTHORED-INDUSTRIAL",
+      "title": "Original industrial route-comparison specification",
+      "creator": "This framework package",
+      "url": "../release/examples/industrial-adaptation.brief.json",
+      "access": "included_original_authored_specification",
+      "kind": "authored_not_rendered",
+      "observed": "Concrete CSS-pixel low-relief comparison geometry and route/resource/pending-input declarations for a fictional task.",
+      "limit": "Not built, rendered, visually accepted or transferred to touch/engine units. Relational checks validate declarations only.",
+      "inspection": {
+        "authored": true,
+        "target_rendered": false
+      },
+      "rights": {
+        "included": "Original specification; no third-party art"
+      }
+    }
+  ],
+  "rights_default": "Links and derived original prose only. Account access/public visibility does not grant artwork, code, font or training reuse.",
+  "public_variant_scope": "Public craft and project-authority references plus authored specifications. Private source identities, images, build metadata and inspection records omitted."
+}

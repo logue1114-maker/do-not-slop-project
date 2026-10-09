@@ -1,0 +1,217 @@
+{
+  "version": "1.0.0",
+  "status": "conditional_task_patterns_not_shipping_implementations",
+  "patterns": [
+    {
+      "id": "spatial-action",
+      "title": "Action / movement / aiming",
+      "condition": "Continuous world-space path, threat or aim reading is the main task",
+      "composition": "Scene-led; peripheral status and local command groups",
+      "protected_region": "Actual threat/aim/next landing and avatar visibility",
+      "first_action": "First controllable input and visible consequence",
+      "exception": "During actual pause/local inspection a decision plane can dominate",
+      "recipe_ids": [
+        "DNS-01",
+        "DNS-04",
+        "DNS-09",
+        "DNS-14"
+      ]
+    },
+    {
+      "id": "board-puzzle",
+      "title": "Puzzle / board / spatial manipulation",
+      "condition": "The player reasons over an active board and its consequences",
+      "composition": "Board/decision-led with connected status, next object and recovery",
+      "protected_region": "Complete relevant board and manipulated objects",
+      "first_action": "Legal manipulation then authoritative outcome",
+      "exception": "A puzzle can have a nonrectangular field or scene-led movement",
+      "recipe_ids": [
+        "DNS-01",
+        "DNS-03",
+        "DNS-06",
+        "DNS-17"
+      ]
+    },
+    {
+      "id": "turn-card",
+      "title": "Turn / card / tactical choice",
+      "condition": "A discrete action must be inspected and committed",
+      "composition": "Current actor/object, legal choice, cost and consequence in one scan unit",
+      "protected_region": "Legal targets and inspect/commit boundary",
+      "first_action": "Inspect separately from final commitment",
+      "exception": "Fast real-time card play can also need protected live scene",
+      "recipe_ids": [
+        "DNS-07",
+        "DNS-13",
+        "DNS-14",
+        "DNS-18"
+      ]
+    },
+    {
+      "id": "management-strategy",
+      "title": "Management / economy / strategy",
+      "condition": "Repeated values and conditions drive comparison",
+      "composition": "Aligned rows/table or graph/detail decision plane where comparison is real",
+      "protected_region": "Comparable units, current/required predicates and selected context",
+      "first_action": "Inspect values -> supported local commitment -> acknowledgement",
+      "exception": "Visual identity or exploratory browsing can favor subject pane; no table mandate",
+      "recipe_ids": [
+        "DNS-04",
+        "DNS-08",
+        "DNS-13",
+        "DNS-20"
+      ]
+    },
+    {
+      "id": "explore-collection",
+      "title": "RPG / exploration / collection",
+      "condition": "World exploration alternates with inspecting objects, upgrades or equipment",
+      "composition": "Scene-led live view; concentrated local task surface",
+      "protected_region": "Path/encounter corridor in play; safe ink/comparison in local menus",
+      "first_action": "Real interaction opener then actual qualified change",
+      "exception": "Parchment, circles and ornate panels are sample art choices, not RPG requirements",
+      "recipe_ids": [
+        "DNS-01",
+        "DNS-05",
+        "DNS-07",
+        "DNS-13",
+        "DNS-15"
+      ]
+    },
+    {
+      "id": "social-party",
+      "title": "Social / party / lobby / survival",
+      "condition": "People choose session/readiness or stay aware of live events",
+      "composition": "Identity, true prerequisites, readiness and next commitment together",
+      "protected_region": "Session/member status and live hazard/objective when unpaused",
+      "first_action": "Actual entry/ready -> first control -> consequence",
+      "exception": "No invented Host/Join menu; social/chat may itself be the primary task",
+      "recipe_ids": [
+        "DNS-03",
+        "DNS-04",
+        "DNS-09",
+        "DNS-17"
+      ]
+    },
+    {
+      "id": "tool-media",
+      "title": "Web / app / media / service",
+      "condition": "Read, compare, navigate or complete a service rather than move in a world",
+      "composition": "Content-led task plane with stable utilities and meaningful state",
+      "protected_region": "Current content, cost/condition, media/caption/input region",
+      "first_action": "Real command or navigation and its actual result",
+      "exception": "Do not transplant game relief/HUD, assume a scene, or fabricate external-service actions",
+      "recipe_ids": [
+        "DNS-01",
+        "DNS-06",
+        "DNS-08",
+        "DNS-19",
+        "DNS-20"
+      ]
+    }
+  ],
+  "source_applications": [
+    {
+      "id": "authored-exploration",
+      "title": "Authored exploration scenario",
+      "status": "original_authored_scenario_not_source_inspection",
+      "tasks": [
+        "Resolve the actual target task and source",
+        "Select only conditionally applicable construction recipes",
+        "Prepare implementation and actual evidence requirements"
+      ],
+      "recipe_ids": [
+        "DNS-01",
+        "DNS-02",
+        "DNS-05",
+        "DNS-06",
+        "DNS-07",
+        "DNS-13",
+        "DNS-15"
+      ],
+      "observation": "An exploration task alternates between live movement and local object or equipment decisions. Establish protected path regions, content-fit controls and safe readable panel bounds from the actual target.",
+      "limitations": [
+        "Fictional authored application guidance; no source-game observation record is published",
+        "Not built, rendered, runtime-tested or user design-approved",
+        "The actual target must establish entry, return, units and supported input before implementation"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "authored-movement",
+      "title": "Authored movement scenario",
+      "status": "original_authored_scenario_not_source_inspection",
+      "tasks": [
+        "Resolve the actual target task and source",
+        "Select only conditionally applicable construction recipes",
+        "Prepare implementation and actual evidence requirements"
+      ],
+      "recipe_ids": [
+        "DNS-01",
+        "DNS-06",
+        "DNS-09",
+        "DNS-11",
+        "DNS-16",
+        "DNS-17"
+      ],
+      "observation": "A movement task keeps the playable scene readable through settings and results. Test real changing backgrounds, labels and return state; do not assume mobile or hardware input support.",
+      "limitations": [
+        "Fictional authored application guidance; no source-game observation record is published",
+        "Not built, rendered, runtime-tested or user design-approved",
+        "The actual target must establish entry, return, units and supported input before implementation"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "authored-comparison",
+      "title": "Authored comparison scenario",
+      "status": "original_authored_scenario_not_source_inspection",
+      "tasks": [
+        "Resolve the actual target task and source",
+        "Select only conditionally applicable construction recipes",
+        "Prepare implementation and actual evidence requirements"
+      ],
+      "recipe_ids": [
+        "DNS-04",
+        "DNS-07",
+        "DNS-08",
+        "DNS-09",
+        "DNS-10",
+        "DNS-13"
+      ],
+      "observation": "A value-comparison task groups current and required values with qualified commitment. Resolve how live counters, events and decision surfaces coexist in the actual target.",
+      "limitations": [
+        "Fictional authored application guidance; no source-game observation record is published",
+        "Not built, rendered, runtime-tested or user design-approved",
+        "The actual target must establish entry, return, units and supported input before implementation"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "authored-session",
+      "title": "Authored session scenario",
+      "status": "original_authored_scenario_not_source_inspection",
+      "tasks": [
+        "Resolve the actual target task and source",
+        "Select only conditionally applicable construction recipes",
+        "Prepare implementation and actual evidence requirements"
+      ],
+      "recipe_ids": [
+        "DNS-02",
+        "DNS-06",
+        "DNS-08",
+        "DNS-13",
+        "DNS-17",
+        "DNS-19"
+      ],
+      "observation": "A session task exposes real prerequisites, current selection and next commitment. Use repeated decision rows only where they aid comparison; readiness comes from actual predicates.",
+      "limitations": [
+        "Fictional authored application guidance; no source-game observation record is published",
+        "Not built, rendered, runtime-tested or user design-approved",
+        "The actual target must establish entry, return, units and supported input before implementation"
+      ],
+      "source_ids": []
+    }
+  ],
+  "source_applications_scope": "Compatibility field containing authored hypothetical scenarios only; no private source-case records"
+}

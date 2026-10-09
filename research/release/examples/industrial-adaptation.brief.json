@@ -1,0 +1,590 @@
+{
+  "packet_version": "1.0.0",
+  "readiness": "proposal",
+  "task": {
+    "player_goal": "Inspect fictional machine destinations and choose one locally available route",
+    "current_state": "destinations",
+    "next_action": "Inspect route",
+    "genre_context": [
+      "management comparison",
+      "industrial dense utility",
+      "authored adaptation"
+    ],
+    "time_pressure": "Deliberate repeated comparison; no live hazard in this trial",
+    "allowed_scope": [
+      "Authored planning example only",
+      "No existing game, repository, service or publication changes authorized by this packet"
+    ],
+    "unknowns": [
+      "This branch is an unimplemented adaptation; its real routes and availability predicates must be supplied"
+    ]
+  },
+  "protected_behavior": [
+    "Inspect is distinct from commitment",
+    "Dispatch guard uses actual current/required resource and route readiness predicate",
+    "Pending visual state is not successful acknowledgement",
+    "Return preserves supported list context",
+    "No purchase, persistence or external network operation exists in this authored trial"
+  ],
+  "selected_recipes": [
+    "DNS-01",
+    "DNS-02",
+    "DNS-03",
+    "DNS-06",
+    "DNS-10",
+    "DNS-11",
+    "DNS-14",
+    "DNS-17",
+    "DNS-18",
+    "DNS-19",
+    "DNS-20",
+    "DNS-08",
+    "DNS-13"
+  ],
+  "screen_flow": [
+    {
+      "state": "destinations",
+      "reading_order": [
+        "Route title",
+        "Current/required resource",
+        "Inspect route"
+      ],
+      "scene_region": "Task-led opaque destination comparison; no world scene required",
+      "primary_decision": "Inspect one route without committing",
+      "secondary_actions": [],
+      "transitions": [
+        {
+          "event": "Inspect route",
+          "to": "route_selected",
+          "preserves": [
+            "list scroll",
+            "resources",
+            "locale"
+          ],
+          "resets": [],
+          "input_owner": "detail controls",
+          "trigger_kind": "user_input"
+        }
+      ],
+      "unknowns": [],
+      "input_mode": "interactive",
+      "action_events": [
+        "Inspect route"
+      ]
+    },
+    {
+      "state": "route_selected",
+      "reading_order": [
+        "Selected route",
+        "Cost and readiness reason",
+        "Dispatch",
+        "Return"
+      ],
+      "scene_region": "Task-led opaque destination comparison; no world scene required",
+      "primary_decision": "Dispatch only if domain predicate allows it",
+      "secondary_actions": [
+        "Return preserves inspected destination list position unless explicitly reset"
+      ],
+      "transitions": [
+        {
+          "event": "Dispatch accepted",
+          "to": "route_committed",
+          "preserves": [
+            "selected route",
+            "locale"
+          ],
+          "resets": [],
+          "input_owner": "pending status",
+          "trigger_kind": "user_input"
+        },
+        {
+          "event": "Return",
+          "to": "destinations",
+          "preserves": [
+            "list scroll",
+            "resources",
+            "locale"
+          ],
+          "resets": [
+            "uncommitted inspection"
+          ],
+          "input_owner": "list controls",
+          "trigger_kind": "user_input"
+        }
+      ],
+      "unknowns": [],
+      "input_mode": "interactive",
+      "action_events": [
+        "Dispatch accepted",
+        "Return"
+      ]
+    },
+    {
+      "state": "route_committed",
+      "reading_order": [
+        "Dispatch pending",
+        "Authoritative operation state"
+      ],
+      "scene_region": "Task-led opaque destination comparison; no world scene required",
+      "primary_decision": "Read authoritative pending state; no user input or Return action is available; duplicate commitment remains guarded until acknowledgement",
+      "secondary_actions": [],
+      "transitions": [
+        {
+          "event": "Acknowledgement received",
+          "to": "route_result",
+          "preserves": [
+            "operation result",
+            "locale"
+          ],
+          "resets": [
+            "pending state"
+          ],
+          "input_owner": "result controls",
+          "trigger_kind": "internal_event"
+        }
+      ],
+      "unknowns": [],
+      "input_mode": "read_only",
+      "action_events": []
+    },
+    {
+      "state": "route_result",
+      "reading_order": [
+        "Actual dispatch result",
+        "Qualified resource effect",
+        "Return"
+      ],
+      "scene_region": "Task-led opaque destination comparison; no world scene required",
+      "primary_decision": "Return to updated destination list",
+      "secondary_actions": [],
+      "transitions": [
+        {
+          "event": "Return",
+          "to": "destinations",
+          "preserves": [
+            "list scroll",
+            "updated resources",
+            "locale"
+          ],
+          "resets": [
+            "result sheet"
+          ],
+          "input_owner": "list controls",
+          "trigger_kind": "user_input"
+        }
+      ],
+      "unknowns": [],
+      "input_mode": "interactive",
+      "action_events": [
+        "Return"
+      ]
+    }
+  ],
+  "visual_grammar": {
+    "art_statement": "Dense dark industrial terminal: aligned destination-condition-action rows dominate; restrained frame/edge supports data, without retaining the paper control body",
+    "silhouette": "Low-relief rectangular face; 2 CSS px corner trial; 1 CSS px restrained edge; no lower body",
+    "material": "Opaque #16212B local backing, #263845 face; no glow or texture in ink zones",
+    "type": {
+      "family": "system-ui",
+      "license_or_provenance": "Host platform system fallback; confirm actual loaded face in target browser",
+      "fallback": "sans-serif platform fallback",
+      "weight": "700 command;400 body trial",
+      "case": "Normal sentence case",
+      "baseline_policy": "Optically center actual ink within quiet face after real font load",
+      "numeral_policy": "Tabular only if actual loaded font supports it; inspect current/required resource-value width extremes"
+    },
+    "color_roles": [
+      {
+        "role": "data and utility",
+        "foreground": "#F2F5F6",
+        "background": "#16212B",
+        "additional_signal": "Aligned title/condition/action slots"
+      },
+      {
+        "role": "current destination",
+        "foreground": "#F2F5F6",
+        "background": "#263845",
+        "additional_signal": "Current marker and label, separate from focus"
+      }
+    ],
+    "spacing": {
+      "strategy": "Content-grown related row group; gap ${layout.group_gap}, inline inset ${control.inline_inset}, block inset ${control.block_inset}. Resolve exact values and units from values_and_units.",
+      "content_fit_condition": "Stack when summed measured command min-widths plus gaps exceeds actual available inline width; never shrink glyphs to retain a decorative arrangement",
+      "token_refs": {
+        "gap": "layout.group_gap",
+        "inline_inset": "control.inline_inset",
+        "block_inset": "control.block_inset"
+      }
+    },
+    "motion": {
+      "purpose": "Immediate native activation/focus feedback in a dense utility list",
+      "moving_parts": "None required; deliberate static state trial",
+      "fixed_parts": "Row targets, face, comparison columns and neighbor geometry",
+      "timing_trial": "Immediate static feedback; no inferred latency/timing",
+      "interrupt_policy": "Domain confirms readiness; repeated commitment is guarded if actual operation exists",
+      "reduced_motion": "Same static state distinction"
+    },
+    "values_and_units": [
+      {
+        "name": "control.shell_min_height",
+        "value": 44,
+        "unit": "CSS px",
+        "role": "utility row trial",
+        "rationale": "16/22 type +16 vertical insets +2 edge=40;44 trial pending real content"
+      },
+      {
+        "name": "control.inline_inset",
+        "value": 12,
+        "unit": "CSS px",
+        "role": "row face",
+        "rationale": "Dense comparison trial"
+      },
+      {
+        "name": "control.block_inset",
+        "value": 8,
+        "unit": "CSS px",
+        "role": "row face",
+        "rationale": "Content-grown, no forced one-line clipping"
+      },
+      {
+        "name": "control.perimeter",
+        "value": 1,
+        "unit": "CSS px",
+        "role": "edge",
+        "rationale": "Restrained terminal edge"
+      },
+      {
+        "name": "control.body_allowance",
+        "value": 0,
+        "unit": "CSS px",
+        "role": "flat face",
+        "rationale": "Deliberate no-body choice for dense utilities"
+      },
+      {
+        "name": "control.corner_radius",
+        "value": 2,
+        "unit": "CSS px",
+        "role": "rectangular corner",
+        "rationale": "Different organizing grammar, not recolored paper skin"
+      },
+      {
+        "name": "type.label_size",
+        "value": 16,
+        "unit": "CSS px",
+        "role": "utility label",
+        "rationale": "Actual loaded real-language labels to test"
+      },
+      {
+        "name": "type.label_line_height",
+        "value": 22,
+        "unit": "CSS px",
+        "role": "utility label",
+        "rationale": "Trial"
+      },
+      {
+        "name": "layout.group_gap",
+        "value": 8,
+        "unit": "CSS px",
+        "role": "row groups",
+        "rationale": "Trial"
+      },
+      {
+        "name": "motion.press_offset",
+        "value": 0,
+        "unit": "CSS px",
+        "role": "flat state",
+        "rationale": "Static edge/face change, no artificial tactile motion"
+      }
+    ],
+    "unresolved_values": [
+      "Loaded longest-label ink widths and exact optical baselines",
+      "Real art underlay and actual viewport/safe insets",
+      "Supported locale strings and actual fallback glyphs"
+    ]
+  },
+  "layer_owners": [
+    {
+      "layer": "destination_comparison",
+      "owner": "DestinationView (proposed)",
+      "states": [
+        "destinations",
+        "route_selected",
+        "route_committed",
+        "route_result"
+      ],
+      "anchor_and_bounds": "Content-led comparison/list or local detail/result pane; measured from actual rows",
+      "lifetime": "Current state",
+      "priority": 0,
+      "input_owner": "Current list/detail task only; pending is read-only",
+      "collision_policy": "Stable header and current decision stay visible; long detail scrolls within quiet pane"
+    },
+    {
+      "layer": "task_controls",
+      "owner": "ScreenView (proposed)",
+      "states": [
+        "destinations",
+        "route_selected",
+        "route_committed",
+        "route_result"
+      ],
+      "anchor_and_bounds": "Content-led comparison/list or local detail/result pane; measured from actual rows",
+      "lifetime": "Current state",
+      "priority": 1,
+      "input_owner": "Current list/detail task only; pending is read-only",
+      "collision_policy": "Stable header and current decision stay visible; long detail scrolls within quiet pane"
+    }
+  ],
+  "control_families": [
+    {
+      "role": "command",
+      "members": [
+        "Inspect route",
+        "Dispatch",
+        "Return"
+      ],
+      "anatomy": {
+        "hit_region": "44 CSS px authored row-height trial; actual native input standard separately verified",
+        "face": "Low-relief #263845 rectangular row face",
+        "label_box": "Live real text at 16/22 CSS px, normal case; current/required values and condition are independent readable slots",
+        "insets": "Use control.inline_inset and control.block_inset from values_and_units; the visual family shares these trial insets without sharing action semantics",
+        "boundary": "1 CSS px restrained edge",
+        "body": "None; deliberate low-relief dense role",
+        "icon_slot": "None; no fictitious icon gap",
+        "width_policy": "Title/condition/action slots fitted from real strings and compared values",
+        "safe_ink": "Keep glyph extents inside quiet face; ornament absent",
+        "texture_scale": "No texture/glow in the ink field"
+      },
+      "state_recipes": [
+        {
+          "state": "rest",
+          "supported": true,
+          "signal": "Flat readable row face; title and real cost adjacent",
+          "activation": "Use the per-action contract: Inspect selects for inspection, Dispatch requests guarded commitment, Return navigates only from selected/result states",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "focus",
+          "supported": true,
+          "signal": "Independent bright focus edge across current face",
+          "activation": "Native keyboard activation applies only to actions declared in the current interactive state; pending exposes no actionable focus target",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "selected",
+          "supported": true,
+          "signal": "Current marker and selected route title",
+          "activation": "Inspection only, no commit",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "unavailable",
+          "supported": true,
+          "signal": "Dispatch only: exact nearby missing-resource/readiness reason",
+          "activation": "Guard Dispatch without implying success; inspection and supported Return remain separate actions",
+          "evidence_status": "proposal"
+        },
+        {
+          "state": "pending",
+          "supported": true,
+          "signal": "Dispatch pending text and stable reason/action slot",
+          "activation": "No user input or Return while route_committed is pending; duplicate commitment remains guarded until authoritative acknowledgement",
+          "evidence_status": "proposal"
+        }
+      ],
+      "label_stress_cases": [
+        "Inspect route",
+        "Dispatch to the farthest destination",
+        "1000 /1200 available",
+        "Route requires completed preparation"
+      ],
+      "activation_contract": "Shared low-relief visual family, separate semantics: Inspect route changes presentation selection only in destinations. Dispatch is available only in route_selected and the domain owner checks current/required readiness before accepting commitment. route_committed is read-only; acknowledgement is an internal event, and no Return or cancel action is invented. Return is available in route_selected and route_result and preserves their declared list context. All contracts are authored, not observed production behavior."
+    }
+  ],
+  "platform_adapter": {
+    "platform": "Authored browser CSS prototype assumption",
+    "logical_units": "CSS px; separate encoded screenshot pixels/DPR",
+    "viewports": [
+      {
+        "id": "narrow-trial",
+        "width": 360,
+        "height": 640,
+        "unit": "CSS px",
+        "provenance": "Authored available-canvas assumption, not measured device",
+        "device_test_status": "authored_assumption"
+      },
+      {
+        "id": "wide-trial",
+        "width": 1180,
+        "height": 757,
+        "unit": "CSS px",
+        "provenance": "Authored browser-canvas trial, not inherited capture calibration",
+        "device_test_status": "authored_assumption"
+      }
+    ],
+    "supported_inputs": [
+      "pointer",
+      "keyboard"
+    ],
+    "safe_area": "Use actual available container and host obstruction; actual insets unknown",
+    "coordinate_mapping_status": "unknown",
+    "focus_policy": "Native order follows reading order; state transition transfers focus deliberately to task owner",
+    "host_chrome_policy": "Assume available canvas only; do not draw fake browser or platform chrome"
+  },
+  "source_evidence": [
+    {
+      "id": "E-TRIAL",
+      "source_id": "AUTHORED-INDUSTRIAL",
+      "evidence_kind": "authored_specification",
+      "inspection_status": "authored_not_rendered",
+      "observation": "Original fictional route comparison, low-relief geometry and state specification only; no target output exists",
+      "transfer_condition": "Dense industrial data comparison in CSS-pixel browser; no scene task requiring transparency",
+      "exception": "Dense industrial tool, live aiming or touch-native app resolves another grammar and adapter",
+      "rights": "Original specification included; system font subject to host platform provenance; no outside assets"
+    },
+    {
+      "id": "E-CONTRACT",
+      "source_id": "AUTH-BUTTON",
+      "evidence_kind": "source_text",
+      "inspection_status": "inspected",
+      "observation": "Existing button instructions require real anatomy/state/input and before-intent-rendered verification",
+      "transfer_condition": "Actual roles and requested scope match the existing conditional contract",
+      "exception": "No universal icon, body, bevel or numeric target size is prescribed",
+      "rights": "Pinned link/hash only; source bytes not bundled"
+    }
+  ],
+  "maintainability": {
+    "owners": [
+      {
+        "role": "domain",
+        "owner": "routeRules (proposed)",
+        "responsibility": "Readiness predicates, dispatch guard and qualified outcome",
+        "must_not_own": "DOM, colors, focus or browser storage"
+      },
+      {
+        "role": "presentation",
+        "owner": "screenView (proposed)",
+        "responsibility": "Render authoritative state and role contracts",
+        "must_not_own": "Route legality, readiness predicates or purchase/network actions"
+      },
+      {
+        "role": "tokens",
+        "owner": "visualTokens (proposed)",
+        "responsibility": "Resolved dimensions/palette/type trials",
+        "must_not_own": "Route validity, resource mutation or operation state"
+      },
+      {
+        "role": "input",
+        "owner": "inputController (proposed)",
+        "responsibility": "Translate native activation to one semantic command",
+        "must_not_own": "Decide legality or duplicate state"
+      },
+      {
+        "role": "state lifetime",
+        "owner": "sessionState (proposed)",
+        "responsibility": "Current selected route, list context, resources, pending operation, acknowledgement and session transitions",
+        "must_not_own": "Invent persistence or unrelated global manager"
+      }
+    ],
+    "entry_point": "No runnable source; proposed terminal mount renders one authoritative route/resource snapshot",
+    "change_map": [
+      "To alter row silhouette edit visualTokens/DecisionRow because they own quiet face geometry",
+      "To alter readiness/cost edit routeRules only with separate behavior scope",
+      "To preserve Return context edit presentation state owner without changing route validity"
+    ],
+    "initialization_and_disposal": "Proposed mount owns listeners; transition updates current view; unmount disposes listeners/timers. Test after a meaningful state change.",
+    "dependency_direction": "Input dispatch -> domain/state; view reads state+tokens; domain never imports view/DOM"
+  },
+  "verification": {
+    "visual_states": [
+      "destinations",
+      "route_selected",
+      "route_committed",
+      "route_result",
+      "long destination/condition",
+      "focus+selected",
+      "unavailable reason"
+    ],
+    "input_traces": [
+      "Inspect -> Return preserves context",
+      "Inspect -> exact requirement -> Dispatch pending -> actual acknowledgement -> Return",
+      "Insufficient/stale requirement and rapid repeat do not duplicate commitment"
+    ],
+    "concurrent_layers": [
+      "Destination comparison/list or selected detail/result pane plus current supported controls; pending is read-only and no independent event layer exists in this example"
+    ],
+    "source_parity": "No current source; compare future runtime with the exact declared assumptions and mark unimplemented branches",
+    "user_review": "pending",
+    "gates": [
+      {
+        "id": "G-VISUAL",
+        "kind": "visual",
+        "expected": "Inspect every declared state_ids record at the named revision, plus focused/selected/unavailable and long-content control crops",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied",
+        "state_ids": [
+          "destinations",
+          "route_selected",
+          "route_committed",
+          "route_result"
+        ],
+        "covers_complete_flow": true
+      },
+      {
+        "id": "G-INPUT",
+        "kind": "input",
+        "expected": "Exercise the declared state_ids and event_names through guarded inspection/commitment, internal authoritative acknowledgement and supported Return; test insufficient/stale requirements, keyboard/release-away/repeat and preserved list context; pending exposes no user action",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied",
+        "state_ids": [
+          "destinations",
+          "route_selected",
+          "route_committed",
+          "route_result"
+        ],
+        "event_names": [
+          "Inspect route",
+          "Dispatch accepted",
+          "Return",
+          "Acknowledgement received"
+        ],
+        "covers_complete_flow": true
+      },
+      {
+        "id": "G-PARITY",
+        "kind": "source_parity",
+        "expected": "Future source matches declared resets and no unapproved game-rule change",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      },
+      {
+        "id": "G-DEVICE",
+        "kind": "device",
+        "expected": "Actual supported display/input checked; browser sizes alone do not establish hardware",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      },
+      {
+        "id": "G-REVIEW",
+        "kind": "user_review",
+        "expected": "User reviews named actual rendered scope",
+        "status": "not_run",
+        "evidence_ids": [],
+        "reviewer": "Future implementation reviewer",
+        "limitation": "Authored packet; no rendered or runtime implementation supplied"
+      }
+    ]
+  },
+  "limitations": [
+    "All visual/code-role outputs authored, not a functioning game",
+    "No actual font, rendering, input, physical device, source parity or user approval established",
+    "Numerical values are this CSS trial only; never universal touch/engine-unit tokens"
+  ]
+}

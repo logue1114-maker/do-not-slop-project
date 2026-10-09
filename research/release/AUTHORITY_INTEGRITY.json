@@ -1,0 +1,91 @@
+{
+  "scope": "Read-only local canonical snapshot byte identity, not validity/quality/approval",
+  "files_checked": 14,
+  "all_match": true,
+  "checks": [
+    {
+      "path": "AGENTS.md",
+      "expected_sha256": "8b4564cef398d4541f59d4581d2db0027378669dee42452f07745a27e2602f71",
+      "actual_sha256": "8b4564cef398d4541f59d4581d2db0027378669dee42452f07745a27e2602f71",
+      "status": "pass"
+    },
+    {
+      "path": "docs/HONEST_COMPARISONS.md",
+      "expected_sha256": "7e48d8f293ece97c95af4ce277fb259638b3961109bfa78f589472cbdc377561",
+      "actual_sha256": "7e48d8f293ece97c95af4ce277fb259638b3961109bfa78f589472cbdc377561",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+      "expected_sha256": "35661cbe68eadfae2f0e48f70ef2f9dc44d081887cf3890e4a45a67b2f700aaa",
+      "actual_sha256": "35661cbe68eadfae2f0e48f70ef2f9dc44d081887cf3890e4a45a67b2f700aaa",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/evidence-contract.json",
+      "expected_sha256": "799203549d29aebe9dbb76f5fd6e0dfec9568c55a63e413cd7bc2e14d67c623d",
+      "actual_sha256": "799203549d29aebe9dbb76f5fd6e0dfec9568c55a63e413cd7bc2e14d67c623d",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-action-controls.md",
+      "expected_sha256": "758f215838b7b4621dbb26fb4601303a98b125f68c0d6007d02c5407bb6d9455",
+      "actual_sha256": "758f215838b7b4621dbb26fb4601303a98b125f68c0d6007d02c5407bb6d9455",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/game-short-puzzle.md",
+      "expected_sha256": "f52858646604d36a1f8ea367ebef015040b9cc393ef208b07c5e62f6871b16ba",
+      "actual_sha256": "f52858646604d36a1f8ea367ebef015040b9cc393ef208b07c5e62f6871b16ba",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/routing.json",
+      "expected_sha256": "a5479a1734076cf8f525371dae29202a7e91819d8c27dda7227d18d1e7707c60",
+      "actual_sha256": "a5479a1734076cf8f525371dae29202a7e91819d8c27dda7227d18d1e7707c60",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/references/sources.json",
+      "expected_sha256": "39099ac4d3fa33782cfc5b522d3325acfca021cc73bdb404b4596abe4b881a34",
+      "actual_sha256": "39099ac4d3fa33782cfc5b522d3325acfca021cc73bdb404b4596abe4b881a34",
+      "status": "pass"
+    },
+    {
+      "path": "plugins/review-visible-design/skills/review-visible-design/scripts/review_contract.py",
+      "expected_sha256": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19",
+      "actual_sha256": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19",
+      "status": "pass"
+    },
+    {
+      "path": "research/human_maintainability_v1/AI_INSTRUCTIONS.md",
+      "expected_sha256": "3ad065975294418ed6bb69467b482838ba5649cf062a2c484a02516f831415f3",
+      "actual_sha256": "3ad065975294418ed6bb69467b482838ba5649cf062a2c484a02516f831415f3",
+      "status": "pass"
+    },
+    {
+      "path": "research/rules_catalog.json",
+      "expected_sha256": "01311c0609707bbe0a94e756e5608616e87d034da7a65d6e768732dcd2b98d52",
+      "actual_sha256": "01311c0609707bbe0a94e756e5608616e87d034da7a65d6e768732dcd2b98d52",
+      "status": "pass"
+    },
+    {
+      "path": "research/series_index.json",
+      "expected_sha256": "3ced32c7d031767ed0649842181120c7224eeee0f7beb0eda6a42479a4d50e4b",
+      "actual_sha256": "3ced32c7d031767ed0649842181120c7224eeee0f7beb0eda6a42479a4d50e4b",
+      "status": "pass"
+    },
+    {
+      "path": "research/universal_button_system/AI_INSTRUCTIONS.md",
+      "expected_sha256": "3d4c35294fd837b7f62a628f2a13590ddadea943f2d09486b7613d99ca291f67",
+      "actual_sha256": "3d4c35294fd837b7f62a628f2a13590ddadea943f2d09486b7613d99ca291f67",
+      "status": "pass"
+    },
+    {
+      "path": "research/universal_button_system/GUIDE.md",
+      "expected_sha256": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585",
+      "actual_sha256": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585",
+      "status": "pass"
+    }
+  ]
+}

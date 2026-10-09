@@ -10,6 +10,16 @@ Available now: [AI contributor instructions](AGENTS.md), [task-specific rule pac
 
 [Start using it](docs/START_HERE.md) · [Choose a guide](#guides-and-examples) · [Understand the reports](docs/RESEARCH_OVERVIEW.md)
 
+## Build a whole game interface
+
+[Whole-screen production framework](research/release/README.md) · [Exact AI instructions](research/release/AI_INSTRUCTIONS.md) · [Visual atlas source](research/production-framework/index.html)
+
+Plan entry → play, scene and layer ownership, button geometry, material, type, color and supported states together. The atlas selects among 12 task routes and exports the complete common instructions plus relevant conditional recipes. It includes 20 recipes, two authored input examples and a structural validator.
+
+![Actual rendered construction atlas; original teaching diagrams, not a game redesign or before/after experiment](research/production-framework/captures/atlas.jpg)
+
+[Checks and limits](research/production-framework/BROWSER_REPORT.md) · [Source rights and evidence](research/release/RIGHTS_AND_EVIDENCE.md). Diagrams explain construction; target-game effectiveness and user acceptance remain unestablished. Private source identities and inspection records are omitted from this public packet.
+
 <a id="r2-actual-maintitle-screen-prompt-experiment"></a>
 
 ## What an actual comparison looks like

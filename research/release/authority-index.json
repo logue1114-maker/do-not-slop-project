@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "authority_lock": {
+    "repository": "logue1114-maker/do-not-slop-project",
+    "commit": "d82e373828263a7fc227a13eb8f487ae0329cb19",
+    "status": "existing_project_draft_not_installed_not_user_approved",
+    "retrieval": "GitHub connector fetch_file, exact UTF-8 content at pinned commit",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "raw_file_sha256": "8b4564cef398d4541f59d4581d2db0027378669dee42452f07745a27e2602f71",
+        "git_blob_sha": "84cde3b7e8563dc108a9dbb2c2743ab56af00b15",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/AGENTS.md",
+        "github_reported_blob_sha": "84cde3b7e8563dc108a9dbb2c2743ab56af00b15"
+      },
+      {
+        "path": "docs/HONEST_COMPARISONS.md",
+        "raw_file_sha256": "7e48d8f293ece97c95af4ce277fb259638b3961109bfa78f589472cbdc377561",
+        "git_blob_sha": "cb899e8dbaaae4799f8a6967448535a9fcc1018f",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/docs/HONEST_COMPARISONS.md",
+        "github_reported_blob_sha": "cb899e8dbaaae4799f8a6967448535a9fcc1018f"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+        "raw_file_sha256": "35661cbe68eadfae2f0e48f70ef2f9dc44d081887cf3890e4a45a67b2f700aaa",
+        "git_blob_sha": "90368ef89121523c4ffd454c53288865f084290e",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/SKILL.md",
+        "github_reported_blob_sha": "90368ef89121523c4ffd454c53288865f084290e"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/references/evidence-contract.json",
+        "raw_file_sha256": "799203549d29aebe9dbb76f5fd6e0dfec9568c55a63e413cd7bc2e14d67c623d",
+        "git_blob_sha": "c67832aafb047696389cb262c68b62f075757e7f",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/references/evidence-contract.json",
+        "github_reported_blob_sha": "c67832aafb047696389cb262c68b62f075757e7f"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/references/game-action-controls.md",
+        "raw_file_sha256": "758f215838b7b4621dbb26fb4601303a98b125f68c0d6007d02c5407bb6d9455",
+        "git_blob_sha": "a6a9189d8934518a4de68f11ae46e27d61b83b28",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/references/game-action-controls.md",
+        "github_reported_blob_sha": "a6a9189d8934518a4de68f11ae46e27d61b83b28"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/references/game-short-puzzle.md",
+        "raw_file_sha256": "f52858646604d36a1f8ea367ebef015040b9cc393ef208b07c5e62f6871b16ba",
+        "git_blob_sha": "c8fddc85cd35265074d7094ff1444e7b76c8268c",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/references/game-short-puzzle.md",
+        "github_reported_blob_sha": "c8fddc85cd35265074d7094ff1444e7b76c8268c"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/references/routing.json",
+        "raw_file_sha256": "a5479a1734076cf8f525371dae29202a7e91819d8c27dda7227d18d1e7707c60",
+        "git_blob_sha": "48e17bae32e59775b5455f30cc229b5cdc0d4bac",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/references/routing.json",
+        "github_reported_blob_sha": "48e17bae32e59775b5455f30cc229b5cdc0d4bac"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/references/sources.json",
+        "raw_file_sha256": "39099ac4d3fa33782cfc5b522d3325acfca021cc73bdb404b4596abe4b881a34",
+        "git_blob_sha": "1a90fdc2319020d57f5d9095f7d18e66d7bedf8b",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/references/sources.json",
+        "github_reported_blob_sha": "1a90fdc2319020d57f5d9095f7d18e66d7bedf8b"
+      },
+      {
+        "path": "plugins/review-visible-design/skills/review-visible-design/scripts/review_contract.py",
+        "raw_file_sha256": "8bdab26e80baba3e2559d591fa0b03f39364773e83d7644af4dbff9cddb80d19",
+        "git_blob_sha": "9a02702fcf71306cff09eadc4e6e2319dad7b37c",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/plugins/review-visible-design/skills/review-visible-design/scripts/review_contract.py",
+        "github_reported_blob_sha": "9a02702fcf71306cff09eadc4e6e2319dad7b37c"
+      },
+      {
+        "path": "research/human_maintainability_v1/AI_INSTRUCTIONS.md",
+        "raw_file_sha256": "3ad065975294418ed6bb69467b482838ba5649cf062a2c484a02516f831415f3",
+        "git_blob_sha": "56938d0e9fb73a6144af79d2e1822a468cb330aa",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/human_maintainability_v1/AI_INSTRUCTIONS.md",
+        "github_reported_blob_sha": "56938d0e9fb73a6144af79d2e1822a468cb330aa"
+      },
+      {
+        "path": "research/rules_catalog.json",
+        "raw_file_sha256": "01311c0609707bbe0a94e756e5608616e87d034da7a65d6e768732dcd2b98d52",
+        "git_blob_sha": "0aa6fa06b27abb20de1dc19fbeca9d2163a10f3c",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/rules_catalog.json",
+        "github_reported_blob_sha": "0aa6fa06b27abb20de1dc19fbeca9d2163a10f3c"
+      },
+      {
+        "path": "research/series_index.json",
+        "raw_file_sha256": "3ced32c7d031767ed0649842181120c7224eeee0f7beb0eda6a42479a4d50e4b",
+        "git_blob_sha": "60a0803094d63d8e106756249a90b6329bc27b52",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/series_index.json",
+        "github_reported_blob_sha": "60a0803094d63d8e106756249a90b6329bc27b52"
+      },
+      {
+        "path": "research/universal_button_system/AI_INSTRUCTIONS.md",
+        "raw_file_sha256": "3d4c35294fd837b7f62a628f2a13590ddadea943f2d09486b7613d99ca291f67",
+        "git_blob_sha": "3e713fc209e3a019bf85345c1e8f6dc8c37053ae",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/AI_INSTRUCTIONS.md",
+        "github_reported_blob_sha": "3e713fc209e3a019bf85345c1e8f6dc8c37053ae"
+      },
+      {
+        "path": "research/universal_button_system/GUIDE.md",
+        "raw_file_sha256": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585",
+        "git_blob_sha": "e12b8db30fa298454f3fa6b4cc838a913016b23b",
+        "url": "https://github.com/logue1114-maker/do-not-slop-project/blob/d82e373828263a7fc227a13eb8f487ae0329cb19/research/universal_button_system/GUIDE.md",
+        "github_reported_blob_sha": "e12b8db30fa298454f3fa6b4cc838a913016b23b"
+      }
+    ],
+    "retrieval_blob_identity_verified": true
+  },
+  "original_rules_preserved": true,
+  "promoted_rules": [],
+  "extension_namespace": "DNS-*",
+  "supplementary_snapshot": "7d25ff6d29662e2faca7b34754ac78312e2bfa60",
+  "policy": "Read exact original conditions/required inputs/exceptions from pinned sources before applying. DNS recipes are draft operations, never replacement rule IDs. Unsupported canonical purpose routes remain unsupported. English paraphrase is guidance, not authority translation."
+}
