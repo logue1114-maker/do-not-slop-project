@@ -1,0 +1,75 @@
+{
+  "publicNativeJourney": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "nativeDrops": 11,
+      "errors": [],
+      "nonAdvertisingFailures": [],
+      "resultFocus": "gameResult",
+      "resultY": -0.40625,
+      "resultScroll": 0,
+      "dialogScroll": 0,
+      "retryFocus": "gameCanvas",
+      "retryScore": "0",
+      "scoreOrReportSubmitted": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "nativeDrops": 8,
+      "errors": [],
+      "nonAdvertisingFailures": [],
+      "resultFocus": "gameResult",
+      "resultY": -0.40625,
+      "resultScroll": 0,
+      "dialogScroll": 0,
+      "retryFocus": "gameCanvas",
+      "retryScore": "0",
+      "scoreOrReportSubmitted": false
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "nativeDrops": 9,
+      "errors": [],
+      "nonAdvertisingFailures": [],
+      "resultFocus": "gameResult",
+      "resultY": 0,
+      "resultScroll": 0,
+      "dialogScroll": 0,
+      "retryFocus": "gameCanvas",
+      "retryScore": "0",
+      "scoreOrReportSubmitted": false
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "nativeDrops": 11,
+      "errors": [],
+      "nonAdvertisingFailures": [],
+      "resultFocus": "gameResult",
+      "resultY": 0.1875,
+      "resultScroll": 0,
+      "dialogScroll": 0,
+      "retryFocus": "gameCanvas",
+      "retryScore": "0",
+      "scoreOrReportSubmitted": false
+    }
+  ],
+  "sourceSHA256": {
+    "css": "c2845b285190bce3b34613ccdb6858a7f932c8e15110049ac3aeb3c84ff6d4ea",
+    "js": "35eb7c9a079efe52c5a5967765ea14251de1184052b76b9cdfa3e7c8bedd8f17",
+    "html": "df6d0901b840e3b871c4ea786276df455796ef7362e42cb3bbce38d9d67fa87a"
+  },
+  "limits": "Local mode overrides only3static assets on real public normal entry; public mode has no asset overrides. Advertisement traffic excluded and recorded. Normal run-start POSTs/analytics allowed; no score/report submission, fake state/seed/clock/results.",
+  "privacy": "Identical visibility-only record-list mask in paired frames. No third-party Site image, actual leaderboard name, raw player ID or token is published."
+}
