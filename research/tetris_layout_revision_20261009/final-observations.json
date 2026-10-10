@@ -1,0 +1,757 @@
+{
+  "at": "2026-10-09T14:14:09.657Z",
+  "rows": [
+    {
+      "kind": "same-live-ready-instance CSS projection; no game-state setter or seed injection",
+      "before": {
+        "name": "tetris-before-1280x900-ready",
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 173.796875,
+          "y": 255.59375,
+          "width": 932.40625,
+          "height": 900
+        },
+        "scrollWidth": 1280,
+        "worldBest": "17,400",
+        "inner": {
+          "board": {
+            "x": 167,
+            "y": 451.59375,
+            "width": 320,
+            "height": 640
+          },
+          "start": {
+            "x": 519,
+            "y": 465.59375,
+            "width": 232,
+            "height": 46
+          },
+          "lobby": {
+            "x": 31.640625,
+            "y": 54,
+            "width": 868.71875,
+            "height": 385.59375
+          },
+          "info": {
+            "x": 505,
+            "y": 451.59375,
+            "width": 260,
+            "height": 579.53125
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": false,
+          "scrollWidth": 932,
+          "touch": {
+            "display": "none",
+            "bottom": 0,
+            "height": 0
+          }
+        },
+        "canvases": [
+          "c67b51be86e6adfc2f208b5cc0439e8b8a03943a0e9e967c5d8126d7e83fb175",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "996b986a0c8fa08bf17c999cca789938da4597990a839c7b81f16bc20b365a2c"
+        ],
+        "sha256": "cb6ba024839c2b19c08aabc2283f7f1c51b639e3c1fbb25cc2f0adb15f5b83c5"
+      },
+      "after": {
+        "name": "tetris-after-1280x900-ready",
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 173.796875,
+          "y": 214.796875,
+          "width": 932.40625,
+          "height": 658
+        },
+        "scrollWidth": 1280,
+        "worldBest": "17,400",
+        "inner": {
+          "board": {
+            "x": 79,
+            "y": 25,
+            "width": 304,
+            "height": 608
+          },
+          "start": {
+            "x": 411,
+            "y": 39,
+            "width": 182,
+            "height": 52
+          },
+          "lobby": {
+            "x": 677,
+            "y": 25,
+            "width": 230,
+            "height": 524.59375
+          },
+          "info": {
+            "x": 397,
+            "y": 25,
+            "width": 210,
+            "height": 544.40625
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": false,
+          "scrollWidth": 932,
+          "touch": {
+            "display": "none",
+            "bottom": 0,
+            "height": 0
+          }
+        },
+        "canvases": [
+          "c67b51be86e6adfc2f208b5cc0439e8b8a03943a0e9e967c5d8126d7e83fb175",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "996b986a0c8fa08bf17c999cca789938da4597990a839c7b81f16bc20b365a2c"
+        ],
+        "sha256": "6e98a139b387bf347d3cbf03463f1df9c1266d5ec40a29922c5acde6c3d01023"
+      }
+    },
+    {
+      "kind": "fresh normal candidate entry and native input",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "ready": {
+        "name": "tetris-fresh-1280x900-ready",
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 173.796875,
+          "y": 214.796875,
+          "width": 932.40625,
+          "height": 658
+        },
+        "scrollWidth": 1280,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 79,
+            "y": 25,
+            "width": 304,
+            "height": 608
+          },
+          "start": {
+            "x": 411,
+            "y": 39,
+            "width": 182,
+            "height": 52
+          },
+          "lobby": {
+            "x": 677,
+            "y": 25,
+            "width": 230,
+            "height": 503.796875
+          },
+          "info": {
+            "x": 397,
+            "y": 25,
+            "width": 210,
+            "height": 544.40625
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": false,
+          "scrollWidth": 932,
+          "touch": {
+            "display": "none",
+            "bottom": 0,
+            "height": 0
+          }
+        },
+        "canvases": [
+          "60a8b079152ebc2abbb666f9b7e2ffa416b339ea3702fb3e3d8dc1d6c1b12167",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "0f6956b564743aaa12d012497858b31b8cc479885247d17d356ca5603028261a"
+        ],
+        "sha256": "cae0b56f0d1c6e691d1d79563ee0a32015746eff1d7023250db60f7cd461fe50"
+      },
+      "playing": {
+        "name": "tetris-fresh-1280x900-playing",
+        "viewport": {
+          "width": 1280,
+          "height": 900,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 173.796875,
+          "y": 214.796875,
+          "width": 932.40625,
+          "height": 658
+        },
+        "scrollWidth": 1280,
+        "worldBest": "17,400",
+        "inner": {
+          "board": {
+            "x": 202,
+            "y": 25,
+            "width": 304,
+            "height": 608
+          },
+          "start": {
+            "x": 534,
+            "y": 39,
+            "width": 182,
+            "height": 52
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 520,
+            "y": 25,
+            "width": 210,
+            "height": 544.40625
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": true,
+          "scrollWidth": 932,
+          "touch": {
+            "display": "none",
+            "bottom": 0,
+            "height": 0
+          }
+        },
+        "canvases": [
+          "baef7c051764292ec39c144fd74f98590c63cc4f753e3b57b976e545a909cd99",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "996b986a0c8fa08bf17c999cca789938da4597990a839c7b81f16bc20b365a2c"
+        ],
+        "sha256": "fb68c91e8ac5ce8ef5c3c94cd1e0661776cd70235a44a21b5ca47efd55fe6b97"
+      },
+      "control": {
+        "target": {
+          "x": 584.796875,
+          "y": 253.796875,
+          "width": 182,
+          "height": 52
+        },
+        "style": {
+          "family": "\"Malgun Gothic\", Arial, sans-serif",
+          "size": "17px",
+          "weight": "800",
+          "lineHeight": "22.95px",
+          "outline": "solid",
+          "outlineWidth": "3px",
+          "borderRadius": "6px"
+        },
+        "nativeFocus": true,
+        "releaseAwayCancelled": true,
+        "pressedTargetStable": true,
+        "enterActivated": true
+      },
+      "round": {
+        "drops": 11,
+        "score": "0점",
+        "retry": {
+          "viewport": {
+            "width": 1280,
+            "height": 900,
+            "dpr": 1
+          },
+          "iframe": {
+            "x": 173.796875,
+            "y": 214.796875,
+            "width": 932.40625,
+            "height": 658
+          },
+          "scrollWidth": 1280,
+          "worldBest": "17,400",
+          "inner": {
+            "board": {
+              "x": 79,
+              "y": 25,
+              "width": 304,
+              "height": 608
+            },
+            "start": {
+              "x": 411,
+              "y": 39,
+              "width": 182,
+              "height": 52
+            },
+            "lobby": {
+              "x": 677,
+              "y": 25,
+              "width": 230,
+              "height": 503.796875
+            },
+            "info": {
+              "x": 397,
+              "y": 25,
+              "width": 210,
+              "height": 544.40625
+            },
+            "score": "0",
+            "timer": "0",
+            "lines": "0",
+            "startDisabled": false,
+            "scrollWidth": 932,
+            "touch": {
+              "display": "none",
+              "bottom": 0,
+              "height": 0
+            }
+          },
+          "canvases": [
+            "cd4c50845a871999121d4fdffa46433263ae8fd888eb7424a2bc0de9b70c2246",
+            "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+            "e9567f43d84b20cfe31d70447881a8caebb1d3fa19c024ddd431825c19fc66ca"
+          ]
+        },
+        "registration": "not submitted; local POST is blocked"
+      },
+      "pageErrors": []
+    },
+    {
+      "kind": "fresh normal candidate entry and native input",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "ready": {
+        "name": "tetris-fresh-1280x720-ready",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 173.796875,
+          "y": 214.796875,
+          "width": 932.40625,
+          "height": 478
+        },
+        "scrollWidth": 1280,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 242.5,
+            "y": 9,
+            "width": 229,
+            "height": 458
+          },
+          "start": {
+            "x": 489.5,
+            "y": 19,
+            "width": 190,
+            "height": 52
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 479.5,
+            "y": 9,
+            "width": 210,
+            "height": 457.625
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": false,
+          "scrollWidth": 932,
+          "touch": {
+            "display": "none",
+            "bottom": 0,
+            "height": 0
+          }
+        },
+        "canvases": [
+          "60a8b079152ebc2abbb666f9b7e2ffa416b339ea3702fb3e3d8dc1d6c1b12167",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "4ff2d0571b710abfe2c56a0e3deb610eaca91323dae355bcbd73196f60b70560"
+        ],
+        "sha256": "4e6418f2f479cd14bcf4105c6dd2f0b7228ed38bcca75dbc4a97a91f9b867063"
+      },
+      "playing": {
+        "name": "tetris-fresh-1280x720-playing",
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 173.796875,
+          "y": 214.796875,
+          "width": 932.40625,
+          "height": 478
+        },
+        "scrollWidth": 1280,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 242.5,
+            "y": 9,
+            "width": 229,
+            "height": 458
+          },
+          "start": {
+            "x": 489.5,
+            "y": 19,
+            "width": 190,
+            "height": 52
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 479.5,
+            "y": 9,
+            "width": 210,
+            "height": 457.625
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": true,
+          "scrollWidth": 932,
+          "touch": {
+            "display": "none",
+            "bottom": 0,
+            "height": 0
+          }
+        },
+        "canvases": [
+          "c4b5a55fe651fd6b6f08e8fb571f5084fd4bed102d80f444a5258909e5db6db6",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "4ff2d0571b710abfe2c56a0e3deb610eaca91323dae355bcbd73196f60b70560"
+        ],
+        "sha256": "8f02659d268e6df19ace7b5896f92955c5d8c39d92695eae8a653b690dafd89f"
+      },
+      "control": null,
+      "round": null,
+      "pageErrors": []
+    },
+    {
+      "kind": "fresh normal candidate entry and native input",
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "ready": {
+        "name": "tetris-fresh-390x700-ready",
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 13,
+          "y": 251.1875,
+          "width": 364,
+          "height": 435
+        },
+        "scrollWidth": 390,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 26.75,
+            "y": 13,
+            "width": 170.5,
+            "height": 341
+          },
+          "start": {
+            "x": 227,
+            "y": 21,
+            "width": 116,
+            "height": 44
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 219,
+            "y": 13,
+            "width": 132,
+            "height": 350.34375
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": false,
+          "scrollWidth": 364,
+          "touch": {
+            "display": "grid",
+            "bottom": 415.34375,
+            "height": 44
+          }
+        },
+        "canvases": [
+          "cd4c50845a871999121d4fdffa46433263ae8fd888eb7424a2bc0de9b70c2246",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "0f6956b564743aaa12d012497858b31b8cc479885247d17d356ca5603028261a"
+        ],
+        "sha256": "6bdf64f209f21db46e31c2ef8299c6582389204e0ad30c606bf417bf01d28a1b"
+      },
+      "playing": {
+        "name": "tetris-fresh-390x700-playing",
+        "viewport": {
+          "width": 390,
+          "height": 700,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 13,
+          "y": 251.1875,
+          "width": 364,
+          "height": 435
+        },
+        "scrollWidth": 390,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 26.75,
+            "y": 13,
+            "width": 170.5,
+            "height": 341
+          },
+          "start": {
+            "x": 227,
+            "y": 21,
+            "width": 116,
+            "height": 44
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 219,
+            "y": 13,
+            "width": 132,
+            "height": 350.34375
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": true,
+          "scrollWidth": 364,
+          "touch": {
+            "display": "grid",
+            "bottom": 415.34375,
+            "height": 44
+          }
+        },
+        "canvases": [
+          "57f99ec992fc9b97c0681bb3d0ec4e6505ae67fd3cfe84c9099f771e343b19c5",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "0f6956b564743aaa12d012497858b31b8cc479885247d17d356ca5603028261a"
+        ],
+        "sha256": "8d8b6a96d082f4fce730c5070c9eee091a7cece7e26599d8031b158fe6bcef32"
+      },
+      "control": null,
+      "round": null,
+      "pageErrors": []
+    },
+    {
+      "kind": "fresh normal candidate entry and native input",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "ready": {
+        "name": "tetris-fresh-844x390-ready",
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 9,
+          "y": 49,
+          "width": 826,
+          "height": 320
+        },
+        "scrollWidth": 844,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 154,
+            "y": 9,
+            "width": 150,
+            "height": 300
+          },
+          "start": {
+            "x": 466,
+            "y": 23,
+            "width": 192,
+            "height": 52
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 452,
+            "y": 9,
+            "width": 220,
+            "height": 300
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": false,
+          "scrollWidth": 826,
+          "touch": {
+            "display": "grid",
+            "bottom": 177,
+            "height": 168
+          }
+        },
+        "canvases": [
+          "60a8b079152ebc2abbb666f9b7e2ffa416b339ea3702fb3e3d8dc1d6c1b12167",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "4ff2d0571b710abfe2c56a0e3deb610eaca91323dae355bcbd73196f60b70560"
+        ],
+        "sha256": "4ff8b380dca0441c16b427b9e3dbd59f1b0bad9da3de2b1527547f9aaf8bbb2f"
+      },
+      "playing": {
+        "name": "tetris-fresh-844x390-playing",
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "dpr": 1
+        },
+        "iframe": {
+          "x": 9,
+          "y": 49,
+          "width": 826,
+          "height": 320
+        },
+        "scrollWidth": 844,
+        "worldBest": "0",
+        "inner": {
+          "board": {
+            "x": 154,
+            "y": 9,
+            "width": 150,
+            "height": 300
+          },
+          "start": {
+            "x": 466,
+            "y": 23,
+            "width": 192,
+            "height": 52
+          },
+          "lobby": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "info": {
+            "x": 452,
+            "y": 9,
+            "width": 220,
+            "height": 300
+          },
+          "score": "0",
+          "timer": "0",
+          "lines": "0",
+          "startDisabled": true,
+          "scrollWidth": 826,
+          "touch": {
+            "display": "grid",
+            "bottom": 177,
+            "height": 168
+          }
+        },
+        "canvases": [
+          "1167a6873be2803992cfe4df222231865736e50428a8420469a6b751cbc4cfe6",
+          "a5cc466c08cd51af2ec451f39118a0e11cfc74b1f454b60fc00eacfaa9aaa379",
+          "996b986a0c8fa08bf17c999cca789938da4597990a839c7b81f16bc20b365a2c"
+        ],
+        "sha256": "bf85672f3769d717ea1f12efe8697722e9c640f81dfed99ddc354177b6d72737"
+      },
+      "control": null,
+      "round": null,
+      "pageErrors": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "expectedLocalAdBlock": false,
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "expectedLocalAdBlock": true,
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    },
+    {
+      "expectedLocalAdBlock": false,
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "expectedLocalAdBlock": true,
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    },
+    {
+      "expectedLocalAdBlock": false,
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "expectedLocalAdBlock": true,
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    },
+    {
+      "expectedLocalAdBlock": false,
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "expectedLocalAdBlock": true,
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    },
+    {
+      "expectedLocalAdBlock": false,
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "expectedLocalAdBlock": true,
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "limits": [
+    "CSS paired comparison stays in the same native ready instance; independent fresh entry proves candidate flow.",
+    "GET-only local preview proxies read APIs; run creation/score POST is intentionally blocked, not persistence proof.",
+    "Third-party ads deliberately blocked only in local QA to avoid invalid traffic; failed requests retained, not presented as zero errors.",
+    "Browser viewport checks are not physical-device or multiplayer proof."
+  ]
+}

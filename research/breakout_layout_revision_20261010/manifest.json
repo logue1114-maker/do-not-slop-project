@@ -1,0 +1,79 @@
+{
+  "kind": "authored production UI revision, not controlled model experiment",
+  "sameStatePair": "390x700 CSS-only native prelaunch, DPR1 zoom100; no clock pause/state setter",
+  "observationsSHA256": "b84b452422e4ebe403224b930728327db0b7754cf90e17865cacebbeda1a39c9",
+  "cssSHA256": "f75e5a3b0130485bdc2cacf273f1afff64b02ce445759d3213df427bc18c1a65",
+  "captures": [
+    {
+      "name": "before-390-playing.png",
+      "bytes": 31722,
+      "sha256": "bdd19ccda77b70555da88ab11918f7524c87ab2048a6e5aef8570302bf37e4e3",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "after-390-playing.png",
+      "bytes": 26917,
+      "sha256": "36e7eb76a70967b4bbe7f1a9637072e8bbd1cbb5e6e74d8f4eacac7483fe352b",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "paired-sheet.png",
+      "bytes": 86229,
+      "sha256": "e191a1772ce5bcc8f7308e116dc45223edd406919c86ec2b26ce2bd11276c545",
+      "width": 1872,
+      "height": 724
+    },
+    {
+      "name": "final-ready-390.png",
+      "bytes": 30998,
+      "sha256": "51d2d9b3217f847ec7e753e086ce7283a7dbe0b34cb6aa3131914c49e09c907e",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "final-playing-390.png",
+      "bytes": 27361,
+      "sha256": "ca92240f6d557088174d1090d7ac89a7c7b3d259768d73610010001ee9fed646",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "final-result-390.png",
+      "bytes": 38347,
+      "sha256": "28caf9c9e8851ace9f7b5380ab280a92229673c44c7d79b7c35d9c4fc74eec58",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "final-result-844.png",
+      "bytes": 24874,
+      "sha256": "b8a0fa286f176c66f2415bd7cbcc5d5ecde63bee002f491571aa17229d0afaa8",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "final-result-1280.png",
+      "bytes": 55708,
+      "sha256": "73d33ffb8eec4dada08ab2a618d5b269cd1b756aa1ad0d70d52d585a114ff2f5",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "name": "retained-wrong-html-projection.png",
+      "bytes": 43685,
+      "sha256": "c425760d444f971aaa0c5c747ed6e75a9bc8eb4c7f1c21c9d540b7c3f52989ed",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "name": "retained-offscreen-input-observer.png",
+      "bytes": 35041,
+      "sha256": "7ef2e2b79471aede309a65d37c2ff0403a3deeae8baa3503f9cce74e98c834f1",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "rights": "User-authorized project-owned screenshots; no new reuse license; no third-party reference bytes or engine"
+}

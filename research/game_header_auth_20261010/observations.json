@@ -1,0 +1,764 @@
+{
+  "baseline": {
+    "scope": "Actual public assets/backend; anonymous header/dialog only",
+    "advertisingBlocked": true,
+    "rows": [
+      {
+        "route": "run",
+        "width": 390,
+        "height": 700,
+        "header": {
+          "mounts": 1,
+          "buttons": 1,
+          "inStrip": false,
+          "inGameHeader": true,
+          "button": {
+            "x": 192.546875,
+            "y": 91,
+            "width": 62.21875,
+            "height": 40,
+            "right": 254.765625,
+            "bottom": 131
+          },
+          "strip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 89,
+            "right": 390,
+            "bottom": 89
+          },
+          "primary": {
+            "x": 97.4375,
+            "y": 0,
+            "width": 195.109375,
+            "height": 44,
+            "right": 292.546875,
+            "bottom": 44
+          },
+          "overflow": false,
+          "links": [
+            "Home",
+            "Edu",
+            "Play",
+            "Apps"
+          ]
+        },
+        "dialog": {
+          "x": 19,
+          "y": 193.46875,
+          "right": 371,
+          "bottom": 506.515625,
+          "providers": 3
+        },
+        "nativeOpenClose": true
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "status": "PASS"
+  },
+  "public": {
+    "scope": "Actual public assets/backend; anonymous header/dialog only",
+    "advertisingBlocked": true,
+    "rows": [
+      {
+        "route": "run",
+        "width": 390,
+        "height": 700,
+        "header": {
+          "mounts": 1,
+          "buttons": 1,
+          "inStrip": true,
+          "inGameHeader": false,
+          "button": {
+            "x": 312.625,
+            "y": 44,
+            "width": 65.375,
+            "height": 44,
+            "right": 378,
+            "bottom": 88
+          },
+          "strip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 89,
+            "right": 390,
+            "bottom": 89
+          },
+          "primary": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 44,
+            "right": 390,
+            "bottom": 44
+          },
+          "overflow": false,
+          "links": [
+            "Home",
+            "Edu",
+            "Play",
+            "Apps"
+          ]
+        },
+        "dialog": {
+          "x": 19,
+          "y": 193.46875,
+          "right": 371,
+          "bottom": 506.515625,
+          "providers": 3
+        },
+        "nativeOpenClose": true,
+        "afterDialogActualDoubleJump": true
+      },
+      {
+        "route": "sky",
+        "width": 768,
+        "height": 900,
+        "header": {
+          "mounts": 1,
+          "buttons": 1,
+          "inStrip": true,
+          "inGameHeader": false,
+          "button": {
+            "x": 684.625,
+            "y": 44,
+            "width": 71.375,
+            "height": 44,
+            "right": 756,
+            "bottom": 88
+          },
+          "strip": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 89,
+            "right": 768,
+            "bottom": 89
+          },
+          "primary": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 44,
+            "right": 768,
+            "bottom": 44
+          },
+          "overflow": false,
+          "links": [
+            "Home",
+            "Edu",
+            "Play",
+            "Apps"
+          ]
+        },
+        "dialog": {
+          "x": 174,
+          "y": 289.46875,
+          "right": 594,
+          "bottom": 610.515625,
+          "providers": 3
+        },
+        "nativeOpenClose": true
+      },
+      {
+        "route": "angry-gomgom",
+        "width": 844,
+        "height": 390,
+        "header": {
+          "mounts": 1,
+          "buttons": 1,
+          "inStrip": true,
+          "inGameHeader": false,
+          "button": {
+            "x": 760.625,
+            "y": 44,
+            "width": 71.375,
+            "height": 44,
+            "right": 832,
+            "bottom": 88
+          },
+          "strip": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 89,
+            "right": 844,
+            "bottom": 89
+          },
+          "primary": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 44,
+            "right": 844,
+            "bottom": 44
+          },
+          "overflow": false,
+          "links": [
+            "Home",
+            "Edu",
+            "Play",
+            "Apps"
+          ]
+        },
+        "dialog": {
+          "x": 212,
+          "y": 45.46875,
+          "right": 632,
+          "bottom": 344.515625,
+          "providers": 3
+        },
+        "nativeOpenClose": true
+      },
+      {
+        "route": "run",
+        "width": 1280,
+        "height": 720,
+        "header": {
+          "mounts": 1,
+          "buttons": 1,
+          "inStrip": true,
+          "inGameHeader": false,
+          "button": {
+            "x": 1193.625,
+            "y": 1.5,
+            "width": 71.375,
+            "height": 44,
+            "right": 1265,
+            "bottom": 45.5
+          },
+          "strip": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 48,
+            "right": 1280,
+            "bottom": 48
+          },
+          "primary": {
+            "x": 533.90625,
+            "y": 1.5,
+            "width": 212.1875,
+            "height": 44,
+            "right": 746.09375,
+            "bottom": 45.5
+          },
+          "overflow": false,
+          "links": [
+            "Home",
+            "Edu",
+            "Play",
+            "Apps"
+          ]
+        },
+        "dialog": {
+          "x": 430,
+          "y": 199.46875,
+          "right": 850,
+          "bottom": 520.515625,
+          "providers": 3
+        },
+        "nativeOpenClose": true
+      },
+      {
+        "route": "",
+        "width": 390,
+        "height": 700,
+        "header": {
+          "mounts": 1,
+          "buttons": 1,
+          "inStrip": false,
+          "inGameHeader": false,
+          "button": {
+            "x": 257,
+            "y": 4,
+            "width": 62.21875,
+            "height": 40,
+            "right": 319.21875,
+            "bottom": 44
+          },
+          "strip": null,
+          "primary": null,
+          "overflow": false,
+          "links": []
+        },
+        "dialog": {
+          "x": 19,
+          "y": 193.46875,
+          "right": 371,
+          "bottom": 506.515625,
+          "providers": 3
+        },
+        "nativeOpenClose": true
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "status": "PASS"
+  },
+  "earlier320HeaderCase": {
+    "route": "run",
+    "width": 320,
+    "height": 700,
+    "header": {
+      "mounts": 1,
+      "buttons": 1,
+      "inStrip": true,
+      "inGameHeader": false,
+      "button": {
+        "x": 242.625,
+        "y": 44,
+        "width": 65.375,
+        "height": 44,
+        "right": 308,
+        "bottom": 88
+      },
+      "strip": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 89,
+        "right": 320,
+        "bottom": 89
+      },
+      "primary": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 44,
+        "right": 320,
+        "bottom": 44
+      },
+      "overflow": false,
+      "links": [
+        "Home",
+        "Edu",
+        "Play",
+        "Apps"
+      ]
+    },
+    "dialog": {
+      "x": 19,
+      "y": 193.46875,
+      "right": 301,
+      "bottom": 506.515625,
+      "providers": 3
+    },
+    "nativeOpenClose": true
+  },
+  "firstPublicFailure": "page.waitForFunction: Timeout 30000ms exceeded.",
+  "focusFailure": [
+    {
+      "name": "closed",
+      "active": "BUTTON",
+      "activeClass": "gg-auth-trigger",
+      "dialog": false,
+      "game": {
+        "tick": 0,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 0,
+        "jumpCount": 0,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "ready"
+      }
+    },
+    {
+      "name": "canvas-first-jump",
+      "active": "BUTTON",
+      "activeClass": "gg-auth-trigger",
+      "dialog": false,
+      "game": {
+        "tick": 1,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 12.6,
+        "jumpCount": 1,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "running"
+      }
+    },
+    {
+      "name": "space",
+      "active": "BUTTON",
+      "activeClass": "gg-auth-close",
+      "dialog": true,
+      "game": {
+        "tick": 1,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 12.6,
+        "jumpCount": 1,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "running"
+      }
+    }
+  ],
+  "projectedGuardFix": [
+    {
+      "name": "closed",
+      "active": "BUTTON",
+      "activeClass": "gg-auth-trigger",
+      "dialog": false,
+      "game": {
+        "tick": 0,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 0,
+        "jumpCount": 0,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "ready"
+      }
+    },
+    {
+      "name": "canvas-first-jump",
+      "active": "CANVAS",
+      "activeClass": "runner-canvas",
+      "dialog": false,
+      "game": {
+        "tick": 1,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 12.6,
+        "jumpCount": 1,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "running"
+      }
+    },
+    {
+      "name": "space",
+      "active": "CANVAS",
+      "activeClass": "runner-canvas",
+      "dialog": false,
+      "game": {
+        "tick": 2,
+        "level": 1,
+        "speed": 9,
+        "score": 0,
+        "bearZ": 24,
+        "jumpCount": 2,
+        "patternName": "단독 장애물",
+        "obstacles": [],
+        "gameOver": false,
+        "phase": "running"
+      }
+    }
+  ],
+  "localAlignmentRepair": {
+    "firstReport": "Passed DOM/dialog checks but screenshot showed centered utility; original retained. Full-width grid and right-gap assertion fixed it.",
+    "final": {
+      "scope": "Two shared resources projected onto unchanged public HTML/backend",
+      "advertisingBlocked": true,
+      "rows": [
+        {
+          "route": "run",
+          "width": 320,
+          "height": 700,
+          "header": {
+            "mounts": 1,
+            "buttons": 1,
+            "inStrip": true,
+            "inGameHeader": false,
+            "button": {
+              "x": 242.625,
+              "y": 44,
+              "width": 65.375,
+              "height": 44,
+              "right": 308,
+              "bottom": 88
+            },
+            "strip": {
+              "x": 0,
+              "y": 0,
+              "width": 320,
+              "height": 89,
+              "right": 320,
+              "bottom": 89
+            },
+            "primary": {
+              "x": 0,
+              "y": 0,
+              "width": 320,
+              "height": 44,
+              "right": 320,
+              "bottom": 44
+            },
+            "overflow": false,
+            "links": [
+              "Home",
+              "Edu",
+              "Play",
+              "Apps"
+            ]
+          },
+          "dialog": {
+            "x": 19,
+            "y": 193.46875,
+            "right": 301,
+            "bottom": 506.515625,
+            "providers": 3
+          },
+          "nativeOpenClose": true
+        },
+        {
+          "route": "run",
+          "width": 390,
+          "height": 700,
+          "header": {
+            "mounts": 1,
+            "buttons": 1,
+            "inStrip": true,
+            "inGameHeader": false,
+            "button": {
+              "x": 312.625,
+              "y": 44,
+              "width": 65.375,
+              "height": 44,
+              "right": 378,
+              "bottom": 88
+            },
+            "strip": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 89,
+              "right": 390,
+              "bottom": 89
+            },
+            "primary": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 44,
+              "right": 390,
+              "bottom": 44
+            },
+            "overflow": false,
+            "links": [
+              "Home",
+              "Edu",
+              "Play",
+              "Apps"
+            ]
+          },
+          "dialog": {
+            "x": 19,
+            "y": 193.46875,
+            "right": 371,
+            "bottom": 506.515625,
+            "providers": 3
+          },
+          "nativeOpenClose": true
+        },
+        {
+          "route": "sky",
+          "width": 768,
+          "height": 900,
+          "header": {
+            "mounts": 1,
+            "buttons": 1,
+            "inStrip": true,
+            "inGameHeader": false,
+            "button": {
+              "x": 684.625,
+              "y": 44,
+              "width": 71.375,
+              "height": 44,
+              "right": 756,
+              "bottom": 88
+            },
+            "strip": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 89,
+              "right": 768,
+              "bottom": 89
+            },
+            "primary": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 44,
+              "right": 768,
+              "bottom": 44
+            },
+            "overflow": false,
+            "links": [
+              "Home",
+              "Edu",
+              "Play",
+              "Apps"
+            ]
+          },
+          "dialog": {
+            "x": 174,
+            "y": 289.46875,
+            "right": 594,
+            "bottom": 610.515625,
+            "providers": 3
+          },
+          "nativeOpenClose": true
+        },
+        {
+          "route": "angry-gomgom",
+          "width": 844,
+          "height": 390,
+          "header": {
+            "mounts": 1,
+            "buttons": 1,
+            "inStrip": true,
+            "inGameHeader": false,
+            "button": {
+              "x": 760.625,
+              "y": 44,
+              "width": 71.375,
+              "height": 44,
+              "right": 832,
+              "bottom": 88
+            },
+            "strip": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 89,
+              "right": 844,
+              "bottom": 89
+            },
+            "primary": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 44,
+              "right": 844,
+              "bottom": 44
+            },
+            "overflow": false,
+            "links": [
+              "Home",
+              "Edu",
+              "Play",
+              "Apps"
+            ]
+          },
+          "dialog": {
+            "x": 212,
+            "y": 45.46875,
+            "right": 632,
+            "bottom": 344.515625,
+            "providers": 3
+          },
+          "nativeOpenClose": true
+        },
+        {
+          "route": "run",
+          "width": 1280,
+          "height": 720,
+          "header": {
+            "mounts": 1,
+            "buttons": 1,
+            "inStrip": true,
+            "inGameHeader": false,
+            "button": {
+              "x": 1193.625,
+              "y": 1.5,
+              "width": 71.375,
+              "height": 44,
+              "right": 1265,
+              "bottom": 45.5
+            },
+            "strip": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 48,
+              "right": 1280,
+              "bottom": 48
+            },
+            "primary": {
+              "x": 533.90625,
+              "y": 1.5,
+              "width": 212.1875,
+              "height": 44,
+              "right": 746.09375,
+              "bottom": 45.5
+            },
+            "overflow": false,
+            "links": [
+              "Home",
+              "Edu",
+              "Play",
+              "Apps"
+            ]
+          },
+          "dialog": {
+            "x": 430,
+            "y": 199.46875,
+            "right": 850,
+            "bottom": 520.515625,
+            "providers": 3
+          },
+          "nativeOpenClose": true
+        },
+        {
+          "route": "",
+          "width": 390,
+          "height": 700,
+          "header": {
+            "mounts": 1,
+            "buttons": 1,
+            "inStrip": false,
+            "inGameHeader": false,
+            "button": {
+              "x": 257,
+              "y": 4,
+              "width": 62.21875,
+              "height": 40,
+              "right": 319.21875,
+              "bottom": 44
+            },
+            "strip": null,
+            "primary": null,
+            "overflow": false,
+            "links": []
+          },
+          "dialog": {
+            "x": 19,
+            "y": 193.46875,
+            "right": 371,
+            "bottom": 506.515625,
+            "providers": 3
+          },
+          "nativeOpenClose": true
+        }
+      ],
+      "errors": [],
+      "failed": [],
+      "status": "PASS"
+    }
+  },
+  "authParity": {
+    "status": "PASS",
+    "scope": "Entire auth module outside mount placement remains identical: session/provider/auth redirect/profile/logout/events unchanged",
+    "preservedSHA256": "ba9c05e643576d5e0e8161ed2466704fe8cbfd0308573b4f1003addbeef5be4d",
+    "newSHA256": "f6de37c520cdee67b929b0860b6c268a324492e532cf5dcbe69c4a5009a1d0ee"
+  }
+}

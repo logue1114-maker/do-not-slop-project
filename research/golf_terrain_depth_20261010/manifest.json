@@ -1,0 +1,118 @@
+{
+  "kind": "Authorized existing-product rendering correction, not model trial",
+  "release": {
+    "at": "2026-10-09T18:03:15.346Z",
+    "version": "f7b0c728-6b59-4b7d-9f6f-45469a26e07b",
+    "rollback": "c9304036-342c-4910-a760-7ee98d08270a"
+  },
+  "guides": {
+    "site": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "git": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0",
+    "common": "c70854cd205ec14947ce28b5d01ce12819cc2f3ddf47b09db7e25efb068be042",
+    "implementation": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb",
+    "recipes": [
+      "DNS-18 applicable",
+      "DNS-14 read, no added command motion"
+    ]
+  },
+  "deliveries": [
+    {
+      "name": "gomgom-golf/client.mjs",
+      "sha256": "edd58b1b685c7583b4d28995fb6c9aa5ec4ba1bd1b1e5caa28ec15b0e630b482",
+      "before": "6bab054a2c155cd56917c2b0094ed20bbd42d48daeb275de6e314220d6e21b20",
+      "bytes": 11668
+    },
+    {
+      "name": "gomgom-golf/index.html",
+      "sha256": "f6d408d1a35e0e17061647db082c9746f43a4da5b0ee4563b7fdd78735776382",
+      "before": "c1f23af76cae3dc02d4d832908f4915d3ca709fa5819c18d2fd2892e532d0774",
+      "bytes": 3429
+    },
+    {
+      "name": "gomgom-golf/view.mjs",
+      "sha256": "8fdd030289332946544fa6454210f13c28095241e921196bac783341fa7b163d",
+      "before": "995940307111fc94c246f4f68b4a7a04d8d28bd60e635a6451ab12f1f8e93bcf",
+      "bytes": 12902
+    },
+    {
+      "name": "gomgom-golf/water.mjs",
+      "sha256": "0df24f629776227786e95d33b5ad39fafec5034096e53330930b57e8b28e182b",
+      "before": "ed0e435300a2197ba824165a6e2831301fe0a25252a2b5dacc953a95b5d5d8da",
+      "bytes": 1564
+    }
+  ],
+  "captures": [
+    {
+      "name": "before-valley-1280.png",
+      "bytes": 347454,
+      "width": 1280,
+      "height": 720,
+      "sha256": "3eee60568f154812614bc7f5bdec76e80b080ef242ea8934c178e47dbc33f4f8"
+    },
+    {
+      "name": "after-valley-1280.png",
+      "bytes": 291769,
+      "width": 1280,
+      "height": 720,
+      "sha256": "948d07414157d6205c6a53b6902769f6eb50f00742160ccde9caa067cd3dfbad"
+    },
+    {
+      "name": "before-desert-1280.png",
+      "bytes": 295939,
+      "width": 1280,
+      "height": 720,
+      "sha256": "822f2ff5290b9a8e1c392ac6eed1e5c170bb383f12b5b1b0ccc25e3ce378cdf2"
+    },
+    {
+      "name": "after-desert-1280.png",
+      "bytes": 280344,
+      "width": 1280,
+      "height": 720,
+      "sha256": "5c8d36a223a97b2a608864d18a5072b2f9f31ad83531ed93afdad5f2e2832d42"
+    },
+    {
+      "name": "before-ice-1280.png",
+      "bytes": 276847,
+      "width": 1280,
+      "height": 720,
+      "sha256": "b596dee68e85a8ba5cb36a2c94d64a34dddb12c862034aa852e786ff5688d0cb"
+    },
+    {
+      "name": "after-ice-1280.png",
+      "bytes": 272554,
+      "width": 1280,
+      "height": 720,
+      "sha256": "b3db87beac5ab05f33be651278b4acff1df8e4dc531bb551e38c974aea092892"
+    },
+    {
+      "name": "retained-depth-only-water-noise.png",
+      "bytes": 333994,
+      "width": 1280,
+      "height": 720,
+      "sha256": "4f721c972279f41f3383eb418a5ae5ce2c2cf2e45df2966968fca2a1ef20945e"
+    },
+    {
+      "name": "after-mobile-overview-390.png",
+      "bytes": 24946,
+      "width": 390,
+      "height": 700,
+      "sha256": "21913ee06108367631acbddbb60c198eec34f80ae59261f88f238c6b41903164"
+    },
+    {
+      "name": "after-native-follow-1280.png",
+      "bytes": 31441,
+      "width": 1280,
+      "height": 720,
+      "sha256": "9d58150637c2a93284b0f961c15b815e99a5a7b061c332e719d2bfeeb0c59b00"
+    },
+    {
+      "name": "matched-sheet.png",
+      "bytes": 121505,
+      "width": 1352,
+      "height": 524,
+      "sha256": "fba412c4ea26afa740e5419805973525af8240284b5f1c04c3a6537f54e4ec49"
+    }
+  ],
+  "rights": "Own product captures, neutral room-list mask. No private identities/credentials/production source/font binaries/third-party reference screenshots; no new license."
+}

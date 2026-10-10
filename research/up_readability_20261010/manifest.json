@@ -1,0 +1,79 @@
+{
+  "scope": "Actual own-product public Before/After captures; no reuse license or experimental effect",
+  "date": "2026-10-10",
+  "beforeVersion": "584da390-7513-47d5-9c92-44668fa5c042",
+  "afterVersion": "179d37d0-b2bc-4c76-9255-d456db1ee204",
+  "DPR": 1,
+  "files": [
+    {
+      "path": "captures/before-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 44027,
+      "sha256": "53e1c7132d24a4758f80de32dff3900db35a0a71d5addadde0c2178e80271ea5"
+    },
+    {
+      "path": "captures/before-ready-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 37564,
+      "sha256": "f7e0f48636d1bb7e61063b95b01c9a70f879601d673b13d8395632b413099f83"
+    },
+    {
+      "path": "captures/before-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 62078,
+      "sha256": "56be60a6edc9de18214d23748178fe481f3e9fbc364942d36be026e6c9440b8a"
+    },
+    {
+      "path": "captures/before-ready-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 43879,
+      "sha256": "1fda9313a04231e9be86ddfe0a3cbf1bb1cc017590054d3814f6a76957a651cb"
+    },
+    {
+      "path": "captures/after-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 43456,
+      "sha256": "7809e2bd2353310d634c0c81133a978ec64669f7c2d03e0883b2ef1a26ad74ae"
+    },
+    {
+      "path": "captures/after-ready-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 38502,
+      "sha256": "1f2be1e2a3c653271b36998a2aa9756371902656df83b270c3a5924addaef42e"
+    },
+    {
+      "path": "captures/after-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 62970,
+      "sha256": "d05782de47f7b08571a1ccc42e249e68bc709ba450f3062b5983d5757c78ba33"
+    },
+    {
+      "path": "captures/after-ready-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 44111,
+      "sha256": "dae38848c435624a48c3bcffae66cefa922b99709eef8b60345a5e2567f5b633"
+    },
+    {
+      "path": "captures/after-held-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 39111,
+      "sha256": "b480861213641e9a256794ccd7e938cc91bebce1199aefdf735083bd008ae436"
+    },
+    {
+      "path": "captures/after-focus-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 43941,
+      "sha256": "c99cd3d7a4514a35415cd4b61751bc98e151715379bb89254d9711695567081e"
+    }
+  ]
+}

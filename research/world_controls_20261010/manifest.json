@@ -1,0 +1,155 @@
+{
+  "at": "2026-10-09T22:36:49.742Z",
+  "beforeVersion": "386cc7c4-2511-4876-9491-47a538a2efcb",
+  "afterVersion": "b683d442-0b69-491e-ba92-1ebdc0fdb10e",
+  "DPR": 1,
+  "comparison": "Before/After local client projection of the SAME actual anonymous two-human room at lobby version2 and initial play version3, via ordinary reload of the browser-held real session. No manufactured fixture, game setter, response mock or clock manipulation. Changed glyphs/layout can move scroll-required regions. Invite codes are masked by the capture API, identically at their real location.",
+  "source": [
+    {
+      "name": "game.js",
+      "beforeSHA256": "f52fee5979189f33705908aaed263563534c2a2c2ca67854aa7ebd116e7f72b2",
+      "candidateSHA256": "282b7e0dcaeb5e6cb97b7dc814808ebd6880a1dfe6acd4f39a4665e5c9b9978e",
+      "bytes": 39247
+    },
+    {
+      "name": "gomgom-world.css",
+      "beforeSHA256": "a9d20e620b2472fa530a5cbbc4ebddbbe4a67ab2f8ee667e0ebbe46e7c7e5fd2",
+      "candidateSHA256": "b7cd82c1451ca709ce7451fa2d12fc6b80f5b755b8002245753f2bebc7eac35f",
+      "bytes": 35873
+    },
+    {
+      "name": "index.html",
+      "beforeSHA256": "3ced784009c2530f4bfbb86c1dd7a602bea9cbc918f225dd06550c4a182f87a3",
+      "candidateSHA256": "fdaea5c16a54b4e6712035b9919c7f50e5453e9d07fc963452c463cacfa4d0b4",
+      "bytes": 8017
+    }
+  ],
+  "files": [
+    {
+      "path": "captures/before-1280x720-title.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 634029,
+      "sha256": "ad4e23fb13a0135daca850fa9a63d253085f58f18b0f6a57623ff7e251f4b744"
+    },
+    {
+      "path": "captures/after-1280x720-title.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 630348,
+      "sha256": "840debd0f7f2906452e9dd030b99bab3c2fff2ba34e985aa16e5c50ee5b5a701"
+    },
+    {
+      "path": "captures/before-844x390-title.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 467603,
+      "sha256": "ccbea82154410834c3fe2e9ff12abfe20ff67d57ea6ad892fc6a95ccf0b394e2"
+    },
+    {
+      "path": "captures/after-844x390-title.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 467237,
+      "sha256": "7532ae6eccf8233d3da9efe0918eae6a43e3648754e75315fd2f6c6cd7fa12ee"
+    },
+    {
+      "path": "captures/before-390x844-title.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 235772,
+      "sha256": "64f0c7218cb3be8f0805849a9e19c9953ccb5948e49b25fe8a751dbdf6053d10"
+    },
+    {
+      "path": "captures/after-390x844-title.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 233442,
+      "sha256": "64274b4347ea9da24daf83968be30f090002c41b96df14699af34baae074787d"
+    },
+    {
+      "path": "captures/before-1280x720-lobby.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 82031,
+      "sha256": "f05772bca3d1ee2f615f41e56979529f429bc982b3556913404990638a25e043"
+    },
+    {
+      "path": "captures/after-1280x720-lobby.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 79028,
+      "sha256": "e7083dfe81c61990584f06814060e7cb531ec74639ac455b766d30de59bcfaf9"
+    },
+    {
+      "path": "captures/before-844x390-lobby.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 48680,
+      "sha256": "71b38d7a6b238b580ad4c2faaf6a00d1dde88df694e667308b31d3db7e3a1553"
+    },
+    {
+      "path": "captures/after-844x390-lobby.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 46499,
+      "sha256": "474247b0b794315b6a570a7e8e88eccd2a909129f71755287f9670aff5214cf0"
+    },
+    {
+      "path": "captures/before-390x844-lobby.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 41120,
+      "sha256": "33d7fe4d99a8f3f1bc1b4e2396bb4458a7397eb3a48344131ec17fd2c377a1d4"
+    },
+    {
+      "path": "captures/after-390x844-lobby.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 38527,
+      "sha256": "6e00b5a5faeaa1b664e8d7b343bc67534cb9cb98c6cdc49996989ea3e200cbcb"
+    },
+    {
+      "path": "captures/before-1280x720-play.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1134467,
+      "sha256": "497a5617df90141ff0e1ec8c210e6b299e5bd8efa1efe3741187ba39aac35e4f"
+    },
+    {
+      "path": "captures/after-1280x720-play.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1134106,
+      "sha256": "7efb22ff9ddfd8d1d74c1ffdcf2dc0c1dee6b92ce03e723c7f338874a67b7d65"
+    },
+    {
+      "path": "captures/before-844x390-play.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 420687,
+      "sha256": "03a68c3219c2579b943499f7bc295b1f948fe652df6ff2f9018f66081b0b4f6c"
+    },
+    {
+      "path": "captures/after-844x390-play.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 419120,
+      "sha256": "aa03480972a4b45d7a8d6a281af34f953a94ba77b5cbda560dc0f57774ee9fc2"
+    },
+    {
+      "path": "captures/before-390x844-play.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 241170,
+      "sha256": "c9b589e26f2a0cda01e4302bfb88f075eefbfff5d823c847b5f3861f7c1ef775"
+    },
+    {
+      "path": "captures/after-390x844-play.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 237623,
+      "sha256": "a40bec57ec7e4317bb4e3ff0dcf4000f248773ef164ce5ff016e3a030dbf64b4"
+    }
+  ]
+}

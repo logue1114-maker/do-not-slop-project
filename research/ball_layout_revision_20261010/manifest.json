@@ -1,0 +1,87 @@
+{
+  "kind": "authored existing game UI revision, not controlled model experiment",
+  "sameStatePair": "390x700 actual ready, DPR1 zoom100; identical canvas bytes; no clock pause/state setter",
+  "observationsSHA256": "19ce72ce18d25b2364f3c3dd8e296c0519b9dca76486e9835f775071da9716c4",
+  "cssSHA256": "927cdefa47a0c0370453f3c9c9ec0a80d4b18be39c94fa32973eecf146b0c602",
+  "presentationJsSHA256": "55a4493a466d42b0b34cc27d7e66ca8144b818d09d89ad8de3bcd564f36d40c8",
+  "captures": [
+    {
+      "name": "before-ready-390.png",
+      "bytes": 36739,
+      "sha256": "865aef26429a1cd7a432fde0a6baf624f1f87c77be7c74d88dcba8d87d07c56f",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "after-ready-390.png",
+      "bytes": 41852,
+      "sha256": "d3fe5c336114dce4ec2cd0d3c9ba117252160d3aa4a7d884b4c9738a13d11f29",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "paired-sheet.png",
+      "bytes": 128117,
+      "sha256": "1265bf895cae977188ae6ef3bda3f34fd95ac1ab9a23912b1acd30de2db41eb7",
+      "width": 892,
+      "height": 924
+    },
+    {
+      "name": "final-playing-390.png",
+      "bytes": 59061,
+      "sha256": "d65152f3bb35df812712f995f8aef485095aa85f78a6d617fab5acf4cef7f5db",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "final-playing-844.png",
+      "bytes": 53362,
+      "sha256": "b42dd78b7e569f6124b15b2079c252d77c6cce9b7c7a1cc54bdb9e933387b97e",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "final-result-390.png",
+      "bytes": 46495,
+      "sha256": "3166aef17e19ea89a3e58dbf4e0dd9c8935455f0e2c74bf97bf59b0dadc0976f",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "final-result-844.png",
+      "bytes": 52907,
+      "sha256": "ed563ab6c17aa5411cbf5dffb7e40dfc7ce41b068c9f080f03c79aaeb7d23b22",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "final-retry-390.png",
+      "bytes": 53433,
+      "sha256": "5292ba6b6576abecd4e301773d0a449c3fcff393af7b615a72de84bd4320fac9",
+      "width": 390,
+      "height": 700
+    },
+    {
+      "name": "desktop-playing-1280.png",
+      "bytes": 76532,
+      "sha256": "7ad7c6733dde2b386c7e8bea8aab9c1db1c599cbb79133a7a4407e9b52908118",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "retained-before-side-rail.png",
+      "bytes": 33076,
+      "sha256": "c7e874e1c9eec50e60c6a1e1c1885655e7e4b342441a79a3819c24ae6441173a",
+      "width": 844,
+      "height": 390
+    },
+    {
+      "name": "retained-narrow-result.png",
+      "bytes": 41418,
+      "sha256": "de310f377b489b067544bfed9d4e6e63baa3e513b94ce71a791f2620fbb51c04",
+      "width": 390,
+      "height": 700
+    }
+  ],
+  "rights": "User-authorized project-owned screenshots; no new license; no reference media, engine or font bytes"
+}

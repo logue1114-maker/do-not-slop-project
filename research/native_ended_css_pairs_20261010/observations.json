@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-09T23:20:11.595Z",
+  "guidance": {
+    "deployment": 48,
+    "materialSHA256": "6bb523382c2693995ddfbe656aaaeff447ffef64cd2c63f5a14c9fb15176aaa0",
+    "deploymentSHA256": "3278529682c17f6a44462b96fbad7dd7b8b7974132cdd3da51ad06c122988499",
+    "documents": [
+      {
+        "path": "research/release/AI_INSTRUCTIONS.md",
+        "sha256": "c70854cd205ec14947ce28b5d01ce12819cc2f3ddf47b09db7e25efb068be042"
+      },
+      {
+        "path": "research/game-details/original/research/game_ui_playground_v1/IMPLEMENTATION.md",
+        "sha256": "705fd142efea018ec217b766f742a9836556ddc67d5d1431e645dc632ac49efb"
+      },
+      {
+        "path": "research/release/IMPLEMENTATION_ROLES.md",
+        "sha256": "50b4fe1dfcbe05a2073b2e301169b87b459b8f1ec95d9e50b23be1d150ce894c"
+      }
+    ],
+    "application": "Keep real task/state/actions unchanged; separate CSS reconstruction, native runtime proof, deployment evidence and research approval. This supplement does not retrospectively attribute earlier fixes to version48."
+  },
+  "native": {
+    "status": "PASS",
+    "pageErrors": [],
+    "requestFailures": [],
+    "httpErrors": [],
+    "backgroundPostPaths": [
+      "/api/site-analytics/collect",
+      "/log/page-impression",
+      "/log/widget-ready",
+      "/api/classroom-games/run/start"
+    ],
+    "recordSubmission": false,
+    "stateInjection": false,
+    "forcedEnd": false
+  },
+  "visualInspection": {
+    "type": "Local direct review of all ten original PNGs; not external review or blinded usability research",
+    "rows": [
+      {
+        "game": "dodge",
+        "observation": "Same1368-point result. After keeps result inputs/save/retry inside short viewport and moves directional controls beside the board."
+      },
+      {
+        "game": "fishing",
+        "observation": "Same500-point/one-catch result. After compacts result and exposes side cast control; current combo DOM/canvas typography stay in both arms."
+      },
+      {
+        "game": "tower",
+        "observation": "Same200-point/two-floor result. After compacts result and separates HUD/pattern from side action; current metadata DOM stays in both arms."
+      },
+      {
+        "game": "puyo",
+        "observation": "Identical occupied board/next pixels at natural loss. After removes neon framing and gives commands separate large hit areas. Current relocated metadata is retained in both arms, not falsely projected as earlier placement. Temporary game-end toast is visible."
+      },
+      {
+        "game": "rhythm",
+        "observation": "SameD/0-point/MISS13 result and canvas pixels. After enlarges readable result/HUD. This top-of-page844x390 frame does not show every lower result action; prior native public-result scroll/retry evidence is separate."
+      }
+    ]
+  },
+  "limits": [
+    "Authored existing-product CSS reconstruction, not historical screenshots, full earlier-client execution or ordinary/guided AI causal experiment.",
+    "Current metadata DOM, game JavaScript, canvas ink and current shared header are intentionally identical in both arms; their earlier changes need separate original before/public receipts.",
+    "Actual naturally ended round is reached with normal keyboard/pointer actions before comparison; no injected score, forced end, model freeze or RAF override.",
+    "Both arms use ordinary reduced-motion preference. This is not a measured frame-rate or school-concurrency experiment.",
+    "Equal neutral masks hide ad areas, record/comment/room lists, not gameplay or result controls. No traffic was blocked; ordinary analytics/provider and run/start POSTs occurred.",
+    "No raw identities, private Site images, room codes, tokens, font binaries or production scripts are redistributed. Existing earlier weak/random-state captures remain retained, not promoted to exact-state proof.",
+    "Physical devices, signed-in persistence, full campaigns/modes, comprehensive accessibility, external visual approval and user design approval remain outside this evidence.",
+    "No production redeployment/restart/reset/purge, homepage commit or research PR automatic merge was performed."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-10",
+  "scope": "Native public anonymous entry/early play/natural short-height result, same viewport/DPR/named phase. Server-issued seeds, exact time/score/bullets differ; not pixel-identical state experiment. Ads/rank/comment-list neutral masked, requests not blocked. No injected state/forced loss/storage/OAuth/device/load/external review claim",
+  "beforeVersion": "9d1a33dd-fecb-40d7-8e55-576843a1b240",
+  "afterVersion": "72b35714-c90e-4ed3-ad97-e3906a27348e",
+  "DPR": 1,
+  "files": [
+    {
+      "path": "captures/before-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 27135,
+      "sha256": "249fb3b8870fddbb6892a969a90d82eb6cb9faf8d236b3597714ca487507bdac"
+    },
+    {
+      "path": "captures/after-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 27393,
+      "sha256": "469fbf9f50e24fe800557c878238fd183296467b46daed50300fd839f79632bc"
+    },
+    {
+      "path": "captures/before-play-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 30180,
+      "sha256": "927765f237bff1a9cb95578fd14276da05348a9cc723a9cacb74e8b209d3dc6c"
+    },
+    {
+      "path": "captures/after-play-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 30638,
+      "sha256": "03902988d53045d87b853fd84328699e4e7d7e6b095165968a46500fd3578c73"
+    },
+    {
+      "path": "captures/before-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 34858,
+      "sha256": "09bf1569ec6cfa993402743e4045d595c288f11c0bef5c6d1b96dc18b2b437d1"
+    },
+    {
+      "path": "captures/after-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 35681,
+      "sha256": "bae12d1785d7b1df80c2e956624c2ec174a4851420b8e3f4db67262e24bdf5cd"
+    },
+    {
+      "path": "captures/before-play-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 37049,
+      "sha256": "e26cfe63e67e46c67afb1ef644729ec1fe05fb5fcd463bb072f558cff45a7496"
+    },
+    {
+      "path": "captures/after-play-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 39742,
+      "sha256": "0c0baf06df06ba182daad9ec4a2611b5b0bd28340ddd1cf26d67fc253c1e3760"
+    },
+    {
+      "path": "captures/before-entry-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 17854,
+      "sha256": "76abb3fa396dfcff6e73e9ed31c0d4464ccc9ebe13821868a27fea13e3025482"
+    },
+    {
+      "path": "captures/after-entry-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 19234,
+      "sha256": "0d021608c9b7b99593ebfa576cce139527ae35487561bf3957febf0323248ec5"
+    },
+    {
+      "path": "captures/before-play-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 17489,
+      "sha256": "c4b93c0405eb400f391a9954032d4ea9e1bed6fa5dcd0447d2d7f4581615f860"
+    },
+    {
+      "path": "captures/after-play-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 22264,
+      "sha256": "884b9f686a62eb3531e2aa4ae916d46005d11ce51fd64de2bff04dc0f146d6de"
+    },
+    {
+      "path": "captures/before-result-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 23125,
+      "sha256": "a908246e0dbeaae7447a88ffa1d07086720850a92af637c962550d94b65eea6d"
+    },
+    {
+      "path": "captures/after-result-844.png",
+      "width": 844,
+      "height": 390,
+      "bytes": 28201,
+      "sha256": "6183fe77699dda4e21c1198d33c13508be2f6f0a3125d58b3011a307e3c786cd"
+    }
+  ]
+}

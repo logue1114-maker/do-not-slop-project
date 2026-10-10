@@ -1,0 +1,500 @@
+{
+  "at": "2026-10-09T22:10:33.699Z",
+  "guide": {
+    "deployment": 47,
+    "material": "5457b898470f556ef5cdef250cf4d7fa466069731d9ffd8b32edf378716ac4b7",
+    "recipes": [
+      "DNS-05",
+      "DNS-14",
+      "DNS-18"
+    ],
+    "commonSHA": "c70854cd205ec14947ce28b5d01ce12819cc2f3ddf47b09db7e25efb068be042",
+    "buttonGuideSHA": "f2f06b835d94782c858c2f468d63ef6c93d94836e57cb888d9bfaea6b381a585"
+  },
+  "before": {
+    "at": "2026-10-09T22:05:23.431Z",
+    "mode": "before",
+    "scope": "Ordinary anonymous native inputs, no game/save-state injection; local projects only HTML/CSS, real remaining assets",
+    "rows": [
+      {
+        "width": 844,
+        "height": 390,
+        "dpr": 1,
+        "captures": [
+          "844x390-title.png",
+          "844x390-guide.png",
+          "844x390-play.png",
+          "844x390-pause.png"
+        ],
+        "controls": {
+          "#sound": {
+            "x": 642.578125,
+            "y": 6,
+            "width": 72.15625,
+            "height": 30,
+            "font": 9,
+            "transform": "none"
+          },
+          "#pause": {
+            "x": 784.375,
+            "y": 6,
+            "width": 47.625,
+            "height": 30,
+            "font": 9,
+            "transform": "none"
+          },
+          "#mapButton": {
+            "x": 10,
+            "y": 336,
+            "width": 78,
+            "height": 42,
+            "font": 9,
+            "transform": "none"
+          },
+          "[data-key=\"left\"]": {
+            "x": 7,
+            "y": 175.5,
+            "width": 40,
+            "height": 50,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"right\"]": {
+            "x": 53,
+            "y": 175.5,
+            "width": 40,
+            "height": 50,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"down\"]": {
+            "x": 28,
+            "y": 231.5,
+            "width": 44,
+            "height": 44,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"action\"]": {
+            "x": 769,
+            "y": 171.59375,
+            "width": 66,
+            "height": 56,
+            "font": 10,
+            "transform": "none"
+          },
+          "[data-key=\"jump\"]": {
+            "x": 769,
+            "y": 239.59375,
+            "width": 66,
+            "height": 56,
+            "font": 13,
+            "transform": "none"
+          },
+          ".hud": {
+            "x": 110,
+            "y": 51,
+            "width": 634,
+            "height": 33,
+            "font": 8,
+            "transform": "none"
+          }
+        },
+        "overflow": false,
+        "releasedAway": true,
+        "continue": "CONTINUE"
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "http": [],
+    "pass": true
+  },
+  "after": {
+    "at": "2026-10-09T22:09:34.825Z",
+    "mode": "public",
+    "scope": "Ordinary anonymous native inputs, no game/save-state injection; local projects only HTML/CSS, real remaining assets",
+    "rows": [
+      {
+        "width": 1280,
+        "height": 720,
+        "dpr": 1,
+        "captures": [
+          "1280x720-title.png",
+          "1280x720-guide.png",
+          "1280x720-play.png",
+          "1280x720-pause.png"
+        ],
+        "guideEnd": true,
+        "hud": "LIVES 7\nCOINS 0\n작은 곰곰이\nTIME 416\nSCORE 0",
+        "controls": {
+          "#sound": {
+            "x": 975.265625,
+            "y": 7,
+            "width": 107.28125,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#pause": {
+            "x": 1183.3125,
+            "y": 7,
+            "width": 72.6875,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#mapButton": {
+            "x": 1029.765625,
+            "y": 66,
+            "width": 113.328125,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "[data-key=\"left\"]": {
+            "x": 136.90625,
+            "y": 643,
+            "width": 58,
+            "height": 54,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"right\"]": {
+            "x": 202.90625,
+            "y": 643,
+            "width": 58,
+            "height": 54,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"down\"]": {
+            "x": 268.90625,
+            "y": 643,
+            "width": 58,
+            "height": 54,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"action\"]": {
+            "x": 959.09375,
+            "y": 643,
+            "width": 88,
+            "height": 54,
+            "font": 14,
+            "transform": "none"
+          },
+          "[data-key=\"jump\"]": {
+            "x": 1055.09375,
+            "y": 643,
+            "width": 88,
+            "height": 54,
+            "font": 16,
+            "transform": "none"
+          },
+          ".hud": {
+            "x": 151.90625,
+            "y": 133,
+            "width": 976.1875,
+            "height": 40,
+            "font": 14,
+            "transform": "none"
+          }
+        },
+        "overflow": false,
+        "releasedAway": true,
+        "continue": "CONTINUE"
+      },
+      {
+        "width": 1280,
+        "height": 600,
+        "dpr": 1,
+        "captures": [
+          "1280x600-title.png",
+          "1280x600-guide.png",
+          "1280x600-play.png",
+          "1280x600-pause.png"
+        ],
+        "guideEnd": true,
+        "hud": "LIVES 7\nCOINS 0\n작은 곰곰이\nTIME 416\nSCORE 0",
+        "controls": {
+          "#sound": {
+            "x": 975.265625,
+            "y": 7,
+            "width": 107.28125,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#pause": {
+            "x": 1183.3125,
+            "y": 7,
+            "width": 72.6875,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#mapButton": {
+            "x": 912.765625,
+            "y": 66,
+            "width": 113.328125,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "[data-key=\"left\"]": {
+            "x": 253.90625,
+            "y": 523,
+            "width": 58,
+            "height": 54,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"right\"]": {
+            "x": 319.90625,
+            "y": 523,
+            "width": 58,
+            "height": 54,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"down\"]": {
+            "x": 385.90625,
+            "y": 523,
+            "width": 58,
+            "height": 54,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"action\"]": {
+            "x": 842.09375,
+            "y": 523,
+            "width": 88,
+            "height": 54,
+            "font": 14,
+            "transform": "none"
+          },
+          "[data-key=\"jump\"]": {
+            "x": 938.09375,
+            "y": 523,
+            "width": 88,
+            "height": 54,
+            "font": 16,
+            "transform": "none"
+          },
+          ".hud": {
+            "x": 268.90625,
+            "y": 133,
+            "width": 742.1875,
+            "height": 40,
+            "font": 14,
+            "transform": "none"
+          }
+        },
+        "overflow": false,
+        "releasedAway": true,
+        "continue": "CONTINUE"
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "dpr": 1,
+        "captures": [
+          "844x390-title.png",
+          "844x390-guide.png",
+          "844x390-play.png",
+          "844x390-pause.png"
+        ],
+        "guideEnd": true,
+        "hud": "LIVES\n7\nCOINS\n0\n작은 곰곰이\nTIME\n416\nSCORE\n0",
+        "controls": {
+          "#sound": {
+            "x": 563.265625,
+            "y": 3,
+            "width": 103.28125,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#pause": {
+            "x": 763.3125,
+            "y": 3,
+            "width": 68.6875,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#mapButton": {
+            "x": 6,
+            "y": 330,
+            "width": 92,
+            "height": 48,
+            "font": 12,
+            "transform": "none"
+          },
+          "[data-key=\"left\"]": {
+            "x": 6,
+            "y": 175.5,
+            "width": 44,
+            "height": 50,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"right\"]": {
+            "x": 54,
+            "y": 175.5,
+            "width": 44,
+            "height": 50,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"down\"]": {
+            "x": 28,
+            "y": 229.5,
+            "width": 48,
+            "height": 44,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"action\"]": {
+            "x": 756,
+            "y": 171.59375,
+            "width": 80,
+            "height": 56,
+            "font": 14,
+            "transform": "none"
+          },
+          "[data-key=\"jump\"]": {
+            "x": 756,
+            "y": 239.59375,
+            "width": 80,
+            "height": 56,
+            "font": 14,
+            "transform": "none"
+          },
+          ".hud": {
+            "x": 114,
+            "y": 59,
+            "width": 620,
+            "height": 48.484375,
+            "font": 14,
+            "transform": "none"
+          }
+        },
+        "overflow": false,
+        "releasedAway": true,
+        "continue": "CONTINUE"
+      },
+      {
+        "width": 667,
+        "height": 375,
+        "dpr": 1,
+        "captures": [
+          "667x375-title.png",
+          "667x375-guide.png",
+          "667x375-play.png",
+          "667x375-pause.png"
+        ],
+        "guideEnd": true,
+        "hud": "LIVES\n7\nCOINS\n0\n작은 곰곰이\nTIME\n416\nSCORE\n0",
+        "controls": {
+          "#sound": {
+            "x": 386.265625,
+            "y": 3,
+            "width": 103.28125,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#pause": {
+            "x": 586.3125,
+            "y": 3,
+            "width": 68.6875,
+            "height": 44,
+            "font": 14,
+            "transform": "none"
+          },
+          "#mapButton": {
+            "x": 6,
+            "y": 315,
+            "width": 92,
+            "height": 48,
+            "font": 12,
+            "transform": "none"
+          },
+          "[data-key=\"left\"]": {
+            "x": 6,
+            "y": 168.75,
+            "width": 44,
+            "height": 50,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"right\"]": {
+            "x": 54,
+            "y": 168.75,
+            "width": 44,
+            "height": 50,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"down\"]": {
+            "x": 28,
+            "y": 222.75,
+            "width": 48,
+            "height": 44,
+            "font": 19,
+            "transform": "none"
+          },
+          "[data-key=\"action\"]": {
+            "x": 579,
+            "y": 165,
+            "width": 80,
+            "height": 56,
+            "font": 14,
+            "transform": "none"
+          },
+          "[data-key=\"jump\"]": {
+            "x": 579,
+            "y": 233,
+            "width": 80,
+            "height": 56,
+            "font": 14,
+            "transform": "none"
+          },
+          ".hud": {
+            "x": 114,
+            "y": 59,
+            "width": 443,
+            "height": 48.484375,
+            "font": 14,
+            "transform": "none"
+          }
+        },
+        "overflow": false,
+        "releasedAway": true,
+        "continue": "CONTINUE"
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "captures": [
+          "390x844-rotate.png"
+        ]
+      }
+    ],
+    "errors": [],
+    "failed": [],
+    "http": [],
+    "pass": true
+  },
+  "limits": [
+    "native phone/touch not tested",
+    "full campaign/persistence/OAuth not asserted",
+    "no school-load/accessibility certification/human usability study/external visual approval",
+    "first networkidle timeouts retained privately; later real readiness succeeded",
+    "early blank loading capture excluded from fair pair",
+    "pending Oct4 boot/title-position/camera sources not shipped"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "at": "2026-10-10T00:49:58.042Z",
+  "scope": "Ball presentation only; three static assets",
+  "providerVersion": "1a24db71-d3e9-4052-9054-28c3b7c62b14",
+  "rollback": "b683d442-0b69-491e-ba92-1ebdc0fdb10e",
+  "mcpVersion": 49,
+  "mcpMaterial": "a4f12ec75587e14d18b1b9d76295d3c8bde391461f8ff14ae13999c784472bdf",
+  "companionGit": "8f853cf89e0045c2dceb1381000bee9c1b6a0da0",
+  "pairs": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 700
+      },
+      "images": [
+        "before-result-390x700.png",
+        "after-result-390x700.png"
+      ],
+      "phase": "result",
+      "score": "97점",
+      "summary": "게임 오버 · 경고선에 닿았습니다. · 합체 5회 · 최고 연속 2회",
+      "canvasSHA256": "4f353728867f338c721fb308ff397b6f03a2834dbac0606916bf0bd4fb211c74",
+      "backing": [
+        720,
+        880
+      ],
+      "scrollY": 0,
+      "classification": "Same actual naturally ended public instance, unchanged engine/canvas/score; CSS+presentation observer added, not an old full-client replay. Both matched result frames scrollY0/DPR1/reduced-motion. Identical visibility-only leaderboard privacy mask preserves layout in both arms.",
+      "nativeDrops": 14
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "images": [
+        "before-result-844x390.png",
+        "after-result-844x390.png"
+      ],
+      "phase": "result",
+      "score": "50점",
+      "summary": "게임 오버 · 경고선에 닿았습니다. · 합체 1회 · 최고 연속 1회",
+      "canvasSHA256": "22df99c01eee505c6f25ce866fa5e9be3e9fe30dbc14e3761eb852e571ae8908",
+      "backing": [
+        720,
+        880
+      ],
+      "scrollY": 0,
+      "classification": "Same actual naturally ended public instance, unchanged engine/canvas/score; CSS+presentation observer added, not an old full-client replay. Both matched result frames scrollY0/DPR1/reduced-motion. Identical visibility-only leaderboard privacy mask preserves layout in both arms.",
+      "nativeDrops": 10
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "images": [
+        "before-result-1280x900.png",
+        "after-result-1280x900.png"
+      ],
+      "phase": "result",
+      "score": "0점",
+      "summary": "게임 오버 · 경고선에 닿았습니다. · 합체 0회 · 최고 연속 0회",
+      "canvasSHA256": "413389af292f9e60415204dd1a214fb8a6525ee2c86e8e78b6ba55aa6dfaa4ad",
+      "backing": [
+        720,
+        880
+      ],
+      "scrollY": 0,
+      "classification": "Same actual naturally ended public instance, unchanged engine/canvas/score; CSS+presentation observer added, not an old full-client replay. Both matched result frames scrollY0/DPR1/reduced-motion. Identical visibility-only leaderboard privacy mask preserves layout in both arms.",
+      "nativeDrops": 8
+    }
+  ],
+  "files": [
+    {
+      "path": "before-result-390x700.png",
+      "sha256": "a0d359100efb823e961567f375050df517a39560ddd7ec396f161ce522170329",
+      "bytes": 42352,
+      "width": 390,
+      "height": 700
+    },
+    {
+      "path": "after-result-390x700.png",
+      "sha256": "31e467fe9397b1ef124ca9fbb2b899862294a8835424ba1b6cb93db4d4c80b2a",
+      "bytes": 32003,
+      "width": 390,
+      "height": 700
+    },
+    {
+      "path": "before-result-844x390.png",
+      "sha256": "c24782fefa307177f658424fc4ffb3d4fcca6ad28dbda8b6f88b2de2789c8207",
+      "bytes": 38044,
+      "width": 844,
+      "height": 390
+    },
+    {
+      "path": "after-result-844x390.png",
+      "sha256": "4455231980b5d0ea55ce1e254ee40ce58e49a6e19fc9aafbe2192a25fc1aff52",
+      "bytes": 25837,
+      "width": 844,
+      "height": 390
+    },
+    {
+      "path": "before-result-1280x900.png",
+      "sha256": "bd352e2cf8988c061b63d40056a6f107b99c128c4b52c43924f94ea524596971",
+      "bytes": 70718,
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "path": "after-result-1280x900.png",
+      "sha256": "2f4354d2e8fdd1fe1df261ebf6d9a09cfda78f8d08b36f30d3d89ea7ac058033",
+      "bytes": 45911,
+      "width": 1280,
+      "height": 900
+    }
+  ]
+}

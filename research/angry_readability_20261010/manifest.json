@@ -1,0 +1,79 @@
+{
+  "scope": "Actual public own-product captures. Ad and rank regions neutral-masked identically; no experimental benefit or reuse-license claim",
+  "date": "2026-10-10",
+  "beforeVersion": "179d37d0-b2bc-4c76-9255-d456db1ee204",
+  "afterVersion": "21185ce9-6205-4c69-8181-e9938b728c61",
+  "DPR": 1,
+  "files": [
+    {
+      "path": "captures/before-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 30639,
+      "sha256": "b311d087df06dd6bb89d22bfa2a847c9d2fad13791d418a24e7ee7a39be11537"
+    },
+    {
+      "path": "captures/before-ready-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 33129,
+      "sha256": "42a11a881a6c3c880120c0c20baf1cbf65bfd11aa7ea76c18f20892af477f731"
+    },
+    {
+      "path": "captures/before-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 52151,
+      "sha256": "80fa44f4bcd71523bea4778567f745eea0cee4a4b64d8f9b7626727426cb5856"
+    },
+    {
+      "path": "captures/before-ready-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 54027,
+      "sha256": "a8e6699b15d8e00bd6961ddc4ef832ecc3ec7908d635972da1c739fc01a8dfc1"
+    },
+    {
+      "path": "captures/after-entry-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 32228,
+      "sha256": "19e813fcc8a7b093dba0e6a7f5463049f0ed788b04b716603ae88c2f317d152c"
+    },
+    {
+      "path": "captures/after-ready-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 34470,
+      "sha256": "a9aabccc40cad9e1c1754fe04c37cf905ffdd878f4e90083fdb936fb7458fb8e"
+    },
+    {
+      "path": "captures/after-entry-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 52636,
+      "sha256": "a2073832d9456dc8e24f118459755dc2de482325ccea4b041e8d4518d6279692"
+    },
+    {
+      "path": "captures/after-ready-1280.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 53524,
+      "sha256": "0fc9dd10ae4df53f0a79ecc5bf3a2c9f741acae2a7b9cd65126e3b39bb059501"
+    },
+    {
+      "path": "captures/after-natural-result-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 26002,
+      "sha256": "12280e3bb0209d1f53cf17ab89360e88e7ccd0aa9484d48ecec177dc38803de1"
+    },
+    {
+      "path": "captures/after-natural-result-held-390.png",
+      "width": 390,
+      "height": 844,
+      "bytes": 25985,
+      "sha256": "fd2ba6fe019befa8cde4135de5d3ea379c0e9404157f1c3db596504eb7b10670"
+    }
+  ]
+}
